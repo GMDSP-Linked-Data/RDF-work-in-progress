@@ -1,0 +1,169 @@
+@prefix geo: <http://www.w3.org/2003/01/geo/wgs84_pos#> .
+@prefix ns1: <http://www.w3.org/2003/01/geo/wgs84_pos#lat//> .
+@prefix ns2: <http://www.w3.org/2006/vcard/ns#> .
+@prefix os: <http://data.ordnancesurvey.co.uk/ontology/admingeo/> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix xml: <http://www.w3.org/XML/1998/namespace> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+[] rdfs:label "Aquarius allotments" ;
+    ns1:long "53.4647696,-2.2431477" ;
+    ns2:hasstreetaddress "Crediton Close, Hulme, M15 6EW" .
+
+[] rdfs:label "Hough End allotments" ;
+    ns1:long "53.43952832706292,-2.2509098052978515" ;
+    ns2:hasstreetaddress "Mauldeth Road, Chorlton, M21 7TH" .
+
+[] rdfs:label "Ossory Street allotments" ;
+    ns1:long "53.4554735,-2.2305952" ;
+    ns2:hasstreetaddress "Great Western Street, Moss Side, M14 4BX" .
+
+[] rdfs:label "Gorton allotments" ;
+    ns1:long "53.4628011,-2.1641816" ;
+    ns2:hasstreetaddress "Alston Road, Gorton, M18 8WU" .
+
+[] rdfs:label "Cleveleys Avenue allotments" ;
+    ns1:long "53.43740651019149,-2.271294593811035" ;
+    ns2:hasstreetaddress "Cleveleys Avenue, Chorlton, M21 8TS" .
+
+[] rdfs:label "Caxton Road allotments" ;
+    ns1:long "53.4430267,-2.2293986" ;
+    ns2:hasstreetaddress "Caxton Road, Fallowfield, M14 6EE" .
+
+[] rdfs:label "Southern allotments" ;
+    ns1:long "53.433980702715104,-2.254171371459961" ;
+    ns2:hasstreetaddress "Wintermans Road, Chorlton, M21 7GE" .
+
+[] rdfs:label "Brailsford Road allotments" ;
+    ns1:long "53.4412455,-2.2106915" ;
+    ns2:hasstreetaddress "Brailsford Road, Fallowfield, M14 6PT" .
+
+[] rdfs:label "Baguley allotments" ;
+    ns1:long "53.3972582,-2.2870065" ;
+    ns2:hasstreetaddress "Leaton Avenue,  Wythenshawe, M23 1HL" .
+
+[] rdfs:label "Minehead Avenue allotments" ;
+    ns1:long "53.4332539,-2.2441416" ;
+    ns2:hasstreetaddress "Minehead Avenue, Withington, M20 1FW" .
+
+[] rdfs:label "Scotland Hall Road allotments" ;
+    ns1:long "53.4970011,-2.1834127" ;
+    ns2:hasstreetaddress "Ascot Road, Newton Heath, M40 2RD" .
+
+[] rdfs:label "Sharston allotments" ;
+    ns1:long "53.3899088,-2.2538322" ;
+    ns2:hasstreetaddress "Stancliffe Road, Wythenshawe, M22 4PS" .
+
+[] rdfs:label "Northen Moor allotments" ;
+    ns1:long "53.4140404,-2.279206" ;
+    ns2:hasstreetaddress "Stortford Drive, Wythenshawe, M23 0FX" .
+
+[] rdfs:label "Foxfield Road allotments" ;
+    ns1:long "53.3819072,-2.286362" ;
+    ns2:hasstreetaddress "Foxfield Road, Newall Green, M23 2TE" .
+
+[] rdfs:label "Acorn Close allotments" ;
+    ns1:long "53.4399406,-2.201186" ;
+    ns2:hasstreetaddress "Acorn Close, Levenshulme, M19 2HS" .
+
+[] rdfs:label "Brighton Grove allotments" ;
+    ns1:long "53.4497292,-2.2165607" ;
+    ns2:hasstreetaddress "Brighton Grove, Rusholme, M14 5JR" .
+
+[] rdfs:label "Cheetham and Crumpsall allotments" ;
+    ns1:long "53.50892738712311,-2.2264480590820312" ;
+    ns2:hasstreetaddress "Hazelbottom Road, Cheetham, M8 0GQ" .
+
+[] rdfs:label "Bluestone Road allotments" ;
+    ns1:long "53.5112132,-2.1938788" ;
+    ns2:hasstreetaddress "Bluestone Road, Moston, M40 9JD" .
+
+[] rdfs:label "Hazeldene Road allotments" ;
+    ns1:long "53.5168864,-2.1627772" ;
+    ns2:hasstreetaddress "Hazeldene Road, Moston, M40 3GL" .
+
+[] rdfs:label "Pleasant Street allotments" ;
+    ns1:long "53.5317974,-2.2289885" ;
+    ns2:hasstreetaddress "Pleasant Street, Harpurhey, M9 8WJ" .
+
+[] rdfs:label "Crowden Road allotments" ;
+    ns1:long "53.5207205,-2.1840432" ;
+    ns2:hasstreetaddress "Crowden Road, Moston, M40 5RW" .
+
+[] rdfs:label "Tonbridge Road allotments" ;
+    ns1:long "53.4392303,-2.1846839" ;
+    ns2:hasstreetaddress "Tonbridge Road, Levenshulme, M19 2TQ" .
+
+[] rdfs:label "Cypress Street allotments" ;
+    ns1:long "53.50985,-2.2181944" ;
+    ns2:hasstreetaddress "Cypress Street, Harpurhey, M9 5XZ" .
+
+[] rdfs:label "Ryder Brow allotments" ;
+    ns1:long "53.4589654,-2.1689259" ;
+    ns2:hasstreetaddress "Far Lane, Gorton, M18 7FF" .
+
+[] rdfs:label "Levenshulme allotments" ;
+    ns1:long "53.4428404,-2.1809359" ;
+    ns2:hasstreetaddress "Highfield Road, Levenshulme, M19 3JX" .
+
+[] rdfs:label "Broadhurst allotments" ;
+    ns1:long "53.5088442,-2.185786" ;
+    ns2:hasstreetaddress "Joyce Street, Moston, M40 5HH" .
+
+[] rdfs:label "Caythorpe Street allotments" ;
+    ns1:long "53.4555694,-2.2411825" ;
+    ns2:hasstreetaddress "Caythorpe Street, Moss Side, M14 4UD" .
+
+[] rdfs:label "Philips Park allotments" ;
+    ns1:long "53.48689648050751,-2.1898841857910156" ;
+    ns2:hasstreetaddress "Fairclough Street, Clayton, M11 4TN" .
+
+[] rdfs:label "Ivy Green allotments" ;
+    ns1:long "53.4380887,-2.2851442" ;
+    ns2:hasstreetaddress "Edwards Avenue, Chorlton, M21 9ET" .
+
+[] rdfs:label "Alexandra Road South allotments" ;
+    ns1:long "53.4451486,-2.2513914" ;
+    ns2:hasstreetaddress "Alexandra Road South, Whally Range, M16 8GH" .
+
+[] rdfs:label "Bradley Fold allotments" ;
+    ns1:long "53.41252477903943,-2.2376060485839843" ;
+    ns2:hasstreetaddress "Ford Lane, Didsbury, M20 2RU" .
+
+[] rdfs:label "Bethnal Drive allotments" ;
+    ns1:long "53.4424745,-2.2360348" ;
+    ns2:hasstreetaddress "Shawfield Road, Fallowfield, M14 7ED" .
+
+[] rdfs:label "Scott Avenue allotments" ;
+    ns1:long "53.44850014026593,-2.277388572692871" ;
+    ns2:hasstreetaddress "Scott Avenue, Chorlton, M21 9QW" .
+
+[] rdfs:label "Edge Lane allotments" ;
+    ns1:long "53.4766988,-2.1630902" ;
+    ns2:hasstreetaddress "Edge Lane, Bradford, M43 6BA" .
+
+[] rdfs:label "Brooklands allotments" ;
+    ns1:long "53.4081062,-2.3055821" ;
+    ns2:hasstreetaddress "Sparkford Avenue, Wythenshawe, M23 9EL" .
+
+[] rdfs:label "Wellington Road allotments" ;
+    ns1:long "53.44147110259927,-2.22597599029541" ;
+    ns2:hasstreetaddress "Wellington Road, Fallowfield, M14 6FA" .
+
+[] rdfs:label "Frenchbarn Lane allotments" ;
+    ns1:long "53.524824392268236,-2.2191953659057617" ;
+    ns2:hasstreetaddress "Frenchbarn Lane, Blackley, M9 6PB" .
+
+[] rdfs:label "Woodhouse Park allotments" ;
+    ns1:long "53.3746891,-2.2788882" ;
+    ns2:hasstreetaddress "Maisemore Road, Wythenshawe, M22 1SA" .
+
+[] rdfs:label "Abbey Hey allotments" ;
+    ns1:long "53.4694780942634,-2.1531808376312256" ;
+    ns2:hasstreetaddress "Ackroyd Avenue, Abbey Hey, M18 8TL" .
+
+[] rdfs:label "Abbotsford Road allotments" ;
+    ns1:long "53.4463681,-2.2731849" ;
+    ns2:hasstreetaddress "Abbotsford Road, Whally Range, M21 0RJ" .
+
