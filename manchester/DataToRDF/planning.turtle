@@ -1,7 +1,6 @@
 @prefix dissision: <http://purl.org/cerif/frapo/> .
 @prefix geo: <http://www.w3.org/2003/01/geo/wgs84_pos#> .
 @prefix os: <http://data.ordnancesurvey.co.uk/ontology/admingeo/> .
-@prefix pay: <http://reference.data.gov.uk/def/payment#> .
 @prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
 @prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
 @prefix sub: <http://purl.org/dc/terms/> .
@@ -9,321 +8,2581 @@
 @prefix xml: <http://www.w3.org/XML/1998/namespace> .
 @prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
 
-<https://gmdsp-admin.publishmydata.com/id/Planning/1903595522> a pay:payment .
-
-<https://gmdsp-admin.publishmydata.com/id/Planning/1903595529> a pay:payment .
-
-<https://gmdsp-admin.publishmydata.com/id/Planning/1903595530> a pay:payment .
-
-<https://gmdsp-admin.publishmydata.com/id/Planning/1903595531> a pay:payment .
-
-<https://gmdsp-admin.publishmydata.com/id/Planning/1903595678> a pay:payment .
-
-<https://gmdsp-admin.publishmydata.com/id/Planning/1903595688> a pay:payment .
-
-<https://gmdsp-admin.publishmydata.com/id/Planning/1903595690> a pay:payment .
-
-<https://gmdsp-admin.publishmydata.com/id/Planning/1903595692> a pay:payment .
-
-<https://gmdsp-admin.publishmydata.com/id/Planning/1903595694> a pay:payment .
-
-<https://gmdsp-admin.publishmydata.com/id/Planning/1903595698> a pay:payment .
-
-<https://gmdsp-admin.publishmydata.com/id/Planning/1903595699> a pay:payment .
-
-<https://gmdsp-admin.publishmydata.com/id/Planning/1903595700> a pay:payment .
-
-<https://gmdsp-admin.publishmydata.com/id/Planning/1903595741> a pay:payment .
-
-<https://gmdsp-admin.publishmydata.com/id/Planning/1903596020> a pay:payment .
-
-<https://gmdsp-admin.publishmydata.com/id/Planning/1903596031> a pay:payment .
-
-<https://gmdsp-admin.publishmydata.com/id/Planning/1903600638> a pay:payment .
-
-<https://gmdsp-admin.publishmydata.com/id/Planning/1903600664> a pay:payment .
-
-<https://gmdsp-admin.publishmydata.com/id/Planning/1903600919> a pay:payment .
-
-<https://gmdsp-admin.publishmydata.com/id/Planning/1903600920> a pay:payment .
-
-<https://gmdsp-admin.publishmydata.com/id/Planning/1903600921> a pay:payment .
-
-<https://gmdsp-admin.publishmydata.com/id/Planning/1903600922> a pay:payment .
-
-<https://gmdsp-admin.publishmydata.com/id/Planning/1903600925> a pay:payment .
-
-<https://gmdsp-admin.publishmydata.com/id/Planning/1903600927> a pay:payment .
-
-<https://gmdsp-admin.publishmydata.com/id/Planning/1903600928> a pay:payment .
-
-<https://gmdsp-admin.publishmydata.com/id/Planning/1903600929> a pay:payment .
-
-<https://gmdsp-admin.publishmydata.com/id/Planning/1903600930> a pay:payment .
-
-<https://gmdsp-admin.publishmydata.com/id/Planning/1903600931> a pay:payment .
-
-<https://gmdsp-admin.publishmydata.com/id/Planning/1903600933> a pay:payment .
-
-<https://gmdsp-admin.publishmydata.com/id/Planning/1903600934> a pay:payment .
-
-<https://gmdsp-admin.publishmydata.com/id/Planning/1903600936> a pay:payment .
-
-<https://gmdsp-admin.publishmydata.com/id/Planning/1903600937> a pay:payment .
-
-<https://gmdsp-admin.publishmydata.com/id/Planning/1903600938> a pay:payment .
-
-<https://gmdsp-admin.publishmydata.com/id/Planning/1903600939> a pay:payment .
-
-<https://gmdsp-admin.publishmydata.com/id/Planning/1903600940> a pay:payment .
-
-<https://gmdsp-admin.publishmydata.com/id/Planning/1903600941> a pay:payment .
-
-<https://gmdsp-admin.publishmydata.com/id/Planning/1903600946> a pay:payment .
-
-<https://gmdsp-admin.publishmydata.com/id/Planning/1903600947> a pay:payment .
-
-<https://gmdsp-admin.publishmydata.com/id/Planning/1903600948> a pay:payment .
-
-<https://gmdsp-admin.publishmydata.com/id/Planning/1903601192> a pay:payment .
-
-<https://gmdsp-admin.publishmydata.com/id/Planning/1903601193> a pay:payment .
-
-<https://gmdsp-admin.publishmydata.com/id/Planning/5100627664> a pay:payment .
-
-<https://gmdsp-admin.publishmydata.com/id/Planning/5100627665> a pay:payment .
-
-<https://gmdsp-admin.publishmydata.com/id/Planning/5100627667> a pay:payment .
-
-<https://gmdsp-admin.publishmydata.com/id/Planning/5100627669> a pay:payment .
-
-<https://gmdsp-admin.publishmydata.com/id/Planning/5100627670> a pay:payment .
-
-<https://gmdsp-admin.publishmydata.com/id/Planning/5100627671> a pay:payment .
-
-<https://gmdsp-admin.publishmydata.com/id/Planning/5100627674> a pay:payment .
-
-<https://gmdsp-admin.publishmydata.com/id/Planning/5100627677> a pay:payment .
-
-<https://gmdsp-admin.publishmydata.com/id/Planning/5100627678> a pay:payment .
-
-<https://gmdsp-admin.publishmydata.com/id/Planning/5100627681> a pay:payment .
-
-<https://gmdsp-admin.publishmydata.com/id/Planning/5100627682> a pay:payment .
-
-<https://gmdsp-admin.publishmydata.com/id/Planning/5100627685> a pay:payment .
-
-<https://gmdsp-admin.publishmydata.com/id/Planning/5100627690> a pay:payment .
-
-<https://gmdsp-admin.publishmydata.com/id/Planning/5100627691> a pay:payment .
-
-<https://gmdsp-admin.publishmydata.com/id/Planning/5100627697> a pay:payment .
-
-<https://gmdsp-admin.publishmydata.com/id/Planning/5100627706> a pay:payment .
-
-<https://gmdsp-admin.publishmydata.com/id/Planning/5100627717> a pay:payment .
-
-<https://gmdsp-admin.publishmydata.com/id/Planning/5100627718> a pay:payment .
-
-<https://gmdsp-admin.publishmydata.com/id/Planning/5100627783> a pay:payment .
-
-<https://gmdsp-admin.publishmydata.com/id/Planning/5100627784> a pay:payment .
-
-<https://gmdsp-admin.publishmydata.com/id/Planning/5100627785> a pay:payment .
-
-<https://gmdsp-admin.publishmydata.com/id/Planning/5100627786> a pay:payment .
-
-<https://gmdsp-admin.publishmydata.com/id/Planning/5100627794> a pay:payment .
-
-<https://gmdsp-admin.publishmydata.com/id/Planning/5100627800> a pay:payment .
-
-<https://gmdsp-admin.publishmydata.com/id/Planning/5100627802> a pay:payment .
-
-<https://gmdsp-admin.publishmydata.com/id/Planning/5100627803> a pay:payment .
-
-<https://gmdsp-admin.publishmydata.com/id/Planning/5100627805> a pay:payment .
-
-<https://gmdsp-admin.publishmydata.com/id/Planning/5100627808> a pay:payment .
-
-<https://gmdsp-admin.publishmydata.com/id/Planning/5100627810> a pay:payment .
-
-<https://gmdsp-admin.publishmydata.com/id/Planning/5100627813> a pay:payment .
-
-<https://gmdsp-admin.publishmydata.com/id/Planning/5100627814> a pay:payment .
-
-<https://gmdsp-admin.publishmydata.com/id/Planning/5100627828> a pay:payment .
-
-<https://gmdsp-admin.publishmydata.com/id/Planning/5100627829> a pay:payment .
-
-<https://gmdsp-admin.publishmydata.com/id/Planning/5100627832> a pay:payment .
-
-<https://gmdsp-admin.publishmydata.com/id/Planning/5100627835> a pay:payment .
-
-<https://gmdsp-admin.publishmydata.com/id/Planning/5100627841> a pay:payment .
-
-<https://gmdsp-admin.publishmydata.com/id/Planning/5100627843> a pay:payment .
-
-<https://gmdsp-admin.publishmydata.com/id/Planning/5100627845> a pay:payment .
-
-<https://gmdsp-admin.publishmydata.com/id/Planning/5100627849> a pay:payment .
-
-<https://gmdsp-admin.publishmydata.com/id/Planning/5100627854> a pay:payment .
-
-<https://gmdsp-admin.publishmydata.com/id/Planning/5100627868> a pay:payment .
-
-<https://gmdsp-admin.publishmydata.com/id/Planning/5100627872> a pay:payment .
-
-<https://gmdsp-admin.publishmydata.com/id/Planning/5100627878> a pay:payment .
-
-<https://gmdsp-admin.publishmydata.com/id/Planning/5100627882> a pay:payment .
-
-<https://gmdsp-admin.publishmydata.com/id/Planning/5100627887> a pay:payment .
-
-<https://gmdsp-admin.publishmydata.com/id/Planning/5100627888> a pay:payment .
-
-<https://gmdsp-admin.publishmydata.com/id/Planning/5100627889> a pay:payment .
-
-<https://gmdsp-admin.publishmydata.com/id/Planning/5100627890> a pay:payment .
-
-<https://gmdsp-admin.publishmydata.com/id/Planning/5100627892> a pay:payment .
-
-<https://gmdsp-admin.publishmydata.com/id/Planning/5100627894> a pay:payment .
-
-<https://gmdsp-admin.publishmydata.com/id/Planning/5100627896> a pay:payment .
-
-<https://gmdsp-admin.publishmydata.com/id/Planning/5100627897> a pay:payment .
-
-<https://gmdsp-admin.publishmydata.com/id/Planning/5100627898> a pay:payment .
-
-<https://gmdsp-admin.publishmydata.com/id/Planning/5100627900> a pay:payment .
-
-<https://gmdsp-admin.publishmydata.com/id/Planning/5100627902> a pay:payment .
-
-<https://gmdsp-admin.publishmydata.com/id/Planning/5100627903> a pay:payment .
-
-<https://gmdsp-admin.publishmydata.com/id/Planning/5100627905> a pay:payment .
-
-<https://gmdsp-admin.publishmydata.com/id/Planning/5100627907> a pay:payment .
-
-<https://gmdsp-admin.publishmydata.com/id/Planning/5100627908> a pay:payment .
-
-<https://gmdsp-admin.publishmydata.com/id/Planning/5100627910> a pay:payment .
-
-<https://gmdsp-admin.publishmydata.com/id/Planning/5100627911> a pay:payment .
-
-<https://gmdsp-admin.publishmydata.com/id/Planning/5100627912> a pay:payment .
-
-<https://gmdsp-admin.publishmydata.com/id/Planning/5100627914> a pay:payment .
-
-<https://gmdsp-admin.publishmydata.com/id/Planning/5100627918> a pay:payment .
-
-<https://gmdsp-admin.publishmydata.com/id/Planning/5100627930> a pay:payment .
-
-<https://gmdsp-admin.publishmydata.com/id/Planning/5100627931> a pay:payment .
-
-<https://gmdsp-admin.publishmydata.com/id/Planning/5100627933> a pay:payment .
-
-<https://gmdsp-admin.publishmydata.com/id/Planning/5100627934> a pay:payment .
-
-<https://gmdsp-admin.publishmydata.com/id/Planning/5100627969> a pay:payment .
-
-<https://gmdsp-admin.publishmydata.com/id/Planning/5100627970> a pay:payment .
-
-<https://gmdsp-admin.publishmydata.com/id/Planning/5100627971> a pay:payment .
-
-<https://gmdsp-admin.publishmydata.com/id/Planning/5100627972> a pay:payment .
-
-<https://gmdsp-admin.publishmydata.com/id/Planning/5100627974> a pay:payment .
-
-<https://gmdsp-admin.publishmydata.com/id/Planning/5100627975> a pay:payment .
-
-<https://gmdsp-admin.publishmydata.com/id/Planning/5100627978> a pay:payment .
-
-<https://gmdsp-admin.publishmydata.com/id/Planning/5100627980> a pay:payment .
-
-<https://gmdsp-admin.publishmydata.com/id/Planning/5100627981> a pay:payment .
-
-<https://gmdsp-admin.publishmydata.com/id/Planning/5100627982> a pay:payment .
-
-<https://gmdsp-admin.publishmydata.com/id/Planning/5100627987> a pay:payment .
-
-<https://gmdsp-admin.publishmydata.com/id/Planning/5100627990> a pay:payment .
-
-<https://gmdsp-admin.publishmydata.com/id/Planning/5100627991> a pay:payment .
-
-<https://gmdsp-admin.publishmydata.com/id/Planning/5100627992> a pay:payment .
-
-<https://gmdsp-admin.publishmydata.com/id/Planning/5100627994> a pay:payment .
-
-<https://gmdsp-admin.publishmydata.com/id/Planning/5100627996> a pay:payment .
-
-<https://gmdsp-admin.publishmydata.com/id/Planning/5100627997> a pay:payment .
-
-<https://gmdsp-admin.publishmydata.com/id/Planning/5100628000> a pay:payment .
-
-<https://gmdsp-admin.publishmydata.com/id/Planning/5100628002> a pay:payment .
-
-<https://gmdsp-admin.publishmydata.com/id/Planning/5100628004> a pay:payment .
-
-<https://gmdsp-admin.publishmydata.com/id/Planning/5100628005> a pay:payment .
-
-<https://gmdsp-admin.publishmydata.com/id/Planning/5100628006> a pay:payment .
-
-<https://gmdsp-admin.publishmydata.com/id/Planning/5100628032> a pay:payment .
-
-<https://gmdsp-admin.publishmydata.com/id/Planning/5100628043> a pay:payment .
-
-<https://gmdsp-admin.publishmydata.com/id/Planning/5100628048> a pay:payment .
-
-<https://gmdsp-admin.publishmydata.com/id/Planning/5100628049> a pay:payment .
-
-<https://gmdsp-admin.publishmydata.com/id/Planning/5100628050> a pay:payment .
-
-<https://gmdsp-admin.publishmydata.com/id/Planning/5100628053> a pay:payment .
-
-<https://gmdsp-admin.publishmydata.com/id/Planning/5100628055> a pay:payment .
-
-<https://gmdsp-admin.publishmydata.com/id/Planning/5100628059> a pay:payment .
-
-<https://gmdsp-admin.publishmydata.com/id/Planning/5100628060> a pay:payment .
-
-<https://gmdsp-admin.publishmydata.com/id/Planning/5100628061> a pay:payment .
-
-<https://gmdsp-admin.publishmydata.com/id/Planning/5100628065> a pay:payment .
-
-<https://gmdsp-admin.publishmydata.com/id/Planning/5100628096> a pay:payment .
-
-<https://gmdsp-admin.publishmydata.com/id/Planning/5100628106> a pay:payment .
-
-<https://gmdsp-admin.publishmydata.com/id/Planning/5100628115> a pay:payment .
-
-<https://gmdsp-admin.publishmydata.com/id/Planning/5100628136> a pay:payment .
-
-<https://gmdsp-admin.publishmydata.com/id/Planning/5100628138> a pay:payment .
-
-<https://gmdsp-admin.publishmydata.com/id/Planning/5100628147> a pay:payment .
-
-<https://gmdsp-admin.publishmydata.com/id/Planning/5100628163> a pay:payment .
-
-<https://gmdsp-admin.publishmydata.com/id/Planning/5100628189> a pay:payment .
-
-<https://gmdsp-admin.publishmydata.com/id/Planning/5100628223> a pay:payment .
-
-<https://gmdsp-admin.publishmydata.com/id/Planning/5100628262> a pay:payment .
-
-<https://gmdsp-admin.publishmydata.com/id/Planning/5100628270> a pay:payment .
-
-<https://gmdsp-admin.publishmydata.com/id/Planning/5100628385> a pay:payment .
-
-<https://gmdsp-admin.publishmydata.com/id/Planning/5100628386> a pay:payment .
-
-<https://gmdsp-admin.publishmydata.com/id/Planning/5100628387> a pay:payment .
-
-<https://gmdsp-admin.publishmydata.com/id/Planning/5100628389> a pay:payment .
-
-<https://gmdsp-admin.publishmydata.com/id/Planning/5100628392> a pay:payment .
-
-<https://gmdsp-admin.publishmydata.com/id/Planning/5100628395> a pay:payment .
-
-<https://gmdsp-admin.publishmydata.com/id/Planning/5100628397> a pay:payment .
+<https://gmdsp-admin.publishmydata.com/id/Planning/042224/OO/NORTH2/92> a "Planning Application" ;
+    dissision:hasDecisionDate "19/08/1993" ;
+    sub:dateSubmitted "03/09/1992" ;
+    geo:ward "NEWTON" ;
+    vcard:hasstreetaddress """LAND OFF
+CEYLON STREET
+NEWTON HEATH
+""" .
+
+<https://gmdsp-admin.publishmydata.com/id/Planning/042670/MO/SOUTH3/92> a "Planning Application" ;
+    dissision:hasDecisionDate "24/03/1994" ;
+    sub:dateSubmitted "23/11/1992" ;
+    geo:ward "BAGULY" ;
+    vcard:hasstreetaddress """SITE AT DOBBINETS LANE
+BAGULEY
+""" .
+
+<https://gmdsp-admin.publishmydata.com/id/Planning/042889/OO/NORTH2/93> a "Planning Application" ;
+    dissision:hasDecisionDate "27/08/1993" ;
+    sub:dateSubmitted "18/01/1993" ;
+    geo:ward "CENTRL" ;
+    vcard:hasstreetaddress """SITE OF FORMER ST THOMAS MOORE
+RC HIGH SCHOOL
+LIVESEY STREET NEW ALLEN
+STREET MILES PLATTING
+""" .
+
+<https://gmdsp-admin.publishmydata.com/id/Planning/042968/OO/NORTH2/93> a "Planning Application" ;
+    dissision:hasDecisionDate "12/05/1993" ;
+    sub:dateSubmitted "01/02/1993" ;
+    geo:ward "LGHTBN" ;
+    vcard:hasstreetaddress """LAND AND BUILDINGS ADJOINING
+31 STANWAY STREET
+MOSTON
+""" .
+
+<https://gmdsp-admin.publishmydata.com/id/Planning/042998/MO/SOUTH2/93> a "Planning Application" ;
+    dissision:hasDecisionDate "08/04/1993" ;
+    sub:dateSubmitted "04/02/1993" ;
+    geo:ward "CHRLTN" ;
+    vcard:hasstreetaddress """FORMER MOSS SIDE TENNIS CLUB
+ST WERBURGHS ROAD
+CHORLTON
+""" .
+
+<https://gmdsp-admin.publishmydata.com/id/Planning/043033/OO/CENTL3/93> a "Planning Application" ;
+    dissision:hasDecisionDate "22/04/1993" ;
+    sub:dateSubmitted "11/02/1993" ;
+    geo:ward "LVNSHM" ;
+    vcard:hasstreetaddress """SITE OF GROVE PARK FOODS LTD
+RAVENOAK AVENUE
+LEVENSHULME
+""" .
+
+<https://gmdsp-admin.publishmydata.com/id/Planning/043036/MO/CENTL2/93> a "Planning Application" ;
+    dissision:hasDecisionDate "21/04/1993" ;
+    sub:dateSubmitted "12/02/1993" ;
+    geo:ward "ARDWCK" ;
+    vcard:hasstreetaddress """LAND OFF COVERDALE CRESCENT
+ARDWICK
+""" .
+
+<https://gmdsp-admin.publishmydata.com/id/Planning/043042/OO/NORTH2/93> a "Planning Application" ;
+    dissision:hasDecisionDate "15/07/1993" ;
+    sub:dateSubmitted "16/02/1993" ;
+    geo:ward "BESWCK" ;
+    vcard:hasstreetaddress """LAND AND BUILDINGS BOUNDED BY
+DARGAI STREET HAMNETT STREET
+AND RONALD STREET CLAYTON
+""" .
+
+<https://gmdsp-admin.publishmydata.com/id/Planning/043167/OO/NORTH2/93> a "Planning Application" ;
+    dissision:hasDecisionDate "17/09/1993" ;
+    sub:dateSubmitted "11/03/1993" ;
+    geo:ward "NEWTON" ;
+    vcard:hasstreetaddress """LAND ADJACENT TO
+24 STANSFIELD STREET CORNER
+OF WARNFORD CLOSE
+NEWTON HEATH
+""" .
+
+<https://gmdsp-admin.publishmydata.com/id/Planning/043215/DF/CMDC/93> a "Planning Application" ;
+    dissision:hasDecisionDate "14/05/1993" ;
+    sub:dateSubmitted "19/03/1993" ;
+    geo:ward "CENTRL" ;
+    vcard:hasstreetaddress """6 FAIRFIELD STREET
+CITY
+""" .
+
+<https://gmdsp-admin.publishmydata.com/id/Planning/043385/OO/NORTH2/93> a "Planning Application" ;
+    dissision:hasDecisionDate "14/07/1993" ;
+    sub:dateSubmitted "19/04/1993" ;
+    geo:ward "BESWCK" ;
+    vcard:hasstreetaddress """LAND AT BANK STREET CLAYTON
+""" .
+
+<https://gmdsp-admin.publishmydata.com/id/Planning/043458/DF/CMDC/93> a "Planning Application" ;
+    dissision:hasDecisionDate "25/07/1995" ;
+    sub:dateSubmitted "29/04/1993" ;
+    geo:ward "CENTRL" ;
+    vcard:hasstreetaddress """GREAT NORTHERN WAREHOUSE AND
+ASSOCIATED BUILDINGS BOUNDED
+BY DEANSGATE/PETER STREET AND
+WATSON STREET CITY
+""" .
+
+<https://gmdsp-admin.publishmydata.com/id/Planning/043477/DF/CMDC/93> a "Planning Application" ;
+    dissision:hasDecisionDate "30/06/1994" ;
+    sub:dateSubmitted "05/05/1993" ;
+    geo:ward "CENTRL" ;
+    vcard:hasstreetaddress """SLATE WHARF CASTLE QUAY
+CASTLEFIELD CITY
+""" .
+
+<https://gmdsp-admin.publishmydata.com/id/Planning/043530/OO/CENTL2/93> a "Planning Application" ;
+    dissision:hasDecisionDate "15/07/1993" ;
+    sub:dateSubmitted "11/05/1993" ;
+    geo:ward "RSHLME" ;
+    vcard:hasstreetaddress """HARRIS STADIUM
+WHITWORTH LANE
+FALLOWFIELD
+""" .
+
+<https://gmdsp-admin.publishmydata.com/id/Planning/043531/OO/CENTL2/93> a "Planning Application" ;
+    dissision:hasDecisionDate "15/07/1993" ;
+    sub:dateSubmitted "11/05/1993" ;
+    geo:ward "RSHLME" ;
+    vcard:hasstreetaddress """HARRIS STADIUM
+WHITWORTH LANE
+FALLOWFIELD
+""" .
+
+<https://gmdsp-admin.publishmydata.com/id/Planning/043603/MO/CENTL2/93> a "Planning Application" ;
+    dissision:hasDecisionDate "22/09/1993" ;
+    sub:dateSubmitted "20/05/1993" ;
+    geo:ward "RSHLME" ;
+    vcard:hasstreetaddress """ST. ANSELMS PHASE 2 STUDENT
+RESIDENCES ANSON ROAD/KENT
+ROAD EAST, RUSHOLME - ADJACENT
+TO DALTON-ELLIS HALLS
+""" .
+
+<https://gmdsp-admin.publishmydata.com/id/Planning/043839/MO/CENTL3/93> a "Planning Application" ;
+    dissision:hasDecisionDate "23/09/1993" ;
+    sub:dateSubmitted "30/06/1993" ;
+    geo:ward "LONGST" ;
+    vcard:hasstreetaddress """SITE BOUNDED BY SIDDALL STREET
+LINWOOD GROVE AND SLADE HALL
+ROAD LONGSIGHT
+""" .
+
+<https://gmdsp-admin.publishmydata.com/id/Planning/043864/OO/SOUTH2/93> a "Planning Application" ;
+    dissision:hasDecisionDate "07/09/1993" ;
+    sub:dateSubmitted "05/07/1993" ;
+    geo:ward "OLDMT" ;
+    vcard:hasstreetaddress """VACANT LAND CORNER OF BURTON
+ROAD/BRIDGELEA ROAD WITHINGTON
+""" .
+
+<https://gmdsp-admin.publishmydata.com/id/Planning/044034/OO/SOUTH1/93> a "Planning Application" ;
+    dissision:hasDecisionDate "21/01/1994" ;
+    sub:dateSubmitted "04/08/1993" ;
+    geo:ward "WTHGTN" ;
+    vcard:hasstreetaddress """Vacant Land formerly
+25/27, Brunswick Road,
+Withington
+""" .
+
+<https://gmdsp-admin.publishmydata.com/id/Planning/044058/OO/NORTH1/93> a "Planning Application" ;
+    dissision:hasDecisionDate "17/06/1994" ;
+    sub:dateSubmitted "10/08/1993" ;
+    geo:ward "CHETHM" ;
+    vcard:hasstreetaddress """Part of former playing fields,
+Heywood Street/Tamerton Drive,
+Cheetham Hill
+""" .
+
+<https://gmdsp-admin.publishmydata.com/id/Planning/044061/OO/CENTL1/93> a "Planning Application" ;
+    dissision:hasDecisionDate "11/02/1994" ;
+    sub:dateSubmitted "11/08/1993" ;
+    geo:ward "WRANGE" ;
+    vcard:hasstreetaddress """Rear garden area of Cambrian
+House fronting onto College
+Road, Whalley Range
+""" .
+
+<https://gmdsp-admin.publishmydata.com/id/Planning/044114/OO/NORTH1/93> a "Planning Application" ;
+    dissision:hasDecisionDate "20/01/1994" ;
+    sub:dateSubmitted "17/08/1993" ;
+    geo:ward "CRMPSL" ;
+    vcard:hasstreetaddress """Former Sarah Laski Childrens
+Home,
+38 St. Marys Hall Road
+Crumpsall
+""" .
+
+<https://gmdsp-admin.publishmydata.com/id/Planning/044171/OO/SOUTH1/93> a "Planning Application" ;
+    dissision:hasDecisionDate "25/10/1993" ;
+    sub:dateSubmitted "27/08/1993" ;
+    geo:ward "WTHGTN" ;
+    vcard:hasstreetaddress """Land bounded by Wilmslow Road
+and Whiteoak Road, Fallowfield
+""" .
+
+<https://gmdsp-admin.publishmydata.com/id/Planning/044203/OO/CENTL2/93> a "Planning Application" ;
+    dissision:hasDecisionDate "12/11/1993" ;
+    sub:dateSubmitted "06/09/1993" ;
+    geo:ward "FALWFD" ;
+    vcard:hasstreetaddress """Vacant land adjacent to
+24 Wilbraham Road,
+Fallowfield
+""" .
+
+<https://gmdsp-admin.publishmydata.com/id/Planning/044206/OO/CENTL2/93> a "Planning Application" ;
+    dissision:hasDecisionDate "02/12/1993" ;
+    sub:dateSubmitted "03/09/1993" ;
+    geo:ward "FALWFD" ;
+    vcard:hasstreetaddress """Site at 209/211 Withington
+Road, Whalley Range
+""" .
+
+<https://gmdsp-admin.publishmydata.com/id/Planning/044271/DF/CMDC/93> a "Planning Application" ;
+    dissision:hasDecisionDate "24/02/1995" ;
+    sub:dateSubmitted "20/09/1993" ;
+    geo:ward "CENTRL" ;
+    vcard:hasstreetaddress """Former John Bass Warehouse
+and land between Castle Street
+and Rochdale Canal, City
+""" .
+
+<https://gmdsp-admin.publishmydata.com/id/Planning/044332/OO/CENTL1/93> a "Planning Application" ;
+    dissision:hasDecisionDate "02/12/1993" ;
+    sub:dateSubmitted "29/09/1993" ;
+    geo:ward "MOSSDE" ;
+    vcard:hasstreetaddress """Land abutting Broadfield Road,
+Bowes Street and Caythorpe
+Street, Moss Side
+""" .
+
+<https://gmdsp-admin.publishmydata.com/id/Planning/044339/OO/CENTL3/93> a "Planning Application" ;
+    dissision:hasDecisionDate "02/12/1993" ;
+    sub:dateSubmitted "30/09/1993" ;
+    geo:ward "GORNTH" ;
+    vcard:hasstreetaddress """Land off Bowling Road, Gorton
+""" .
+
+<https://gmdsp-admin.publishmydata.com/id/Planning/044340/OO/NORTH2/93> a "Planning Application" ;
+    dissision:hasDecisionDate "12/11/1993" ;
+    sub:dateSubmitted "30/09/1993" ;
+    geo:ward "BRADFD" ;
+    vcard:hasstreetaddress """Vacant land at Wheler Street
+and Sandywell Street,
+Openshaw
+""" .
+
+<https://gmdsp-admin.publishmydata.com/id/Planning/044437/OO/SOUTH2/93> a "Planning Application" ;
+    dissision:hasDecisionDate "06/12/1993" ;
+    sub:dateSubmitted "13/10/1993" ;
+    geo:ward "BARLOW" ;
+    vcard:hasstreetaddress """Meadowside,
+Hardy Lane,
+Chorlton
+""" .
+
+<https://gmdsp-admin.publishmydata.com/id/Planning/044680/OO/SOUTH1/93> a "Planning Application" ;
+    dissision:hasDecisionDate "21/04/1994" ;
+    sub:dateSubmitted "23/11/1993" ;
+    geo:ward "DIDSBY" ;
+    vcard:hasstreetaddress """Land adjacent to Philip Godlee
+Lodge,
+842 Wilmslow Road,
+Didsbury
+""" .
+
+<https://gmdsp-admin.publishmydata.com/id/Planning/044689/OO/CENTL3/93> a "Planning Application" ;
+    dissision:hasDecisionDate "17/01/1994" ;
+    sub:dateSubmitted "25/11/1993" ;
+    geo:ward "LVNSHM" ;
+    vcard:hasstreetaddress """Land at Danebury House, Grange
+Avenue, Levenshulme
+""" .
+
+<https://gmdsp-admin.publishmydata.com/id/Planning/044805/OO/SOUTH1/93> a "Planning Application" ;
+    dissision:hasDecisionDate "21/04/1994" ;
+    sub:dateSubmitted "16/12/1993" ;
+    geo:ward "WTHGTN" ;
+    vcard:hasstreetaddress """Land at the rear of Binswood,
+Wilmslow Road, Didsbury
+""" .
+
+<https://gmdsp-admin.publishmydata.com/id/Planning/044814/OO/CENTL1/93> a "Planning Application" ;
+    dissision:hasDecisionDate "24/01/1994" ;
+    sub:dateSubmitted "20/12/1993" ;
+    geo:ward "HULME" ;
+    vcard:hasstreetaddress """Land bounded by Chorlton Road
+Royce Road, Rolls Crescent and
+Chichester Road
+""" .
+
+<https://gmdsp-admin.publishmydata.com/id/Planning/044815/OO/CENTL1/93> a "Planning Application" ;
+    dissision:hasDecisionDate "22/03/1994" ;
+    sub:dateSubmitted "20/12/1993" ;
+    geo:ward "HULME" ;
+    vcard:hasstreetaddress """Land at Moss Lane East,
+Chichester Road, Greenheys
+Lane West and Princess Road,
+Hulme
+""" .
+
+<https://gmdsp-admin.publishmydata.com/id/Planning/044819/OO/CENTL2/93> a "Planning Application" ;
+    dissision:hasDecisionDate "21/06/1994" ;
+    sub:dateSubmitted "17/12/1993" ;
+    geo:ward "RSHLME" ;
+    vcard:hasstreetaddress """Land on south side of
+Hathersage Road, Rusholme
+""" .
+
+<https://gmdsp-admin.publishmydata.com/id/Planning/044858/OO/CENTL1/93> a "Planning Application" ;
+    dissision:hasDecisionDate "11/05/1994" ;
+    sub:dateSubmitted "30/12/1993" ;
+    geo:ward "WRANGE" ;
+    vcard:hasstreetaddress """34, Alexandra Road South,
+Whalley Range
+""" .
+
+<https://gmdsp-admin.publishmydata.com/id/Planning/044859/OO/CENTL1/93> a "Planning Application" ;
+    dissision:hasDecisionDate "11/05/1994" ;
+    sub:dateSubmitted "30/12/1993" ;
+    geo:ward "WRANGE" ;
+    vcard:hasstreetaddress """34, Alexandra Road South,
+Whalley Range
+""" .
+
+<https://gmdsp-admin.publishmydata.com/id/Planning/044919/MO/CENTL2/94> a "Planning Application" ;
+    dissision:hasDecisionDate "24/03/1994" ;
+    sub:dateSubmitted "12/01/1994" ;
+    geo:ward "FALWFD" ;
+    vcard:hasstreetaddress """24, Wilbraham Road,
+Fallowfield
+""" .
+
+<https://gmdsp-admin.publishmydata.com/id/Planning/044921/DF/CMDC/94> a "Planning Application" ;
+    dissision:hasDecisionDate "10/03/1994" ;
+    sub:dateSubmitted "13/01/1994" ;
+    geo:ward "CENTRL" ;
+    vcard:hasstreetaddress """42-44, Sackville Street,
+City
+""" .
+
+<https://gmdsp-admin.publishmydata.com/id/Planning/044926/MO/CENTL2/94> a "Planning Application" ;
+    dissision:hasDecisionDate "10/03/1994" ;
+    sub:dateSubmitted "12/01/1994" ;
+    geo:ward "FALWFD" ;
+    vcard:hasstreetaddress """Site at 209-211, Withington
+Road, Whalley Range
+""" .
+
+<https://gmdsp-admin.publishmydata.com/id/Planning/044945/OO/NORTH1/94> a "Planning Application" ;
+    dissision:hasDecisionDate "10/03/1994" ;
+    sub:dateSubmitted "13/01/1994" ;
+    geo:ward "CHETHM" ;
+    vcard:hasstreetaddress """Broomfield Drive,
+off Cheetham Hill Road,
+Cheetham
+""" .
+
+<https://gmdsp-admin.publishmydata.com/id/Planning/044975/DR/CMDC/94> a "Planning Application" ;
+    dissision:hasDecisionDate "11/03/1994" ;
+    sub:dateSubmitted "27/01/1994" ;
+    geo:ward "CENTRL" ;
+    vcard:hasstreetaddress """7, Hulme Street, City
+""" .
+
+<https://gmdsp-admin.publishmydata.com/id/Planning/045014/OO/SOUTH2/94> a "Planning Application" ;
+    dissision:hasDecisionDate "14/07/1994" ;
+    sub:dateSubmitted "28/01/1994" ;
+    geo:ward "CHRLTN" ;
+    vcard:hasstreetaddress """Land at Oak House Drive,
+rear of 419-421, Barlow Moor
+Road, Chorlton
+""" .
+
+<https://gmdsp-admin.publishmydata.com/id/Planning/045265/OO/CENTL2/94> a "Planning Application" ;
+    dissision:hasDecisionDate "14/07/1994" ;
+    sub:dateSubmitted "15/03/1994" ;
+    geo:ward "FALWFD" ;
+    vcard:hasstreetaddress """7 and 9, Alexandra Road South,
+Whalley Range
+""" .
+
+<https://gmdsp-admin.publishmydata.com/id/Planning/045295/JO/SOUTH3/94> a "Planning Application" ;
+    dissision:hasDecisionDate "06/10/1994" ;
+    sub:dateSubmitted "21/03/1994" ;
+    geo:ward "NRTHDN" ;
+    vcard:hasstreetaddress """Grounds adjoining "Rose Hill"
+Longley Lane, Northenden
+""" .
+
+<https://gmdsp-admin.publishmydata.com/id/Planning/045409/OO/NORTH2/94> a "Planning Application" ;
+    dissision:hasDecisionDate "14/07/1994" ;
+    sub:dateSubmitted "13/04/1994" ;
+    geo:ward "LGHTBN" ;
+    vcard:hasstreetaddress """Land at the rear of the
+The Blue Bell Public House,
+Moston Lane,
+Moston.
+""" .
+
+<https://gmdsp-admin.publishmydata.com/id/Planning/045411/OO/NORTH2/94> a "Planning Application" ;
+    dissision:hasDecisionDate "29/11/1995" ;
+    sub:dateSubmitted "13/04/1994" ;
+    geo:ward "HARPHY" ;
+    vcard:hasstreetaddress """Monsall Hospital,
+Monsall Road/Northampton Road,
+Monsall
+""" .
+
+<https://gmdsp-admin.publishmydata.com/id/Planning/045572/OO/CENTL1/94> a "Planning Application" ;
+    dissision:hasDecisionDate "18/07/1994" ;
+    sub:dateSubmitted "10/05/1994" ;
+    geo:ward "HULME" ;
+    vcard:hasstreetaddress """Vacant land at Higher
+Cambridge Street/Booth Street
+West, Hulme
+""" .
+
+<https://gmdsp-admin.publishmydata.com/id/Planning/045810/OO/CENTL3/94> a "Planning Application" ;
+    dissision:hasDecisionDate "22/09/1994" ;
+    sub:dateSubmitted "23/06/1994" ;
+    geo:ward "GORNTH" ;
+    vcard:hasstreetaddress """Vacant land on north side of
+Textile Street, Gorton
+""" .
+
+<https://gmdsp-admin.publishmydata.com/id/Planning/045836/OO/CENTL1/94> a "Planning Application" ;
+    dissision:hasDecisionDate "19/08/1994" ;
+    sub:dateSubmitted "24/06/1994" ;
+    geo:ward "WRANGE" ;
+    vcard:hasstreetaddress """Site at former Sportsman PH,
+Withington Road,
+Whalley Range
+""" .
+
+<https://gmdsp-admin.publishmydata.com/id/Planning/045898/OO/CENTL3/94> a "Planning Application" ;
+    dissision:hasDecisionDate "27/10/1994" ;
+    sub:dateSubmitted "04/07/1994" ;
+    geo:ward "LVNSHM" ;
+    vcard:hasstreetaddress """Land at Danebury House,
+Grange Avenue,
+Levenshulme
+""" .
+
+<https://gmdsp-admin.publishmydata.com/id/Planning/045943/OO/NORTH1/94> a "Planning Application" ;
+    dissision:hasDecisionDate "09/12/1994" ;
+    sub:dateSubmitted "14/07/1994" ;
+    geo:ward "MOSTON" ;
+    vcard:hasstreetaddress """Land at junctions of St. Marys
+Road with Dresden Street and
+Beechdale Close, Moston
+""" .
+
+<https://gmdsp-admin.publishmydata.com/id/Planning/046010/OO/CENTL1/94> a "Planning Application" ;
+    dissision:hasDecisionDate "02/09/1994" ;
+    sub:dateSubmitted "27/07/1994" ;
+    geo:ward "WRANGE" ;
+    vcard:hasstreetaddress """Land adjoining
+7, Burford Road,
+Whalley Range
+""" .
+
+<https://gmdsp-admin.publishmydata.com/id/Planning/046064/OO/NORTH1/94> a "Planning Application" ;
+    dissision:hasDecisionDate "28/09/1994" ;
+    sub:dateSubmitted "03/08/1994" ;
+    geo:ward "CHETHM" ;
+    vcard:hasstreetaddress """Site bounded by Elizabeth St.,
+Herbert St. and Alderglen Road
+Cheetham
+""" .
+
+<https://gmdsp-admin.publishmydata.com/id/Planning/046072/DF/CMDC/94> a "Planning Application" ;
+    dissision:hasDecisionDate "23/09/1994" ;
+    sub:dateSubmitted "10/08/1994" ;
+    geo:ward "CENTRL" ;
+    vcard:hasstreetaddress """7, Oxford Road,
+City
+""" .
+
+<https://gmdsp-admin.publishmydata.com/id/Planning/046108/OO/NORTH1/94> a "Planning Application" ;
+    dissision:hasDecisionDate "29/09/1994" ;
+    sub:dateSubmitted "10/08/1994" ;
+    geo:ward "CHETHM" ;
+    vcard:hasstreetaddress """Land at Derby Street, Cheetham
+""" .
+
+<https://gmdsp-admin.publishmydata.com/id/Planning/046175/OO/NORTH2/94> a "Planning Application" ;
+    dissision:hasDecisionDate "27/10/1994" ;
+    sub:dateSubmitted "19/08/1994" ;
+    geo:ward "BRADFD" ;
+    vcard:hasstreetaddress """land at Gransmoor Avenue,
+Higher Openshaw
+""" .
+
+<https://gmdsp-admin.publishmydata.com/id/Planning/046184/OO/CENTL1/94> a "Planning Application" ;
+    dissision:hasDecisionDate "11/11/1994" ;
+    sub:dateSubmitted "22/08/1994" ;
+    geo:ward "WRANGE" ;
+    vcard:hasstreetaddress """Garden area of Cambrian House,
+Wood Road, Whalley Range
+""" .
+
+<https://gmdsp-admin.publishmydata.com/id/Planning/046265/DF/CMDC/94> a "Planning Application" ;
+    dissision:hasDecisionDate "28/10/1994" ;
+    sub:dateSubmitted "09/09/1994" ;
+    geo:ward "CENTRL" ;
+    vcard:hasstreetaddress """9, Hulme Street, City
+""" .
+
+<https://gmdsp-admin.publishmydata.com/id/Planning/046285/OO/NORTH1/94> a "Planning Application" ;
+    dissision:hasDecisionDate "12/04/1995" ;
+    sub:dateSubmitted "13/09/1994" ;
+    geo:ward "CHETHM" ;
+    vcard:hasstreetaddress """Site of the former Northern
+Hospital, Cheetham Hill Road,
+Cheetham
+""" .
+
+<https://gmdsp-admin.publishmydata.com/id/Planning/046315/OO/CENTL1/94> a "Planning Application" ;
+    dissision:hasDecisionDate "09/11/1994" ;
+    sub:dateSubmitted "14/09/1994" ;
+    geo:ward "WRANGE" ;
+    vcard:hasstreetaddress """Site at Burford Road,
+Whalley Range
+""" .
+
+<https://gmdsp-admin.publishmydata.com/id/Planning/046611/OO/CENTL1/94> a "Planning Application" ;
+    dissision:hasDecisionDate "05/05/1995" ;
+    sub:dateSubmitted "14/11/1994" ;
+    geo:ward "HULME" ;
+    vcard:hasstreetaddress """Vacant land bounded by
+Royce Road, Clarendon Road and
+Leaf Street, Hulme
+""" .
+
+<https://gmdsp-admin.publishmydata.com/id/Planning/046897/OO/CENTL3/94> a "Planning Application" ;
+    dissision:hasDecisionDate "15/02/1995" ;
+    sub:dateSubmitted "20/12/1994" ;
+    geo:ward "LVNSHM" ;
+    vcard:hasstreetaddress """77, Grange Avenue,
+Levenshulme
+""" .
+
+<https://gmdsp-admin.publishmydata.com/id/Planning/046943/OO/CITY2/94> a "Planning Application" ;
+    dissision:hasDecisionDate "17/08/1995" ;
+    sub:dateSubmitted "28/12/1994" ;
+    geo:ward "CENTRL" ;
+    vcard:hasstreetaddress """The Marton Building,
+junction of Charles Street/
+Princess Street,
+City
+""" .
+
+<https://gmdsp-admin.publishmydata.com/id/Planning/046966/OO/SOUTH2/95> a "Planning Application" ;
+    dissision:hasDecisionDate "30/01/1995" ;
+    sub:dateSubmitted "04/01/1995" ;
+    geo:ward "OLDMT" ;
+    vcard:hasstreetaddress """9, Wynnstay Grove,
+Fallowfield
+""" .
+
+<https://gmdsp-admin.publishmydata.com/id/Planning/046970/JO/SOUTH3/95> a "Planning Application" ;
+    dissision:hasDecisionDate "17/02/1995" ;
+    sub:dateSubmitted "04/01/1995" ;
+    geo:ward "BAGULY" ;
+    vcard:hasstreetaddress """Part of Wythenshawe Hospital
+Floats Road, Baguley
+""" .
+
+<https://gmdsp-admin.publishmydata.com/id/Planning/047037/DF/CMDC/95> a "Planning Application" ;
+    dissision:hasDecisionDate "10/03/1995" ;
+    sub:dateSubmitted "23/01/1995" ;
+    geo:ward "CENTRL" ;
+    vcard:hasstreetaddress """11, Whitworth Street,
+City
+""" .
+
+<https://gmdsp-admin.publishmydata.com/id/Planning/047076/OO/NORTH2/95> a "Planning Application" ;
+    dissision:hasDecisionDate "28/05/1996" ;
+    sub:dateSubmitted "31/01/1995" ;
+    geo:ward "NEWTON" ;
+    vcard:hasstreetaddress """Site of former Jacksons
+Brickworks, Ten Acres Lane,
+Newton Heath
+""" .
+
+<https://gmdsp-admin.publishmydata.com/id/Planning/047118/DF/CMDC/95> a "Planning Application" ;
+    dissision:hasDecisionDate "24/03/1995" ;
+    sub:dateSubmitted "06/02/1995" ;
+    geo:ward "CENTRL" ;
+    vcard:hasstreetaddress """7, Oxford Road,
+City
+""" .
+
+<https://gmdsp-admin.publishmydata.com/id/Planning/047169/OO/NORTH1/95> a "Planning Application" ;
+    dissision:hasDecisionDate "11/08/1995" ;
+    sub:dateSubmitted "10/02/1995" ;
+    geo:ward "CHETHM" ;
+    vcard:hasstreetaddress """Vacant land between
+Alderglen Road and adjacent to
+156, Elizabeth Street,
+Cheetham
+""" .
+
+<https://gmdsp-admin.publishmydata.com/id/Planning/047360/DF/CMDC/95> a "Planning Application" ;
+    dissision:hasDecisionDate "30/11/1995" ;
+    sub:dateSubmitted "22/03/1995" ;
+    geo:ward "CENTRL" ;
+    vcard:hasstreetaddress """42/44, Sackville Street,
+City
+""" .
+
+<https://gmdsp-admin.publishmydata.com/id/Planning/047474/OO/NORTH2/95> a "Planning Application" ;
+    dissision:hasDecisionDate "20/09/1995" ;
+    sub:dateSubmitted "28/03/1995" ;
+    geo:ward "HARPHY" ;
+    vcard:hasstreetaddress """Former Brewery Sidings,
+Queens Road/Pitsford Road,
+Newton Heath
+""" .
+
+<https://gmdsp-admin.publishmydata.com/id/Planning/047667/DF/CMDC/95> a "Planning Application" ;
+    dissision:hasDecisionDate "23/06/1995" ;
+    sub:dateSubmitted "02/05/1995" ;
+    geo:ward "CENTRL" ;
+    vcard:hasstreetaddress """11, Whitworth Street,
+City
+""" .
+
+<https://gmdsp-admin.publishmydata.com/id/Planning/047718/OO/NORTH1/95> a "Planning Application" ;
+    dissision:hasDecisionDate "14/10/1999" ;
+    sub:dateSubmitted "12/04/1995" ;
+    geo:ward "CHETHM" ;
+    vcard:hasstreetaddress """Land Off Hazelbottom Road
+Blackley""" .
+
+<https://gmdsp-admin.publishmydata.com/id/Planning/047720/OO/NORTH1/95> a "Planning Application" ;
+    dissision:hasDecisionDate "27/05/1998" ;
+    sub:dateSubmitted "12/04/1995" ;
+    geo:ward "CHARLS" ;
+    vcard:hasstreetaddress """Land at Slack Road and
+Waterloo Street,
+Blackley
+""" .
+
+<https://gmdsp-admin.publishmydata.com/id/Planning/047722/OO/NORTH1/95> a "Planning Application" ;
+    dissision:hasDecisionDate "22/05/1996" ;
+    sub:dateSubmitted "12/04/1995" ;
+    geo:ward "CHARLS" ;
+    vcard:hasstreetaddress """Land at Slack Road and
+Waterloo Street,
+Blackley
+""" .
+
+<https://gmdsp-admin.publishmydata.com/id/Planning/047748/DF/CMDC/95> a "Planning Application" ;
+    dissision:hasDecisionDate "30/11/1995" ;
+    sub:dateSubmitted "17/05/1995" ;
+    geo:ward "CENTRL" ;
+    vcard:hasstreetaddress """70/72, Sackville Street,
+City
+""" .
+
+<https://gmdsp-admin.publishmydata.com/id/Planning/047816/OO/NORTH2/95> a "Planning Application" ;
+    dissision:hasDecisionDate "30/11/1995" ;
+    sub:dateSubmitted "26/05/1995" ;
+    geo:ward "BRADFD" ;
+    vcard:hasstreetaddress """Vacant land at the rear of
+Gransmoor Avenue, Openshaw
+""" .
+
+<https://gmdsp-admin.publishmydata.com/id/Planning/047971/DF/CMDC/95> a "Planning Application" ;
+    dissision:hasDecisionDate "11/08/1995" ;
+    sub:dateSubmitted "23/06/1995" ;
+    geo:ward "CENTRL" ;
+    vcard:hasstreetaddress """Peveril Bank,
+Great Bridgewater Street &
+Whitworth Street West, City
+""" .
+
+<https://gmdsp-admin.publishmydata.com/id/Planning/048109/DF/CMDC/95> a "Planning Application" ;
+    dissision:hasDecisionDate "25/08/1995" ;
+    sub:dateSubmitted "07/07/1995" ;
+    geo:ward "CENTRL" ;
+    vcard:hasstreetaddress """42-44, Sackville Street,
+City
+""" .
+
+<https://gmdsp-admin.publishmydata.com/id/Planning/048176/OO/SOUTH3/95> a "Planning Application" ;
+    dissision:hasDecisionDate "22/11/1995" ;
+    sub:dateSubmitted "21/07/1995" ;
+    geo:ward "SHRSTN" ;
+    vcard:hasstreetaddress """Part of former Manchester
+Business Park,
+Altrincham Road,
+Sharston
+""" .
+
+<https://gmdsp-admin.publishmydata.com/id/Planning/048500/DT/CMDC/95> a "Planning Application" ;
+    dissision:hasDecisionDate "10/11/1995" ;
+    sub:dateSubmitted "11/09/1995" ;
+    geo:ward "CENTRL" ;
+    vcard:hasstreetaddress """17-19, Aytoun Street,
+City
+""" .
+
+<https://gmdsp-admin.publishmydata.com/id/Planning/048821/OO/SOUTH1/95> a "Planning Application" ;
+    dissision:hasDecisionDate "11/01/1996" ;
+    sub:dateSubmitted "06/11/1995" ;
+    geo:ward "DIDSBY" ;
+    vcard:hasstreetaddress """Land to rear of
+St.Nicholas Church,
+Kingsway,
+Burnage
+""" .
+
+<https://gmdsp-admin.publishmydata.com/id/Planning/048848/DF/CMDC/95> a "Planning Application" ;
+    dissision:hasDecisionDate "22/12/1995" ;
+    sub:dateSubmitted "09/11/1995" ;
+    geo:ward "CENTRL" ;
+    vcard:hasstreetaddress """Site bounded by 53 Whitworth
+Street, Venice Street and
+Bombay Street, City
+""" .
+
+<https://gmdsp-admin.publishmydata.com/id/Planning/049044/JO/CENTL1/95> a "Planning Application" ;
+    dissision:hasDecisionDate "22/02/1996" ;
+    sub:dateSubmitted "12/12/1995" ;
+    geo:ward "WRANGE" ;
+    vcard:hasstreetaddress """34, Alexandra Road South,
+Whalley Range
+""" .
+
+<https://gmdsp-admin.publishmydata.com/id/Planning/049214/OO/CENTL1/96> a "Planning Application" ;
+    dissision:hasDecisionDate "05/03/1996" ;
+    sub:dateSubmitted "15/01/1996" ;
+    geo:ward "HULME" ;
+    vcard:hasstreetaddress """Land bounded by Burlington
+St./Higher Cambridge St./Lloyd
+Street Nth & Boundary Lane,
+including Coupland St., Hulme
+""" .
+
+<https://gmdsp-admin.publishmydata.com/id/Planning/050019/OO/CENTL1/96> a "Planning Application" ;
+    dissision:hasDecisionDate "06/11/1996" ;
+    sub:dateSubmitted "04/06/1996" ;
+    geo:ward "FALWFD" ;
+    vcard:hasstreetaddress """Playing Fields between Cedar
+Court and 53, Wilbraham Road
+and between Wilbraham Road and
+Fallowfield Brook, Fallowfield
+""" .
+
+<https://gmdsp-admin.publishmydata.com/id/Planning/050567/MO/NORTH1/96> a "Planning Application" ;
+    dissision:hasDecisionDate "01/04/1997" ;
+    sub:dateSubmitted "02/09/1996" ;
+    geo:ward "CHARLS" ;
+    vcard:hasstreetaddress """Land bounded by Old Market St/
+Blackley New Road/ Surrey St.&
+Rayson Street,
+Blackley
+""" .
+
+<https://gmdsp-admin.publishmydata.com/id/Planning/050662/OO/CITY2/96> a "Planning Application" ;
+    dissision:hasDecisionDate "05/02/1997" ;
+    sub:dateSubmitted "13/09/1996" ;
+    geo:ward "CENTRL" ;
+    vcard:hasstreetaddress """89-95, Piccadilly,
+City
+""" .
+
+<https://gmdsp-admin.publishmydata.com/id/Planning/050664/OO/CITY2/96> a "Planning Application" ;
+    dissision:hasDecisionDate "05/02/1997" ;
+    sub:dateSubmitted "13/09/1996" ;
+    geo:ward "CENTRL" ;
+    vcard:hasstreetaddress """89-95, Piccadilly,
+City
+""" .
+
+<https://gmdsp-admin.publishmydata.com/id/Planning/050841/OO/CITY3/96> a "Planning Application" ;
+    dissision:hasDecisionDate "03/12/1996" ;
+    sub:dateSubmitted "16/10/1996" ;
+    geo:ward "CENTRL" ;
+    vcard:hasstreetaddress """Garage site at junction of
+Lower Ormond Street/Hulme
+Street, City
+""" .
+
+<https://gmdsp-admin.publishmydata.com/id/Planning/050845/MO/CITY3/96> a "Planning Application" ;
+    dissision:hasDecisionDate "21/10/1996" ;
+    sub:dateSubmitted "18/10/1996" ;
+    geo:ward "CENTRL" ;
+    vcard:hasstreetaddress """Site of 17-19, Aytoun Street,
+City
+""" .
+
+<https://gmdsp-admin.publishmydata.com/id/Planning/050974/OO/CENTL2/96> a "Planning Application" ;
+    dissision:hasDecisionDate "16/01/1997" ;
+    sub:dateSubmitted "08/11/1996" ;
+    geo:ward "LVNSHM" ;
+    vcard:hasstreetaddress """Vacant land adjacent to
+Saint Andrews Church,
+Stockport Road/Nall Street,
+Levenshulme
+""" .
+
+<https://gmdsp-admin.publishmydata.com/id/Planning/051770/OO/SOUTH2/97> a "Planning Application" ;
+    dissision:hasDecisionDate "12/05/1998" ;
+    sub:dateSubmitted "25/03/1997" ;
+    geo:ward "OLDMT" ;
+    vcard:hasstreetaddress """The former Holly Royde
+Conference Centre,
+Palatine Road,
+Withington
+""" .
+
+<https://gmdsp-admin.publishmydata.com/id/Planning/052728/JO/SOUTH3/97> a "Planning Application" ;
+    dissision:hasDecisionDate "25/09/1997" ;
+    sub:dateSubmitted "13/08/1997" ;
+    geo:ward "BRKLDS" ;
+    vcard:hasstreetaddress """Site bounded by Michaels Hey
+Parade, Maple Road, Carrswood
+Road
+Brooklands
+""" .
+
+<https://gmdsp-admin.publishmydata.com/id/Planning/053048/OO/SOUTH2/97> a "Planning Application" ;
+    dissision:hasDecisionDate "27/11/1997" ;
+    sub:dateSubmitted "03/10/1997" ;
+    geo:ward "BARLOW" ;
+    vcard:hasstreetaddress """Vacant land at junction of
+Barlow Moor Road and Derwent
+Avenue,
+West Didsbury
+""" .
+
+<https://gmdsp-admin.publishmydata.com/id/Planning/053150/OO/CENTL1/97> a "Planning Application" ;
+    dissision:hasDecisionDate "10/02/1998" ;
+    sub:dateSubmitted "24/10/1997" ;
+    geo:ward "MOSSDE" ;
+    vcard:hasstreetaddress """Land bounded by Doddington
+Close, Plainsfield Close and
+Staycott Close,
+Alexandra Park,
+Moss Side, Manchester""" .
+
+<https://gmdsp-admin.publishmydata.com/id/Planning/053152/OO/CENTL1/97> a "Planning Application" ;
+    dissision:hasDecisionDate "10/02/1998" ;
+    sub:dateSubmitted "24/10/1997" ;
+    geo:ward "MOSSDE" ;
+    vcard:hasstreetaddress """Land bounded by Plainsfield
+Close, Crosshill Close,
+Cronefield Walk and existing
+sports ground, Alexandra Park,
+Moss Side""" .
+
+<https://gmdsp-admin.publishmydata.com/id/Planning/053571/MO/NORTH1/98> a "Planning Application" ;
+    dissision:hasDecisionDate "27/05/1998" ;
+    sub:dateSubmitted "07/01/1998" ;
+    geo:ward "CHARLS" ;
+    vcard:hasstreetaddress """Vacant land on Old Market
+Street,
+Blackley
+""" .
+
+<https://gmdsp-admin.publishmydata.com/id/Planning/053723/OO/NORTH2/98> a "Planning Application" ;
+    dissision:hasDecisionDate "26/03/1998" ;
+    sub:dateSubmitted "26/01/1998" ;
+    geo:ward "HARPHY" ;
+    vcard:hasstreetaddress """Vacant land bounded by
+Parkmount Road, Rochdale Road
+& Blackley Park Road,
+Blackley
+""" .
+
+<https://gmdsp-admin.publishmydata.com/id/Planning/053745/OO/NORTH1/98> a "Planning Application" ;
+    dissision:hasDecisionDate "13/07/1998" ;
+    sub:dateSubmitted "30/01/1998" ;
+    geo:ward "BLAKLY" ;
+    vcard:hasstreetaddress """Land to the north of Chain Rd.
+and west of Northridge Rd.,
+Blackley
+""" .
+
+<https://gmdsp-admin.publishmydata.com/id/Planning/053748/OO/CENTL2/98> a "Planning Application" ;
+    dissision:hasDecisionDate "24/03/1998" ;
+    sub:dateSubmitted "29/01/1998" ;
+    geo:ward "GORNTH" ;
+    vcard:hasstreetaddress """Jubilee Works,
+Constable Street,
+Gorton
+""" .
+
+<https://gmdsp-admin.publishmydata.com/id/Planning/053797/OO/SOUTH2/98> a "Planning Application" ;
+    dissision:hasDecisionDate "02/07/1998" ;
+    sub:dateSubmitted "09/02/1998" ;
+    geo:ward "BARLOW" ;
+    vcard:hasstreetaddress """Vacant land at junction of
+Barlow Moor Road and Derwent
+Avenue,
+West Didsbury
+""" .
+
+<https://gmdsp-admin.publishmydata.com/id/Planning/053798/OO/SOUTH3/98> a "Planning Application" ;
+    dissision:hasDecisionDate "15/07/1998" ;
+    sub:dateSubmitted "09/02/1998" ;
+    geo:ward "SHRSTN" ;
+    vcard:hasstreetaddress """Sharston Green,
+Altrincham Road,
+Sharston
+""" .
+
+<https://gmdsp-admin.publishmydata.com/id/Planning/053864/OO/CENTL1/98> a "Planning Application" ;
+    dissision:hasDecisionDate "09/04/1998" ;
+    sub:dateSubmitted "19/02/1998" ;
+    geo:ward "MOSSDE" ;
+    vcard:hasstreetaddress """Site bounded by Plainsfield Close,
+Crosshill Close, Cronefield Walk
+and existing sports ground,
+Alexandra Park,
+Moss Side""" .
+
+<https://gmdsp-admin.publishmydata.com/id/Planning/053865/OO/CENTL1/98> a "Planning Application" ;
+    dissision:hasDecisionDate "09/04/1998" ;
+    sub:dateSubmitted "19/02/1998" ;
+    geo:ward "MOSSDE" ;
+    vcard:hasstreetaddress """Site bounded by Doddington Close,
+Plainsfield Close, Staycott Close,
+Alexandra Park,
+Moss Side
+""" .
+
+<https://gmdsp-admin.publishmydata.com/id/Planning/054101/MO/NORTH1/98> a "Planning Application" ;
+    dissision:hasDecisionDate "22/05/1998" ;
+    sub:dateSubmitted "31/03/1998" ;
+    geo:ward "CRMPSL" ;
+    vcard:hasstreetaddress """Vacant land on St Marys Hall
+Road,
+Crumpsall
+""" .
+
+<https://gmdsp-admin.publishmydata.com/id/Planning/054559/MO/CENTL1/98> a "Planning Application" ;
+    dissision:hasDecisionDate "12/10/1998" ;
+    sub:dateSubmitted "10/06/1998" ;
+    geo:ward "FALWFD" ;
+    vcard:hasstreetaddress """Land between Cedar Court and
+53, Wilbraham Road,
+Fallowfield
+""" .
+
+<https://gmdsp-admin.publishmydata.com/id/Planning/054853/OO/NORTH2/98> a "Planning Application" ;
+    dissision:hasDecisionDate "24/09/1998" ;
+    sub:dateSubmitted "20/07/1998" ;
+    geo:ward "CENTRL" ;
+    vcard:hasstreetaddress """Site at
+Naples Street/Ludgate Hill/
+Simpson Street,
+Collyhurst
+""" .
+
+<https://gmdsp-admin.publishmydata.com/id/Planning/054870/MO/CITY2/98> a "Planning Application" ;
+    dissision:hasDecisionDate "22/10/1998" ;
+    sub:dateSubmitted "21/07/1998" ;
+    geo:ward "HULME" ;
+    vcard:hasstreetaddress """Land bounded by Booth Street
+West, Higher Cambridge Street
+and Rosamund Street West,
+Hulme
+""" .
+
+<https://gmdsp-admin.publishmydata.com/id/Planning/055191/OO/CENTL1/98> a "Planning Application" ;
+    dissision:hasDecisionDate "22/10/1998" ;
+    sub:dateSubmitted "14/09/1998" ;
+    geo:ward "HULME" ;
+    vcard:hasstreetaddress """Land adjacent to
+Rolls Crescent/Yew Street,
+(Currently Spinners P.H.),
+Hulme
+""" .
+
+<https://gmdsp-admin.publishmydata.com/id/Planning/055216/OO/NORTH2/98> a "Planning Application" ;
+    dissision:hasDecisionDate "13/11/1998" ;
+    sub:dateSubmitted "16/09/1998" ;
+    geo:ward "CENTRL" ;
+    vcard:hasstreetaddress """Angel Meadow Sawmill,
+Style Street,
+Ancoats
+""" .
+
+<https://gmdsp-admin.publishmydata.com/id/Planning/055223/OO/SOUTH3/98> a "Planning Application" ;
+    dissision:hasDecisionDate "05/05/1999" ;
+    sub:dateSubmitted "15/09/1998" ;
+    geo:ward "BAGULY" ;
+    vcard:hasstreetaddress """Firbank Road,
+Wythenshawe
+""" .
+
+<https://gmdsp-admin.publishmydata.com/id/Planning/055336/MO/SOUTH3/98> a "Planning Application" ;
+    dissision:hasDecisionDate "15/03/1999" ;
+    sub:dateSubmitted "06/10/1998" ;
+    geo:ward "BAGULY" ;
+    vcard:hasstreetaddress """Land at Brooks Drive,
+Brooklands
+""" .
+
+<https://gmdsp-admin.publishmydata.com/id/Planning/055502/JO/CENTL1/98> a "Planning Application" ;
+    dissision:hasDecisionDate "19/01/1999" ;
+    sub:dateSubmitted "03/11/1998" ;
+    geo:ward "RSHLME" ;
+    vcard:hasstreetaddress """Land adjacent to 157, Hathersage
+Road,
+Chorlton-on-Medlock
+""" .
+
+<https://gmdsp-admin.publishmydata.com/id/Planning/055713/MO/SOUTH1/98> a "Planning Application" ;
+    dissision:hasDecisionDate "26/04/1999" ;
+    sub:dateSubmitted "04/12/1998" ;
+    geo:ward "WTHGTN" ;
+    vcard:hasstreetaddress """Former Arosa Hotel,
+Mauldeth Road/Wilmslow Road,
+Withington
+""" .
+
+<https://gmdsp-admin.publishmydata.com/id/Planning/055834/MO/CENTL1/98> a "Planning Application" ;
+    dissision:hasDecisionDate "12/02/1999" ;
+    sub:dateSubmitted "24/12/1998" ;
+    geo:ward "MOSSDE" ;
+    vcard:hasstreetaddress """Site bounded by Doddington Close/
+Plainsfield Close/Staycott Close,
+Alexandra Park Estate,
+Moss Side
+""" .
+
+<https://gmdsp-admin.publishmydata.com/id/Planning/055835/MO/CENTL1/98> a "Planning Application" ;
+    dissision:hasDecisionDate "12/02/1999" ;
+    sub:dateSubmitted "24/12/1998" ;
+    geo:ward "MOSSDE" ;
+    vcard:hasstreetaddress """Site bounded by Plainsfield Close/
+Crosshill Close/Cronefield Walk/
+existing sports ground,
+Alexandra Park Estate,
+Moss Side""" .
+
+<https://gmdsp-admin.publishmydata.com/id/Planning/056128/JO/CENTL1/99> a "Planning Application" ;
+    dissision:hasDecisionDate "13/05/1999" ;
+    sub:dateSubmitted "15/02/1999" ;
+    geo:ward "FALWFD" ;
+    vcard:hasstreetaddress """Land to the rear of
+Hartley Hall,
+Alexandra Road South,
+Whalley Range
+""" .
+
+<https://gmdsp-admin.publishmydata.com/id/Planning/056244/OO/NORTH2/99> a "Planning Application" ;
+    dissision:hasDecisionDate "14/10/1999" ;
+    sub:dateSubmitted "08/03/1999" ;
+    geo:ward "HARPHY" ;
+    vcard:hasstreetaddress """Vacant land off Waterloo St.,
+Blackley
+""" .
+
+<https://gmdsp-admin.publishmydata.com/id/Planning/056245/OO/NORTH1/99> a "Planning Application" ;
+    dissision:hasDecisionDate "14/10/1999" ;
+    sub:dateSubmitted "08/03/1999" ;
+    geo:ward "CRMPSL" ;
+    vcard:hasstreetaddress """Land off Celia Street,
+Blackley
+""" .
+
+<https://gmdsp-admin.publishmydata.com/id/Planning/056247/OO/NORTH1/99> a "Planning Application" ;
+    dissision:hasDecisionDate "17/05/2001" ;
+    sub:dateSubmitted "08/03/1999" ;
+    geo:ward "CHARLS" ;
+    vcard:hasstreetaddress """Land off Slack Road,
+Blackley
+""" .
+
+<https://gmdsp-admin.publishmydata.com/id/Planning/056461/MO/NORTH1/99> a "Planning Application" ;
+    dissision:hasDecisionDate "09/08/1999" ;
+    sub:dateSubmitted "13/04/1999" ;
+    geo:ward "CHETHM" ;
+    vcard:hasstreetaddress """Land at the junction of
+Cheetham Hill Road/
+Smedley Lane,
+Cheetham Hill
+""" .
+
+<https://gmdsp-admin.publishmydata.com/id/Planning/056520/OO/CENTL2/99> a "Planning Application" ;
+    dissision:hasDecisionDate "05/08/1999" ;
+    sub:dateSubmitted "20/04/1999" ;
+    geo:ward "LONGST" ;
+    vcard:hasstreetaddress """Vacant land, site of former
+Wagon & Horses PH, Birch Lane/
+Stockport Road, Longsight
+""" .
+
+<https://gmdsp-admin.publishmydata.com/id/Planning/056527/OO/SOUTH2/99> a "Planning Application" ;
+    dissision:hasDecisionDate "23/12/1999" ;
+    sub:dateSubmitted "21/04/1999" ;
+    geo:ward "OLDMT" ;
+    vcard:hasstreetaddress """Land between Sherwood Street,
+Wynnstay Grove and fronting
+Wilmslow Road,
+Fallowfield
+""" .
+
+<https://gmdsp-admin.publishmydata.com/id/Planning/056608/OO/SOUTH2/99> a "Planning Application" ;
+    dissision:hasDecisionDate "08/07/1999" ;
+    sub:dateSubmitted "04/05/1999" ;
+    geo:ward "CHRLTN" ;
+    vcard:hasstreetaddress """417, Barlow Moor Road,
+Chorlton
+""" .
+
+<https://gmdsp-admin.publishmydata.com/id/Planning/056940/OO/CITY3/99> a "Planning Application" ;
+    dissision:hasDecisionDate "25/04/2000" ;
+    sub:dateSubmitted "23/06/1999" ;
+    geo:ward "CENTRL" ;
+    vcard:hasstreetaddress """Land at Potato Wharf,
+Castlefield,
+City
+""" .
+
+<https://gmdsp-admin.publishmydata.com/id/Planning/056947/OO/CENTL1/99> a "Planning Application" ;
+    dissision:hasDecisionDate "15/09/1999" ;
+    sub:dateSubmitted "24/06/1999" ;
+    geo:ward "WRANGE" ;
+    vcard:hasstreetaddress """Former Sportsmans public house,
+Withington Road,
+Whalley Range
+""" .
+
+<https://gmdsp-admin.publishmydata.com/id/Planning/056960/OO/CITY3/99> a "Planning Application" ;
+    dissision:hasDecisionDate "30/03/2000" ;
+    sub:dateSubmitted "07/10/1999" ;
+    geo:ward "CENTRL" ;
+    vcard:hasstreetaddress """14-16, Whitworth Street,
+City
+""" .
+
+<https://gmdsp-admin.publishmydata.com/id/Planning/057217/OO/CITY3/99> a "Planning Application" ;
+    dissision:hasDecisionDate "03/02/2000" ;
+    sub:dateSubmitted "02/08/1999" ;
+    geo:ward "CENTRL" ;
+    vcard:hasstreetaddress """Land at Chester Street/Lower
+Ormond Street,
+City
+""" .
+
+<https://gmdsp-admin.publishmydata.com/id/Planning/057342/OO/SOUTH2/99> a "Planning Application" ;
+    dissision:hasDecisionDate "20/01/2000" ;
+    sub:dateSubmitted "18/08/1999" ;
+    geo:ward "BAGULY" ;
+    vcard:hasstreetaddress """110-208,Hall Lane,
+Wythenshawe
+""" .
+
+<https://gmdsp-admin.publishmydata.com/id/Planning/057433/OO/NORTH1/99> a "Planning Application" ;
+    dissision:hasDecisionDate "03/02/2000" ;
+    sub:dateSubmitted "31/08/1999" ;
+    geo:ward "CHETHM" ;
+    vcard:hasstreetaddress """Land at Cheetham Hill Road/
+Red Bank,
+Cheetham
+""" .
+
+<https://gmdsp-admin.publishmydata.com/id/Planning/057474/OO/CITY3/99> a "Planning Application" ;
+    dissision:hasDecisionDate "31/01/2000" ;
+    sub:dateSubmitted "25/11/1999" ;
+    geo:ward "CENTRL" ;
+    vcard:hasstreetaddress """Land at Chapeltown Street/
+Comet Street,
+City
+""" .
+
+<https://gmdsp-admin.publishmydata.com/id/Planning/057736/MO/CITY1/99> a "Planning Application" ;
+    dissision:hasDecisionDate "25/11/1999" ;
+    sub:dateSubmitted "13/10/1999" ;
+    geo:ward "CENTRL" ;
+    vcard:hasstreetaddress """The Shambles,
+Deansgate/Cateaton Street/New
+Cathedral Street/St. Marys Gate,
+City
+""" .
+
+<https://gmdsp-admin.publishmydata.com/id/Planning/057860/OO/CITY3/99> a "Planning Application" ;
+    dissision:hasDecisionDate "29/03/2000" ;
+    sub:dateSubmitted "25/10/1999" ;
+    geo:ward "CENTRL" ;
+    vcard:hasstreetaddress """land bounded by Whitworth Street West/
+Great Malborough Street/Hulme
+Street/Cambridge Street,
+City
+""" .
+
+<https://gmdsp-admin.publishmydata.com/id/Planning/057874/OO/NORTH2/99> a "Planning Application" ;
+    dissision:hasDecisionDate "04/01/2000" ;
+    sub:dateSubmitted "26/10/1999" ;
+    geo:ward "GORNTH" ;
+    vcard:hasstreetaddress """Vacant land at Crossley Street,
+Gorton
+""" .
+
+<https://gmdsp-admin.publishmydata.com/id/Planning/058071/JO/SOUTH2/99> a "Planning Application" ;
+    dissision:hasDecisionDate "04/01/2000" ;
+    sub:dateSubmitted "23/11/1999" ;
+    geo:ward "SHRSTN" ;
+    vcard:hasstreetaddress """Vacant land off Altrincham
+Road,
+Sharston Green,
+Sharston
+""" .
+
+<https://gmdsp-admin.publishmydata.com/id/Planning/058797/OO/CITY3/00> a "Planning Application" ;
+    dissision:hasDecisionDate "06/07/2000" ;
+    sub:dateSubmitted "09/03/2000" ;
+    geo:ward "CENTRL" ;
+    vcard:hasstreetaddress """Land at Paradise Wharf,
+City
+""" .
+
+<https://gmdsp-admin.publishmydata.com/id/Planning/058928/OO/NORTH1/00> a "Planning Application" ;
+    dissision:hasDecisionDate "06/07/2000" ;
+    sub:dateSubmitted "28/03/2000" ;
+    geo:ward "LGHTBN" ;
+    vcard:hasstreetaddress """Vacant land to the rear of
+The Blue Bell PH,
+Moston Lane,
+Moston
+""" .
+
+<https://gmdsp-admin.publishmydata.com/id/Planning/059012/OO/NORTH1/00> a "Planning Application" ;
+    dissision:hasDecisionDate "01/06/2000" ;
+    sub:dateSubmitted "06/04/2000" ;
+    geo:ward "HARPHY" ;
+    vcard:hasstreetaddress """Harpur Mount Primary School,
+Alfred Street,
+Harpurhey
+""" .
+
+<https://gmdsp-admin.publishmydata.com/id/Planning/059183/MO/CITY3/00> a "Planning Application" ;
+    dissision:hasDecisionDate "26/06/2000" ;
+    sub:dateSubmitted "03/05/2000" ;
+    geo:ward "CENTRL" ;
+    vcard:hasstreetaddress """Land at Chester Street/Lower Ormond Street,
+City
+""" .
+
+<https://gmdsp-admin.publishmydata.com/id/Planning/059581/MO/CITY3/00> a "Planning Application" ;
+    dissision:hasDecisionDate "19/02/2001" ;
+    sub:dateSubmitted "22/06/2000" ;
+    geo:ward "CENTRL" ;
+    vcard:hasstreetaddress """14/16, Whitworth Street,
+City
+""" .
+
+<https://gmdsp-admin.publishmydata.com/id/Planning/060181/OO/CITY1/00> a "Planning Application" ;
+    dissision:hasDecisionDate "04/01/2001" ;
+    sub:dateSubmitted "30/08/2000" ;
+    geo:ward "CENTRL" ;
+    vcard:hasstreetaddress """Land bounded by Shudehill,
+Goadsby Street, rear of
+Martlesham Walk, Copperas St.
+and Village Way,
+City""" .
+
+<https://gmdsp-admin.publishmydata.com/id/Planning/060302/OO/SOUTH2/00> a "Planning Application" ;
+    dissision:hasDecisionDate "14/12/2001" ;
+    sub:dateSubmitted "15/09/2000" ;
+    geo:ward "BARLOW" ;
+    vcard:hasstreetaddress """Land bounded by
+Cavendish Road/Princess Road/
+Nell Lane and part of
+Withington Hospital,
+West Didsbury""" .
+
+<https://gmdsp-admin.publishmydata.com/id/Planning/060324/OO/NORTH1/00> a "Planning Application" ;
+    dissision:hasDecisionDate "22/12/2000" ;
+    sub:dateSubmitted "18/09/2000" ;
+    geo:ward "CHETHM" ;
+    vcard:hasstreetaddress """Macben House,
+12/18, Lord Street,
+Cheetham Hill
+""" .
+
+<https://gmdsp-admin.publishmydata.com/id/Planning/060360/OO/SOUTH1/00> a "Planning Application" ;
+    dissision:hasDecisionDate "23/11/2000" ;
+    sub:dateSubmitted "21/09/2000" ;
+    geo:ward "CHRLTN" ;
+    vcard:hasstreetaddress """Land off Rainbow Close,
+Chorlton-cum-Hardy
+""" .
+
+<https://gmdsp-admin.publishmydata.com/id/Planning/060399/OO/SOUTH1/00> a "Planning Application" ;
+    dissision:hasDecisionDate "18/12/2000" ;
+    sub:dateSubmitted "26/09/2000" ;
+    geo:ward "WRANGE" ;
+    vcard:hasstreetaddress """Land to rear of
+175, Manchester Road and site
+of 8-10, Macauley Road,
+Chorlton
+""" .
+
+<https://gmdsp-admin.publishmydata.com/id/Planning/060407/MO/SOUTH2/00> a "Planning Application" ;
+    dissision:hasDecisionDate "26/10/2000" ;
+    sub:dateSubmitted "29/09/2000" ;
+    geo:ward "BAGULY" ;
+    vcard:hasstreetaddress """Land adjacent to 108 and
+208 Hall Lane,
+Baguley
+""" .
+
+<https://gmdsp-admin.publishmydata.com/id/Planning/060542/OO/SOUTH1/00> a "Planning Application" ;
+    dissision:hasDecisionDate "05/03/2001" ;
+    sub:dateSubmitted "12/10/2000" ;
+    geo:ward "FALWFD" ;
+    vcard:hasstreetaddress """Fallowfield Hotel,
+Wilbraham Road,
+Fallowfield
+""" .
+
+<https://gmdsp-admin.publishmydata.com/id/Planning/060612/OO/SOUTH2/00> a "Planning Application" ;
+    dissision:hasDecisionDate "14/12/2001" ;
+    sub:dateSubmitted "25/10/2000" ;
+    geo:ward "BARLOW" ;
+    vcard:hasstreetaddress """Land bounded by Nell Lane Burton Road/
+Elizabeth Slinger Road/Fielden Road,
+West Didsbury
+""" .
+
+<https://gmdsp-admin.publishmydata.com/id/Planning/060629/MO/CITY3/00> a "Planning Application" ;
+    dissision:hasDecisionDate "20/11/2000" ;
+    sub:dateSubmitted "24/10/2000" ;
+    geo:ward "CENTRL" ;
+    vcard:hasstreetaddress """Paradise Wharf,
+Ducie Street,
+City
+""" .
+
+<https://gmdsp-admin.publishmydata.com/id/Planning/060718/OO/NORTH2/00> a "Planning Application" ;
+    dissision:hasDecisionDate "04/04/2001" ;
+    sub:dateSubmitted "06/11/2000" ;
+    geo:ward "BRADFD" ;
+    vcard:hasstreetaddress """Vacant land at Ashton Old Road/Lees Street/
+Stanley Street,Openshaw.
+""" .
+
+<https://gmdsp-admin.publishmydata.com/id/Planning/060742/OO/CITY3/00> a "Planning Application" ;
+    dissision:hasDecisionDate "22/11/2002" ;
+    sub:dateSubmitted "19/02/2001" ;
+    geo:ward "CENTRL" ;
+    vcard:hasstreetaddress """Land at City Road/River Place,
+City Road East,
+City
+""" .
+
+<https://gmdsp-admin.publishmydata.com/id/Planning/060952/OO/SOUTH1/00> a "Planning Application" ;
+    dissision:hasDecisionDate "08/02/2001" ;
+    sub:dateSubmitted "15/12/2000" ;
+    geo:ward "WRANGE" ;
+    vcard:hasstreetaddress """Land at
+Clarendon Rd /Egerton Rd North
+& Hawarden Avenue,
+Whalley Range
+""" .
+
+<https://gmdsp-admin.publishmydata.com/id/Planning/060995/OO/SOUTH1/01> a "Planning Application" ;
+    dissision:hasDecisionDate "12/03/2001" ;
+    sub:dateSubmitted "15/01/2001" ;
+    geo:ward "WRANGE" ;
+    vcard:hasstreetaddress """175, Manchester Road,
+Chorlton
+""" .
+
+<https://gmdsp-admin.publishmydata.com/id/Planning/061253/OO/NORTH1/01> a "Planning Application" ;
+    dissision:hasDecisionDate "14/05/2001" ;
+    sub:dateSubmitted "30/01/2001" ;
+    geo:ward "CHETHM" ;
+    vcard:hasstreetaddress """Macben House,
+12/18, Lord Street,
+Cheetham
+""" .
+
+<https://gmdsp-admin.publishmydata.com/id/Planning/061464/OO/SOUTH2/01> a "Planning Application" ;
+    dissision:hasDecisionDate "04/04/2002" ;
+    sub:dateSubmitted "23/02/2001" ;
+    geo:ward "DIDSBY" ;
+    vcard:hasstreetaddress """Nazarene Theological College,
+Dene Road,
+Didsbury
+""" .
+
+<https://gmdsp-admin.publishmydata.com/id/Planning/061693/OO/NORTH2/01> a "Planning Application" ;
+    dissision:hasDecisionDate "13/12/2001" ;
+    sub:dateSubmitted "28/03/2001" ;
+    geo:ward "BESWCK" ;
+    vcard:hasstreetaddress """Albion Works,
+12-18,Pollard Street,
+Ancoats
+""" .
+
+<https://gmdsp-admin.publishmydata.com/id/Planning/061908/OO/SOUTH2/01> a "Planning Application" ;
+    dissision:hasDecisionDate "23/04/2004" ;
+    sub:dateSubmitted "19/04/2001" ;
+    geo:ward "BARLOW" ;
+    vcard:hasstreetaddress """Greystoke Hall,
+Palatine Road
+Didsbury
+""" .
+
+<https://gmdsp-admin.publishmydata.com/id/Planning/062015/OO/SOUTH1/01> a "Planning Application" ;
+    dissision:hasDecisionDate "20/09/2001" ;
+    sub:dateSubmitted "01/05/2001" ;
+    geo:ward "WRANGE" ;
+    vcard:hasstreetaddress """175, Manchester Road,
+Chorlton.
+""" .
+
+<https://gmdsp-admin.publishmydata.com/id/Planning/062091/MO/SOUTH1/01> a "Planning Application" ;
+    dissision:hasDecisionDate "06/09/2001" ;
+    sub:dateSubmitted "11/05/2001" ;
+    geo:ward "FALWFD" ;
+    vcard:hasstreetaddress """Land bounded by
+Wilbraham Road & Hart Road,
+Fallowfield
+""" .
+
+<https://gmdsp-admin.publishmydata.com/id/Planning/062314/MO/CITY3/01> a "Planning Application" ;
+    dissision:hasDecisionDate "23/10/2001" ;
+    sub:dateSubmitted "13/06/2001" ;
+    geo:ward "CENTRL" ;
+    vcard:hasstreetaddress """Land bounded by Cambridge/Hulme Street/
+Great Marlborough Street,
+Chorlton-on-Medlock
+""" .
+
+<https://gmdsp-admin.publishmydata.com/id/Planning/062315/JO/CITY3/01> a "Planning Application" ;
+    dissision:hasDecisionDate "23/10/2001" ;
+    sub:dateSubmitted "12/06/2001" ;
+    geo:ward "CENTRL" ;
+    vcard:hasstreetaddress """Land bounded by Cambridge Street/Hulme Street/
+Great Marlborough Street,
+Chorlton-on-Medlock
+""" .
+
+<https://gmdsp-admin.publishmydata.com/id/Planning/062578/MO/SOUTH1/01> a "Planning Application" ;
+    dissision:hasDecisionDate "30/08/2001" ;
+    sub:dateSubmitted "05/07/2001" ;
+    geo:ward "CHRLTN" ;
+    vcard:hasstreetaddress """land to the rear of
+KFC/Blockbuster,
+Barlow Moor Road,
+Chorlton
+""" .
+
+<https://gmdsp-admin.publishmydata.com/id/Planning/062778/OO/NORTH2/01> a "Planning Application" ;
+    dissision:hasDecisionDate "19/11/2001" ;
+    sub:dateSubmitted "30/07/2001" ;
+    geo:ward "RSHLME" ;
+    vcard:hasstreetaddress """9, Oxford Place,
+Rusholme
+""" .
+
+<https://gmdsp-admin.publishmydata.com/id/Planning/062796/OO/NORTH1/01> a "Planning Application" ;
+    dissision:hasDecisionDate "24/01/2002" ;
+    sub:dateSubmitted "26/11/2001" ;
+    geo:ward "CHETHM" ;
+    vcard:hasstreetaddress """Former North Manchester
+General Hospital,
+Cheetham Hill Road
+""" .
+
+<https://gmdsp-admin.publishmydata.com/id/Planning/062816/JO/CITY2/01> a "Planning Application" ;
+    dissision:hasDecisionDate "20/09/2001" ;
+    sub:dateSubmitted "31/07/2001" ;
+    geo:ward "ARDWCK" ;
+    vcard:hasstreetaddress """113-117, Oxford Road,
+Chorlton-on-Medlock
+""" .
+
+<https://gmdsp-admin.publishmydata.com/id/Planning/062826/JO/NORTH2/01> a "Planning Application" ;
+    dissision:hasDecisionDate "04/12/2001" ;
+    sub:dateSubmitted "06/08/2001" ;
+    geo:ward "GORNTH" ;
+    vcard:hasstreetaddress """Land at rear of 49/53, High Bank/2/20, Clarke Avenue/
+Gorton
+""" .
+
+<https://gmdsp-admin.publishmydata.com/id/Planning/062849/OO/CITY3/01> a "Planning Application" ;
+    dissision:hasDecisionDate "30/06/2002" ;
+    sub:dateSubmitted "14/11/2001" ;
+    geo:ward "CENTRL" ;
+    vcard:hasstreetaddress """Building at Dale Street/Ducie Street,
+City
+""" .
+
+<https://gmdsp-admin.publishmydata.com/id/Planning/062879/OO/NORTH1/01> a "Planning Application" ;
+    dissision:hasDecisionDate "19/12/2001" ;
+    sub:dateSubmitted "08/08/2001" ;
+    geo:ward "MOSTON" ;
+    vcard:hasstreetaddress """Land off St. Marys Road,
+Moston
+""" .
+
+<https://gmdsp-admin.publishmydata.com/id/Planning/062893/JO/CITY3/01> a "Planning Application" ;
+    dissision:hasDecisionDate "12/11/2001" ;
+    sub:dateSubmitted "14/08/2001" ;
+    geo:ward "CENTRL" ;
+    vcard:hasstreetaddress """15, Aytoun Street,
+City
+""" .
+
+<https://gmdsp-admin.publishmydata.com/id/Planning/062923/OO/SOUTH1/01> a "Planning Application" ;
+    dissision:hasDecisionDate "18/10/2001" ;
+    sub:dateSubmitted "16/08/2001" ;
+    geo:ward "WRANGE" ;
+    vcard:hasstreetaddress """175, Manchester Road,
+Chorlton
+""" .
+
+<https://gmdsp-admin.publishmydata.com/id/Planning/062949/OO/NORTH1/01> a "Planning Application" ;
+    dissision:hasDecisionDate "08/10/2002" ;
+    sub:dateSubmitted "21/08/2001" ;
+    geo:ward "CHETHM" ;
+    vcard:hasstreetaddress """Land bounded by Cheetham Hill
+Road, Fernie Street,
+Lord Street, Red Bank and
+Scotland,
+Cheetham Hill""" .
+
+<https://gmdsp-admin.publishmydata.com/id/Planning/062988/MO/SOUTH1/01> a "Planning Application" ;
+    dissision:hasDecisionDate "12/10/2001" ;
+    sub:dateSubmitted "17/08/2001" ;
+    geo:ward "BURNGE" ;
+    vcard:hasstreetaddress """Land at Kingsway/Fog Lane,
+Burnage
+""" .
+
+<https://gmdsp-admin.publishmydata.com/id/Planning/063059/OO/NORTH1/01> a "Planning Application" ;
+    dissision:hasDecisionDate "21/02/2002" ;
+    sub:dateSubmitted "28/08/2001" ;
+    geo:ward "BLAKLY" ;
+    vcard:hasstreetaddress """Land at Hill Lane,
+Blackley
+""" .
+
+<https://gmdsp-admin.publishmydata.com/id/Planning/063272/XO/NORTH1/01> a "Planning Application" ;
+    dissision:hasDecisionDate "15/11/2001" ;
+    sub:dateSubmitted "26/09/2001" ;
+    geo:ward "BLAKLY" ;
+    vcard:hasstreetaddress """Land at Brockford Drive,
+Crossmead Drive,
+Claygate Drive, and
+Eastlands Road, Blackley.
+""" .
+
+<https://gmdsp-admin.publishmydata.com/id/Planning/063537/OO/NORTH1/01> a "Planning Application" ;
+    dissision:hasDecisionDate "13/02/2002" ;
+    sub:dateSubmitted "02/11/2001" ;
+    geo:ward "CENTRL" ;
+    vcard:hasstreetaddress """12, Rochdale Road,
+Ancoats
+""" .
+
+<https://gmdsp-admin.publishmydata.com/id/Planning/063547/MO/CITY3/01> a "Planning Application" ;
+    dissision:hasDecisionDate "19/12/2001" ;
+    sub:dateSubmitted "06/11/2001" ;
+    geo:ward "CENTRL" ;
+    vcard:hasstreetaddress """Land at City Road/River Place/
+City Road East,
+City
+""" .
+
+<https://gmdsp-admin.publishmydata.com/id/Planning/063730/MO/NORTH1/01> a "Planning Application" ;
+    dissision:hasDecisionDate "04/03/2002" ;
+    sub:dateSubmitted "30/11/2001" ;
+    geo:ward "CHARLS" ;
+    vcard:hasstreetaddress """Land off Slack Road,
+Blackley
+""" .
+
+<https://gmdsp-admin.publishmydata.com/id/Planning/063895/OO/SOUTH1/02> a "Planning Application" ;
+    dissision:hasDecisionDate "01/02/2002" ;
+    sub:dateSubmitted "31/12/2001" ;
+    geo:ward "WTHGTN" ;
+    vcard:hasstreetaddress """5, Whiteoak Rd/14, Clifton Ave.,
+Fallowfield
+""" .
+
+<https://gmdsp-admin.publishmydata.com/id/Planning/064118/MO/NORTH1/02> a "Planning Application" ;
+    dissision:hasDecisionDate "05/03/2002" ;
+    sub:dateSubmitted "01/02/2002" ;
+    geo:ward "BLAKLY" ;
+    vcard:hasstreetaddress """Vacant land and area  at Brockford Drive,
+Blackley
+""" .
+
+<https://gmdsp-admin.publishmydata.com/id/Planning/064199/OO/SOUTH2/02> a "Planning Application" ;
+    dissision:hasDecisionDate "15/07/2005" ;
+    sub:dateSubmitted "08/02/2002" ;
+    geo:ward "DIDSBY" ;
+    vcard:hasstreetaddress """Needham Hall,
+Palatine Road,
+Didsbury
+""" .
+
+<https://gmdsp-admin.publishmydata.com/id/Planning/064313/MO/NORTH1/02> a "Planning Application" ;
+    dissision:hasDecisionDate "31/05/2002" ;
+    sub:dateSubmitted "18/02/2002" ;
+    geo:ward "MOSTON" ;
+    vcard:hasstreetaddress """Land off St Marys Road,
+Moston
+""" .
+
+<https://gmdsp-admin.publishmydata.com/id/Planning/064732/MO/SOUTH1/02> a "Planning Application" ;
+    dissision:hasDecisionDate "31/05/2002" ;
+    sub:dateSubmitted "05/04/2002" ;
+    geo:ward "WRANGE" ;
+    vcard:hasstreetaddress """175, Manchester Road,
+Chorlton
+""" .
+
+<https://gmdsp-admin.publishmydata.com/id/Planning/064910/OO/SOUTH1/02> a "Planning Application" ;
+    dissision:hasDecisionDate "16/08/2002" ;
+    sub:dateSubmitted "24/04/2002" ;
+    geo:ward "WRANGE" ;
+    vcard:hasstreetaddress """171/173, Manchester Road,
+Chorlton
+""" .
+
+<https://gmdsp-admin.publishmydata.com/id/Planning/065321/OO/NORTH1/02> a "Planning Application" ;
+    dissision:hasDecisionDate "30/07/2002" ;
+    sub:dateSubmitted "05/06/2002" ;
+    geo:ward "CRMPSL" ;
+    vcard:hasstreetaddress """Roselands,
+Middleton Road,
+Crumpsall
+""" .
+
+<https://gmdsp-admin.publishmydata.com/id/Planning/065336/JO/CITY1/02> a "Planning Application" ;
+    dissision:hasDecisionDate "29/08/2002" ;
+    sub:dateSubmitted "05/06/2002" ;
+    geo:ward "CENTRL" ;
+    vcard:hasstreetaddress """Market Buildings & the Fishmarket,
+Northern Quarter,
+City
+""" .
+
+<https://gmdsp-admin.publishmydata.com/id/Planning/065394/OO/NORTH1/02> a "Planning Application" ;
+    dissision:hasDecisionDate "01/11/2002" ;
+    sub:dateSubmitted "29/07/2002" ;
+    geo:ward "CHETHM" ;
+    vcard:hasstreetaddress """Land at Waterloo Road,
+corner of Harthill Street,
+Cheetham
+""" .
+
+<https://gmdsp-admin.publishmydata.com/id/Planning/065631/OO/SOUTH2/02> a "Planning Application" ;
+    dissision:hasDecisionDate "22/01/2003" ;
+    sub:dateSubmitted "08/07/2002" ;
+    geo:ward "BRKLDS" ;
+    vcard:hasstreetaddress """305-307, Brooklands Road,
+Brooklands
+""" .
+
+<https://gmdsp-admin.publishmydata.com/id/Planning/065663/MO/SOUTH2/02> a "Planning Application" ;
+    dissision:hasDecisionDate "17/10/2002" ;
+    sub:dateSubmitted "15/07/2002" ;
+    geo:ward "BARLOW" ;
+    vcard:hasstreetaddress """Part of former Withington
+Hospital bounded by Princess
+Road and Cavendish Road,
+Withington
+""" .
+
+<https://gmdsp-admin.publishmydata.com/id/Planning/065740/JO/NORTH1/02> a "Planning Application" ;
+    dissision:hasDecisionDate "01/10/2002" ;
+    sub:dateSubmitted "23/07/2002" ;
+    geo:ward "CRMPSL" ;
+    vcard:hasstreetaddress """63, Crumpsall Lane,
+Crumpsall
+""" .
+
+<https://gmdsp-admin.publishmydata.com/id/Planning/065770/MO/NORTH1/02> a "Planning Application" ;
+    dissision:hasDecisionDate "26/11/2002" ;
+    sub:dateSubmitted "08/10/2002" ;
+    geo:ward "CHETHM" ;
+    vcard:hasstreetaddress """Land off Cheetham Hill Road,
+Cheetham Hill
+""" .
+
+<https://gmdsp-admin.publishmydata.com/id/Planning/065799/JO/SOUTH2/02> a "Planning Application" ;
+    dissision:hasDecisionDate "05/09/2002" ;
+    sub:dateSubmitted "05/08/2002" ;
+    geo:ward "DIDSBY" ;
+    vcard:hasstreetaddress """724-732, Wilmslow Road,
+Didsbury
+""" .
+
+<https://gmdsp-admin.publishmydata.com/id/Planning/065838/JO/SOUTH1/02> a "Planning Application" ;
+    dissision:hasDecisionDate "31/10/2002" ;
+    sub:dateSubmitted "09/08/2002" ;
+    geo:ward "WRANGE" ;
+    vcard:hasstreetaddress """175, Manchester Road,
+Chorlton
+""" .
+
+<https://gmdsp-admin.publishmydata.com/id/Planning/065879/MO/NORTH2/02> a "Planning Application" ;
+    dissision:hasDecisionDate "17/10/2002" ;
+    sub:dateSubmitted "14/08/2002" ;
+    geo:ward "BESWCK" ;
+    vcard:hasstreetaddress """Land to North of Gibbon St &
+East of Alan Turing Way,
+Bradford
+""" .
+
+<https://gmdsp-admin.publishmydata.com/id/Planning/066055/MO/NORTH2/02> a "Planning Application" ;
+    dissision:hasDecisionDate "18/10/2002" ;
+    sub:dateSubmitted "06/09/2002" ;
+    geo:ward "BESWCK" ;
+    vcard:hasstreetaddress """land to north of
+Gibbon Street & East of Alan
+Turing Way,
+""" .
+
+<https://gmdsp-admin.publishmydata.com/id/Planning/066098/OO/SOUTH1/02> a "Planning Application" ;
+    dissision:hasDecisionDate "09/05/2003" ;
+    sub:dateSubmitted "10/09/2002" ;
+    geo:ward "CHRLTN" ;
+    vcard:hasstreetaddress """171-173, Manchester Road,
+Chorlton
+""" .
+
+<https://gmdsp-admin.publishmydata.com/id/Planning/066198/JO/SOUTH2/02> a "Planning Application" ;
+    dissision:hasDecisionDate "19/11/2002" ;
+    sub:dateSubmitted "24/09/2002" ;
+    geo:ward "CHOPRK" ;
+    vcard:hasstreetaddress """Land Bounded By
+Cavendish Rd/Princess Rd/
+Nell Lane And Part Of
+Withington Hospital,
+West Didsbury
+""" .
+
+<https://gmdsp-admin.publishmydata.com/id/Planning/066252/OO/SOUTH1/02> a "Planning Application" ;
+    dissision:hasDecisionDate "12/12/2002" ;
+    sub:dateSubmitted "01/10/2002" ;
+    geo:ward "WTHGTN" ;
+    vcard:hasstreetaddress """St John Ambulance HQ,
+Egerton Road,
+Fallowfield
+""" .
+
+<https://gmdsp-admin.publishmydata.com/id/Planning/066553/MO/NORTH1/02> a "Planning Application" ;
+    dissision:hasDecisionDate "23/01/2003" ;
+    sub:dateSubmitted "04/11/2002" ;
+    geo:ward "BLAKLY" ;
+    vcard:hasstreetaddress """Land off Hill Lane,
+Blackley
+""" .
+
+<https://gmdsp-admin.publishmydata.com/id/Planning/066594/OO/NORTH2/02> a "Planning Application" ;
+    dissision:hasDecisionDate "06/01/2003" ;
+    sub:dateSubmitted "11/11/2002" ;
+    geo:ward "ARDWCK" ;
+    vcard:hasstreetaddress """Site formerly St Ignatius,
+Primary School,
+Kirkstall Square/Addison Street,
+Ardwick
+""" .
+
+<https://gmdsp-admin.publishmydata.com/id/Planning/066657/MO/NORTH1/02> a "Planning Application" ;
+    dissision:hasDecisionDate "16/01/2003" ;
+    sub:dateSubmitted "19/11/2002" ;
+    geo:ward "CHARLS" ;
+    vcard:hasstreetaddress """Land off Slack Road,
+Blackley
+""" .
+
+<https://gmdsp-admin.publishmydata.com/id/Planning/066664/OO/SOUTH1/02> a "Planning Application" ;
+    dissision:hasDecisionDate "14/04/2003" ;
+    sub:dateSubmitted "19/11/2002" ;
+    geo:ward "CHRLTN" ;
+    vcard:hasstreetaddress """5/7 St. Clements Road,
+Chorlton
+""" .
+
+<https://gmdsp-admin.publishmydata.com/id/Planning/066877/MO/SOUTH2/02> a "Planning Application" ;
+    dissision:hasDecisionDate "28/02/2003" ;
+    sub:dateSubmitted "17/12/2002" ;
+    geo:ward "BARLOW" ;
+    vcard:hasstreetaddress """Withington Hospital,
+Nell Lane,
+Didsbury
+""" .
+
+<https://gmdsp-admin.publishmydata.com/id/Planning/066888/OO/SOUTH1/02> a "Planning Application" ;
+    dissision:hasDecisionDate "04/04/2003" ;
+    sub:dateSubmitted "18/12/2002" ;
+    geo:ward "WRANGE" ;
+    vcard:hasstreetaddress """153, Upper Chorlton Road,
+Whalley Range
+""" .
+
+<https://gmdsp-admin.publishmydata.com/id/Planning/066947/JO/SOUTH2/03> a "Planning Application" ;
+    dissision:hasDecisionDate "22/05/2003" ;
+    sub:dateSubmitted "03/01/2003" ;
+    geo:ward "NRTHDN" ;
+    vcard:hasstreetaddress """Land at Church Road,
+Northenden
+""" .
+
+<https://gmdsp-admin.publishmydata.com/id/Planning/067004/OO/NORTH1/03> a "Planning Application" ;
+    dissision:hasDecisionDate "27/05/2003" ;
+    sub:dateSubmitted "07/01/2003" ;
+    geo:ward "CENTRL" ;
+    vcard:hasstreetaddress """site at
+Poland Street,
+Ancoats
+""" .
+
+<https://gmdsp-admin.publishmydata.com/id/Planning/067090/OO/NORTH1/03> a "Planning Application" ;
+    dissision:hasDecisionDate "07/03/2003" ;
+    sub:dateSubmitted "20/01/2003" ;
+    geo:ward "CENTRL" ;
+    vcard:hasstreetaddress """10, Rochdale Road,
+Ancoats
+""" .
+
+<https://gmdsp-admin.publishmydata.com/id/Planning/067091/OO/NORTH1/03> a "Planning Application" ;
+    dissision:hasDecisionDate "07/03/2003" ;
+    sub:dateSubmitted "20/01/2003" ;
+    geo:ward "CENTRL" ;
+    vcard:hasstreetaddress """12, Rochdale Road,
+Ancoats
+""" .
+
+<https://gmdsp-admin.publishmydata.com/id/Planning/067103/OO/NORTH1/03> a "Planning Application" ;
+    dissision:hasDecisionDate "07/05/2003" ;
+    sub:dateSubmitted "14/04/2003" ;
+    geo:ward "CENTRL" ;
+    vcard:hasstreetaddress """8, Mason Street,
+Ancoats
+""" .
+
+<https://gmdsp-admin.publishmydata.com/id/Planning/067144/OO/NORTH1/03> a "Planning Application" ;
+    dissision:hasDecisionDate "29/05/2003" ;
+    sub:dateSubmitted "28/01/2003" ;
+    geo:ward "BESWCK" ;
+    vcard:hasstreetaddress """Land bounded by Rochdale Canal,
+Ashton Canal, Weybridge Road
+and Woodward Road,
+Ancoats
+""" .
+
+<https://gmdsp-admin.publishmydata.com/id/Planning/067337/OO/SOUTH1/03> a "Planning Application" ;
+    dissision:hasDecisionDate "21/05/2003" ;
+    sub:dateSubmitted "20/02/2003" ;
+    geo:ward "OLDMT" ;
+    vcard:hasstreetaddress """Land at 396, Wilmslow Road,
+Withington
+""" .
+
+<https://gmdsp-admin.publishmydata.com/id/Planning/067581/MO/SOUTH2/03> a "Planning Application" ;
+    dissision:hasDecisionDate "04/09/2003" ;
+    sub:dateSubmitted "18/08/2003" ;
+    geo:ward "BARLOW" ;
+    vcard:hasstreetaddress """Phase 3 Residential Site On Part Of Former Withington Hospital, Part Fronting Cavendish Road And Part Fronting Previously Approved Access Road.
+Withington
+""" .
+
+<https://gmdsp-admin.publishmydata.com/id/Planning/067649/MO/NORTH2/03> a "Planning Application" ;
+    dissision:hasDecisionDate "29/06/2003" ;
+    sub:dateSubmitted "31/03/2003" ;
+    geo:ward "BRADFD" ;
+    vcard:hasstreetaddress """East Beswick Development Area,
+Phase One adjacent to
+Ashton Old Road,
+Beswick
+""" .
+
+<https://gmdsp-admin.publishmydata.com/id/Planning/067802/MO/2003/N1> a "Planning Application" ;
+    dissision:hasDecisionDate "23/05/2003" ;
+    sub:dateSubmitted "22/04/2003" ;
+    geo:ward "CHARLS" ;
+    vcard:hasstreetaddress """Land Off Slack Road 
+Blackley   
+""" .
+
+<https://gmdsp-admin.publishmydata.com/id/Planning/067947/OO/2003/S2> a "Planning Application" ;
+    dissision:hasDecisionDate "09/09/2003" ;
+    sub:dateSubmitted "01/05/2003" ;
+    geo:ward "SHRSTN" ;
+    vcard:hasstreetaddress """Plot 7 Sharston Green
+Altrincham Road
+Sharston""" .
+
+<https://gmdsp-admin.publishmydata.com/id/Planning/067949/OO/2003/S2> a "Planning Application" ;
+    dissision:hasDecisionDate "09/09/2003" ;
+    sub:dateSubmitted "01/05/2003" ;
+    geo:ward "SHRSTN" ;
+    vcard:hasstreetaddress """Zone 3
+Sharston Green
+Altrincham Road
+Sharston
+Sharston""" .
+
+<https://gmdsp-admin.publishmydata.com/id/Planning/067950/OO/2003/S1> a "Planning Application" ;
+    dissision:hasDecisionDate "24/07/2003" ;
+    sub:dateSubmitted "09/05/2003" ;
+    geo:ward "WTHGTN" ;
+    vcard:hasstreetaddress """St Johns Ambulance HQ
+Egerton Road
+Fallowfield
+""" .
+
+<https://gmdsp-admin.publishmydata.com/id/Planning/068233/OO/2003/S2> a "Planning Application" ;
+    dissision:hasDecisionDate "05/04/2004" ;
+    sub:dateSubmitted "10/06/2003" ;
+    geo:ward "DIDSBY" ;
+    vcard:hasstreetaddress """Texaco Service Station
+Wilmslow Road
+East Didsbury
+""" .
+
+<https://gmdsp-admin.publishmydata.com/id/Planning/068295/OO/2003/C3> a "Planning Application" ;
+    dissision:hasDecisionDate "23/10/2003" ;
+    sub:dateSubmitted "23/09/2003" ;
+    geo:ward "CENTRL" ;
+    vcard:hasstreetaddress """Site Of Former Laystall House
+Laystall Street
+City""" .
+
+<https://gmdsp-admin.publishmydata.com/id/Planning/068406/OO/2003/S1> a "Planning Application" ;
+    dissision:hasDecisionDate "23/10/2003" ;
+    sub:dateSubmitted "04/06/2003" ;
+    geo:ward "WRANGE" ;
+    vcard:hasstreetaddress """153-155 Upper Chorlton Road
+Chorlton""" .
+
+<https://gmdsp-admin.publishmydata.com/id/Planning/068410/MO/2003/C3> a "Planning Application" ;
+    dissision:hasDecisionDate "24/03/2004" ;
+    sub:dateSubmitted "03/02/2004" ;
+    geo:ward "CENTRL" ;
+    vcard:hasstreetaddress """Land Bounded By Dale Street/Ducie Street/The Rochdale Canal
+City""" .
+
+<https://gmdsp-admin.publishmydata.com/id/Planning/068435/MO/2003/N1> a "Planning Application" ;
+    dissision:hasDecisionDate "27/10/2003" ;
+    sub:dateSubmitted "23/06/2003" ;
+    geo:ward "BLAKLY" ;
+    vcard:hasstreetaddress """Land At EastlandsEstate
+Off Eastlands Road
+Blackley""" .
+
+<https://gmdsp-admin.publishmydata.com/id/Planning/068628/FU/2003/S2> a "Planning Application" ;
+    dissision:hasDecisionDate "13/10/2003" ;
+    sub:dateSubmitted "21/07/2003" ;
+    geo:ward "BRKLDS" ;
+    vcard:hasstreetaddress """Normanhurst Hotel And
+201 Brooklands Road
+Brooklands
+""" .
+
+<https://gmdsp-admin.publishmydata.com/id/Planning/068632/FU/2003/S1> a "Planning Application" ;
+    dissision:hasDecisionDate "31/10/2003" ;
+    sub:dateSubmitted "14/08/2003" ;
+    geo:ward "OLDMT" ;
+    vcard:hasstreetaddress """9/11 Mauldeth Road West
+Withington
+""" .
+
+<https://gmdsp-admin.publishmydata.com/id/Planning/068769/FO/2003/N1> a "Planning Application" ;
+    dissision:hasDecisionDate "17/11/2003" ;
+    sub:dateSubmitted "10/09/2003" ;
+    geo:ward "NEWTON" ;
+    vcard:hasstreetaddress """Culcheth Lane
+Newton Heath
+""" .
+
+<https://gmdsp-admin.publishmydata.com/id/Planning/068805/OO/2003/S1> a "Planning Application" ;
+    dissision:hasDecisionDate "26/08/2003" ;
+    sub:dateSubmitted "15/07/2003" ;
+    geo:ward "CHRLTN" ;
+    vcard:hasstreetaddress """548A/550B Wilbraham Road
+Chorlton""" .
+
+<https://gmdsp-admin.publishmydata.com/id/Planning/068834/FU/2003/S2> a "Planning Application" ;
+    dissision:hasDecisionDate "04/12/2003" ;
+    sub:dateSubmitted "31/07/2003" ;
+    geo:ward "DIDSBY" ;
+    vcard:hasstreetaddress """Cairncroft 
+Holme Road
+Didsbury
+""" .
+
+<https://gmdsp-admin.publishmydata.com/id/Planning/069265/OO/2003/N1> a "Planning Application" ;
+    dissision:hasDecisionDate "09/02/2004" ;
+    sub:dateSubmitted "11/12/2003" ;
+    geo:ward "CHETHM" ;
+    vcard:hasstreetaddress """The Rubber Works
+Dantzic Street
+Cheetham
+""" .
+
+<https://gmdsp-admin.publishmydata.com/id/Planning/069274/OO/2003/S1> a "Planning Application" ;
+    dissision:hasDecisionDate "03/12/2003" ;
+    sub:dateSubmitted "01/09/2003" ;
+    geo:ward "WRANGE" ;
+    vcard:hasstreetaddress """145/147 Upper Chorlton Road
+Whalley Range""" .
+
+<https://gmdsp-admin.publishmydata.com/id/Planning/069358/MO/2003/S2> a "Planning Application" ;
+    dissision:hasDecisionDate "26/11/2003" ;
+    sub:dateSubmitted "05/09/2003" ;
+    geo:ward "WOODPK" ;
+    vcard:hasstreetaddress """Former William Temple Parish Hall
+Cornishway
+Wythenshawe""" .
+
+<https://gmdsp-admin.publishmydata.com/id/Planning/069418/OO/2003/N1> a "Planning Application" ;
+    dissision:hasDecisionDate "16/12/2003" ;
+    sub:dateSubmitted "22/10/2003" ;
+    geo:ward "MOSTON" ;
+    vcard:hasstreetaddress """Moston Mill 
+Blandford Drive
+Moston
+""" .
+
+<https://gmdsp-admin.publishmydata.com/id/Planning/069565/OO/2003/S2> a "Planning Application" ;
+    dissision:hasDecisionDate "14/04/2004" ;
+    sub:dateSubmitted "09/10/2003" ;
+    geo:ward "DIDSBY" ;
+    vcard:hasstreetaddress """Texaco Service Station
+Wilmslow Road
+East Didsbury""" .
+
+<https://gmdsp-admin.publishmydata.com/id/Planning/069777/OO/2003/S1> a "Planning Application" ;
+    dissision:hasDecisionDate "23/06/2004" ;
+    sub:dateSubmitted "24/10/2003" ;
+    geo:ward "OLDMT" ;
+    vcard:hasstreetaddress """Land At 396 Wilmslow Road 
+Withington""" .
+
+<https://gmdsp-admin.publishmydata.com/id/Planning/069806/OO/2003/N1> a "Planning Application" ;
+    dissision:hasDecisionDate "12/02/2004" ;
+    sub:dateSubmitted "27/10/2003" ;
+    geo:ward "CENTRL" ;
+    vcard:hasstreetaddress """47/59 Rochdale Road
+Ancoats
+""" .
+
+<https://gmdsp-admin.publishmydata.com/id/Planning/069969/OO/2003/N1> a "Planning Application" ;
+    dissision:hasDecisionDate "04/02/2005" ;
+    sub:dateSubmitted "27/10/2003" ;
+    geo:ward "CENTRL" ;
+    vcard:hasstreetaddress """Cable Street
+Ancoats""" .
+
+<https://gmdsp-admin.publishmydata.com/id/Planning/070119/MO/2003/N2> a "Planning Application" ;
+    dissision:hasDecisionDate "19/01/2004" ;
+    sub:dateSubmitted "24/11/2003" ;
+    geo:ward "BESWCK" ;
+    vcard:hasstreetaddress """Site Bound By Harrison Street To The North/ Snell Street To The East Located  Behind The Vulcan Works Off Pollard Street/ 
+Ancoats""" .
+
+<https://gmdsp-admin.publishmydata.com/id/Planning/070143/OO/2003/N1> a "Planning Application" ;
+    dissision:hasDecisionDate "19/08/2004" ;
+    sub:dateSubmitted "13/02/2004" ;
+    geo:ward "CRMPSL" ;
+    vcard:hasstreetaddress """Corner Of Bury Old Road
+Middleton Road
+Crumpsall""" .
+
+<https://gmdsp-admin.publishmydata.com/id/Planning/070166/FU/2003/C2> a "Planning Application" ;
+    dissision:hasDecisionDate "15/04/2004" ;
+    sub:dateSubmitted "26/01/2004" ;
+    geo:ward "CENTRL" ;
+    vcard:hasstreetaddress """Grafton Hotel
+50-60 Grafton Street""" .
+
+<https://gmdsp-admin.publishmydata.com/id/Planning/070388/MO/2003/C3> a "Planning Application" ;
+    dissision:hasDecisionDate "05/01/2005" ;
+    sub:dateSubmitted "05/01/2004" ;
+    geo:ward "CITY" ;
+    vcard:hasstreetaddress """Piccadilly Triangle Site
+Bounded By Aytoun Street/Auburn Street And London Road
+City""" .
+
+<https://gmdsp-admin.publishmydata.com/id/Planning/070550/TPO/2004/S2> a "Planning Application" ;
+    dissision:hasDecisionDate "28/01/2004" ;
+    sub:dateSubmitted "09/01/2004" ;
+    geo:ward "DIDSBY" ;
+    vcard:hasstreetaddress """Beechwood Court
+Holme Road
+Didsbury""" .
+
+<https://gmdsp-admin.publishmydata.com/id/Planning/070784/OO/2004/N1> a "Planning Application" ;
+    dissision:hasDecisionDate "19/11/2004" ;
+    sub:dateSubmitted "02/03/2004" ;
+    geo:ward "CENTRL" ;
+    vcard:hasstreetaddress """Land At Oldham Road
+Between Addington Street And Marshall Street
+Ancoats""" .
+
+<https://gmdsp-admin.publishmydata.com/id/Planning/070797/OO/2004/C3> a "Planning Application" ;
+    dissision:hasDecisionDate "11/10/2004" ;
+    sub:dateSubmitted "15/04/2004" ;
+    geo:ward "CITY" ;
+    vcard:hasstreetaddress """Land Bounded By Chapeltown Street
+Congou Street And Baird Street
+City""" .
+
+<https://gmdsp-admin.publishmydata.com/id/Planning/070882/LO/2004/N1> a "Planning Application" ;
+    dissision:hasDecisionDate "10/09/2004" ;
+    sub:dateSubmitted "19/07/2004" ;
+    geo:ward "ANCCLY" ;
+    vcard:hasstreetaddress """Parkers Hotel
+Corporation Street
+""" .
+
+<https://gmdsp-admin.publishmydata.com/id/Planning/070929/OO/2004/N1> a "Planning Application" ;
+    dissision:hasDecisionDate "17/09/2004" ;
+    sub:dateSubmitted "19/02/2004" ;
+    geo:ward "CENTRL" ;
+    vcard:hasstreetaddress """Peary Street
+Off Rochdale Road
+Harpurhey""" .
+
+<https://gmdsp-admin.publishmydata.com/id/Planning/071001/OO/2004/S2> a "Planning Application" ;
+    dissision:hasDecisionDate "15/06/2004" ;
+    sub:dateSubmitted "08/03/2004" ;
+    geo:ward "BARLOW" ;
+    vcard:hasstreetaddress """Brookside
+240/244 Palatine Road
+Northenden""" .
+
+<https://gmdsp-admin.publishmydata.com/id/Planning/071271/LO/2004/C3> a "Planning Application" ;
+    dissision:hasDecisionDate "21/01/2005" ;
+    sub:dateSubmitted "26/11/2004" ;
+    geo:ward "CITY" ;
+    vcard:hasstreetaddress """53 To 55 (Langley Buildings) Dale Street
+And 57 (Industry House) Dale Street
+City""" .
+
+<https://gmdsp-admin.publishmydata.com/id/Planning/071379/OO/2004/N2> a "Planning Application" ;
+    dissision:hasDecisionDate "03/06/2004" ;
+    sub:dateSubmitted "27/04/2004" ;
+    geo:ward "LONGST" ;
+    vcard:hasstreetaddress """20 To 46 (evens) Tallis St, 41 To 45 (odds)
+Patey St. And 1 To 15 (odds) Santley St.
+Longsight""" .
+
+<https://gmdsp-admin.publishmydata.com/id/Planning/071380/OO/2004/N2> a "Planning Application" ;
+    dissision:hasDecisionDate "02/06/2004" ;
+    sub:dateSubmitted "27/04/2004" ;
+    geo:ward "LONGST" ;
+    vcard:hasstreetaddress """1 To 15 (odds) Mackenzie Street/1 To 5 (inc) Tallis Street/1 To 6 (inc) Patey Street/2 To 6 (evens) And 1 To 11 (odds) Sherrington Street
+Longsight""" .
+
+<https://gmdsp-admin.publishmydata.com/id/Planning/071384/OO/2004/N1> a "Planning Application" ;
+    dissision:hasDecisionDate "15/12/2004" ;
+    sub:dateSubmitted "14/04/2004" ;
+    geo:ward "CENTRL" ;
+    vcard:hasstreetaddress """10/12 Rochdale Road/ 56 Marshall Street/ County Records Office/ 46 Marshall Street And 45 Goulden Street
+Ancoats""" .
+
+<https://gmdsp-admin.publishmydata.com/id/Planning/071660/OO/2004/N2> a "Planning Application" ;
+    dissision:hasDecisionDate "16/08/2004" ;
+    sub:dateSubmitted "21/05/2004" ;
+    geo:ward "GORNTH" ;
+    vcard:hasstreetaddress """367/395 Hyde Road
+Gorton""" .
+
+<https://gmdsp-admin.publishmydata.com/id/Planning/071724/OO/2004/N2> a "Planning Application" ;
+    dissision:hasDecisionDate "19/11/2004" ;
+    sub:dateSubmitted "24/05/2004" ;
+    geo:ward "ANCCLY" ;
+    vcard:hasstreetaddress """Land Bounded By Stuart Street/ Ashton Canal/ Cavendish Place
+Beswick""" .
+
+<https://gmdsp-admin.publishmydata.com/id/Planning/071885/OO/2004/N2> a "Planning Application" ;
+    dissision:hasDecisionDate "22/12/2004" ;
+    sub:dateSubmitted "08/06/2004" ;
+    geo:ward "BRADFD" ;
+    vcard:hasstreetaddress """Land Bounded By Ashton Old Road
+Greenside Street Compass Street And South Street 
+Bradford""" .
+
+<https://gmdsp-admin.publishmydata.com/id/Planning/073087/OO/2004/N1> a "Planning Application" ;
+    dissision:hasDecisionDate "09/08/2005" ;
+    sub:dateSubmitted "07/12/2004" ;
+    geo:ward "CRMPSL" ;
+    vcard:hasstreetaddress """Corner Of Bury Old Road/Middleton Road
+Crumpsall""" .
+
+<https://gmdsp-admin.publishmydata.com/id/Planning/073232/OO/2004/N1> a "Planning Application" ;
+    dissision:hasDecisionDate "22/12/2004" ;
+    sub:dateSubmitted "25/10/2004" ;
+    geo:ward "HARPHY" ;
+    vcard:hasstreetaddress """Land To Rear Of And Adjacent To
+874 Rochdale Road 
+Blackley""" .
+
+<https://gmdsp-admin.publishmydata.com/id/Planning/074201/OO/2004/N1> a "Planning Application" ;
+    dissision:hasDecisionDate "23/03/2005" ;
+    sub:dateSubmitted "31/12/2004" ;
+    geo:ward "MLSNEW" ;
+    vcard:hasstreetaddress """Land At Oldham Road Adjacent To MacDonalds Restaurant
+Newton Heath""" .
+
+<https://gmdsp-admin.publishmydata.com/id/Planning/074230/OO/2004/N2> a "Planning Application" ;
+    dissision:hasDecisionDate "11/05/2005" ;
+    sub:dateSubmitted "18/02/2005" ;
+    geo:ward "BRADFD" ;
+    vcard:hasstreetaddress """Great Ancoats Street / Old Mill Street
+Ancoats""" .
+
+<https://gmdsp-admin.publishmydata.com/id/Planning/074231/OO/2004/N2> a "Planning Application" ;
+    dissision:hasDecisionDate "12/05/2005" ;
+    sub:dateSubmitted "18/02/2005" ;
+    geo:ward "BRADFD" ;
+    vcard:hasstreetaddress """Great Ancoats Street / Old Mill Street
+Ancoats""" .
+
+<https://gmdsp-admin.publishmydata.com/id/Planning/074706/MO/2005/N2> a "Planning Application" ;
+    dissision:hasDecisionDate "07/10/2005" ;
+    sub:dateSubmitted "01/03/2005" ;
+    geo:ward "ARDWCK" ;
+    vcard:hasstreetaddress """Junction Of
+Plymouth Grove/Upper Brook Street
+Ardwick""" .
+
+<https://gmdsp-admin.publishmydata.com/id/Planning/075557/MO/2005/S1> a "Planning Application" ;
+    dissision:hasDecisionDate "17/08/2005" ;
+    sub:dateSubmitted "17/05/2005" ;
+    geo:ward "CHOPRK" ;
+    vcard:hasstreetaddress """Didsbury Point Phase 4 Part Of Former Withington Hospital Site Off Cavendish Road
+West Didsbury
+
+""" .
+
+<https://gmdsp-admin.publishmydata.com/id/Planning/075578/OO/2005/N2> a "Planning Application" ;
+    dissision:hasDecisionDate "24/10/2005" ;
+    sub:dateSubmitted "10/10/2005" ;
+    geo:ward "ARDWCK" ;
+    vcard:hasstreetaddress """SIte At Hyde Road/Clewes Street/Haverford Street
+Ardwick""" .
+
+<https://gmdsp-admin.publishmydata.com/id/Planning/075937/OO/2005/S1> a "Planning Application" ;
+    dissision:hasDecisionDate "24/02/2006" ;
+    sub:dateSubmitted "09/06/2005" ;
+    geo:ward "CHRLTN" ;
+    vcard:hasstreetaddress """12 Edge Lane
+Chorlton""" .
+
+<https://gmdsp-admin.publishmydata.com/id/Planning/076147/OO/2005/S2> a "Planning Application" ;
+    dissision:hasDecisionDate "16/01/2006" ;
+    sub:dateSubmitted "01/09/2005" ;
+    geo:ward "WOODPK" ;
+    vcard:hasstreetaddress """2 Cunningham Drive
+Woodhouse Park""" .
+
+<https://gmdsp-admin.publishmydata.com/id/Planning/076557/OO/2005/N1> a "Planning Application" ;
+    dissision:hasDecisionDate "07/03/2006" ;
+    sub:dateSubmitted "13/09/2005" ;
+    geo:ward "HARPHY" ;
+    vcard:hasstreetaddress """Land Including And Adjacent To
+Rear Of Golden Lion Public House
+Rochdale Road
+Harpurhey""" .
+
+<https://gmdsp-admin.publishmydata.com/id/Planning/076626/OO/2005/N1> a "Planning Application" ;
+    dissision:hasDecisionDate "23/11/2005" ;
+    sub:dateSubmitted "25/08/2005" ;
+    geo:ward "MLSNEW" ;
+    vcard:hasstreetaddress """Land At Oldham Road Adjacent To McDonalds
+Newton Heath""" .
+
+<https://gmdsp-admin.publishmydata.com/id/Planning/076801/OO/2005/S2> a "Planning Application" ;
+    dissision:hasDecisionDate "03/11/2005" ;
+    sub:dateSubmitted "13/09/2005" ;
+    geo:ward "WOODPK" ;
+    vcard:hasstreetaddress """Land Bounded By Trenchard Drive And Styal Road
+Woodhouse Park""" .
+
+<https://gmdsp-admin.publishmydata.com/id/Planning/077268/OO/2005/S2> a "Planning Application" ;
+    dissision:hasDecisionDate "19/04/2006" ;
+    sub:dateSubmitted "21/10/2005" ;
+    geo:ward "WOODPK" ;
+    vcard:hasstreetaddress """Land Adjacent To Runger Lane
+Off Wilmslow Road
+Woodhouse Park""" .
+
+<https://gmdsp-admin.publishmydata.com/id/Planning/077297/OO/2005/N2> a "Planning Application" ;
+    dissision:hasDecisionDate "04/12/2006" ;
+    sub:dateSubmitted "17/10/2005" ;
+    geo:ward "ARDWCK" ;
+    vcard:hasstreetaddress """Land At Hathersage Road/Carmoor Road
+Chorlton On Medlock""" .
+
+<https://gmdsp-admin.publishmydata.com/id/Planning/077302/OO/2005/N2> a "Planning Application" ;
+    dissision:hasDecisionDate "03/02/2006" ;
+    sub:dateSubmitted "04/11/2005" ;
+    geo:ward "ANCCLY" ;
+    vcard:hasstreetaddress """Land At Bristowe Street
+Clayton""" .
+
+<https://gmdsp-admin.publishmydata.com/id/Planning/077325/OO/2005/N1> a "Planning Application" ;
+    dissision:hasDecisionDate "31/08/2006" ;
+    sub:dateSubmitted "06/01/2006" ;
+    geo:ward "ANCCLY" ;
+    vcard:hasstreetaddress """Oakglade Development At Mason Street/Cable Street
+Mason Street
+Ancoats
+Manchester
+
+""" .
+
+<https://gmdsp-admin.publishmydata.com/id/Planning/077491/OO/2005/S2> a "Planning Application" ;
+    dissision:hasDecisionDate "19/04/2006" ;
+    sub:dateSubmitted "10/11/2005" ;
+    geo:ward "BRKLDS" ;
+    vcard:hasstreetaddress """149 Brooklands Road
+Brooklands""" .
+
+<https://gmdsp-admin.publishmydata.com/id/Planning/077685/OO/2005/N1> a "Planning Application" ;
+    dissision:hasDecisionDate "24/05/2006" ;
+    sub:dateSubmitted "22/02/2006" ;
+    geo:ward "CHETHM" ;
+    vcard:hasstreetaddress """Land At Dantzic Street
+Cheetham
+Manchester
+
+""" .
+
+<https://gmdsp-admin.publishmydata.com/id/Planning/078081/OO/2005/N1> a "Planning Application" ;
+    dissision:hasDecisionDate "15/03/2006" ;
+    sub:dateSubmitted "23/12/2005" ;
+    geo:ward "HARPHY" ;
+    vcard:hasstreetaddress """Junction Of Moston Lane/Gill Street
+Moston
+""" .
+
+<https://gmdsp-admin.publishmydata.com/id/Planning/078712/OO/2006/N2> a "Planning Application" ;
+    dissision:hasDecisionDate "14/07/2006" ;
+    sub:dateSubmitted "18/05/2006" ;
+    geo:ward "RSHLME" ;
+    vcard:hasstreetaddress """Land Rear Of 2/ 4/ 5/ 6 The Grange And Aldwych Avenue
+Rusholme
+Manchester
+""" .
+
+<https://gmdsp-admin.publishmydata.com/id/Planning/078726/OO/2006/N2> a "Planning Application" ;
+    dissision:hasDecisionDate "28/06/2006" ;
+    sub:dateSubmitted "24/04/2006" ;
+    geo:ward "ARDWCK" ;
+    vcard:hasstreetaddress """55-65 Hathersage Road
+Longsight
+Manchester
+M13 0EW
+""" .
+
+<https://gmdsp-admin.publishmydata.com/id/Planning/078851/OO/2006/C1> a "Planning Application" ;
+    dissision:hasDecisionDate "31/07/2006" ;
+    sub:dateSubmitted "17/05/2006" ;
+    geo:ward "CITY" ;
+    vcard:hasstreetaddress """12 Mirabel Street
+Manchester
+M3 1PJ
+""" .
+
+<https://gmdsp-admin.publishmydata.com/id/Planning/079170/OO/2006/N2> a "Planning Application" ;
+    dissision:hasDecisionDate "14/08/2006" ;
+    sub:dateSubmitted "02/06/2006" ;
+    geo:ward "RSHLME" ;
+    vcard:hasstreetaddress """Charles Wilson Auto Engineers Site
+Wilmslow Road/Stone Place
+Rusholme""" .
+
+<https://gmdsp-admin.publishmydata.com/id/Planning/079302/MO/2006/N1> a "Planning Application" ;
+    dissision:hasDecisionDate "25/10/2006" ;
+    sub:dateSubmitted "03/08/2006" ;
+    geo:ward "MLSNEW" ;
+    vcard:hasstreetaddress """Land Off Ceylon Street
+Newton Heath
+""" .
+
+<https://gmdsp-admin.publishmydata.com/id/Planning/079504/OO/2006/S1> a "Planning Application" ;
+    dissision:hasDecisionDate "01/11/2006" ;
+    sub:dateSubmitted "20/07/2006" ;
+    geo:ward "HULME" ;
+    vcard:hasstreetaddress """Land And Premises At Coupland Street/Boundary Lane/Burlington Street
+Hulme
+Manchester
+M15 6HN
+""" .
+
+<https://gmdsp-admin.publishmydata.com/id/Planning/079510/OO/2006/S1> a "Planning Application" ;
+    dissision:hasDecisionDate "01/11/2006" ;
+    sub:dateSubmitted "20/07/2006" ;
+    geo:ward "HULME" ;
+    vcard:hasstreetaddress """Land/Premises At Coupland Street/Boundary Lane/Burlington Street
+Hulme
+Manchester
+M15 6HN
+""" .
+
+<https://gmdsp-admin.publishmydata.com/id/Planning/080086/OO/2006/N2> a "Planning Application" ;
+    dissision:hasDecisionDate "28/12/2006" ;
+    sub:dateSubmitted "22/08/2006" ;
+    geo:ward "ARDWCK" ;
+    vcard:hasstreetaddress """Site At Hyde Road/ Clowes Street
+Gorton""" .
+
+<https://gmdsp-admin.publishmydata.com/id/Planning/080188/OO/2006/N1> a "Planning Application" ;
+    dissision:hasDecisionDate "16/01/2008" ;
+    sub:dateSubmitted "04/05/2007" ;
+    geo:ward "HARPHY" ;
+    vcard:hasstreetaddress """Junction Of Moston Lane/Gill Street
+Moston
+""" .
+
+<https://gmdsp-admin.publishmydata.com/id/Planning/080204/JO/2006/C3> a "Planning Application" ;
+    dissision:hasDecisionDate "09/10/2006" ;
+    sub:dateSubmitted "14/08/2006" ;
+    geo:ward "CITY" ;
+    vcard:hasstreetaddress """Part Of Car Park Between Owen Street And The River Medlock
+City
+
+""" .
+
+<https://gmdsp-admin.publishmydata.com/id/Planning/080224/JO/2006/C3> a "Planning Application" ;
+    dissision:hasDecisionDate "09/10/2006" ;
+    sub:dateSubmitted "14/08/2006" ;
+    geo:ward "CITY" ;
+    vcard:hasstreetaddress """Land Bounded By Owen Street/Chester Road And The River Medlock
+City
+""" .
+
+<https://gmdsp-admin.publishmydata.com/id/Planning/080388/MO/2006/N1> a "Planning Application" ;
+    dissision:hasDecisionDate "28/12/2006" ;
+    sub:dateSubmitted "27/11/2006" ;
+    geo:ward "CHETHM" ;
+    vcard:hasstreetaddress "Land Off Hazelbottom Road, Blackley" .
+
+<https://gmdsp-admin.publishmydata.com/id/Planning/080813/MO/2006/N2> a "Planning Application" ;
+    dissision:hasDecisionDate "11/12/2006" ;
+    sub:dateSubmitted "18/10/2006" ;
+    geo:ward "BRADFD" ;
+    vcard:hasstreetaddress """434 Ashton Old Road
+Bradford
+Manchester
+M11 2DT
+""" .
+
+<https://gmdsp-admin.publishmydata.com/id/Planning/080841/JO/2006/N2> a "Planning Application" ;
+    dissision:hasDecisionDate "30/05/2007" ;
+    sub:dateSubmitted "29/11/2006" ;
+    geo:ward "ARDWCK" ;
+    vcard:hasstreetaddress """Junction Of Plymouth Grove And Upper Brook Street
+Ardwick""" .
+
+<https://gmdsp-admin.publishmydata.com/id/Planning/081182/OO/2006/N1> a "Planning Application" ;
+    dissision:hasDecisionDate "16/05/2007" ;
+    sub:dateSubmitted "15/02/2007" ;
+    geo:ward "CHETHM" ;
+    vcard:hasstreetaddress """20 Lord Street
+Cheetham
+Manchester
+M4 4FP
+""" .
+
+<https://gmdsp-admin.publishmydata.com/id/Planning/081303/MO/2006/N1> a "Planning Application" ;
+    dissision:hasDecisionDate "15/03/2007" ;
+    sub:dateSubmitted "23/11/2006" ;
+    geo:ward "MLSNEW" ;
+    vcard:hasstreetaddress """1169 Oldham Road
+Manchester
+M40 2FU
+""" .
+
+<https://gmdsp-admin.publishmydata.com/id/Planning/081549/MO/2006/N1> a "Planning Application" ;
+    dissision:hasDecisionDate "30/05/2007" ;
+    sub:dateSubmitted "28/02/2007" ;
+    geo:ward "ANCCLY" ;
+    vcard:hasstreetaddress """36 New Mount Street
+Ancoats
+Manchester
+M4 4DE
+""" .
+
+<https://gmdsp-admin.publishmydata.com/id/Planning/081760/MO/2006/N1> a "Planning Application" ;
+    dissision:hasDecisionDate "20/09/2007" ;
+    sub:dateSubmitted "07/03/2007" ;
+    geo:ward "CRMPSL" ;
+    vcard:hasstreetaddress """Avecia Chemical Works
+Old Market Street
+Blackley""" .
+
+<https://gmdsp-admin.publishmydata.com/id/Planning/082391/OO/2007/N2> a "Planning Application" ;
+    dissision:hasDecisionDate "09/07/2007" ;
+    sub:dateSubmitted "16/03/2007" ;
+    geo:ward "ARDWCK" ;
+    vcard:hasstreetaddress """Site At Hyde Road/Clowes Street
+Gorton""" .
+
+<https://gmdsp-admin.publishmydata.com/id/Planning/082395/OO/2007/N1> a "Planning Application" ;
+    dissision:hasDecisionDate "18/06/2007" ;
+    sub:dateSubmitted "19/03/2007" ;
+    geo:ward "HARPHY" ;
+    vcard:hasstreetaddress """227 Lightbowne Road
+Moston
+Manchester
+M40 9DD
+""" .
+
+<https://gmdsp-admin.publishmydata.com/id/Planning/082589/OO/2007/N1> a "Planning Application" ;
+    dissision:hasDecisionDate "19/05/2010" ;
+    sub:dateSubmitted "27/12/2007" ;
+    geo:ward "HARPHY" ;
+    vcard:hasstreetaddress """Allotments At 1 Pleasant Street/Harpurhey Road And  Land Adjacent To 759-761 Rochdale Road (corner Of Pleasant Street) 
+Harpurhey
+Manchester
+M9 5XD
+""" .
+
+<https://gmdsp-admin.publishmydata.com/id/Planning/083043/OO/2007/N1> a "Planning Application" ;
+    dissision:hasDecisionDate "13/02/2008" ;
+    sub:dateSubmitted "26/06/2007" ;
+    geo:ward "CHETHM" ;
+    vcard:hasstreetaddress """38/40 & 42 Dalton Street
+Cheetham
+Manchester
+M4 4JN
+""" .
+
+<https://gmdsp-admin.publishmydata.com/id/Planning/083555/MO/2007/N1> a "Planning Application" ;
+    dissision:hasDecisionDate "09/11/2007" ;
+    sub:dateSubmitted "28/08/2007" ;
+    geo:ward "CRMPSL" ;
+    vcard:hasstreetaddress """Land West Of Waterloo Street And Celia Street
+Cheetham""" .
+
+<https://gmdsp-admin.publishmydata.com/id/Planning/084697/OO/2007/S1> a "Planning Application" ;
+    dissision:hasDecisionDate "19/02/2008" ;
+    sub:dateSubmitted "24/10/2007" ;
+    geo:ward "OLDMT" ;
+    vcard:hasstreetaddress """396 Wilmslow Road
+Withington
+Manchester
+M20 3BN""" .
+
+<https://gmdsp-admin.publishmydata.com/id/Planning/085309/OO/2007/N2> a "Planning Application" ;
+    dissision:hasDecisionDate "02/10/2012" ;
+    sub:dateSubmitted "28/01/2008" ;
+    geo:ward "BRADFD" ;
+    vcard:hasstreetaddress """Land In And Around The Lower Medlock Valley,  Bounded By Ashton Old Road/ Great Ancoats Street/ Every Street/ Ashton New Road/ Holly Street
+Bradford
+Manchester
+M4 7DN""" .
+
+<https://gmdsp-admin.publishmydata.com/id/Planning/086042/OO/2008/C2> a "Planning Application" ;
+    dissision:hasDecisionDate "10/04/2013" ;
+    sub:dateSubmitted "05/03/2008" ;
+    geo:ward "CITY" ;
+    vcard:hasstreetaddress """Land Bounded By Fairfield Street, Ashton Old Road And Railway Viaducts
+Ardwick/City Centre
+Manchester
+""" .
 
