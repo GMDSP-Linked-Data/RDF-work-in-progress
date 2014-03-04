@@ -83,6 +83,11 @@
     schema:height "12.000000" ;
     ns1:hasstreetaddress "ALAN TURING WAY" .
 
+[] spacial:easting "381976.590000" ;
+    spacial:northing "393122.230000" ;
+    schema:height "5.000000" ;
+    ns1:hasstreetaddress "BARLOW MOOR ROAD" .
+
 [] spacial:easting "384223.060000" ;
     spacial:northing "395572.590000" ;
     schema:height "6.000000" ;
@@ -148,10 +153,20 @@
     schema:height "6.000000" ;
     ns1:hasstreetaddress "BALMAIN AVENUE" .
 
+[] spacial:easting "388952.060000" ;
+    spacial:northing "402076.660000" ;
+    schema:height "6.000000" ;
+    ns1:hasstreetaddress "BARLEA AVENUE" .
+
 [] spacial:easting "384123.440000" ;
     spacial:northing "395305.130000" ;
     schema:height "6.000000" ;
     ns1:hasstreetaddress "ALISON STREET" .
+
+[] spacial:easting "384735.250000" ;
+    spacial:northing "389445.080000" ;
+    schema:height "6.000000" ;
+    ns1:hasstreetaddress "BANKSIDE ROAD" .
 
 [] spacial:easting "387221.380000" ;
     spacial:northing "398165.810000" ;
@@ -468,6 +483,11 @@
     schema:height "8.000000" ;
     ns1:hasstreetaddress "BAIRD STREET" .
 
+[] spacial:easting "386467.840000" ;
+    spacial:northing "399084.910000" ;
+    schema:height "8.000000" ;
+    ns1:hasstreetaddress "BARKING STREET" .
+
 [] spacial:easting "382949.000000" ;
     spacial:northing "388831.690000" ;
     schema:height "6.000000" ;
@@ -692,6 +712,16 @@
     spacial:northing "388372.940000" ;
     schema:height "6.000000" ;
     ns1:hasstreetaddress "ATLOW DRIVE" .
+
+[] spacial:easting "382758.870000" ;
+    spacial:northing "388373.840000" ;
+    schema:height "8.000000" ;
+    ns1:hasstreetaddress "BENCHILL ROAD" .
+
+[] spacial:easting "381954.000000" ;
+    spacial:northing "393167.910000" ;
+    schema:height "5.000000" ;
+    ns1:hasstreetaddress "BARLOW MOOR ROAD" .
 
 [] spacial:easting "380504.560000" ;
     spacial:northing "390375.380000" ;
@@ -1033,6 +1063,11 @@
     schema:height "10.000000" ;
     ns1:hasstreetaddress "ASHTON NEW ROAD" .
 
+[] spacial:easting "382648.330000" ;
+    spacial:northing "388393.450000" ;
+    schema:height "8.000000" ;
+    ns1:hasstreetaddress "BENCHILL ROAD" .
+
 [] spacial:easting "389229.810000" ;
     spacial:northing "397063.440000" ;
     schema:height "1.100000" ;
@@ -1278,6 +1313,11 @@
     schema:height "6.000000" ;
     ns1:hasstreetaddress "ASHTON OLD ROAD CYCLE PATH" .
 
+[] spacial:easting "382946.380000" ;
+    spacial:northing "386366.690000" ;
+    schema:height "6.000000" ;
+    ns1:hasstreetaddress "BARDSEA AVENUE" .
+
 [] spacial:easting "383029.760000" ;
     spacial:northing "388656.600000" ;
     schema:height "6.000000" ;
@@ -1292,6 +1332,11 @@
     spacial:northing "397944.310000" ;
     schema:height "6.000000" ;
     ns1:hasstreetaddress "MALLAIG WALK" .
+
+[] spacial:easting "382635.690000" ;
+    spacial:northing "388424.080000" ;
+    schema:height "8.000000" ;
+    ns1:hasstreetaddress "BENCHILL ROAD" .
 
 [] spacial:easting "382847.340000" ;
     spacial:northing "385990.500000" ;
@@ -1352,6 +1397,11 @@
     spacial:northing "397134.630000" ;
     schema:height "6.000000" ;
     ns1:hasstreetaddress "ANTHONY CLOSE" .
+
+[] spacial:easting "382724.610000" ;
+    spacial:northing "388370.760000" ;
+    schema:height "6.000000" ;
+    ns1:hasstreetaddress "BENCHILL ROAD" .
 
 [] spacial:easting "387444.090000" ;
     spacial:northing "398437.130000" ;
@@ -1608,6 +1658,11 @@
     schema:height "10.000000" ;
     ns1:hasstreetaddress "ASHTON NEW ROAD" .
 
+[] spacial:easting "381963.640000" ;
+    spacial:northing "393145.610000" ;
+    schema:height "5.000000" ;
+    ns1:hasstreetaddress "BARLOW MOOR ROAD" .
+
 [] spacial:easting "384849.500000" ;
     spacial:northing "398801.340000" ;
     schema:height "6.000000" ;
@@ -1617,6 +1672,11 @@
     spacial:northing "398542.810000" ;
     schema:height "12.000000" ;
     ns1:hasstreetaddress "ALAN TURING WAY" .
+
+[] spacial:easting "386448.100000" ;
+    spacial:northing "399112.340000" ;
+    schema:height "8.000000" ;
+    ns1:hasstreetaddress "BARKING STREET" .
 
 [] spacial:easting "387068.000000" ;
     spacial:northing "397502.530000" ;
@@ -1662,6 +1722,11 @@
     spacial:northing "397901.410000" ;
     schema:height "10.000000" ;
     ns1:hasstreetaddress "AYTOUN STREET" .
+
+[] spacial:easting "381526.440000" ;
+    spacial:northing "387728.000000" ;
+    schema:height "6.000000" ;
+    ns1:hasstreetaddress "BARFORD WALK" .
 
 [] spacial:easting "383011.620000" ;
     spacial:northing "388661.280000" ;
@@ -1787,6 +1852,11 @@
     spacial:northing "401829.000000" ;
     schema:height "6.000000" ;
     ns1:hasstreetaddress "ATHLONE AVENUE" .
+
+[] spacial:easting "382351.490000" ;
+    spacial:northing "388659.320000" ;
+    schema:height "8.000000" ;
+    ns1:hasstreetaddress "BENCHILL ROAD" .
 
 [] spacial:easting "386217.630000" ;
     spacial:northing "398449.130000" ;
@@ -1942,6 +2012,11 @@
     spacial:northing "398072.410000" ;
     schema:height "8.000000" ;
     ns1:hasstreetaddress "ALBERT SQUARE" .
+
+[] spacial:easting "382357.940000" ;
+    spacial:northing "388693.880000" ;
+    schema:height "6.000000" ;
+    ns1:hasstreetaddress "BENCHILL ROAD" .
 
 [] spacial:easting "385996.030000" ;
     spacial:northing "398459.750000" ;
@@ -2193,6 +2268,11 @@
     schema:height "10.000000" ;
     ns1:hasstreetaddress "ASHTON NEW ROAD" .
 
+[] spacial:easting "385782.130000" ;
+    spacial:northing "401306.940000" ;
+    schema:height "6.000000" ;
+    ns1:hasstreetaddress "BARCOMBE WALK" .
+
 [] spacial:easting "383615.280000" ;
     spacial:northing "397444.000000" ;
     schema:height "5.000000" ;
@@ -2382,6 +2462,11 @@
     spacial:northing "402022.970000" ;
     schema:height "6.000000" ;
     ns1:hasstreetaddress "ASHVILLE TERRACE" .
+
+[] spacial:easting "382582.990000" ;
+    spacial:northing "388445.320000" ;
+    schema:height "8.000000" ;
+    ns1:hasstreetaddress "BENCHILL ROAD" .
 
 [] spacial:easting "383659.660000" ;
     spacial:northing "387423.720000" ;
@@ -2603,6 +2688,11 @@
     schema:height "6.000000" ;
     ns1:hasstreetaddress "SPORT CITY FOOTPATH (EAST)" .
 
+[] spacial:easting "383642.880000" ;
+    spacial:northing "391790.610000" ;
+    schema:height "5.000000" ;
+    ns1:hasstreetaddress "BARLOW MOOR ROAD" .
+
 [] spacial:easting "386401.000000" ;
     spacial:northing "398369.750000" ;
     schema:height "10.000000" ;
@@ -2632,6 +2722,11 @@
     spacial:northing "398869.500000" ;
     schema:height "6.000000" ;
     ns1:hasstreetaddress "ASHTON CANAL" .
+
+[] spacial:easting "383165.310000" ;
+    spacial:northing "397016.880000" ;
+    schema:height "8.000000" ;
+    ns1:hasstreetaddress "COLIN MURPHY ROAD" .
 
 [] spacial:easting "387545.810000" ;
     spacial:northing "401315.560000" ;
@@ -2743,6 +2838,11 @@
     schema:height "6.000000" ;
     ns1:hasstreetaddress "ARLINGTON STREET" .
 
+[] spacial:easting "385775.130000" ;
+    spacial:northing "401254.940000" ;
+    schema:height "8.000000" ;
+    ns1:hasstreetaddress "BARCOMBE WALK" .
+
 [] spacial:easting "384615.030000" ;
     spacial:northing "396007.530000" ;
     schema:height "8.000000" ;
@@ -2752,6 +2852,11 @@
     spacial:northing "398411.280000" ;
     schema:height "10.000000" ;
     ns1:hasstreetaddress "ASHTON NEW ROAD" .
+
+[] spacial:easting "382343.340000" ;
+    spacial:northing "388675.690000" ;
+    schema:height "6.000000" ;
+    ns1:hasstreetaddress "BENCHILL ROAD" .
 
 [] spacial:easting "387268.780000" ;
     spacial:northing "394155.440000" ;
@@ -2807,6 +2912,11 @@
     spacial:northing "397132.000000" ;
     schema:height "6.000000" ;
     ns1:hasstreetaddress "ANTHONY CLOSE" .
+
+[] spacial:easting "382681.140000" ;
+    spacial:northing "388397.950000" ;
+    schema:height "8.000000" ;
+    ns1:hasstreetaddress "BENCHILL ROAD" .
 
 [] spacial:easting "383775.750000" ;
     spacial:northing "398099.910000" ;
@@ -2957,6 +3067,11 @@
     spacial:northing "397790.560000" ;
     schema:height "6.000000" ;
     ns1:hasstreetaddress "ABINGDON STREET" .
+
+[] spacial:easting "382727.590000" ;
+    spacial:northing "388398.480000" ;
+    schema:height "6.000000" ;
+    ns1:hasstreetaddress "BENCHILL ROAD" .
 
 [] spacial:easting "389198.440000" ;
     spacial:northing "397025.130000" ;
@@ -3232,6 +3347,11 @@
     spacial:northing "399024.660000" ;
     schema:height "10.000000" ;
     ns1:hasstreetaddress "BANK STREET" .
+
+[] spacial:easting "386427.130000" ;
+    spacial:northing "391742.190000" ;
+    schema:height "6.000000" ;
+    ns1:hasstreetaddress "BARCICROFT ROAD" .
 
 [] spacial:easting "387023.190000" ;
     spacial:northing "398304.880000" ;
@@ -3573,6 +3693,11 @@
     schema:height "6.000000" ;
     ns1:hasstreetaddress "AMPORT WALK" .
 
+[] spacial:easting "382772.840000" ;
+    spacial:northing "388364.160000" ;
+    schema:height "6.000000" ;
+    ns1:hasstreetaddress "BENCHILL ROAD" .
+
 [] spacial:easting "387370.040000" ;
     spacial:northing "398435.060000" ;
     schema:height "10.000000" ;
@@ -3587,6 +3712,11 @@
     spacial:northing "396317.780000" ;
     schema:height "8.000000" ;
     ns1:hasstreetaddress "AQUARIUS STREET" .
+
+[] spacial:easting "382976.840000" ;
+    spacial:northing "386377.340000" ;
+    schema:height "6.000000" ;
+    ns1:hasstreetaddress "BARDSEA AVENUE" .
 
 [] spacial:easting "386617.530000" ;
     spacial:northing "398337.250000" ;
@@ -3648,15 +3778,30 @@
     schema:height "6.000000" ;
     ns1:hasstreetaddress "AVENING WALK" .
 
+[] spacial:easting "386425.410000" ;
+    spacial:northing "399144.500000" ;
+    schema:height "8.000000" ;
+    ns1:hasstreetaddress "BARKING STREET" .
+
 [] spacial:easting "385930.660000" ;
     spacial:northing "397702.280000" ;
     schema:height "6.000000" ;
     ns1:hasstreetaddress "ASHTON OLD ROAD CYCLE PATH" .
 
+[] spacial:easting "389001.340000" ;
+    spacial:northing "402187.410000" ;
+    schema:height "6.000000" ;
+    ns1:hasstreetaddress "BARLEA AVENUE" .
+
 [] spacial:easting "387213.880000" ;
     spacial:northing "397592.410000" ;
     schema:height "12.000000" ;
     ns1:hasstreetaddress "ALAN TURING WAY" .
+
+[] spacial:easting "388927.000000" ;
+    spacial:northing "402059.280000" ;
+    schema:height "6.000000" ;
+    ns1:hasstreetaddress "BARLEA AVENUE" .
 
 [] spacial:easting "387500.500000" ;
     spacial:northing "398478.500000" ;
@@ -3748,6 +3893,11 @@
     schema:height "10.000000" ;
     ns1:hasstreetaddress "ALTRINCHAM ROAD" .
 
+[] spacial:easting "382005.320000" ;
+    spacial:northing "393076.620000" ;
+    schema:height "5.000000" ;
+    ns1:hasstreetaddress "BARLOW MOOR ROAD" .
+
 [] spacial:easting "388640.630000" ;
     spacial:northing "400681.840000" ;
     schema:height "6.000000" ;
@@ -3807,6 +3957,11 @@
     spacial:northing "396411.940000" ;
     schema:height "6.000000" ;
     ns1:hasstreetaddress "ACADEMY WALK" .
+
+[] spacial:easting "382021.070000" ;
+    spacial:northing "393055.190000" ;
+    schema:height "5.000000" ;
+    ns1:hasstreetaddress "BARLOW MOOR ROAD" .
 
 [] spacial:easting "383570.000000" ;
     spacial:northing "400538.130000" ;
@@ -3893,6 +4048,11 @@
     schema:height "6.000000" ;
     ns1:hasstreetaddress "AYLESBY AVENUE" .
 
+[] spacial:easting "381508.500000" ;
+    spacial:northing "387753.310000" ;
+    schema:height "6.000000" ;
+    ns1:hasstreetaddress "BARFORD WALK" .
+
 [] spacial:easting "387108.940000" ;
     spacial:northing "398409.910000" ;
     schema:height "12.000000" ;
@@ -3932,6 +4092,11 @@
     spacial:northing "394363.130000" ;
     schema:height "8.000000" ;
     ns1:hasstreetaddress "ALBANY ROAD" .
+
+[] spacial:easting "382783.670000" ;
+    spacial:northing "388388.910000" ;
+    schema:height "6.000000" ;
+    ns1:hasstreetaddress "BENCHILL ROAD" .
 
 [] spacial:easting "389192.810000" ;
     spacial:northing "397034.590000" ;
@@ -3997,6 +4162,11 @@
     spacial:northing "400571.380000" ;
     schema:height "6.000000" ;
     ns1:hasstreetaddress "APPLEFORD DRIVE" .
+
+[] spacial:easting "382361.780000" ;
+    spacial:northing "388633.820000" ;
+    schema:height "8.000000" ;
+    ns1:hasstreetaddress "BENCHILL ROAD" .
 
 [] spacial:easting "387090.130000" ;
     spacial:northing "397041.160000" ;
@@ -4102,6 +4272,11 @@
     spacial:northing "397387.250000" ;
     schema:height "12.000000" ;
     ns1:hasstreetaddress "ASHTON OLD ROAD" .
+
+[] spacial:easting "381958.520000" ;
+    spacial:northing "393116.710000" ;
+    schema:height "10.000000" ;
+    ns1:hasstreetaddress "BARLOW MOOR ROAD" .
 
 [] spacial:easting "387043.690000" ;
     spacial:northing "398660.310000" ;
@@ -4428,10 +4603,20 @@
     schema:height "6.000000" ;
     ns1:hasstreetaddress "BACK PICCADILLY" .
 
+[] spacial:easting "382858.380000" ;
+    spacial:northing "388355.690000" ;
+    schema:height "8.000000" ;
+    ns1:hasstreetaddress "BENCHILL ROAD" .
+
 [] spacial:easting "386584.970000" ;
     spacial:northing "398357.340000" ;
     schema:height "10.000000" ;
     ns1:hasstreetaddress "ASHTON NEW ROAD" .
+
+[] spacial:easting "385788.440000" ;
+    spacial:northing "401324.940000" ;
+    schema:height "6.000000" ;
+    ns1:hasstreetaddress "BARCOMBE WALK" .
 
 [] spacial:easting "383928.280000" ;
     spacial:northing "402505.340000" ;
@@ -4543,6 +4728,11 @@
     schema:height "6.000000" ;
     ns1:hasstreetaddress "ALLAN ROBERTS CLOSE" .
 
+[] spacial:easting "385753.910000" ;
+    spacial:northing "401138.090000" ;
+    schema:height "6.000000" ;
+    ns1:hasstreetaddress "BARCOMBE WALK" .
+
 [] spacial:easting "386571.250000" ;
     spacial:northing "397577.940000" ;
     schema:height "12.000000" ;
@@ -4553,6 +4743,11 @@
     schema:height "10.000000" ;
     ns1:hasstreetaddress "ALBION STREET" .
 
+[] spacial:easting "388082.030000" ;
+    spacial:northing "402546.250000" ;
+    schema:height "6.000000" ;
+    ns1:hasstreetaddress "BARCLIFFE AVENUE" .
+
 [] spacial:easting "387502.190000" ;
     spacial:northing "398989.190000" ;
     schema:height "10.000000" ;
@@ -4562,6 +4757,11 @@
     spacial:northing "386962.090000" ;
     schema:height "6.000000" ;
     ns1:hasstreetaddress "AVENING WALK" .
+
+[] spacial:easting "385749.840000" ;
+    spacial:northing "401113.500000" ;
+    schema:height "6.000000" ;
+    ns1:hasstreetaddress "BARCOMBE WALK" .
 
 [] spacial:easting "386588.130000" ;
     spacial:northing "396798.470000" ;
@@ -4638,6 +4838,11 @@
     schema:height "6.000000" ;
     ns1:hasstreetaddress "ANSON ROAD(FOOTPATH)" .
 
+[] spacial:easting "382711.380000" ;
+    spacial:northing "388380.480000" ;
+    schema:height "8.000000" ;
+    ns1:hasstreetaddress "BENCHILL ROAD" .
+
 [] spacial:easting "386293.070000" ;
     spacial:northing "400471.220000" ;
     schema:height "6.000000" ;
@@ -4647,6 +4852,11 @@
     spacial:northing "398464.590000" ;
     schema:height "10.000000" ;
     ns1:hasstreetaddress "ASHTON NEW ROAD" .
+
+[] spacial:easting "385745.310000" ;
+    spacial:northing "401087.500000" ;
+    schema:height "6.000000" ;
+    ns1:hasstreetaddress "BARCOMBE WALK" .
 
 [] spacial:easting "383381.530000" ;
     spacial:northing "393951.310000" ;
@@ -4732,6 +4942,16 @@
     spacial:northing "398480.540000" ;
     schema:height "10.000000" ;
     ns1:hasstreetaddress "ASHTON NEW ROAD (SERVICE ROAD)" .
+
+[] spacial:easting "385815.030000" ;
+    spacial:northing "401320.630000" ;
+    schema:height "6.000000" ;
+    ns1:hasstreetaddress "BARCOMBE WALK" .
+
+[] spacial:easting "382963.310000" ;
+    spacial:northing "386383.840000" ;
+    schema:height "6.000000" ;
+    ns1:hasstreetaddress "BARDSEA AVENUE" .
 
 [] spacial:easting "386537.630000" ;
     spacial:northing "397581.470000" ;
@@ -4858,6 +5078,11 @@
     schema:height "8.000000" ;
     ns1:hasstreetaddress "ALLESLEY DRIVE" .
 
+[] spacial:easting "385778.500000" ;
+    spacial:northing "401280.000000" ;
+    schema:height "6.000000" ;
+    ns1:hasstreetaddress "BARCOMBE WALK" .
+
 [] spacial:easting "387107.460000" ;
     spacial:northing "398387.050000" ;
     schema:height "6.000000" ;
@@ -4932,6 +5157,11 @@
     spacial:northing "394053.660000" ;
     schema:height "8.000000" ;
     ns1:hasstreetaddress "ALBANY ROAD" .
+
+[] spacial:easting "382605.330000" ;
+    spacial:northing "388445.790000" ;
+    schema:height "8.000000" ;
+    ns1:hasstreetaddress "BENCHILL ROAD" .
 
 [] spacial:easting "383193.910000" ;
     spacial:northing "395635.880000" ;
@@ -5073,6 +5303,11 @@
     schema:height "6.000000" ;
     ns1:hasstreetaddress "ATHLONE AVENUE" .
 
+[] spacial:easting "384938.720000" ;
+    spacial:northing "393127.660000" ;
+    schema:height "10.000000" ;
+    ns1:hasstreetaddress "BARBICAN STREET" .
+
 [] spacial:easting "386949.890000" ;
     spacial:northing "394115.620000" ;
     schema:height "8.000000" ;
@@ -5173,6 +5408,11 @@
     schema:height "5.000000" ;
     ns1:hasstreetaddress "ALAN TURING WAY (FOOTPATH)" .
 
+[] spacial:easting "382735.210000" ;
+    spacial:northing "388389.720000" ;
+    schema:height "8.000000" ;
+    ns1:hasstreetaddress "BENCHILL ROAD" .
+
 [] spacial:easting "386375.630000" ;
     spacial:northing "397069.630000" ;
     schema:height "6.000000" ;
@@ -5183,10 +5423,20 @@
     schema:height "10.000000" ;
     ns1:hasstreetaddress "ALTRINCHAM ROAD" .
 
+[] spacial:easting "388965.500000" ;
+    spacial:northing "402108.560000" ;
+    schema:height "6.000000" ;
+    ns1:hasstreetaddress "BARLEA AVENUE" .
+
 [] spacial:easting "381008.490000" ;
     spacial:northing "387958.000000" ;
     schema:height "6.000000" ;
     ns1:hasstreetaddress "AMBERLEY DRIVE" .
+
+[] spacial:easting "381970.520000" ;
+    spacial:northing "393096.390000" ;
+    schema:height "10.000000" ;
+    ns1:hasstreetaddress "BARLOW MOOR ROAD" .
 
 [] spacial:easting "387288.880000" ;
     spacial:northing "394161.980000" ;
@@ -5217,6 +5467,11 @@
     spacial:northing "390300.000000" ;
     schema:height "6.000000" ;
     ns1:hasstreetaddress "ALDFIELD ROAD" .
+
+[] spacial:easting "383183.490000" ;
+    spacial:northing "396968.460000" ;
+    schema:height "8.000000" ;
+    ns1:hasstreetaddress "COLIN MURPHY ROAD" .
 
 [] spacial:easting "387104.690000" ;
     spacial:northing "398501.310000" ;
@@ -5277,6 +5532,11 @@
     spacial:northing "400447.440000" ;
     schema:height "8.000000" ;
     ns1:hasstreetaddress "ALLESLEY DRIVE" .
+
+[] spacial:easting "385760.690000" ;
+    spacial:northing "401183.970000" ;
+    schema:height "6.000000" ;
+    ns1:hasstreetaddress "BARCOMBE WALK" .
 
 [] spacial:easting "381057.130000" ;
     spacial:northing "388024.470000" ;
@@ -5433,6 +5693,16 @@
     schema:height "6.000000" ;
     ns1:hasstreetaddress "BANKSIDE ROAD" .
 
+[] spacial:easting "385765.630000" ;
+    spacial:northing "401211.660000" ;
+    schema:height "8.000000" ;
+    ns1:hasstreetaddress "BARCOMBE WALK" .
+
+[] spacial:easting "382984.750000" ;
+    spacial:northing "386362.560000" ;
+    schema:height "6.000000" ;
+    ns1:hasstreetaddress "BARDSEA AVENUE" .
+
 [] spacial:easting "387137.630000" ;
     spacial:northing "398416.310000" ;
     schema:height "12.000000" ;
@@ -5457,6 +5727,11 @@
     spacial:northing "389365.030000" ;
     schema:height "10.000000" ;
     ns1:hasstreetaddress "ALTRINCHAM ROAD" .
+
+[] spacial:easting "385748.940000" ;
+    spacial:northing "401150.410000" ;
+    schema:height "6.000000" ;
+    ns1:hasstreetaddress "BARCOMBE WALK" .
 
 [] spacial:easting "384576.440000" ;
     spacial:northing "397824.310000" ;
@@ -5538,6 +5813,11 @@
     schema:height "6.000000" ;
     ns1:hasstreetaddress "ATHERLEY GROVE" .
 
+[] spacial:easting "382755.790000" ;
+    spacial:northing "388393.940000" ;
+    schema:height "6.000000" ;
+    ns1:hasstreetaddress "BENCHILL ROAD" .
+
 [] spacial:easting "381753.310000" ;
     spacial:northing "394255.880000" ;
     schema:height "8.000000" ;
@@ -5612,6 +5892,16 @@
     spacial:northing "399798.630000" ;
     schema:height "6.000000" ;
     ns1:hasstreetaddress "ALPERTON WALK" .
+
+[] spacial:easting "383178.700000" ;
+    spacial:northing "396992.340000" ;
+    schema:height "8.000000" ;
+    ns1:hasstreetaddress "COLIN MURPHY ROAD" .
+
+[] spacial:easting "381942.840000" ;
+    spacial:northing "393148.190000" ;
+    schema:height "10.000000" ;
+    ns1:hasstreetaddress "BARLOW MOOR ROAD" .
 
 [] spacial:easting "387189.560000" ;
     spacial:northing "398366.750000" ;
@@ -5803,6 +6093,11 @@
     schema:height "6.000000" ;
     ns1:hasstreetaddress "ARBOR AVENUE" .
 
+[] spacial:easting "388881.750000" ;
+    spacial:northing "402073.380000" ;
+    schema:height "6.000000" ;
+    ns1:hasstreetaddress "BARLEA AVENUE" .
+
 [] spacial:easting "382749.880000" ;
     spacial:northing "392338.060000" ;
     schema:height "10.000000" ;
@@ -5858,6 +6153,11 @@
     schema:height "10.000000" ;
     ns1:hasstreetaddress "ALBERT STREET" .
 
+[] spacial:easting "385766.750000" ;
+    spacial:northing "401146.840000" ;
+    schema:height "6.000000" ;
+    ns1:hasstreetaddress "BARCOMBE WALK" .
+
 [] spacial:easting "387142.750000" ;
     spacial:northing "398315.440000" ;
     schema:height "12.000000" ;
@@ -5887,6 +6187,11 @@
     spacial:northing "397679.500000" ;
     schema:height "8.000000" ;
     ns1:hasstreetaddress "ASHTON OLD ROAD CYCLE PATH" .
+
+[] spacial:easting "382967.810000" ;
+    spacial:northing "386346.000000" ;
+    schema:height "6.000000" ;
+    ns1:hasstreetaddress "BARDSEA AVENUE" .
 
 [] spacial:easting "387008.380000" ;
     spacial:northing "392826.780000" ;
@@ -5922,6 +6227,11 @@
     spacial:northing "386000.410000" ;
     schema:height "6.000000" ;
     ns1:hasstreetaddress "ALTAIR AVENUE" .
+
+[] spacial:easting "386559.130000" ;
+    spacial:northing "395848.750000" ;
+    schema:height "6.000000" ;
+    ns1:hasstreetaddress "BANNERDALE CLOSE" .
 
 [] spacial:easting "383922.810000" ;
     spacial:northing "396417.690000" ;
@@ -6218,6 +6528,11 @@
     schema:height "6.000000" ;
     ns1:hasstreetaddress "ADSCOMBE STREET PASSAGE" .
 
+[] spacial:easting "387732.480000" ;
+    spacial:northing "400537.310000" ;
+    schema:height "6.000000" ;
+    ns1:hasstreetaddress "BARLBY WALK" .
+
 [] spacial:easting "386564.240000" ;
     spacial:northing "398349.330000" ;
     schema:height "5.000000" ;
@@ -6267,6 +6582,11 @@
     spacial:northing "402514.840000" ;
     schema:height "6.000000" ;
     ns1:hasstreetaddress "ARDERN ROAD" .
+
+[] spacial:easting "382749.340000" ;
+    spacial:northing "388367.540000" ;
+    schema:height "6.000000" ;
+    ns1:hasstreetaddress "BENCHILL ROAD" .
 
 [] spacial:easting "381155.630000" ;
     spacial:northing "387900.090000" ;
@@ -6408,6 +6728,11 @@
     schema:height "6.000000" ;
     ns1:hasstreetaddress "ANCROFT STREET" .
 
+[] spacial:easting "382333.820000" ;
+    spacial:northing "388677.600000" ;
+    schema:height "8.000000" ;
+    ns1:hasstreetaddress "BENCHILL ROAD" .
+
 [] spacial:easting "387070.500000" ;
     spacial:northing "398522.410000" ;
     schema:height "12.000000" ;
@@ -6437,6 +6762,11 @@
     spacial:northing "389383.410000" ;
     schema:height "10.000000" ;
     ns1:hasstreetaddress "ALTRINCHAM ROAD" .
+
+[] spacial:easting "388992.840000" ;
+    spacial:northing "402146.090000" ;
+    schema:height "6.000000" ;
+    ns1:hasstreetaddress "BARLEA AVENUE" .
 
 [] spacial:easting "384753.270000" ;
     spacial:northing "389539.230000" ;
@@ -6568,6 +6898,11 @@
     schema:height "10.000000" ;
     ns1:hasstreetaddress "ALTRINCHAM ROAD" .
 
+[] spacial:easting "381944.180000" ;
+    spacial:northing "393195.290000" ;
+    schema:height "5.000000" ;
+    ns1:hasstreetaddress "BARLOW MOOR ROAD" .
+
 [] spacial:easting "383797.310000" ;
     spacial:northing "398080.060000" ;
     schema:height "8.000000" ;
@@ -6602,6 +6937,11 @@
     spacial:northing "386017.450000" ;
     schema:height "8.000000" ;
     ns1:hasstreetaddress "BAILEY LANE" .
+
+[] spacial:easting "382298.800000" ;
+    spacial:northing "388687.430000" ;
+    schema:height "8.000000" ;
+    ns1:hasstreetaddress "BENCHILL ROAD" .
 
 [] spacial:easting "385124.410000" ;
     spacial:northing "395347.190000" ;
@@ -6653,6 +6993,11 @@
     schema:height "12.000000" ;
     ns1:hasstreetaddress "ALAN TURING WAY" .
 
+[] spacial:easting "386548.750000" ;
+    spacial:northing "395790.090000" ;
+    schema:height "6.000000" ;
+    ns1:hasstreetaddress "BANNERDALE CLOSE" .
+
 [] spacial:easting "389133.560000" ;
     spacial:northing "397142.780000" ;
     schema:height "6.000000" ;
@@ -6693,10 +7038,20 @@
     schema:height "10.000000" ;
     ns1:hasstreetaddress "BALLOON STREET" .
 
+[] spacial:easting "381989.900000" ;
+    spacial:northing "393099.670000" ;
+    schema:height "5.000000" ;
+    ns1:hasstreetaddress "BARLOW MOOR ROAD" .
+
 [] spacial:easting "381135.500000" ;
     spacial:northing "389369.440000" ;
     schema:height "10.000000" ;
     ns1:hasstreetaddress "ALTRINCHAM ROAD" .
+
+[] spacial:easting "382826.130000" ;
+    spacial:northing "388360.710000" ;
+    schema:height "8.000000" ;
+    ns1:hasstreetaddress "BENCHILL ROAD" .
 
 [] spacial:easting "387204.500000" ;
     spacial:northing "397531.000000" ;
@@ -6707,6 +7062,11 @@
     spacial:northing "398168.910000" ;
     schema:height "10.000000" ;
     ns1:hasstreetaddress "ALBERT STREET" .
+
+[] spacial:easting "383179.590000" ;
+    spacial:northing "396942.440000" ;
+    schema:height "8.000000" ;
+    ns1:hasstreetaddress "COLIN MURPHY ROAD" .
 
 [] spacial:easting "385648.940000" ;
     spacial:northing "401405.260000" ;
@@ -6767,6 +7127,11 @@
     spacial:northing "397872.060000" ;
     schema:height "6.000000" ;
     ns1:hasstreetaddress "ABINGDON STREET" .
+
+[] spacial:easting "382786.420000" ;
+    spacial:northing "388369.140000" ;
+    schema:height "8.000000" ;
+    ns1:hasstreetaddress "BENCHILL ROAD" .
 
 [] spacial:easting "389189.910000" ;
     spacial:northing "397051.250000" ;
@@ -6913,6 +7278,11 @@
     schema:height "8.000000" ;
     ns1:hasstreetaddress "AUBURN STREET" .
 
+[] spacial:easting "382025.410000" ;
+    spacial:northing "393040.900000" ;
+    schema:height "10.000000" ;
+    ns1:hasstreetaddress "BARLOW MOOR ROAD" .
+
 [] spacial:easting "389186.660000" ;
     spacial:northing "397154.130000" ;
     schema:height "6.000000" ;
@@ -6943,10 +7313,25 @@
     schema:height "6.000000" ;
     ns1:hasstreetaddress "ASHLAR DRIVE" .
 
+[] spacial:easting "385756.810000" ;
+    spacial:northing "401158.190000" ;
+    schema:height "6.000000" ;
+    ns1:hasstreetaddress "BARCOMBE WALK" .
+
 [] spacial:easting "382603.410000" ;
     spacial:northing "395386.130000" ;
     schema:height "6.000000" ;
     ns1:hasstreetaddress "ABBOTSIDE CLOSE" .
+
+[] spacial:easting "381929.150000" ;
+    spacial:northing "393188.750000" ;
+    schema:height "10.000000" ;
+    ns1:hasstreetaddress "BARLOW MOOR ROAD" .
+
+[] spacial:easting "387779.100000" ;
+    spacial:northing "400591.810000" ;
+    schema:height "6.000000" ;
+    ns1:hasstreetaddress "BARKWORTH WALK" .
 
 [] spacial:easting "383485.880000" ;
     spacial:northing "396477.940000" ;
@@ -7053,6 +7438,11 @@
     schema:height "10.000000" ;
     ns1:hasstreetaddress "ADDINGTON STREET" .
 
+[] spacial:easting "382788.310000" ;
+    spacial:northing "388380.750000" ;
+    schema:height "8.000000" ;
+    ns1:hasstreetaddress "BENCHILL ROAD" .
+
 [] spacial:easting "381343.280000" ;
     spacial:northing "388037.470000" ;
     schema:height "6.000000" ;
@@ -7072,6 +7462,11 @@
     spacial:northing "386708.690000" ;
     schema:height "6.000000" ;
     ns1:hasstreetaddress "ALTCAR WALK" .
+
+[] spacial:easting "384919.380000" ;
+    spacial:northing "393122.000000" ;
+    schema:height "10.000000" ;
+    ns1:hasstreetaddress "GLEDHILL STREET" .
 
 [] spacial:easting "383802.250000" ;
     spacial:northing "402511.530000" ;
