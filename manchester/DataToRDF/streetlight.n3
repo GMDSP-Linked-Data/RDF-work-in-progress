@@ -398,6 +398,11 @@
     schema:height "6.000000" ;
     ns1:hasstreetaddress "AMESBURY ROAD" .
 
+[] spacial:easting "384726.430000" ;
+    spacial:northing "389487.200000" ;
+    schema:height "6.000000" ;
+    ns1:hasstreetaddress "BANKSIDE ROAD" .
+
 [] spacial:easting "385830.880000" ;
     spacial:northing "398676.060000" ;
     schema:height "6.000000" ;
@@ -592,6 +597,11 @@
     spacial:northing "395615.190000" ;
     schema:height "6.000000" ;
     ns1:hasstreetaddress "ADSCOMBE STREET" .
+
+[] spacial:easting "387564.180000" ;
+    spacial:northing "398744.470000" ;
+    schema:height "10.000000" ;
+    ns1:hasstreetaddress "BANK STREET" .
 
 [] spacial:easting "387281.880000" ;
     spacial:northing "397515.220000" ;
@@ -842,6 +852,11 @@
     spacial:northing "397843.190000" ;
     schema:height "6.000000" ;
     ns1:hasstreetaddress "ABINGDON STREET" .
+
+[] spacial:easting "384824.950000" ;
+    spacial:northing "389429.240000" ;
+    schema:height "6.000000" ;
+    ns1:hasstreetaddress "BANKSIDE ROAD" .
 
 [] spacial:easting "387248.250000" ;
     spacial:northing "397520.840000" ;
@@ -1573,6 +1588,11 @@
     schema:height "10.000000" ;
     ns1:hasstreetaddress "ADDINGTON STREET" .
 
+[] spacial:easting "384797.340000" ;
+    spacial:northing "389616.450000" ;
+    schema:height "6.000000" ;
+    ns1:hasstreetaddress "BANKSIDE ROAD" .
+
 [] spacial:easting "387515.130000" ;
     spacial:northing "401259.030000" ;
     schema:height "6.000000" ;
@@ -1667,6 +1687,16 @@
     spacial:northing "397098.250000" ;
     schema:height "12.000000" ;
     ns1:hasstreetaddress "ARDWICK GREEN SOUTH" .
+
+[] spacial:easting "387560.190000" ;
+    spacial:northing "399155.910000" ;
+    schema:height "10.000000" ;
+    ns1:hasstreetaddress "BANK BRIDGE ROAD" .
+
+[] spacial:easting "387517.630000" ;
+    spacial:northing "398907.480000" ;
+    schema:height "10.000000" ;
+    ns1:hasstreetaddress "BANK STREET" .
 
 [] spacial:easting "385150.000000" ;
     spacial:northing "397195.220000" ;
@@ -1988,6 +2018,11 @@
     schema:height "6.000000" ;
     ns1:hasstreetaddress "CANAL STREET" .
 
+[] spacial:easting "387536.670000" ;
+    spacial:northing "398871.980000" ;
+    schema:height "10.000000" ;
+    ns1:hasstreetaddress "BANK STREET" .
+
 [] spacial:easting "381169.590000" ;
     spacial:northing "389360.250000" ;
     schema:height "10.000000" ;
@@ -2052,6 +2087,11 @@
     spacial:northing "389343.940000" ;
     schema:height "10.000000" ;
     ns1:hasstreetaddress "ALTRINCHAM ROAD" .
+
+[] spacial:easting "387618.690000" ;
+    spacial:northing "398575.560000" ;
+    schema:height "10.000000" ;
+    ns1:hasstreetaddress "BANK STREET" .
 
 [] spacial:easting "382847.000000" ;
     spacial:northing "386009.190000" ;
@@ -2248,6 +2288,11 @@
     schema:height "6.000000" ;
     ns1:hasstreetaddress "ASTON AVENUE" .
 
+[] spacial:easting "387637.250000" ;
+    spacial:northing "399191.670000" ;
+    schema:height "10.000000" ;
+    ns1:hasstreetaddress "BANK BRIDGE ROAD" .
+
 [] spacial:easting "388150.940000" ;
     spacial:northing "395332.190000" ;
     schema:height "6.000000" ;
@@ -2302,6 +2347,11 @@
     spacial:northing "396860.090000" ;
     schema:height "6.000000" ;
     ns1:hasstreetaddress "ASHOVER AVENUE" .
+
+[] spacial:easting "387551.480000" ;
+    spacial:northing "398785.380000" ;
+    schema:height "10.000000" ;
+    ns1:hasstreetaddress "BANK STREET" .
 
 [] spacial:easting "379668.470000" ;
     spacial:northing "389020.190000" ;
@@ -2438,6 +2488,11 @@
     schema:height "12.000000" ;
     ns1:hasstreetaddress "ASHTON OLD ROAD" .
 
+[] spacial:easting "384822.060000" ;
+    spacial:northing "389631.190000" ;
+    schema:height "6.000000" ;
+    ns1:hasstreetaddress "BANKSIDE ROAD" .
+
 [] spacial:easting "386626.250000" ;
     spacial:northing "396800.690000" ;
     schema:height "6.000000" ;
@@ -2472,6 +2527,11 @@
     spacial:northing "389177.470000" ;
     schema:height "6.000000" ;
     ns1:hasstreetaddress "ASHWELL ROAD" .
+
+[] spacial:easting "387574.520000" ;
+    spacial:northing "398689.590000" ;
+    schema:height "10.000000" ;
+    ns1:hasstreetaddress "BANK STREET" .
 
 [] spacial:easting "386997.280000" ;
     spacial:northing "398670.690000" ;
@@ -2657,6 +2717,11 @@
     spacial:northing "397142.310000" ;
     schema:height "8.000000" ;
     ns1:hasstreetaddress "ABBEY HEY LANE" .
+
+[] spacial:easting "384836.280000" ;
+    spacial:northing "389448.310000" ;
+    schema:height "6.000000" ;
+    ns1:hasstreetaddress "BANKSIDE ROAD" .
 
 [] spacial:easting "380225.340000" ;
     spacial:northing "389399.390000" ;
@@ -2938,6 +3003,11 @@
     schema:height "6.000000" ;
     ns1:hasstreetaddress "ASHLEY LANE" .
 
+[] spacial:easting "387572.410000" ;
+    spacial:northing "398714.380000" ;
+    schema:height "10.000000" ;
+    ns1:hasstreetaddress "BANK STREET" .
+
 [] spacial:easting "385632.750000" ;
     spacial:northing "398484.500000" ;
     schema:height "6.000000" ;
@@ -3157,6 +3227,11 @@
     spacial:northing "404345.440000" ;
     schema:height "8.000000" ;
     ns1:hasstreetaddress "ALWORTH ROAD" .
+
+[] spacial:easting "387484.130000" ;
+    spacial:northing "399024.660000" ;
+    schema:height "10.000000" ;
+    ns1:hasstreetaddress "BANK STREET" .
 
 [] spacial:easting "387023.190000" ;
     spacial:northing "398304.880000" ;
@@ -3533,6 +3608,11 @@
     schema:height "10.000000" ;
     ns1:hasstreetaddress "BARLOW MOOR ROAD" .
 
+[] spacial:easting "387596.350000" ;
+    spacial:northing "398628.690000" ;
+    schema:height "10.000000" ;
+    ns1:hasstreetaddress "BANK STREET" .
+
 [] spacial:easting "386136.060000" ;
     spacial:northing "398844.940000" ;
     schema:height "6.000000" ;
@@ -3622,6 +3702,11 @@
     spacial:northing "392615.940000" ;
     schema:height "10.000000" ;
     ns1:hasstreetaddress "BARLOW MOOR ROAD" .
+
+[] spacial:easting "384747.660000" ;
+    spacial:northing "389507.440000" ;
+    schema:height "6.000000" ;
+    ns1:hasstreetaddress "BANKSIDE ROAD" .
 
 [] spacial:easting "386790.880000" ;
     spacial:northing "398342.410000" ;
@@ -3888,6 +3973,11 @@
     schema:height "6.000000" ;
     ns1:hasstreetaddress "ALISON STREET" .
 
+[] spacial:easting "387620.030000" ;
+    spacial:northing "398537.000000" ;
+    schema:height "10.000000" ;
+    ns1:hasstreetaddress "BANK STREET" .
+
 [] spacial:easting "385117.880000" ;
     spacial:northing "395377.970000" ;
     schema:height "8.000000" ;
@@ -3967,6 +4057,11 @@
     spacial:northing "397761.940000" ;
     schema:height "12.000000" ;
     ns1:hasstreetaddress "ALAN TURING WAY" .
+
+[] spacial:easting "387591.150000" ;
+    spacial:northing "399161.490000" ;
+    schema:height "10.000000" ;
+    ns1:hasstreetaddress "BANK BRIDGE ROAD" .
 
 [] spacial:easting "385736.560000" ;
     spacial:northing "402359.220000" ;
@@ -4128,6 +4223,11 @@
     schema:height "8.000000" ;
     ns1:hasstreetaddress "ARNOTT CRESCENT" .
 
+[] spacial:easting "387612.920000" ;
+    spacial:northing "399175.990000" ;
+    schema:height "10.000000" ;
+    ns1:hasstreetaddress "BANK BRIDGE ROAD" .
+
 [] spacial:easting "384207.560000" ;
     spacial:northing "397892.720000" ;
     schema:height "6.000000" ;
@@ -4258,6 +4358,11 @@
     schema:height "8.000000" ;
     ns1:hasstreetaddress "ALBERT STREET" .
 
+[] spacial:easting "385944.530000" ;
+    spacial:northing "401966.750000" ;
+    schema:height "6.000000" ;
+    ns1:hasstreetaddress "BANKFIELD STREET" .
+
 [] spacial:easting "386420.560000" ;
     spacial:northing "397149.300000" ;
     schema:height "6.000000" ;
@@ -4302,6 +4407,11 @@
     spacial:northing "388432.510000" ;
     schema:height "6.000000" ;
     ns1:hasstreetaddress "ABERFORD ROAD" .
+
+[] spacial:easting "384794.060000" ;
+    spacial:northing "389441.330000" ;
+    schema:height "6.000000" ;
+    ns1:hasstreetaddress "BANKSIDE ROAD" .
 
 [] spacial:easting "385574.750000" ;
     spacial:northing "398427.750000" ;
@@ -4438,6 +4548,11 @@
     schema:height "10.000000" ;
     ns1:hasstreetaddress "ALBION STREET" .
 
+[] spacial:easting "387502.190000" ;
+    spacial:northing "398989.190000" ;
+    schema:height "10.000000" ;
+    ns1:hasstreetaddress "BANK STREET" .
+
 [] spacial:easting "382284.060000" ;
     spacial:northing "386962.090000" ;
     schema:height "6.000000" ;
@@ -4457,6 +4572,11 @@
     spacial:northing "397050.220000" ;
     schema:height "6.000000" ;
     ns1:hasstreetaddress "ANTHONY CLOSE" .
+
+[] spacial:easting "384788.520000" ;
+    spacial:northing "389586.650000" ;
+    schema:height "6.000000" ;
+    ns1:hasstreetaddress "BANKSIDE ROAD" .
 
 [] spacial:easting "387388.780000" ;
     spacial:northing "398416.440000" ;
@@ -4642,6 +4762,11 @@
     spacial:northing "395308.630000" ;
     schema:height "6.000000" ;
     ns1:hasstreetaddress "ALISON STREET" .
+
+[] spacial:easting "387518.880000" ;
+    spacial:northing "399128.220000" ;
+    schema:height "10.000000" ;
+    ns1:hasstreetaddress "BANK BRIDGE ROAD" .
 
 [] spacial:easting "384430.340000" ;
     spacial:northing "398352.440000" ;
@@ -5108,6 +5233,11 @@
     schema:height "10.000000" ;
     ns1:hasstreetaddress "ADDINGTON STREET" .
 
+[] spacial:easting "387597.090000" ;
+    spacial:northing "398653.770000" ;
+    schema:height "10.000000" ;
+    ns1:hasstreetaddress "BANK STREET" .
+
 [] spacial:easting "384423.970000" ;
     spacial:northing "399210.630000" ;
     schema:height "10.000000" ;
@@ -5178,6 +5308,11 @@
     schema:height "6.000000" ;
     ns1:hasstreetaddress "ALDERMOOR CLOSE" .
 
+[] spacial:easting "387613.250000" ;
+    spacial:northing "398598.970000" ;
+    schema:height "10.000000" ;
+    ns1:hasstreetaddress "BANK STREET" .
+
 [] spacial:easting "383801.220000" ;
     spacial:northing "400822.440000" ;
     schema:height "6.000000" ;
@@ -5187,6 +5322,11 @@
     spacial:northing "393097.060000" ;
     schema:height "6.000000" ;
     ns1:hasstreetaddress "ARBOR AVENUE" .
+
+[] spacial:easting "387537.630000" ;
+    spacial:northing "399141.470000" ;
+    schema:height "10.000000" ;
+    ns1:hasstreetaddress "BANK BRIDGE ROAD" .
 
 [] spacial:easting "383671.750000" ;
     spacial:northing "395842.840000" ;
@@ -5282,6 +5422,11 @@
     spacial:northing "399622.160000" ;
     schema:height "6.000000" ;
     ns1:hasstreetaddress "ASHBURY PLACE" .
+
+[] spacial:easting "384775.690000" ;
+    spacial:northing "389561.810000" ;
+    schema:height "6.000000" ;
+    ns1:hasstreetaddress "BANKSIDE ROAD" .
 
 [] spacial:easting "387137.630000" ;
     spacial:northing "398416.310000" ;
@@ -5537,6 +5682,11 @@
     spacial:northing "393480.880000" ;
     schema:height "6.000000" ;
     ns1:hasstreetaddress "ULVERSTON AVENUE" .
+
+[] spacial:easting "387534.710000" ;
+    spacial:northing "398841.490000" ;
+    schema:height "10.000000" ;
+    ns1:hasstreetaddress "BANK STREET" .
 
 [] spacial:easting "381143.190000" ;
     spacial:northing "388646.440000" ;
@@ -6093,6 +6243,11 @@
     schema:height "8.000000" ;
     ns1:hasstreetaddress "BAIRD STREET" .
 
+[] spacial:easting "387519.780000" ;
+    spacial:northing "398927.000000" ;
+    schema:height "10.000000" ;
+    ns1:hasstreetaddress "BANK STREET" .
+
 [] spacial:easting "385346.750000" ;
     spacial:northing "398233.500000" ;
     schema:height "6.000000" ;
@@ -6278,6 +6433,11 @@
     schema:height "10.000000" ;
     ns1:hasstreetaddress "ALTRINCHAM ROAD" .
 
+[] spacial:easting "384753.270000" ;
+    spacial:northing "389539.230000" ;
+    schema:height "6.000000" ;
+    ns1:hasstreetaddress "BANKSIDE ROAD" .
+
 [] spacial:easting "381100.880000" ;
     spacial:northing "388589.690000" ;
     schema:height "6.000000" ;
@@ -6302,6 +6462,11 @@
     spacial:northing "398589.810000" ;
     schema:height "6.000000" ;
     ns1:hasstreetaddress "SPORT CITY FOOTPATH (EAST)" .
+
+[] spacial:easting "384840.390000" ;
+    spacial:northing "389468.630000" ;
+    schema:height "6.000000" ;
+    ns1:hasstreetaddress "BANKSIDE ROAD" .
 
 [] spacial:easting "389208.310000" ;
     spacial:northing "397054.630000" ;
@@ -6558,6 +6723,11 @@
     schema:height "6.000000" ;
     ns1:hasstreetaddress "ARBOR AVENUE" .
 
+[] spacial:easting "387502.630000" ;
+    spacial:northing "398957.970000" ;
+    schema:height "10.000000" ;
+    ns1:hasstreetaddress "BANK STREET" .
+
 [] spacial:easting "385439.170000" ;
     spacial:northing "392118.020000" ;
     schema:height "6.000000" ;
@@ -6597,6 +6767,11 @@
     spacial:northing "397051.250000" ;
     schema:height "6.000000" ;
     ns1:hasstreetaddress "ALVAN SQUARE" .
+
+[] spacial:easting "384763.250000" ;
+    spacial:northing "389447.570000" ;
+    schema:height "6.000000" ;
+    ns1:hasstreetaddress "BANKSIDE ROAD" .
 
 [] spacial:easting "387055.000000" ;
     spacial:northing "398643.190000" ;
