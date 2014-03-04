@@ -3758,6 +3758,11 @@
     schema:height "12.000000" ;
     ns1:hasstreetaddress "ALAN TURING WAY" .
 
+[] spacial:easting "384716.290000" ;
+    spacial:northing "389457.170000" ;
+    schema:height "6.000000" ;
+    ns1:hasstreetaddress "BANKSIDE ROAD" .
+
 [] spacial:easting "388522.090000" ;
     spacial:northing "397381.160000" ;
     schema:height "10.000000" ;
