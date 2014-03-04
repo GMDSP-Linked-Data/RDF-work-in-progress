@@ -52,7 +52,7 @@ GEO = Namespace('http://www.w3.org/2003/01/geo/wgs84_pos#')
 VCARD = Namespace('http://www.w3.org/2006/vcard/ns#')
 DIS = Namespace('http://www.w3.org/2006/03/test-description#')
 DISSISION = Namespace('http://purl.org/cerif/frapo/')
-SUB = Namespace('http://purl.org/dc/terms')
+SUB = Namespace('http://purl.org/dc/terms/')
 
 al = Namespace('https://gmdsp-admin.publishmydata.com/id/Planning/')
 
