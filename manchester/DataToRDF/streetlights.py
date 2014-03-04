@@ -39,7 +39,7 @@ from rdflib.namespace import FOAF, DC
 import csv
 import pprint
 
-storefn = os.path.dirname(os.path.realpath(__file__)) + '/streetlight.n3'
+storefn = os.path.dirname(os.path.realpath(__file__)) + '/streetlight.turtle'
 #storefn = '/home/simon/codes/film.dev/movies.n3'
 storeuri = 'file://'+storefn
 title = 'Movies viewed by %s'
@@ -52,9 +52,11 @@ RDFS = Namespace('http://www.w3.org/2000/01/rdf-schema#')
 GEO = Namespace('http://www.w3.org/2003/01/geo/wgs84_pos#')
 VCARD = Namespace('http://www.w3.org/2006/vcard/ns#')
 SCHEMA = Namespace('http://schema.org/')
+sl = Namespace('https://gmdsp-admin.publishmydata.com/id/Street_Lighting/')
 class Store:
     def __init__(self):
-        self.graph = Graph()
+
+        self.graph = Graph(identifier=URIRef('http://www.google.com'))
 
         rt = self.graph.open(storeuri, create=False)
         if rt == None:
@@ -70,11 +72,12 @@ class Store:
         self.graph.bind('spacial', SPACIAL)
 
     def save(self):
-        self.graph.serialize(storeuri, format='n3')
+        self.graph.serialize(storeuri, format='turtle')
 
     #def new_streetlight(self, height, easting, eligible, lamp, lampwatts, location, mintyn, northing, objectId, street, unitid, unitno):
-    def new_streetlight(self, height, easting, northing, street):
-        streetlamp = BNode() # @@ humanize the identifier (something like #rev-$date)
+    def new_streetlight(self, height, easting, northing, street, objectId):
+        streetlamp = sl[objectId] # @@ humanize the identifier (something like #rev-$date)
+        self.graph.add((streetlamp, RDF.type, Literal("Street Lamp")))
         self.graph.add((streetlamp, SCHEMA['height'], Literal(height)))
         self.graph.add((streetlamp, SPACIAL['easting'], Literal(easting)))
         self.graph.add((streetlamp, SPACIAL['northing'], Literal(northing)))
@@ -96,7 +99,7 @@ def main(argv=None):
     reader = csv.DictReader(open('./Data/Street_Lighting.txt', mode='r'))
     for row in reader:
         pprint.pprint(row)
-        s.new_streetlight(row["COLHEIGHT"], row["EASTING"], row["NORTHING"], row['STREET'])
+        s.new_streetlight(row["COLHEIGHT"], row["EASTING"], row["NORTHING"], row['STREET'], row["OBJECTID"])
 
 if __name__ == '__main__':
     main()

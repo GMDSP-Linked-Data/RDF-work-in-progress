@@ -1,0 +1,496 @@
+@prefix geo: <http://www.w3.org/2003/01/geo/wgs84_pos#> .
+@prefix ns1: <http://www.w3.org/2006/vcard/ns#> .
+@prefix os: <http://data.ordnancesurvey.co.uk/ontology/admingeo/> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix schema: <http://schema.org/> .
+@prefix spacial: <http://data.ordnancesurvey.co.uk/ontology/spatialrelations/> .
+@prefix xml: <http://www.w3.org/XML/1998/namespace> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+<https://gmdsp-admin.publishmydata.com/id/Street_Lighting/114> a "Street Lamp" ;
+    spacial:easting "387360.500000" ;
+    spacial:northing "401163.970000" ;
+    schema:height "6.000000" ;
+    ns1:hasstreetaddress "ADRIAN STREET" .
+
+<https://gmdsp-admin.publishmydata.com/id/Street_Lighting/115> a "Street Lamp" ;
+    spacial:easting "387374.030000" ;
+    spacial:northing "401191.160000" ;
+    schema:height "6.000000" ;
+    ns1:hasstreetaddress "ADRIAN STREET" .
+
+<https://gmdsp-admin.publishmydata.com/id/Street_Lighting/116> a "Street Lamp" ;
+    spacial:easting "387369.750000" ;
+    spacial:northing "401208.910000" ;
+    schema:height "6.000000" ;
+    ns1:hasstreetaddress "ADRIAN STREET" .
+
+<https://gmdsp-admin.publishmydata.com/id/Street_Lighting/117> a "Street Lamp" ;
+    spacial:easting "387389.380000" ;
+    spacial:northing "401200.160000" ;
+    schema:height "6.000000" ;
+    ns1:hasstreetaddress "ADRIAN STREET" .
+
+<https://gmdsp-admin.publishmydata.com/id/Street_Lighting/118> a "Street Lamp" ;
+    spacial:easting "387406.830000" ;
+    spacial:northing "401305.590000" ;
+    schema:height "6.000000" ;
+    ns1:hasstreetaddress "ADRIAN STREET" .
+
+<https://gmdsp-admin.publishmydata.com/id/Street_Lighting/119> a "Street Lamp" ;
+    spacial:easting "387385.280000" ;
+    spacial:northing "401244.000000" ;
+    schema:height "6.000000" ;
+    ns1:hasstreetaddress "ADRIAN STREET PASSAGE" .
+
+<https://gmdsp-admin.publishmydata.com/id/Street_Lighting/120> a "Street Lamp" ;
+    spacial:easting "387444.530000" ;
+    spacial:northing "401338.590000" ;
+    schema:height "6.000000" ;
+    ns1:hasstreetaddress "ADRIAN STREET PASSAGE" .
+
+<https://gmdsp-admin.publishmydata.com/id/Street_Lighting/121> a "Street Lamp" ;
+    spacial:easting "387454.690000" ;
+    spacial:northing "401359.910000" ;
+    schema:height "6.000000" ;
+    ns1:hasstreetaddress "ADRIAN STREET PASSAGE" .
+
+<https://gmdsp-admin.publishmydata.com/id/Street_Lighting/122> a "Street Lamp" ;
+    spacial:easting "387407.840000" ;
+    spacial:northing "401233.380000" ;
+    schema:height "6.000000" ;
+    ns1:hasstreetaddress "ADRIAN STREET PASSAGE" .
+
+<https://gmdsp-admin.publishmydata.com/id/Street_Lighting/123> a "Street Lamp" ;
+    spacial:easting "387399.560000" ;
+    spacial:northing "401245.260000" ;
+    schema:height "6.000000" ;
+    ns1:hasstreetaddress "ADRIAN STREET PASSAGE" .
+
+<https://gmdsp-admin.publishmydata.com/id/Street_Lighting/124> a "Street Lamp" ;
+    spacial:easting "387412.300000" ;
+    spacial:northing "401271.560000" ;
+    schema:height "6.000000" ;
+    ns1:hasstreetaddress "ADRIAN STREET PASSAGE" .
+
+<https://gmdsp-admin.publishmydata.com/id/Street_Lighting/125> a "Street Lamp" ;
+    spacial:easting "387419.930000" ;
+    spacial:northing "401282.920000" ;
+    schema:height "6.000000" ;
+    ns1:hasstreetaddress "ADRIAN STREET PASSAGE" .
+
+<https://gmdsp-admin.publishmydata.com/id/Street_Lighting/126> a "Street Lamp" ;
+    spacial:easting "387412.940000" ;
+    spacial:northing "401299.590000" ;
+    schema:height "6.000000" ;
+    ns1:hasstreetaddress "ADRIAN STREET PASSAGE" .
+
+<https://gmdsp-admin.publishmydata.com/id/Street_Lighting/127> a "Street Lamp" ;
+    spacial:easting "387459.230000" ;
+    spacial:northing "401257.930000" ;
+    schema:height "6.000000" ;
+    ns1:hasstreetaddress "LANGWORTHY ROAD FOOTPATH" .
+
+<https://gmdsp-admin.publishmydata.com/id/Street_Lighting/128> a "Street Lamp" ;
+    spacial:easting "387429.880000" ;
+    spacial:northing "401336.250000" ;
+    schema:height "6.000000" ;
+    ns1:hasstreetaddress "ADRIAN STREET PASSAGE" .
+
+<https://gmdsp-admin.publishmydata.com/id/Street_Lighting/129> a "Street Lamp" ;
+    spacial:easting "387450.750000" ;
+    spacial:northing "401325.000000" ;
+    schema:height "6.000000" ;
+    ns1:hasstreetaddress "ADRIAN STREET PASSAGE" .
+
+<https://gmdsp-admin.publishmydata.com/id/Street_Lighting/130> a "Street Lamp" ;
+    spacial:easting "383321.440000" ;
+    spacial:northing "395603.380000" ;
+    schema:height "6.000000" ;
+    ns1:hasstreetaddress "ADSCOMBE STREET" .
+
+<https://gmdsp-admin.publishmydata.com/id/Street_Lighting/131> a "Street Lamp" ;
+    spacial:easting "383143.130000" ;
+    spacial:northing "395642.380000" ;
+    schema:height "6.000000" ;
+    ns1:hasstreetaddress "ADSCOMBE STREET" .
+
+<https://gmdsp-admin.publishmydata.com/id/Street_Lighting/132> a "Street Lamp" ;
+    spacial:easting "383118.840000" ;
+    spacial:northing "395644.160000" ;
+    schema:height "6.000000" ;
+    ns1:hasstreetaddress "ADSCOMBE STREET" .
+
+<https://gmdsp-admin.publishmydata.com/id/Street_Lighting/133> a "Street Lamp" ;
+    spacial:easting "383094.030000" ;
+    spacial:northing "395653.030000" ;
+    schema:height "6.000000" ;
+    ns1:hasstreetaddress "ADSCOMBE STREET" .
+
+<https://gmdsp-admin.publishmydata.com/id/Street_Lighting/134> a "Street Lamp" ;
+    spacial:easting "383293.250000" ;
+    spacial:northing "395603.940000" ;
+    schema:height "6.000000" ;
+    ns1:hasstreetaddress "ADSCOMBE STREET" .
+
+<https://gmdsp-admin.publishmydata.com/id/Street_Lighting/135> a "Street Lamp" ;
+    spacial:easting "383269.530000" ;
+    spacial:northing "395615.190000" ;
+    schema:height "6.000000" ;
+    ns1:hasstreetaddress "ADSCOMBE STREET" .
+
+<https://gmdsp-admin.publishmydata.com/id/Street_Lighting/136> a "Street Lamp" ;
+    spacial:easting "383253.750000" ;
+    spacial:northing "395627.000000" ;
+    schema:height "6.000000" ;
+    ns1:hasstreetaddress "ADSCOMBE STREET" .
+
+<https://gmdsp-admin.publishmydata.com/id/Street_Lighting/137> a "Street Lamp" ;
+    spacial:easting "383240.750000" ;
+    spacial:northing "395644.160000" ;
+    schema:height "6.000000" ;
+    ns1:hasstreetaddress "ADSCOMBE STREET" .
+
+<https://gmdsp-admin.publishmydata.com/id/Street_Lighting/138> a "Street Lamp" ;
+    spacial:easting "383223.810000" ;
+    spacial:northing "395635.880000" ;
+    schema:height "6.000000" ;
+    ns1:hasstreetaddress "ADSCOMBE STREET" .
+
+<https://gmdsp-admin.publishmydata.com/id/Street_Lighting/139> a "Street Lamp" ;
+    spacial:easting "383206.030000" ;
+    spacial:northing "395646.090000" ;
+    schema:height "6.000000" ;
+    ns1:hasstreetaddress "ADSCOMBE STREET" .
+
+<https://gmdsp-admin.publishmydata.com/id/Street_Lighting/140> a "Street Lamp" ;
+    spacial:easting "383193.910000" ;
+    spacial:northing "395635.880000" ;
+    schema:height "6.000000" ;
+    ns1:hasstreetaddress "ADSCOMBE STREET" .
+
+<https://gmdsp-admin.publishmydata.com/id/Street_Lighting/141> a "Street Lamp" ;
+    spacial:easting "383170.780000" ;
+    spacial:northing "395647.130000" ;
+    schema:height "6.000000" ;
+    ns1:hasstreetaddress "ADSCOMBE STREET" .
+
+<https://gmdsp-admin.publishmydata.com/id/Street_Lighting/142> a "Street Lamp" ;
+    spacial:easting "383259.530000" ;
+    spacial:northing "395515.620000" ;
+    schema:height "6.000000" ;
+    ns1:hasstreetaddress "ADSCOMBE STREET PASSAGE" .
+
+<https://gmdsp-admin.publishmydata.com/id/Street_Lighting/143> a "Street Lamp" ;
+    spacial:easting "383260.700000" ;
+    spacial:northing "395541.910000" ;
+    schema:height "6.000000" ;
+    ns1:hasstreetaddress "ADSCOMBE STREET PASSAGE" .
+
+<https://gmdsp-admin.publishmydata.com/id/Street_Lighting/144> a "Street Lamp" ;
+    spacial:easting "383261.170000" ;
+    spacial:northing "395573.600000" ;
+    schema:height "6.000000" ;
+    ns1:hasstreetaddress "ADSCOMBE STREET PASSAGE" .
+
+<https://gmdsp-admin.publishmydata.com/id/Street_Lighting/145> a "Street Lamp" ;
+    spacial:easting "383262.580000" ;
+    spacial:northing "395605.990000" ;
+    schema:height "6.000000" ;
+    ns1:hasstreetaddress "ADSCOMBE STREET PASSAGE" .
+
+<https://gmdsp-admin.publishmydata.com/id/Street_Lighting/146> a "Street Lamp" ;
+    spacial:easting "381943.420000" ;
+    spacial:northing "387269.070000" ;
+    schema:height "6.000000" ;
+    ns1:hasstreetaddress "ADSHEAD CLOSE" .
+
+<https://gmdsp-admin.publishmydata.com/id/Street_Lighting/147> a "Street Lamp" ;
+    spacial:easting "381926.280000" ;
+    spacial:northing "387256.250000" ;
+    schema:height "6.000000" ;
+    ns1:hasstreetaddress "ADSHEAD CLOSE" .
+
+<https://gmdsp-admin.publishmydata.com/id/Street_Lighting/148> a "Street Lamp" ;
+    spacial:easting "381918.960000" ;
+    spacial:northing "387270.560000" ;
+    schema:height "6.000000" ;
+    ns1:hasstreetaddress "ADSHEAD CLOSE" .
+
+<https://gmdsp-admin.publishmydata.com/id/Street_Lighting/149> a "Street Lamp" ;
+    spacial:easting "381903.980000" ;
+    spacial:northing "387265.740000" ;
+    schema:height "6.000000" ;
+    ns1:hasstreetaddress "ADSHEAD CLOSE" .
+
+<https://gmdsp-admin.publishmydata.com/id/Street_Lighting/150> a "Street Lamp" ;
+    spacial:easting "387110.970000" ;
+    spacial:northing "396974.440000" ;
+    schema:height "8.000000" ;
+    ns1:hasstreetaddress "AINES STREET" .
+
+<https://gmdsp-admin.publishmydata.com/id/Street_Lighting/151> a "Street Lamp" ;
+    spacial:easting "387107.190000" ;
+    spacial:northing "397010.500000" ;
+    schema:height "8.000000" ;
+    ns1:hasstreetaddress "AINES STREET" .
+
+<https://gmdsp-admin.publishmydata.com/id/Street_Lighting/152> a "Street Lamp" ;
+    spacial:easting "387090.130000" ;
+    spacial:northing "397041.160000" ;
+    schema:height "8.000000" ;
+    ns1:hasstreetaddress "AINES STREET" .
+
+<https://gmdsp-admin.publishmydata.com/id/Street_Lighting/153> a "Street Lamp" ;
+    spacial:easting "385917.940000" ;
+    spacial:northing "392580.310000" ;
+    schema:height "6.000000" ;
+    ns1:hasstreetaddress "AINSFORD ROAD" .
+
+<https://gmdsp-admin.publishmydata.com/id/Street_Lighting/154> a "Street Lamp" ;
+    spacial:easting "385894.250000" ;
+    spacial:northing "396771.440000" ;
+    schema:height "6.000000" ;
+    ns1:hasstreetaddress "AKED CLOSE" .
+
+<https://gmdsp-admin.publishmydata.com/id/Street_Lighting/155> a "Street Lamp" ;
+    spacial:easting "385803.030000" ;
+    spacial:northing "396611.130000" ;
+    schema:height "6.000000" ;
+    ns1:hasstreetaddress "AKED CLOSE" .
+
+<https://gmdsp-admin.publishmydata.com/id/Street_Lighting/156> a "Street Lamp" ;
+    spacial:easting "385778.220000" ;
+    spacial:northing "396632.410000" ;
+    schema:height "6.000000" ;
+    ns1:hasstreetaddress "AKED CLOSE" .
+
+<https://gmdsp-admin.publishmydata.com/id/Street_Lighting/157> a "Street Lamp" ;
+    spacial:easting "385895.530000" ;
+    spacial:northing "396701.750000" ;
+    schema:height "6.000000" ;
+    ns1:hasstreetaddress "AKED CLOSE" .
+
+<https://gmdsp-admin.publishmydata.com/id/Street_Lighting/158> a "Street Lamp" ;
+    spacial:easting "385879.560000" ;
+    spacial:northing "396573.130000" ;
+    schema:height "6.000000" ;
+    ns1:hasstreetaddress "AKED CLOSE" .
+
+<https://gmdsp-admin.publishmydata.com/id/Street_Lighting/159> a "Street Lamp" ;
+    spacial:easting "385908.000000" ;
+    spacial:northing "396570.630000" ;
+    schema:height "6.000000" ;
+    ns1:hasstreetaddress "AKED CLOSE" .
+
+<https://gmdsp-admin.publishmydata.com/id/Street_Lighting/160> a "Street Lamp" ;
+    spacial:easting "385937.590000" ;
+    spacial:northing "396560.220000" ;
+    schema:height "6.000000" ;
+    ns1:hasstreetaddress "AKED CLOSE" .
+
+<https://gmdsp-admin.publishmydata.com/id/Street_Lighting/161> a "Street Lamp" ;
+    spacial:easting "385969.880000" ;
+    spacial:northing "396547.940000" ;
+    schema:height "6.000000" ;
+    ns1:hasstreetaddress "AKED CLOSE" .
+
+<https://gmdsp-admin.publishmydata.com/id/Street_Lighting/162> a "Street Lamp" ;
+    spacial:easting "387177.780000" ;
+    spacial:northing "397531.000000" ;
+    schema:height "12.000000" ;
+    ns1:hasstreetaddress "ALAN TURING WAY" .
+
+<https://gmdsp-admin.publishmydata.com/id/Street_Lighting/163> a "Street Lamp" ;
+    spacial:easting "387230.310000" ;
+    spacial:northing "397666.590000" ;
+    schema:height "12.000000" ;
+    ns1:hasstreetaddress "ALAN TURING WAY" .
+
+<https://gmdsp-admin.publishmydata.com/id/Street_Lighting/164> a "Street Lamp" ;
+    spacial:easting "387214.340000" ;
+    spacial:northing "397702.970000" ;
+    schema:height "12.000000" ;
+    ns1:hasstreetaddress "ALAN TURING WAY" .
+
+<https://gmdsp-admin.publishmydata.com/id/Street_Lighting/211> a "Street Lamp" ;
+    spacial:easting "387119.940000" ;
+    spacial:northing "398372.190000" ;
+    schema:height "12.000000" ;
+    ns1:hasstreetaddress "ALAN TURING WAY" .
+
+<https://gmdsp-admin.publishmydata.com/id/Street_Lighting/212> a "Street Lamp" ;
+    spacial:easting "387150.440000" ;
+    spacial:northing "398382.440000" ;
+    schema:height "12.000000" ;
+    ns1:hasstreetaddress "ALAN TURING WAY" .
+
+<https://gmdsp-admin.publishmydata.com/id/Street_Lighting/213> a "Street Lamp" ;
+    spacial:easting "387108.940000" ;
+    spacial:northing "398409.910000" ;
+    schema:height "12.000000" ;
+    ns1:hasstreetaddress "ALAN TURING WAY" .
+
+<https://gmdsp-admin.publishmydata.com/id/Street_Lighting/214> a "Street Lamp" ;
+    spacial:easting "387137.630000" ;
+    spacial:northing "398416.310000" ;
+    schema:height "12.000000" ;
+    ns1:hasstreetaddress "ALAN TURING WAY" .
+
+<https://gmdsp-admin.publishmydata.com/id/Street_Lighting/215> a "Street Lamp" ;
+    spacial:easting "387097.340000" ;
+    spacial:northing "398446.340000" ;
+    schema:height "12.000000" ;
+    ns1:hasstreetaddress "ALAN TURING WAY" .
+
+<https://gmdsp-admin.publishmydata.com/id/Street_Lighting/216> a "Street Lamp" ;
+    spacial:easting "387124.190000" ;
+    spacial:northing "398450.810000" ;
+    schema:height "12.000000" ;
+    ns1:hasstreetaddress "ALAN TURING WAY" .
+
+<https://gmdsp-admin.publishmydata.com/id/Street_Lighting/217> a "Street Lamp" ;
+    spacial:easting "387090.030000" ;
+    spacial:northing "398471.910000" ;
+    schema:height "12.000000" ;
+    ns1:hasstreetaddress "ALAN TURING WAY" .
+
+<https://gmdsp-admin.publishmydata.com/id/Street_Lighting/218> a "Street Lamp" ;
+    spacial:easting "387213.880000" ;
+    spacial:northing "397592.410000" ;
+    schema:height "12.000000" ;
+    ns1:hasstreetaddress "ALAN TURING WAY" .
+
+<https://gmdsp-admin.publishmydata.com/id/Street_Lighting/219> a "Street Lamp" ;
+    spacial:easting "387113.810000" ;
+    spacial:northing "398478.310000" ;
+    schema:height "12.000000" ;
+    ns1:hasstreetaddress "ALAN TURING WAY" .
+
+<https://gmdsp-admin.publishmydata.com/id/Street_Lighting/220> a "Street Lamp" ;
+    spacial:easting "387081.500000" ;
+    spacial:northing "398493.660000" ;
+    schema:height "12.000000" ;
+    ns1:hasstreetaddress "ALAN TURING WAY" .
+
+<https://gmdsp-admin.publishmydata.com/id/Street_Lighting/221> a "Street Lamp" ;
+    spacial:easting "387104.690000" ;
+    spacial:northing "398501.310000" ;
+    schema:height "12.000000" ;
+    ns1:hasstreetaddress "ALAN TURING WAY" .
+
+<https://gmdsp-admin.publishmydata.com/id/Street_Lighting/222> a "Street Lamp" ;
+    spacial:easting "387070.500000" ;
+    spacial:northing "398522.410000" ;
+    schema:height "12.000000" ;
+    ns1:hasstreetaddress "ALAN TURING WAY" .
+
+<https://gmdsp-admin.publishmydata.com/id/Street_Lighting/223> a "Street Lamp" ;
+    spacial:easting "387091.590000" ;
+    spacial:northing "398542.810000" ;
+    schema:height "12.000000" ;
+    ns1:hasstreetaddress "ALAN TURING WAY" .
+
+<https://gmdsp-admin.publishmydata.com/id/Street_Lighting/224> a "Street Lamp" ;
+    spacial:easting "387060.750000" ;
+    spacial:northing "398544.130000" ;
+    schema:height "12.000000" ;
+    ns1:hasstreetaddress "ALAN TURING WAY" .
+
+<https://gmdsp-admin.publishmydata.com/id/Street_Lighting/225> a "Street Lamp" ;
+    spacial:easting "387077.590000" ;
+    spacial:northing "398578.640000" ;
+    schema:height "12.000000" ;
+    ns1:hasstreetaddress "ALAN TURING WAY" .
+
+<https://gmdsp-admin.publishmydata.com/id/Street_Lighting/226> a "Street Lamp" ;
+    spacial:easting "387028.410000" ;
+    spacial:northing "398606.780000" ;
+    schema:height "12.000000" ;
+    ns1:hasstreetaddress "ALAN TURING WAY" .
+
+<https://gmdsp-admin.publishmydata.com/id/Street_Lighting/227> a "Street Lamp" ;
+    spacial:easting "387061.340000" ;
+    spacial:northing "398613.810000" ;
+    schema:height "12.000000" ;
+    ns1:hasstreetaddress "ALAN TURING WAY" .
+
+<https://gmdsp-admin.publishmydata.com/id/Street_Lighting/228> a "Street Lamp" ;
+    spacial:easting "387014.380000" ;
+    spacial:northing "398635.560000" ;
+    schema:height "12.000000" ;
+    ns1:hasstreetaddress "ALAN TURING WAY" .
+
+<https://gmdsp-admin.publishmydata.com/id/Street_Lighting/229> a "Street Lamp" ;
+    spacial:easting "387195.130000" ;
+    spacial:northing "397637.130000" ;
+    schema:height "12.000000" ;
+    ns1:hasstreetaddress "ALAN TURING WAY" .
+
+<https://gmdsp-admin.publishmydata.com/id/Street_Lighting/230> a "Street Lamp" ;
+    spacial:easting "387047.940000" ;
+    spacial:northing "398643.880000" ;
+    schema:height "12.000000" ;
+    ns1:hasstreetaddress "ALAN TURING WAY" .
+
+<https://gmdsp-admin.publishmydata.com/id/Street_Lighting/231> a "Street Lamp" ;
+    spacial:easting "386997.280000" ;
+    spacial:northing "398670.690000" ;
+    schema:height "12.000000" ;
+    ns1:hasstreetaddress "ALAN TURING WAY" .
+
+<https://gmdsp-admin.publishmydata.com/id/Street_Lighting/232> a "Street Lamp" ;
+    spacial:easting "387022.010000" ;
+    spacial:northing "398689.000000" ;
+    schema:height "12.000000" ;
+    ns1:hasstreetaddress "ALAN TURING WAY" .
+
+<https://gmdsp-admin.publishmydata.com/id/Street_Lighting/233> a "Street Lamp" ;
+    spacial:easting "386987.660000" ;
+    spacial:northing "398702.540000" ;
+    schema:height "12.000000" ;
+    ns1:hasstreetaddress "ALAN TURING WAY" .
+
+<https://gmdsp-admin.publishmydata.com/id/Street_Lighting/234> a "Street Lamp" ;
+    spacial:easting "387011.250000" ;
+    spacial:northing "398714.130000" ;
+    schema:height "12.000000" ;
+    ns1:hasstreetaddress "ALAN TURING WAY" .
+
+<https://gmdsp-admin.publishmydata.com/id/Street_Lighting/235> a "Street Lamp" ;
+    spacial:easting "386979.250000" ;
+    spacial:northing "398722.630000" ;
+    schema:height "12.000000" ;
+    ns1:hasstreetaddress "ALAN TURING WAY" .
+
+<https://gmdsp-admin.publishmydata.com/id/Street_Lighting/236> a "Street Lamp" ;
+    spacial:easting "387002.520000" ;
+    spacial:northing "398737.150000" ;
+    schema:height "12.000000" ;
+    ns1:hasstreetaddress "ALAN TURING WAY" .
+
+<https://gmdsp-admin.publishmydata.com/id/Street_Lighting/237> a "Street Lamp" ;
+    spacial:easting "386967.940000" ;
+    spacial:northing "398749.250000" ;
+    schema:height "12.000000" ;
+    ns1:hasstreetaddress "ALAN TURING WAY" .
+
+<https://gmdsp-admin.publishmydata.com/id/Street_Lighting/238> a "Street Lamp" ;
+    spacial:easting "386996.000000" ;
+    spacial:northing "398755.160000" ;
+    schema:height "12.000000" ;
+    ns1:hasstreetaddress "ALAN TURING WAY" .
+
+<https://gmdsp-admin.publishmydata.com/id/Street_Lighting/239> a "Street Lamp" ;
+    spacial:easting "386958.780000" ;
+    spacial:northing "398779.540000" ;
+    schema:height "12.000000" ;
+    ns1:hasstreetaddress "ALAN TURING WAY" .
+
+<https://gmdsp-admin.publishmydata.com/id/Street_Lighting/240> a "Street Lamp" ;
+    spacial:easting "387221.380000" ;
+    spacial:northing "397634.660000" ;
+    schema:height "12.000000" ;
+    ns1:hasstreetaddress "ALAN TURING WAY" .
+

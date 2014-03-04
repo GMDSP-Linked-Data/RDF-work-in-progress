@@ -50,6 +50,7 @@ OS = Namespace('http://data.ordnancesurvey.co.uk/ontology/admingeo/')
 RDFS = Namespace('http://www.w3.org/2000/01/rdf-schema#')
 GEO = Namespace('http://www.w3.org/2003/01/geo/wgs84_pos#')
 VCARD = Namespace('http://www.w3.org/2006/vcard/ns#')
+al = Namespace('https://gmdsp-admin.publishmydata.com/id/Allotments/')
 
 class Store:
     def __init__(self):
@@ -68,10 +69,11 @@ class Store:
 
     def save(self):
         print storeuri
-        self.graph.serialize(storeuri, format='n3')
+        self.graph.serialize(storeuri, format='turtle')
 
     def new_allotment(self, address, application, disabled_access, external_link, guidence, location, name, plot_size, rent):
-        allotment = BNode() # @@ humanize the identifier (something like #rev-$date)
+        allotment = al[name.replace (" ", "_")] # @@ humanize the identifier (something like #rev-$date)
+        self.graph.add((allotment, RDF.type, Literal("Allotment")))
         self.graph.add((allotment, VCARD['hasstreetaddress'], Literal(address)))
         #self.graph.add((allotment, DC['date'], Literal(application)))
         #self.graph.add((allotment, DC['date'], Literal(disabled_access)))

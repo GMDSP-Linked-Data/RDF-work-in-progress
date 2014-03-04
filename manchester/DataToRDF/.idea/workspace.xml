@@ -2,7 +2,11 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="9d644dcd-0d89-4285-85b1-21a3c7dfdfa4" name="Default" comment="">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/streetlight.n3" afterPath="$PROJECT_DIR$/streetlight.n3" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/allotments.n3" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/streetlight.n3" afterPath="" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Alotments" afterPath="$PROJECT_DIR$/Alotments" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/streetlights.py" afterPath="$PROJECT_DIR$/streetlights.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <ignored path="DataToRDF.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -28,7 +32,25 @@
       <file leaf-file-name="Alotments" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/Alotments">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="46" column="16" selection-start="1204" selection-end="1204" vertical-scroll-proportion="0.0" vertical-offset="645" max-vertical-offset="1545">
+            <state line="75" column="63" selection-start="2450" selection-end="2450" vertical-scroll-proportion="0.0" vertical-offset="750" max-vertical-offset="1515">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="allotments.n3" pinned="false" current="true" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/allotments.n3">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="-6.715311" vertical-offset="2807" max-vertical-offset="3225">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="streetlights.py" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/streetlights.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="79" column="19" selection-start="2700" selection-end="2771" vertical-scroll-proportion="0.0" vertical-offset="975" max-vertical-offset="1650">
               <folding>
                 <element signature="e#650#684#0" expanded="true" />
               </folding>
@@ -36,13 +58,11 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="streetlights.py" pinned="false" current="true" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/streetlights.py">
+      <file leaf-file-name="streetlight.turtle" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/streetlight.turtle">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="71" column="19" selection-start="2214" selection-end="2214" vertical-scroll-proportion="2.6296296" vertical-offset="0" max-vertical-offset="1605">
-              <folding>
-                <element signature="e#650#684#0" expanded="true" />
-              </folding>
+            <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="7530">
+              <folding />
             </state>
           </provider>
         </entry>
@@ -65,8 +85,9 @@
   <component name="IdeDocumentHistory">
     <option name="changedFiles">
       <list>
-        <option value="$PROJECT_DIR$/Alotments" />
+        <option value="$PROJECT_DIR$/streetlight.turtle" />
         <option value="$PROJECT_DIR$/streetlights.py" />
+        <option value="$PROJECT_DIR$/Alotments" />
       </list>
     </option>
   </component>
@@ -102,6 +123,7 @@
       <sortByType />
     </navigator>
     <panes>
+      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <PATH>
@@ -136,18 +158,17 @@
           </PATH>
         </subPane>
       </pane>
-      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
     <property name="options.splitter.main.proportions" value="0.3" />
-    <property name="options.lastSelected" value="project.propVCSSupport.Mappings" />
     <property name="recentsLimit" value="5" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/../.." />
+    <property name="options.lastSelected" value="project.propVCSSupport.Mappings" />
     <property name="restartRequiresConfirmation" value="true" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../.." />
     <property name="FullScreen" value="false" />
-    <property name="options.splitter.details.proportions" value="0.2" />
     <property name="options.searchVisible" value="true" />
+    <property name="options.splitter.details.proportions" value="0.2" />
   </component>
   <component name="PyConsoleOptionsProvider">
     <option name="myPythonConsoleState">
@@ -388,7 +409,7 @@
       <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.32932332" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32932332" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.32932332" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
@@ -412,56 +433,64 @@
   <component name="editorHistoryManager">
     <entry file="file://$PROJECT_DIR$/Alotments">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="70" column="21" selection-start="2144" selection-end="2150" vertical-scroll-proportion="0.0" vertical-offset="780" max-vertical-offset="2025">
-          <folding>
-            <element signature="e#650#684#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Data/allotments.csv">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="3105">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Data/Street_Lighting.txt">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="2" column="40" selection-start="286" selection-end="286" vertical-scroll-proportion="-6.236842" vertical-offset="2400" max-vertical-offset="922680">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/allotments.n3">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="105" column="29" selection-start="4105" selection-end="4105" vertical-scroll-proportion="0.14354067" vertical-offset="1515" max-vertical-offset="2625">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Alotments">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="46" column="16" selection-start="1204" selection-end="1204" vertical-scroll-proportion="0.0" vertical-offset="645" max-vertical-offset="1545">
-          <folding>
-            <element signature="e#650#684#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/streetlight.n3">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="392" column="9" selection-start="12232" selection-end="12232" vertical-scroll-proportion="0.215311" vertical-offset="5790" max-vertical-offset="116115">
+        <state line="46" column="16" selection-start="1204" selection-end="1204" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="1545">
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/streetlights.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="71" column="19" selection-start="2214" selection-end="2214" vertical-scroll-proportion="2.6296296" vertical-offset="0" max-vertical-offset="1605">
+        <state line="71" column="19" selection-start="2214" selection-end="2214" vertical-scroll-proportion="0.0" vertical-offset="1065" max-vertical-offset="1605">
           <folding>
             <element signature="e#650#684#0" expanded="true" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Alotments">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="70" column="21" selection-start="2144" selection-end="2150" vertical-scroll-proportion="0.0" vertical-offset="780" max-vertical-offset="2025">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Data/allotments.csv">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="3105" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Data/Street_Lighting.txt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="2" column="40" selection-start="286" selection-end="286" vertical-scroll-proportion="-6.236842" vertical-offset="2400" max-vertical-offset="922680" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/streetlight.turtle">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="7530">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/streetlights.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="79" column="19" selection-start="2700" selection-end="2771" vertical-scroll-proportion="0.0" vertical-offset="975" max-vertical-offset="1650">
+          <folding>
+            <element signature="e#650#684#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Alotments">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="75" column="63" selection-start="2450" selection-end="2450" vertical-scroll-proportion="0.0" vertical-offset="750" max-vertical-offset="1515">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/allotments.n3">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="-6.715311" vertical-offset="2807" max-vertical-offset="3225">
+          <folding />
         </state>
       </provider>
     </entry>
