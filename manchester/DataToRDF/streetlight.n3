@@ -318,6 +318,11 @@
     schema:height "6.000000" ;
     ns1:hasstreetaddress "ARRAN STREET" .
 
+[] spacial:easting "383933.690000" ;
+    spacial:northing "395463.780000" ;
+    schema:height "6.000000" ;
+    ns1:hasstreetaddress "BERESFORD STREET" .
+
 [] spacial:easting "386372.750000" ;
     spacial:northing "397103.250000" ;
     schema:height "6.000000" ;
@@ -382,6 +387,11 @@
     spacial:northing "392292.530000" ;
     schema:height "12.000000" ;
     ns1:hasstreetaddress "BARLOW MOOR ROAD" .
+
+[] spacial:easting "389066.280000" ;
+    spacial:northing "397724.630000" ;
+    schema:height "6.000000" ;
+    ns1:hasstreetaddress "BENDALL STREET" .
 
 [] spacial:easting "386436.870000" ;
     spacial:northing "397568.360000" ;
@@ -497,6 +507,16 @@
     spacial:northing "395603.380000" ;
     schema:height "6.000000" ;
     ns1:hasstreetaddress "ADSCOMBE STREET" .
+
+[] spacial:easting "382384.820000" ;
+    spacial:northing "388622.300000" ;
+    schema:height "8.000000" ;
+    ns1:hasstreetaddress "BENCHILL ROAD" .
+
+[] spacial:easting "382394.190000" ;
+    spacial:northing "388594.500000" ;
+    schema:height "8.000000" ;
+    ns1:hasstreetaddress "BENCHILL ROAD" .
 
 [] spacial:easting "384780.560000" ;
     spacial:northing "399181.500000" ;
@@ -808,6 +828,11 @@
     schema:height "6.000000" ;
     ns1:hasstreetaddress "AMPORT WALK" .
 
+[] spacial:easting "386786.500000" ;
+    spacial:northing "403522.060000" ;
+    schema:height "6.000000" ;
+    ns1:hasstreetaddress "BENMORE ROAD" .
+
 [] spacial:easting "386925.310000" ;
     spacial:northing "401992.690000" ;
     schema:height "6.000000" ;
@@ -948,6 +973,16 @@
     schema:height "6.000000" ;
     ns1:hasstreetaddress "ALPERTON WALK" .
 
+[] spacial:easting "383907.060000" ;
+    spacial:northing "395421.250000" ;
+    schema:height "5.000000" ;
+    ns1:hasstreetaddress "BERESFORD ST ALLEYWAY" .
+
+[] spacial:easting "386732.560000" ;
+    spacial:northing "403415.880000" ;
+    schema:height "6.000000" ;
+    ns1:hasstreetaddress "BENMORE ROAD" .
+
 [] spacial:easting "380065.750000" ;
     spacial:northing "389404.810000" ;
     schema:height "6.000000" ;
@@ -983,10 +1018,20 @@
     schema:height "12.000000" ;
     ns1:hasstreetaddress "ALAN TURING WAY" .
 
+[] spacial:easting "386560.560000" ;
+    spacial:northing "403520.160000" ;
+    schema:height "6.000000" ;
+    ns1:hasstreetaddress "BENMORE ROAD" .
+
 [] spacial:easting "381176.500000" ;
     spacial:northing "388622.190000" ;
     schema:height "6.000000" ;
     ns1:hasstreetaddress "ACKWORTH DRIVE" .
+
+[] spacial:easting "386652.660000" ;
+    spacial:northing "403439.280000" ;
+    schema:height "6.000000" ;
+    ns1:hasstreetaddress "BENMORE ROAD" .
 
 [] spacial:easting "387474.500000" ;
     spacial:northing "401200.160000" ;
@@ -1012,6 +1057,11 @@
     spacial:northing "398407.810000" ;
     schema:height "10.000000" ;
     ns1:hasstreetaddress "ASHTON NEW ROAD" .
+
+[] spacial:easting "384951.940000" ;
+    spacial:northing "398841.970000" ;
+    schema:height "8.000000" ;
+    ns1:hasstreetaddress "BENGAL STREET" .
 
 [] spacial:easting "386943.130000" ;
     spacial:northing "402015.220000" ;
@@ -1183,6 +1233,11 @@
     schema:height "10.000000" ;
     ns1:hasstreetaddress "BANK BRIDGE ROAD" .
 
+[] spacial:easting "385860.160000" ;
+    spacial:northing "399304.880000" ;
+    schema:height "6.000000" ;
+    ns1:hasstreetaddress "BERKSHIRE ROAD" .
+
 [] spacial:easting "383825.910000" ;
     spacial:northing "398102.660000" ;
     schema:height "8.000000" ;
@@ -1308,6 +1363,11 @@
     schema:height "6.000000" ;
     ns1:hasstreetaddress "ARBOR DRIVE" .
 
+[] spacial:easting "383933.690000" ;
+    spacial:northing "395511.780000" ;
+    schema:height "6.000000" ;
+    ns1:hasstreetaddress "BERESFORD STREET" .
+
 [] spacial:easting "386019.440000" ;
     spacial:northing "397691.470000" ;
     schema:height "6.000000" ;
@@ -1423,6 +1483,11 @@
     schema:height "8.000000" ;
     ns1:hasstreetaddress "ALBERT STREET" .
 
+[] spacial:easting "386591.660000" ;
+    spacial:northing "395113.000000" ;
+    schema:height "8.000000" ;
+    ns1:hasstreetaddress "BERESFORD ROAD" .
+
 [] spacial:easting "383444.910000" ;
     spacial:northing "396413.590000" ;
     schema:height "6.000000" ;
@@ -1477,6 +1542,11 @@
     spacial:northing "396463.190000" ;
     schema:height "6.000000" ;
     ns1:hasstreetaddress "CLOPTON WALK" .
+
+[] spacial:easting "383907.440000" ;
+    spacial:northing "395453.910000" ;
+    schema:height "5.000000" ;
+    ns1:hasstreetaddress "BERESFORD ST ALLEYWAY" .
 
 [] spacial:easting "386087.630000" ;
     spacial:northing "399647.500000" ;
@@ -1558,6 +1628,11 @@
     schema:height "10.000000" ;
     ns1:hasstreetaddress "ASHTON NEW ROAD" .
 
+[] spacial:easting "386589.440000" ;
+    spacial:northing "403509.060000" ;
+    schema:height "6.000000" ;
+    ns1:hasstreetaddress "BENMORE ROAD" .
+
 [] spacial:easting "389498.230000" ;
     spacial:northing "397165.640000" ;
     schema:height "8.000000" ;
@@ -1602,6 +1677,11 @@
     spacial:northing "398354.750000" ;
     schema:height "6.000000" ;
     ns1:hasstreetaddress "ASHTON CANAL" .
+
+[] spacial:easting "383904.280000" ;
+    spacial:northing "395276.810000" ;
+    schema:height "5.000000" ;
+    ns1:hasstreetaddress "BERESFORD ST ALLEYWAY" .
 
 [] spacial:easting "389237.030000" ;
     spacial:northing "397029.380000" ;
@@ -1702,6 +1782,11 @@
     spacial:northing "395367.720000" ;
     schema:height "6.000000" ;
     ns1:hasstreetaddress "ABBOTSIDE CLOSE" .
+
+[] spacial:easting "386489.630000" ;
+    spacial:northing "396193.000000" ;
+    schema:height "6.000000" ;
+    ns1:hasstreetaddress "BERIGAN CLOSE" .
 
 [] spacial:easting "386164.750000" ;
     spacial:northing "401431.130000" ;
@@ -1838,10 +1923,20 @@
     schema:height "8.000000" ;
     ns1:hasstreetaddress "ASPINALL STREET" .
 
+[] spacial:easting "386572.240000" ;
+    spacial:northing "395162.670000" ;
+    schema:height "8.000000" ;
+    ns1:hasstreetaddress "BERESFORD ROAD" .
+
 [] spacial:easting "387160.880000" ;
     spacial:northing "398256.690000" ;
     schema:height "12.000000" ;
     ns1:hasstreetaddress "ALAN TURING WAY" .
+
+[] spacial:easting "383939.780000" ;
+    spacial:northing "395239.130000" ;
+    schema:height "6.000000" ;
+    ns1:hasstreetaddress "BERESFORD STREET" .
 
 [] spacial:easting "384868.440000" ;
     spacial:northing "398767.060000" ;
@@ -1978,6 +2073,11 @@
     schema:height "6.000000" ;
     ns1:hasstreetaddress "BACK PICCADILLY" .
 
+[] spacial:easting "383907.750000" ;
+    spacial:northing "395486.940000" ;
+    schema:height "5.000000" ;
+    ns1:hasstreetaddress "BERESFORD ST ALLEYWAY" .
+
 [] spacial:easting "381792.190000" ;
     spacial:northing "389153.220000" ;
     schema:height "6.000000" ;
@@ -2072,6 +2172,11 @@
     spacial:northing "396217.250000" ;
     schema:height "8.000000" ;
     ns1:hasstreetaddress "GREENHEYS LANE" .
+
+[] spacial:easting "384947.190000" ;
+    spacial:northing "398875.780000" ;
+    schema:height "8.000000" ;
+    ns1:hasstreetaddress "BENGAL STREET" .
 
 [] spacial:easting "386055.250000" ;
     spacial:northing "398839.250000" ;
@@ -2168,6 +2273,11 @@
     schema:height "10.000000" ;
     ns1:hasstreetaddress "BANK STREET" .
 
+[] spacial:easting "383933.030000" ;
+    spacial:northing "395390.720000" ;
+    schema:height "6.000000" ;
+    ns1:hasstreetaddress "BERESFORD STREET" .
+
 [] spacial:easting "382847.000000" ;
     spacial:northing "386009.190000" ;
     schema:height "6.000000" ;
@@ -2207,6 +2317,11 @@
     spacial:northing "398426.500000" ;
     schema:height "10.000000" ;
     ns1:hasstreetaddress "ASHTON NEW ROAD" .
+
+[] spacial:easting "383907.500000" ;
+    spacial:northing "395137.590000" ;
+    schema:height "6.000000" ;
+    ns1:hasstreetaddress "BERESFORD ST ALLEYWAY" .
 
 [] spacial:easting "387385.130000" ;
     spacial:northing "397480.340000" ;
@@ -2308,6 +2423,11 @@
     schema:height "6.000000" ;
     ns1:hasstreetaddress "ALISON STREET" .
 
+[] spacial:easting "386709.530000" ;
+    spacial:northing "403389.160000" ;
+    schema:height "6.000000" ;
+    ns1:hasstreetaddress "BENMORE ROAD" .
+
 [] spacial:easting "385056.500000" ;
     spacial:northing "396989.720000" ;
     schema:height "6.000000" ;
@@ -2393,6 +2513,11 @@
     schema:height "6.000000" ;
     ns1:hasstreetaddress "AUSTELL ROAD" .
 
+[] spacial:easting "386495.500000" ;
+    spacial:northing "396163.750000" ;
+    schema:height "6.000000" ;
+    ns1:hasstreetaddress "BERIGAN CLOSE" .
+
 [] spacial:easting "384438.530000" ;
     spacial:northing "399242.000000" ;
     schema:height "10.000000" ;
@@ -2437,6 +2562,11 @@
     spacial:northing "389020.190000" ;
     schema:height "8.000000" ;
     ns1:hasstreetaddress "DUNMASTON AVENUE" .
+
+[] spacial:easting "386676.810000" ;
+    spacial:northing "403428.660000" ;
+    schema:height "6.000000" ;
+    ns1:hasstreetaddress "BENMORE ROAD" .
 
 [] spacial:easting "387385.280000" ;
     spacial:northing "401244.000000" ;
@@ -2507,6 +2637,11 @@
     spacial:northing "396796.590000" ;
     schema:height "6.000000" ;
     ns1:hasstreetaddress "ASHOVER AVENUE" .
+
+[] spacial:easting "386558.390000" ;
+    spacial:northing "395199.520000" ;
+    schema:height "8.000000" ;
+    ns1:hasstreetaddress "BERESFORD ROAD" .
 
 [] spacial:easting "384044.760000" ;
     spacial:northing "391593.340000" ;
@@ -2588,6 +2723,11 @@
     schema:height "6.000000" ;
     ns1:hasstreetaddress "AUSTELL ROAD" .
 
+[] spacial:easting "385049.630000" ;
+    spacial:northing "398682.280000" ;
+    schema:height "8.000000" ;
+    ns1:hasstreetaddress "BENGAL STREET" .
+
 [] spacial:easting "386967.530000" ;
     spacial:northing "398022.130000" ;
     schema:height "8.000000" ;
@@ -2663,6 +2803,11 @@
     schema:height "6.000000" ;
     ns1:hasstreetaddress "BARLOW MOOR ROAD" .
 
+[] spacial:easting "386730.060000" ;
+    spacial:northing "403506.440000" ;
+    schema:height "6.000000" ;
+    ns1:hasstreetaddress "BENMORE ROAD" .
+
 [] spacial:easting "385283.190000" ;
     spacial:northing "397085.250000" ;
     schema:height "12.000000" ;
@@ -2707,6 +2852,11 @@
     spacial:northing "397804.500000" ;
     schema:height "6.000000" ;
     ns1:hasstreetaddress "ALDERMOOR CLOSE" .
+
+[] spacial:easting "387564.410000" ;
+    spacial:northing "400539.310000" ;
+    schema:height "6.000000" ;
+    ns1:hasstreetaddress "BERGMAN WALK" .
 
 [] spacial:easting "382184.970000" ;
     spacial:northing "388442.640000" ;
@@ -2783,6 +2933,11 @@
     schema:height "8.000000" ;
     ns1:hasstreetaddress "AMBERLEY DRIVE" .
 
+[] spacial:easting "388153.160000" ;
+    spacial:northing "397365.720000" ;
+    schema:height "8.000000" ;
+    ns1:hasstreetaddress "BESSEMER STREET" .
+
 [] spacial:easting "383674.940000" ;
     spacial:northing "397618.500000" ;
     schema:height "10.000000" ;
@@ -2837,6 +2992,11 @@
     spacial:northing "401947.730000" ;
     schema:height "6.000000" ;
     ns1:hasstreetaddress "ARLINGTON STREET" .
+
+[] spacial:easting "386845.880000" ;
+    spacial:northing "403528.440000" ;
+    schema:height "6.000000" ;
+    ns1:hasstreetaddress "BENMORE ROAD" .
 
 [] spacial:easting "385775.130000" ;
     spacial:northing "401254.940000" ;
@@ -3092,6 +3252,11 @@
     spacial:northing "397860.810000" ;
     schema:height "10.000000" ;
     ns1:hasstreetaddress "AYTOUN STREET" .
+
+[] spacial:easting "386818.090000" ;
+    spacial:northing "403535.310000" ;
+    schema:height "6.000000" ;
+    ns1:hasstreetaddress "BENMORE ROAD" .
 
 [] spacial:easting "383362.340000" ;
     spacial:northing "396644.500000" ;
@@ -3413,6 +3578,11 @@
     schema:height "10.000000" ;
     ns1:hasstreetaddress "ADDINGTON STREET" .
 
+[] spacial:easting "386679.060000" ;
+    spacial:northing "403481.380000" ;
+    schema:height "6.000000" ;
+    ns1:hasstreetaddress "BENMORE ROAD" .
+
 [] spacial:easting "389498.750000" ;
     spacial:northing "397126.250000" ;
     schema:height "8.000000" ;
@@ -3483,6 +3653,16 @@
     schema:height "10.000000" ;
     ns1:hasstreetaddress "ALTRINCHAM ROAD" .
 
+[] spacial:easting "383903.810000" ;
+    spacial:northing "395348.090000" ;
+    schema:height "5.000000" ;
+    ns1:hasstreetaddress "BERESFORD ST ALLEYWAY" .
+
+[] spacial:easting "382726.940000" ;
+    spacial:northing "397225.940000" ;
+    schema:height "8.000000" ;
+    ns1:hasstreetaddress "CAWDOR STREET" .
+
 [] spacial:easting "383993.720000" ;
     spacial:northing "396306.560000" ;
     schema:height "8.000000" ;
@@ -3492,6 +3672,11 @@
     spacial:northing "398359.160000" ;
     schema:height "10.000000" ;
     ns1:hasstreetaddress "ASHTON NEW ROAD" .
+
+[] spacial:easting "386563.130000" ;
+    spacial:northing "395221.560000" ;
+    schema:height "8.000000" ;
+    ns1:hasstreetaddress "BERESFORD ROAD" .
 
 [] spacial:easting "385969.880000" ;
     spacial:northing "396547.940000" ;
@@ -3508,6 +3693,11 @@
     schema:height "10.000000" ;
     ns1:hasstreetaddress "ASHTON OLD ROAD" .
 
+[] spacial:easting "386761.660000" ;
+    spacial:northing "403421.560000" ;
+    schema:height "6.000000" ;
+    ns1:hasstreetaddress "BENMORE ROAD" .
+
 [] spacial:easting "386647.190000" ;
     spacial:northing "398336.810000" ;
     schema:height "10.000000" ;
@@ -3517,6 +3707,11 @@
     spacial:northing "386149.060000" ;
     schema:height "6.000000" ;
     ns1:hasstreetaddress "AUSTELL ROAD" .
+
+[] spacial:easting "385032.940000" ;
+    spacial:northing "398713.130000" ;
+    schema:height "8.000000" ;
+    ns1:hasstreetaddress "BENGAL STREET" .
 
 [] spacial:easting "387048.590000" ;
     spacial:northing "398303.090000" ;
@@ -3552,6 +3747,11 @@
     spacial:northing "398408.230000" ;
     schema:height "5.000000" ;
     ns1:hasstreetaddress "ASHTON NEW ROAD" .
+
+[] spacial:easting "386594.880000" ;
+    spacial:northing "395133.590000" ;
+    schema:height "8.000000" ;
+    ns1:hasstreetaddress "BERESFORD ROAD" .
 
 [] spacial:easting "385638.190000" ;
     spacial:northing "401429.840000" ;
@@ -3818,6 +4018,11 @@
     schema:height "8.000000" ;
     ns1:hasstreetaddress "ALDERFORD PARADE" .
 
+[] spacial:easting "384796.130000" ;
+    spacial:northing "398853.560000" ;
+    schema:height "6.000000" ;
+    ns1:hasstreetaddress "BENDIX STREET" .
+
 [] spacial:easting "387752.860000" ;
     spacial:northing "399362.030000" ;
     schema:height "10.000000" ;
@@ -3858,6 +4063,11 @@
     schema:height "10.000000" ;
     ns1:hasstreetaddress "ASHTON NEW ROAD" .
 
+[] spacial:easting "383925.340000" ;
+    spacial:northing "395413.660000" ;
+    schema:height "6.000000" ;
+    ns1:hasstreetaddress "BERESFORD STREET" .
+
 [] spacial:easting "387648.380000" ;
     spacial:northing "398515.750000" ;
     schema:height "10.000000" ;
@@ -3872,6 +4082,11 @@
     spacial:northing "398305.340000" ;
     schema:height "12.000000" ;
     ns1:hasstreetaddress "ALAN TURING WAY" .
+
+[] spacial:easting "386842.470000" ;
+    spacial:northing "403497.470000" ;
+    schema:height "6.000000" ;
+    ns1:hasstreetaddress "BENMORE ROAD" .
 
 [] spacial:easting "385723.910000" ;
     spacial:northing "402249.250000" ;
@@ -4163,6 +4378,11 @@
     schema:height "6.000000" ;
     ns1:hasstreetaddress "APPLEFORD DRIVE" .
 
+[] spacial:easting "383907.130000" ;
+    spacial:northing "395083.560000" ;
+    schema:height "5.000000" ;
+    ns1:hasstreetaddress "BERESFORD ST ALLEYWAY" .
+
 [] spacial:easting "382361.780000" ;
     spacial:northing "388633.820000" ;
     schema:height "8.000000" ;
@@ -4398,6 +4618,11 @@
     schema:height "12.000000" ;
     ns1:hasstreetaddress "ALAN TURING WAY" .
 
+[] spacial:easting "386470.030000" ;
+    spacial:northing "396208.660000" ;
+    schema:height "6.000000" ;
+    ns1:hasstreetaddress "BERIGAN CLOSE" .
+
 [] spacial:easting "383921.280000" ;
     spacial:northing "396410.630000" ;
     schema:height "8.000000" ;
@@ -4407,6 +4632,11 @@
     spacial:northing "399175.990000" ;
     schema:height "10.000000" ;
     ns1:hasstreetaddress "BANK BRIDGE ROAD" .
+
+[] spacial:easting "387648.010000" ;
+    spacial:northing "400579.490000" ;
+    schema:height "6.000000" ;
+    ns1:hasstreetaddress "BENVILLE WALK" .
 
 [] spacial:easting "384207.560000" ;
     spacial:northing "397892.720000" ;
@@ -4467,6 +4697,11 @@
     spacial:northing "398334.220000" ;
     schema:height "10.000000" ;
     ns1:hasstreetaddress "ASHTON NEW ROAD" .
+
+[] spacial:easting "386784.690000" ;
+    spacial:northing "403440.250000" ;
+    schema:height "6.000000" ;
+    ns1:hasstreetaddress "BENMORE ROAD" .
 
 [] spacial:easting "387022.010000" ;
     spacial:northing "398689.000000" ;
@@ -4558,6 +4793,11 @@
     schema:height "10.000000" ;
     ns1:hasstreetaddress "ALTRINCHAM ROAD" .
 
+[] spacial:easting "383923.310000" ;
+    spacial:northing "395242.190000" ;
+    schema:height "6.000000" ;
+    ns1:hasstreetaddress "BERESFORD STREET" .
+
 [] spacial:easting "385060.970000" ;
     spacial:northing "397947.800000" ;
     schema:height "8.000000" ;
@@ -4593,10 +4833,20 @@
     schema:height "6.000000" ;
     ns1:hasstreetaddress "BANKSIDE ROAD" .
 
+[] spacial:easting "385730.060000" ;
+    spacial:northing "398638.750000" ;
+    schema:height "10.000000" ;
+    ns1:hasstreetaddress "BESWICK STREET" .
+
 [] spacial:easting "385574.750000" ;
     spacial:northing "398427.750000" ;
     schema:height "6.000000" ;
     ns1:hasstreetaddress "ASHTON CANAL" .
+
+[] spacial:easting "386757.590000" ;
+    spacial:northing "403526.560000" ;
+    schema:height "6.000000" ;
+    ns1:hasstreetaddress "BENMORE ROAD" .
 
 [] spacial:easting "384454.590000" ;
     spacial:northing "398340.690000" ;
@@ -4983,6 +5233,16 @@
     schema:height "10.000000" ;
     ns1:hasstreetaddress "ASHTON NEW ROAD" .
 
+[] spacial:easting "386520.380000" ;
+    spacial:northing "396140.130000" ;
+    schema:height "6.000000" ;
+    ns1:hasstreetaddress "BERIGAN CLOSE" .
+
+[] spacial:easting "383923.530000" ;
+    spacial:northing "395313.840000" ;
+    schema:height "6.000000" ;
+    ns1:hasstreetaddress "BERESFORD STREET" .
+
 [] spacial:easting "383892.280000" ;
     spacial:northing "395308.630000" ;
     schema:height "6.000000" ;
@@ -4992,6 +5252,11 @@
     spacial:northing "399128.220000" ;
     schema:height "10.000000" ;
     ns1:hasstreetaddress "BANK BRIDGE ROAD" .
+
+[] spacial:easting "386604.560000" ;
+    spacial:northing "403482.810000" ;
+    schema:height "6.000000" ;
+    ns1:hasstreetaddress "BENMORE ROAD" .
 
 [] spacial:easting "384430.340000" ;
     spacial:northing "398352.440000" ;
@@ -5048,6 +5313,11 @@
     schema:height "8.000000" ;
     ns1:hasstreetaddress "ALBERT SQUARE" .
 
+[] spacial:easting "383931.660000" ;
+    spacial:northing "395292.560000" ;
+    schema:height "6.000000" ;
+    ns1:hasstreetaddress "BERESFORD STREET" .
+
 [] spacial:easting "386322.840000" ;
     spacial:northing "397154.810000" ;
     schema:height "6.000000" ;
@@ -5082,6 +5352,11 @@
     spacial:northing "401280.000000" ;
     schema:height "6.000000" ;
     ns1:hasstreetaddress "BARCOMBE WALK" .
+
+[] spacial:easting "384156.280000" ;
+    spacial:northing "400664.190000" ;
+    schema:height "6.000000" ;
+    ns1:hasstreetaddress "BENHALE WALK" .
 
 [] spacial:easting "387107.460000" ;
     spacial:northing "398387.050000" ;
@@ -5178,6 +5453,11 @@
     schema:height "6.000000" ;
     ns1:hasstreetaddress "AVENHAM CLOSE" .
 
+[] spacial:easting "383912.090000" ;
+    spacial:northing "395231.560000" ;
+    schema:height "5.000000" ;
+    ns1:hasstreetaddress "BERESFORD STREET" .
+
 [] spacial:easting "381393.810000" ;
     spacial:northing "388441.310000" ;
     schema:height "6.000000" ;
@@ -5187,6 +5467,11 @@
     spacial:northing "398033.590000" ;
     schema:height "10.000000" ;
     ns1:hasstreetaddress "ATHERTON STREET" .
+
+[] spacial:easting "383903.380000" ;
+    spacial:northing "395320.160000" ;
+    schema:height "5.000000" ;
+    ns1:hasstreetaddress "BERESFORD ST ALLEYWAY" .
 
 [] spacial:easting "385649.090000" ;
     spacial:northing "404322.280000" ;
@@ -5202,6 +5487,16 @@
     spacial:northing "399271.790000" ;
     schema:height "6.000000" ;
     ns1:hasstreetaddress "BACK ST GEORGES ROAD" .
+
+[] spacial:easting "383909.380000" ;
+    spacial:northing "395176.060000" ;
+    schema:height "5.000000" ;
+    ns1:hasstreetaddress "BERESFORD ST ALLEYWAY" .
+
+[] spacial:easting "385950.810000" ;
+    spacial:northing "398482.000000" ;
+    schema:height "10.000000" ;
+    ns1:hasstreetaddress "BESWICK STREET" .
 
 [] spacial:easting "386877.190000" ;
     spacial:northing "398315.000000" ;
@@ -5273,6 +5568,11 @@
     schema:height "6.000000" ;
     ns1:hasstreetaddress "ARBOR AVENUE" .
 
+[] spacial:easting "384153.970000" ;
+    spacial:northing "400679.220000" ;
+    schema:height "6.000000" ;
+    ns1:hasstreetaddress "BENHALE WALK" .
+
 [] spacial:easting "383253.750000" ;
     spacial:northing "395627.000000" ;
     schema:height "6.000000" ;
@@ -5302,6 +5602,11 @@
     spacial:northing "401844.630000" ;
     schema:height "6.000000" ;
     ns1:hasstreetaddress "ATHLONE AVENUE" .
+
+[] spacial:easting "383902.910000" ;
+    spacial:northing "395248.410000" ;
+    schema:height "5.000000" ;
+    ns1:hasstreetaddress "BERESFORD ST ALLEYWAY" .
 
 [] spacial:easting "384938.720000" ;
     spacial:northing "393127.660000" ;
@@ -5468,6 +5773,11 @@
     schema:height "6.000000" ;
     ns1:hasstreetaddress "ALDFIELD ROAD" .
 
+[] spacial:easting "385936.410000" ;
+    spacial:northing "398506.340000" ;
+    schema:height "10.000000" ;
+    ns1:hasstreetaddress "BESWICK STREET" .
+
 [] spacial:easting "383183.490000" ;
     spacial:northing "396968.460000" ;
     schema:height "8.000000" ;
@@ -5633,6 +5943,11 @@
     schema:height "6.000000" ;
     ns1:hasstreetaddress "ALDERMOOR CLOSE" .
 
+[] spacial:easting "383924.000000" ;
+    spacial:northing "395366.810000" ;
+    schema:height "6.000000" ;
+    ns1:hasstreetaddress "BERESFORD STREET" .
+
 [] spacial:easting "384630.980000" ;
     spacial:northing "396142.230000" ;
     schema:height "8.000000" ;
@@ -5757,6 +6072,11 @@
     spacial:northing "404390.300000" ;
     schema:height "6.000000" ;
     ns1:hasstreetaddress "ALCONBURY WALK" .
+
+[] spacial:easting "384725.720000" ;
+    spacial:northing "398902.160000" ;
+    schema:height "6.000000" ;
+    ns1:hasstreetaddress "BENDIX STREET" .
 
 [] spacial:easting "380817.500000" ;
     spacial:northing "389350.060000" ;
@@ -5898,6 +6218,11 @@
     schema:height "8.000000" ;
     ns1:hasstreetaddress "COLIN MURPHY ROAD" .
 
+[] spacial:easting "386633.910000" ;
+    spacial:northing "403471.220000" ;
+    schema:height "6.000000" ;
+    ns1:hasstreetaddress "BENMORE ROAD" .
+
 [] spacial:easting "381942.840000" ;
     spacial:northing "393148.190000" ;
     schema:height "10.000000" ;
@@ -6018,6 +6343,11 @@
     schema:height "12.000000" ;
     ns1:hasstreetaddress "ASHTON NEW ROAD" .
 
+[] spacial:easting "382724.830000" ;
+    spacial:northing "397248.460000" ;
+    schema:height "6.000000" ;
+    ns1:hasstreetaddress "BENTINCK STREET" .
+
 [] spacial:easting "386992.690000" ;
     spacial:northing "398030.310000" ;
     schema:height "8.000000" ;
@@ -6038,10 +6368,25 @@
     schema:height "8.000000" ;
     ns1:hasstreetaddress "APPLEFORD DRIVE" .
 
+[] spacial:easting "383932.340000" ;
+    spacial:northing "395337.750000" ;
+    schema:height "6.000000" ;
+    ns1:hasstreetaddress "BERESFORD STREET" .
+
+[] spacial:easting "386820.380000" ;
+    spacial:northing "403436.220000" ;
+    schema:height "6.000000" ;
+    ns1:hasstreetaddress "BENMORE ROAD" .
+
 [] spacial:easting "383595.340000" ;
     spacial:northing "400583.660000" ;
     schema:height "6.000000" ;
     ns1:hasstreetaddress "ALLESLEY DRIVE" .
+
+[] spacial:easting "384969.860000" ;
+    spacial:northing "398808.650000" ;
+    schema:height "8.000000" ;
+    ns1:hasstreetaddress "BENGAL STREET" .
 
 [] spacial:easting "387174.000000" ;
     spacial:northing "398220.840000" ;
@@ -6077,6 +6422,11 @@
     spacial:northing "398898.810000" ;
     schema:height "6.000000" ;
     ns1:hasstreetaddress "ARCHER STREET" .
+
+[] spacial:easting "383931.190000" ;
+    spacial:northing "395265.590000" ;
+    schema:height "6.000000" ;
+    ns1:hasstreetaddress "BERESFORD STREET" .
 
 [] spacial:easting "381698.000000" ;
     spacial:northing "394425.030000" ;
@@ -6298,6 +6648,11 @@
     schema:height "6.000000" ;
     ns1:hasstreetaddress "ASTON AVENUE" .
 
+[] spacial:easting "383926.470000" ;
+    spacial:northing "395441.310000" ;
+    schema:height "6.000000" ;
+    ns1:hasstreetaddress "BERESFORD STREET" .
+
 [] spacial:easting "382769.000000" ;
     spacial:northing "388694.630000" ;
     schema:height "6.000000" ;
@@ -6367,6 +6722,11 @@
     spacial:northing "398013.880000" ;
     schema:height "8.000000" ;
     ns1:hasstreetaddress "ATHERTON STREET" .
+
+[] spacial:easting "386688.090000" ;
+    spacial:northing "403401.470000" ;
+    schema:height "6.000000" ;
+    ns1:hasstreetaddress "BENMORE ROAD" .
 
 [] spacial:easting "385024.250000" ;
     spacial:northing "397005.970000" ;
@@ -6483,6 +6843,11 @@
     schema:height "6.000000" ;
     ns1:hasstreetaddress "ADSCOMBE STREET PASSAGE" .
 
+[] spacial:easting "384774.160000" ;
+    spacial:northing "398871.030000" ;
+    schema:height "6.000000" ;
+    ns1:hasstreetaddress "BENDIX STREET" .
+
 [] spacial:easting "387408.880000" ;
     spacial:northing "394088.190000" ;
     schema:height "10.000000" ;
@@ -6557,6 +6922,11 @@
     spacial:northing "388774.970000" ;
     schema:height "6.000000" ;
     ns1:hasstreetaddress "ALDERUE AVENUE" .
+
+[] spacial:easting "383905.190000" ;
+    spacial:northing "395382.280000" ;
+    schema:height "5.000000" ;
+    ns1:hasstreetaddress "BERESFORD ST ALLEYWAY" .
 
 [] spacial:easting "385017.780000" ;
     spacial:northing "397925.340000" ;
@@ -6653,6 +7023,11 @@
     schema:height "6.000000" ;
     ns1:hasstreetaddress "ARRAN STREET" .
 
+[] spacial:easting "384745.660000" ;
+    spacial:northing "398894.500000" ;
+    schema:height "6.000000" ;
+    ns1:hasstreetaddress "BENDIX STREET" .
+
 [] spacial:easting "386838.130000" ;
     spacial:northing "399060.810000" ;
     schema:height "12.000000" ;
@@ -6662,6 +7037,11 @@
     spacial:northing "388799.380000" ;
     schema:height "10.000000" ;
     ns1:hasstreetaddress "ALTRINCHAM ROAD" .
+
+[] spacial:easting "386808.760000" ;
+    spacial:northing "397038.800000" ;
+    schema:height "8.000000" ;
+    ns1:hasstreetaddress "BENNETT STREET" .
 
 [] spacial:easting "386635.530000" ;
     spacial:northing "396822.380000" ;
@@ -6732,6 +7112,11 @@
     spacial:northing "388677.600000" ;
     schema:height "8.000000" ;
     ns1:hasstreetaddress "BENCHILL ROAD" .
+
+[] spacial:easting "385837.060000" ;
+    spacial:northing "399320.970000" ;
+    schema:height "8.000000" ;
+    ns1:hasstreetaddress "BERKSHIRE ROAD" .
 
 [] spacial:easting "387070.500000" ;
     spacial:northing "398522.410000" ;
@@ -6917,6 +7302,11 @@
     spacial:northing "397383.280000" ;
     schema:height "12.000000" ;
     ns1:hasstreetaddress "ASHTON OLD ROAD" .
+
+[] spacial:easting "386546.560000" ;
+    spacial:northing "403551.630000" ;
+    schema:height "6.000000" ;
+    ns1:hasstreetaddress "BENMORE ROAD" .
 
 [] spacial:easting "386383.810000" ;
     spacial:northing "397088.310000" ;
@@ -7213,6 +7603,11 @@
     schema:height "6.000000" ;
     ns1:hasstreetaddress "ARRAN STREET" .
 
+[] spacial:easting "384710.660000" ;
+    spacial:northing "398914.130000" ;
+    schema:height "6.000000" ;
+    ns1:hasstreetaddress "BENDIX STREET" .
+
 [] spacial:easting "387025.750000" ;
     spacial:northing "392915.030000" ;
     schema:height "6.000000" ;
@@ -7273,6 +7668,11 @@
     schema:height "6.000000" ;
     ns1:hasstreetaddress "ATTLEBORO ROAD" .
 
+[] spacial:easting "386847.000000" ;
+    spacial:northing "403440.720000" ;
+    schema:height "6.000000" ;
+    ns1:hasstreetaddress "BENMORE ROAD" .
+
 [] spacial:easting "384550.590000" ;
     spacial:northing "397989.560000" ;
     schema:height "8.000000" ;
@@ -7292,6 +7692,11 @@
     spacial:northing "397086.090000" ;
     schema:height "8.000000" ;
     ns1:hasstreetaddress "ANNE NUTTALL ROAD" .
+
+[] spacial:easting "383926.030000" ;
+    spacial:northing "395481.750000" ;
+    schema:height "6.000000" ;
+    ns1:hasstreetaddress "BERESFORD STREET" .
 
 [] spacial:easting "382576.560000" ;
     spacial:northing "395383.940000" ;
@@ -7512,6 +7917,11 @@
     spacial:northing "388414.180000" ;
     schema:height "6.000000" ;
     ns1:hasstreetaddress "ABERFORD ROAD" .
+
+[] spacial:easting "386700.720000" ;
+    spacial:northing "403505.970000" ;
+    schema:height "6.000000" ;
+    ns1:hasstreetaddress "BENMORE ROAD" .
 
 [] spacial:easting "383494.060000" ;
     spacial:northing "396392.910000" ;
