@@ -24,13 +24,13 @@ GEO = RDF::GEO
 VCARD = RDF::VCARD
 
 # our new vocabulary
-AL = RDF::Vocabulary.new("https://gmdsp-admin.publishmydata.com/id/Allotments/")
+ALLOTMENTS = RDF::Vocabulary.new("https://gmdsp-admin.publishmydata.com/id/Allotments/")
 
 allotments.each do |a|
   # create a unique name for this allotment
   label = a.elements.to_a('name')[0].text
   latlong = a.elements.to_a('Point/coordinates')[0].text
-  subject = AL[URI::encode(label)]
+  subject = ALLOTMENTS[URI::encode(label)]
 
   # add the allotment label
   graph << [subject, RDFS.label, label]
