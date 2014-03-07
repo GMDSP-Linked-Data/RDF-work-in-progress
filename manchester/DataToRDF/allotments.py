@@ -41,7 +41,7 @@ import pprint
 import utm
 from bs4 import BeautifulSoup
 
-storefn = os.path.dirname(os.path.realpath(__file__)) + '/allotments.rdf'
+storefn = os.path.dirname(os.path.realpath(__file__)) + '/allotments-tmp.rdf'
 #storefn = '/home/simon/codes/film.dev/movies.n3'
 storeuri = 'file://'+storefn
 title = 'Movies viewed by %s'
@@ -79,7 +79,7 @@ class Store:
     def new_allotment(self, address, application, disabled_access, external_link, guidence, location, name, plot_size, rent, Easting, Northing):
         allotment = al[name.replace (" ", "-")] # @@ humanize the identifier (something like #rev-$date)
         self.graph.add((allotment, RDF.type, URIRef('http://data.gmdsp.org.uk/def/council/neighbourhood/allotment')))
-        self.graph.add((allotment, VCARD['hasstreetaddress'], Literal(address)))
+        #self.graph.add((allotment, VCARD['hasstreetaddress'], Literal(address)))
         self.graph.add((allotment, SCHEME['url'], Literal(application)))
         #self.graph.add((allotment, DC['date'], Literal(disabled_access)))
         self.graph.add((allotment, SCHEME['url'], Literal(external_link)))
@@ -89,7 +89,11 @@ class Store:
         self.graph.add((allotment, OS["easting"], Literal('%.6f' %Easting)))
         self.graph.add((allotment, RDFS['label'], Literal(name)))
         #self.graph.add((allotment, DC['date'], Literal(plot_size)))
-        #self.graph.add((allotment, GEO['rating'], Literal(rent)))
+        #self.graph. add((allotment, GEO['rating'], Literal(rent)))
+        t = BNode()
+        self.graph.add((t, RDF.type, RDF["Description"]))
+        self.graph.add((t,VCARD['hasstreetaddress'], Literal(address)))
+        self.graph.add((allotment, VCARD["adr"], t))
         self.save()
 
 def help():

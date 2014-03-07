@@ -39,7 +39,7 @@ from rdflib.namespace import FOAF, DC
 import csv
 import pprint
 
-storefn = os.path.dirname(os.path.realpath(__file__)) + '/planning.turtle'
+storefn = os.path.dirname(os.path.realpath(__file__)) + '/planning.rdf'
 #storefn = '/home/simon/codes/film.dev/movies.n3'
 storeuri = 'file://'+storefn
 title = 'Movies viewed by %s'
@@ -54,13 +54,14 @@ DIS = Namespace('http://www.w3.org/2006/03/test-description#')
 DISSISION = Namespace('http://purl.org/cerif/frapo/')
 SUB = Namespace('http://purl.org/dc/terms/')
 
-al = Namespace('https://gmdsp-admin.publishmydata.com/id/Planning/')
+al = Namespace('http://data.gmdsp.org.uk/id/manchester/planning/')
 
 
 class Store:
     def __init__(self):
         self.graph = Graph()
-
+        self.disc = []
+        self.applic = []
         rt = self.graph.open(storeuri, create=False)
         if rt == None:
             # There is no underlying Sleepycat infrastructure, create it
@@ -76,22 +77,40 @@ class Store:
         self.graph.bind('sub',SUB)
 
     def save(self):
-        print storeuri
-        self.graph.serialize(storeuri, format='turtle')
+        self.graph.serialize(storeuri, format='pretty-xml')
 
     #def new_allotment(self, address, dateapval, datdeciss, code_codetext, decsn_code, dtypnumbco, refval, plot_size, ward):
-    def new_allotment(self, address, ward, refval, dateapval, datdeciss):
-        allotment = al[refval.replace (" ", "_")] # @@ humanize the identifier (something like #rev-$date)
-        self.graph.add((allotment, RDF.type, Literal("Planning Application")))
+    def new_plan(self, address, ward, refval, dateapval, datdeciss, dissision, application_type):
+        if dissision not in self.disc:
+            print dissision
+            self.new_dission(dissision)
+            self.disc.append(dissision)
+
+        if application_type not in self.applic:
+            print application_type
+            self.new_application_type(application_type)
+            self.applic.append(application_type)
+
+        allotment = al[refval.replace ("/", "-").lower()] # @@ humanize the identifier (something like #rev-$date)
+        self.graph.add((allotment, RDF.type, URIRef('http://data.gmdsp.org.uk/def/council/neighbourhood/planning')))
         self.graph.add((allotment, VCARD['hasstreetaddress'], Literal(address)))
-        self.graph.add((allotment, DISSISION['hasDecisionDate'], Literal(datdeciss)))
-        self.graph.add((allotment, SUB['dateSubmitted'], Literal(dateapval)))
-        #self.graph.add((allotment, DC['date'], Literal(external_link)))
-        #self.graph.add((allotment, DC['date'], Literal(guidence)))
+        self.graph.add((allotment, DISSISION['hasDecisionDate'], URIRef('http://reference.data.gov.uk/id/day/'+time.strftime('%Y-%m-%d',datdeciss))))
+        self.graph.add((allotment, SUB['dateSubmitted'], URIRef('http://reference.data.gov.uk/id/day/'+time.strftime('%Y-%m-%d',dateapval))))
+        self.graph.add((allotment, al['hasDecision'], URIRef('http://data.gmdsp.org.uk/def/council/neighbourhood/planning/dissision/'+dissision.replace (" ", "-").lower())))
+        self.graph.add((allotment, al['applicationType'], URIRef('http://data.gmdsp.org.uk/def/council/neighbourhood/planning/application-type/'+application_type.replace (" ", "-").lower())))
         self.graph.add((allotment, GEO["ward"], Literal(ward)))
         #self.graph.add((allotment, DC['date'], Literal(plot_size)))
         #self.graph.add((allotment, GEO['rating'], Literal(rent)))
-        self.save()
+
+    def new_dission(self, dissision):
+        d = al[dissision.replace (" ", "-").lower()]
+        self.graph.add((d, RDF.type, URIRef('http://data.gmdsp.org.uk/def/council/neighbourhood/planning/dicission')))
+        self.graph.add((d, RDFS["label"], Literal(dissision)))
+
+    def new_application_type(self, aplication_type):
+        d = al[aplication_type.replace (" ", "-").lower()]
+        self.graph.add((d, RDF.type, URIRef('http://data.gmdsp.org.uk/def/council/neighbourhood/planning/application-type')))
+        self.graph.add((d, RDFS["label"], Literal(aplication_type)))
 
 def help():
     print(__doc__.split('--')[1])
@@ -99,11 +118,17 @@ def help():
 def main(argv=None):
     s = Store()
 
-    reader = csv.DictReader(open('./Data/planning.csv', mode='rU'))
+    reader = csv.DictReader(open('./Data/planning2.csv', mode='rU'))
     for row in reader:
         #s.new_allotment(row["Address"], row["Application"], row["Disabled access"], row["External link"], row["Guidance"], row["Location"], row["Name"], row["Plot sizes"], row["Rent"])
-        s.new_allotment(row["ADDRESS"], row["WARD"], row["REFVAL"], row["DATEAPVAL"], row["DATEDECISS"])
-        pprint.pprint(row)
+        if row["DATEDECISS"] == "":
+            row["DATEDECISS"] = "01/01/0001"
+
+        if row["DATEAPVAL"] == "":
+            row["DATEAPVAL"] = "01/01/0001"
+
+        s.new_plan(row["ADDRESS"].replace('\n', ' ').replace('\r', ''), row["Ward Name"].strip(), row["REFVAL"].strip(), time.strptime(row["DATEAPVAL"].strip(), "%d/%m/%Y"), time.strptime(row["DATEDECISS"].strip(), "%d/%m/%Y"), row["DECSN CODE_CODETEXT"], row["DCAPPTYP CODE_CODETEXT"])
+    s.save()
 
 if __name__ == '__main__':
     main()
