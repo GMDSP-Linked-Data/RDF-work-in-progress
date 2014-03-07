@@ -38,6 +38,7 @@ from rdflib.namespace import FOAF, DC
 
 import csv
 import pprint
+import utm
 
 storefn = os.path.dirname(os.path.realpath(__file__)) + '/allotments.turtle'
 #storefn = '/home/simon/codes/film.dev/movies.n3'
@@ -50,7 +51,7 @@ OS = Namespace('http://data.ordnancesurvey.co.uk/ontology/admingeo/')
 RDFS = Namespace('http://www.w3.org/2000/01/rdf-schema#')
 GEO = Namespace('http://www.w3.org/2003/01/geo/wgs84_pos#')
 VCARD = Namespace('http://www.w3.org/2006/vcard/ns#')
-al = Namespace('https://gmdsp-admin.publishmydata.com/id/Allotments/')
+al = Namespace('http://data.gmdsp.org.uk/id/manchester/allotments/')
 
 class Store:
     def __init__(self):
@@ -71,15 +72,17 @@ class Store:
         print storeuri
         self.graph.serialize(storeuri, format='turtle')
 
-    def new_allotment(self, address, application, disabled_access, external_link, guidence, location, name, plot_size, rent):
-        allotment = al[name.replace (" ", "_")] # @@ humanize the identifier (something like #rev-$date)
-        self.graph.add((allotment, RDF.type, Literal("Allotment")))
+    def new_allotment(self, address, application, disabled_access, external_link, guidence, location, name, plot_size, rent, Easting, Northing):
+        allotment = al[name.replace (" ", "-")] # @@ humanize the identifier (something like #rev-$date)
+        self.graph.add((allotment, RDF.type, URIRef('http://data.gmdsp.org.uk/def/allotment')))
         self.graph.add((allotment, VCARD['hasstreetaddress'], Literal(address)))
         #self.graph.add((allotment, DC['date'], Literal(application)))
         #self.graph.add((allotment, DC['date'], Literal(disabled_access)))
         #self.graph.add((allotment, DC['date'], Literal(external_link)))
         #self.graph.add((allotment, DC['date'], Literal(guidence)))
         self.graph.add((allotment, GEO["lat//long"], Literal(location)))
+        self.graph.add((allotment, OS["northing"], Literal('%.6f' %Northing)))
+        self.graph.add((allotment, OS["easting"], Literal('%.6f' %Easting)))
         self.graph.add((allotment, RDFS['label'], Literal(name)))
         #self.graph.add((allotment, DC['date'], Literal(plot_size)))
         #self.graph.add((allotment, GEO['rating'], Literal(rent)))
@@ -93,7 +96,9 @@ def main(argv=None):
 
     reader = csv.DictReader(open('./Data/allotments.csv', mode='r'))
     for row in reader:
-        s.new_allotment(row["Address"], row["Application"], row["Disabled access"], row["External link"], row["Guidance"], row["Location"], row["Name"], row["Plot sizes"], row["Rent"])
+        print(row["Location"].split(','))
+        EASTING, NORTHING, ZONENUMBER, ZONELetter = utm.from_latlon(float(row["Location"].split(',')[0]), float(row["Location"].split(',')[1]))
+        s.new_allotment(row["Address"], row["Application"], row["Disabled access"], row["External link"], row["Guidance"], row["Location"], row["Name"], row["Plot sizes"], row["Rent"], EASTING, NORTHING)
         pprint.pprint(row)
 
 if __name__ == '__main__':
