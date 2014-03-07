@@ -39,19 +39,21 @@ from rdflib.namespace import FOAF, DC
 import csv
 import pprint
 import utm
+from bs4 import BeautifulSoup
 
-storefn = os.path.dirname(os.path.realpath(__file__)) + '/allotments.turtle'
+storefn = os.path.dirname(os.path.realpath(__file__)) + '/allotments.rdf'
 #storefn = '/home/simon/codes/film.dev/movies.n3'
 storeuri = 'file://'+storefn
 title = 'Movies viewed by %s'
 
 r_who = re.compile('^(.*?) <([a-z0-9_-]+(\.[a-z0-9_-]+)*@[a-z0-9_-]+(\.[a-z0-9_-]+)+)>$')
 
-OS = Namespace('http://data.ordnancesurvey.co.uk/ontology/admingeo/')
+OS = Namespace('http://data.ordnancesurvey.co.uk/ontology/spatialrelations/')
 RDFS = Namespace('http://www.w3.org/2000/01/rdf-schema#')
 GEO = Namespace('http://www.w3.org/2003/01/geo/wgs84_pos#')
 VCARD = Namespace('http://www.w3.org/2006/vcard/ns#')
 al = Namespace('http://data.gmdsp.org.uk/id/manchester/allotments/')
+SCHEME = Namespace('http://schema.org/')
 
 class Store:
     def __init__(self):
@@ -67,20 +69,22 @@ class Store:
         self.graph.bind('os', OS)
         self.graph.bind('rdfs', RDFS)
         self.graph.bind('geo', GEO)
+        self.graph.bind('vcard', VCARD)
+        self.graph.bind('scheme', SCHEME)
 
     def save(self):
         print storeuri
-        self.graph.serialize(storeuri, format='turtle')
+        self.graph.serialize(storeuri, format='pretty-xml')
 
     def new_allotment(self, address, application, disabled_access, external_link, guidence, location, name, plot_size, rent, Easting, Northing):
         allotment = al[name.replace (" ", "-")] # @@ humanize the identifier (something like #rev-$date)
-        self.graph.add((allotment, RDF.type, URIRef('http://data.gmdsp.org.uk/def/allotment')))
+        self.graph.add((allotment, RDF.type, URIRef('http://data.gmdsp.org.uk/def/council/neighbourhood/allotment')))
         self.graph.add((allotment, VCARD['hasstreetaddress'], Literal(address)))
-        #self.graph.add((allotment, DC['date'], Literal(application)))
+        self.graph.add((allotment, SCHEME['url'], Literal(application)))
         #self.graph.add((allotment, DC['date'], Literal(disabled_access)))
-        #self.graph.add((allotment, DC['date'], Literal(external_link)))
-        #self.graph.add((allotment, DC['date'], Literal(guidence)))
-        self.graph.add((allotment, GEO["lat//long"], Literal(location)))
+        self.graph.add((allotment, SCHEME['url'], Literal(external_link)))
+        self.graph.add((allotment, SCHEME['url'], Literal(guidence)))
+        self.graph.add((allotment, GEO["lat_long"], Literal(location)))
         self.graph.add((allotment, OS["northing"], Literal('%.6f' %Northing)))
         self.graph.add((allotment, OS["easting"], Literal('%.6f' %Easting)))
         self.graph.add((allotment, RDFS['label'], Literal(name)))
@@ -91,6 +95,16 @@ class Store:
 def help():
     print(__doc__.split('--')[1])
 
+def getURL(html):
+    soup = BeautifulSoup(html)
+    links = soup.find_all('a')
+
+    for tag in links:
+        link = tag.get('href',None)
+        if link != None:
+            return link[1:-2]
+    return ""
+
 def main(argv=None):
     s = Store()
 
@@ -98,7 +112,7 @@ def main(argv=None):
     for row in reader:
         print(row["Location"].split(','))
         EASTING, NORTHING, ZONENUMBER, ZONELetter = utm.from_latlon(float(row["Location"].split(',')[0]), float(row["Location"].split(',')[1]))
-        s.new_allotment(row["Address"], row["Application"], row["Disabled access"], row["External link"], row["Guidance"], row["Location"], row["Name"], row["Plot sizes"], row["Rent"], EASTING, NORTHING)
+        s.new_allotment(row["Address"], getURL(row["Application"]), row["Disabled access"], getURL(row["External link"]), getURL(row["Guidance"]), row["Location"], row["Name"], row["Plot sizes"], row["Rent"], EASTING, NORTHING)
         pprint.pprint(row)
 
 if __name__ == '__main__':
