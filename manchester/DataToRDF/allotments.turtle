@@ -1,0 +1,289 @@
+@prefix geo: <http://www.w3.org/2003/01/geo/wgs84_pos#> .
+@prefix ns1: <http://www.w3.org/2006/vcard/ns#> .
+@prefix ns2: <http://www.w3.org/2003/01/geo/wgs84_pos#lat//> .
+@prefix os: <http://data.ordnancesurvey.co.uk/ontology/admingeo/> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix xml: <http://www.w3.org/XML/1998/namespace> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+<http://data.gmdsp.org.uk/id/manchester/allotments/Abbey-Hey-allotments> a <http://data.gmdsp.org.uk/def/allotment> ;
+    rdfs:label "Abbey Hey allotments" ;
+    os:easting "556211.380514" ;
+    os:northing "5924831.964038" ;
+    ns2:long "53.4694780942634,-2.1531808376312256" ;
+    ns1:hasstreetaddress "Ackroyd Avenue, Abbey Hey, M18 8TL" .
+
+<http://data.gmdsp.org.uk/id/manchester/allotments/Abbotsford-Road-allotments> a <http://data.gmdsp.org.uk/def/allotment> ;
+    rdfs:label "Abbotsford Road allotments" ;
+    os:easting "548271.916078" ;
+    os:northing "5922173.125080" ;
+    ns2:long "53.4463681,-2.2731849" ;
+    ns1:hasstreetaddress "Abbotsford Road, Whally Range, M21 0RJ" .
+
+<http://data.gmdsp.org.uk/id/manchester/allotments/Acorn-Close-allotments> a <http://data.gmdsp.org.uk/def/allotment> ;
+    rdfs:label "Acorn Close allotments" ;
+    os:easting "553061.694254" ;
+    os:northing "5921509.228596" ;
+    ns2:long "53.4399406,-2.201186" ;
+    ns1:hasstreetaddress "Acorn Close, Levenshulme, M19 2HS" .
+
+<http://data.gmdsp.org.uk/id/manchester/allotments/Alexandra-Road-South-allotments> a <http://data.gmdsp.org.uk/def/allotment> ;
+    rdfs:label "Alexandra Road South allotments" ;
+    os:easting "549720.746565" ;
+    os:northing "5922052.430097" ;
+    ns2:long "53.4451486,-2.2513914" ;
+    ns1:hasstreetaddress "Alexandra Road South, Whally Range, M16 8GH" .
+
+<http://data.gmdsp.org.uk/id/manchester/allotments/Aquarius-allotments> a <http://data.gmdsp.org.uk/def/allotment> ;
+    rdfs:label "Aquarius allotments" ;
+    os:easting "550245.097717" ;
+    os:northing "5924240.995405" ;
+    ns2:long "53.4647696,-2.2431477" ;
+    ns1:hasstreetaddress "Crediton Close, Hulme, M15 6EW" .
+
+<http://data.gmdsp.org.uk/id/manchester/allotments/Baguley-allotments> a <http://data.gmdsp.org.uk/def/allotment> ;
+    rdfs:label "Baguley allotments" ;
+    os:easting "547408.557832" ;
+    os:northing "5916700.521136" ;
+    ns2:long "53.3972582,-2.2870065" ;
+    ns1:hasstreetaddress "Leaton Avenue,  Wythenshawe, M23 1HL" .
+
+<http://data.gmdsp.org.uk/id/manchester/allotments/Bethnal-Drive-allotments> a <http://data.gmdsp.org.uk/def/allotment> ;
+    rdfs:label "Bethnal Drive allotments" ;
+    os:easting "550743.863371" ;
+    os:northing "5921765.758992" ;
+    ns2:long "53.4424745,-2.2360348" ;
+    ns1:hasstreetaddress "Shawfield Road, Fallowfield, M14 7ED" .
+
+<http://data.gmdsp.org.uk/id/manchester/allotments/Bluestone-Road-allotments> a <http://data.gmdsp.org.uk/def/allotment> ;
+    rdfs:label "Bluestone Road allotments" ;
+    os:easting "553457.417934" ;
+    os:northing "5929443.586742" ;
+    ns2:long "53.5112132,-2.1938788" ;
+    ns1:hasstreetaddress "Bluestone Road, Moston, M40 9JD" .
+
+<http://data.gmdsp.org.uk/id/manchester/allotments/Bradley-Fold-allotments> a <http://data.gmdsp.org.uk/def/allotment> ;
+    rdfs:label "Bradley Fold allotments" ;
+    os:easting "550675.107122" ;
+    os:northing "5918432.827595" ;
+    ns2:long "53.41252477903943,-2.2376060485839843" ;
+    ns1:hasstreetaddress "Ford Lane, Didsbury, M20 2RU" .
+
+<http://data.gmdsp.org.uk/id/manchester/allotments/Brailsford-Road-allotments> a <http://data.gmdsp.org.uk/def/allotment> ;
+    rdfs:label "Brailsford Road allotments" ;
+    os:easting "552428.690977" ;
+    os:northing "5921647.365615" ;
+    ns2:long "53.4412455,-2.2106915" ;
+    ns1:hasstreetaddress "Brailsford Road, Fallowfield, M14 6PT" .
+
+<http://data.gmdsp.org.uk/id/manchester/allotments/Brighton-Grove-allotments> a <http://data.gmdsp.org.uk/def/allotment> ;
+    rdfs:label "Brighton Grove allotments" ;
+    os:easting "552028.477722" ;
+    os:northing "5922586.854610" ;
+    ns2:long "53.4497292,-2.2165607" ;
+    ns1:hasstreetaddress "Brighton Grove, Rusholme, M14 5JR" .
+
+<http://data.gmdsp.org.uk/id/manchester/allotments/Broadhurst-allotments> a <http://data.gmdsp.org.uk/def/allotment> ;
+    rdfs:label "Broadhurst allotments" ;
+    os:easting "553997.087543" ;
+    os:northing "5929186.141386" ;
+    ns2:long "53.5088442,-2.185786" ;
+    ns1:hasstreetaddress "Joyce Street, Moston, M40 5HH" .
+
+<http://data.gmdsp.org.uk/id/manchester/allotments/Brooklands-allotments> a <http://data.gmdsp.org.uk/def/allotment> ;
+    rdfs:label "Brooklands allotments" ;
+    os:easting "546161.698362" ;
+    os:northing "5917895.149534" ;
+    ns2:long "53.4081062,-2.3055821" ;
+    ns1:hasstreetaddress "Sparkford Avenue, Wythenshawe, M23 9EL" .
+
+<http://data.gmdsp.org.uk/id/manchester/allotments/Caxton-Road-allotments> a <http://data.gmdsp.org.uk/def/allotment> ;
+    rdfs:label "Caxton Road allotments" ;
+    os:easting "551183.979650" ;
+    os:northing "5921831.931400" ;
+    ns2:long "53.4430267,-2.2293986" ;
+    ns1:hasstreetaddress "Caxton Road, Fallowfield, M14 6EE" .
+
+<http://data.gmdsp.org.uk/id/manchester/allotments/Caythorpe-Street-allotments> a <http://data.gmdsp.org.uk/def/allotment> ;
+    rdfs:label "Caythorpe Street allotments" ;
+    os:easting "550386.450476" ;
+    os:northing "5923218.882126" ;
+    ns2:long "53.4555694,-2.2411825" ;
+    ns1:hasstreetaddress "Caythorpe Street, Moss Side, M14 4UD" .
+
+<http://data.gmdsp.org.uk/id/manchester/allotments/Cheetham-and-Crumpsall-allotments> a <http://data.gmdsp.org.uk/def/allotment> ;
+    rdfs:label "Cheetham and Crumpsall allotments" ;
+    os:easting "551300.407563" ;
+    os:northing "5929165.355584" ;
+    ns2:long "53.50892738712311,-2.2264480590820312" ;
+    ns1:hasstreetaddress "Hazelbottom Road, Cheetham, M8 0GQ" .
+
+<http://data.gmdsp.org.uk/id/manchester/allotments/Cleveleys-Avenue-allotments> a <http://data.gmdsp.org.uk/def/allotment> ;
+    rdfs:label "Cleveleys Avenue allotments" ;
+    os:easting "548407.645536" ;
+    os:northing "5921177.452125" ;
+    ns2:long "53.43740651019149,-2.271294593811035" ;
+    ns1:hasstreetaddress "Cleveleys Avenue, Chorlton, M21 8TS" .
+
+<http://data.gmdsp.org.uk/id/manchester/allotments/Crowden-Road-allotments> a <http://data.gmdsp.org.uk/def/allotment> ;
+    rdfs:label "Crowden Road allotments" ;
+    os:easting "554097.535395" ;
+    os:northing "5930508.679416" ;
+    ns2:long "53.5207205,-2.1840432" ;
+    ns1:hasstreetaddress "Crowden Road, Moston, M40 5RW" .
+
+<http://data.gmdsp.org.uk/id/manchester/allotments/Cypress-Street-allotments> a <http://data.gmdsp.org.uk/def/allotment> ;
+    rdfs:label "Cypress Street allotments" ;
+    os:easting "551846.637732" ;
+    os:northing "5929273.967841" ;
+    ns2:long "53.50985,-2.2181944" ;
+    ns1:hasstreetaddress "Cypress Street, Harpurhey, M9 5XZ" .
+
+<http://data.gmdsp.org.uk/id/manchester/allotments/Edge-Lane-allotments> a <http://data.gmdsp.org.uk/def/allotment> ;
+    rdfs:label "Edge Lane allotments" ;
+    os:easting "555544.186892" ;
+    os:northing "5925627.480693" ;
+    ns2:long "53.4766988,-2.1630902" ;
+    ns1:hasstreetaddress "Edge Lane, Bradford, M43 6BA" .
+
+<http://data.gmdsp.org.uk/id/manchester/allotments/Foxfield-Road-allotments> a <http://data.gmdsp.org.uk/def/allotment> ;
+    rdfs:label "Foxfield Road allotments" ;
+    os:easting "547468.486411" ;
+    os:northing "5914993.203065" ;
+    ns2:long "53.3819072,-2.286362" ;
+    ns1:hasstreetaddress "Foxfield Road, Newall Green, M23 2TE" .
+
+<http://data.gmdsp.org.uk/id/manchester/allotments/Frenchbarn-Lane-allotments> a <http://data.gmdsp.org.uk/def/allotment> ;
+    rdfs:label "Frenchbarn Lane allotments" ;
+    os:easting "551762.004016" ;
+    os:northing "5930939.117989" ;
+    ns2:long "53.524824392268236,-2.2191953659057617" ;
+    ns1:hasstreetaddress "Frenchbarn Lane, Blackley, M9 6PB" .
+
+<http://data.gmdsp.org.uk/id/manchester/allotments/Gorton-allotments> a <http://data.gmdsp.org.uk/def/allotment> ;
+    rdfs:label "Gorton allotments" ;
+    os:easting "555489.878433" ;
+    os:northing "5924080.551625" ;
+    ns2:long "53.4628011,-2.1641816" ;
+    ns1:hasstreetaddress "Alston Road, Gorton, M18 8WU" .
+
+<http://data.gmdsp.org.uk/id/manchester/allotments/Hazeldene-Road-allotments> a <http://data.gmdsp.org.uk/def/allotment> ;
+    rdfs:label "Hazeldene Road allotments" ;
+    os:easting "555512.443549" ;
+    os:northing "5930098.499466" ;
+    ns2:long "53.5168864,-2.1627772" ;
+    ns1:hasstreetaddress "Hazeldene Road, Moston, M40 3GL" .
+
+<http://data.gmdsp.org.uk/id/manchester/allotments/Hough-End-allotments> a <http://data.gmdsp.org.uk/def/allotment> ;
+    rdfs:label "Hough End allotments" ;
+    os:easting "549759.298939" ;
+    os:northing "5921427.525694" ;
+    ns2:long "53.43952832706292,-2.2509098052978515" ;
+    ns1:hasstreetaddress "Mauldeth Road, Chorlton, M21 7TH" .
+
+<http://data.gmdsp.org.uk/id/manchester/allotments/Ivy-Green-allotments> a <http://data.gmdsp.org.uk/def/allotment> ;
+    rdfs:label "Ivy Green allotments" ;
+    os:easting "547486.874412" ;
+    os:northing "5921244.034530" ;
+    ns2:long "53.4380887,-2.2851442" ;
+    ns1:hasstreetaddress "Edwards Avenue, Chorlton, M21 9ET" .
+
+<http://data.gmdsp.org.uk/id/manchester/allotments/Levenshulme-allotments> a <http://data.gmdsp.org.uk/def/allotment> ;
+    rdfs:label "Levenshulme allotments" ;
+    os:easting "554403.088461" ;
+    os:northing "5921847.077123" ;
+    ns2:long "53.4428404,-2.1809359" ;
+    ns1:hasstreetaddress "Highfield Road, Levenshulme, M19 3JX" .
+
+<http://data.gmdsp.org.uk/id/manchester/allotments/Minehead-Avenue-allotments> a <http://data.gmdsp.org.uk/def/allotment> ;
+    rdfs:label "Minehead Avenue allotments" ;
+    os:easting "550216.274860" ;
+    os:northing "5920734.256426" ;
+    ns2:long "53.4332539,-2.2441416" ;
+    ns1:hasstreetaddress "Minehead Avenue, Withington, M20 1FW" .
+
+<http://data.gmdsp.org.uk/id/manchester/allotments/Northen-Moor-allotments> a <http://data.gmdsp.org.uk/def/allotment> ;
+    rdfs:label "Northen Moor allotments" ;
+    os:easting "547908.364914" ;
+    os:northing "5918572.697850" ;
+    ns2:long "53.4140404,-2.279206" ;
+    ns1:hasstreetaddress "Stortford Drive, Wythenshawe, M23 0FX" .
+
+<http://data.gmdsp.org.uk/id/manchester/allotments/Ossory-Street-allotments> a <http://data.gmdsp.org.uk/def/allotment> ;
+    rdfs:label "Ossory Street allotments" ;
+    os:easting "551089.563640" ;
+    os:northing "5923215.746071" ;
+    ns2:long "53.4554735,-2.2305952" ;
+    ns1:hasstreetaddress "Great Western Street, Moss Side, M14 4BX" .
+
+<http://data.gmdsp.org.uk/id/manchester/allotments/Philips-Park-allotments> a <http://data.gmdsp.org.uk/def/allotment> ;
+    rdfs:label "Philips Park allotments" ;
+    os:easting "553753.061589" ;
+    os:northing "5926741.407165" ;
+    ns2:long "53.48689648050751,-2.1898841857910156" ;
+    ns1:hasstreetaddress "Fairclough Street, Clayton, M11 4TN" .
+
+<http://data.gmdsp.org.uk/id/manchester/allotments/Pleasant-Street-allotments> a <http://data.gmdsp.org.uk/def/allotment> ;
+    rdfs:label "Pleasant Street allotments" ;
+    os:easting "551104.402843" ;
+    os:northing "5931707.786290" ;
+    ns2:long "53.5317974,-2.2289885" ;
+    ns1:hasstreetaddress "Pleasant Street, Harpurhey, M9 8WJ" .
+
+<http://data.gmdsp.org.uk/id/manchester/allotments/Ryder-Brow-allotments> a <http://data.gmdsp.org.uk/def/allotment> ;
+    rdfs:label "Ryder Brow allotments" ;
+    os:easting "555179.884630" ;
+    os:northing "5923650.159993" ;
+    ns2:long "53.4589654,-2.1689259" ;
+    ns1:hasstreetaddress "Far Lane, Gorton, M18 7FF" .
+
+<http://data.gmdsp.org.uk/id/manchester/allotments/Scotland-Hall-Road-allotments> a <http://data.gmdsp.org.uk/def/allotment> ;
+    rdfs:label "Scotland Hall Road allotments" ;
+    os:easting "554169.573070" ;
+    os:northing "5927870.422232" ;
+    ns2:long "53.4970011,-2.1834127" ;
+    ns1:hasstreetaddress "Ascot Road, Newton Heath, M40 2RD" .
+
+<http://data.gmdsp.org.uk/id/manchester/allotments/Scott-Avenue-allotments> a <http://data.gmdsp.org.uk/def/allotment> ;
+    rdfs:label "Scott Avenue allotments" ;
+    os:easting "547990.327500" ;
+    os:northing "5922407.472574" ;
+    ns2:long "53.44850014026593,-2.277388572692871" ;
+    ns1:hasstreetaddress "Scott Avenue, Chorlton, M21 9QW" .
+
+<http://data.gmdsp.org.uk/id/manchester/allotments/Sharston-allotments> a <http://data.gmdsp.org.uk/def/allotment> ;
+    rdfs:label "Sharston allotments" ;
+    os:easting "549622.905137" ;
+    os:northing "5915905.476357" ;
+    ns2:long "53.3899088,-2.2538322" ;
+    ns1:hasstreetaddress "Stancliffe Road, Wythenshawe, M22 4PS" .
+
+<http://data.gmdsp.org.uk/id/manchester/allotments/Southern-allotments> a <http://data.gmdsp.org.uk/def/allotment> ;
+    rdfs:label "Southern allotments" ;
+    os:easting "549549.101667" ;
+    os:northing "5920808.097530" ;
+    ns2:long "53.433980702715104,-2.254171371459961" ;
+    ns1:hasstreetaddress "Wintermans Road, Chorlton, M21 7GE" .
+
+<http://data.gmdsp.org.uk/id/manchester/allotments/Tonbridge-Road-allotments> a <http://data.gmdsp.org.uk/def/allotment> ;
+    rdfs:label "Tonbridge Road allotments" ;
+    os:easting "554158.738073" ;
+    os:northing "5921442.612907" ;
+    ns2:long "53.4392303,-2.1846839" ;
+    ns1:hasstreetaddress "Tonbridge Road, Levenshulme, M19 2TQ" .
+
+<http://data.gmdsp.org.uk/id/manchester/allotments/Wellington-Road-allotments> a <http://data.gmdsp.org.uk/def/allotment> ;
+    rdfs:label "Wellington Road allotments" ;
+    os:easting "551413.186222" ;
+    os:northing "5921661.337225" ;
+    ns2:long "53.44147110259927,-2.22597599029541" ;
+    ns1:hasstreetaddress "Wellington Road, Fallowfield, M14 6FA" .
+
+<http://data.gmdsp.org.uk/id/manchester/allotments/Woodhouse-Park-allotments> a <http://data.gmdsp.org.uk/def/allotment> ;
+    rdfs:label "Woodhouse Park allotments" ;
+    os:easting "547973.719253" ;
+    os:northing "5914195.211951" ;
+    ns2:long "53.3746891,-2.2788882" ;
+    ns1:hasstreetaddress "Maisemore Road, Wythenshawe, M22 1SA" .
+
