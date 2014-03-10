@@ -1,0 +1,215 @@
+<?xml version="1.0" encoding="utf-8"?>
+<kml xmlns="http://www.opengis.net/kml/2.2" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <Document>
+    <name>Recycling Centres</name>
+    <description><![CDATA[Recycling centre (Bring Sites) locations within Salford<br><br>http://www.salford.gov.uk/bringsites.htm]]></description>
+    <Placemark>
+      <Point>
+        <coordinates>-2.28981525059941,53.4969336909363,0</coordinates>
+      </Point>
+      <name><![CDATA[Cobden Street Household Waste Recycling Centre]]></name>
+      <Snippet maxLines="0"><![CDATA[snippet]]></Snippet>
+      <description><![CDATA[<table><tr><td>Location:</td><td>Cobden Street Household Waste Recycling Centre</td></tr><tr><td>Aerosols:</td><td>Y</td></tr><tr><td>Cans:</td><td>Y</td></tr><tr><td>Cardboard:</td><td>Y</td></tr><tr><td>Cartons:</td><td>Y</td></tr><tr><td>Foil:</td><td>Y</td></tr><tr><td>Glass:</td><td>Y</td></tr><tr><td>Paper:</td><td>Y</td></tr><tr><td>Plastic Bottles:</td><td>Y</td></tr><tr><td>Shoes:</td><td>Y</td></tr><tr><td>Textiles</td><td>Y</td></tr><tr><td>Address:</td><td>Recycling Point Salford Refuse Treatment Plant Cobden Street Salford M6 6WF</td></tr><tr><td>Postcode:</td><td>M6 6WF</td></tr><tr><td>UPRN:</td><td>10090619956</td></tr></table>]]></description>
+    </Placemark>
+    <Placemark>
+      <Point>
+        <coordinates>-2.41607923687829,53.5034366498264,0</coordinates>
+      </Point>
+      <name><![CDATA[Standfield Shopping Precinct, Boothstown]]></name>
+      <Snippet maxLines="0"><![CDATA[snippet]]></Snippet>
+      <description><![CDATA[<table><tr><td>Location:</td><td>Standfield Shopping Precinct, Boothstown</td></tr><tr><td>Aerosols:</td><td></td></tr><tr><td>Cans:</td><td></td></tr><tr><td>Cardboard:</td><td>Y</td></tr><tr><td>Cartons:</td><td>Y</td></tr><tr><td>Foil:</td><td></td></tr><tr><td>Glass:</td><td>Y</td></tr><tr><td>Paper:</td><td>Y</td></tr><tr><td>Plastic Bottles:</td><td></td></tr><tr><td>Shoes:</td><td>Y</td></tr><tr><td>Textiles</td><td>Y</td></tr><tr><td>Address:</td><td>Recycling Point Standfield Shopping Centre Worsley Manchester M28 1FB</td></tr><tr><td>Postcode:</td><td>M28 1FB</td></tr><tr><td>UPRN:</td><td>10090619924</td></tr></table>]]></description>
+    </Placemark>
+    <Placemark>
+      <Point>
+        <coordinates>-2.33842626633483,53.5098210284336,0</coordinates>
+      </Point>
+      <name><![CDATA[Civic Centre, Swinton]]></name>
+      <Snippet maxLines="0"><![CDATA[snippet]]></Snippet>
+      <description><![CDATA[<table><tr><td>Location:</td><td>Civic Centre, Swinton</td></tr><tr><td>Aerosols:</td><td>Y</td></tr><tr><td>Cans:</td><td>Y</td></tr><tr><td>Cardboard:</td><td>Y</td></tr><tr><td>Cartons:</td><td>Y</td></tr><tr><td>Foil:</td><td>Y</td></tr><tr><td>Glass:</td><td>Y</td></tr><tr><td>Paper:</td><td>Y</td></tr><tr><td>Plastic Bottles:</td><td>Y</td></tr><tr><td>Shoes:</td><td>Y</td></tr><tr><td>Textiles</td><td>Y</td></tr><tr><td>Address:</td><td>Recycling Point Salford Civic Centre Chorley Road Swinton Manchester M27 5AW</td></tr><tr><td>Postcode:</td><td>M27 5AW</td></tr><tr><td>UPRN:</td><td>10090621270</td></tr></table>]]></description>
+    </Placemark>
+    <Placemark>
+      <Point>
+        <coordinates>-2.34149253764339,53.5123560189856,0</coordinates>
+      </Point>
+      <name><![CDATA[Crompton House, Swinton]]></name>
+      <Snippet maxLines="0"><![CDATA[snippet]]></Snippet>
+      <description><![CDATA[<table><tr><td>Location:</td><td>Crompton House, Swinton</td></tr><tr><td>Aerosols:</td><td>Y</td></tr><tr><td>Cans:</td><td>Y</td></tr><tr><td>Cardboard:</td><td>Y</td></tr><tr><td>Cartons:</td><td>Y</td></tr><tr><td>Foil:</td><td>Y</td></tr><tr><td>Glass:</td><td>Y</td></tr><tr><td>Paper:</td><td>Y</td></tr><tr><td>Plastic Bottles:</td><td>Y</td></tr><tr><td>Shoes:</td><td>Y</td></tr><tr><td>Textiles</td><td>Y</td></tr><tr><td>Address:</td><td>Recycling Point Crompton House 100 Chorley Road Swinton Manchester M27 6BP</td></tr><tr><td>Postcode:</td><td>M27 6BP</td></tr><tr><td>UPRN:</td><td>10070741085</td></tr></table>]]></description>
+    </Placemark>
+    <Placemark>
+      <Point>
+        <coordinates>-2.39205172621732,53.5104390275517,0</coordinates>
+      </Point>
+      <name><![CDATA[Ellesmere Sports Club, Worsley]]></name>
+      <Snippet maxLines="0"><![CDATA[snippet]]></Snippet>
+      <description><![CDATA[<table><tr><td>Location:</td><td>Ellesmere Sports Club, Worsley</td></tr><tr><td>Aerosols:</td><td>Y</td></tr><tr><td>Cans:</td><td>Y</td></tr><tr><td>Cardboard:</td><td>Y</td></tr><tr><td>Cartons:</td><td>Y</td></tr><tr><td>Foil:</td><td>Y</td></tr><tr><td>Glass:</td><td>Y</td></tr><tr><td>Paper:</td><td>Y</td></tr><tr><td>Plastic Bottles:</td><td>Y</td></tr><tr><td>Shoes:</td><td></td></tr><tr><td>Textiles</td><td></td></tr><tr><td>Address:</td><td>Recycling Point Ellesmere Bowling Tennis And Croquet Club Walkden Road Worsley Manchester M28 2RZ</td></tr><tr><td>Postcode:</td><td>M28 2RZ</td></tr><tr><td>UPRN:</td><td>10090619971</td></tr></table>]]></description>
+    </Placemark>
+    <Placemark>
+      <Point>
+        <coordinates>-2.33685976813697,53.4853140164067,0</coordinates>
+      </Point>
+      <name><![CDATA[John William Car Park, Eccles]]></name>
+      <Snippet maxLines="0"><![CDATA[snippet]]></Snippet>
+      <description><![CDATA[<table><tr><td>Location:</td><td>John William Car Park, Eccles</td></tr><tr><td>Aerosols:</td><td></td></tr><tr><td>Cans:</td><td></td></tr><tr><td>Cardboard:</td><td>Y</td></tr><tr><td>Cartons:</td><td>Y</td></tr><tr><td>Foil:</td><td></td></tr><tr><td>Glass:</td><td>Y</td></tr><tr><td>Paper:</td><td>Y</td></tr><tr><td>Plastic Bottles:</td><td></td></tr><tr><td>Shoes:</td><td>Y</td></tr><tr><td>Textiles</td><td>Y</td></tr><tr><td>Address:</td><td>Recycling Point John William Street Eccles Manchester M30 0LJ</td></tr><tr><td>Postcode:</td><td>M30 0LJ</td></tr><tr><td>UPRN:</td><td>10090619937</td></tr></table>]]></description>
+    </Placemark>
+    <Placemark>
+      <Point>
+        <coordinates>-2.42109153190814,53.5299888617098,0</coordinates>
+      </Point>
+      <name><![CDATA[Little Hulton Shopping Precinct]]></name>
+      <Snippet maxLines="0"><![CDATA[snippet]]></Snippet>
+      <description><![CDATA[<table><tr><td>Location:</td><td>Little Hulton Shopping Precinct</td></tr><tr><td>Aerosols:</td><td></td></tr><tr><td>Cans:</td><td></td></tr><tr><td>Cardboard:</td><td></td></tr><tr><td>Cartons:</td><td></td></tr><tr><td>Foil:</td><td></td></tr><tr><td>Glass:</td><td>Y</td></tr><tr><td>Paper:</td><td></td></tr><tr><td>Plastic Bottles:</td><td></td></tr><tr><td>Shoes:</td><td></td></tr><tr><td>Textiles</td><td></td></tr><tr><td>Address:</td><td>Recycling Point Salford City Council Car Park County Road Worsley Manchester M28 0AZ</td></tr><tr><td>Postcode:</td><td>M28 0AZ</td></tr><tr><td>UPRN:</td><td>10090619952</td></tr></table>]]></description>
+    </Placemark>
+    <Placemark>
+      <Point>
+        <coordinates>-2.26099384630897,53.4920565563271,0</coordinates>
+      </Point>
+      <name><![CDATA[Mocha Parade, Lower Broughton]]></name>
+      <Snippet maxLines="0"><![CDATA[snippet]]></Snippet>
+      <description><![CDATA[<table><tr><td>Location:</td><td>Mocha Parade, Lower Broughton</td></tr><tr><td>Aerosols:</td><td></td></tr><tr><td>Cans:</td><td></td></tr><tr><td>Cardboard:</td><td></td></tr><tr><td>Cartons:</td><td></td></tr><tr><td>Foil:</td><td></td></tr><tr><td>Glass:</td><td>Y</td></tr><tr><td>Paper:</td><td></td></tr><tr><td>Plastic Bottles:</td><td></td></tr><tr><td>Shoes:</td><td></td></tr><tr><td>Textiles</td><td></td></tr><tr><td>Address:</td><td>Recycling Point Mocha Parade Salford M7 1QE</td></tr><tr><td>Postcode:</td><td>M7 1QE</td></tr><tr><td>UPRN:</td><td>10090619925</td></tr></table>]]></description>
+    </Placemark>
+    <Placemark>
+      <Point>
+        <coordinates>-2.35049077158303,53.4917374712166,0</coordinates>
+      </Point>
+      <name><![CDATA[Monton Road Car Park, Monton]]></name>
+      <Snippet maxLines="0"><![CDATA[snippet]]></Snippet>
+      <description><![CDATA[<table><tr><td>Location:</td><td>Monton Road Car Park, Monton</td></tr><tr><td>Aerosols:</td><td>Y</td></tr><tr><td>Cans:</td><td>Y</td></tr><tr><td>Cardboard:</td><td>Y</td></tr><tr><td>Cartons:</td><td>Y</td></tr><tr><td>Foil:</td><td>Y</td></tr><tr><td>Glass:</td><td>Y</td></tr><tr><td>Paper:</td><td>Y</td></tr><tr><td>Plastic Bottles:</td><td>Y</td></tr><tr><td>Shoes:</td><td>Y</td></tr><tr><td>Textiles</td><td></td></tr><tr><td>Address:</td><td>Recycling Point Salford City Council Car Park Monton Road Eccles Manchester M30 9GA</td></tr><tr><td>Postcode:</td><td>M30 9GA</td></tr><tr><td>UPRN:</td><td>10090619955</td></tr></table>]]></description>
+    </Placemark>
+    <Placemark>
+      <Point>
+        <coordinates>-2.33699924201352,53.4819968851082,0</coordinates>
+      </Point>
+      <name><![CDATA[Morrison Superstore, Bentcliffe Way, Eccles]]></name>
+      <Snippet maxLines="0"><![CDATA[snippet]]></Snippet>
+      <description><![CDATA[<table><tr><td>Location:</td><td>Morrison Superstore, Bentcliffe Way, Eccles</td></tr><tr><td>Aerosols:</td><td></td></tr><tr><td>Cans:</td><td>Y</td></tr><tr><td>Cardboard:</td><td>Y</td></tr><tr><td>Cartons:</td><td>Y</td></tr><tr><td>Foil:</td><td></td></tr><tr><td>Glass:</td><td>Y</td></tr><tr><td>Paper:</td><td>Y</td></tr><tr><td>Plastic Bottles:</td><td>Y</td></tr><tr><td>Shoes:</td><td>Y</td></tr><tr><td>Textiles</td><td>Y</td></tr><tr><td>Address:</td><td>Recycling Point 7 Irwell Place Eccles Manchester M30 0FH</td></tr><tr><td>Postcode:</td><td>M30 0FH</td></tr><tr><td>UPRN:</td><td>10070741080</td></tr></table>]]></description>
+    </Placemark>
+    <Placemark>
+      <Point>
+        <coordinates>-2.33624070746435,53.5137371581286,0</coordinates>
+      </Point>
+      <name><![CDATA[Morrison Superstore, Swinton Hall Road]]></name>
+      <Snippet maxLines="0"><![CDATA[snippet]]></Snippet>
+      <description><![CDATA[<table><tr><td>Location:</td><td>Morrison Superstore, Swinton Hall Road</td></tr><tr><td>Aerosols:</td><td></td></tr><tr><td>Cans:</td><td>Y</td></tr><tr><td>Cardboard:</td><td>Y</td></tr><tr><td>Cartons:</td><td>Y</td></tr><tr><td>Foil:</td><td></td></tr><tr><td>Glass:</td><td>Y</td></tr><tr><td>Paper:</td><td>Y</td></tr><tr><td>Plastic Bottles:</td><td></td></tr><tr><td>Shoes:</td><td>Y</td></tr><tr><td>Textiles</td><td>Y</td></tr><tr><td>Address:</td><td>Recycling Point Swinton Hall Road Pendlebury Swinton Manchester M27 4BT</td></tr><tr><td>Postcode:</td><td>M27 4BT</td></tr><tr><td>UPRN:</td><td>10090619958</td></tr></table>]]></description>
+    </Placemark>
+    <Placemark>
+      <Point>
+        <coordinates>-2.2732039013005,53.499318838057,0</coordinates>
+      </Point>
+      <name><![CDATA[Castle Irwell Student Village, Cromwell Road]]></name>
+      <Snippet maxLines="0"><![CDATA[snippet]]></Snippet>
+      <description><![CDATA[<table><tr><td>Location:</td><td>Castle Irwell Student Village, Cromwell Road</td></tr><tr><td>Aerosols:</td><td>Y</td></tr><tr><td>Cans:</td><td>Y</td></tr><tr><td>Cardboard:</td><td>Y</td></tr><tr><td>Cartons:</td><td>Y</td></tr><tr><td>Foil:</td><td>Y</td></tr><tr><td>Glass:</td><td>Y</td></tr><tr><td>Paper:</td><td>Y</td></tr><tr><td>Plastic Bottles:</td><td>Y</td></tr><tr><td>Shoes:</td><td>Y</td></tr><tr><td>Textiles</td><td>Y</td></tr><tr><td>Address:</td><td>Recycling Point Castle Irwell Student Village Cromwell Road Salford M6 6DB</td></tr><tr><td>Postcode:</td><td>M6 6DB</td></tr><tr><td>UPRN:</td><td>10090619926</td></tr></table>]]></description>
+    </Placemark>
+    <Placemark>
+      <Point>
+        <coordinates>-2.31346252976696,53.5004872900543,0</coordinates>
+      </Point>
+      <name><![CDATA[St. Lukes Presbytery, Claremont]]></name>
+      <Snippet maxLines="0"><![CDATA[snippet]]></Snippet>
+      <description><![CDATA[<table><tr><td>Location:</td><td>St. Lukes Presbytery, Claremont</td></tr><tr><td>Aerosols:</td><td></td></tr><tr><td>Cans:</td><td></td></tr><tr><td>Cardboard:</td><td></td></tr><tr><td>Cartons:</td><td></td></tr><tr><td>Foil:</td><td></td></tr><tr><td>Glass:</td><td>Y</td></tr><tr><td>Paper:</td><td></td></tr><tr><td>Plastic Bottles:</td><td>Y</td></tr><tr><td>Shoes:</td><td></td></tr><tr><td>Textiles</td><td></td></tr><tr><td>Address:</td><td>Recycling Point St Lukes Presbytery Swinton Park Road Salford M6 7WR</td></tr><tr><td>Postcode:</td><td>M6 7WR</td></tr><tr><td>UPRN:</td><td>10090619932</td></tr></table>]]></description>
+    </Placemark>
+    <Placemark>
+      <Point>
+        <coordinates>-2.40368920939985,53.5259412317565,0</coordinates>
+      </Point>
+      <name><![CDATA[Tesco Car Park, Walkden]]></name>
+      <Snippet maxLines="0"><![CDATA[snippet]]></Snippet>
+      <description><![CDATA[<table><tr><td>Location:</td><td>Tesco Car Park, Walkden</td></tr><tr><td>Aerosols:</td><td>Y</td></tr><tr><td>Cans:</td><td>Y</td></tr><tr><td>Cardboard:</td><td>Y</td></tr><tr><td>Cartons:</td><td>Y</td></tr><tr><td>Foil:</td><td>Y</td></tr><tr><td>Glass:</td><td>Y</td></tr><tr><td>Paper:</td><td>Y</td></tr><tr><td>Plastic Bottles:</td><td>Y</td></tr><tr><td>Shoes:</td><td>Y</td></tr><tr><td>Textiles</td><td>Y</td></tr><tr><td>Address:</td><td>Recycling Point Tesco Extra Campbell Way Worsley Manchester M28 3BE</td></tr><tr><td>Postcode:</td><td>M28 3BE</td></tr><tr><td>UPRN:</td><td>10090619965</td></tr></table>]]></description>
+    </Placemark>
+    <Placemark>
+      <Point>
+        <coordinates>-2.42281554098307,53.4394958123559,0</coordinates>
+      </Point>
+      <name><![CDATA[Tesco Superstore, Fairhills Road, Irlam]]></name>
+      <Snippet maxLines="0"><![CDATA[snippet]]></Snippet>
+      <description><![CDATA[<table><tr><td>Location:</td><td>Tesco Superstore, Fairhills Road, Irlam</td></tr><tr><td>Aerosols:</td><td></td></tr><tr><td>Cans:</td><td>Y</td></tr><tr><td>Cardboard:</td><td></td></tr><tr><td>Cartons:</td><td></td></tr><tr><td>Foil:</td><td></td></tr><tr><td>Glass:</td><td>Y</td></tr><tr><td>Paper:</td><td></td></tr><tr><td>Plastic Bottles:</td><td>Y</td></tr><tr><td>Shoes:</td><td>Y</td></tr><tr><td>Textiles</td><td>Y</td></tr><tr><td>Address:</td><td>Recycling Point Tesco Fairhills Road Irlam Manchester M44 6BL</td></tr><tr><td>Postcode:</td><td>M44 6BL</td></tr><tr><td>UPRN:</td><td>10090619950</td></tr></table>]]></description>
+    </Placemark>
+    <Placemark>
+      <Point>
+        <coordinates>-2.27028506608303,53.5167989216663,0</coordinates>
+      </Point>
+      <name><![CDATA[The Servite Parish Centre, Broughton]]></name>
+      <Snippet maxLines="0"><![CDATA[snippet]]></Snippet>
+      <description><![CDATA[<table><tr><td>Location:</td><td>The Servite Parish Centre, Broughton</td></tr><tr><td>Aerosols:</td><td></td></tr><tr><td>Cans:</td><td></td></tr><tr><td>Cardboard:</td><td></td></tr><tr><td>Cartons:</td><td></td></tr><tr><td>Foil:</td><td></td></tr><tr><td>Glass:</td><td>Y</td></tr><tr><td>Paper:</td><td></td></tr><tr><td>Plastic Bottles:</td><td></td></tr><tr><td>Shoes:</td><td></td></tr><tr><td>Textiles</td><td></td></tr><tr><td>Address:</td><td>Recycling Point Cavendish Road Salford M7 4WP</td></tr><tr><td>Postcode:</td><td>M7 4WP</td></tr><tr><td>UPRN:</td><td>10090619928</td></tr></table>]]></description>
+    </Placemark>
+    <Placemark>
+      <Point>
+        <coordinates>-2.31488210888981,53.4825156811848,0</coordinates>
+      </Point>
+      <name><![CDATA[Turnpike House, 631 Eccles New Road]]></name>
+      <Snippet maxLines="0"><![CDATA[snippet]]></Snippet>
+      <description><![CDATA[<table><tr><td>Location:</td><td>Turnpike House, 631 Eccles New Road</td></tr><tr><td>Aerosols:</td><td>Y</td></tr><tr><td>Cans:</td><td>Y</td></tr><tr><td>Cardboard:</td><td>Y</td></tr><tr><td>Cartons:</td><td>Y</td></tr><tr><td>Foil:</td><td>Y</td></tr><tr><td>Glass:</td><td>Y</td></tr><tr><td>Paper:</td><td>Y</td></tr><tr><td>Plastic Bottles:</td><td>Y</td></tr><tr><td>Shoes:</td><td></td></tr><tr><td>Textiles</td><td></td></tr><tr><td>Address:</td><td>Recycling Point Turnpike House 631 Eccles New Road Salford M50 1SW</td></tr><tr><td>Postcode:</td><td>M50 1SW</td></tr><tr><td>UPRN:</td><td>10090619969</td></tr></table>]]></description>
+    </Placemark>
+    <Placemark>
+      <Point>
+        <coordinates>-2.34647082051252,53.532934083187,0</coordinates>
+      </Point>
+      <name><![CDATA[Clifton Country Park, Clifton]]></name>
+      <Snippet maxLines="0"><![CDATA[snippet]]></Snippet>
+      <description><![CDATA[<table><tr><td>Location:</td><td>Clifton Country Park, Clifton</td></tr><tr><td>Aerosols:</td><td></td></tr><tr><td>Cans:</td><td></td></tr><tr><td>Cardboard:</td><td></td></tr><tr><td>Cartons:</td><td></td></tr><tr><td>Foil:</td><td></td></tr><tr><td>Glass:</td><td>Y</td></tr><tr><td>Paper:</td><td>Y</td></tr><tr><td>Plastic Bottles:</td><td>Y</td></tr><tr><td>Shoes:</td><td></td></tr><tr><td>Textiles</td><td></td></tr><tr><td>Address:</td><td>Recycling Point Clifton Country Park Clifton House Road Clifton Swinton Manchester M27 6NG</td></tr><tr><td>Postcode:</td><td>M27 6NG</td></tr><tr><td>UPRN:</td><td>10090619935</td></tr></table>]]></description>
+    </Placemark>
+    <Placemark>
+      <Point>
+        <coordinates>-2.3265035212825,53.5104025140943,0</coordinates>
+      </Point>
+      <name><![CDATA[Victoria Park, Park Street, Swinton]]></name>
+      <Snippet maxLines="0"><![CDATA[snippet]]></Snippet>
+      <description><![CDATA[<table><tr><td>Location:</td><td>Victoria Park, Park Street, Swinton</td></tr><tr><td>Aerosols:</td><td></td></tr><tr><td>Cans:</td><td></td></tr><tr><td>Cardboard:</td><td></td></tr><tr><td>Cartons:</td><td></td></tr><tr><td>Foil:</td><td></td></tr><tr><td>Glass:</td><td>Y</td></tr><tr><td>Paper:</td><td>Y</td></tr><tr><td>Plastic Bottles:</td><td>Y</td></tr><tr><td>Shoes:</td><td></td></tr><tr><td>Textiles</td><td></td></tr><tr><td>Address:</td><td>Recycling Point Victoria Park Swinton Hall Road Pendlebury Swinton Manchester M27 4UA</td></tr><tr><td>Postcode:</td><td>M27 4UA</td></tr><tr><td>UPRN:</td><td>10090619964</td></tr></table>]]></description>
+    </Placemark>
+    <Placemark>
+      <Point>
+        <coordinates>-2.39802810241149,53.5302926349976,0</coordinates>
+      </Point>
+      <name><![CDATA[Blackleach Country Park, Walkden (off Bolton Road)]]></name>
+      <Snippet maxLines="0"><![CDATA[snippet]]></Snippet>
+      <description><![CDATA[<table><tr><td>Location:</td><td>Blackleach Country Park, Walkden (off Bolton Road)</td></tr><tr><td>Aerosols:</td><td></td></tr><tr><td>Cans:</td><td></td></tr><tr><td>Cardboard:</td><td></td></tr><tr><td>Cartons:</td><td></td></tr><tr><td>Foil:</td><td></td></tr><tr><td>Glass:</td><td>Y</td></tr><tr><td>Paper:</td><td>Y</td></tr><tr><td>Plastic Bottles:</td><td>Y</td></tr><tr><td>Shoes:</td><td></td></tr><tr><td>Textiles</td><td></td></tr><tr><td>Address:</td><td>Recycling Point Blackleach Country Park Visitor Centre John Street Worsley Manchester M28 3QQ</td></tr><tr><td>Postcode:</td><td>M28 3QQ</td></tr><tr><td>UPRN:</td><td>10090619967</td></tr></table>]]></description>
+    </Placemark>
+    <Placemark>
+      <Point>
+        <coordinates>-2.30574930097968,53.4907548528443,0</coordinates>
+      </Point>
+      <name><![CDATA[Buile Hill Park, Eccles Old Road]]></name>
+      <Snippet maxLines="0"><![CDATA[snippet]]></Snippet>
+      <description><![CDATA[<table><tr><td>Location:</td><td>Buile Hill Park, Eccles Old Road</td></tr><tr><td>Aerosols:</td><td></td></tr><tr><td>Cans:</td><td></td></tr><tr><td>Cardboard:</td><td></td></tr><tr><td>Cartons:</td><td></td></tr><tr><td>Foil:</td><td></td></tr><tr><td>Glass:</td><td>Y</td></tr><tr><td>Paper:</td><td>Y</td></tr><tr><td>Plastic Bottles:</td><td>Y</td></tr><tr><td>Shoes:</td><td></td></tr><tr><td>Textiles</td><td></td></tr><tr><td>Address:</td><td>Recycling Point Buile Hill Park Eccles Old Road Salford M6 8RF</td></tr><tr><td>Postcode:</td><td>M6 8RF</td></tr><tr><td>UPRN:</td><td>10090619968</td></tr></table>]]></description>
+    </Placemark>
+    <Placemark>
+      <Point>
+        <coordinates>-2.31003276570078,53.5015029475953,0</coordinates>
+      </Point>
+      <name><![CDATA[Co-op Superstore, Bolton Road]]></name>
+      <Snippet maxLines="0"><![CDATA[snippet]]></Snippet>
+      <description><![CDATA[<table><tr><td>Location:</td><td>Co-op Superstore, Bolton Road</td></tr><tr><td>Aerosols:</td><td></td></tr><tr><td>Cans:</td><td></td></tr><tr><td>Cardboard:</td><td>Y</td></tr><tr><td>Cartons:</td><td>Y</td></tr><tr><td>Foil:</td><td></td></tr><tr><td>Glass:</td><td>Y</td></tr><tr><td>Paper:</td><td>Y</td></tr><tr><td>Plastic Bottles:</td><td></td></tr><tr><td>Shoes:</td><td>Y</td></tr><tr><td>Textiles</td><td>Y</td></tr><tr><td>Address:</td><td>Co-op Superstore Recycling Point 389 Bolton Road Salford M6 7NJ</td></tr><tr><td>Postcode:</td><td>M6 7NJ</td></tr><tr><td>UPRN:</td><td>10090619933</td></tr></table>]]></description>
+    </Placemark>
+    <Placemark>
+      <Point>
+        <coordinates>-2.31142771143673,53.5169863345857,0</coordinates>
+      </Point>
+      <name><![CDATA[Lumns Lane Household Waste Recycling Centre]]></name>
+      <Snippet maxLines="0"><![CDATA[snippet]]></Snippet>
+      <description><![CDATA[<table><tr><td>Location:</td><td>Lumns Lane Household Waste Recycling Centre</td></tr><tr><td>Aerosols:</td><td>Y</td></tr><tr><td>Cans:</td><td>Y</td></tr><tr><td>Cardboard:</td><td>Y</td></tr><tr><td>Cartons:</td><td>Y</td></tr><tr><td>Foil:</td><td>Y</td></tr><tr><td>Glass:</td><td>Y</td></tr><tr><td>Paper:</td><td>Y</td></tr><tr><td>Plastic Bottles:</td><td>Y</td></tr><tr><td>Shoes:</td><td>Y</td></tr><tr><td>Textiles</td><td>Y</td></tr><tr><td>Address:</td><td>Recycling Point Lumns Lane Clifton Swinton Manchester M27 8LN</td></tr><tr><td>Postcode:</td><td>M27 8LN</td></tr><tr><td>UPRN:</td><td>10090619934</td></tr></table>]]></description>
+    </Placemark>
+    <Placemark>
+      <Point>
+        <coordinates>-2.39920263656808,53.4578507896041,0</coordinates>
+      </Point>
+      <name><![CDATA[Boysnope Wharf Household Waste Recycling Centre]]></name>
+      <Snippet maxLines="0"><![CDATA[snippet]]></Snippet>
+      <description><![CDATA[<table><tr><td>Location:</td><td>Boysnope Wharf Household Waste Recycling Centre</td></tr><tr><td>Aerosols:</td><td>Y</td></tr><tr><td>Cans:</td><td>Y</td></tr><tr><td>Cardboard:</td><td>Y</td></tr><tr><td>Cartons:</td><td>Y</td></tr><tr><td>Foil:</td><td>Y</td></tr><tr><td>Glass:</td><td>Y</td></tr><tr><td>Paper:</td><td>Y</td></tr><tr><td>Plastic Bottles:</td><td>Y</td></tr><tr><td>Shoes:</td><td>Y</td></tr><tr><td>Textiles</td><td>Y</td></tr><tr><td>Address:</td><td>Household Waste Recycling Centre Boysnope Wharf Eccles Manchester M30 7RH</td></tr><tr><td>Postcode:</td><td>M30 7RH</td></tr><tr><td>UPRN:</td><td>10024417082</td></tr></table>]]></description>
+    </Placemark>
+    <Placemark>
+      <Point>
+        <coordinates>-2.25223008779646,53.5036165126949,0</coordinates>
+      </Point>
+      <name><![CDATA[St James Rectory, Great Cheetham Street East]]></name>
+      <Snippet maxLines="0"><![CDATA[snippet]]></Snippet>
+      <description><![CDATA[<table><tr><td>Location:</td><td>St James Rectory, Great Cheetham Street East</td></tr><tr><td>Aerosols:</td><td>Y</td></tr><tr><td>Cans:</td><td>Y</td></tr><tr><td>Cardboard:</td><td>Y</td></tr><tr><td>Cartons:</td><td>Y</td></tr><tr><td>Foil:</td><td>Y</td></tr><tr><td>Glass:</td><td>Y</td></tr><tr><td>Paper:</td><td>Y</td></tr><tr><td>Plastic Bottles:</td><td>Y</td></tr><tr><td>Shoes:</td><td></td></tr><tr><td>Textiles</td><td></td></tr><tr><td>Address:</td><td>Recycling Point The Rectory 396 Great Cheetham Street East Salford M7 4UH</td></tr><tr><td>Postcode:</td><td>M7 4UH</td></tr><tr><td>UPRN:</td><td>10090620118</td></tr></table>]]></description>
+    </Placemark>
+    <Placemark>
+      <Point>
+        <coordinates>-2.4378735970612,53.5335508626338,0</coordinates>
+      </Point>
+      <name><![CDATA[Lester Road Houshold Waste Recycling Centre]]></name>
+      <Snippet maxLines="0"><![CDATA[snippet]]></Snippet>
+      <description><![CDATA[<table><tr><td>Location:</td><td>Lester Road Houshold Waste Recycling Centre</td></tr><tr><td>Aerosols:</td><td>Y</td></tr><tr><td>Cans:</td><td>Y</td></tr><tr><td>Cardboard:</td><td>Y</td></tr><tr><td>Cartons:</td><td>Y</td></tr><tr><td>Foil:</td><td>Y</td></tr><tr><td>Glass:</td><td>Y</td></tr><tr><td>Paper:</td><td>Y</td></tr><tr><td>Plastic Bottles:</td><td>Y</td></tr><tr><td>Shoes:</td><td>Y</td></tr><tr><td>Textiles</td><td>Y</td></tr><tr><td>Address:</td><td>Recycling Point Lester Road Little Hulton Manchester M38 0PT</td></tr><tr><td>Postcode:</td><td>M38 0PT</td></tr><tr><td>UPRN:</td><td>10090619951</td></tr></table>]]></description>
+    </Placemark>
+  </Document>
+</kml>
