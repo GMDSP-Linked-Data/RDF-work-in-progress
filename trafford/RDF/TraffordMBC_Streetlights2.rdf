@@ -1,0 +1,191 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rdf:RDF
+	xmlns:dc="http://purl.org/dc/elements/1.1/"
+	xmlns:regorg="http://www.w3.org/ns/regorg#"
+	xmlns:geo="http://www.w3.org/2003/01/geo/wgs84_pos#"
+	xmlns:foaf="http://xmlns.com/foaf/0.1/"
+	xmlns:org="http://www.w3.org/ns/org#"
+	xmlns:postcode="http://www.ordnancesurvey.co.uk/oswebsite/ontology/postcode.owl"
+	xmlns:vcard="http://www.w3.org/2006/vcard/ns#"
+	xmlns:dcterms="http://purl.org/dc/terms/"
+	xmlns:adms="http://www.w3.org/ns/adms#"
+	xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
+	xmlns:xsd="http://www.w3.org/2001/XMLSchema#"
+	xmlns:owl="http://www.w3.org/2002/07/owl#"
+	xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+	xmlns:admingeo="http://www.ordnancesurvey.co.uk/ontology/admingeo.owl"
+	xmlns:statistical-entity="http://statistics.data.gov.uk/def/statistical-entity"
+	xmlns:skos="http://www.w3.org/2004/02/skos/core#">
+
+
+
+<rdf:Description rdf:about="http://data.gmdsp.org.uk/id/trafford/allotments/t-30-340-0141000999-0350024090">
+	<rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Collection"/>
+	<rdfs:label>T-30-340-01+41000999-03/50024090</rdfs:label>
+	<geo:lat>53.4523432841995</geo:lat>
+	<geo:long>-2.33277906547692</geo:long>
+</rdf:Description>
+
+<rdf:Description rdf:nodeID="node18ikbi6gox2">
+	<rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Collection"/>
+	<rdfs:label>ID</rdfs:label>
+	<geo:lat>Lat</geo:lat>
+	<geo:long>Long</geo:long>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://id.esd.org.uk/subject/1404">
+	<skos:definition rdf:nodeID="node18ikbi6gox2"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://data.gmdsp.org.uk/id/trafford/allotments/t-30-340-0141000999-0350024091">
+	<rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Collection"/>
+	<rdfs:label>T-30-340-01+41000999-03/50024091</rdfs:label>
+	<geo:lat>53.452100572602</geo:lat>
+	<geo:long>-2.33277716824282</geo:long>
+</rdf:Description>
+
+<rdf:Description rdf:nodeID="node18ikbi6gox3">
+	<rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Collection"/>
+	<rdfs:label>ID</rdfs:label>
+	<geo:lat>Lat</geo:lat>
+	<geo:long>Long</geo:long>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://id.esd.org.uk/subject/1404">
+	<skos:definition rdf:nodeID="node18ikbi6gox3"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://data.gmdsp.org.uk/id/trafford/allotments/t-30-340-0141000999-0350024092">
+	<rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Collection"/>
+	<rdfs:label>T-30-340-01+41000999-03/50024092</rdfs:label>
+	<geo:lat>53.4520747364379</geo:lat>
+	<geo:long>-2.33237034967335</geo:long>
+</rdf:Description>
+
+<rdf:Description rdf:nodeID="node18ikbi6gox4">
+	<rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Collection"/>
+	<rdfs:label>ID</rdfs:label>
+	<geo:lat>Lat</geo:lat>
+	<geo:long>Long</geo:long>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://id.esd.org.uk/subject/1404">
+	<skos:definition rdf:nodeID="node18ikbi6gox4"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://data.gmdsp.org.uk/id/trafford/allotments/t-30-340-0141000999-0350024093">
+	<rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Collection"/>
+	<rdfs:label>T-30-340-01+41000999-03/50024093</rdfs:label>
+	<geo:lat>53.4521387920814</geo:lat>
+	<geo:long>-2.33196423254852</geo:long>
+</rdf:Description>
+
+<rdf:Description rdf:nodeID="node18ikbi6gox5">
+	<rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Collection"/>
+	<rdfs:label>ID</rdfs:label>
+	<geo:lat>Lat</geo:lat>
+	<geo:long>Long</geo:long>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://id.esd.org.uk/subject/1404">
+	<skos:definition rdf:nodeID="node18ikbi6gox5"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://data.gmdsp.org.uk/id/trafford/allotments/t-30-340-0141000999-0350160819">
+	<rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Collection"/>
+	<rdfs:label>T-30-340-01+41000999-03/50160819</rdfs:label>
+	<geo:lat>53.4522390543317</geo:lat>
+	<geo:long>-2.33146803659644</geo:long>
+</rdf:Description>
+
+<rdf:Description rdf:nodeID="node18ikbi6gox6">
+	<rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Collection"/>
+	<rdfs:label>ID</rdfs:label>
+	<geo:lat>Lat</geo:lat>
+	<geo:long>Long</geo:long>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://id.esd.org.uk/subject/1404">
+	<skos:definition rdf:nodeID="node18ikbi6gox6"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://data.gmdsp.org.uk/id/trafford/allotments/t-10-120-0141000281-0350162498">
+	<rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Collection"/>
+	<rdfs:label>T-10-120-01+41000281-03/50162498</rdfs:label>
+	<geo:lat>53.3714505082783</geo:lat>
+	<geo:long>-2.36802829394388</geo:long>
+</rdf:Description>
+
+<rdf:Description rdf:nodeID="node18ikbi6gox7">
+	<rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Collection"/>
+	<rdfs:label>ID</rdfs:label>
+	<geo:lat>Lat</geo:lat>
+	<geo:long>Long</geo:long>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://id.esd.org.uk/subject/1404">
+	<skos:definition rdf:nodeID="node18ikbi6gox7"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://data.gmdsp.org.uk/id/trafford/allotments/t-10-120-0141000281-0350007060">
+	<rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Collection"/>
+	<rdfs:label>T-10-120-01+41000281-03/50007060</rdfs:label>
+	<geo:lat>53.3712886989489</geo:lat>
+	<geo:long>-2.36802689925864</geo:long>
+</rdf:Description>
+
+<rdf:Description rdf:nodeID="node18ikbi6gox8">
+	<rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Collection"/>
+	<rdfs:label>ID</rdfs:label>
+	<geo:lat>Lat</geo:lat>
+	<geo:long>Long</geo:long>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://id.esd.org.uk/subject/1404">
+	<skos:definition rdf:nodeID="node18ikbi6gox8"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://data.gmdsp.org.uk/id/trafford/allotments/t-30-310-0141002353-0350162277">
+	<rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Collection"/>
+	<rdfs:label>T-30-310-01+41002353-03/50162277</rdfs:label>
+	<geo:lat>53.4525401700326</geo:lat>
+	<geo:long>-2.27282663752904</geo:long>
+</rdf:Description>
+
+<rdf:Description rdf:nodeID="node18ikbi6gox9">
+	<rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Collection"/>
+	<rdfs:label>ID</rdfs:label>
+	<geo:lat>Lat</geo:lat>
+	<geo:long>Long</geo:long>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://id.esd.org.uk/subject/1404">
+	<skos:definition rdf:nodeID="node18ikbi6gox9"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://data.gmdsp.org.uk/id/trafford/allotments/t-30-310-0141002353-0350018793">
+	<rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Collection"/>
+	<rdfs:label>T-30-310-01+41002353-03/50018793</rdfs:label>
+	<geo:lat>53.4524331910585</geo:lat>
+	<geo:long>-2.27243439253215</geo:long>
+</rdf:Description>
+
+<rdf:Description rdf:nodeID="node18ikbi6gox10">
+	<rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Collection"/>
+	<rdfs:label>ID</rdfs:label>
+	<geo:lat>Lat</geo:lat>
+	<geo:long>Long</geo:long>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://id.esd.org.uk/subject/1404">
+	<skos:definition rdf:nodeID="node18ikbi6gox10"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://data.gmdsp.org.uk/id/trafford/allotments/t-30-310-0141002353-0350018794">
+	<rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Collection"/>
+	<rdfs:label>T-30-310-01+41002353-03/50018794</rdfs:label>
+	<geo:lat>53.452612772353</geo:lat>
+	<geo:long>-2.27252590199558</geo:long>
+</rdf:Description>
+
+</rdf:RDF>
