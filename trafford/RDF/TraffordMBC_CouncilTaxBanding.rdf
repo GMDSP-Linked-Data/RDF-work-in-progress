@@ -1,0 +1,113 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rdf:RDF
+	xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
+	xmlns:gmdsp="http://data.gmdsp.org.uk/def/"
+	xmlns:geo="http://www.w3.org/2003/01/geo/wgs84_pos#"
+	xmlns:foaf="http://xmlns.com/foaf/0.1/"
+	xmlns:xsd="http://www.w3.org/2001/XMLSchema#"
+	xmlns:owl="http://www.w3.org/2002/07/owl#"
+	xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+	xmlns:skos="http://www.w3.org/2004/02/skos/core#"
+	xmlns:vcard="http://www.w3.org/2006/vcard/ns#">
+
+<rdf:Description rdf:about="http://data.gmdsp.org.uk/id/trafford/counciltaxbanding/48-borough-road-altrincham">
+	<rdf:type rdf:resource="http://data.gmdsp.org.uk/def/counciltaxbanding"/>
+	<rdfs:label>48-Borough Road-Altrincham</rdfs:label>
+	<vcard:street-address>Borough Road</vcard:street-address>
+	<vcard:locality>Altrincham</vcard:locality>
+	<skos:notation>C</skos:notation>
+	<geo:long>-2.34515</geo:long>
+	<geo:lat>53.3846</geo:lat>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://data.gmdsp.org.uk/id/trafford/counciltaxbanding/49-borough-road-altrincham">
+	<rdf:type rdf:resource="http://data.gmdsp.org.uk/def/counciltaxbanding"/>
+	<rdfs:label>49-Borough Road-Altrincham</rdfs:label>
+	<vcard:street-address>Borough Road</vcard:street-address>
+	<vcard:locality>Altrincham</vcard:locality>
+	<skos:notation>C</skos:notation>
+	<geo:long>-2.34484</geo:long>
+	<geo:lat>53.3841</geo:lat>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://data.gmdsp.org.uk/id/trafford/counciltaxbanding/50-borough-road-altrincham">
+	<rdf:type rdf:resource="http://data.gmdsp.org.uk/def/counciltaxbanding"/>
+	<rdfs:label>50-Borough Road-Altrincham</rdfs:label>
+	<vcard:street-address>Borough Road</vcard:street-address>
+	<vcard:locality>Altrincham</vcard:locality>
+	<skos:notation>A</skos:notation>
+	<geo:long>-2.34519</geo:long>
+	<geo:lat>53.3845</geo:lat>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://data.gmdsp.org.uk/id/trafford/counciltaxbanding/52-borough-road-altrincham">
+	<rdf:type rdf:resource="http://data.gmdsp.org.uk/def/counciltaxbanding"/>
+	<rdfs:label>52-Borough Road-Altrincham</rdfs:label>
+	<vcard:street-address>Borough Road</vcard:street-address>
+	<vcard:locality>Altrincham</vcard:locality>
+	<skos:notation>C</skos:notation>
+	<geo:long>-2.34519</geo:long>
+	<geo:lat>53.3844</geo:lat>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://data.gmdsp.org.uk/id/trafford/counciltaxbanding/54-borough-road-altrincham">
+	<rdf:type rdf:resource="http://data.gmdsp.org.uk/def/counciltaxbanding"/>
+	<rdfs:label>54-Borough Road-Altrincham</rdfs:label>
+	<vcard:street-address>Borough Road</vcard:street-address>
+	<vcard:locality>Altrincham</vcard:locality>
+	<skos:notation>C</skos:notation>
+	<geo:long>-2.34519</geo:long>
+	<geo:lat>53.3844</geo:lat>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://data.gmdsp.org.uk/id/trafford/counciltaxbanding/56-borough-road-altrincham">
+	<rdf:type rdf:resource="http://data.gmdsp.org.uk/def/counciltaxbanding"/>
+	<rdfs:label>56-Borough Road-Altrincham</rdfs:label>
+	<vcard:street-address>Borough Road</vcard:street-address>
+	<vcard:locality>Altrincham</vcard:locality>
+	<skos:notation>C</skos:notation>
+	<geo:long>-2.34521</geo:long>
+	<geo:lat>53.3843</geo:lat>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://data.gmdsp.org.uk/id/trafford/counciltaxbanding/58-borough-road-altrincham">
+	<rdf:type rdf:resource="http://data.gmdsp.org.uk/def/counciltaxbanding"/>
+	<rdfs:label>58-Borough Road-Altrincham</rdfs:label>
+	<vcard:street-address>Borough Road</vcard:street-address>
+	<vcard:locality>Altrincham</vcard:locality>
+	<skos:notation>C</skos:notation>
+	<geo:long>-2.34522</geo:long>
+	<geo:lat>53.3843</geo:lat>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://data.gmdsp.org.uk/id/trafford/counciltaxbanding/60-borough-road-altrincham">
+	<rdf:type rdf:resource="http://data.gmdsp.org.uk/def/counciltaxbanding"/>
+	<rdfs:label>60-Borough Road-Altrincham</rdfs:label>
+	<vcard:street-address>Borough Road</vcard:street-address>
+	<vcard:locality>Altrincham</vcard:locality>
+	<skos:notation>C</skos:notation>
+	<geo:long>-2.34524</geo:long>
+	<geo:lat>53.3842</geo:lat>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://data.gmdsp.org.uk/id/trafford/counciltaxbanding/62-borough-road-altrincham">
+	<rdf:type rdf:resource="http://data.gmdsp.org.uk/def/counciltaxbanding"/>
+	<rdfs:label>62-Borough Road-Altrincham</rdfs:label>
+	<vcard:street-address>Borough Road</vcard:street-address>
+	<vcard:locality>Altrincham</vcard:locality>
+	<skos:notation>C</skos:notation>
+	<geo:long>-2.34524</geo:long>
+	<geo:lat>53.3842</geo:lat>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://data.gmdsp.org.uk/id/trafford/counciltaxbanding/64-borough-road-altrincham">
+	<rdf:type rdf:resource="http://data.gmdsp.org.uk/def/counciltaxbanding"/>
+	<rdfs:label>64-Borough Road-Altrincham</rdfs:label>
+	<vcard:street-address>Borough Road</vcard:street-address>
+	<vcard:locality>Altrincham</vcard:locality>
+	<skos:notation>C</skos:notation>
+	<geo:long>-2.34525</geo:long>
+	<geo:lat>53.3842</geo:lat>
+</rdf:Description>
+
+</rdf:RDF>
