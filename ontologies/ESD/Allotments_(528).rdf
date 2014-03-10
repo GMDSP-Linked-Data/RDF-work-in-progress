@@ -1,0 +1,39 @@
+<?xml version="1.0"?>
+<rdf:RDF xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:org="http://www.w3.org/ns/org#" xmlns:owl="http://www.w3.org/2002/07/owl#" xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#" xmlns:dcterms="http://purl.org/dc/terms/" xmlns:taxonomy="http://www.esd.org.uk/standards" xmlns:foaf="http://xmlns.com/foaf/0.1/" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:qb="http://purl.org/linked-data/cube#" xmlns:payment="http://reference.data.gov.uk/def/payment#" xmlns:sitemap="http://www.sitemaps.org/schemas/sitemap/0.9" xmlns:skos="http://www.w3.org/2004/02/skos/core#">
+	<skos:Concept rdf:about="http://id.esd.org.uk/subject/528">
+		<dcterms:identifier>528</dcterms:identifier>
+		<skos:inScheme rdf:resource="http://id.esd.org.uk/IPSV/2.00" />
+		<skos:prefLabel>Allotments</skos:prefLabel>
+		<skos:broader>
+			<rdf:Description rdf:about="http://id.esd.org.uk/subject/1119">
+				<skos:narrower rdf:resource="http://id.esd.org.uk/subject/528" />
+			</rdf:Description>
+		</skos:broader>
+		<skos:broader>
+			<rdf:Description rdf:about="http://id.esd.org.uk/subject/529">
+				<skos:narrower rdf:resource="http://id.esd.org.uk/subject/528" />
+			</rdf:Description>
+		</skos:broader>
+		<skos:mappingRelation>
+			<rdf:Description rdf:about="http://id.esd.org.uk/service/510">
+				<skos:mappingRelation rdf:resource="http://id.esd.org.uk/subject/528" />
+			</rdf:Description>
+		</skos:mappingRelation>
+		<skos:mappingRelation rdf:resource="http://id.esd.org.uk/serviceGroup/510" />
+	</skos:Concept>
+	<rdf:Description rdf:about="http://id.esd.org.uk/recordClassification/131">
+		<skos:mappingRelation rdf:resource="http://id.esd.org.uk/subject/528" />
+	</rdf:Description>
+	<rdf:Description rdf:about="http://id.esd.org.uk/recordClassification/2131">
+		<skos:mappingRelation rdf:resource="http://id.esd.org.uk/subject/528" />
+	</rdf:Description>
+	<rdf:Description rdf:about="http://id.esd.org.uk/recordClassification/4131">
+		<skos:mappingRelation rdf:resource="http://id.esd.org.uk/subject/528" />
+	</rdf:Description>
+	<rdf:Description rdf:about="http://id.esd.org.uk/recordClassification/6131">
+		<skos:mappingRelation rdf:resource="http://id.esd.org.uk/subject/528" />
+	</rdf:Description>
+	<rdf:Description rdf:about="http://www.fotolibra.com/gallery/search/pro.php?all_words=IPSV0528">
+		<dcterms:subject rdf:resource="http://id.esd.org.uk/subject/528" />
+	</rdf:Description>
+</rdf:RDF>

@@ -1,0 +1,63 @@
+<?xml version="1.0"?>
+<rdf:RDF xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:org="http://www.w3.org/ns/org#" xmlns:owl="http://www.w3.org/2002/07/owl#" xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#" xmlns:dcterms="http://purl.org/dc/terms/" xmlns:taxonomy="http://www.esd.org.uk/standards" xmlns:foaf="http://xmlns.com/foaf/0.1/" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:qb="http://purl.org/linked-data/cube#" xmlns:payment="http://reference.data.gov.uk/def/payment#" xmlns:sitemap="http://www.sitemaps.org/schemas/sitemap/0.9" xmlns:skos="http://www.w3.org/2004/02/skos/core#">
+	<skos:Concept rdf:about="http://id.esd.org.uk/subject/1404">
+		<dcterms:identifier>1404</dcterms:identifier>
+		<skos:inScheme rdf:resource="http://id.esd.org.uk/IPSV/2.00" />
+		<skos:prefLabel>Street lighting</skos:prefLabel>
+		<skos:broader>
+			<rdf:Description rdf:about="http://id.esd.org.uk/subject/3025">
+				<skos:narrower rdf:resource="http://id.esd.org.uk/subject/1404" />
+			</rdf:Description>
+		</skos:broader>
+		<skos:broader>
+			<rdf:Description rdf:about="http://id.esd.org.uk/subject/3076">
+				<skos:narrower rdf:resource="http://id.esd.org.uk/subject/1404" />
+			</rdf:Description>
+		</skos:broader>
+		<skos:related>
+			<rdf:Description rdf:about="http://id.esd.org.uk/subject/3077">
+				<skos:related rdf:resource="http://id.esd.org.uk/subject/1404" />
+			</rdf:Description>
+		</skos:related>
+		<skos:altLabel>Street lamps</skos:altLabel>
+		<skos:altLabel>Street lights</skos:altLabel>
+		<skos:altLabel>Illumination (roads and pathways)</skos:altLabel>
+		<skos:altLabel>Lamp posts</skos:altLabel>
+		<skos:altLabel>Footway lighting</skos:altLabel>
+		<skos:altLabel>Lighting (roads and pathways)</skos:altLabel>
+		<skos:altLabel>Municipal lighting</skos:altLabel>
+		<skos:altLabel>Illuminated bollards</skos:altLabel>
+		<skos:mappingRelation>
+			<rdf:Description rdf:about="http://id.esd.org.uk/service/564">
+				<skos:mappingRelation rdf:resource="http://id.esd.org.uk/subject/1404" />
+			</rdf:Description>
+		</skos:mappingRelation>
+		<skos:mappingRelation>
+			<rdf:Description rdf:about="http://id.esd.org.uk/service/566">
+				<skos:mappingRelation rdf:resource="http://id.esd.org.uk/subject/1404" />
+			</rdf:Description>
+		</skos:mappingRelation>
+		<skos:mappingRelation rdf:resource="http://id.esd.org.uk/serviceGroup/564" />
+	</skos:Concept>
+	<rdf:Description rdf:about="http://www.fotolibra.com/gallery/search/pro.php?all_words=IPSV3113">
+		<dcterms:subject rdf:resource="http://id.esd.org.uk/subject/1404" />
+	</rdf:Description>
+	<rdf:Description rdf:about="http://www.fotolibra.com/gallery/search/pro.php?all_words=IPSV3111">
+		<dcterms:subject rdf:resource="http://id.esd.org.uk/subject/1404" />
+	</rdf:Description>
+	<rdf:Description rdf:about="http://www.fotolibra.com/gallery/search/pro.php?all_words=IPSV3112">
+		<dcterms:subject rdf:resource="http://id.esd.org.uk/subject/1404" />
+	</rdf:Description>
+	<rdf:Description rdf:about="http://www.fotolibra.com/gallery/search/pro.php?all_words=IPSV3114">
+		<dcterms:subject rdf:resource="http://id.esd.org.uk/subject/1404" />
+	</rdf:Description>
+	<rdf:Description rdf:about="http://www.fotolibra.com/gallery/search/pro.php?all_words=IPSV3109">
+		<dcterms:subject rdf:resource="http://id.esd.org.uk/subject/1404" />
+	</rdf:Description>
+	<rdf:Description rdf:about="http://www.fotolibra.com/gallery/search/pro.php?all_words=IPSV1404">
+		<dcterms:subject rdf:resource="http://id.esd.org.uk/subject/1404" />
+	</rdf:Description>
+	<rdf:Description rdf:about="http://www.fotolibra.com/gallery/search/pro.php?all_words=IPSV3110">
+		<dcterms:subject rdf:resource="http://id.esd.org.uk/subject/1404" />
+	</rdf:Description>
+</rdf:RDF>
