@@ -1,0 +1,492 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rdf:RDF
+	xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
+	xmlns:gmdsp="http://data.gmdsp.org.uk/def/"
+	xmlns:geo="http://www.w3.org/2003/01/geo/wgs84_pos#"
+	xmlns:foaf="http://xmlns.com/foaf/0.1/"
+	xmlns:xsd="http://www.w3.org/2001/XMLSchema#"
+	xmlns:owl="http://www.w3.org/2002/07/owl#"
+	xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+	xmlns:skos="http://www.w3.org/2004/02/skos/core#"
+	xmlns:vcard="http://www.w3.org/2006/vcard/ns#">
+
+<rdf:Description rdf:about="http://data.gmdsp.org.uk/id/trafford/recyclingsites/sainsburys-altrincham">
+	<rdf:type rdf:resource="http://data.gmdsp.org.uk/def/recyclingsites"/>
+	<rdfs:label>Sainsburys</rdfs:label>
+	<vcard:street-address>Lloyd Street</vcard:street-address>
+	<vcard:locality>Altrincham</vcard:locality>
+	<skos:notation>ALTSBY</skos:notation>
+	<geo:long>376764.99731898</geo:long>
+	<geo:lat>387505.99681748</geo:lat>
+	<rdf:type rdf:resource="http://data.gmdsp.org.uk/def/recyclingfacilities"/>
+	<gmdsp:facility>Paper</gmdsp:facility>
+	<gmdsp:facility>Dry</gmdsp:facility>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://data.gmdsp.org.uk/id/trafford/recyclingsites/the-huntsman-sale">
+	<rdf:type rdf:resource="http://data.gmdsp.org.uk/def/recyclingsites"/>
+	<rdfs:label>The Huntsman</rdfs:label>
+	<vcard:street-address>Catterick Road</vcard:street-address>
+	<vcard:locality>Sale</vcard:locality>
+	<skos:notation>SALHNT</skos:notation>
+	<geo:long>376141.00284979</geo:long>
+	<geo:lat>390724.99538872</geo:lat>
+	<rdf:type rdf:resource="http://data.gmdsp.org.uk/def/recyclingfacilities"/>
+	<gmdsp:facility>Paper</gmdsp:facility>
+	<gmdsp:facility>Dry</gmdsp:facility>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://data.gmdsp.org.uk/id/trafford/recyclingsites/asda-trafford-park">
+	<rdf:type rdf:resource="http://data.gmdsp.org.uk/def/recyclingsites"/>
+	<rdfs:label>Asda</rdfs:label>
+	<vcard:street-address>Barton Dock Road</vcard:street-address>
+	<vcard:locality>Trafford Park</vcard:locality>
+	<skos:notation>TRAASD</skos:notation>
+	<geo:long>377163.00290846</geo:long>
+	<geo:lat>396924.00094184</geo:lat>
+	<rdf:type rdf:resource="http://data.gmdsp.org.uk/def/recyclingfacilities"/>
+	<gmdsp:facility>Paper</gmdsp:facility>
+	<gmdsp:facility>Dry</gmdsp:facility>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://data.gmdsp.org.uk/id/trafford/recyclingsites/urmston-leisure-centre-urmston">
+	<rdf:type rdf:resource="http://data.gmdsp.org.uk/def/recyclingsites"/>
+	<rdfs:label>Urmston Leisure Centre</rdfs:label>
+	<vcard:street-address>Bowfell Road</vcard:street-address>
+	<vcard:locality>Urmston</vcard:locality>
+	<skos:notation>URMULS</skos:notation>
+	<geo:long>375446.0019144</geo:long>
+	<geo:lat>394890.00316765</geo:lat>
+	<rdf:type rdf:resource="http://data.gmdsp.org.uk/def/recyclingfacilities"/>
+	<gmdsp:facility>Paper</gmdsp:facility>
+	<gmdsp:facility>Dry</gmdsp:facility>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://data.gmdsp.org.uk/id/trafford/recyclingsites/community-centre-car-park-old-trafford">
+	<rdf:type rdf:resource="http://data.gmdsp.org.uk/def/recyclingsites"/>
+	<rdfs:label>Community Centre Car Park</rdfs:label>
+	<vcard:street-address>Blair Street</vcard:street-address>
+	<vcard:locality>Old Trafford</vcard:locality>
+	<skos:notation>OLDBST</skos:notation>
+	<geo:long>382685.00065994</geo:long>
+	<geo:lat>396150.00249659</geo:lat>
+	<rdf:type rdf:resource="http://data.gmdsp.org.uk/def/recyclingfacilities"/>
+	<gmdsp:facility>Paper</gmdsp:facility>
+	<gmdsp:facility>Dry</gmdsp:facility>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://data.gmdsp.org.uk/id/trafford/recyclingsites/white-city-retail-park-old-trafford">
+	<rdf:type rdf:resource="http://data.gmdsp.org.uk/def/recyclingsites"/>
+	<rdfs:label>White City Retail Park</rdfs:label>
+	<vcard:street-address>Chester Road</vcard:street-address>
+	<vcard:locality>Old Trafford</vcard:locality>
+	<skos:notation>OLDWCY</skos:notation>
+	<geo:long>381274.99627092</geo:long>
+	<geo:lat>396160.99934877</geo:lat>
+	<rdf:type rdf:resource="http://data.gmdsp.org.uk/def/recyclingfacilities"/>
+	<gmdsp:facility>Paper</gmdsp:facility>
+	<gmdsp:facility>Dry</gmdsp:facility>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://data.gmdsp.org.uk/id/trafford/recyclingsites/baker-street-car-park-timperley">
+	<rdf:type rdf:resource="http://data.gmdsp.org.uk/def/recyclingsites"/>
+	<rdfs:label>Baker Street Car Park</rdfs:label>
+	<vcard:street-address>Baker Street</vcard:street-address>
+	<vcard:locality>Timperley</vcard:locality>
+	<skos:notation>TIMBAK</skos:notation>
+	<geo:long>379036.99811094</geo:long>
+	<geo:lat>389137.99966152</geo:lat>
+	<rdf:type rdf:resource="http://data.gmdsp.org.uk/def/recyclingfacilities"/>
+	<gmdsp:facility>Paper</gmdsp:facility>
+	<gmdsp:facility>Dry</gmdsp:facility>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://data.gmdsp.org.uk/id/trafford/recyclingsites/wyevale-garden-centre-timperley">
+	<rdf:type rdf:resource="http://data.gmdsp.org.uk/def/recyclingsites"/>
+	<rdfs:label>Wyevale Garden Centre</rdfs:label>
+	<vcard:street-address>Green Lane</vcard:street-address>
+	<vcard:locality>Timperley</vcard:locality>
+	<skos:notation>TIMWYE</skos:notation>
+	<geo:long>378629.99715981</geo:long>
+	<geo:lat>387508.99595898</geo:lat>
+	<rdf:type rdf:resource="http://data.gmdsp.org.uk/def/recyclingfacilities"/>
+	<gmdsp:facility>Paper</gmdsp:facility>
+	<gmdsp:facility>Dry</gmdsp:facility>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://data.gmdsp.org.uk/id/trafford/recyclingsites/fourth-ave-car-park-trafford-park">
+	<rdf:type rdf:resource="http://data.gmdsp.org.uk/def/recyclingsites"/>
+	<rdfs:label>Fourth Ave Car Park</rdfs:label>
+	<vcard:street-address>Fourth Ave</vcard:street-address>
+	<vcard:locality>Trafford Park</vcard:locality>
+	<skos:notation>TRA4AV</skos:notation>
+	<geo:long>379486.99705572</geo:long>
+	<geo:lat>396600.00368509</geo:lat>
+	<rdf:type rdf:resource="http://data.gmdsp.org.uk/def/recyclingfacilities"/>
+	<gmdsp:facility>Paper</gmdsp:facility>
+	<gmdsp:facility>Dry</gmdsp:facility>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://data.gmdsp.org.uk/id/trafford/recyclingsites/flixton-railway-station-car-park-flixton">
+	<rdf:type rdf:resource="http://data.gmdsp.org.uk/def/recyclingsites"/>
+	<rdfs:label>Flixton Railway Station Car Park</rdfs:label>
+	<vcard:street-address>Flixton Road</vcard:street-address>
+	<vcard:locality>Flixton</vcard:locality>
+	<skos:notation>URMFLI</skos:notation>
+	<geo:long>374603.00213224</geo:long>
+	<geo:lat>394230.00209099</geo:lat>
+	<rdf:type rdf:resource="http://data.gmdsp.org.uk/def/recyclingfacilities"/>
+	<gmdsp:facility>Paper</gmdsp:facility>
+	<gmdsp:facility>Dry</gmdsp:facility>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://data.gmdsp.org.uk/id/trafford/recyclingsites/brown-street-car-park-hale">
+	<rdf:type rdf:resource="http://data.gmdsp.org.uk/def/recyclingsites"/>
+	<rdfs:label>Brown Street Car Park</rdfs:label>
+	<vcard:street-address>Brown Street</vcard:street-address>
+	<vcard:locality>Hale</vcard:locality>
+	<skos:notation>HALBST</skos:notation>
+	<geo:long>376964.99776611</geo:long>
+	<geo:lat>386983.99623859</geo:lat>
+	<rdf:type rdf:resource="http://data.gmdsp.org.uk/def/recyclingfacilities"/>
+	<gmdsp:facility>Paper</gmdsp:facility>
+	<gmdsp:facility>Dry</gmdsp:facility>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://data.gmdsp.org.uk/id/trafford/recyclingsites/george-carnall-leisure-centre-davyhulme">
+	<rdf:type rdf:resource="http://data.gmdsp.org.uk/def/recyclingsites"/>
+	<rdfs:label>George Carnall Leisure Centre</rdfs:label>
+	<vcard:street-address>Kingsway Park</vcard:street-address>
+	<vcard:locality>Davyhulme</vcard:locality>
+	<skos:notation>URMGHC</skos:notation>
+	<geo:long>377336.00078048</geo:long>
+	<geo:lat>395750.99671081</geo:lat>
+	<rdf:type rdf:resource="http://data.gmdsp.org.uk/def/recyclingfacilities"/>
+	<gmdsp:facility>Paper</gmdsp:facility>
+	<gmdsp:facility>Dry</gmdsp:facility>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://data.gmdsp.org.uk/id/trafford/recyclingsites/chester-road-household-waste-and-recycling-centre-stretford">
+	<rdf:type rdf:resource="http://data.gmdsp.org.uk/def/recyclingsites"/>
+	<rdfs:label>Chester Road Household Waste and Recycling Centre</rdfs:label>
+	<vcard:street-address>Chester Road</vcard:street-address>
+	<vcard:locality>Stretford</vcard:locality>
+	<skos:notation>STRCHR</skos:notation>
+	<geo:long>379289.99781083</geo:long>
+	<geo:lat>393752.99863181</geo:lat>
+	<rdf:type rdf:resource="http://data.gmdsp.org.uk/def/recyclingfacilities"/>
+	<gmdsp:facility>Paper</gmdsp:facility>
+	<gmdsp:facility>Dry</gmdsp:facility>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://data.gmdsp.org.uk/id/trafford/recyclingsites/ascot-avenue-car-park-sale-west">
+	<rdf:type rdf:resource="http://data.gmdsp.org.uk/def/recyclingsites"/>
+	<rdfs:label>Ascot Avenue Car Park</rdfs:label>
+	<vcard:street-address>Ascot Avenue</vcard:street-address>
+	<vcard:locality>Sale West</vcard:locality>
+	<skos:notation>SALASC</skos:notation>
+	<geo:long>376373.00237905</geo:long>
+	<geo:lat>391212.99570008</geo:lat>
+	<rdf:type rdf:resource="http://data.gmdsp.org.uk/def/recyclingfacilities"/>
+	<gmdsp:facility>Paper</gmdsp:facility>
+	<gmdsp:facility>Dry</gmdsp:facility>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://data.gmdsp.org.uk/id/trafford/recyclingsites/assembly-rooms-car-park-bowdon">
+	<rdf:type rdf:resource="http://data.gmdsp.org.uk/def/recyclingsites"/>
+	<rdfs:label>Assembly Rooms Car Park</rdfs:label>
+	<vcard:street-address>The Firs</vcard:street-address>
+	<vcard:locality>Bowdon</vcard:locality>
+	<skos:notation>BOWJUB</skos:notation>
+	<geo:long>375942.00005506</geo:long>
+	<geo:lat>386993.00366024</geo:lat>
+	<rdf:type rdf:resource="http://data.gmdsp.org.uk/def/recyclingfacilities"/>
+	<gmdsp:facility>Paper</gmdsp:facility>
+	<gmdsp:facility>Dry</gmdsp:facility>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://data.gmdsp.org.uk/id/trafford/recyclingsites/sinderland-road-household-waste-and-recycling-centre-altrincham">
+	<rdf:type rdf:resource="http://data.gmdsp.org.uk/def/recyclingsites"/>
+	<rdfs:label>Sinderland Road Household Waste and Recycling Centre</rdfs:label>
+	<vcard:street-address>Sinderland Road</vcard:street-address>
+	<vcard:locality>Altrincham</vcard:locality>
+	<skos:notation>ALTSIN</skos:notation>
+	<geo:long>375239.99906279</geo:long>
+	<geo:lat>390319.00160323</geo:lat>
+	<rdf:type rdf:resource="http://data.gmdsp.org.uk/def/recyclingfacilities"/>
+	<gmdsp:facility>Paper</gmdsp:facility>
+	<gmdsp:facility>Dry</gmdsp:facility>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://data.gmdsp.org.uk/id/trafford/recyclingsites/cornbrook-park-road-car-park-old-trafford">
+	<rdf:type rdf:resource="http://data.gmdsp.org.uk/def/recyclingsites"/>
+	<rdfs:label>Cornbrook Park Road Car Park</rdfs:label>
+	<vcard:street-address>At the end of Malvern Row</vcard:street-address>
+	<vcard:locality>Old Trafford</vcard:locality>
+	<skos:notation>OLDCPR</skos:notation>
+	<geo:long>382520.00049719</geo:long>
+	<geo:lat>396649.99937397</geo:lat>
+	<rdf:type rdf:resource="http://data.gmdsp.org.uk/def/recyclingfacilities"/>
+	<gmdsp:facility>Paper</gmdsp:facility>
+	<gmdsp:facility>Dry</gmdsp:facility>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://data.gmdsp.org.uk/id/trafford/recyclingsites/seven-sisters-old-trafford">
+	<rdf:type rdf:resource="http://data.gmdsp.org.uk/def/recyclingsites"/>
+	<rdfs:label>Seven Sisters</rdfs:label>
+	<vcard:street-address>Dudley Close</vcard:street-address>
+	<vcard:locality>Old Trafford</vcard:locality>
+	<skos:notation>OLDDCL</skos:notation>
+	<geo:long>383194.99891435</geo:long>
+	<geo:lat>396154.00135193</geo:lat>
+	<rdf:type rdf:resource="http://data.gmdsp.org.uk/def/recyclingfacilities"/>
+	<gmdsp:facility>Paper</gmdsp:facility>
+	<gmdsp:facility>Dry</gmdsp:facility>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://data.gmdsp.org.uk/id/trafford/recyclingsites/manor-road-car-park-urmston">
+	<rdf:type rdf:resource="http://data.gmdsp.org.uk/def/recyclingsites"/>
+	<rdfs:label>Manor Road Car Park</rdfs:label>
+	<vcard:street-address>Manor Road</vcard:street-address>
+	<vcard:locality>Urmston</vcard:locality>
+	<skos:notation>URMMNA</skos:notation>
+	<geo:long>376738.00298894</geo:long>
+	<geo:lat>394259.00378934</geo:lat>
+	<rdf:type rdf:resource="http://data.gmdsp.org.uk/def/recyclingfacilities"/>
+	<gmdsp:facility>Paper</gmdsp:facility>
+	<gmdsp:facility>Dry</gmdsp:facility>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://data.gmdsp.org.uk/id/trafford/recyclingsites/woodsend-circle-flixton">
+	<rdf:type rdf:resource="http://data.gmdsp.org.uk/def/recyclingsites"/>
+	<rdfs:label>Woodsend Circle</rdfs:label>
+	<vcard:street-address>Woodsend Circle</vcard:street-address>
+	<vcard:locality>Flixton</vcard:locality>
+	<skos:notation>URMWCP</skos:notation>
+	<geo:long>373971.00170872</geo:long>
+	<geo:lat>395153.99760003</geo:lat>
+	<rdf:type rdf:resource="http://data.gmdsp.org.uk/def/recyclingfacilities"/>
+	<gmdsp:facility>Paper</gmdsp:facility>
+	<gmdsp:facility>Dry</gmdsp:facility>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://data.gmdsp.org.uk/id/trafford/recyclingsites/manor-avenue-playing-fields-car-park-ashton-on-mersey">
+	<rdf:type rdf:resource="http://data.gmdsp.org.uk/def/recyclingsites"/>
+	<rdfs:label>Manor Avenue Playing Fields Car Park</rdfs:label>
+	<vcard:street-address>Manor Avenue</vcard:street-address>
+	<vcard:locality>Ashton-on-Mersey</vcard:locality>
+	<skos:notation>SALFIR</skos:notation>
+	<geo:long>376471.0031753</geo:long>
+	<geo:lat>391694.99772844</geo:lat>
+	<rdf:type rdf:resource="http://data.gmdsp.org.uk/def/recyclingfacilities"/>
+	<gmdsp:facility>Paper</gmdsp:facility>
+	<gmdsp:facility>Dry</gmdsp:facility>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://data.gmdsp.org.uk/id/trafford/recyclingsites/car-park-behind-co-op-partington">
+	<rdf:type rdf:resource="http://data.gmdsp.org.uk/def/recyclingsites"/>
+	<rdfs:label>Car Park behind Co-op</rdfs:label>
+	<vcard:street-address>Central Road</vcard:street-address>
+	<vcard:locality>Partington</vcard:locality>
+	<skos:notation>PARCOO</skos:notation>
+	<geo:long>371766.00028326</geo:long>
+	<geo:lat>391407.99988072</geo:lat>
+	<rdf:type rdf:resource="http://data.gmdsp.org.uk/def/recyclingfacilities"/>
+	<gmdsp:facility>Paper</gmdsp:facility>
+	<gmdsp:facility>Dry</gmdsp:facility>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://data.gmdsp.org.uk/id/trafford/recyclingsites/park-road-north-car-park-urmston">
+	<rdf:type rdf:resource="http://data.gmdsp.org.uk/def/recyclingsites"/>
+	<rdfs:label>Park Road North Car Park</rdfs:label>
+	<vcard:street-address>Park Road North</vcard:street-address>
+	<vcard:locality>Urmston</vcard:locality>
+	<skos:notation>URMPRN</skos:notation>
+	<geo:long>376457.00306155</geo:long>
+	<geo:lat>394895.00173682</geo:lat>
+	<rdf:type rdf:resource="http://data.gmdsp.org.uk/def/recyclingfacilities"/>
+	<gmdsp:facility>Paper</gmdsp:facility>
+	<gmdsp:facility>Dry</gmdsp:facility>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://data.gmdsp.org.uk/id/trafford/recyclingsites/bath-crescent-old-trafford">
+	<rdf:type rdf:resource="http://data.gmdsp.org.uk/def/recyclingsites"/>
+	<rdfs:label>Bath Crescent</rdfs:label>
+	<vcard:locality>Old Trafford</vcard:locality>
+	<skos:notation>OLDBCR</skos:notation>
+	<geo:long>382186.00131704</geo:long>
+	<geo:lat>396210.99503766</geo:lat>
+	<rdf:type rdf:resource="http://data.gmdsp.org.uk/def/recyclingfacilities"/>
+	<gmdsp:facility>Paper</gmdsp:facility>
+	<gmdsp:facility>Dry</gmdsp:facility>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://data.gmdsp.org.uk/id/trafford/recyclingsites/sale-water-park-sale">
+	<rdf:type rdf:resource="http://data.gmdsp.org.uk/def/recyclingsites"/>
+	<rdfs:label>Sale Water Park</rdfs:label>
+	<vcard:street-address>Rifle Road</vcard:street-address>
+	<vcard:locality>Sale</vcard:locality>
+	<skos:notation>SALWTR</skos:notation>
+	<geo:long>380237.99844611</geo:long>
+	<geo:lat>392734.00031704</geo:lat>
+	<rdf:type rdf:resource="http://data.gmdsp.org.uk/def/recyclingfacilities"/>
+	<gmdsp:facility>Paper</gmdsp:facility>
+	<gmdsp:facility>Dry</gmdsp:facility>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://data.gmdsp.org.uk/id/trafford/recyclingsites/community-centre-sale">
+	<rdf:type rdf:resource="http://data.gmdsp.org.uk/def/recyclingsites"/>
+	<rdfs:label>Community Centre</rdfs:label>
+	<vcard:street-address>Norris Road</vcard:street-address>
+	<vcard:locality>Sale</vcard:locality>
+	<skos:notation>SALNOR</skos:notation>
+	<geo:long>379843.99995633</geo:long>
+	<geo:lat>390968.9955444</geo:lat>
+	<rdf:type rdf:resource="http://data.gmdsp.org.uk/def/recyclingfacilities"/>
+	<gmdsp:facility>Paper</gmdsp:facility>
+	<gmdsp:facility>Dry</gmdsp:facility>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://data.gmdsp.org.uk/id/trafford/recyclingsites/wardle-close-flats-stretford">
+	<rdf:type rdf:resource="http://data.gmdsp.org.uk/def/recyclingsites"/>
+	<rdfs:label>Wardle Close Flats</rdfs:label>
+	<vcard:street-address>Wardle Close</vcard:street-address>
+	<vcard:locality>Stretford</vcard:locality>
+	<skos:notation>STRWRD</skos:notation>
+	<geo:long>380226.9995346</geo:long>
+	<geo:lat>394808.9963556</geo:lat>
+	<rdf:type rdf:resource="http://data.gmdsp.org.uk/def/recyclingfacilities"/>
+	<gmdsp:facility>Paper</gmdsp:facility>
+	<gmdsp:facility>Dry</gmdsp:facility>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://data.gmdsp.org.uk/id/trafford/recyclingsites/circle-court-stretford">
+	<rdf:type rdf:resource="http://data.gmdsp.org.uk/def/recyclingsites"/>
+	<rdfs:label>Circle Court</rdfs:label>
+	<vcard:street-address>Barton Road</vcard:street-address>
+	<vcard:locality>Stretford</vcard:locality>
+	<skos:notation>STRCCT</skos:notation>
+	<geo:long>377690.00247886</geo:long>
+	<geo:lat>395597.00079168</geo:lat>
+	<rdf:type rdf:resource="http://data.gmdsp.org.uk/def/recyclingfacilities"/>
+	<gmdsp:facility>Paper</gmdsp:facility>
+	<gmdsp:facility>Dry</gmdsp:facility>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://data.gmdsp.org.uk/id/trafford/recyclingsites/b-q-trafford-park">
+	<rdf:type rdf:resource="http://data.gmdsp.org.uk/def/recyclingsites"/>
+	<rdfs:label>B &amp; Q</rdfs:label>
+	<vcard:street-address>Redclyffe Road</vcard:street-address>
+	<vcard:locality>Trafford Park</vcard:locality>
+	<skos:notation>TRABQ</skos:notation>
+	<geo:long>376860.49161666</geo:long>
+	<geo:lat>397369.88330934</geo:lat>
+	<rdf:type rdf:resource="http://data.gmdsp.org.uk/def/recyclingfacilities"/>
+	<gmdsp:facility>Paper</gmdsp:facility>
+	<gmdsp:facility>Dry</gmdsp:facility>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://data.gmdsp.org.uk/id/trafford/recyclingsites/car-park-flixton">
+	<rdf:type rdf:resource="http://data.gmdsp.org.uk/def/recyclingsites"/>
+	<rdfs:label>Car Park</rdfs:label>
+	<vcard:street-address>Pennybridge Lane</vcard:street-address>
+	<vcard:locality>Flixton</vcard:locality>
+	<skos:notation>URMPBL</skos:notation>
+	<geo:long>375340.00340888</geo:long>
+	<geo:lat>394536.00449871</geo:lat>
+	<rdf:type rdf:resource="http://data.gmdsp.org.uk/def/recyclingfacilities"/>
+	<gmdsp:facility>Paper</gmdsp:facility>
+	<gmdsp:facility>Dry</gmdsp:facility>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://data.gmdsp.org.uk/id/trafford/recyclingsites/trafford-general-hospital-davyhulme">
+	<rdf:type rdf:resource="http://data.gmdsp.org.uk/def/recyclingsites"/>
+	<rdfs:label>Trafford General Hospital</rdfs:label>
+	<vcard:street-address>Moorside Road</vcard:street-address>
+	<vcard:locality>Davyhulme</vcard:locality>
+	<skos:notation>URMTGH</skos:notation>
+	<geo:long>375534.00145153</geo:long>
+	<geo:lat>395446.00401406</geo:lat>
+	<rdf:type rdf:resource="http://data.gmdsp.org.uk/def/recyclingfacilities"/>
+	<gmdsp:facility>Paper</gmdsp:facility>
+	<gmdsp:facility>Dry</gmdsp:facility>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://data.gmdsp.org.uk/id/trafford/recyclingsites/trafford-retail-park-urmston">
+	<rdf:type rdf:resource="http://data.gmdsp.org.uk/def/recyclingsites"/>
+	<rdfs:label>Trafford Retail Park</rdfs:label>
+	<vcard:street-address>Neary Way</vcard:street-address>
+	<vcard:locality>Urmston</vcard:locality>
+	<skos:notation>URMTRP</skos:notation>
+	<geo:long>376279.99808983</geo:long>
+	<geo:lat>396330.00097256</geo:lat>
+	<rdf:type rdf:resource="http://data.gmdsp.org.uk/def/recyclingfacilities"/>
+	<gmdsp:facility>Paper</gmdsp:facility>
+	<gmdsp:facility>Dry</gmdsp:facility>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://data.gmdsp.org.uk/id/trafford/recyclingsites/christ-church-davyhulme">
+	<rdf:type rdf:resource="http://data.gmdsp.org.uk/def/recyclingsites"/>
+	<rdfs:label>Christ Church</rdfs:label>
+	<vcard:street-address>Lostock Road</vcard:street-address>
+	<vcard:locality>Davyhulme</vcard:locality>
+	<skos:notation>URMCHR</skos:notation>
+	<geo:long>377175.2880495</geo:long>
+	<geo:lat>395678.19754935</geo:lat>
+	<rdf:type rdf:resource="http://data.gmdsp.org.uk/def/recyclingfacilities"/>
+	<gmdsp:facility>Paper</gmdsp:facility>
+	<gmdsp:facility>Dry</gmdsp:facility>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://data.gmdsp.org.uk/id/trafford/recyclingsites/sainsburys-sale">
+	<rdf:type rdf:resource="http://data.gmdsp.org.uk/def/recyclingsites"/>
+	<rdfs:label>Sainsburys</rdfs:label>
+	<vcard:street-address>Curzon Road</vcard:street-address>
+	<vcard:locality>Sale</vcard:locality>
+	<skos:notation>SALSAI</skos:notation>
+	<geo:long>378621.94998017</geo:long>
+	<geo:lat>392256.07712113</geo:lat>
+	<rdf:type rdf:resource="http://data.gmdsp.org.uk/def/recyclingfacilities"/>
+	<gmdsp:facility>Paper</gmdsp:facility>
+	<gmdsp:facility>Dry</gmdsp:facility>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://data.gmdsp.org.uk/id/trafford/recyclingsites/stretford-arndale-car-park-stretford">
+	<rdf:type rdf:resource="http://data.gmdsp.org.uk/def/recyclingsites"/>
+	<rdfs:label>Stretford Arndale Car Park</rdfs:label>
+	<vcard:locality>Stretford</vcard:locality>
+	<skos:notation>STRARN</skos:notation>
+	<geo:long>379478.55411315</geo:long>
+	<geo:lat>394379.61926352</geo:lat>
+	<rdf:type rdf:resource="http://data.gmdsp.org.uk/def/recyclingfacilities"/>
+	<gmdsp:facility>Paper</gmdsp:facility>
+	<gmdsp:facility>Dry</gmdsp:facility>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://data.gmdsp.org.uk/id/trafford/recyclingsites/cecil-road-car-park-hale">
+	<rdf:type rdf:resource="http://data.gmdsp.org.uk/def/recyclingsites"/>
+	<rdfs:label>Cecil Road Car Park</rdfs:label>
+	<vcard:street-address>Cecil Road</vcard:street-address>
+	<vcard:locality>Hale</vcard:locality>
+	<skos:notation>HALCEC</skos:notation>
+	<geo:long>377139.57044481</geo:long>
+	<geo:lat>386594.12783726</geo:lat>
+	<rdf:type rdf:resource="http://data.gmdsp.org.uk/def/recyclingfacilities"/>
+	<gmdsp:facility>Paper</gmdsp:facility>
+	<gmdsp:facility>Dry</gmdsp:facility>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://data.gmdsp.org.uk/id/trafford/recyclingsites/greenbank-road-car-park-ashton-on-mersey">
+	<rdf:type rdf:resource="http://data.gmdsp.org.uk/def/recyclingsites"/>
+	<rdfs:label>Greenbank Road Car Park</rdfs:label>
+	<vcard:street-address>Greenbank Road</vcard:street-address>
+	<vcard:locality>Ashton-on-Mersey</vcard:locality>
+	<skos:notation>ASHGBR</skos:notation>
+	<geo:long>377372.93865421</geo:long>
+	<geo:lat>392491.14983227</geo:lat>
+	<rdf:type rdf:resource="http://data.gmdsp.org.uk/def/recyclingfacilities"/>
+	<gmdsp:facility>Paper</gmdsp:facility>
+	<gmdsp:facility>Dry</gmdsp:facility>
+</rdf:Description>
+
+</rdf:RDF>
