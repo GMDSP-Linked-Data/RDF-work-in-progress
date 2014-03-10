@@ -50,8 +50,6 @@ CSV.foreach('RecyclingCentres.csv', { headers:true }) do |csv_obj|
   # graph << [subject, RECYCLING_CENTRES.hasFoil, csv_obj["Foil"]]
   # graph << [subject, RECYCLING_CENTRES.hasPlasticBottles, csv_obj["Plastic Bottles"]]
   # graph << [subject, RECYCLING_CENTRES.hasAerosols, csv_obj["Aerosols"]]
-
-  puts graph
 end
 
 
