@@ -1,4 +1,3 @@
-
 Notes
 ------------------
 11 March 2014
@@ -7,7 +6,7 @@ On data
 
 - I've transformed six datasets into RDF - all at: https://github.com/GMDSP-Linked-Data/RDF-work-in-progress/tree/master/trafford/RDF
 
-- I've added these to the GMDSP platform: http://gmdsp-staging.publishmydata.com/data (guest:gmdsp99)
+- I've added these to the GMDSP platform: http://gmdsp-staging.publishmydata.com/data
 
 - The one remaining dataset is the gritting routes - as discussed it might be useful to look at alternatives to KML, but I have also raised this with other fellows
 
