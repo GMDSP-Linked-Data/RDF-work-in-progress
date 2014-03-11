@@ -1,0 +1,235 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rdf:RDF
+	xmlns:dc="http://purl.org/dc/elements/1.1/"
+	xmlns:gmdsp="http://data.gmdsp.org.uk/def/"
+	xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
+	xmlns:geo="http://www.w3.org/2003/01/geo/wgs84_pos#"
+	xmlns:foaf="http://xmlns.com/foaf/0.1/"
+	xmlns:local-government="http://opendatacommunities.org/def/local-government/ontology"
+	xmlns:owl="http://www.w3.org/2002/07/owl#"
+	xmlns:xsd="http://www.w3.org/2001/XMLSchema#"
+	xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+	xmlns:skos="http://www.w3.org/2004/02/skos/core#"
+	xmlns:vcard="http://www.w3.org/2006/vcard/ns#">
+
+<rdf:Description rdf:about="http://data.gmdsp.org.uk/id/trafford/counciltaxbanding/78109hha2012">
+	<rdf:type rdf:resource="http://data.gmdsp.org.uk/def/planningapplications"/>
+	<rdfs:label>78109/HHA/2012</rdfs:label>
+	<vcard:locality>North</vcard:locality>
+	<skos:notation>407553</skos:notation>
+	<geo:long>381564.2165</geo:long>
+	<geo:lat>395066.8725</geo:lat>
+	<dc:creator rdf:resource="http://opendatacommunities.org/doc/metropolitan-district/trafford1"/>
+	<gmdsp:planningapplicationtype>HHA</gmdsp:planningapplicationtype>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://data.gmdsp.org.uk/data/trafford/407553">
+	<rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Collection"/>
+	<rdfs:label>REFUSED</rdfs:label>
+	<rdfs:comment>Other: Householder developments</rdfs:comment>
+	<xsd:dateTime>20120402</xsd:dateTime>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://data.gmdsp.org.uk/id/trafford/counciltaxbanding/78109hha2012">
+	<gmdsp:decision rdf:resource="http://data.gmdsp.org.uk/data/trafford/407553"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://data.gmdsp.org.uk/id/trafford/counciltaxbanding/78085full2012">
+	<rdf:type rdf:resource="http://data.gmdsp.org.uk/def/planningapplications"/>
+	<rdfs:label>78085/FULL/2012</rdfs:label>
+	<vcard:locality>North</vcard:locality>
+	<skos:notation>406998</skos:notation>
+	<geo:long>380708.2885</geo:long>
+	<geo:lat>394592.8282</geo:lat>
+	<dc:creator rdf:resource="http://opendatacommunities.org/doc/metropolitan-district/trafford1"/>
+	<gmdsp:planningapplicationtype>FULL</gmdsp:planningapplicationtype>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://data.gmdsp.org.uk/data/trafford/406998">
+	<rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Collection"/>
+	<rdfs:label>APPCOND</rdfs:label>
+	<rdfs:comment>Minor: All other minor developments</rdfs:comment>
+	<xsd:dateTime>20120402</xsd:dateTime>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://data.gmdsp.org.uk/id/trafford/counciltaxbanding/78085full2012">
+	<gmdsp:decision rdf:resource="http://data.gmdsp.org.uk/data/trafford/406998"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://data.gmdsp.org.uk/id/trafford/counciltaxbanding/78131full2012">
+	<rdf:type rdf:resource="http://data.gmdsp.org.uk/def/planningapplications"/>
+	<rdfs:label>78131/FULL/2012</rdfs:label>
+	<vcard:locality>South</vcard:locality>
+	<skos:notation>406333</skos:notation>
+	<geo:long>376640.4144</geo:long>
+	<geo:lat>387771.1009</geo:lat>
+	<dc:creator rdf:resource="http://opendatacommunities.org/doc/metropolitan-district/trafford1"/>
+	<gmdsp:planningapplicationtype>FULL</gmdsp:planningapplicationtype>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://data.gmdsp.org.uk/data/trafford/406333">
+	<rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Collection"/>
+	<rdfs:label>APPCOND</rdfs:label>
+	<rdfs:comment>Minor: Offices / R &amp; D / light industry</rdfs:comment>
+	<xsd:dateTime>20120402</xsd:dateTime>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://data.gmdsp.org.uk/id/trafford/counciltaxbanding/78131full2012">
+	<gmdsp:decision rdf:resource="http://data.gmdsp.org.uk/data/trafford/406333"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://data.gmdsp.org.uk/id/trafford/counciltaxbanding/78081hha2012">
+	<rdf:type rdf:resource="http://data.gmdsp.org.uk/def/planningapplications"/>
+	<rdfs:label>78081/HHA/2012</rdfs:label>
+	<vcard:locality>North</vcard:locality>
+	<skos:notation>407297</skos:notation>
+	<geo:long>382780.899</geo:long>
+	<geo:lat>396123.65</geo:lat>
+	<dc:creator rdf:resource="http://opendatacommunities.org/doc/metropolitan-district/trafford1"/>
+	<gmdsp:planningapplicationtype>HHA</gmdsp:planningapplicationtype>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://data.gmdsp.org.uk/data/trafford/407297">
+	<rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Collection"/>
+	<rdfs:label>APPCOND</rdfs:label>
+	<rdfs:comment>Other: Householder developments</rdfs:comment>
+	<xsd:dateTime>20120402</xsd:dateTime>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://data.gmdsp.org.uk/id/trafford/counciltaxbanding/78081hha2012">
+	<gmdsp:decision rdf:resource="http://data.gmdsp.org.uk/data/trafford/407297"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://data.gmdsp.org.uk/id/trafford/counciltaxbanding/78098hha2012">
+	<rdf:type rdf:resource="http://data.gmdsp.org.uk/def/planningapplications"/>
+	<rdfs:label>78098/HHA/2012</rdfs:label>
+	<vcard:locality>South</vcard:locality>
+	<skos:notation>407018</skos:notation>
+	<geo:long>379261.9646</geo:long>
+	<geo:lat>388835.0664</geo:lat>
+	<dc:creator rdf:resource="http://opendatacommunities.org/doc/metropolitan-district/trafford1"/>
+	<gmdsp:planningapplicationtype>HHA</gmdsp:planningapplicationtype>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://data.gmdsp.org.uk/data/trafford/407018">
+	<rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Collection"/>
+	<rdfs:label>APPCOND</rdfs:label>
+	<rdfs:comment>Other: Householder developments</rdfs:comment>
+	<xsd:dateTime>20120402</xsd:dateTime>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://data.gmdsp.org.uk/id/trafford/counciltaxbanding/78098hha2012">
+	<gmdsp:decision rdf:resource="http://data.gmdsp.org.uk/data/trafford/407018"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://data.gmdsp.org.uk/id/trafford/counciltaxbanding/78115full2012">
+	<rdf:type rdf:resource="http://data.gmdsp.org.uk/def/planningapplications"/>
+	<rdfs:label>78115/FULL/2012</rdfs:label>
+	<vcard:locality>Central</vcard:locality>
+	<skos:notation>407256</skos:notation>
+	<geo:long>378553.0048</geo:long>
+	<geo:lat>392101.9312</geo:lat>
+	<dc:creator rdf:resource="http://opendatacommunities.org/doc/metropolitan-district/trafford1"/>
+	<gmdsp:planningapplicationtype>FULL</gmdsp:planningapplicationtype>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://data.gmdsp.org.uk/data/trafford/407256">
+	<rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Collection"/>
+	<rdfs:label>APPCOND</rdfs:label>
+	<rdfs:comment>Minor: Retail distribution and servicing</rdfs:comment>
+	<xsd:dateTime>20120403</xsd:dateTime>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://data.gmdsp.org.uk/id/trafford/counciltaxbanding/78115full2012">
+	<gmdsp:decision rdf:resource="http://data.gmdsp.org.uk/data/trafford/407256"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://data.gmdsp.org.uk/id/trafford/counciltaxbanding/78140cou2012">
+	<rdf:type rdf:resource="http://data.gmdsp.org.uk/def/planningapplications"/>
+	<rdfs:label>78140/COU/2012</rdfs:label>
+	<vcard:locality>West</vcard:locality>
+	<skos:notation>407155</skos:notation>
+	<geo:long>376729.222</geo:long>
+	<geo:lat>394545.9616</geo:lat>
+	<dc:creator rdf:resource="http://opendatacommunities.org/doc/metropolitan-district/trafford1"/>
+	<gmdsp:planningapplicationtype>FULL</gmdsp:planningapplicationtype>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://data.gmdsp.org.uk/data/trafford/407155">
+	<rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Collection"/>
+	<rdfs:label>APPCOND</rdfs:label>
+	<rdfs:comment>Minor: All other minor developments</rdfs:comment>
+	<xsd:dateTime>20120403</xsd:dateTime>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://data.gmdsp.org.uk/id/trafford/counciltaxbanding/78140cou2012">
+	<gmdsp:decision rdf:resource="http://data.gmdsp.org.uk/data/trafford/407155"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://data.gmdsp.org.uk/id/trafford/counciltaxbanding/77780full2011">
+	<rdf:type rdf:resource="http://data.gmdsp.org.uk/def/planningapplications"/>
+	<rdfs:label>77780/FULL/2011</rdfs:label>
+	<vcard:locality>Central</vcard:locality>
+	<skos:notation>405233</skos:notation>
+	<geo:long>380751.0226</geo:long>
+	<geo:lat>392475.2844</geo:lat>
+	<dc:creator rdf:resource="http://opendatacommunities.org/doc/metropolitan-district/trafford1"/>
+	<gmdsp:planningapplicationtype>FULL</gmdsp:planningapplicationtype>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://data.gmdsp.org.uk/data/trafford/405233">
+	<rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Collection"/>
+	<rdfs:label>APPCOND</rdfs:label>
+	<rdfs:comment>Minor: All other minor developments</rdfs:comment>
+	<xsd:dateTime>20120403</xsd:dateTime>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://data.gmdsp.org.uk/id/trafford/counciltaxbanding/77780full2011">
+	<gmdsp:decision rdf:resource="http://data.gmdsp.org.uk/data/trafford/405233"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://data.gmdsp.org.uk/id/trafford/counciltaxbanding/78114aa2012">
+	<rdf:type rdf:resource="http://data.gmdsp.org.uk/def/planningapplications"/>
+	<rdfs:label>78114/AA/2012</rdfs:label>
+	<vcard:locality>Central</vcard:locality>
+	<skos:notation>407454</skos:notation>
+	<geo:long>378553.0048</geo:long>
+	<geo:lat>392101.8213</geo:lat>
+	<dc:creator rdf:resource="http://opendatacommunities.org/doc/metropolitan-district/trafford1"/>
+	<gmdsp:planningapplicationtype>AA</gmdsp:planningapplicationtype>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://data.gmdsp.org.uk/data/trafford/407454">
+	<rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Collection"/>
+	<rdfs:label>APPCOND</rdfs:label>
+	<rdfs:comment>Other: Advertisements</rdfs:comment>
+	<xsd:dateTime>20120403</xsd:dateTime>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://data.gmdsp.org.uk/id/trafford/counciltaxbanding/78114aa2012">
+	<gmdsp:decision rdf:resource="http://data.gmdsp.org.uk/data/trafford/407454"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://data.gmdsp.org.uk/id/trafford/counciltaxbanding/78157hha2012">
+	<rdf:type rdf:resource="http://data.gmdsp.org.uk/def/planningapplications"/>
+	<rdfs:label>78157/HHA/2012</rdfs:label>
+	<vcard:locality>Central</vcard:locality>
+	<skos:notation>407777</skos:notation>
+	<geo:long>377520.5912</geo:long>
+	<geo:lat>392269.2434</geo:lat>
+	<dc:creator rdf:resource="http://opendatacommunities.org/doc/metropolitan-district/trafford1"/>
+	<gmdsp:planningapplicationtype>HHA</gmdsp:planningapplicationtype>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://data.gmdsp.org.uk/data/trafford/407777">
+	<rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Collection"/>
+	<rdfs:label>APPCOND</rdfs:label>
+	<rdfs:comment>Other: Householder developments</rdfs:comment>
+	<xsd:dateTime>20120403</xsd:dateTime>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://data.gmdsp.org.uk/id/trafford/counciltaxbanding/78157hha2012">
+	<gmdsp:decision rdf:resource="http://data.gmdsp.org.uk/data/trafford/407777"/>
+</rdf:Description>
+
+</rdf:RDF>
