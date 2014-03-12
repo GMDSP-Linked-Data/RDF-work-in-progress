@@ -1,14 +1,13 @@
 <?xml version="1.0"?>
-<rdf:RDF xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#" xmlns:xsd="http://www.w3.org/2001/XMLSchema#" xmlns:foaf="http://xmlns.com/foaf/0.1/" xmlns:nei="http://data.gmdsp.org.uk/def/council/neighbourhood/" xmlns:gmdsp="http://data.gmdsp.org.uk/def/" xmlns:qudt="http://qudt.org/vocab/unit" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
+<rdf:RDF xmlns:gr="http://purl.org/goodrelations/v1#" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:xsd="http://www.w3.org/2001/XMLSchema#" xmlns:foaf="http://xmlns.com/foaf/0.1/" xmlns:nei="http://data.gmdsp.org.uk/def/council/neighbourhood/" xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#" xmlns:qudt="http://qudt.org/vocab/unit" xmlns:gmdsp="http://data.gmdsp.org.uk/def/">
 	<rdf:Description rdf:about="http://data.gmdsp.org.uk/def/council/neighbourhood/Allotment">
 		<rdfs:label>An RDF class to describe an Alloment</rdfs:label>
 	</rdf:Description>
-	<rdfs:Property rdf:about="http://data.gmdsp.org.uk/def/rent">
+	<gr:UnitPriceSpecification rdf:about="http://data.gmdsp.org.uk/def/rent">
 		<rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Rent</rdfs:label>
 		<rdfs:comment>How much does it cost to rent the allotment</rdfs:comment>
 		<rdfs:domain rdf:resource="http://data.gmdsp.org.uk/def/council/neighbourhood/Allotment" />
-		<rdfs:range rdf:resource="http://data.gmdsp.org.uk/def/integer" />
-	</rdfs:Property>
+	</gr:UnitPriceSpecification>
 	<rdfs:Property rdf:about="http://data.gmdsp.org.uk/def/number-of-plots">
 		<rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Number of plots</rdfs:label>
 		<rdfs:comment rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Number of plots which the allotment has</rdfs:comment>

@@ -7,6 +7,7 @@
 @prefix foaf: <http://xmlns.com/foaf/0.1/>.
 @prefix nei: <http://data.gmdsp.org.uk/def/council/neighbourhood/> .
 @prefix gmdsp: <http://data.gmdsp.org.uk/def/> .
+@prefix gr: <http://purl.org/goodrelations/v1#> .
 
 #################################################################
 #
@@ -26,11 +27,10 @@ nei:Allotment
 #################################################################
 
 gmdsp:rent
-      rdf:type rdfs:Property ;
+      rdf:type gr:UnitPriceSpecification ;
       rdfs:label "Rent"^^xsd:string ;
 	  rdfs:comment "How much does it cost to rent the allotment" ; ##per month?
-      rdfs:domain nei:Allotment ;
-      rdfs:range gmdsp:integer . ### should probably be money
+      rdfs:domain nei:Allotment .
 
 gmdsp:number-of-plots
       rdf:type rdfs:Property ;
