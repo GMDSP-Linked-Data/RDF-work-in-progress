@@ -15,7 +15,7 @@
 #################################################################
 
 nei:Allotment
-      rdfs:label "My Person Class" .
+      rdfs:label "An RDF class to describe an Alloment" .
                                   
 
 
