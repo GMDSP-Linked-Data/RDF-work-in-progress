@@ -3,10 +3,12 @@
 @prefix xml: <http://www.w3.org/XML/1998/namespace> .
 @prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
 @prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
-@prefix qudt: <http://qudt.org/vocab/unit> .
+@prefix qudt: <http://qudt.org/vocab/unit/> .
 @prefix foaf: <http://xmlns.com/foaf/0.1/>.
-@prefix nei: <http://data.gmdsp.org.uk/def/council/neighbourhood/> .
+@prefix allotment: <http://data.gmdsp.org.uk/def/council/allotment/> .
+@prefix council: <http://data.gmdsp.org.uk/def/council/> .
 @prefix gmdsp: <http://data.gmdsp.org.uk/def/> .
+@prefix esd: <http://id.esd.org.uk/> .
 @prefix gr: <http://purl.org/goodrelations/v1#> .
 
 #################################################################
@@ -15,9 +17,8 @@
 #
 #################################################################
 
-nei:Allotment
-      rdfs:label "An RDF class to describe an Alloment" .
-                                  
+council:Allotment
+      rdfs:label "An RDF class to describe an Alloment"^^xsd:string .
 
 
 #################################################################
@@ -26,50 +27,50 @@ nei:Allotment
 #
 #################################################################
 
-gmdsp:rent
+allotment:rent
       rdf:type gr:UnitPriceSpecification ;
       rdfs:label "Rent"^^xsd:string ;
 	  rdfs:comment "How much does it cost to rent the allotment" ; ##per month?
-      rdfs:domain nei:Allotment .
+      rdfs:domain council:Allotment .
 
-gmdsp:number-of-plots
+allotment:number-of-plots
       rdf:type rdfs:Property ;
       rdfs:label "Number of plots"^^xsd:string ;
 	  rdfs:comment "Number of plots which the allotment has"^^xsd:string ;
-      rdfs:domain nei:Allotment ;
+      rdfs:domain council:Allotment ;
       rdfs:range xsd:integer .
 
-gmdsp:disabled-access
+allotment:disabled-access
       rdf:type rdfs:Property ;
       rdfs:label "Disabled access"^^xsd:string ;
 	  rdfs:comment "Does the allotment have disabled access"^^xsd:string ;
-      rdfs:domain nei:Allotment ;
+      rdfs:domain council:Allotment ;
       rdfs:range xsd:boolean .
 
-gmdsp:plot-size
+allotment:plot-size
       rdf:type rdfs:Property ;
       rdfs:label "Plot size"^^xsd:string ;
 	  rdfs:comment "How big is the allotment plot in square meters"^^xsd:string ;
-      rdfs:domain nei:Allotment ;
+      rdfs:domain council:Allotment ;
       rdfs:range qudt:squareMeter .
 
-gmdsp:guidance-page
+allotment:guidance-page
       rdf:type rdfs:Property ;
       rdfs:label "Guidance page"^^xsd:string ;
 	  rdfs:comment "Page (given by URL) with guidance for this allotment."^^xsd:string ;
-      rdfs:domain nei:Allotment ;
+      rdfs:domain council:Allotment ;
 	  rdfs:subPropertyOf foaf:page .
 
-gmdsp:information-page
+allotment:information-page
       rdf:type rdfs:Property ;
       rdfs:label "Information page"^^xsd:string ;
 	  rdfs:comment "Page (given by URL) where further information for this allotment."^^xsd:string ;
-      rdfs:domain nei:Allotment ;
+      rdfs:domain council:Allotment ;
 	  rdfs:subPropertyOf foaf:page .
 
-gmdsp:application-page
+allotment:application-page
       rdf:type rdfs:Property ;
       rdfs:label "Application page"^^xsd:string ;
 	  rdfs:comment "Page (given by URL) with application information for this allotment."^^xsd:string ;
-      rdfs:domain nei:Allotment ;
+      rdfs:domain council:Allotment ;
 	  rdfs:subPropertyOf foaf:page .
