@@ -77,23 +77,21 @@ CSV.foreach('planning-applications-clean.csv', { headers:true }) do |csv_obj|
   # add the  type
   graph << [subject, RDF.type, RDF::URI("http://data.gmdsp.org.uk/def/planning-application")]
   # add the address location
-  if csv_obj["LOCATION"] != NIL
-    graph << [subject, VCARD.hasStreetAddress, csv_obj["LOCATION"]]
-  end
+  graph << [subject, VCARD.hasStreetAddress, csv_obj["LOCATION"]] unless csv_obj["LOCATION"].nil?
 
   # planning specific information
-  graph << [subject, PLANNING.applicationTypeShort, csv_obj["APP TYPE"]]
-  graph << [subject, PLANNING.applicationType, csv_obj["APP TYPE DECODE"]]
-  graph << [subject, PLANNING.validationDate, csv_obj["VALIDATION DATE"]]
-  graph << [subject, PLANNING.proposal, csv_obj["PROPOSAL"]]
-  graph << [subject, PLANNING.recommendationShort, csv_obj["RECOMMENDATION"]]
-  graph << [subject, PLANNING.recommendation, csv_obj["RECOMMENDATION DECODE"]]
-  graph << [subject, PLANNING.decisionDate, csv_obj["DECISION DATE"]]
-  graph << [subject, PLANNING.developmentTypeShort, csv_obj["DEVELOPMENT TYPE"]]
-  graph << [subject, PLANNING.developmentTypeShort, csv_obj["DEVELOPMENT TYPE DECODE"]]
-  graph << [subject, PLANNING.wardShort, csv_obj["WARD"]]
-  graph << [subject, PLANNING.ward, csv_obj["WARD DECODE"]]
-  graph << [subject, PLANNING.keyValue, csv_obj["KEY VALUE"]]
+  graph << [subject, PLANNING.applicationTypeShort, csv_obj["APP TYPE"]] unless csv_obj["APP TYPE"].nil?
+  graph << [subject, PLANNING.applicationType, csv_obj["APP TYPE DECODE"]] unless csv_obj["APP TYPE DECODE"].nil?
+  graph << [subject, PLANNING.validationDate, csv_obj["VALIDATION DATE"]] unless csv_obj["VALIDATION DATE"].nil?
+  graph << [subject, PLANNING.proposal, csv_obj["PROPOSAL"]] unless csv_obj["PROPOSAL"].nil?
+  graph << [subject, PLANNING.recommendationShort, csv_obj["RECOMMENDATION"]] unless csv_obj["RECOMMENDATION"].nil?
+  graph << [subject, PLANNING.recommendation, csv_obj["RECOMMENDATION DECODE"]] unless csv_obj["RECOMMENDATION DECODE"].nil?
+  graph << [subject, PLANNING.decisionDate, csv_obj["DECISION DATE"]] unless csv_obj["DECISION DATE"].nil?
+  graph << [subject, PLANNING.developmentTypeShort, csv_obj["DEVELOPMENT TYPE"]] unless csv_obj["DEVELOPMENT TYPE"].nil?
+  graph << [subject, PLANNING.developmentTypeShort, csv_obj["DEVELOPMENT TYPE DECODE"]] unless csv_obj["DEVELOPMENT TYPE DECODE"].nil?
+  graph << [subject, PLANNING.wardShort, csv_obj["WARD"]] unless csv_obj["WARD"].nil?
+  graph << [subject, PLANNING.ward, csv_obj["WARD DECODE"]] unless csv_obj["WARD DECODE"].nil?
+  graph << [subject, PLANNING.keyValue, csv_obj["KEY VALUE"]] unless csv_obj["KEY VALUE"].nil?
 
   # This section is helpful for debugging
   #begin
