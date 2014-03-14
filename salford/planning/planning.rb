@@ -81,8 +81,8 @@ CSV.foreach('planning-applications-clean.csv', { headers:true }) do |csv_obj|
     graph << [subject, VCARD.hasStreetAddress, csv_obj["LOCATION"]]
   end
   # location information
-  #graph << [subject, OS.northing, csv_obj["NORTHING"]]
-  #graph << [subject, OS.easting, csv_obj["EASTING"]]
+  graph << [subject, OS.northing, csv_obj["NORTHING"]]
+  graph << [subject, OS.easting, csv_obj["EASTING"]]
 
   # recycling information
   # graph << [subject, RECYCLING_CENTRES.hasCardboard, csv_obj["Cardboard"]]
