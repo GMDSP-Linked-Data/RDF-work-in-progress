@@ -28,14 +28,20 @@ end
 CSV.foreach('allotments.csv', { headers:true }) do |csv_obj|
   # create a unique name for this allotment
   label = csv_obj["Name"]
-  subject = ALLOTMENTS[idify(label)]
+  idify_label = idify(label)
+  subject = ALLOTMENTS[idify_label]
 
   # add the allotment label
   graph << [subject, RDFS.label, label]
   # add the allotment type
   graph << [subject, RDF.type, RDF::URI("http://data.gmdsp.org.uk/def/allotment/")]
   # add the address location
-  graph << [subject, VCARD.hasStreetAddress, csv_obj["Address"]]
+  unless csv_obj["Address"].nil?
+    vcard_subject = ALLOTMENTS["address/#{idify_label}"]
+    graph << [vcard_subject, RDF.type, VCARD.Location]
+    graph << [vcard_subject, VCARD.hasStreetAddress, csv_obj["Address"]]
+  end
+
   # location information
   graph << [subject, OS.northing, csv_obj["Northing"]]
   graph << [subject, OS.easting, csv_obj["Easting"]]
