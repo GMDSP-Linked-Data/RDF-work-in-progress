@@ -17,7 +17,7 @@ VCARD = RDF::VCARD
 OS = RDF::Vocabulary.new("http://data.ordnancesurvey.co.uk/ontology/spatialrelations/")
 
 # our new vocabulary
-ALLOTMENTS = RDF::Vocabulary.new("http://data.gmdsp.org.uk/id/" + COUNCIL + "/Allotments/")
+ALLOTMENTS = RDF::Vocabulary.new("http://data.gmdsp.org.uk/id/" + COUNCIL + "/Allotment/")
 
 def idify(s)
   rs = s.downcase
@@ -33,7 +33,7 @@ CSV.foreach('allotments.csv', { headers:true }) do |csv_obj|
   # add the allotment label
   graph << [subject, RDFS.label, label]
   # add the allotment type
-  graph << [subject, RDF.type, RDF::URI("http://data.gmdsp.org.uk/def/allotment")]
+  graph << [subject, RDF.type, RDF::URI("http://data.gmdsp.org.uk/def/allotment/")]
   # add the address location
   graph << [subject, VCARD.hasStreetAddress, csv_obj["Address"]]
   # location information
