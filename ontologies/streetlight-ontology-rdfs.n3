@@ -1,0 +1,28 @@
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix qudt: <http://qudt.org/vocab/unit/> .
+@prefix streetlighting: <http://data.gmdsp.org.uk/def/council/streetlighting/> .
+@prefix council: <http://data.gmdsp.org.uk/def/council/> .
+
+#################################################################
+#
+#    Classes
+#
+#################################################################
+
+council:Streetlight
+      rdfs:label "An RDF class to describe a Streetlight"^^xsd:string .
+
+
+#################################################################
+#
+#    Properties
+#
+#################################################################
+
+streetlighting:wattage
+      rdf:type qudt:Watt ;
+      rdfs:label "Wattage"^^xsd:string ;
+	  rdfs:comment "How much power in watts does the streetlight use" ;
+      rdfs:domain council:Streetlight .

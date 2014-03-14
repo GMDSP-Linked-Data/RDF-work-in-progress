@@ -49,6 +49,7 @@ title = 'Movies viewed by %s'
 r_who = re.compile('^(.*?) <([a-z0-9_-]+(\.[a-z0-9_-]+)*@[a-z0-9_-]+(\.[a-z0-9_-]+)+)>$')
 
 OS = Namespace('http://data.ordnancesurvey.co.uk/ontology/spatialrelations/')
+POST = Namespace('http://data.ordnancesurvey.co.uk/ontology/postcode/')
 RDFS = Namespace('http://www.w3.org/2000/01/rdf-schema#')
 GEO = Namespace('http://www.w3.org/2003/01/geo/wgs84_pos#')
 VCARD = Namespace('http://www.w3.org/2006/vcard/ns#')
@@ -76,24 +77,32 @@ class Store:
         print storeuri
         self.graph.serialize(storeuri, format='pretty-xml')
 
+    def new_address(self, address):
+        addr = al["address/"+address.replace(" ", "_").replace(",","-").lower()]
+        self.graph.add((addr, RDF.type, VCARD["location"]))
+        self.graph.add((addr, VCARD['street-address'], Literal(address.split(", ")[0])))
+        self.graph.add((addr, VCARD['locality'], Literal(address.split(", ")[1])))
+        self.graph.add((addr, POST['postcode'], URIRef("http://data.ordnancesurvey.co.uk/id/postcodeunit/"+address.split(", ")[2].replace(" ",""))))
+
+        self.save()
+
     def new_allotment(self, address, application, disabled_access, external_link, guidence, location, name, plot_size, rent, Easting, Northing):
-        allotment = al[name.replace (" ", "-")] # @@ humanize the identifier (something like #rev-$date)
-        self.graph.add((allotment, RDF.type, URIRef('http://data.gmdsp.org.uk/def/council/neighbourhood/allotment')))
+        self.new_address(address)
+        allotment = al[name.replace(" ", "-").lower()] # @@ humanize the identifier (something like #rev-$date)
+        self.graph.add((allotment, RDF.type, URIRef('http://data.gmdsp.org.uk/def/council/allotment')))
         #self.graph.add((allotment, VCARD['hasstreetaddress'], Literal(address)))
         self.graph.add((allotment, SCHEME['url'], Literal(application)))
         #self.graph.add((allotment, DC['date'], Literal(disabled_access)))
         self.graph.add((allotment, SCHEME['url'], Literal(external_link)))
-        self.graph.add((allotment, SCHEME['url'], Literal(guidence)))
-        self.graph.add((allotment, GEO["lat_long"], Literal(location)))
-        self.graph.add((allotment, OS["northing"], Literal('%.6f' %Northing)))
-        self.graph.add((allotment, OS["easting"], Literal('%.6f' %Easting)))
+        self.graph.add((allotment, SCHEME['url'], Literal("http://www.manchester.gov.uk"+guidence)))
+        self.graph.add((allotment, GEO["lat"], Literal(location.split(',')[0])))
+        self.graph.add((allotment, GEO["long"], Literal(location.split(',')[1])))
+        #self.graph.add((allotment, OS["northing"], Literal('%.6f' %Northing)))
+        #self.graph.add((allotment, OS["easting"], Literal('%.6f' %Easting)))
         self.graph.add((allotment, RDFS['label'], Literal(name)))
         #self.graph.add((allotment, DC['date'], Literal(plot_size)))
         #self.graph. add((allotment, GEO['rating'], Literal(rent)))
-        t = BNode()
-        self.graph.add((t, RDF.type, RDF["Description"]))
-        self.graph.add((t,VCARD['hasstreetaddress'], Literal(address)))
-        self.graph.add((allotment, VCARD["adr"], t))
+        self.graph.add((allotment,VCARD['adr'], URIRef("http://data.gmdsp.org.uk/def/council/neighbourhood/allotment/address/"+address.replace(" ", "_").replace(",","-").lower())))
         self.save()
 
 def help():
