@@ -40,16 +40,16 @@ CSV.foreach('RecyclingCentres.csv', { headers:true }) do |csv_obj|
   graph << [subject, OS.easting, csv_obj["Eastings"]]
 
   # recycling information
-  # graph << [subject, RECYCLING_CENTRES.hasCardboard, csv_obj["Cardboard"]]
-  # graph << [subject, RECYCLING_CENTRES.hasPaper, csv_obj["Paper"]]
-  # graph << [subject, RECYCLING_CENTRES.hasCartons, csv_obj["Cartons"]]
-  # graph << [subject, RECYCLING_CENTRES.hasShoes, csv_obj["Shoes"]]
-  # graph << [subject, RECYCLING_CENTRES.hasGlass, csv_obj["Glass"]]
-  # graph << [subject, RECYCLING_CENTRES.hasTextiles, csv_obj["Textiles"]]
-  # graph << [subject, RECYCLING_CENTRES.hasCans, csv_obj["Cans"]]
-  # graph << [subject, RECYCLING_CENTRES.hasFoil, csv_obj["Foil"]]
-  # graph << [subject, RECYCLING_CENTRES.hasPlasticBottles, csv_obj["Plastic Bottles"]]
-  # graph << [subject, RECYCLING_CENTRES.hasAerosols, csv_obj["Aerosols"]]
+  graph << [subject, RECYCLING_CENTRES.hasCardboard, csv_obj["Cardboard"]] unless csv_obj["Cardboard"].nil?
+  graph << [subject, RECYCLING_CENTRES.hasPaper, csv_obj["Paper"]] unless csv_obj["Paper"].nil?
+  graph << [subject, RECYCLING_CENTRES.hasCartons, csv_obj["Cartons"]] unless csv_obj["Cartons"].nil?
+  graph << [subject, RECYCLING_CENTRES.hasShoes, csv_obj["Shoes"]] unless csv_obj["Shoes"].nil?
+  graph << [subject, RECYCLING_CENTRES.hasGlass, csv_obj["Glass"]] unless csv_obj["Glass"].nil?
+  graph << [subject, RECYCLING_CENTRES.hasTextiles, csv_obj["Textiles"]] unless csv_obj["Textiles"].nil?
+  graph << [subject, RECYCLING_CENTRES.hasCans, csv_obj["Cans"]] unless csv_obj["Cans"].nil?
+  graph << [subject, RECYCLING_CENTRES.hasFoil, csv_obj["Foil"]] unless csv_obj["Foil"].nil?
+  graph << [subject, RECYCLING_CENTRES.hasPlasticBottles, csv_obj["Plastic Bottles"]] unless csv_obj["Plastic Bottles"].nil?
+  graph << [subject, RECYCLING_CENTRES.hasAerosols, csv_obj["Aerosols"]] unless csv_obj["Aerosols"].nil?
 end
 
 
