@@ -44,11 +44,11 @@ CSV.foreach('CarParks.csv', { headers:true }) do |csv_obj|
   graph << [subject, OS.northing, locations[1]]
 
   # parking type
-  #graph << [subject, PARKING.type, csv_obj["Type"]]
+  graph << [subject, PARKING.type, csv_obj["Type"]] unless csv_obj["Type"].nil?
 
   # Operator info - should this be a organisation type?
-  #graph << [subject, PARKING.operator, csv_obj["Operator"]]
-  #graph << [subject, PARKING.operatorUrl, csv_obj["URL"]]
+  graph << [subject, PARKING.operator, csv_obj["Operator"]] unless csv_obj["Operator"].nil?
+  graph << [subject, PARKING.operatorUrl, csv_obj["URL"]] unless csv_obj["URL"].nil?
 
 
 end
