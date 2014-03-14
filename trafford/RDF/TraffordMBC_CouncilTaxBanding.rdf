@@ -19,12 +19,9 @@
 	<vcard:street-address>Borough Road</vcard:street-address>
 	<vcard:locality>Altrincham</vcard:locality>
 	<skos:notation>C</skos:notation>
-	<geo:long>-2.34515</geo:long>
-	<geo:lat>53.3846</geo:lat>
 </rdf:Description>
 
 <rdf:Description rdf:about="http://opendatacommunities.org/doc/metropolitan-district/trafford1">
-	<rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Collection"/>
 	<rdfs:label>Trafford MBC</rdfs:label>
 	<org:organization>GMDSP</org:organization>
 	<dc:source rdf:resource="https://www.trafford.gov.uk/about-your-council/data-protection/open-data/open-data.aspx"/>
@@ -40,8 +37,6 @@
 	<vcard:street-address>Borough Road</vcard:street-address>
 	<vcard:locality>Altrincham</vcard:locality>
 	<skos:notation>C</skos:notation>
-	<geo:long>-2.34484</geo:long>
-	<geo:lat>53.3841</geo:lat>
 	<dc:creator rdf:resource="http://opendatacommunities.org/doc/metropolitan-district/trafford1"/>
 </rdf:Description>
 
@@ -51,8 +46,6 @@
 	<vcard:street-address>Borough Road</vcard:street-address>
 	<vcard:locality>Altrincham</vcard:locality>
 	<skos:notation>A</skos:notation>
-	<geo:long>-2.34519</geo:long>
-	<geo:lat>53.3845</geo:lat>
 	<dc:creator rdf:resource="http://opendatacommunities.org/doc/metropolitan-district/trafford1"/>
 </rdf:Description>
 
@@ -62,8 +55,6 @@
 	<vcard:street-address>Borough Road</vcard:street-address>
 	<vcard:locality>Altrincham</vcard:locality>
 	<skos:notation>C</skos:notation>
-	<geo:long>-2.34519</geo:long>
-	<geo:lat>53.3844</geo:lat>
 	<dc:creator rdf:resource="http://opendatacommunities.org/doc/metropolitan-district/trafford1"/>
 </rdf:Description>
 
@@ -73,8 +64,6 @@
 	<vcard:street-address>Borough Road</vcard:street-address>
 	<vcard:locality>Altrincham</vcard:locality>
 	<skos:notation>C</skos:notation>
-	<geo:long>-2.34519</geo:long>
-	<geo:lat>53.3844</geo:lat>
 	<dc:creator rdf:resource="http://opendatacommunities.org/doc/metropolitan-district/trafford1"/>
 </rdf:Description>
 
@@ -84,8 +73,6 @@
 	<vcard:street-address>Borough Road</vcard:street-address>
 	<vcard:locality>Altrincham</vcard:locality>
 	<skos:notation>C</skos:notation>
-	<geo:long>-2.34521</geo:long>
-	<geo:lat>53.3843</geo:lat>
 	<dc:creator rdf:resource="http://opendatacommunities.org/doc/metropolitan-district/trafford1"/>
 </rdf:Description>
 
@@ -95,8 +82,6 @@
 	<vcard:street-address>Borough Road</vcard:street-address>
 	<vcard:locality>Altrincham</vcard:locality>
 	<skos:notation>C</skos:notation>
-	<geo:long>-2.34522</geo:long>
-	<geo:lat>53.3843</geo:lat>
 	<dc:creator rdf:resource="http://opendatacommunities.org/doc/metropolitan-district/trafford1"/>
 </rdf:Description>
 
@@ -106,8 +91,6 @@
 	<vcard:street-address>Borough Road</vcard:street-address>
 	<vcard:locality>Altrincham</vcard:locality>
 	<skos:notation>C</skos:notation>
-	<geo:long>-2.34524</geo:long>
-	<geo:lat>53.3842</geo:lat>
 	<dc:creator rdf:resource="http://opendatacommunities.org/doc/metropolitan-district/trafford1"/>
 </rdf:Description>
 
@@ -117,8 +100,6 @@
 	<vcard:street-address>Borough Road</vcard:street-address>
 	<vcard:locality>Altrincham</vcard:locality>
 	<skos:notation>C</skos:notation>
-	<geo:long>-2.34524</geo:long>
-	<geo:lat>53.3842</geo:lat>
 	<dc:creator rdf:resource="http://opendatacommunities.org/doc/metropolitan-district/trafford1"/>
 </rdf:Description>
 
@@ -128,8 +109,6 @@
 	<vcard:street-address>Borough Road</vcard:street-address>
 	<vcard:locality>Altrincham</vcard:locality>
 	<skos:notation>C</skos:notation>
-	<geo:long>-2.34525</geo:long>
-	<geo:lat>53.3842</geo:lat>
 	<dc:creator rdf:resource="http://opendatacommunities.org/doc/metropolitan-district/trafford1"/>
 </rdf:Description>
 
