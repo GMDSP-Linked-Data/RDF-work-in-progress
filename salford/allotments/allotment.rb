@@ -14,10 +14,10 @@ graph = RDF::Graph.new
 RDFS = RDF::RDFS
 GEO = RDF::GEO
 VCARD = RDF::VCARD
-OS = RDF::Vocabulary.new("http://data.ordnancesurvey.co.uk/ontology/admingeo/")
+OS = RDF::Vocabulary.new("http://data.ordnancesurvey.co.uk/ontology/spatialrelations/")
 
 # our new vocabulary
-ALLOTMENTS = RDF::Vocabulary.new("http://data.gmdsp.org.uk/id/" + COUNCIL + "/allotments/")
+ALLOTMENTS = RDF::Vocabulary.new("http://data.gmdsp.org.uk/id/" + COUNCIL + "/Allotments/")
 
 def idify(s)
   rs = s.downcase
@@ -39,6 +39,7 @@ CSV.foreach('allotments.csv', { headers:true }) do |csv_obj|
   # location information
   graph << [subject, OS.northing, csv_obj["Northing"]]
   graph << [subject, OS.easting, csv_obj["Easting"]]
+
 
 end
 
