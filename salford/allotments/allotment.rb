@@ -1,9 +1,13 @@
-require 'rdf'
-require 'rdf/rdfxml'
+#!usr/bin/ruby
+
+require 'rubygems'
+gem 'rdf'
+gem 'rdf-rdfxml'
+
 require 'open-uri'
 require 'csv'
-
-include RDF
+require 'rdf'
+require 'rdf/rdfxml'
 
 COUNCIL = "salford"
 
@@ -17,7 +21,7 @@ VCARD = RDF::VCARD
 OS = RDF::Vocabulary.new("http://data.ordnancesurvey.co.uk/ontology/spatialrelations/")
 
 # our new vocabulary
-ALLOTMENTS = RDF::Vocabulary.new("http://data.gmdsp.org.uk/id/" + COUNCIL + "/allotment/")
+ALLOTMENTS = RDF::Vocabulary.new("http://data.gmdsp.org.uk/id/" + COUNCIL + "/Allotment/")
 
 def idify(s)
   rs = s.downcase
@@ -34,10 +38,11 @@ CSV.foreach('allotments.csv', { headers:true }) do |csv_obj|
   # add the allotment label
   graph << [subject, RDFS.label, label]
   # add the allotment type
-  graph << [subject, RDF.type, RDF::URI("http://data.gmdsp.org.uk/def/council/Allotment/")]
+  graph << [subject, RDF.type, RDF::URI("http://data.gmdsp.org.uk/def/council/allotment/")]
   # add the address location
   unless csv_obj["Address"].nil?
-    vcard_subject = ALLOTMENTS["address/#{idify_label}"]
+    vcard_subject = ALLOTMENTS["#{idify_label}/address"]
+    graph << [subject, VCARD.hasAddress, vcard_subject]
     graph << [vcard_subject, RDF.type, VCARD.Location]
     graph << [vcard_subject, VCARD.hasStreetAddress, csv_obj["Address"]]
   end
