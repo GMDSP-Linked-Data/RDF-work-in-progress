@@ -80,9 +80,6 @@ CSV.foreach('planning-applications-clean.csv', { headers:true }) do |csv_obj|
   if csv_obj["LOCATION"] != NIL
     graph << [subject, VCARD.hasStreetAddress, csv_obj["LOCATION"]]
   end
-  # location information
-  graph << [subject, OS.northing, csv_obj["NORTHING"]]
-  graph << [subject, OS.easting, csv_obj["EASTING"]]
 
   # planning specific information
   graph << [subject, PLANNING.applicationTypeShort, csv_obj["APP TYPE"]]
