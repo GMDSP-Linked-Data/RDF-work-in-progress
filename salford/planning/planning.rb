@@ -84,17 +84,19 @@ CSV.foreach('planning-applications-clean.csv', { headers:true }) do |csv_obj|
   graph << [subject, OS.northing, csv_obj["NORTHING"]]
   graph << [subject, OS.easting, csv_obj["EASTING"]]
 
-  # recycling information
-  # graph << [subject, RECYCLING_CENTRES.hasCardboard, csv_obj["Cardboard"]]
-  # graph << [subject, RECYCLING_CENTRES.hasPaper, csv_obj["Paper"]]
-  # graph << [subject, RECYCLING_CENTRES.hasCartons, csv_obj["Cartons"]]
-  # graph << [subject, RECYCLING_CENTRES.hasShoes, csv_obj["Shoes"]]
-  # graph << [subject, RECYCLING_CENTRES.hasGlass, csv_obj["Glass"]]
-  # graph << [subject, RECYCLING_CENTRES.hasTextiles, csv_obj["Textiles"]]
-  # graph << [subject, RECYCLING_CENTRES.hasCans, csv_obj["Cans"]]
-  # graph << [subject, RECYCLING_CENTRES.hasFoil, csv_obj["Foil"]]
-  # graph << [subject, RECYCLING_CENTRES.hasPlasticBottles, csv_obj["Plastic Bottles"]]
-  # graph << [subject, RECYCLING_CENTRES.hasAerosols, csv_obj["Aerosols"]]
+  # planning specific information
+  graph << [subject, PLANNING.applicationTypeShort, csv_obj["APP TYPE"]]
+  graph << [subject, PLANNING.applicationType, csv_obj["APP TYPE DECODE"]]
+  graph << [subject, PLANNING.validationDate, csv_obj["VALIDATION DATE"]]
+  graph << [subject, PLANNING.proposal, csv_obj["PROPOSAL"]]
+  graph << [subject, PLANNING.recommendationShort, csv_obj["RECOMMENDATION"]]
+  graph << [subject, PLANNING.recommendation, csv_obj["RECOMMENDATION DECODE"]]
+  graph << [subject, PLANNING.decisionDate, csv_obj["DECISION DATE"]]
+  graph << [subject, PLANNING.developmentTypeShort, csv_obj["DEVELOPMENT TYPE"]]
+  graph << [subject, PLANNING.developmentTypeShort, csv_obj["DEVELOPMENT TYPE DECODE"]]
+  graph << [subject, PLANNING.wardShort, csv_obj["WARD"]]
+  graph << [subject, PLANNING.ward, csv_obj["WARD DECODE"]]
+  graph << [subject, PLANNING.keyValue, csv_obj["KEY VALUE"]]
 
   # This section is helpful for debugging
   #begin
