@@ -1,11 +1,12 @@
 <?xml version="1.0"?>
-<rdf:RDF xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#" xmlns:xsd="http://www.w3.org/2001/XMLSchema#" xmlns:council="http://data.gmdsp.org.uk/def/council/" xmlns:streetlighting="http://data.gmdsp.org.uk/def/council/streetlighting/" xmlns:qudt="http://qudt.org/vocab/unit/" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
+<rdf:RDF xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#" xmlns:xsd="http://www.w3.org/2001/XMLSchema#" xmlns:council="http://data.gmdsp.org.uk/def/council/" xmlns:smartcity="http://data.smartcityconceptmodel.com/model#" xmlns:streetlighting="http://data.gmdsp.org.uk/def/council/streetlighting/" xmlns:qudt="http://qudt.org/vocab/unit/" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
 	<qudt:Watt rdf:about="http://data.gmdsp.org.uk/def/council/streetlighting/wattage">
 		<rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Wattage</rdfs:label>
 		<rdfs:comment>How much power in watts does the streetlight use</rdfs:comment>
 		<rdfs:domain>
 			<rdf:Description rdf:about="http://data.gmdsp.org.uk/def/council/Streetlight">
 				<rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">An RDF class to describe a Streetlight</rdfs:label>
+				<rdfs:subClassOf rdf:resource="http://data.smartcityconceptmodel.com/model#Object" />
 			</rdf:Description>
 		</rdfs:domain>
 	</qudt:Watt>

@@ -20,6 +20,9 @@
 council:Allotment
       rdfs:label "An RDF class to describe an Alloment"^^xsd:string .
 
+council:Plot
+      rdfs:label "Part of an allotment which has been split into smaller areas"^^xsd:string .
+
 
 #################################################################
 #
@@ -39,6 +42,13 @@ allotment:number-of-plots
 	  rdfs:comment "Number of plots which the allotment has"^^xsd:string ;
       rdfs:domain council:Allotment ;
       rdfs:range xsd:integer .
+
+allotment:hasPlot
+      rdfs:type: rdfs:Property ;
+      rdfs:label "A plot belongs to an allotment"^^xsd:string ;
+      rdfs:comment "Each allotment can have a number of plots, each of which can be uniquely defined"^^xsd:string ;
+      rdfs:domain council:Allotment ;
+      rdfs:range council:Plot .
 
 allotment:disabled-access
       rdf:type rdfs:Property ;
