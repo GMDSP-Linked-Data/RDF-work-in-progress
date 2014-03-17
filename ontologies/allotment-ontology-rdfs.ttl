@@ -10,6 +10,7 @@
 @prefix gmdsp: <http://data.gmdsp.org.uk/def/> .
 @prefix esd: <http://id.esd.org.uk/> .
 @prefix gr: <http://purl.org/goodrelations/v1#> .
+@prefix smartcity: <http://data.smartcityconceptmodel.com/model#> .
 
 #################################################################
 #
@@ -18,10 +19,12 @@
 #################################################################
 
 council:Allotment
-      rdfs:label "An RDF class to describe an Alloment"^^xsd:string .
+      rdfs:label "An RDF class to describe an Alloment"^^xsd:string ;
+      rdfs:subClassOf smartcity:Object .
 
 council:Plot
-      rdfs:label "Part of an allotment which has been split into smaller areas"^^xsd:string .
+      rdfs:label "Part of an allotment which has been split into smaller areas"^^xsd:string ;
+      rdfs:subClassOf smartcity:Object .
 
 
 #################################################################

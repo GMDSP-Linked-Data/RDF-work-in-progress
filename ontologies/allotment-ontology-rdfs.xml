@@ -1,7 +1,8 @@
 <?xml version="1.0"?>
-<rdf:RDF xmlns:allotment="http://data.gmdsp.org.uk/def/council/allotment/" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:gr="http://purl.org/goodrelations/v1#" xmlns:xsd="http://www.w3.org/2001/XMLSchema#" xmlns:foaf="http://xmlns.com/foaf/0.1/" xmlns:council="http://data.gmdsp.org.uk/def/council/" xmlns:qudt="http://qudt.org/vocab/unit/" xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#">
+<rdf:RDF xmlns:qudt="http://qudt.org/vocab/unit/" xmlns:allotment="http://data.gmdsp.org.uk/def/council/allotment/" xmlns:foaf="http://xmlns.com/foaf/0.1/" xmlns:xsd="http://www.w3.org/2001/XMLSchema#" xmlns:council="http://data.gmdsp.org.uk/def/council/" xmlns:gr="http://purl.org/goodrelations/v1#" xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#" xmlns:smartcity="http://data.smartcityconceptmodel.com/model#" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
 	<rdf:Description rdf:about="http://data.gmdsp.org.uk/def/council/Allotment">
 		<rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">An RDF class to describe an Alloment</rdfs:label>
+		<rdfs:subClassOf rdf:resource="http://data.smartcityconceptmodel.com/model#Object" />
 	</rdf:Description>
 	<gr:UnitPriceSpecification rdf:about="http://data.gmdsp.org.uk/def/council/allotment/rent">
 		<rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Rent</rdfs:label>
@@ -22,6 +23,7 @@
 		<rdfs:range>
 			<rdf:Description rdf:about="http://data.gmdsp.org.uk/def/council/Plot">
 				<rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Part of an allotment which has been split into smaller areas</rdfs:label>
+				<rdfs:subClassOf rdf:resource="http://data.smartcityconceptmodel.com/model#Object" />
 			</rdf:Description>
 		</rdfs:range>
 	</rdf:Description>
