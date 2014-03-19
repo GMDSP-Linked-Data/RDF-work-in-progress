@@ -1,0 +1,13 @@
+<?xml version="1.0"?>
+<rdf:RDF xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#" xmlns:xsd="http://www.w3.org/2001/XMLSchema#" xmlns:planning="http://data.gmdsp.org.uk/def/council/planning/" xmlns:council="http://data.gmdsp.org.uk/def/council/" xmlns:smartcity="http://data.smartcityconceptmodel.com/model#" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
+	<rdfs:Property rdf:about="http://data.gmdsp.org.uk/def/council/planning/decision">
+		<rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Final state of a planning application</rdfs:label>
+		<rdfs:comment>What the outcome of a planning applications was. Will have one decision as defined in a concept scheme.</rdfs:comment>
+		<rdfs:domain>
+			<rdf:Description rdf:about="http://data.gmdsp.org.uk/def/council/PlanningApplication">
+				<rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">An RDF class to describe a planning application</rdfs:label>
+				<rdfs:subClassOf rdf:resource="http://data.smartcityconceptmodel.com/model#Object" />
+			</rdf:Description>
+		</rdfs:domain>
+	</rdfs:Property>
+</rdf:RDF>

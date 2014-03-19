@@ -1,0 +1,30 @@
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix qudt: <http://qudt.org/vocab/unit/> .
+@prefix planning: <http://data.gmdsp.org.uk/def/council/planning/> .
+@prefix council: <http://data.gmdsp.org.uk/def/council/> .
+@prefix smartcity: <http://data.smartcityconceptmodel.com/model#> .
+
+#################################################################
+#
+#    Classes
+#
+#################################################################
+
+council:PlanningApplication
+      rdfs:label "An RDF class to describe a planning application"^^xsd:string ;
+      rdfs:subClassOf smartcity:Object .
+
+
+#################################################################
+#
+#    Properties
+#
+#################################################################
+
+planning:decision
+      rdf:type rdfs:Property ;
+      rdfs:label "Final state of a planning application"^^xsd:string ;
+	  rdfs:comment "What the outcome of a planning applications was. Will have one decision as defined in a concept scheme." ;
+      rdfs:domain council:PlanningApplication .
