@@ -23,4 +23,3 @@
         rdfs:label "Application withdrawn" ;
         skos:prefLabel "Application withdrawn" ;
         skos:definition "The planning application was withdrawn by the applicant" .
-
