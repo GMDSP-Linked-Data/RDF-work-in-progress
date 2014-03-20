@@ -80,3 +80,39 @@
         rdfs:label       "An RDF class to describe an Allotment"^^xsd:string ;
         rdfs:subClassOf  <http://data.smartcityconceptmodel.com/model#Object> ;
         rdfs:isDefinedBy <http://data.gmdsp.org.uk/def/council/allotment> .
+
+<http://gmdsp.org/def/statistical-dimension/allotments/refAllotment> 
+        a                rdfs:Property ;
+        rdfs:label       "The allotment instance being referred to."^^xsd:string ;
+        rdfs:comment     "Used when referring to an allotment measure in an observation" ;
+        rdfs:isDefinedBy <http://gmdsp.org/def/statistical-dimension/allotments>  .
+
+<http://gmdsp.org/def/statistical-dimension/allotments/inUse> 
+        a                rdfs:Property ;
+        rdfs:label       "The allotment usage"^^xsd:string ;
+        rdfs:comment     "Used when referring to allotment usage at one particular moment in time in an statistical observation" ;
+        rdfs:isDefinedBy <http://gmdsp.org/def/statistical-dimension/allotments>  .
+
+<http://gmdsp.org/def/statistical-dimension/allotments/untenable> 
+        a                rdfs:Property ;
+        rdfs:label       "The amount of allotment plots which are untenable"^^xsd:string ;
+        rdfs:comment     "Used when referring to the amount of allotment plots which are untenable at one particular moment in time in an statistical observation" ;
+        rdfs:isDefinedBy <http://gmdsp.org/def/statistical-dimension/allotments>  .
+
+<http://gmdsp.org/def/statistical-dimension/allotments/vacant> 
+        a                rdfs:Property ;
+        rdfs:label       "The amount of allotment plots which are vacant"^^xsd:string ;
+        rdfs:comment     "Used when referring to the amount of allotment plots which are vacant at one particular moment in time in an statistical observation" ;
+        rdfs:isDefinedBy <http://gmdsp.org/def/statistical-dimension/allotments>  .
+
+<http://gmdsp.org/def/statistical-dimension/allotments/notice> 
+        a                rdfs:Property ;
+        rdfs:label       "The amount of allotment plots who's renters have been given notice"^^xsd:string ;
+        rdfs:comment     "Used when referring to the amount of allotment plots who's current renters have been served notice to vacate at one particular moment in time in an statistical observation" ;
+        rdfs:isDefinedBy <http://gmdsp.org/def/statistical-dimension/allotments>  .
+
+<http://gmdsp.org/def/statistical-dimension/allotments/waiting> 
+        a                rdfs:Property ;
+        rdfs:label       "The number of people on the waiting list for an alotment"^^xsd:string ;
+        rdfs:comment     "Used when referring to the number of people on the waiting list at an allotment at one particular moment in time in an statistical observation" ;
+        rdfs:isDefinedBy <http://gmdsp.org/def/statistical-dimension/allotments>  .
