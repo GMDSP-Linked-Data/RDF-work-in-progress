@@ -1,89 +1,82 @@
-@prefix owl: <http://www.w3.org/2002/07/owl#> .
-@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
-@prefix xml: <http://www.w3.org/XML/1998/namespace> .
-@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
-@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
-@prefix qudt: <http://qudt.org/vocab/unit/> .
-@prefix foaf: <http://xmlns.com/foaf/0.1/>.
-@prefix allotment: <http://data.gmdsp.org.uk/def/council/allotment/> .
-@prefix council: <http://data.gmdsp.org.uk/def/council/> .
-@prefix gmdsp: <http://data.gmdsp.org.uk/def/> .
-@prefix esd: <http://id.esd.org.uk/> .
-@prefix gr: <http://purl.org/goodrelations/v1#> .
-@prefix smartcity: <http://data.smartcityconceptmodel.com/model#> .
+@prefix rdfs:  <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix owl:   <http://www.w3.org/2002/07/owl#> .
+@prefix xsd:   <http://www.w3.org/2001/XMLSchema#> .
+@prefix rdf:   <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix qb:    <http://purl.org/linked-data/cube#> .
+@prefix skos:  <http://www.w3.org/2004/02/skos/core#> .
+@prefix dcterms: <http://purl.org/dc/terms/> .
 
-#################################################################
-#
-#    Classes
-#
-#################################################################
+<http://data.gmdsp.org.uk/def/council/allotment/Plot>
+        rdfs:label       "Part of an allotment which has been split into smaller areas"^^xsd:string ;
+        rdfs:subClassOf  <http://data.smartcityconceptmodel.com/model#Object> ;
+        rdfs:isDefinedBy <http://data.gmdsp.org.uk/def/council/allotment> .
 
-council:Allotment
-      rdfs:label "An RDF class to describe an Alloment"^^xsd:string ;
-      rdfs:subClassOf smartcity:Object .
+<http://data.gmdsp.org.uk/def/council/allotment/rent>
+        a             <http://purl.org/goodrelations/v1#UnitPriceSpecification> ;
+        rdfs:comment  "How much does it cost to rent the allotment" ;
+        rdfs:domain   <http://data.gmdsp.org.uk/def/council/Allotment> ;
+        rdfs:label    "Rent"^^xsd:string ;
+        rdfs:isDefinedBy <http://data.gmdsp.org.uk/def/council/allotment> .
 
-council:Plot
-      rdfs:label "Part of an allotment which has been split into smaller areas"^^xsd:string ;
-      rdfs:subClassOf smartcity:Object .
+<http://data.gmdsp.org.uk/def/council/allotment/number-of-plots>
+        a             rdfs:Property ;
+        rdfs:comment  "Number of plots which the allotment has"^^xsd:string ;
+        rdfs:domain   <http://data.gmdsp.org.uk/def/council/Allotment> ;
+        rdfs:label    "Number of plots"^^xsd:string ;
+        rdfs:range    xsd:integer ;
+        rdfs:isDefinedBy <http://data.gmdsp.org.uk/def/council/allotment> .
 
+<http://data.gmdsp.org.uk/def/council/allotment/information-page>
+        a                   rdfs:Property ;
+        rdfs:comment        "Page (given by URL) where further information for this allotment."^^xsd:string ;
+        rdfs:domain         <http://data.gmdsp.org.uk/def/council/Allotment> ;
+        rdfs:label          "Information page"^^xsd:string ;
+        rdfs:subPropertyOf  <http://xmlns.com/foaf/0.1/page> ;
+        rdfs:isDefinedBy <http://data.gmdsp.org.uk/def/council/allotment> .
 
-#################################################################
-#
-#    Properties
-#
-#################################################################
+<http://data.gmdsp.org.uk/def/council/allotment/disabled-access>
+        a             rdfs:Property ;
+        rdfs:comment  "Does the allotment have disabled access"^^xsd:string ;
+        rdfs:domain   <http://data.gmdsp.org.uk/def/council/Allotment> ;
+        rdfs:label    "Disabled access"^^xsd:string ;
+        rdfs:range    xsd:boolean ;
+        rdfs:isDefinedBy <http://data.gmdsp.org.uk/def/council/allotment> .
 
-allotment:rent
-      rdf:type gr:UnitPriceSpecification ;
-      rdfs:label "Rent"^^xsd:string ;
-	  rdfs:comment "How much does it cost to rent the allotment" ; ##per month?
-      rdfs:domain council:Allotment .
+<http://data.gmdsp.org.uk/def/council/allotment/plot-size>
+        a             rdfs:Property ;
+        rdfs:comment  "How big is the allotment plot in square meters"^^xsd:string ;
+        rdfs:domain   <http://data.gmdsp.org.uk/def/council/Allotment> ;
+        rdfs:label    "Plot size"^^xsd:string ;
+        rdfs:range    <http://qudt.org/vocab/unit/squareMeter> ;
+        rdfs:isDefinedBy <http://data.gmdsp.org.uk/def/council/allotment> .
 
-allotment:number-of-plots
-      rdf:type rdfs:Property ;
-      rdfs:label "Number of plots"^^xsd:string ;
-	  rdfs:comment "Number of plots which the allotment has"^^xsd:string ;
-      rdfs:domain council:Allotment ;
-      rdfs:range xsd:integer .
+<http://data.gmdsp.org.uk/def/council/allotment/hasPlot>
+        rdfs:comment  "Each allotment can have a number of plots, each of which can be uniquely defined"^^xsd:string ;
+        rdfs:domain   <http://data.gmdsp.org.uk/def/council/Allotment> ;
+        rdfs:label    "A plot belongs to an allotment"^^xsd:string ;
+        rdfs:range    <http://data.gmdsp.org.uk/def/council/Plot> ;
+        <http://www.w3.org/2000/01/rdf-schema#type:>
+                rdfs:Property ;
+                rdfs:isDefinedBy <http://data.gmdsp.org.uk/def/council/allotment> .
 
-allotment:hasPlot
-      rdfs:type: rdfs:Property ;
-      rdfs:label "A plot belongs to an allotment"^^xsd:string ;
-      rdfs:comment "Each allotment can have a number of plots, each of which can be uniquely defined"^^xsd:string ;
-      rdfs:domain council:Allotment ;
-      rdfs:range council:Plot .
+<http://data.gmdsp.org.uk/def/council/allotment/application-page>
+        a                   rdfs:Property ;
+        rdfs:comment        "Page (given by URL) with application information for this allotment."^^xsd:string ;
+        rdfs:domain         <http://data.gmdsp.org.uk/def/council/Allotment> ;
+        rdfs:label          "Application page"^^xsd:string ;
+        rdfs:subPropertyOf  <http://xmlns.com/foaf/0.1/page> ;
+        rdfs:isDefinedBy <http://data.gmdsp.org.uk/def/council/allotment> .
 
-allotment:disabled-access
-      rdf:type rdfs:Property ;
-      rdfs:label "Disabled access"^^xsd:string ;
-	  rdfs:comment "Does the allotment have disabled access"^^xsd:string ;
-      rdfs:domain council:Allotment ;
-      rdfs:range xsd:boolean .
+<http://data.gmdsp.org.uk/def/council/allotment/guidance-page>
+        a                   rdfs:Property ;
+        rdfs:comment        "Page (given by URL) with guidance for this allotment."^^xsd:string ;
+        rdfs:domain         <http://data.gmdsp.org.uk/def/council/Allotment> ;
+        rdfs:label          "Guidance page"^^xsd:string ;
+        rdfs:subPropertyOf  <http://xmlns.com/foaf/0.1/page> ;
+        rdfs:isDefinedBy <http://data.gmdsp.org.uk/def/council/allotment> .
 
-allotment:plot-size
-      rdf:type rdfs:Property ;
-      rdfs:label "Plot size"^^xsd:string ;
-	  rdfs:comment "How big is the allotment plot in square meters"^^xsd:string ;
-      rdfs:domain council:Allotment ;
-      rdfs:range qudt:squareMeter .
-
-allotment:guidance-page
-      rdf:type rdfs:Property ;
-      rdfs:label "Guidance page"^^xsd:string ;
-	  rdfs:comment "Page (given by URL) with guidance for this allotment."^^xsd:string ;
-      rdfs:domain council:Allotment ;
-	  rdfs:subPropertyOf foaf:page .
-
-allotment:information-page
-      rdf:type rdfs:Property ;
-      rdfs:label "Information page"^^xsd:string ;
-	  rdfs:comment "Page (given by URL) where further information for this allotment."^^xsd:string ;
-      rdfs:domain council:Allotment ;
-	  rdfs:subPropertyOf foaf:page .
-
-allotment:application-page
-      rdf:type rdfs:Property ;
-      rdfs:label "Application page"^^xsd:string ;
-	  rdfs:comment "Page (given by URL) with application information for this allotment."^^xsd:string ;
-      rdfs:domain council:Allotment ;
-	  rdfs:subPropertyOf foaf:page .
+<http://data.gmdsp.org.uk/def/council/allotment/Allotment>
+        a                rdfs:Class, owl:Class ;
+        rdfs:label       "An RDF class to describe an Allotment"^^xsd:string ;
+        rdfs:subClassOf  <http://data.smartcityconceptmodel.com/model#Object> ;
+        rdfs:isDefinedBy <http://data.gmdsp.org.uk/def/council/allotment> .
