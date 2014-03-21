@@ -2,15 +2,10 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="9d644dcd-0d89-4285-85b1-21a3c7dfdfa4" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Output/councilTax.n3" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Output/councilTax.rdf" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/CouncilTaxData.py" afterPath="$PROJECT_DIR$/CouncilTaxData.py" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/allotments-tmp.rdf" afterPath="$PROJECT_DIR$/allotments-tmp.rdf" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/allotments.py" afterPath="$PROJECT_DIR$/allotments.py" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/planning.py" afterPath="$PROJECT_DIR$/planning.py" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/streetlight.rdf" afterPath="$PROJECT_DIR$/streetlight.rdf" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Output/councilTax.n3" afterPath="$PROJECT_DIR$/Output/councilTax.n3" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Output/streetlight.rdf" afterPath="$PROJECT_DIR$/Output/streetlight.rdf" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/streetlights.py" afterPath="$PROJECT_DIR$/streetlights.py" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <ignored path="DataToRDF.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -25,8 +20,8 @@
     <SUITE FILE_PATH="coverage/DataToRDF$planning.coverage" NAME="planning Coverage Results" MODIFIED="1395414332177" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
     <SUITE FILE_PATH="coverage/DataToRDF$GMDSP.coverage" NAME="GMDSP Coverage Results" MODIFIED="1395349422069" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="" />
     <SUITE FILE_PATH="coverage/DataToRDF$allotments.coverage" NAME="allotments Coverage Results" MODIFIED="1395397984404" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
-    <SUITE FILE_PATH="coverage/DataToRDF$CouncilTaxData.coverage" NAME="CouncilTaxData Coverage Results" MODIFIED="1395416539925" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
-    <SUITE FILE_PATH="coverage/DataToRDF$streetlights.coverage" NAME="streetlights Coverage Results" MODIFIED="1395400927862" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/DataToRDF$streetlights.coverage" NAME="streetlights Coverage Results" MODIFIED="1395419174407" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/DataToRDF$CouncilTaxData.coverage" NAME="CouncilTaxData Coverage Results" MODIFIED="1395418892987" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
   </component>
   <component name="CreatePatchCommitExecutor">
     <option name="PATCH_PATH" value="" />
@@ -43,25 +38,50 @@
       <file leaf-file-name="streetlights.py" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/streetlights.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="93" column="0" selection-start="3700" selection-end="3700" vertical-scroll-proportion="0.0" vertical-offset="697" max-vertical-offset="1620">
+            <state line="83" column="74" selection-start="3124" selection-end="3124" vertical-scroll-proportion="0.0" vertical-offset="922" max-vertical-offset="1620">
               <folding />
             </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="streetlight.rdf" pinned="false" current="true" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/Output/streetlight.rdf">
+          <provider selected="true" editor-type-id="LargeFileEditor">
+            <state />
           </provider>
         </entry>
       </file>
       <file leaf-file-name="CouncilTaxData.py" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/CouncilTaxData.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="113" column="26" selection-start="4588" selection-end="4588" vertical-scroll-proportion="-23.538462" vertical-offset="1023" max-vertical-offset="2325">
+            <state line="155" column="24" selection-start="6283" selection-end="6283" vertical-scroll-proportion="-12.576923" vertical-offset="1938" max-vertical-offset="2415">
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="councilTax.n3" pinned="false" current="true" current-in-tab="true">
+      <file leaf-file-name="councilTax.rdf" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/Output/councilTax.rdf">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" vertical-offset="510" max-vertical-offset="2084985">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="councilTax.ttl" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/Output/councilTax.ttl">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="757" column="41" selection-start="0" selection-end="24931" vertical-scroll-proportion="0.0" vertical-offset="10869" max-vertical-offset="11445">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="councilTax.n3" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/Output/councilTax.n3">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="27" column="30" selection-start="1100" selection-end="1115" vertical-scroll-proportion="-4483.1934" vertical-offset="2085090" max-vertical-offset="2085555">
+            <state line="139032" column="20" selection-start="4509344" selection-end="4509784" vertical-scroll-proportion="-14.84" vertical-offset="2085109" max-vertical-offset="2085600">
               <folding />
             </state>
           </provider>
@@ -105,10 +125,11 @@
         <option value="$PROJECT_DIR$/grittingroutes.py" />
         <option value="$PROJECT_DIR$/planningsmall.rdf" />
         <option value="$PROJECT_DIR$/allotments.py" />
-        <option value="$PROJECT_DIR$/streetlights.py" />
         <option value="$PROJECT_DIR$/planning.py" />
         <option value="$PROJECT_DIR$/Output/councilTax.n3" />
         <option value="$PROJECT_DIR$/CouncilTaxData.py" />
+        <option value="$PROJECT_DIR$/Output/councilTax.ttl" />
+        <option value="$PROJECT_DIR$/streetlights.py" />
       </list>
     </option>
   </component>
@@ -233,7 +254,7 @@
       <recent name="$PROJECT_DIR$" />
     </key>
   </component>
-  <component name="RunManager" selected="Python.CouncilTaxData">
+  <component name="RunManager" selected="Python.streetlights">
     <configuration default="false" name="allotments" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -488,9 +509,9 @@
     </list>
     <recent_temporary>
       <list size="4">
-        <item index="0" class="java.lang.String" itemvalue="Python.CouncilTaxData" />
-        <item index="1" class="java.lang.String" itemvalue="Python.planning" />
-        <item index="2" class="java.lang.String" itemvalue="Python.streetlights" />
+        <item index="0" class="java.lang.String" itemvalue="Python.streetlights" />
+        <item index="1" class="java.lang.String" itemvalue="Python.CouncilTaxData" />
+        <item index="2" class="java.lang.String" itemvalue="Python.planning" />
         <item index="3" class="java.lang.String" itemvalue="Python.allotments" />
       </list>
     </recent_temporary>
@@ -755,11 +776,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Output/streetlight.rdf">
-      <provider selected="true" editor-type-id="LargeFileEditor">
-        <state />
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/Data/planning.csv">
       <provider selected="true" editor-type-id="text-editor">
         <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="-0.0" vertical-offset="0" max-vertical-offset="3581460">
@@ -790,13 +806,6 @@
         <state />
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Output/councilTax.rdf">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="20.4" vertical-offset="510" max-vertical-offset="2084985">
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/planning.py">
       <provider selected="true" editor-type-id="text-editor">
         <state line="128" column="0" selection-start="5558" selection-end="5558" vertical-scroll-proportion="-13.153846" vertical-offset="1518" max-vertical-offset="2025">
@@ -808,27 +817,46 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/streetlights.py">
+    <entry file="file://$PROJECT_DIR$/Output/councilTax.n3">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="93" column="0" selection-start="3700" selection-end="3700" vertical-scroll-proportion="0.0" vertical-offset="1009" max-vertical-offset="1620">
+        <state line="139032" column="20" selection-start="4509344" selection-end="4509784" vertical-scroll-proportion="-14.84" vertical-offset="2085109" max-vertical-offset="2085600">
+          <folding />
+        </state>
+      </provider>
+      <provider editor-type-id="com.intellij.persistence.database.editor.CsvTableFileEditorProvider">
+        <state />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Output/councilTax.rdf">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" vertical-offset="510" max-vertical-offset="2084985">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Output/councilTax.ttl">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="757" column="41" selection-start="0" selection-end="24931" vertical-scroll-proportion="0.0" vertical-offset="10869" max-vertical-offset="11445">
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/CouncilTaxData.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="113" column="26" selection-start="4588" selection-end="4588" vertical-scroll-proportion="-23.538462" vertical-offset="1023" max-vertical-offset="2325">
+        <state line="155" column="24" selection-start="6283" selection-end="6283" vertical-scroll-proportion="-12.576923" vertical-offset="1938" max-vertical-offset="2415">
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Output/councilTax.n3">
+    <entry file="file://$PROJECT_DIR$/streetlights.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="27" column="30" selection-start="1100" selection-end="1115" vertical-scroll-proportion="-4483.1934" vertical-offset="2085090" max-vertical-offset="2085555">
+        <state line="83" column="74" selection-start="3124" selection-end="3124" vertical-scroll-proportion="0.0" vertical-offset="922" max-vertical-offset="1620">
           <folding />
         </state>
       </provider>
-      <provider editor-type-id="com.intellij.persistence.database.editor.CsvTableFileEditorProvider">
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Output/streetlight.rdf">
+      <provider selected="true" editor-type-id="LargeFileEditor">
         <state />
       </provider>
     </entry>

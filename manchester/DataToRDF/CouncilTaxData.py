@@ -20,7 +20,7 @@ import utm
 from bs4 import BeautifulSoup
 
 storefn = os.path.dirname(os.path.realpath(__file__)) + '/Output/councilTax.rdf'
-storen3 = os.path.dirname(os.path.realpath(__file__)) + '/Output/councilTax.n3'
+storen3 = os.path.dirname(os.path.realpath(__file__)) + '/Output/councilTax.ttl'
 
 #storefn = '/home/simon/codes/film.dev/movies.n3'
 storeuri = 'file://'+storefn
@@ -65,6 +65,7 @@ class Store:
         self.graph.bind('counciltax', COUNCILTAX)
         self.graph.bind('qb', qb)
         self.graph.bind('admingeo',ADMINGEO)
+        self.graph.bind('sdmx-attribute', SDMXATTRIBUTE)
 
     def save(self):
         #self.graph.serialize(storeuri, format='pretty-xml')
@@ -112,7 +113,7 @@ class Store:
         self.graph.add((dsd, qb["measure"], COUNCILTAX["countDef"]))
 
     def new_dataset(self):
-        ds = COUNCILTAX["dataset1"]
+        ds = COUNCILTAX["dataset-le1"]
         self.graph.add((ds, RDF.type, qb["DataSet"]))
         self.graph.add((ds, RDFS["label"], Literal("Tax Banding")))
         self.graph.add((ds, RDFS["comment"], Literal("xxxxx")))
@@ -121,7 +122,7 @@ class Store:
     def new_observation(self, band, postcode, date, count):
         observation = COUNCILTAX[postcode.replace(" ", "-").lower()+band.replace(" ", "-").lower()]
         self.graph.add((observation, RDF.type, qb['Observation']))
-        self.graph.add((observation, qb["dataSet"], COUNCILTAX['dataset1']))
+        self.graph.add((observation, qb["dataSet"], COUNCILTAX['data']))
         self.graph.add((observation, POST['refArea'], Literal(postcode)))
         self.graph.add((observation, COUNCILTAX['count'], Literal(count, datatype=XSD.integer)))
         self.graph.add((observation, COUNCILTAX['band'], Literal(band)))
@@ -142,11 +143,16 @@ def main(argv=None):
     s.refBand()
     s.countDef()
     s.new_dataset()
-    s.new_DSD()
+    #s.new_DSD()
+
+    count = 0
+
     reader = csv.DictReader(open('./Data/Ctax Extract.csv', mode='rU'))
     for k,g in [(k, list(g)) for k,g in groupby(sorted(reader, key=keyfn), keyfn)]:
         for b,n in [(kq, list(go)) for kq,go in groupby(sorted(g, key=keyfnp), keyfnp)]:
-            s.new_observation(b, k, time.strptime("01/01/0001", "%d/%m/%Y"), len(n))
+            if count <= 100:
+                s.new_observation(b, k, time.strptime("01/01/0001", "%d/%m/%Y"), len(n))
+                count = count + 1
     print "-- Saving --"
     s.save()
 

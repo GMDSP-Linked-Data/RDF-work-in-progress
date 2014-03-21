@@ -79,7 +79,7 @@ class Store:
     #def new_streetlight(self, height, easting, eligible, lamp, lampwatts, location, mintyn, northing, objectId, street, unitid, unitno):
     def new_streetlight(self, height, easting, northing, street, objectId, lamptype, watt):
         streetlamp = sl[objectId] # @@ humanize the identifier (something like #rev-$date)
-        self.graph.add((streetlamp, RDF.type, URIRef('http://data.gmdsp.org.uk/def/council/streetlighting')))
+        self.graph.add((streetlamp, RDF.type, URIRef('http://data.gmdsp.org.uk/def/council/streetlighting/Streetlight')))
         self.graph.add((streetlamp, streetdef['columnHeight'], Literal(height)))
         self.graph.add((streetlamp, SPACIAL['easting'], Literal(easting)))
         self.graph.add((streetlamp, SPACIAL['northing'], Literal(northing)))

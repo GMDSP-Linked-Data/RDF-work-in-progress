@@ -1,0 +1,758 @@
+@prefix admingeo: <http://data.ordnancesurvey.co.uk/ontology/admingeo/> .
+@prefix counciltax: <http://scheme.org/data/> .
+@prefix geo: <http://www.w3.org/2003/01/geo/wgs84_pos#> .
+@prefix os: <http://data.ordnancesurvey.co.uk/ontology/postcode/> .
+@prefix qb: <http://purl.org/linked-data/cube#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix scheme: <http://schema.org/> .
+@prefix sdmx-attribute: <http://purl.org/linked-data/sdmx/2009/attribute#> .
+@prefix vcard: <http://www.w3.org/2006/vcard/ns#> .
+@prefix xml: <http://www.w3.org/XML/1998/namespace> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+counciltax:countDef a qb:MeasureProperty,
+        rdf:Property ;
+    rdfs:label "Council tax band count" ;
+    rdfs:range xsd:decimal ;
+    rdfs:subPropertyOf <http://purl.org/linked-data/sdmx/2009/measure#obsValue> .
+
+counciltax:dataset-le1 a qb:DataSet ;
+    rdfs:label "Tax Banding" ;
+    qb:structure counciltax:data ;
+    rdfs:comment "xxxxx" .
+
+counciltax:m1-1aec a qb:Observation ;
+    os:refArea "M1 1AE" ;
+    qb:dataSet counciltax:data ;
+    counciltax:band "C" ;
+    counciltax:count 4 ;
+    counciltax:refPeriod <http://reference.data.gov.uk/id/day/2001-01-01> .
+
+counciltax:m1-1aed a qb:Observation ;
+    os:refArea "M1 1AE" ;
+    qb:dataSet counciltax:data ;
+    counciltax:band "D" ;
+    counciltax:count 18 ;
+    counciltax:refPeriod <http://reference.data.gov.uk/id/day/2001-01-01> .
+
+counciltax:m1-1bac a qb:Observation ;
+    os:refArea "M1 1BA" ;
+    qb:dataSet counciltax:data ;
+    counciltax:band "C" ;
+    counciltax:count 11 ;
+    counciltax:refPeriod <http://reference.data.gov.uk/id/day/2001-01-01> .
+
+counciltax:m1-1bad a qb:Observation ;
+    os:refArea "M1 1BA" ;
+    qb:dataSet counciltax:data ;
+    counciltax:band "D" ;
+    counciltax:count 10 ;
+    counciltax:refPeriod <http://reference.data.gov.uk/id/day/2001-01-01> .
+
+counciltax:m1-1bae a qb:Observation ;
+    os:refArea "M1 1BA" ;
+    qb:dataSet counciltax:data ;
+    counciltax:band "E" ;
+    counciltax:count 9 ;
+    counciltax:refPeriod <http://reference.data.gov.uk/id/day/2001-01-01> .
+
+counciltax:m1-1byc a qb:Observation ;
+    os:refArea "M1 1BY" ;
+    qb:dataSet counciltax:data ;
+    counciltax:band "C" ;
+    counciltax:count 14 ;
+    counciltax:refPeriod <http://reference.data.gov.uk/id/day/2001-01-01> .
+
+counciltax:m1-1byd a qb:Observation ;
+    os:refArea "M1 1BY" ;
+    qb:dataSet counciltax:data ;
+    counciltax:band "D" ;
+    counciltax:count 49 ;
+    counciltax:refPeriod <http://reference.data.gov.uk/id/day/2001-01-01> .
+
+counciltax:m1-1bye a qb:Observation ;
+    os:refArea "M1 1BY" ;
+    qb:dataSet counciltax:data ;
+    counciltax:band "E" ;
+    counciltax:count 1 ;
+    counciltax:refPeriod <http://reference.data.gov.uk/id/day/2001-01-01> .
+
+counciltax:m1-1dub a qb:Observation ;
+    os:refArea "M1 1DU" ;
+    qb:dataSet counciltax:data ;
+    counciltax:band "B" ;
+    counciltax:count 15 ;
+    counciltax:refPeriod <http://reference.data.gov.uk/id/day/2001-01-01> .
+
+counciltax:m1-1duc a qb:Observation ;
+    os:refArea "M1 1DU" ;
+    qb:dataSet counciltax:data ;
+    counciltax:band "C" ;
+    counciltax:count 11 ;
+    counciltax:refPeriod <http://reference.data.gov.uk/id/day/2001-01-01> .
+
+counciltax:m1-1dud a qb:Observation ;
+    os:refArea "M1 1DU" ;
+    qb:dataSet counciltax:data ;
+    counciltax:band "D" ;
+    counciltax:count 2 ;
+    counciltax:refPeriod <http://reference.data.gov.uk/id/day/2001-01-01> .
+
+counciltax:m1-1eea a qb:Observation ;
+    os:refArea "M1 1EE" ;
+    qb:dataSet counciltax:data ;
+    counciltax:band "A" ;
+    counciltax:count 1 ;
+    counciltax:refPeriod <http://reference.data.gov.uk/id/day/2001-01-01> .
+
+counciltax:m1-1eja a qb:Observation ;
+    os:refArea "M1 1EJ" ;
+    qb:dataSet counciltax:data ;
+    counciltax:band "A" ;
+    counciltax:count 6 ;
+    counciltax:refPeriod <http://reference.data.gov.uk/id/day/2001-01-01> .
+
+counciltax:m1-1ejc a qb:Observation ;
+    os:refArea "M1 1EJ" ;
+    qb:dataSet counciltax:data ;
+    counciltax:band "C" ;
+    counciltax:count 1 ;
+    counciltax:refPeriod <http://reference.data.gov.uk/id/day/2001-01-01> .
+
+counciltax:m1-1elb a qb:Observation ;
+    os:refArea "M1 1EL" ;
+    qb:dataSet counciltax:data ;
+    counciltax:band "B" ;
+    counciltax:count 4 ;
+    counciltax:refPeriod <http://reference.data.gov.uk/id/day/2001-01-01> .
+
+counciltax:m1-1eld a qb:Observation ;
+    os:refArea "M1 1EL" ;
+    qb:dataSet counciltax:data ;
+    counciltax:band "D" ;
+    counciltax:count 9 ;
+    counciltax:refPeriod <http://reference.data.gov.uk/id/day/2001-01-01> .
+
+counciltax:m1-1ele a qb:Observation ;
+    os:refArea "M1 1EL" ;
+    qb:dataSet counciltax:data ;
+    counciltax:band "E" ;
+    counciltax:count 2 ;
+    counciltax:refPeriod <http://reference.data.gov.uk/id/day/2001-01-01> .
+
+counciltax:m1-1epc a qb:Observation ;
+    os:refArea "M1 1EP" ;
+    qb:dataSet counciltax:data ;
+    counciltax:band "C" ;
+    counciltax:count 21 ;
+    counciltax:refPeriod <http://reference.data.gov.uk/id/day/2001-01-01> .
+
+counciltax:m1-1epd a qb:Observation ;
+    os:refArea "M1 1EP" ;
+    qb:dataSet counciltax:data ;
+    counciltax:band "D" ;
+    counciltax:count 14 ;
+    counciltax:refPeriod <http://reference.data.gov.uk/id/day/2001-01-01> .
+
+counciltax:m1-1epe a qb:Observation ;
+    os:refArea "M1 1EP" ;
+    qb:dataSet counciltax:data ;
+    counciltax:band "E" ;
+    counciltax:count 14 ;
+    counciltax:refPeriod <http://reference.data.gov.uk/id/day/2001-01-01> .
+
+counciltax:m1-1epf a qb:Observation ;
+    os:refArea "M1 1EP" ;
+    qb:dataSet counciltax:data ;
+    counciltax:band "F" ;
+    counciltax:count 2 ;
+    counciltax:refPeriod <http://reference.data.gov.uk/id/day/2001-01-01> .
+
+counciltax:m1-1erc a qb:Observation ;
+    os:refArea "M1 1ER" ;
+    qb:dataSet counciltax:data ;
+    counciltax:band "C" ;
+    counciltax:count 4 ;
+    counciltax:refPeriod <http://reference.data.gov.uk/id/day/2001-01-01> .
+
+counciltax:m1-1erd a qb:Observation ;
+    os:refArea "M1 1ER" ;
+    qb:dataSet counciltax:data ;
+    counciltax:band "D" ;
+    counciltax:count 27 ;
+    counciltax:refPeriod <http://reference.data.gov.uk/id/day/2001-01-01> .
+
+counciltax:m1-1ere a qb:Observation ;
+    os:refArea "M1 1ER" ;
+    qb:dataSet counciltax:data ;
+    counciltax:band "E" ;
+    counciltax:count 14 ;
+    counciltax:refPeriod <http://reference.data.gov.uk/id/day/2001-01-01> .
+
+counciltax:m1-1erf a qb:Observation ;
+    os:refArea "M1 1ER" ;
+    qb:dataSet counciltax:data ;
+    counciltax:band "F" ;
+    counciltax:count 9 ;
+    counciltax:refPeriod <http://reference.data.gov.uk/id/day/2001-01-01> .
+
+counciltax:m1-1euc a qb:Observation ;
+    os:refArea "M1 1EU" ;
+    qb:dataSet counciltax:data ;
+    counciltax:band "C" ;
+    counciltax:count 23 ;
+    counciltax:refPeriod <http://reference.data.gov.uk/id/day/2001-01-01> .
+
+counciltax:m1-1eud a qb:Observation ;
+    os:refArea "M1 1EU" ;
+    qb:dataSet counciltax:data ;
+    counciltax:band "D" ;
+    counciltax:count 25 ;
+    counciltax:refPeriod <http://reference.data.gov.uk/id/day/2001-01-01> .
+
+counciltax:m1-1eue a qb:Observation ;
+    os:refArea "M1 1EU" ;
+    qb:dataSet counciltax:data ;
+    counciltax:band "E" ;
+    counciltax:count 4 ;
+    counciltax:refPeriod <http://reference.data.gov.uk/id/day/2001-01-01> .
+
+counciltax:m1-1ewc a qb:Observation ;
+    os:refArea "M1 1EW" ;
+    qb:dataSet counciltax:data ;
+    counciltax:band "C" ;
+    counciltax:count 12 ;
+    counciltax:refPeriod <http://reference.data.gov.uk/id/day/2001-01-01> .
+
+counciltax:m1-1ewd a qb:Observation ;
+    os:refArea "M1 1EW" ;
+    qb:dataSet counciltax:data ;
+    counciltax:band "D" ;
+    counciltax:count 46 ;
+    counciltax:refPeriod <http://reference.data.gov.uk/id/day/2001-01-01> .
+
+counciltax:m1-1ewe a qb:Observation ;
+    os:refArea "M1 1EW" ;
+    qb:dataSet counciltax:data ;
+    counciltax:band "E" ;
+    counciltax:count 6 ;
+    counciltax:refPeriod <http://reference.data.gov.uk/id/day/2001-01-01> .
+
+counciltax:m1-1ewf a qb:Observation ;
+    os:refArea "M1 1EW" ;
+    qb:dataSet counciltax:data ;
+    counciltax:band "F" ;
+    counciltax:count 2 ;
+    counciltax:refPeriod <http://reference.data.gov.uk/id/day/2001-01-01> .
+
+counciltax:m1-1ewg a qb:Observation ;
+    os:refArea "M1 1EW" ;
+    qb:dataSet counciltax:data ;
+    counciltax:band "G" ;
+    counciltax:count 4 ;
+    counciltax:refPeriod <http://reference.data.gov.uk/id/day/2001-01-01> .
+
+counciltax:m1-1exc a qb:Observation ;
+    os:refArea "M1 1EX" ;
+    qb:dataSet counciltax:data ;
+    counciltax:band "C" ;
+    counciltax:count 3 ;
+    counciltax:refPeriod <http://reference.data.gov.uk/id/day/2001-01-01> .
+
+counciltax:m1-1fja a qb:Observation ;
+    os:refArea "M1 1FJ" ;
+    qb:dataSet counciltax:data ;
+    counciltax:band "A" ;
+    counciltax:count 1 ;
+    counciltax:refPeriod <http://reference.data.gov.uk/id/day/2001-01-01> .
+
+counciltax:m1-1heb a qb:Observation ;
+    os:refArea "M1 1HE" ;
+    qb:dataSet counciltax:data ;
+    counciltax:band "B" ;
+    counciltax:count 8 ;
+    counciltax:refPeriod <http://reference.data.gov.uk/id/day/2001-01-01> .
+
+counciltax:m1-1hec a qb:Observation ;
+    os:refArea "M1 1HE" ;
+    qb:dataSet counciltax:data ;
+    counciltax:band "C" ;
+    counciltax:count 5 ;
+    counciltax:refPeriod <http://reference.data.gov.uk/id/day/2001-01-01> .
+
+counciltax:m1-1hed a qb:Observation ;
+    os:refArea "M1 1HE" ;
+    qb:dataSet counciltax:data ;
+    counciltax:band "D" ;
+    counciltax:count 7 ;
+    counciltax:refPeriod <http://reference.data.gov.uk/id/day/2001-01-01> .
+
+counciltax:m1-1hpa a qb:Observation ;
+    os:refArea "M1 1HP" ;
+    qb:dataSet counciltax:data ;
+    counciltax:band "A" ;
+    counciltax:count 1 ;
+    counciltax:refPeriod <http://reference.data.gov.uk/id/day/2001-01-01> .
+
+counciltax:m1-1jad a qb:Observation ;
+    os:refArea "M1 1JA" ;
+    qb:dataSet counciltax:data ;
+    counciltax:band "D" ;
+    counciltax:count 4 ;
+    counciltax:refPeriod <http://reference.data.gov.uk/id/day/2001-01-01> .
+
+counciltax:m1-1jae a qb:Observation ;
+    os:refArea "M1 1JA" ;
+    qb:dataSet counciltax:data ;
+    counciltax:band "E" ;
+    counciltax:count 3 ;
+    counciltax:refPeriod <http://reference.data.gov.uk/id/day/2001-01-01> .
+
+counciltax:m1-1jaf a qb:Observation ;
+    os:refArea "M1 1JA" ;
+    qb:dataSet counciltax:data ;
+    counciltax:band "F" ;
+    counciltax:count 2 ;
+    counciltax:refPeriod <http://reference.data.gov.uk/id/day/2001-01-01> .
+
+counciltax:m1-1jnb a qb:Observation ;
+    os:refArea "M1 1JN" ;
+    qb:dataSet counciltax:data ;
+    counciltax:band "B" ;
+    counciltax:count 3 ;
+    counciltax:refPeriod <http://reference.data.gov.uk/id/day/2001-01-01> .
+
+counciltax:m1-1jnc a qb:Observation ;
+    os:refArea "M1 1JN" ;
+    qb:dataSet counciltax:data ;
+    counciltax:band "C" ;
+    counciltax:count 10 ;
+    counciltax:refPeriod <http://reference.data.gov.uk/id/day/2001-01-01> .
+
+counciltax:m1-1jqd a qb:Observation ;
+    os:refArea "M1 1JQ" ;
+    qb:dataSet counciltax:data ;
+    counciltax:band "D" ;
+    counciltax:count 11 ;
+    counciltax:refPeriod <http://reference.data.gov.uk/id/day/2001-01-01> .
+
+counciltax:m1-1jqe a qb:Observation ;
+    os:refArea "M1 1JQ" ;
+    qb:dataSet counciltax:data ;
+    counciltax:band "E" ;
+    counciltax:count 10 ;
+    counciltax:refPeriod <http://reference.data.gov.uk/id/day/2001-01-01> .
+
+counciltax:m1-1lnb a qb:Observation ;
+    os:refArea "M1 1LN" ;
+    qb:dataSet counciltax:data ;
+    counciltax:band "B" ;
+    counciltax:count 1 ;
+    counciltax:refPeriod <http://reference.data.gov.uk/id/day/2001-01-01> .
+
+counciltax:m1-1lta a qb:Observation ;
+    os:refArea "M1 1LT" ;
+    qb:dataSet counciltax:data ;
+    counciltax:band "A" ;
+    counciltax:count 1 ;
+    counciltax:refPeriod <http://reference.data.gov.uk/id/day/2001-01-01> .
+
+counciltax:m1-1ltb a qb:Observation ;
+    os:refArea "M1 1LT" ;
+    qb:dataSet counciltax:data ;
+    counciltax:band "B" ;
+    counciltax:count 3 ;
+    counciltax:refPeriod <http://reference.data.gov.uk/id/day/2001-01-01> .
+
+counciltax:m1-1ltc a qb:Observation ;
+    os:refArea "M1 1LT" ;
+    qb:dataSet counciltax:data ;
+    counciltax:band "C" ;
+    counciltax:count 14 ;
+    counciltax:refPeriod <http://reference.data.gov.uk/id/day/2001-01-01> .
+
+counciltax:m1-2ada a qb:Observation ;
+    os:refArea "M1 2AD" ;
+    qb:dataSet counciltax:data ;
+    counciltax:band "A" ;
+    counciltax:count 55 ;
+    counciltax:refPeriod <http://reference.data.gov.uk/id/day/2001-01-01> .
+
+counciltax:m1-2adc a qb:Observation ;
+    os:refArea "M1 2AD" ;
+    qb:dataSet counciltax:data ;
+    counciltax:band "C" ;
+    counciltax:count 9 ;
+    counciltax:refPeriod <http://reference.data.gov.uk/id/day/2001-01-01> .
+
+counciltax:m1-2add a qb:Observation ;
+    os:refArea "M1 2AD" ;
+    qb:dataSet counciltax:data ;
+    counciltax:band "D" ;
+    counciltax:count 91 ;
+    counciltax:refPeriod <http://reference.data.gov.uk/id/day/2001-01-01> .
+
+counciltax:m1-2aqb a qb:Observation ;
+    os:refArea "M1 2AQ" ;
+    qb:dataSet counciltax:data ;
+    counciltax:band "B" ;
+    counciltax:count 1 ;
+    counciltax:refPeriod <http://reference.data.gov.uk/id/day/2001-01-01> .
+
+counciltax:m1-2ard a qb:Observation ;
+    os:refArea "M1 2AR" ;
+    qb:dataSet counciltax:data ;
+    counciltax:band "D" ;
+    counciltax:count 103 ;
+    counciltax:refPeriod <http://reference.data.gov.uk/id/day/2001-01-01> .
+
+counciltax:m1-2are a qb:Observation ;
+    os:refArea "M1 2AR" ;
+    qb:dataSet counciltax:data ;
+    counciltax:band "E" ;
+    counciltax:count 19 ;
+    counciltax:refPeriod <http://reference.data.gov.uk/id/day/2001-01-01> .
+
+counciltax:m1-2atc a qb:Observation ;
+    os:refArea "M1 2AT" ;
+    qb:dataSet counciltax:data ;
+    counciltax:band "C" ;
+    counciltax:count 5 ;
+    counciltax:refPeriod <http://reference.data.gov.uk/id/day/2001-01-01> .
+
+counciltax:m1-2atd a qb:Observation ;
+    os:refArea "M1 2AT" ;
+    qb:dataSet counciltax:data ;
+    counciltax:band "D" ;
+    counciltax:count 20 ;
+    counciltax:refPeriod <http://reference.data.gov.uk/id/day/2001-01-01> .
+
+counciltax:m1-2ate a qb:Observation ;
+    os:refArea "M1 2AT" ;
+    qb:dataSet counciltax:data ;
+    counciltax:band "E" ;
+    counciltax:count 3 ;
+    counciltax:refPeriod <http://reference.data.gov.uk/id/day/2001-01-01> .
+
+counciltax:m1-2auc a qb:Observation ;
+    os:refArea "M1 2AU" ;
+    qb:dataSet counciltax:data ;
+    counciltax:band "C" ;
+    counciltax:count 13 ;
+    counciltax:refPeriod <http://reference.data.gov.uk/id/day/2001-01-01> .
+
+counciltax:m1-2aud a qb:Observation ;
+    os:refArea "M1 2AU" ;
+    qb:dataSet counciltax:data ;
+    counciltax:band "D" ;
+    counciltax:count 12 ;
+    counciltax:refPeriod <http://reference.data.gov.uk/id/day/2001-01-01> .
+
+counciltax:m1-2aue a qb:Observation ;
+    os:refArea "M1 2AU" ;
+    qb:dataSet counciltax:data ;
+    counciltax:band "E" ;
+    counciltax:count 4 ;
+    counciltax:refPeriod <http://reference.data.gov.uk/id/day/2001-01-01> .
+
+counciltax:m1-2bec a qb:Observation ;
+    os:refArea "M1 2BE" ;
+    qb:dataSet counciltax:data ;
+    counciltax:band "C" ;
+    counciltax:count 31 ;
+    counciltax:refPeriod <http://reference.data.gov.uk/id/day/2001-01-01> .
+
+counciltax:m1-2bed a qb:Observation ;
+    os:refArea "M1 2BE" ;
+    qb:dataSet counciltax:data ;
+    counciltax:band "D" ;
+    counciltax:count 26 ;
+    counciltax:refPeriod <http://reference.data.gov.uk/id/day/2001-01-01> .
+
+counciltax:m1-2bee a qb:Observation ;
+    os:refArea "M1 2BE" ;
+    qb:dataSet counciltax:data ;
+    counciltax:band "E" ;
+    counciltax:count 1 ;
+    counciltax:refPeriod <http://reference.data.gov.uk/id/day/2001-01-01> .
+
+counciltax:m1-2bhb a qb:Observation ;
+    os:refArea "M1 2BH" ;
+    qb:dataSet counciltax:data ;
+    counciltax:band "B" ;
+    counciltax:count 6 ;
+    counciltax:refPeriod <http://reference.data.gov.uk/id/day/2001-01-01> .
+
+counciltax:m1-2bhc a qb:Observation ;
+    os:refArea "M1 2BH" ;
+    qb:dataSet counciltax:data ;
+    counciltax:band "C" ;
+    counciltax:count 18 ;
+    counciltax:refPeriod <http://reference.data.gov.uk/id/day/2001-01-01> .
+
+counciltax:m1-2bhd a qb:Observation ;
+    os:refArea "M1 2BH" ;
+    qb:dataSet counciltax:data ;
+    counciltax:band "D" ;
+    counciltax:count 14 ;
+    counciltax:refPeriod <http://reference.data.gov.uk/id/day/2001-01-01> .
+
+counciltax:m1-2bjb a qb:Observation ;
+    os:refArea "M1 2BJ" ;
+    qb:dataSet counciltax:data ;
+    counciltax:band "B" ;
+    counciltax:count 7 ;
+    counciltax:refPeriod <http://reference.data.gov.uk/id/day/2001-01-01> .
+
+counciltax:m1-2bjc a qb:Observation ;
+    os:refArea "M1 2BJ" ;
+    qb:dataSet counciltax:data ;
+    counciltax:band "C" ;
+    counciltax:count 17 ;
+    counciltax:refPeriod <http://reference.data.gov.uk/id/day/2001-01-01> .
+
+counciltax:m1-2bjd a qb:Observation ;
+    os:refArea "M1 2BJ" ;
+    qb:dataSet counciltax:data ;
+    counciltax:band "D" ;
+    counciltax:count 6 ;
+    counciltax:refPeriod <http://reference.data.gov.uk/id/day/2001-01-01> .
+
+counciltax:m1-2bl-e a qb:Observation ;
+    os:refArea "M1 2BL " ;
+    qb:dataSet counciltax:data ;
+    counciltax:band "E" ;
+    counciltax:count 1 ;
+    counciltax:refPeriod <http://reference.data.gov.uk/id/day/2001-01-01> .
+
+counciltax:m1-2bla a qb:Observation ;
+    os:refArea "M1 2BL" ;
+    qb:dataSet counciltax:data ;
+    counciltax:band "A" ;
+    counciltax:count 1 ;
+    counciltax:refPeriod <http://reference.data.gov.uk/id/day/2001-01-01> .
+
+counciltax:m1-2blc a qb:Observation ;
+    os:refArea "M1 2BL" ;
+    qb:dataSet counciltax:data ;
+    counciltax:band "C" ;
+    counciltax:count 1 ;
+    counciltax:refPeriod <http://reference.data.gov.uk/id/day/2001-01-01> .
+
+counciltax:m1-2bld a qb:Observation ;
+    os:refArea "M1 2BL" ;
+    qb:dataSet counciltax:data ;
+    counciltax:band "D" ;
+    counciltax:count 33 ;
+    counciltax:refPeriod <http://reference.data.gov.uk/id/day/2001-01-01> .
+
+counciltax:m1-2ble a qb:Observation ;
+    os:refArea "M1 2BL" ;
+    qb:dataSet counciltax:data ;
+    counciltax:band "E" ;
+    counciltax:count 36 ;
+    counciltax:refPeriod <http://reference.data.gov.uk/id/day/2001-01-01> .
+
+counciltax:m1-2bqb a qb:Observation ;
+    os:refArea "M1 2BQ" ;
+    qb:dataSet counciltax:data ;
+    counciltax:band "B" ;
+    counciltax:count 6 ;
+    counciltax:refPeriod <http://reference.data.gov.uk/id/day/2001-01-01> .
+
+counciltax:m1-2bqc a qb:Observation ;
+    os:refArea "M1 2BQ" ;
+    qb:dataSet counciltax:data ;
+    counciltax:band "C" ;
+    counciltax:count 29 ;
+    counciltax:refPeriod <http://reference.data.gov.uk/id/day/2001-01-01> .
+
+counciltax:m1-2bqd a qb:Observation ;
+    os:refArea "M1 2BQ" ;
+    qb:dataSet counciltax:data ;
+    counciltax:band "D" ;
+    counciltax:count 13 ;
+    counciltax:refPeriod <http://reference.data.gov.uk/id/day/2001-01-01> .
+
+counciltax:m1-2bub a qb:Observation ;
+    os:refArea "M1 2BU" ;
+    qb:dataSet counciltax:data ;
+    counciltax:band "B" ;
+    counciltax:count 3 ;
+    counciltax:refPeriod <http://reference.data.gov.uk/id/day/2001-01-01> .
+
+counciltax:m1-2buc a qb:Observation ;
+    os:refArea "M1 2BU" ;
+    qb:dataSet counciltax:data ;
+    counciltax:band "C" ;
+    counciltax:count 6 ;
+    counciltax:refPeriod <http://reference.data.gov.uk/id/day/2001-01-01> .
+
+counciltax:m1-2bud a qb:Observation ;
+    os:refArea "M1 2BU" ;
+    qb:dataSet counciltax:data ;
+    counciltax:band "D" ;
+    counciltax:count 11 ;
+    counciltax:refPeriod <http://reference.data.gov.uk/id/day/2001-01-01> .
+
+counciltax:m1-2bue a qb:Observation ;
+    os:refArea "M1 2BU" ;
+    qb:dataSet counciltax:data ;
+    counciltax:band "E" ;
+    counciltax:count 6 ;
+    counciltax:refPeriod <http://reference.data.gov.uk/id/day/2001-01-01> .
+
+counciltax:m1-2buf a qb:Observation ;
+    os:refArea "M1 2BU" ;
+    qb:dataSet counciltax:data ;
+    counciltax:band "F" ;
+    counciltax:count 2 ;
+    counciltax:refPeriod <http://reference.data.gov.uk/id/day/2001-01-01> .
+
+counciltax:m1-2bwa a qb:Observation ;
+    os:refArea "M1 2BW" ;
+    qb:dataSet counciltax:data ;
+    counciltax:band "A" ;
+    counciltax:count 27 ;
+    counciltax:refPeriod <http://reference.data.gov.uk/id/day/2001-01-01> .
+
+counciltax:m1-2bwb a qb:Observation ;
+    os:refArea "M1 2BW" ;
+    qb:dataSet counciltax:data ;
+    counciltax:band "B" ;
+    counciltax:count 12 ;
+    counciltax:refPeriod <http://reference.data.gov.uk/id/day/2001-01-01> .
+
+counciltax:m1-2bwc a qb:Observation ;
+    os:refArea "M1 2BW" ;
+    qb:dataSet counciltax:data ;
+    counciltax:band "C" ;
+    counciltax:count 39 ;
+    counciltax:refPeriod <http://reference.data.gov.uk/id/day/2001-01-01> .
+
+counciltax:m1-2bwd a qb:Observation ;
+    os:refArea "M1 2BW" ;
+    qb:dataSet counciltax:data ;
+    counciltax:band "D" ;
+    counciltax:count 9 ;
+    counciltax:refPeriod <http://reference.data.gov.uk/id/day/2001-01-01> .
+
+counciltax:m1-2dba a qb:Observation ;
+    os:refArea "M1 2DB" ;
+    qb:dataSet counciltax:data ;
+    counciltax:band "A" ;
+    counciltax:count 1 ;
+    counciltax:refPeriod <http://reference.data.gov.uk/id/day/2001-01-01> .
+
+counciltax:m1-2ded a qb:Observation ;
+    os:refArea "M1 2DE" ;
+    qb:dataSet counciltax:data ;
+    counciltax:band "D" ;
+    counciltax:count 25 ;
+    counciltax:refPeriod <http://reference.data.gov.uk/id/day/2001-01-01> .
+
+counciltax:m1-2dee a qb:Observation ;
+    os:refArea "M1 2DE" ;
+    qb:dataSet counciltax:data ;
+    counciltax:band "E" ;
+    counciltax:count 2 ;
+    counciltax:refPeriod <http://reference.data.gov.uk/id/day/2001-01-01> .
+
+counciltax:m1-2def a qb:Observation ;
+    os:refArea "M1 2DE" ;
+    qb:dataSet counciltax:data ;
+    counciltax:band "F" ;
+    counciltax:count 2 ;
+    counciltax:refPeriod <http://reference.data.gov.uk/id/day/2001-01-01> .
+
+counciltax:m1-2dfb a qb:Observation ;
+    os:refArea "M1 2DF" ;
+    qb:dataSet counciltax:data ;
+    counciltax:band "B" ;
+    counciltax:count 3 ;
+    counciltax:refPeriod <http://reference.data.gov.uk/id/day/2001-01-01> .
+
+counciltax:m1-2dfc a qb:Observation ;
+    os:refArea "M1 2DF" ;
+    qb:dataSet counciltax:data ;
+    counciltax:band "C" ;
+    counciltax:count 4 ;
+    counciltax:refPeriod <http://reference.data.gov.uk/id/day/2001-01-01> .
+
+counciltax:m1-2dfd a qb:Observation ;
+    os:refArea "M1 2DF" ;
+    qb:dataSet counciltax:data ;
+    counciltax:band "D" ;
+    counciltax:count 12 ;
+    counciltax:refPeriod <http://reference.data.gov.uk/id/day/2001-01-01> .
+
+counciltax:m1-2dfe a qb:Observation ;
+    os:refArea "M1 2DF" ;
+    qb:dataSet counciltax:data ;
+    counciltax:band "E" ;
+    counciltax:count 9 ;
+    counciltax:refPeriod <http://reference.data.gov.uk/id/day/2001-01-01> .
+
+counciltax:m1-2dff a qb:Observation ;
+    os:refArea "M1 2DF" ;
+    qb:dataSet counciltax:data ;
+    counciltax:band "F" ;
+    counciltax:count 1 ;
+    counciltax:refPeriod <http://reference.data.gov.uk/id/day/2001-01-01> .
+
+counciltax:m1-2dha a qb:Observation ;
+    os:refArea "M1 2DH" ;
+    qb:dataSet counciltax:data ;
+    counciltax:band "A" ;
+    counciltax:count 14 ;
+    counciltax:refPeriod <http://reference.data.gov.uk/id/day/2001-01-01> .
+
+counciltax:m1-2dhd a qb:Observation ;
+    os:refArea "M1 2DH" ;
+    qb:dataSet counciltax:data ;
+    counciltax:band "D" ;
+    counciltax:count 9 ;
+    counciltax:refPeriod <http://reference.data.gov.uk/id/day/2001-01-01> .
+
+counciltax:m1-2dpd a qb:Observation ;
+    os:refArea "M1 2DP" ;
+    qb:dataSet counciltax:data ;
+    counciltax:band "D" ;
+    counciltax:count 21 ;
+    counciltax:refPeriod <http://reference.data.gov.uk/id/day/2001-01-01> .
+
+counciltax:m1-2dpe a qb:Observation ;
+    os:refArea "M1 2DP" ;
+    qb:dataSet counciltax:data ;
+    counciltax:band "E" ;
+    counciltax:count 4 ;
+    counciltax:refPeriod <http://reference.data.gov.uk/id/day/2001-01-01> .
+
+counciltax:refArea a qb:DimensionProperty,
+        qb:Property ;
+    rdfs:label "reference area" ;
+    qb:concept <http://purl.org/linked-data/sdmx/2009/concept#refArea> ;
+    rdfs:range admingeo:UnitaryAuthority ;
+    rdfs:subPropertyOf <http://purl.org/linked-data/sdmx/2009/dimension#refArea> .
+
+counciltax:refBand a qb:DimensionProperty,
+        qb:Property ;
+    rdfs:label "reference band" .
+
+counciltax:refPeriod a qb:DimensionProperty,
+        qb:Property ;
+    rdfs:label "reference period" ;
+    qb:concept <http://purl.org/linked-data/sdmx/2009/concept#refPeriod> ;
+    rdfs:subPropertyOf <http://purl.org/linked-data/sdmx/2009/dimension#refPeriod> .
+
+counciltax:dsd-le a qb:DataStructureDefinition;
+    # The dimensions
+    qb:component [qb:dimension counciltax:refArea; qb:order 1];
+    qb:component [qb:dimension counciltax:refPeriod; qb:order 2];
+    qb:component [qb:dimension counciltax:refBand; qb:order 3];
+    # The measure(s)
+    qb:component [qb:measure counciltax:countDef];
+    # The attributes
+    qb:component [qb:attribute sdmx-attribute:unitMeasure;
+    qb:componentAttachment qb:DataSet;] .
