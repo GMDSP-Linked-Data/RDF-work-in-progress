@@ -2,7 +2,7 @@
 @prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
 
 <http://data.gmdsp.org.uk/def/council/recycling/recycling-type> a skos:ConceptScheme ;
-        skos:hasTopConcept <http://data.gmdsp.org.uk/def/council/recycling/recycling-type/extraFacilities> ;
+        skos:hasTopConcept <http://data.gmdsp.org.uk/def/council/recycling/recycling-type/extra-facilities> ;
         skos:hasTopConcept <http://data.gmdsp.org.uk/def/council/recycling/recycling-type/paper> ;
         skos:hasTopConcept <http://data.gmdsp.org.uk/def/council/recycling/recycling-type/dry> ;
         skos:hasTopConcept <http://data.gmdsp.org.uk/def/council/recycling/recycling-type/glass> ;
@@ -18,7 +18,7 @@
         skos:hasTopConcept <http://data.gmdsp.org.uk/def/council/recycling/recycling-type/aerosols> ;
         skos:hasTopConcept <http://data.gmdsp.org.uk/def/council/recycling/recycling-type/textiles> .
 
-<http://data.gmdsp.org.uk/def/council/recycling/recycling-type/extraFacilities> skos:inScheme <http://data.gmdsp.org.uk/def/council/recycling/recycling-type> ;
+<http://data.gmdsp.org.uk/def/council/recycling/recycling-type/extra-facilities> skos:inScheme <http://data.gmdsp.org.uk/def/council/recycling/recycling-type> ;
         a skos:Concept ;
         rdfs:label "Extra Facilities" ;
         skos:prefLabel "Extra Facilities" ;
