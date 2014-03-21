@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<rdf:RDF
+  xmlns:sub="http://purl.org/dc/terms/"
+  xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
+  xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+  xmlns:dissision="http://purl.org/cerif/frapo/"
+  xmlns:ns1="http://data.gmdsp.org.uk/id/manchester/planning/"
+  xmlns:ns2="http://data.gmdsp.org.uk/def/council/neighbourhood/"
+  xmlns:ns3="http://data.gmdsp.org.uk/def/council/neighbourhood/planning/"
+  xmlns:geo="http://www.w3.org/2003/01/geo/wgs84_pos#"
+  xmlns:vcard="http://www.w3.org/2006/vcard/ns#"
+>
+  <ns2:planning rdf:about="http://data.gmdsp.org.uk/id/manchester/planning/064371-ao-north1-02">
+    <geo:ward>Charlestown</geo:ward>
+    <dissision:hasDecisionDate rdf:resource="http://reference.data.gov.uk/id/day/2002-03-11"/>
+    <sub:dateSubmitted rdf:resource="http://reference.data.gov.uk/id/day/2002-02-28"/>
+    <vcard:hasstreetaddress>land at 20-26, Middleton Road, Blackley </vcard:hasstreetaddress>
+    <ns1:applicationType rdf:resource="http://data.gmdsp.org.uk/def/council/neighbourhood/planning/application-type/advertisement-consent"/>
+    <ns1:hasDecision rdf:resource="http://data.gmdsp.org.uk/def/council/neighbourhood/planning/dissision/refused"/>
+  </ns2:planning>
+  </rdf:RDF>

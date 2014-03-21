@@ -1,0 +1,76 @@
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix smartcity: <http://data.smartcityconceptmodel.com/model#> .
+
+#################################################################
+#
+#    Classes
+#
+#################################################################
+
+<http://data.gmdsp.org.uk/def/council/planning/PlanningApplication>
+      rdfs:label "An RDF class to describe a planning application"^^xsd:string ;
+      rdfs:subClassOf smartcity:Object ;
+      rdfs:isDefinedBy <http://data.gmdsp.org.uk/def/council/planning> .
+
+<http://data.gmdsp.org.uk/def/council/planning/PlanningApplicationSite>
+      rdfs:label "An RDF class to describe a planning application site"^^xsd:string ;
+      rdfs:subClassOf smartcity:Object ;
+      rdfs:isDefinedBy <http://data.gmdsp.org.uk/def/council/planning> .
+
+
+#################################################################
+#
+#    Properties
+#
+#################################################################
+
+<http://data.gmdsp.org.uk/def/council/planning/decision>
+      rdf:type rdfs:Property ;
+      rdfs:label "Final state of a planning application"^^xsd:string ;
+	  rdfs:comment "What the outcome of a planning applications was. Will have one decision as defined in a concept scheme." ;
+      rdfs:domain <http://data.gmdsp.org.uk/def/council/planning/PlanningApplication> ;
+      rdfs:range <http://data.gmdsp.org.uk/def/council/planning/planning-application-status> .
+
+<http://data.gmdsp.org.uk/def/council/planning/validatedDate>
+      rdf:type rdfs:Property ;
+      rdfs:label "Validated date"^^xsd:string ;
+	  rdfs:comment "Date the planning application was validated and accepted." ;
+      rdfs:domain <http://data.gmdsp.org.uk/def/council/planning/PlanningApplication> ;
+      rdfs:range xsd:date .
+
+<http://data.gmdsp.org.uk/def/council/planning/decisionDate>
+      rdf:type rdfs:Property ;
+      rdfs:label "Decision date"^^xsd:string ;
+	  rdfs:comment "Date the planning application decision was made." ;
+      rdfs:domain <http://data.gmdsp.org.uk/def/council/planning/PlanningApplication> ;
+      rdfs:range xsd:date .
+
+<http://data.gmdsp.org.uk/def/council/planning/applicationType>
+      rdf:type rdfs:Property ;
+      rdfs:label "Application type"^^xsd:string ;
+	  rdfs:comment "Long form version of the application type eg advertisement (see also developmentType)." ;
+      rdfs:domain <http://data.gmdsp.org.uk/def/council/planning/PlanningApplication> ;
+      rdfs:range xsd:string .
+
+<http://data.gmdsp.org.uk/def/council/planning/applicationTypeCode>
+      rdf:type rdfs:Property ;
+      rdfs:label "Application type code"^^xsd:string ;
+	  rdfs:comment "Short form version of the application type." ;
+      rdfs:domain <http://data.gmdsp.org.uk/def/council/planning/PlanningApplication> ;
+      rdfs:range xsd:string .
+
+<http://data.gmdsp.org.uk/def/council/planning/developmentType>
+      rdf:type rdfs:Property ;
+      rdfs:label "Development type"^^xsd:string ;
+	  rdfs:comment "Development type of the application eg advertisement." ;
+      rdfs:domain <http://data.gmdsp.org.uk/def/council/planning/PlanningApplication> ;
+      rdfs:range xsd:string .
+
+<http://data.gmdsp.org.uk/def/council/planning/proposal>
+      rdf:type rdfs:Property ;
+      rdfs:label "Proposal"^^xsd:string ;
+	  rdfs:comment "Free text description of the proposal in the planning application." ;
+      rdfs:domain <http://data.gmdsp.org.uk/def/council/planning/PlanningApplication> ;
+      rdfs:range xsd:string .

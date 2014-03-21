@@ -1,0 +1,103 @@
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+
+<http://data.gmdsp.org.uk/def/council/recycling/recycling-type> a skos:ConceptScheme ;
+        skos:hasTopConcept <http://data.gmdsp.org.uk/def/council/recycling/recycling-type/extra-facilities> ;
+        skos:hasTopConcept <http://data.gmdsp.org.uk/def/council/recycling/recycling-type/paper> ;
+        skos:hasTopConcept <http://data.gmdsp.org.uk/def/council/recycling/recycling-type/dry> ;
+        skos:hasTopConcept <http://data.gmdsp.org.uk/def/council/recycling/recycling-type/glass> ;
+        skos:hasTopConcept <http://data.gmdsp.org.uk/def/council/recycling/recycling-type/cans> ;
+        skos:hasTopConcept <http://data.gmdsp.org.uk/def/council/recycling/recycling-type/plastic> ;
+        skos:hasTopConcept <http://data.gmdsp.org.uk/def/council/recycling/recycling-type/shoes> ;
+        skos:hasTopConcept <http://data.gmdsp.org.uk/def/council/recycling/recycling-type/books> ;
+        skos:hasTopConcept <http://data.gmdsp.org.uk/def/council/recycling/recycling-type/cartons> ;
+        skos:hasTopConcept <http://data.gmdsp.org.uk/def/council/recycling/recycling-type/furniture> ;
+        skos:hasTopConcept <http://data.gmdsp.org.uk/def/council/recycling/recycling-type/hard-plastic> ;
+        skos:hasTopConcept <http://data.gmdsp.org.uk/def/council/recycling/recycling-type/cardboard> ;
+        skos:hasTopConcept <http://data.gmdsp.org.uk/def/council/recycling/recycling-type/foil> ;
+        skos:hasTopConcept <http://data.gmdsp.org.uk/def/council/recycling/recycling-type/aerosols> ;
+        skos:hasTopConcept <http://data.gmdsp.org.uk/def/council/recycling/recycling-type/textiles> .
+
+<http://data.gmdsp.org.uk/def/council/recycling/recycling-type/extra-facilities> skos:inScheme <http://data.gmdsp.org.uk/def/council/recycling/recycling-type> ;
+        a skos:Concept ;
+        rdfs:label "Extra Facilities" ;
+        skos:prefLabel "Extra Facilities" ;
+        skos:definition "The recycling centre has extra facilities" .
+
+<http://data.gmdsp.org.uk/def/council/recycling/recycling-type/paper> skos:inScheme <http://data.gmdsp.org.uk/def/council/recycling/recycling-type> ;
+        a skos:Concept ;
+        rdfs:label "Paper recycling" ;
+        skos:prefLabel "Paper recycling" ;
+        skos:definition "The recycling centre has paper recycling facilities" .
+
+<http://data.gmdsp.org.uk/def/council/recycling/recycling-type/glass> skos:inScheme <http://data.gmdsp.org.uk/def/council/recycling/recycling-type> ;
+        a skos:Concept ;
+        rdfs:label "Glass" ;
+        skos:prefLabel "Glass" ;
+        skos:definition "The recycling centre has glass recycling facilities" .
+
+<http://data.gmdsp.org.uk/def/council/recycling/recycling-type/cans> skos:inScheme <http://data.gmdsp.org.uk/def/council/recycling/recycling-type> ;
+        a skos:Concept ;
+        rdfs:label "Cans" ;
+        skos:prefLabel "Cans" ;
+        skos:definition "The recycling centre has can recycling facilities" .
+
+<http://data.gmdsp.org.uk/def/council/recycling/recycling-type/plastic> skos:inScheme <http://data.gmdsp.org.uk/def/council/recycling/recycling-type> ;
+        a skos:Concept ;
+        rdfs:label "Plastic" ;
+        skos:prefLabel "Plastic" ;
+        skos:definition "The recycling centre has plastic recycling facilities" .
+
+<http://data.gmdsp.org.uk/def/council/recycling/recycling-type/shoes> skos:inScheme <http://data.gmdsp.org.uk/def/council/recycling/recycling-type> ;
+        a skos:Concept ;
+        rdfs:label "Shoes" ;
+        skos:prefLabel "Shoes" ;
+        skos:definition "The recycling centre has shoe recycling facilities" .
+
+<http://data.gmdsp.org.uk/def/council/recycling/recycling-type/books> skos:inScheme <http://data.gmdsp.org.uk/def/council/recycling/recycling-type> ;
+        a skos:Concept ;
+        rdfs:label "Books" ;
+        skos:prefLabel "Books" ;
+        skos:definition "The recycling centre has book recycling facilities" .
+
+<http://data.gmdsp.org.uk/def/council/recycling/recycling-type/cartons> skos:inScheme <http://data.gmdsp.org.uk/def/council/recycling/recycling-type> ;
+        a skos:Concept ;
+        rdfs:label "Cartons" ;
+        skos:prefLabel "Cartons" ;
+        skos:definition "The recycling centre recycling facilities for cartons eg tetrapak" .
+
+<http://data.gmdsp.org.uk/def/council/recycling/recycling-type/furniture> skos:inScheme <http://data.gmdsp.org.uk/def/council/recycling/recycling-type> ;
+       a skos:Concept ;
+       rdfs:label "Furniture" ;
+       skos:prefLabel "Furniture" ;
+       skos:definition "The recycling centre has furniture recycling facilities" .
+
+<http://data.gmdsp.org.uk/def/council/recycling/recycling-type/hard-plastic> skos:inScheme <http://data.gmdsp.org.uk/def/council/recycling/recycling-type> ;
+       a skos:Concept ;
+       rdfs:label "Hard plastic" ;
+       skos:prefLabel "Hard plastic" ;
+       skos:definition "The recycling centre has hard plastic recycling facilities" .
+
+<http://data.gmdsp.org.uk/def/council/recycling/recycling-type/textiles> skos:inScheme <http://data.gmdsp.org.uk/def/council/recycling/recycling-type> ;
+       a skos:Concept ;
+       rdfs:label "Textiles" ;
+       skos:prefLabel "Textiles" ;
+       skos:definition "The recycling centre has textile recycling facilities" .
+
+<http://data.gmdsp.org.uk/def/council/recycling/recycling-type/cardboard> skos:inScheme <http://data.gmdsp.org.uk/def/council/recycling/recycling-type> ;
+       a skos:Concept ;
+       rdfs:label "Cardboard" ;
+       skos:prefLabel "Cardboard" ;
+       skos:definition "The recycling centre has cardboard recycling facilities" .
+	
+<http://data.gmdsp.org.uk/def/council/recycling/recycling-type/foil> skos:inScheme <http://data.gmdsp.org.uk/def/council/recycling/recycling-type> ;
+       a skos:Concept ;
+       rdfs:label "Foil" ;
+       skos:prefLabel "Foil" ;
+       skos:definition "The recycling centre has foil recycling facilities" .
+	
+<http://data.gmdsp.org.uk/def/council/recycling/recycling-type/aerosol> skos:inScheme <http://data.gmdsp.org.uk/def/council/recycling/recycling-type> ;
+	  a skos:Concept ;
+	  rdfs:label "Aerosol" ;
+	  skos:prefLabel "Aerosol" ;
+	  skos:definition "The recycling centre has aerosol recycling facilities" .

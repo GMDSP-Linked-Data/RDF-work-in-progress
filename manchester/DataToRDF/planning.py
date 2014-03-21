@@ -98,7 +98,7 @@ class Store:
         self.graph.add((allotment, SUB['dateSubmitted'], URIRef('http://reference.data.gov.uk/id/day/'+time.strftime('%Y-%m-%d',dateapval))))
         self.graph.add((allotment, al['hasDecision'], URIRef('http://data.gmdsp.org.uk/def/council/neighbourhood/planning/dissision/'+dissision.replace (" ", "-").lower())))
         self.graph.add((allotment, al['applicationType'], URIRef('http://data.gmdsp.org.uk/def/council/neighbourhood/planning/application-type/'+application_type.replace (" ", "-").lower())))
-        self.graph.add((allotment, GEO["ward"], Literal(ward)))
+        self.graph.add((allotment, GEO["ward"], URIRef("http://data.ordnancesurvey.co.uk/ontology/postcode/ward/"+ward)))
         #self.graph.add((allotment, DC['date'], Literal(plot_size)))
         #self.graph.add((allotment, GEO['rating'], Literal(rent)))
 
