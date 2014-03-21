@@ -7,7 +7,8 @@
 @prefix dcterms: <http://purl.org/dc/terms/> .
 
 <http://data.gmdsp.org.uk/def/council/allotment/Plot>
-        rdfs:label       "Part of an allotment which has been split into smaller areas"^^xsd:string ;
+        rdfs:label       "Plot"^^xsd:string ;
+        rdfs:comment "Part of an allotment which has been split into smaller areas" ;
         rdfs:subClassOf  <http://data.smartcityconceptmodel.com/model#Object> ;
         rdfs:isDefinedBy <http://data.gmdsp.org.uk/def/council/allotment> .
 
@@ -77,7 +78,7 @@
 
 <http://data.gmdsp.org.uk/def/council/allotment/Allotment>
         a                rdfs:Class, owl:Class ;
-        rdfs:label       "An RDF class to describe an Allotment"^^xsd:string ;
+        rdfs:label       "Allotment"^^xsd:string ;
         rdfs:subClassOf  <http://data.smartcityconceptmodel.com/model#Object> ;
         rdfs:isDefinedBy <http://data.gmdsp.org.uk/def/council/allotment> .
 
