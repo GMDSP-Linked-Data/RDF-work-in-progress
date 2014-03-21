@@ -1,0 +1,243 @@
+<?xml version="1.0" encoding="utf-8"?>
+<rdf:RDF
+  xmlns:ns1="http://data.gmdsp.org.uk/def/council/"
+  xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+  xmlns:os="http://data.ordnancesurvey.co.uk/ontology/spatialrelations/"
+  xmlns:vcard="http://www.w3.org/2006/vcard/ns#"
+  xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
+>
+  <ns1:allotment rdf:about="http://data.gmdsp.org.uk/id/salford/allotments/beechfield-allotments">
+    <os:northing>400182</os:northing>
+    <rdfs:label>Beechfield Allotments</rdfs:label>
+    <vcard:adr rdf:resource="http://data.gmdsp.org.uk/def/council/allotment/address/beechfield_allotments_south_avenue_swinton_manchester_m27_5rp_"/>
+    <os:easting>377091</os:easting>
+  </ns1:allotment>
+  <ns1:allotment rdf:about="http://data.gmdsp.org.uk/id/salford/allotments/clovelly-road-allotments">
+    <rdfs:label>Clovelly Road Allotments</rdfs:label>
+    <os:northing>401040</os:northing>
+    <vcard:adr rdf:resource="http://data.gmdsp.org.uk/def/council/allotment/address/clovelly_road_allotments_norwood_drive_swinton_manchester_m27_0fu_"/>
+    <os:easting>376465</os:easting>
+  </ns1:allotment>
+  <ns1:allotment rdf:about="http://data.gmdsp.org.uk/id/salford/allotments/tynesbank-allotments">
+    <os:northing>403199</os:northing>
+    <os:easting>373197</os:easting>
+    <rdfs:label>Tynesbank Allotments</rdfs:label>
+    <vcard:adr rdf:resource="http://data.gmdsp.org.uk/def/council/allotment/address/tynesbank_allotments_shearwater_drive_worsley_manchester_m28_0ah_"/>
+  </ns1:allotment>
+  <ns1:allotment rdf:about="http://data.gmdsp.org.uk/id/salford/allotments/littleton-road-allotments">
+    <os:easting>381687</os:easting>
+    <rdfs:label>Littleton Road Allotments</rdfs:label>
+    <os:northing>400626</os:northing>
+    <vcard:adr rdf:resource="http://data.gmdsp.org.uk/def/council/allotment/address/littleton_road_allotments_littleton_road_salford_m7_3tj_"/>
+  </ns1:allotment>
+  <ns1:allotment rdf:about="http://data.gmdsp.org.uk/id/salford/allotments/toad-lane-allotments">
+    <os:northing>401409</os:northing>
+    <rdfs:label>Toad Lane Allotments</rdfs:label>
+    <vcard:adr rdf:resource="http://data.gmdsp.org.uk/def/council/allotment/address/toad_lane_allotments_greenleach_lane_worsley_manchester_m28_2rr_"/>
+    <os:easting>375243</os:easting>
+  </ns1:allotment>
+  <ns1:allotment rdf:about="http://data.gmdsp.org.uk/id/salford/allotments/mountain-street-allotments">
+    <os:easting>373295</os:easting>
+    <vcard:adr rdf:resource="http://data.gmdsp.org.uk/def/council/allotment/address/mountain_street_allotments_mountain_street_worsley_manchester_m28_3rb_"/>
+    <rdfs:label>Mountain Street Allotments</rdfs:label>
+    <os:northing>403804</os:northing>
+  </ns1:allotment>
+  <ns1:allotment rdf:about="http://data.gmdsp.org.uk/id/salford/allotments/cumberland-avenue-allotments">
+    <vcard:adr rdf:resource="http://data.gmdsp.org.uk/def/council/allotment/address/cumberland_avenue_allotments_cumberland_avenue_cadishead_manchester_m44_5ef_"/>
+    <os:northing>391960</os:northing>
+    <os:easting>370390</os:easting>
+    <rdfs:label>Cumberland Avenue Allotments</rdfs:label>
+  </ns1:allotment>
+  <vcard:location rdf:about="http://data.gmdsp.org.uk/id/salford/allotments/address/linnyshaw_allotments_bracken_avenue_worsley_manchester_m28_3fy_">
+    <vcard:hasStreetAddress>Linnyshaw Allotments Bracken Avenue Worsley Manchester M28 3FY </vcard:hasStreetAddress>
+  </vcard:location>
+  <ns1:allotment rdf:about="http://data.gmdsp.org.uk/id/salford/allotments/addison-road-allotments">
+    <os:easting>373049</os:easting>
+    <os:northing>395664</os:northing>
+    <vcard:adr rdf:resource="http://data.gmdsp.org.uk/def/council/allotment/address/addison_road_allotments_addison_road_irlam_manchester_m44_6ep_"/>
+    <rdfs:label>Addison Road Allotments</rdfs:label>
+  </ns1:allotment>
+  <vcard:location rdf:about="http://data.gmdsp.org.uk/id/salford/allotments/address/moss_lane_allotments_chelford_drive_swinton_manchester_m27_9ht_">
+    <vcard:hasStreetAddress>Moss Lane Allotments Chelford Drive Swinton Manchester M27 9HT </vcard:hasStreetAddress>
+  </vcard:location>
+  <vcard:location rdf:about="http://data.gmdsp.org.uk/id/salford/allotments/address/townsend_road_allotments_townsend_road_pendlebury_swinton_manchester_m27_6ed_">
+    <vcard:hasStreetAddress>Townsend Road Allotments Townsend Road Pendlebury Swinton Manchester M27 6ED </vcard:hasStreetAddress>
+  </vcard:location>
+  <ns1:allotment rdf:about="http://data.gmdsp.org.uk/id/salford/allotments/poorlots-allotments">
+    <os:northing>392896</os:northing>
+    <vcard:adr rdf:resource="http://data.gmdsp.org.uk/def/council/allotment/address/poorlots_allotments_allotment_road_cadishead_manchester_m44_5jd_"/>
+    <rdfs:label>Poorlots Allotments</rdfs:label>
+    <os:easting>370854</os:easting>
+  </ns1:allotment>
+  <ns1:allotment rdf:about="http://data.gmdsp.org.uk/id/salford/allotments/linnyshaw-allotments">
+    <rdfs:label>Linnyshaw Allotments</rdfs:label>
+    <os:easting>374342</os:easting>
+    <os:northing>403055</os:northing>
+    <vcard:adr rdf:resource="http://data.gmdsp.org.uk/def/council/allotment/address/linnyshaw_allotments_bracken_avenue_worsley_manchester_m28_3fy_"/>
+  </ns1:allotment>
+  <ns1:allotment rdf:about="http://data.gmdsp.org.uk/id/salford/allotments/destructor-site-allotments">
+    <rdfs:label>Destructor Site Allotments</rdfs:label>
+    <os:easting>377678</os:easting>
+    <vcard:adr rdf:resource="http://data.gmdsp.org.uk/def/council/allotment/address/destructor_site_allotments_mossfield_road_pendlebury_swinton_manchester_m27_6eh_"/>
+    <os:northing>402418</os:northing>
+  </ns1:allotment>
+  <ns1:allotment rdf:about="http://data.gmdsp.org.uk/id/salford/allotments/cleavley-allotments">
+    <os:northing>399323</os:northing>
+    <vcard:adr rdf:resource="http://data.gmdsp.org.uk/def/council/allotment/address/cleavley_allotments_blantyre_street_eccles_manchester_m30_8hy_"/>
+    <rdfs:label>Cleavley Allotments</rdfs:label>
+    <os:easting>375152</os:easting>
+  </ns1:allotment>
+  <ns1:allotment rdf:about="http://data.gmdsp.org.uk/id/salford/allotments/weaste-allotments">
+    <os:easting>379229</os:easting>
+    <os:northing>398817</os:northing>
+    <rdfs:label>Weaste Allotments</rdfs:label>
+    <vcard:adr rdf:resource="http://data.gmdsp.org.uk/def/council/allotment/address/weaste_allotments_don_avenue_salford_m6_8dz_"/>
+  </ns1:allotment>
+  <ns1:allotment rdf:about="http://data.gmdsp.org.uk/id/salford/allotments/lorne-street-allotments">
+    <os:northing>397897</os:northing>
+    <rdfs:label>Lorne Street Allotments</rdfs:label>
+    <os:easting>375791</os:easting>
+    <vcard:adr rdf:resource="http://data.gmdsp.org.uk/def/council/allotment/address/lorne_street_allotments_lorne_street_eccles_manchester_m30_7bt_"/>
+  </ns1:allotment>
+  <vcard:location rdf:about="http://data.gmdsp.org.uk/id/salford/allotments/address/littleton_road_allotments_littleton_road_salford_m7_3tj_">
+    <vcard:hasStreetAddress>Littleton Road Allotments Littleton Road Salford M7 3TJ </vcard:hasStreetAddress>
+  </vcard:location>
+  <ns1:allotment rdf:about="http://data.gmdsp.org.uk/id/salford/allotments/hilton-lane-allotments">
+    <os:easting>373196</os:easting>
+    <rdfs:label>Hilton Lane Allotments</rdfs:label>
+    <os:northing>402424</os:northing>
+    <vcard:adr rdf:resource="http://data.gmdsp.org.uk/def/council/allotment/address/hilton_lane_allotments_hilton_lane_worsley_manchester_m28_3tl_"/>
+  </ns1:allotment>
+  <vcard:location rdf:about="http://data.gmdsp.org.uk/id/salford/allotments/address/weaste_allotments_don_avenue_salford_m6_8dz_">
+    <vcard:hasStreetAddress>Weaste Allotments Don Avenue Salford M6 8DZ </vcard:hasStreetAddress>
+  </vcard:location>
+  <vcard:location rdf:about="http://data.gmdsp.org.uk/id/salford/allotments/address/tindall_street_allotments_tindall_street_eccles_manchester_m30_7df_">
+    <vcard:hasStreetAddress>Tindall Street Allotments Tindall Street Eccles Manchester M30 7DF </vcard:hasStreetAddress>
+  </vcard:location>
+  <vcard:location rdf:about="http://data.gmdsp.org.uk/id/salford/allotments/address/lorne_street_allotments_lorne_street_eccles_manchester_m30_7bt_">
+    <vcard:hasStreetAddress>Lorne Street Allotments Lorne Street Eccles Manchester M30 7BT </vcard:hasStreetAddress>
+  </vcard:location>
+  <vcard:location rdf:about="http://data.gmdsp.org.uk/id/salford/allotments/address/blackleach_allotments_harcourt_street_worsley_manchester_m28_3gn_">
+    <vcard:hasStreetAddress>Blackleach Allotments Harcourt Street Worsley Manchester M28 3GN </vcard:hasStreetAddress>
+  </vcard:location>
+  <vcard:location rdf:about="http://data.gmdsp.org.uk/id/salford/allotments/address/dixon_street_allotments_dixon_street_irlam_manchester_m44_6ad_">
+    <vcard:hasStreetAddress>Dixon Street Allotments Dixon Street Irlam Manchester M44 6AD </vcard:hasStreetAddress>
+  </vcard:location>
+  <vcard:location rdf:about="http://data.gmdsp.org.uk/id/salford/allotments/address/cumberland_avenue_allotments_cumberland_avenue_cadishead_manchester_m44_5ef_">
+    <vcard:hasStreetAddress>Cumberland Avenue Allotments Cumberland Avenue Cadishead Manchester M44 5EF </vcard:hasStreetAddress>
+  </vcard:location>
+  <vcard:location rdf:about="http://data.gmdsp.org.uk/id/salford/allotments/address/cleavley_allotments_blantyre_street_eccles_manchester_m30_8hy_">
+    <vcard:hasStreetAddress>Cleavley Allotments Blantyre Street Eccles Manchester M30 8HY </vcard:hasStreetAddress>
+  </vcard:location>
+  <ns1:allotment rdf:about="http://data.gmdsp.org.uk/id/salford/allotments/townsend-road-allotments">
+    <os:easting>378056</os:easting>
+    <os:northing>402145</os:northing>
+    <rdfs:label>Townsend Road Allotments</rdfs:label>
+    <vcard:adr rdf:resource="http://data.gmdsp.org.uk/def/council/allotment/address/townsend_road_allotments_townsend_road_pendlebury_swinton_manchester_m27_6ed_"/>
+  </ns1:allotment>
+  <ns1:allotment rdf:about="http://data.gmdsp.org.uk/id/salford/allotments/bingham-street-allotments">
+    <rdfs:label>Bingham Street Allotments</rdfs:label>
+    <os:northing>401579</os:northing>
+    <os:easting>377954</os:easting>
+    <vcard:adr rdf:resource="http://data.gmdsp.org.uk/def/council/allotment/address/swinton_and_pendlebury_gardening_association_bingham_street_allotments_bingham_street_swinton_manchester_m27_4aq_"/>
+  </ns1:allotment>
+  <ns1:allotment rdf:about="http://data.gmdsp.org.uk/id/salford/allotments/cawdor-street-allotments">
+    <os:northing>402875</os:northing>
+    <rdfs:label>Cawdor Street Allotments</rdfs:label>
+    <vcard:adr rdf:resource="http://data.gmdsp.org.uk/def/council/allotment/address/cawdor_street_allotments_cawdor_street_worsley_manchester_m28_3hf_"/>
+    <os:easting>374411</os:easting>
+  </ns1:allotment>
+  <ns1:allotment rdf:about="http://data.gmdsp.org.uk/id/salford/allotments/tindall-street-allotments">
+    <rdfs:label>Tindall Street Allotments</rdfs:label>
+    <os:northing>397630</os:northing>
+    <vcard:adr rdf:resource="http://data.gmdsp.org.uk/def/council/allotment/address/tindall_street_allotments_tindall_street_eccles_manchester_m30_7df_"/>
+    <os:easting>375485</os:easting>
+  </ns1:allotment>
+  <ns1:allotment rdf:about="http://data.gmdsp.org.uk/id/salford/allotments/newhall-avenue-allotments">
+    <os:northing>397525</os:northing>
+    <rdfs:label>Newhall Avenue Allotments</rdfs:label>
+    <os:easting>375243</os:easting>
+    <vcard:adr rdf:resource="http://data.gmdsp.org.uk/def/council/allotment/address/newhall_avenue_allotments_new_hall_avenue_eccles_manchester_m30_7lf_"/>
+  </ns1:allotment>
+  <ns1:allotment rdf:about="http://data.gmdsp.org.uk/id/salford/allotments/dixon-street-allotments">
+    <os:northing>393763</os:northing>
+    <vcard:adr rdf:resource="http://data.gmdsp.org.uk/def/council/allotment/address/dixon_street_allotments_dixon_street_irlam_manchester_m44_6ad_"/>
+    <rdfs:label>Dixon Street Allotments</rdfs:label>
+    <os:easting>371495</os:easting>
+  </ns1:allotment>
+  <ns1:allotment rdf:about="http://data.gmdsp.org.uk/id/salford/allotments/victoria-allotments">
+    <os:northing>401520</os:northing>
+    <rdfs:label>Victoria Allotments</rdfs:label>
+    <vcard:adr rdf:resource="http://data.gmdsp.org.uk/def/council/allotment/address/victoria_allotments_park_avenue_swinton_manchester_m27_4tz_"/>
+    <os:easting>378366</os:easting>
+  </ns1:allotment>
+  <ns1:allotment rdf:about="http://data.gmdsp.org.uk/id/salford/allotments/moss-lane-allotments">
+    <vcard:adr rdf:resource="http://data.gmdsp.org.uk/def/council/allotment/address/moss_lane_allotments_chelford_drive_swinton_manchester_m27_9ht_"/>
+    <rdfs:label>Moss Lane Allotments</rdfs:label>
+    <os:northing>402819</os:northing>
+    <os:easting>377476</os:easting>
+  </ns1:allotment>
+  <vcard:location rdf:about="http://data.gmdsp.org.uk/id/salford/allotments/address/newhall_avenue_allotments_new_hall_avenue_eccles_manchester_m30_7lf_">
+    <vcard:hasStreetAddress>Newhall Avenue Allotments New Hall Avenue Eccles Manchester M30 7LF </vcard:hasStreetAddress>
+  </vcard:location>
+  <vcard:location rdf:about="http://data.gmdsp.org.uk/id/salford/allotments/address/tynesbank_allotments_shearwater_drive_worsley_manchester_m28_0ah_">
+    <vcard:hasStreetAddress>Tynesbank Allotments Shearwater Drive Worsley Manchester M28 0AH </vcard:hasStreetAddress>
+  </vcard:location>
+  <vcard:location rdf:about="http://data.gmdsp.org.uk/id/salford/allotments/address/toad_lane_allotments_greenleach_lane_worsley_manchester_m28_2rr_">
+    <vcard:hasStreetAddress>Toad Lane Allotments Greenleach Lane Worsley Manchester M28 2RR </vcard:hasStreetAddress>
+  </vcard:location>
+  <vcard:location rdf:about="http://data.gmdsp.org.uk/id/salford/allotments/address/destructor_site_allotments_mossfield_road_pendlebury_swinton_manchester_m27_6eh_">
+    <vcard:hasStreetAddress>Destructor Site Allotments Mossfield Road Pendlebury Swinton Manchester M27 6EH </vcard:hasStreetAddress>
+  </vcard:location>
+  <vcard:location rdf:about="http://data.gmdsp.org.uk/id/salford/allotments/address/poorlots_allotments_allotment_road_cadishead_manchester_m44_5jd_">
+    <vcard:hasStreetAddress>Poorlots Allotments Allotment Road Cadishead Manchester M44 5JD </vcard:hasStreetAddress>
+  </vcard:location>
+  <vcard:location rdf:about="http://data.gmdsp.org.uk/id/salford/allotments/address/beechfield_allotments_south_avenue_swinton_manchester_m27_5rp_">
+    <vcard:hasStreetAddress>Beechfield Allotments South Avenue Swinton Manchester M27 5RP </vcard:hasStreetAddress>
+  </vcard:location>
+  <vcard:location rdf:about="http://data.gmdsp.org.uk/id/salford/allotments/address/cotton_street_allotments_fitton_crescent_clifton_swinton_manchester_m27_6pj_">
+    <vcard:hasStreetAddress>Cotton Street Allotments Fitton Crescent Clifton Swinton Manchester M27 6PJ </vcard:hasStreetAddress>
+  </vcard:location>
+  <vcard:location rdf:about="http://data.gmdsp.org.uk/id/salford/allotments/address/swinton_and_pendlebury_gardening_association_bingham_street_allotments_bingham_street_swinton_manchester_m27_4aq_">
+    <vcard:hasStreetAddress>Swinton And Pendlebury Gardening Association Bingham Street Allotments Bingham Street Swinton Manchester M27 4AQ </vcard:hasStreetAddress>
+  </vcard:location>
+  <vcard:location rdf:about="http://data.gmdsp.org.uk/id/salford/allotments/address/hilton_lane_allotments_hilton_lane_worsley_manchester_m28_3tl_">
+    <vcard:hasStreetAddress>Hilton Lane Allotments Hilton Lane Worsley Manchester M28 3TL </vcard:hasStreetAddress>
+  </vcard:location>
+  <ns1:allotment rdf:about="http://data.gmdsp.org.uk/id/salford/allotments/corrie-street-allotments">
+    <rdfs:label>Corrie Street Allotments</rdfs:label>
+    <os:easting>372433</os:easting>
+    <os:northing>403692</os:northing>
+    <vcard:adr rdf:resource="http://data.gmdsp.org.uk/def/council/allotment/address/corrie_street_allotments_corrie_street_little_hulton_manchester_m38_9wg_"/>
+  </ns1:allotment>
+  <ns1:allotment rdf:about="http://data.gmdsp.org.uk/id/salford/allotments/blackleach-allotments">
+    <vcard:adr rdf:resource="http://data.gmdsp.org.uk/def/council/allotment/address/blackleach_allotments_harcourt_street_worsley_manchester_m28_3gn_"/>
+    <rdfs:label>Blackleach Allotments</rdfs:label>
+    <os:northing>404201</os:northing>
+    <os:easting>373690</os:easting>
+  </ns1:allotment>
+  <vcard:location rdf:about="http://data.gmdsp.org.uk/id/salford/allotments/address/mountain_street_allotments_mountain_street_worsley_manchester_m28_3rb_">
+    <vcard:hasStreetAddress>Mountain Street Allotments Mountain Street Worsley Manchester M28 3RB </vcard:hasStreetAddress>
+  </vcard:location>
+  <vcard:location rdf:about="http://data.gmdsp.org.uk/id/salford/allotments/address/addison_road_allotments_addison_road_irlam_manchester_m44_6ep_">
+    <vcard:hasStreetAddress>Addison Road Allotments Addison Road Irlam Manchester M44 6EP </vcard:hasStreetAddress>
+  </vcard:location>
+  <vcard:location rdf:about="http://data.gmdsp.org.uk/id/salford/allotments/address/cawdor_street_allotments_cawdor_street_worsley_manchester_m28_3hf_">
+    <vcard:hasStreetAddress>Cawdor Street Allotments Cawdor Street Worsley Manchester M28 3HF </vcard:hasStreetAddress>
+  </vcard:location>
+  <vcard:location rdf:about="http://data.gmdsp.org.uk/id/salford/allotments/address/corrie_street_allotments_corrie_street_little_hulton_manchester_m38_9wg_">
+    <vcard:hasStreetAddress>Corrie Street Allotments Corrie Street Little Hulton Manchester M38 9WG </vcard:hasStreetAddress>
+  </vcard:location>
+  <ns1:allotment rdf:about="http://data.gmdsp.org.uk/id/salford/allotments/cotton-street-allotments">
+    <os:northing>403130</os:northing>
+    <vcard:adr rdf:resource="http://data.gmdsp.org.uk/def/council/allotment/address/cotton_street_allotments_fitton_crescent_clifton_swinton_manchester_m27_6pj_"/>
+    <rdfs:label>Cotton Street Allotments</rdfs:label>
+    <os:easting>377760</os:easting>
+  </ns1:allotment>
+  <vcard:location rdf:about="http://data.gmdsp.org.uk/id/salford/allotments/address/clovelly_road_allotments_norwood_drive_swinton_manchester_m27_0fu_">
+    <vcard:hasStreetAddress>Clovelly Road Allotments Norwood Drive Swinton Manchester M27 0FU </vcard:hasStreetAddress>
+  </vcard:location>
+  <vcard:location rdf:about="http://data.gmdsp.org.uk/id/salford/allotments/address/victoria_allotments_park_avenue_swinton_manchester_m27_4tz_">
+    <vcard:hasStreetAddress>Victoria Allotments Park Avenue Swinton Manchester M27 4TZ </vcard:hasStreetAddress>
+  </vcard:location>
+</rdf:RDF>
