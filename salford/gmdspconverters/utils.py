@@ -16,7 +16,7 @@ QB = Namespace('http://purl.org/linked-data/cube#')
 def idify(s):
     return s.replace(" ", "-").replace(",","-").lower()
 
-def create_graph(output_path):
+def create_graph():
 
     graph = Graph()
     graph.bind('os', OS)
