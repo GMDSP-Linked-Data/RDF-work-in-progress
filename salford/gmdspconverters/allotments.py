@@ -30,7 +30,7 @@ graph.bind('geo', GEO)
 graph.bind('vcard', VCARD)
 graph.bind('scheme', SCHEME)
 
-reader = csv.DictReader(open('../allotments/allotments.csv', mode='r'))
+reader = csv.DictReader(open('../sourcedata/allotments/allotments.csv', mode='r'))
 for row in reader:
     allotment = al[row["Name"].replace(" ", "-").lower()] # @@ humanize the identifier (something like #rev-$date)
     graph.add((allotment, RDF.type, URIRef('http://data.gmdsp.org.uk/def/council/allotment')))
