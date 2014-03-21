@@ -23,6 +23,8 @@ For example:
 __author__ = 'jond'
 
 import argparse
+import importlib
+from gmdspconverters import utils
 
 parser = argparse.ArgumentParser(description="Command line module for access to the GMDSP converters.")
 parser.add_argument(
@@ -37,9 +39,22 @@ parser.add_argument("-o", type=str, required=True, help="The output file.")
 
 args = parser.parse_args()
 
+
+MODULE_MAP = {
+    'allotments': 'allotments',
+    'gritting': 'gritting',
+    'parking': 'parking',
+    'planning': 'planning',
+    'recycling': 'recycling',
+    'streetlight': 'streetlight',
+}
+
 def main(convertertype, inputfile_path, outputfile_path):
-    pass
+    m = importlib.import_module('gmdspconverters.' + MODULE_MAP[convertertype])
+    g = utils.create_graph(outputfile_path)
+    m.convert(g, inputfile_path)
+    utils.output_graph(outputfile_path)
 
 
 if __name__ == "__main__":
-    main()
+    main(args.converter, args.i, args.o)
