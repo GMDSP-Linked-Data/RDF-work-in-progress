@@ -8,6 +8,8 @@ from rdflib import URIRef, Literal, Namespace, RDF
 from gmdspconverters import utils
 
 al = Namespace('http://data.gmdsp.org.uk/id/salford/street-lights/')
+STREETLIGHT = Namespace('http://data.gmdsp.org.uk/def/council/streetlighting/')
+
 
 def convert(graph, input_path):
 
@@ -30,12 +32,12 @@ def convert(graph, input_path):
         # street light specific stuff
         if row["LAMP WATTAGE"]:
             watts = re.findall('\d+', row["LAMP WATTAGE"])[0]
-            graph.add((sl, al['wattage'], Literal(watts)))
-        graph.add((sl, al['lampType'], Literal(row["LAMP TYPE"])))
+            graph.add((sl, STREETLIGHT['wattage'], Literal(watts)))
+        graph.add((sl, STREETLIGHT['lampType'], Literal(row["LAMP TYPE"])))
 
         if row["Mounting Height                                  "]:
             height = re.findall('\d+', row["Mounting Height                                  "])[0]
-            graph.add((sl, al['columnHeight'], Literal(height)))
+            graph.add((sl, STREETLIGHT['columnHeight'], Literal(height)))
 
 
 
