@@ -3,6 +3,29 @@
 
 <http://data.gmdsp.org.uk/def/council/planning/planning-application-status> a skos:ConceptScheme ;
         skos:hasTopConcept <http://data.gmdsp.org.uk/def/council/planning/planning-application-status/approved> ;
+        skos:hasTopConcept <http://data.gmdsp.org.uk/def/council/planning/planning-application-status/approved-and-refused> ;
+        skos:hasTopConcept <http://data.gmdsp.org.uk/def/council/planning/planning-application-status/deemed-approval> ;
+        skos:hasTopConcept <http://data.gmdsp.org.uk/def/council/planning/planning-application-status/not-proceeded-with> ;
+        skos:hasTopConcept <http://data.gmdsp.org.uk/def/council/planning/planning-application-status/permitted-development> ;
+        skos:hasTopConcept <http://data.gmdsp.org.uk/def/council/planning/planning-application-status/secretary-of-state-refused> ;
+        skos:hasTopConcept <http://data.gmdsp.org.uk/def/council/planning/planning-application-status/temporary-approval> ;
+        skos:hasTopConcept <http://data.gmdsp.org.uk/def/council/planning/planning-application-status/not-development> ;
+        skos:hasTopConcept <http://data.gmdsp.org.uk/def/council/planning/planning-application-status/refused-and-enforced> ;
+        skos:hasTopConcept <http://data.gmdsp.org.uk/def/council/planning/planning-application-status/finally-disposed-of> ;
+        skos:hasTopConcept <http://data.gmdsp.org.uk/def/council/planning/planning-application-status/appeal-against-non-determination> ;
+        skos:hasTopConcept <http://data.gmdsp.org.uk/def/council/planning/planning-application-status/application-closed> ;
+        skos:hasTopConcept <http://data.gmdsp.org.uk/def/council/planning/planning-application-status/not-required> ;
+        skos:hasTopConcept <http://data.gmdsp.org.uk/def/council/planning/planning-application-status/secretary-of-state-approved> ;
+        skos:hasTopConcept <http://data.gmdsp.org.uk/def/council/planning/planning-application-status/withdrawn-prior-to-validation> ;
+        skos:hasTopConcept <http://data.gmdsp.org.uk/def/council/planning/planning-application-status/no-objection> ;
+        skos:hasTopConcept <http://data.gmdsp.org.uk/def/council/planning/planning-application-status/objection> ;
+        skos:hasTopConcept <http://data.gmdsp.org.uk/def/council/planning/planning-application-status/held-in-abeyance> ;
+        skos:hasTopConcept <http://data.gmdsp.org.uk/def/council/planning/planning-application-status/appeal-allowed> ;
+        skos:hasTopConcept <http://data.gmdsp.org.uk/def/council/planning/planning-application-status/decline-to-determine-application> ;
+        skos:hasTopConcept <http://data.gmdsp.org.uk/def/council/planning/planning-application-status/superceded> ;
+        skos:hasTopConcept <http://data.gmdsp.org.uk/def/council/planning/planning-application-status/approved-extension> ;
+        skos:hasTopConcept <http://data.gmdsp.org.uk/def/council/planning/planning-application-status/conditional-extension> ;
+        skos:hasTopConcept <http://data.gmdsp.org.uk/def/council/planning/planning-application-status/permitted-change-of-use> ;
         skos:hasTopConcept <http://data.gmdsp.org.uk/def/council/planning/planning-application-status/refused> ;
         skos:hasTopConcept <http://data.gmdsp.org.uk/def/council/planning/planning-application-status/withdrawn> .
 
@@ -23,3 +46,141 @@
         rdfs:label "Application withdrawn" ;
         skos:prefLabel "Application withdrawn" ;
         skos:definition "The planning application was withdrawn by the applicant" .
+
+<http://data.gmdsp.org.uk/def/council/planning/planning-application-status/approved-and-refused> skos:inScheme <http://data.gmdsp.org.uk/def/council/planning/planning-application-status> ;
+        a skos:Concept ;
+        rdfs:label "Application approved and refused" ;
+        skos:prefLabel "Application approved and refused" ;
+        skos:definition "The planning application was approved and refused" .
+
+<http://data.gmdsp.org.uk/def/council/planning/planning-application-status/deemed-approval> skos:inScheme <http://data.gmdsp.org.uk/def/council/planning/planning-application-status> ;
+        a skos:Concept ;
+        rdfs:label "Deemed approval" ;
+        skos:prefLabel "Deemed approval" ;
+        skos:definition "The planning application was deemed approved" .
+
+<http://data.gmdsp.org.uk/def/council/planning/planning-application-status/not-proceeded-with> skos:inScheme <http://data.gmdsp.org.uk/def/council/planning/planning-application-status> ;
+        a skos:Concept ;
+        rdfs:label "Not proceeded with" ;
+        skos:prefLabel "Not proceeded with" ;
+        skos:definition "The planning application was not proceeded with" .
+
+<http://data.gmdsp.org.uk/def/council/planning/planning-application-status/permitted-development> skos:inScheme <http://data.gmdsp.org.uk/def/council/planning/planning-application-status> ;
+        a skos:Concept ;
+        rdfs:label "Permitted development" ;
+        skos:prefLabel "Permitted development" ;
+        skos:definition "The planning application was permitted development" .
+
+<http://data.gmdsp.org.uk/def/council/planning/planning-application-status/secretary-of-state-refused> skos:inScheme <http://data.gmdsp.org.uk/def/council/planning/planning-application-status> ;
+        a skos:Concept ;
+        rdfs:label "Secretary of state refused" ;
+        skos:prefLabel "Secretary of state refused" ;
+        skos:definition "The planning application was refused by the secretary of state" .
+
+<http://data.gmdsp.org.uk/def/council/planning/planning-application-status/temporary-approval> skos:inScheme <http://data.gmdsp.org.uk/def/council/planning/planning-application-status> ;
+        a skos:Concept ;
+        rdfs:label "Temporary approval" ;
+        skos:prefLabel "Temporary approval" ;
+        skos:definition "The planning application was granted temporary approval" .
+
+<http://data.gmdsp.org.uk/def/council/planning/planning-application-status/not-development> skos:inScheme <http://data.gmdsp.org.uk/def/council/planning/planning-application-status> ;
+        a skos:Concept ;
+        rdfs:label "Not development" ;
+        skos:prefLabel "Not development" ;
+        skos:definition "The planning application status is not development" .
+
+<http://data.gmdsp.org.uk/def/council/planning/planning-application-status/refused-and-enforced> skos:inScheme <http://data.gmdsp.org.uk/def/council/planning/planning-application-status> ;
+        a skos:Concept ;
+        rdfs:label "Refused and enforced" ;
+        skos:prefLabel "Refused and enforced" ;
+        skos:definition "The planning application was refused and enforced" .
+
+<http://data.gmdsp.org.uk/def/council/planning/planning-application-status/finally-disposed-of> skos:inScheme <http://data.gmdsp.org.uk/def/council/planning/planning-application-status> ;
+        a skos:Concept ;
+        rdfs:label "Finally disposed of" ;
+        skos:prefLabel "Finally disposed of" ;
+        skos:definition "The planning application was finally disposed of" .
+
+<http://data.gmdsp.org.uk/def/council/planning/planning-application-status/appeal-against-non-determination> skos:inScheme <http://data.gmdsp.org.uk/def/council/planning/planning-application-status> ;
+        a skos:Concept ;
+        rdfs:label "Appeal against non determination" ;
+        skos:prefLabel "Appeal against non determination" ;
+        skos:definition "The planning application is subject to an appeal against non determination" .
+
+<http://data.gmdsp.org.uk/def/council/planning/planning-application-status/application-closed> skos:inScheme <http://data.gmdsp.org.uk/def/council/planning/planning-application-status> ;
+        a skos:Concept ;
+        rdfs:label "Application closed" ;
+        skos:prefLabel "Application closed" ;
+        skos:definition "The planning application was closed" .
+
+<http://data.gmdsp.org.uk/def/council/planning/planning-application-status/not-required> skos:inScheme <http://data.gmdsp.org.uk/def/council/planning/planning-application-status> ;
+        a skos:Concept ;
+        rdfs:label "Not required" ;
+        skos:prefLabel "Not required" ;
+        skos:definition "The planning application was not required" .
+
+<http://data.gmdsp.org.uk/def/council/planning/planning-application-status/secretary-of-state-approved> skos:inScheme <http://data.gmdsp.org.uk/def/council/planning/planning-application-status> ;
+        a skos:Concept ;
+        rdfs:label "Secretary of state approved" ;
+        skos:prefLabel "Secretary of state approved" ;
+        skos:definition "The planning application was approved by the secretary of state" .
+
+<http://data.gmdsp.org.uk/def/council/planning/planning-application-status/withdrawn-prior-to-validation> skos:inScheme <http://data.gmdsp.org.uk/def/council/planning/planning-application-status> ;
+        a skos:Concept ;
+        rdfs:label "Withdrawn prior to validation" ;
+        skos:prefLabel "Withdrawn prior to validation" ;
+        skos:definition "The planning application was withdrawn prior to validation" .
+
+<http://data.gmdsp.org.uk/def/council/planning/planning-application-status/no-objection> skos:inScheme <http://data.gmdsp.org.uk/def/council/planning/planning-application-status> ;
+        a skos:Concept ;
+        rdfs:label "No objection" ;
+        skos:prefLabel "No objection" ;
+        skos:definition "The planning application had no objections" .
+
+<http://data.gmdsp.org.uk/def/council/planning/planning-application-status/objection> skos:inScheme <http://data.gmdsp.org.uk/def/council/planning/planning-application-status> ;
+        a skos:Concept ;
+        rdfs:label "Objection" ;
+        skos:prefLabel "Objection" ;
+        skos:definition "The planning application has objections" .
+
+<http://data.gmdsp.org.uk/def/council/planning/planning-application-status/held-in-abeyance> skos:inScheme <http://data.gmdsp.org.uk/def/council/planning/planning-application-status> ;
+        a skos:Concept ;
+        rdfs:label "Held in abeyance" ;
+        skos:prefLabel "Held in abeyance" ;
+        skos:definition "The planning application has been held in abeyance" .
+
+<http://data.gmdsp.org.uk/def/council/planning/planning-application-status/appeal-allowed> skos:inScheme <http://data.gmdsp.org.uk/def/council/planning/planning-application-status> ;
+        a skos:Concept ;
+        rdfs:label "Appeal allowed" ;
+        skos:prefLabel "Appeal allowed" ;
+        skos:definition "The planning application is allowed appeals" .
+
+<http://data.gmdsp.org.uk/def/council/planning/planning-application-status/decline-to-determine-application> skos:inScheme <http://data.gmdsp.org.uk/def/council/planning/planning-application-status> ;
+        a skos:Concept ;
+        rdfs:label "Decline to determine application" ;
+        skos:prefLabel "Decline to determine application" ;
+        skos:definition "The planning application has been declined to determine the application" .
+
+<http://data.gmdsp.org.uk/def/council/planning/planning-application-status/superceded> skos:inScheme <http://data.gmdsp.org.uk/def/council/planning/planning-application-status> ;
+        a skos:Concept ;
+        rdfs:label "Superceded" ;
+        skos:prefLabel "Superceded" ;
+        skos:definition "The planning application has been superceded" .
+
+<http://data.gmdsp.org.uk/def/council/planning/planning-application-status/approved-extension> skos:inScheme <http://data.gmdsp.org.uk/def/council/planning/planning-application-status> ;
+       	a skos:Concept ;
+       	rdfs:label "Approved extension" ;
+		skos:prefLabel "Approved extension" ;
+		skos:definition "The planning application for an extension was approved" .
+
+<http://data.gmdsp.org.uk/def/council/planning/planning-application-status/conditional-extension> skos:inScheme <http://data.gmdsp.org.uk/def/council/planning/planning-application-status> ;
+        a skos:Concept ;
+        rdfs:label "Conditional extension" ;
+        skos:prefLabel "Conditional extension" ;
+        skos:definition "The planning application for an extension was conditionally approved" .
+
+<http://data.gmdsp.org.uk/def/council/planning/planning-application-status/permitted-change-of-use> skos:inScheme <http://data.gmdsp.org.uk/def/council/planning/planning-application-status> ;
+        a skos:Concept ;
+        rdfs:label "Permitted change of use" ;
+        skos:prefLabel "Permitted change of use" ;
+        skos:definition "The planning application for change of use was permitted" .
