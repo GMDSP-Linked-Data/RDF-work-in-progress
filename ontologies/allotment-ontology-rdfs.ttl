@@ -18,7 +18,7 @@
         rdfs:label    "Rent"^^xsd:string ;
         rdfs:isDefinedBy <http://data.gmdsp.org.uk/def/council/allotment> .
 
-<http://data.gmdsp.org.uk/def/council/allotment/number-of-plots>
+<http://data.gmdsp.org.uk/def/council/allotment/numberOfPlots>
         a             rdfs:Property ;
         rdfs:comment  "Total number of plots which the allotment has"^^xsd:string ;
         rdfs:domain   <http://data.gmdsp.org.uk/def/council/Allotment> ;
@@ -26,7 +26,7 @@
         rdfs:range    xsd:integer ;
         rdfs:isDefinedBy <http://data.gmdsp.org.uk/def/council/allotment> .
 
-<http://data.gmdsp.org.uk/def/council/allotment/information-page>
+<http://data.gmdsp.org.uk/def/council/allotment/informationPage>
         a                   rdfs:Property ;
         rdfs:comment        "Page (given by URL) where further information for this allotment."^^xsd:string ;
         rdfs:domain         <http://data.gmdsp.org.uk/def/council/Allotment> ;
@@ -34,7 +34,7 @@
         rdfs:subPropertyOf  <http://xmlns.com/foaf/0.1/page> ;
         rdfs:isDefinedBy <http://data.gmdsp.org.uk/def/council/allotment> .
 
-<http://data.gmdsp.org.uk/def/council/allotment/disabled-access>
+<http://data.gmdsp.org.uk/def/council/allotment/disabledAccess>
         a             rdfs:Property ;
         rdfs:comment  "Does the allotment have disabled access"^^xsd:string ;
         rdfs:domain   <http://data.gmdsp.org.uk/def/council/Allotment> ;
@@ -42,7 +42,7 @@
         rdfs:range    xsd:boolean ;
         rdfs:isDefinedBy <http://data.gmdsp.org.uk/def/council/allotment> .
 
-<http://data.gmdsp.org.uk/def/council/allotment/plot-size>
+<http://data.gmdsp.org.uk/def/council/allotment/plotSize>
         a             rdfs:Property ;
         rdfs:comment  "How big is the allotment plot in square meters"^^xsd:string ;
         rdfs:domain   <http://data.gmdsp.org.uk/def/council/Allotment> ;
@@ -59,7 +59,7 @@
                 rdfs:Property ;
                 rdfs:isDefinedBy <http://data.gmdsp.org.uk/def/council/allotment> .
 
-<http://data.gmdsp.org.uk/def/council/allotment/application-page>
+<http://data.gmdsp.org.uk/def/council/allotment/applicationPage>
         a                   rdfs:Property ;
         rdfs:comment        "Page (given by URL) with application information for this allotment."^^xsd:string ;
         rdfs:domain         <http://data.gmdsp.org.uk/def/council/Allotment> ;
@@ -67,7 +67,7 @@
         rdfs:subPropertyOf  <http://xmlns.com/foaf/0.1/page> ;
         rdfs:isDefinedBy <http://data.gmdsp.org.uk/def/council/allotment> .
 
-<http://data.gmdsp.org.uk/def/council/allotment/guidance-page>
+<http://data.gmdsp.org.uk/def/council/allotment/guidancePage>
         a                   rdfs:Property ;
         rdfs:comment        "Page (given by URL) with guidance for this allotment."^^xsd:string ;
         rdfs:domain         <http://data.gmdsp.org.uk/def/council/Allotment> ;
