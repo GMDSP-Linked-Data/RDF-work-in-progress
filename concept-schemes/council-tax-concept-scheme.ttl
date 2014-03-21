@@ -1,0 +1,60 @@
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+
+<http://data.gmdsp.org.uk/def/council/council-tax/band> a skos:ConceptScheme ;
+        skos:hasTopConcept <http://data.gmdsp.org.uk/def/council/council-tax/band/A> ;
+        skos:hasTopConcept <http://data.gmdsp.org.uk/def/council/council-tax/band/B> ;
+        skos:hasTopConcept <http://data.gmdsp.org.uk/def/council/council-tax/band/C> ;
+        skos:hasTopConcept <http://data.gmdsp.org.uk/def/council/council-tax/band/D> ;
+        skos:hasTopConcept <http://data.gmdsp.org.uk/def/council/council-tax/band/E> ;
+        skos:hasTopConcept <http://data.gmdsp.org.uk/def/council/council-tax/band/F> ;
+        skos:hasTopConcept <http://data.gmdsp.org.uk/def/council/council-tax/band/G> ;
+        skos:hasTopConcept <http://data.gmdsp.org.uk/def/council/council-tax/band/H> .
+
+<http://data.gmdsp.org.uk/def/council/council-tax/band/A> skos:inScheme <http://data.gmdsp.org.uk/def/council/council-tax/band> ;
+	a skos:Concept ;
+	rdfs:label "Band A" ;
+	skos:prefLabel "Band A" ;
+	skos:definition "Council tax band A" .
+
+<http://data.gmdsp.org.uk/def/council/council-tax/band/B> skos:inScheme <http://data.gmdsp.org.uk/def/council/council-tax/band> ;
+	a skos:Concept ;
+	rdfs:label "Band B" ;
+	skos:prefLabel "Band B" ;
+	skos:definition "Council tax band B" .
+	
+<http://data.gmdsp.org.uk/def/council/council-tax/band/C> skos:inScheme <http://data.gmdsp.org.uk/def/council/council-tax/band> ;
+	a skos:Concept ;
+	rdfs:label "Band C" ;
+	skos:prefLabel "Band C" ;
+	skos:definition "Council tax band C" .
+	
+<http://data.gmdsp.org.uk/def/council/council-tax/band/D> skos:inScheme <http://data.gmdsp.org.uk/def/council/council-tax/band> ;
+	a skos:Concept ;
+	rdfs:label "Band D" ;
+	skos:prefLabel "Band D" ;
+	skos:definition "Council tax band D" .
+	
+<http://data.gmdsp.org.uk/def/council/council-tax/band/E> skos:inScheme <http://data.gmdsp.org.uk/def/council/council-tax/band> ;
+	a skos:Concept ;
+	rdfs:label "Band E" ;
+	skos:prefLabel "Band E" ;
+	skos:definition "Council tax band E" .
+	
+<http://data.gmdsp.org.uk/def/council/council-tax/band/F> skos:inScheme <http://data.gmdsp.org.uk/def/council/council-tax/band> ;
+	a skos:Concept ;
+	rdfs:label "Band F" ;
+	skos:prefLabel "Band F" ;
+	skos:definition "Council tax band F" .
+	
+<http://data.gmdsp.org.uk/def/council/council-tax/band/G> skos:inScheme <http://data.gmdsp.org.uk/def/council/council-tax/band> ;
+	a skos:Concept ;
+	rdfs:label "Band G" ;
+	skos:prefLabel "Band G" ;
+	skos:definition "Council tax band G" .
+	
+<http://data.gmdsp.org.uk/def/council/council-tax/band/H> skos:inScheme <http://data.gmdsp.org.uk/def/council/council-tax/band> ;
+	a skos:Concept ;
+	rdfs:label "Band H" ;
+	skos:prefLabel "Band H" ;
+	skos:definition "Council tax band H" .
