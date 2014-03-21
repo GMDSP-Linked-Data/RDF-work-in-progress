@@ -57,4 +57,4 @@ def main(convertertype, inputfile_path, outputfile_path):
 
 
 if __name__ == "__main__":
-    main()
+    main(args.converter, args.i, args.o)
