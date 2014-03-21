@@ -33,10 +33,10 @@
       rdfs:domain <http://data.gmdsp.org.uk/def/council/planning/PlanningApplication> ;
       rdfs:range <http://data.gmdsp.org.uk/def/council/planning/planning-application-status> .
 
-<http://data.gmdsp.org.uk/def/council/planning/submissionDate>
+<http://data.gmdsp.org.uk/def/council/planning/validatedDate>
       rdf:type rdfs:Property ;
-      rdfs:label "Submission date"^^xsd:string ;
-	  rdfs:comment "Date the planning application was submitted." ;
+      rdfs:label "Validated date"^^xsd:string ;
+	  rdfs:comment "Date the planning application was validated and accepted." ;
       rdfs:domain <http://data.gmdsp.org.uk/def/council/planning/PlanningApplication> ;
       rdfs:range xsd:date .
 
@@ -46,3 +46,24 @@
 	  rdfs:comment "Date the planning application decision was made." ;
       rdfs:domain <http://data.gmdsp.org.uk/def/council/planning/PlanningApplication> ;
       rdfs:range xsd:date .
+
+<http://data.gmdsp.org.uk/def/council/planning/applicationType>
+      rdf:type rdfs:Property ;
+      rdfs:label "Application type"^^xsd:string ;
+	  rdfs:comment "Long form version of the application type." ;
+      rdfs:domain <http://data.gmdsp.org.uk/def/council/planning/PlanningApplication> ;
+      rdfs:range xsd:string .
+
+<http://data.gmdsp.org.uk/def/council/planning/applicationTypeCode>
+      rdf:type rdfs:Property ;
+      rdfs:label "Application type code"^^xsd:string ;
+	  rdfs:comment "Short form version of the application type." ;
+      rdfs:domain <http://data.gmdsp.org.uk/def/council/planning/PlanningApplication> ;
+      rdfs:range xsd:string .
+
+<http://data.gmdsp.org.uk/def/council/planning/developmentType>
+      rdf:type rdfs:Property ;
+      rdfs:label "Development type"^^xsd:string ;
+	  rdfs:comment "Development type of the application eg advertisement." ;
+      rdfs:domain <http://data.gmdsp.org.uk/def/council/planning/PlanningApplication> ;
+      rdfs:range xsd:string .
