@@ -19,7 +19,7 @@ def convert(graph, input_path):
 
     for row in reader:
         allotment = al[utils.idify(row["Name"])]
-        graph.add((allotment, RDF.type, URIRef('http://data.gmdsp.org.uk/def/council/allotment')))
+        graph.add((allotment, RDF.type, URIRef('http://data.gmdsp.org.uk/def/council/allotment/Allotment')))
         graph.add((allotment, utils.RDFS['label'], Literal(row["Name"])))
         graph.add((allotment, utils.OS["northing"], Literal(row["Northing"])))
         graph.add((allotment, utils.OS["easting"], Literal(row["Easting"])))
@@ -30,7 +30,7 @@ def convert(graph, input_path):
         # now add the address VCARD
         vcard = al["address/"+address]
         graph.add((vcard, RDF.type, utils.VCARD["location"]))
-        graph.add((vcard, utils.VCARD['hasStreetAddress'], Literal(row["Address"])))
+        graph.add((vcard, utils.VCARD['street-address'], Literal(row["Address"])))
 
         if row["Plots"]:
             try:
