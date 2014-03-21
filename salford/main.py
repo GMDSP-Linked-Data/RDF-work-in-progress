@@ -51,7 +51,7 @@ MODULE_MAP = {
 
 def main(convertertype, inputfile_path, outputfile_path):
     m = importlib.import_module('gmdspconverters.' + MODULE_MAP[convertertype])
-    g = utils.create_graph(outputfile_path)
+    g = utils.create_graph()
     m.convert(g, inputfile_path)
     utils.output_graph(g, outputfile_path)
 
