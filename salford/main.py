@@ -20,11 +20,24 @@ For example:
 >>> python main.py allotments -i ./sourcedata/allotments/allotments.csv -o ./output/allotments.rdf
 
 """
-
 __author__ = 'jond'
 
+import argparse
 
-def main():
+parser = argparse.ArgumentParser(description="Command line module for access to the GMDSP converters.")
+parser.add_argument(
+    'converter',
+    choices=[
+        'allotments', 'gritting', 'parking', 'planning', 'recycling', 'streetlight',
+    ],
+    help="The converter to use"
+)
+parser.add_argument("-i", type=str, required=True, help="The input file.")
+parser.add_argument("-o", type=str, required=True, help="The output file.")
+
+args = parser.parse_args()
+
+def main(convertertype, inputfile_path, outputfile_path):
     pass
 
 if __name__ == "__main__":
