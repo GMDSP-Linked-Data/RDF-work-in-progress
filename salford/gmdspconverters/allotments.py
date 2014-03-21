@@ -42,11 +42,3 @@ def convert(graph, input_path):
                 pass
 
     utils.output_graph(statistics_graph, os.path.join("output", "allotments2014Q4.rdf"))
-
-
-def statistics(graph, input_path):
-
-    reader = csv.DictReader(open(input_path, mode='r'))
-
-    for row in reader:
-        allotment = al[utils.idify(row["Name"])]
