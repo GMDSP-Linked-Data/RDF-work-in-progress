@@ -12,7 +12,7 @@
         skos:hasTopConcept <http://data.gmdsp.org.uk/def/council/recycling/recycling-type/books> ;
         skos:hasTopConcept <http://data.gmdsp.org.uk/def/council/recycling/recycling-type/cartons> ;
         skos:hasTopConcept <http://data.gmdsp.org.uk/def/council/recycling/recycling-type/furniture> ;
-        skos:hasTopConcept <http://data.gmdsp.org.uk/def/council/recycling/recycling-type/hardPlastic> ;
+        skos:hasTopConcept <http://data.gmdsp.org.uk/def/council/recycling/recycling-type/hard-plastic> ;
         skos:hasTopConcept <http://data.gmdsp.org.uk/def/council/recycling/recycling-type/cardboard> ;
         skos:hasTopConcept <http://data.gmdsp.org.uk/def/council/recycling/recycling-type/foil> ;
         skos:hasTopConcept <http://data.gmdsp.org.uk/def/council/recycling/recycling-type/aerosols> ;
@@ -72,7 +72,7 @@
        skos:prefLabel "Furniture" ;
        skos:definition "The recycling centre has furniture recycling facilities" .
 
-<http://data.gmdsp.org.uk/def/council/recycling/recycling-type/hardPlastic> skos:inScheme <http://data.gmdsp.org.uk/def/council/recycling/recycling-type> ;
+<http://data.gmdsp.org.uk/def/council/recycling/recycling-type/hard-plastic> skos:inScheme <http://data.gmdsp.org.uk/def/council/recycling/recycling-type> ;
        a skos:Concept ;
        rdfs:label "Hard plastic" ;
        skos:prefLabel "Hard plastic" ;
