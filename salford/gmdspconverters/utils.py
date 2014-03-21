@@ -11,6 +11,7 @@ RDFS = Namespace('http://www.w3.org/2000/01/rdf-schema#')
 GEO = Namespace('http://www.w3.org/2003/01/geo/wgs84_pos#')
 VCARD = Namespace('http://www.w3.org/2006/vcard/ns#')
 SCHEME = Namespace('http://schema.org/')
+QB = Namespace('http://purl.org/linked-data/cube#')
 
 def idify(s):
     return s.replace(" ", "_").replace(",","-").lower()
