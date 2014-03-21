@@ -46,7 +46,7 @@ MODULE_MAP = {
     'parking': 'parking',
     'planning': 'planning',
     'recycling': 'recycling',
-    'streetlight': 'streetlight',
+    'streetlight': 'streetlighting',
 }
 
 def main(convertertype, inputfile_path, outputfile_path):
