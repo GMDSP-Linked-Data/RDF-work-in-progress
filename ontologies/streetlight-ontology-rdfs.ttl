@@ -3,7 +3,6 @@
 @prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
 @prefix qudt: <http://qudt.org/vocab/unit#> .
 @prefix streetlighting: <http://data.gmdsp.org.uk/def/council/streetlighting/> .
-@prefix council: <http://data.gmdsp.org.uk/def/council/> .
 @prefix smartcity: <http://data.smartcityconceptmodel.com/model#> .
 
 #################################################################
@@ -12,8 +11,8 @@
 #
 #################################################################
 
-council:Streetlight
-      rdfs:label "An RDF class to describe a Streetlight"^^xsd:string ;
+streetlighting:Streetlight
+      rdfs:label "Streetlight"^^xsd:string ;
       rdfs:subClassOf smartcity:Object .
 
 
