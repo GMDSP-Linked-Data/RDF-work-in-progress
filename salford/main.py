@@ -24,7 +24,7 @@ __author__ = 'jond'
 
 import argparse
 import importlib
-import gmdspconverters
+from gmdspconverters import utils
 
 parser = argparse.ArgumentParser(description="Command line module for access to the GMDSP converters.")
 parser.add_argument(
@@ -50,10 +50,10 @@ MODULE_MAP = {
 }
 
 def main(convertertype, inputfile_path, outputfile_path):
-    m = importlib.import_module(MODULE_MAP[convertertype], gmdspconverters)
-    g = gmdspconverters.utils.create_graph(outputfile_path)
+    m = importlib.import_module('gmdspconverters.' + MODULE_MAP[convertertype])
+    g = utils.create_graph(outputfile_path)
     m.convert(g, inputfile_path)
-    gmdspconverters.utils.output_graph(outputfile_path)
+    utils.output_graph(outputfile_path)
 
 
 if __name__ == "__main__":
