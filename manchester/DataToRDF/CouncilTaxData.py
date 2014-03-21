@@ -11,6 +11,7 @@ except ImportError:
 
 from rdflib import BNode, Graph, URIRef, Literal, Namespace, RDF
 from rdflib.namespace import FOAF, DC
+from rdflib.namespace import XSD
 
 from itertools import groupby
 import csv
@@ -18,20 +19,32 @@ import pprint
 import utm
 from bs4 import BeautifulSoup
 
-storefn = os.path.dirname(os.path.realpath(__file__)) + '/allotments-tmp.rdf'
+storefn = os.path.dirname(os.path.realpath(__file__)) + '/Output/councilTax.rdf'
+storen3 = os.path.dirname(os.path.realpath(__file__)) + '/Output/councilTax.ttl'
+
 #storefn = '/home/simon/codes/film.dev/movies.n3'
 storeuri = 'file://'+storefn
+storeun3 = 'file://'+storen3
+
 title = 'Movies viewed by %s'
 
 r_who = re.compile('^(.*?) <([a-z0-9_-]+(\.[a-z0-9_-]+)*@[a-z0-9_-]+(\.[a-z0-9_-]+)+)>$')
 
-OS = Namespace('http://data.ordnancesurvey.co.uk/ontology/spatialrelations/')
+SPACIAL = Namespace('http://data.ordnancesurvey.co.uk/ontology/spatialrelations/')
 POST = Namespace('http://data.ordnancesurvey.co.uk/ontology/postcode/')
+ADMINGEO = Namespace('http://data.ordnancesurvey.co.uk/ontology/admingeo/')
 RDFS = Namespace('http://www.w3.org/2000/01/rdf-schema#')
 GEO = Namespace('http://www.w3.org/2003/01/geo/wgs84_pos#')
 VCARD = Namespace('http://www.w3.org/2006/vcard/ns#')
-al = Namespace('http://data.gmdsp.org.uk/id/manchester/allotments/')
 SCHEME = Namespace('http://schema.org/')
+SDMX = Namespace("http://purl.org/linked-data/sdmx#")
+SDMXCONCEPT = Namespace("http://purl.org/linked-data/sdmx/2009/concept#")
+SDMXDIMENSION = Namespace("http://purl.org/linked-data/sdmx/2009/dimension#")
+SDMXATTRIBUTE = Namespace("http://purl.org/linked-data/sdmx/2009/attribute#")
+SDMXMEASURE= Namespace("http://purl.org/linked-data/sdmx/2009/measure#")
+qb = Namespace("http://purl.org/linked-data/cube#")
+
+COUNCILTAX = Namespace('http://scheme.org/data/')
 
 class Store:
     def __init__(self):
@@ -44,14 +57,77 @@ class Store:
         else:
             assert rt == VALID_STORE, 'The underlying store is corrupt'
 
-        self.graph.bind('os', OS)
+        self.graph.bind('os', POST)
         self.graph.bind('rdfs', RDFS)
         self.graph.bind('geo', GEO)
         self.graph.bind('vcard', VCARD)
         self.graph.bind('scheme', SCHEME)
+        self.graph.bind('counciltax', COUNCILTAX)
+        self.graph.bind('qb', qb)
+        self.graph.bind('admingeo',ADMINGEO)
+        self.graph.bind('sdmx-attribute', SDMXATTRIBUTE)
 
     def save(self):
-        self.graph.serialize(storeuri, format='pretty-xml')
+        #self.graph.serialize(storeuri, format='pretty-xml')
+        self.graph.serialize(storeun3, format='n3')
+
+    def refArea(self):
+        d = COUNCILTAX["refArea"]
+        self.graph.add((d, RDF.type, qb["Property"]))
+        self.graph.add((d, RDF.type, qb["DimensionProperty"]))
+        self.graph.add((d, RDFS["label"], Literal("reference area")))
+        self.graph.add((d, RDFS["subPropertyOf"], SDMXDIMENSION["refArea"]))
+        self.graph.add((d, RDFS["range"], ADMINGEO["UnitaryAuthority"]))
+        self.graph.add((d, qb["concept"], SDMXCONCEPT["refArea"]))
+
+    def refPeriod(self):
+        d = COUNCILTAX["refPeriod"]
+        self.graph.add((d, RDF.type, qb["Property"]))
+        self.graph.add((d, RDF.type, qb["DimensionProperty"]))
+        self.graph.add((d, RDFS["label"], Literal("reference period")))
+        self.graph.add((d, RDFS["subPropertyOf"], SDMXDIMENSION["refPeriod"]))
+        #self.graph.add((d, RDF["range"], interval["Interval"]))
+        self.graph.add((d, qb["concept"], SDMXCONCEPT["refPeriod"]))
+
+    def refBand(self):
+        d = COUNCILTAX["refBand"]
+        self.graph.add((d, RDF.type, qb["Property"]))
+        self.graph.add((d, RDF.type, qb["DimensionProperty"]))
+        self.graph.add((d, RDFS["label"], Literal("reference band")))
+
+    def countDef(self):
+        d = COUNCILTAX["countDef"]
+        self.graph.add((d, RDF.type, RDF["Property"]))
+        self.graph.add((d, RDF.type, qb["MeasureProperty"]))
+        self.graph.add((d, RDFS["label"], Literal("Council tax band count")))
+        self.graph.add((d, RDFS["subPropertyOf"], SDMXMEASURE["obsValue"]))
+        self.graph.add((d, RDFS["range"], XSD.decimal))
+
+    def new_DSD(self):
+        dsd = COUNCILTAX["DSD"]
+        self.graph.add((dsd, RDF.type, qb["DataStructureDefinition"]))
+        self.graph.add((dsd, qb["dimension"], COUNCILTAX["refArea"]))
+        self.graph.add((dsd, qb["dimension"], COUNCILTAX["refPeriod"]))
+        self.graph.add((dsd, qb["dimension"], COUNCILTAX["refBand"]))
+
+        self.graph.add((dsd, qb["measure"], COUNCILTAX["countDef"]))
+
+    def new_dataset(self):
+        ds = COUNCILTAX["dataset-le1"]
+        self.graph.add((ds, RDF.type, qb["DataSet"]))
+        self.graph.add((ds, RDFS["label"], Literal("Tax Banding")))
+        self.graph.add((ds, RDFS["comment"], Literal("xxxxx")))
+        self.graph.add((ds, qb["structure"], COUNCILTAX['data']))
+
+    def new_observation(self, band, postcode, date, count):
+        observation = COUNCILTAX[postcode.replace(" ", "-").lower()+band.replace(" ", "-").lower()]
+        self.graph.add((observation, RDF.type, qb['Observation']))
+        self.graph.add((observation, qb["dataSet"], COUNCILTAX['data']))
+        self.graph.add((observation, POST['refArea'], Literal(postcode)))
+        self.graph.add((observation, COUNCILTAX['count'], Literal(count, datatype=XSD.integer)))
+        self.graph.add((observation, COUNCILTAX['band'], Literal(band)))
+        self.graph.add((observation, COUNCILTAX['refPeriod'], URIRef('http://reference.data.gov.uk/id/day/'+time.strftime('%Y-%m-%d',date))))
+
 
 def keyfn(x):
     return x['Postcode']
@@ -62,15 +138,23 @@ def keyfnp(x):
 
 def main(argv=None):
     s = Store()
+    s.refPeriod()
+    s.refArea()
+    s.refBand()
+    s.countDef()
+    s.new_dataset()
+    #s.new_DSD()
+
+    count = 0
 
     reader = csv.DictReader(open('./Data/Ctax Extract.csv', mode='rU'))
-    # for row in reader:
-    #     pprint.pprint(row)
-    group = [(k, list(g)) for k,g in groupby(sorted(reader, key=keyfn), keyfn)]
-    for k,g in group:
-        #print k
+    for k,g in [(k, list(g)) for k,g in groupby(sorted(reader, key=keyfn), keyfn)]:
         for b,n in [(kq, list(go)) for kq,go in groupby(sorted(g, key=keyfnp), keyfnp)]:
-            print "{0}, {1}, {2}".format(k, b, len(n))
+            if count <= 100:
+                s.new_observation(b, k, time.strptime("01/01/0001", "%d/%m/%Y"), len(n))
+                count = count + 1
+    print "-- Saving --"
+    s.save()
 
 if __name__ == '__main__':
     main()

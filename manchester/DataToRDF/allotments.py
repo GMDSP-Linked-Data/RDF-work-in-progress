@@ -87,20 +87,17 @@ class Store:
 
     def new_allotment(self, address, application, disabled_access, external_link, guidence, location, name, plot_size, rent, Easting, Northing):
         self.new_address(address)
+        print utm.from_latlon(float(location.split(',')[0]), float(location.split(',')[1]))[1]
         allotment = al[name.replace(" ", "-").lower()] # @@ humanize the identifier (something like #rev-$date)
         self.graph.add((allotment, RDF.type, URIRef('http://data.gmdsp.org.uk/def/council/allotment')))
-        #self.graph.add((allotment, VCARD['hasstreetaddress'], Literal(address)))
         self.graph.add((allotment, SCHEME['url'], Literal(application)))
-        #self.graph.add((allotment, DC['date'], Literal(disabled_access)))
         self.graph.add((allotment, SCHEME['url'], Literal(external_link)))
         self.graph.add((allotment, SCHEME['url'], Literal("http://www.manchester.gov.uk"+guidence)))
         self.graph.add((allotment, GEO["lat"], Literal(location.split(',')[0])))
         self.graph.add((allotment, GEO["long"], Literal(location.split(',')[1])))
-        #self.graph.add((allotment, OS["northing"], Literal('%.6f' %Northing)))
-        #self.graph.add((allotment, OS["easting"], Literal('%.6f' %Easting)))
+        self.graph.add((allotment, OS["northing"], Literal(str(utm.from_latlon(float(location.split(',')[0]), float(location.split(',')[1]))[0]))))
+        self.graph.add((allotment, OS["easting"], Literal(str(utm.from_latlon(float(location.split(',')[0]), float(location.split(',')[1]))[1]))))
         self.graph.add((allotment, RDFS['label'], Literal(name)))
-        #self.graph.add((allotment, DC['date'], Literal(plot_size)))
-        #self.graph. add((allotment, GEO['rating'], Literal(rent)))
         self.graph.add((allotment,VCARD['adr'], URIRef("http://data.gmdsp.org.uk/def/council/neighbourhood/allotment/address/"+address.replace(" ", "_").replace(",","-").lower())))
         self.save()
 
@@ -122,7 +119,6 @@ def main(argv=None):
 
     reader = csv.DictReader(open('./Data/allotments.csv', mode='rU'))
     for row in reader:
-        print(row["Location"].split(','))
         EASTING, NORTHING, ZONENUMBER, ZONELetter = utm.from_latlon(float(row["Location"].split(',')[0]), float(row["Location"].split(',')[1]))
         s.new_allotment(row["Address"], getURL(row["Application"]), row["Disabled access"], getURL(row["External link"]), getURL(row["Guidance"]), row["Location"], row["Name"], row["Plot sizes"], row["Rent"], EASTING, NORTHING)
         pprint.pprint(row)
