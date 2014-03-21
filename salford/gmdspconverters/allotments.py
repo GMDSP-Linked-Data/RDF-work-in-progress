@@ -1,13 +1,10 @@
-#!/usr/bin/env python
-import os, csv
+import csv
 
-from rdflib import Graph, URIRef, Literal, Namespace, RDF
-from rdflib.store import VALID_STORE
+from rdflib import URIRef, Literal, Namespace, RDF
 
 from gmdspconverters import utils
 
 al = Namespace('http://data.gmdsp.org.uk/id/salford/allotments/')
-
 
 def convert(graph, input_path):
 
@@ -15,17 +12,17 @@ def convert(graph, input_path):
     for row in reader:
         allotment = al[utils.idify(row["Name"])]
         graph.add((allotment, RDF.type, URIRef('http://data.gmdsp.org.uk/def/council/allotment')))
-        graph.add((allotment, RDFS['label'], Literal(row["Name"])))
-        graph.add((allotment, OS["northing"], Literal(row["Northing"])))
-        graph.add((allotment, OS["easting"], Literal(row["Easting"])))
+        graph.add((allotment, utils.RDFS['label'], Literal(row["Name"])))
+        graph.add((allotment, utils.OS["northing"], Literal(row["Northing"])))
+        graph.add((allotment, utils.OS["easting"], Literal(row["Easting"])))
 
         address = utils.idify(row["Address"])
-        graph.add((allotment, VCARD['adr'], URIRef("http://data.gmdsp.org.uk/def/council/allotment/address/"+address)))
+        graph.add((allotment, utils.VCARD['adr'], URIRef("http://data.gmdsp.org.uk/def/council/allotment/address/"+address)))
 
         # now add the address VCARD
         vcard = al["address/"+address]
-        graph.add((vcard, RDF.type, VCARD["location"]))
-        graph.add((vcard, VCARD['hasStreetAddress'], Literal(row["Address"])))
+        graph.add((vcard, RDF.type, utils.VCARD["location"]))
+        graph.add((vcard, utils.VCARD['hasStreetAddress'], Literal(row["Address"])))
 
         # Now add the statistical data
 

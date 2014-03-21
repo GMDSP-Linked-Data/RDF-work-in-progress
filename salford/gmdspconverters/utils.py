@@ -2,6 +2,9 @@ __author__ = 'jond'
 
 import os
 
+from rdflib import Graph, Namespace
+from rdflib.store import VALID_STORE
+
 OS = Namespace('http://data.ordnancesurvey.co.uk/ontology/spatialrelations/')
 POST = Namespace('http://data.ordnancesurvey.co.uk/ontology/postcode/')
 RDFS = Namespace('http://www.w3.org/2000/01/rdf-schema#')
@@ -11,7 +14,6 @@ SCHEME = Namespace('http://schema.org/')
 
 def idify(s):
     return s.replace(" ", "_").replace(",","-").lower()
-
 
 def create_graph(output_path):
     storefn = os.path.realpath(output_path)
@@ -34,4 +36,6 @@ def create_graph(output_path):
     return graph
 
 def output_graph(graph, output_path):
+    storefn = os.path.realpath(output_path)
+    storeuri = 'file://'+storefn
     graph.serialize(storeuri, format='pretty-xml')
