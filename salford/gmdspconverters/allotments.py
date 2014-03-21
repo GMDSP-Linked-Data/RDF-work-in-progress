@@ -41,7 +41,7 @@ def convert(graph, input_path):
             except ValueError:
                 pass
 
-    utils.output_graph(statistics_graph, os.path.join("output", "allotments2014Q4"))
+    utils.output_graph(statistics_graph, os.path.join("output", "allotments2014Q4.rdf"))
 
 
 def statistics(graph, input_path):
