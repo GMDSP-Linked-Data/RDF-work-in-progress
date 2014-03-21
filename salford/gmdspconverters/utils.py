@@ -14,7 +14,7 @@ SCHEME = Namespace('http://schema.org/')
 QB = Namespace('http://purl.org/linked-data/cube#')
 
 def idify(s):
-    return s.replace(" ", "_").replace(",","-").lower()
+    return s.replace(" ", "-").replace(",","-").lower()
 
 def create_graph(output_path):
     storefn = os.path.realpath(output_path)
