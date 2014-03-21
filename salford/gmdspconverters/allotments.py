@@ -5,6 +5,7 @@ from rdflib import URIRef, Literal, Namespace, RDF
 from gmdspconverters import utils
 
 al = Namespace('http://data.gmdsp.org.uk/id/salford/allotments/')
+al_stat = Namespace('http://gmdsp.org/def/statistical-dimension/allotments/')
 
 def convert(graph, input_path):
 
@@ -25,4 +26,8 @@ def convert(graph, input_path):
         graph.add((vcard, utils.VCARD['hasStreetAddress'], Literal(row["Address"])))
 
         # Now add the statistical data
+        stats = al_stat[utils.idify(row["Name"])]
+        graph.add((stats, RDF.type, utils.QB['Observation']))
+        graph.add((stats, utils.QB["dataSet"], Literal(al)))
+        graph.add((stats, al_stat["plots"], Literal(row["Plots"])))
 
