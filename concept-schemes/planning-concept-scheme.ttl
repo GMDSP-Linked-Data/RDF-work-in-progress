@@ -1,0 +1,25 @@
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+
+<http://data.gmdsp.org.uk/def/council/planning/planning-application-status> a skos:ConceptScheme ;
+        skos:hasTopConcept <http://data.gmdsp.org.uk/def/council/planning/planning-application-status/approved> ;
+        skos:hasTopConcept <http://data.gmdsp.org.uk/def/council/planning/planning-application-status/refused> ;
+        skos:hasTopConcept <http://data.gmdsp.org.uk/def/council/planning/planning-application-status/withdrawn> .
+
+<http://data.gmdsp.org.uk/def/council/planning/planning-application-status/approved> skos:inScheme <http://data.gmdsp.org.uk/def/council/planning/planning-application-status> ;
+        a skos:Concept ;
+        rdfs:label "Application approved" ;
+        skos:prefLabel "Application approved" ;
+        skos:definition "The planning application was approved by the council" .
+
+<http://data.gmdsp.org.uk/def/council/planning/planning-application-status/refused> skos:inScheme <http://data.gmdsp.org.uk/def/council/planning/planning-application-status> ;
+        a skos:Concept ;
+        rdfs:label "Application refused" ;
+        skos:prefLabel "Application refused" ;
+        skos:definition "The planning application was refused by the council" .
+
+<http://data.gmdsp.org.uk/def/council/planning/planning-application-status/withdrawn> skos:inScheme <http://data.gmdsp.org.uk/def/council/planning/planning-application-status> ;
+        a skos:Concept ;
+        rdfs:label "Application withdrawn" ;
+        skos:prefLabel "Application withdrawn" ;
+        skos:definition "The planning application was withdrawn by the applicant" .

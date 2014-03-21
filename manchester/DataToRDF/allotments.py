@@ -74,7 +74,6 @@ class Store:
         self.graph.bind('scheme', SCHEME)
 
     def save(self):
-        print storeuri
         self.graph.serialize(storeuri, format='pretty-xml')
 
     def new_address(self, address):
@@ -121,7 +120,7 @@ def getURL(html):
 def main(argv=None):
     s = Store()
 
-    reader = csv.DictReader(open('./Data/allotments.csv', mode='r'))
+    reader = csv.DictReader(open('./Data/allotments.csv', mode='rU'))
     for row in reader:
         print(row["Location"].split(','))
         EASTING, NORTHING, ZONENUMBER, ZONELetter = utm.from_latlon(float(row["Location"].split(',')[0]), float(row["Location"].split(',')[1]))
