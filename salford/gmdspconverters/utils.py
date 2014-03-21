@@ -21,13 +21,6 @@ def create_graph(output_path):
     storeuri = 'file://'+storefn
     graph = Graph()
 
-    rt = graph.open(storeuri, create=False)
-    if rt == None:
-        # There is no underlying Sleepycat infrastructure, create it
-        graph.open(storeuri, create=True)
-    else:
-        assert rt == VALID_STORE, 'The underlying store is corrupt'
-
     graph.bind('os', OS)
     graph.bind('rdfs', RDFS)
     graph.bind('geo', GEO)
