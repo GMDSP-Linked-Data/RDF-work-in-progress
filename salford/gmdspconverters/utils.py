@@ -17,15 +17,14 @@ def idify(s):
     return s.replace(" ", "-").replace(",","-").lower()
 
 def create_graph(output_path):
-    storefn = os.path.realpath(output_path)
-    storeuri = 'file://'+storefn
-    graph = Graph()
 
+    graph = Graph()
     graph.bind('os', OS)
     graph.bind('rdfs', RDFS)
     graph.bind('geo', GEO)
     graph.bind('vcard', VCARD)
     graph.bind('scheme', SCHEME)
+    graph.bind('qb', QB)
 
     return graph
 
