@@ -1,7 +1,17 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="9d644dcd-0d89-4285-85b1-21a3c7dfdfa4" name="Default" comment="" />
+    <list default="true" id="9d644dcd-0d89-4285-85b1-21a3c7dfdfa4" name="Default" comment="">
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Output/councilTax.n3" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Output/councilTax.rdf" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/CouncilTaxData.py" afterPath="$PROJECT_DIR$/CouncilTaxData.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/allotments-tmp.rdf" afterPath="$PROJECT_DIR$/allotments-tmp.rdf" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/allotments.py" afterPath="$PROJECT_DIR$/allotments.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/planning.py" afterPath="$PROJECT_DIR$/planning.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/streetlight.rdf" afterPath="$PROJECT_DIR$/streetlight.rdf" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/streetlights.py" afterPath="$PROJECT_DIR$/streetlights.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+    </list>
     <ignored path="DataToRDF.iws" />
     <ignored path=".idea/workspace.xml" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -12,9 +22,11 @@
   </component>
   <component name="ChangesViewManager" flattened_view="true" show_ignored="false" />
   <component name="CoverageDataManager">
+    <SUITE FILE_PATH="coverage/DataToRDF$planning.coverage" NAME="planning Coverage Results" MODIFIED="1395414332177" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
     <SUITE FILE_PATH="coverage/DataToRDF$GMDSP.coverage" NAME="GMDSP Coverage Results" MODIFIED="1395349422069" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="" />
-    <SUITE FILE_PATH="coverage/DataToRDF$allotments.coverage" NAME="allotments Coverage Results" MODIFIED="1395272749454" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
-    <SUITE FILE_PATH="coverage/DataToRDF$CouncilTaxData.coverage" NAME="CouncilTaxData Coverage Results" MODIFIED="1395360948527" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/DataToRDF$allotments.coverage" NAME="allotments Coverage Results" MODIFIED="1395397984404" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/DataToRDF$CouncilTaxData.coverage" NAME="CouncilTaxData Coverage Results" MODIFIED="1395416539925" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/DataToRDF$streetlights.coverage" NAME="streetlights Coverage Results" MODIFIED="1395400927862" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
   </component>
   <component name="CreatePatchCommitExecutor">
     <option name="PATCH_PATH" value="" />
@@ -28,30 +40,28 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file leaf-file-name="allotments.py" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/allotments.py">
+      <file leaf-file-name="streetlights.py" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/streetlights.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="130" column="10" selection-start="4687" selection-end="5297" vertical-scroll-proportion="0.0" vertical-offset="1680" max-vertical-offset="2040">
+            <state line="93" column="0" selection-start="3700" selection-end="3700" vertical-scroll-proportion="0.0" vertical-offset="697" max-vertical-offset="1620">
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="CouncilTaxData.py" pinned="false" current="true" current-in-tab="true">
+      <file leaf-file-name="CouncilTaxData.py" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/CouncilTaxData.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="64" column="0" selection-start="1908" selection-end="1908" vertical-scroll-proportion="0.43609023" vertical-offset="786" max-vertical-offset="1215">
-              <folding>
-                <element signature="e#29#63#0" expanded="true" />
-              </folding>
+            <state line="113" column="26" selection-start="4588" selection-end="4588" vertical-scroll-proportion="-23.538462" vertical-offset="1023" max-vertical-offset="2325">
+              <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="allotments-tmp.rdf" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/allotments-tmp.rdf">
+      <file leaf-file-name="councilTax.n3" pinned="false" current="true" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/Output/councilTax.n3">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="571" column="0" selection-start="42724" selection-end="42724" vertical-scroll-proportion="0.0" vertical-offset="8250" max-vertical-offset="8655">
+            <state line="27" column="30" selection-start="1100" selection-end="1115" vertical-scroll-proportion="-4483.1934" vertical-offset="2085090" max-vertical-offset="2085555">
               <folding />
             </state>
           </provider>
@@ -60,35 +70,12 @@
       <file leaf-file-name="planning.py" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/planning.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="100" column="114" selection-start="4115" selection-end="4115" vertical-scroll-proportion="0.0" vertical-offset="1500" max-vertical-offset="2085">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="spend.py" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/spend.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="106" column="115" selection-start="3942" selection-end="3955" vertical-scroll-proportion="0.0" vertical-offset="1590" max-vertical-offset="1725">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="grittingroutes.py" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/grittingroutes.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="104" column="9" selection-start="3883" selection-end="3883" vertical-scroll-proportion="0.0" vertical-offset="1560" max-vertical-offset="1845">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="streetlights.py" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/streetlights.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="98" column="73" selection-start="3707" selection-end="3707" vertical-scroll-proportion="0.0" vertical-offset="1470" max-vertical-offset="1650">
-              <folding />
+            <state line="128" column="0" selection-start="5558" selection-end="5558" vertical-scroll-proportion="-13.153846" vertical-offset="1518" max-vertical-offset="2025">
+              <folding>
+                <marker date="1395414332000" expanded="true" signature="1782:5032" placeholder="..." />
+                <marker date="1395414332000" expanded="true" signature="2781:4384" placeholder="..." />
+                <marker date="1395414332000" expanded="true" signature="5101:6000" placeholder="..." />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -116,19 +103,18 @@
         <option value="$PROJECT_DIR$/Data/planning.py" />
         <option value="$PROJECT_DIR$/spend.py" />
         <option value="$PROJECT_DIR$/grittingroutes.py" />
-        <option value="$PROJECT_DIR$/streetlights.py" />
-        <option value="$PROJECT_DIR$/planning.py" />
         <option value="$PROJECT_DIR$/planningsmall.rdf" />
         <option value="$PROJECT_DIR$/allotments.py" />
+        <option value="$PROJECT_DIR$/streetlights.py" />
+        <option value="$PROJECT_DIR$/planning.py" />
+        <option value="$PROJECT_DIR$/Output/councilTax.n3" />
         <option value="$PROJECT_DIR$/CouncilTaxData.py" />
       </list>
     </option>
   </component>
   <component name="ProjectFrameBounds">
-    <option name="x" value="12" />
-    <option name="y" value="22" />
-    <option name="width" value="1260" />
-    <option name="height" value="705" />
+    <option name="width" value="1280" />
+    <option name="height" value="800" />
   </component>
   <component name="ProjectInspectionProfilesVisibleTreeState">
     <entry key="Project Default">
@@ -201,6 +187,20 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
+              <option name="myItemId" value="Output" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="DataToRDF" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="DataToRDF" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
               <option name="myItemId" value="Data" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
@@ -215,7 +215,7 @@
     <property name="recentsLimit" value="5" />
     <property name="last_opened_file_path" value="$USER_HOME$/Virtualenvs" />
     <property name="restartRequiresConfirmation" value="true" />
-    <property name="FullScreen" value="false" />
+    <property name="FullScreen" value="true" />
     <property name="options.splitter.details.proportions" value="0.2" />
     <property name="options.searchVisible" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
@@ -267,6 +267,44 @@
       <module name="DataToRDF" />
       <EXTENSION ID="PythonCoverageRunConfigurationExtension" enabled="false" sample_coverage="true" runner="coverage.py" />
       <option name="SCRIPT_NAME" value="$PROJECT_DIR$/CouncilTaxData.py" />
+      <option name="PARAMETERS" value="" />
+      <RunnerSettings RunnerId="PythonRunner" />
+      <ConfigurationWrapper RunnerId="PythonRunner" />
+      <method />
+    </configuration>
+    <configuration default="false" name="streetlights" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <module name="DataToRDF" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" enabled="false" sample_coverage="true" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/streetlights.py" />
+      <option name="PARAMETERS" value="" />
+      <RunnerSettings RunnerId="PythonRunner" />
+      <ConfigurationWrapper RunnerId="PythonRunner" />
+      <method />
+    </configuration>
+    <configuration default="false" name="planning" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <module name="DataToRDF" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" enabled="false" sample_coverage="true" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/planning.py" />
       <option name="PARAMETERS" value="" />
       <RunnerSettings RunnerId="PythonRunner" />
       <ConfigurationWrapper RunnerId="PythonRunner" />
@@ -441,15 +479,19 @@
       <ConfigurationWrapper RunnerId="PythonRunner" />
       <method />
     </configuration>
-    <list size="3">
+    <list size="5">
       <item index="0" class="java.lang.String" itemvalue="Python.GMDSP" />
       <item index="1" class="java.lang.String" itemvalue="Python.allotments" />
       <item index="2" class="java.lang.String" itemvalue="Python.CouncilTaxData" />
+      <item index="3" class="java.lang.String" itemvalue="Python.streetlights" />
+      <item index="4" class="java.lang.String" itemvalue="Python.planning" />
     </list>
     <recent_temporary>
-      <list size="2">
+      <list size="4">
         <item index="0" class="java.lang.String" itemvalue="Python.CouncilTaxData" />
-        <item index="1" class="java.lang.String" itemvalue="Python.allotments" />
+        <item index="1" class="java.lang.String" itemvalue="Python.planning" />
+        <item index="2" class="java.lang.String" itemvalue="Python.streetlights" />
+        <item index="3" class="java.lang.String" itemvalue="Python.allotments" />
       </list>
     </recent_temporary>
   </component>
@@ -480,19 +522,19 @@
     <servers />
   </component>
   <component name="ToolWindowManager">
-    <frame x="12" y="22" width="1260" height="705" extended-state="0" />
-    <editor active="true" />
+    <frame x="0" y="0" width="1280" height="800" extended-state="0" />
+    <editor active="false" />
     <layout>
       <window_info id="Changes" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.25" sideWeight="0.6706767" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.24609375" sideWeight="0.6706767" order="0" side_tool="false" content_ui="combo" />
       <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
-      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.32861635" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.32861635" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.27755645" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.27755645" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
@@ -539,9 +581,7 @@
     <entry file="file://$PROJECT_DIR$/CouncilTaxData.py">
       <provider selected="true" editor-type-id="text-editor">
         <state line="62" column="24" selection-start="1967" selection-end="1967" vertical-scroll-proportion="0.0" vertical-offset="60" max-vertical-offset="1095">
-          <folding>
-            <element signature="e#29#63#0" expanded="true" />
-          </folding>
+          <folding />
         </state>
       </provider>
     </entry>
@@ -555,7 +595,11 @@
     <entry file="file://$PROJECT_DIR$/planning.py">
       <provider selected="true" editor-type-id="text-editor">
         <state line="100" column="114" selection-start="4115" selection-end="4115" vertical-scroll-proportion="0.0" vertical-offset="1500" max-vertical-offset="2085">
-          <folding />
+          <folding>
+            <marker date="1395414332000" expanded="true" signature="1782:5032" placeholder="..." />
+            <marker date="1395414332000" expanded="true" signature="2781:4384" placeholder="..." />
+            <marker date="1395414332000" expanded="true" signature="5101:6000" placeholder="..." />
+          </folding>
         </state>
       </provider>
     </entry>
@@ -597,7 +641,11 @@
     <entry file="file://$PROJECT_DIR$/planning.py">
       <provider selected="true" editor-type-id="text-editor">
         <state line="100" column="114" selection-start="4115" selection-end="4115" vertical-scroll-proportion="0.0" vertical-offset="1500" max-vertical-offset="2085">
-          <folding />
+          <folding>
+            <marker date="1395414332000" expanded="true" signature="1782:5032" placeholder="..." />
+            <marker date="1395414332000" expanded="true" signature="2781:4384" placeholder="..." />
+            <marker date="1395414332000" expanded="true" signature="5101:6000" placeholder="..." />
+          </folding>
         </state>
       </provider>
     </entry>
@@ -622,28 +670,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Data/allotments.csv">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="4" column="35" selection-start="452" selection-end="501" vertical-scroll-proportion="0.17910448" vertical-offset="0" max-vertical-offset="3105" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Data/Street_Lighting.txt">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="61420" column="0" selection-start="7185484" selection-end="7186897" vertical-scroll-proportion="0.921466" vertical-offset="920948" max-vertical-offset="922680" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Data/planning.csv">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="-0.5042017" vertical-offset="180" max-vertical-offset="3581460" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/spend.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="106" column="115" selection-start="3942" selection-end="3955" vertical-scroll-proportion="0.0" vertical-offset="1260" max-vertical-offset="1665">
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/planning.rdf">
       <provider selected="true" editor-type-id="LargeFileEditor">
         <state />
@@ -654,23 +680,9 @@
         <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" vertical-offset="90" max-vertical-offset="38910" />
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/streetlights.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="98" column="73" selection-start="3707" selection-end="3707" vertical-scroll-proportion="0.0" vertical-offset="1470" max-vertical-offset="1650">
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/streetlight.turtle">
       <provider selected="true" editor-type-id="text-editor">
         <state line="12" column="38" selection-start="676" selection-end="676" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="7530" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/grittingroutes.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="104" column="9" selection-start="3883" selection-end="3883" vertical-scroll-proportion="0.0" vertical-offset="1350" max-vertical-offset="1755">
-          <folding />
-        </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/planningsmall.rdf">
@@ -678,49 +690,146 @@
         <state line="21" column="0" selection-start="0" selection-end="1256" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="405" />
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/allotments.turtle">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="113" column="6" selection-start="6547" selection-end="6547" vertical-scroll-proportion="0.0" vertical-offset="600" max-vertical-offset="4440" />
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/allotments.rdf">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="99" column="18" selection-start="6828" selection-end="6828" vertical-scroll-proportion="0.0" vertical-offset="1440" max-vertical-offset="6255" />
+        <state line="7" column="52" selection-start="383" selection-end="386" vertical-scroll-proportion="0.33225808" vertical-offset="2" max-vertical-offset="6255">
+          <folding />
+        </state>
+      </provider>
+      <provider editor-type-id="com.intellij.persistence.database.editor.CsvTableFileEditorProvider">
+        <state />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/allotments.n3">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="3225" />
+        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="-7.5771275" vertical-offset="2849" max-vertical-offset="3225">
+          <folding />
+        </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/planning.py">
+    <entry file="file://$PROJECT_DIR$/Data/allotments.csv">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="100" column="114" selection-start="4115" selection-end="4115" vertical-scroll-proportion="0.0" vertical-offset="1238" max-vertical-offset="2025">
+        <state line="4" column="35" selection-start="452" selection-end="501" vertical-scroll-proportion="0.17857143" vertical-offset="0" max-vertical-offset="3105">
+          <folding />
+        </state>
+      </provider>
+      <provider editor-type-id="com.intellij.persistence.database.editor.CsvTableFileEditorProvider">
+        <state />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/allotments.turtle">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="12" column="13" selection-start="647" selection-end="652" vertical-scroll-proportion="-2.018868" vertical-offset="73" max-vertical-offset="4440">
+          <folding />
+        </state>
+      </provider>
+      <provider editor-type-id="com.intellij.persistence.database.editor.CsvTableFileEditorProvider">
+        <state />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/allotments.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="114" column="13" selection-start="4623" selection-end="4623" vertical-scroll-proportion="0.33937824" vertical-offset="1519" max-vertical-offset="1920">
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/allotments-tmp.rdf">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="571" column="0" selection-start="42724" selection-end="42724" vertical-scroll-proportion="0.0" vertical-offset="8250" max-vertical-offset="8655">
+        <state line="98" column="5" selection-start="6907" selection-end="6907" vertical-scroll-proportion="0.8549223" vertical-offset="1140" max-vertical-offset="9870">
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/allotments.py">
+    <entry file="file://$PROJECT_DIR$/spend.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="130" column="10" selection-start="4687" selection-end="5297" vertical-scroll-proportion="0.0" vertical-offset="1680" max-vertical-offset="2040">
+        <state line="106" column="115" selection-start="3942" selection-end="3955" vertical-scroll-proportion="0.6502591" vertical-offset="1279" max-vertical-offset="1665">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/grittingroutes.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="104" column="9" selection-start="3883" selection-end="3883" vertical-scroll-proportion="0.26165804" vertical-offset="1369" max-vertical-offset="1755">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Output/streetlight.rdf">
+      <provider selected="true" editor-type-id="LargeFileEditor">
+        <state />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Data/planning.csv">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="-0.0" vertical-offset="0" max-vertical-offset="3581460">
+          <folding />
+        </state>
+      </provider>
+      <provider editor-type-id="com.intellij.persistence.database.editor.CsvTableFileEditorProvider">
+        <state />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Data/Street_Lighting.txt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="0" column="131" selection-start="122" selection-end="131" vertical-scroll-proportion="-0.0" vertical-offset="0" max-vertical-offset="922680">
+          <folding />
+        </state>
+      </provider>
+      <provider editor-type-id="com.intellij.persistence.database.editor.CsvTableFileEditorProvider">
+        <state />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Data/planning2.csv">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="0" column="56" selection-start="48" selection-end="56" vertical-scroll-proportion="-0.0" vertical-offset="0" max-vertical-offset="3421860">
+          <folding />
+        </state>
+      </provider>
+      <provider editor-type-id="com.intellij.persistence.database.editor.CsvTableFileEditorProvider">
+        <state />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Output/councilTax.rdf">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="20.4" vertical-offset="510" max-vertical-offset="2084985">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/planning.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="128" column="0" selection-start="5558" selection-end="5558" vertical-scroll-proportion="-13.153846" vertical-offset="1518" max-vertical-offset="2025">
+          <folding>
+            <marker date="1395414332000" expanded="true" signature="1782:5032" placeholder="..." />
+            <marker date="1395414332000" expanded="true" signature="2781:4384" placeholder="..." />
+            <marker date="1395414332000" expanded="true" signature="5101:6000" placeholder="..." />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/streetlights.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="93" column="0" selection-start="3700" selection-end="3700" vertical-scroll-proportion="0.0" vertical-offset="1009" max-vertical-offset="1620">
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/CouncilTaxData.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="64" column="0" selection-start="1908" selection-end="1908" vertical-scroll-proportion="0.43609023" vertical-offset="786" max-vertical-offset="1215">
-          <folding>
-            <element signature="e#29#63#0" expanded="true" />
-          </folding>
+        <state line="113" column="26" selection-start="4588" selection-end="4588" vertical-scroll-proportion="-23.538462" vertical-offset="1023" max-vertical-offset="2325">
+          <folding />
         </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Output/councilTax.n3">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="27" column="30" selection-start="1100" selection-end="1115" vertical-scroll-proportion="-4483.1934" vertical-offset="2085090" max-vertical-offset="2085555">
+          <folding />
+        </state>
+      </provider>
+      <provider editor-type-id="com.intellij.persistence.database.editor.CsvTableFileEditorProvider">
+        <state />
       </provider>
     </entry>
   </component>

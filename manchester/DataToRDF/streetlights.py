@@ -39,7 +39,7 @@ from rdflib.namespace import FOAF, DC
 import csv
 import pprint
 
-storefn = os.path.dirname(os.path.realpath(__file__)) + '/streetlight.rdf'
+storefn = os.path.dirname(os.path.realpath(__file__)) + '/output/streetlight.rdf'
 #storefn = '/home/simon/codes/film.dev/movies.n3'
 storeuri = 'file://'+storefn
 title = 'Movies viewed by %s'
@@ -53,6 +53,7 @@ GEO = Namespace('http://www.w3.org/2003/01/geo/wgs84_pos#')
 VCARD = Namespace('http://www.w3.org/2006/vcard/ns#')
 SCHEMA = Namespace('http://schema.org/')
 sl = Namespace('http://data.gmdsp.org.uk/id/manchester/street-lights/')
+streetdef = Namespace('http://data.gmdsp.org.uk/def/council/streetlighting/')
 class Store:
     def __init__(self):
 
@@ -70,20 +71,21 @@ class Store:
         self.graph.bind('geo', GEO)
         self.graph.bind('schema', SCHEMA)
         self.graph.bind('spacial', SPACIAL)
+        self.graph.bind('streetlamp', streetdef)
 
     def save(self):
         self.graph.serialize(storeuri, format='pretty-xml')
 
     #def new_streetlight(self, height, easting, eligible, lamp, lampwatts, location, mintyn, northing, objectId, street, unitid, unitno):
-    def new_streetlight(self, height, easting, northing, street, objectId):
+    def new_streetlight(self, height, easting, northing, street, objectId, lamptype, watt):
         streetlamp = sl[objectId] # @@ humanize the identifier (something like #rev-$date)
-        self.graph.add((streetlamp, RDF.type, URIRef('http://data.gmdsp.org.uk/def/council/street-maintenance/street-light')))
-        self.graph.add((streetlamp, SCHEMA['height'], Literal(height)))
+        self.graph.add((streetlamp, RDF.type, URIRef('http://data.gmdsp.org.uk/def/council/streetlighting')))
+        self.graph.add((streetlamp, streetdef['columnHeight'], Literal(height)))
         self.graph.add((streetlamp, SPACIAL['easting'], Literal(easting)))
         self.graph.add((streetlamp, SPACIAL['northing'], Literal(northing)))
-        self.graph.add((streetlamp, VCARD['hasstreetaddress'], Literal(street)))
-        #self.graph.add((allotment, DC['date'], Literal(external_link)))
-        #self.graph.add((allotment, DC['date'], Literal(guidence)))
+        self.graph.add((streetlamp, VCARD['street-address'], Literal(street)))
+        self.graph.add((streetlamp, streetdef['lampType'], Literal(lamptype)))
+        self.graph.add((streetlamp, streetdef['wattage'], Literal(watt)))
         #self.graph.add((allotment, GEO["lat//long"], Literal(location)))
         #self.graph.add((allotment, RDFS['label'], Literal(name)))
         #self.graph.add((allotment, DC['date'], Literal(plot_size)))
@@ -98,7 +100,7 @@ def main(argv=None):
 
     reader = csv.DictReader(open('./Data/Street_Lighting.txt', mode='r'))
     for row in reader:
-        s.new_streetlight(row["COLHEIGHT"], row["EASTING"], row["NORTHING"], row['STREET'], row["OBJECTID"])
+        s.new_streetlight(row["COLHEIGHT"], row["EASTING"], row["NORTHING"], row['STREET'], row["OBJECTID"], row["LAMP"], row["LAMPWATTS"])
     s.save()
 
 if __name__ == '__main__':
