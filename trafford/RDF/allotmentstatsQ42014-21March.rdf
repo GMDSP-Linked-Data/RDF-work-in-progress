@@ -1,0 +1,630 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rdf:RDF
+	xmlns:gmdsp="http://gmdsp.org.uk/def/statistical-dimension/allotments/"
+	xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
+	xmlns:time="http://www.w3.org/2006/time#"
+	xmlns:foaf="http://xmlns.com/foaf/0.1/"
+	xmlns:dgu="http://reference.data.gov.uk/def/reference/"
+	xmlns:owl="http://www.w3.org/2002/07/owl#"
+	xmlns:xsd="http://www.w3.org/2001/XMLSchema#"
+	xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+	xmlns:qb="http://purl.org/linked-data/cube#"
+	xmlns:sdmx-dimension="http://purl.org/linked-data/sdmx/2009/dimension#">
+
+<rdf:Description rdf:about="http://data.gmdsp.org.uk/data/trafford/allotments/allotment-stats">
+	<rdf:type rdf:resource="http://purl.org/linked-data/cube#DataSet"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://data.gmdsp.org.uk/id/trafford/allotments/allotment-stats/number-of-plots/grove-lane-allotments">
+	<rdf:type rdf:resource="http://purl.org/linked-data/cube#Observation"/>
+	<rdfs:label>Grove Lane Allotments, 2013-Q4, number of plots</rdfs:label>
+	<number-of-plots xmlns="http://data.gmdsp.org.uk/def/council/allotment/" rdf:datatype="http://www.w3.org/2001/XMLSchema#int">31</number-of-plots>
+	<sdmx-dimension:refPeriod rdf:resource="http://reference.data.gov.uk/id/quarter/2013-Q4"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://data.gmdsp.org.uk/data/trafford/allotments/allotment-stats">
+	<number-of-plots xmlns="http://gmdsp.org/def/statistical-dimension/allotments/" rdf:resource="http://data.gmdsp.org.uk/id/trafford/allotments/allotment-stats/number-of-plots/grove-lane-allotments"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://data.gmdsp.org.uk/id/trafford/allotments/grove-lane-allotments">
+	<rdf:type rdf:resource="http://gmdsp.org/def/statistical-dimension/allotments/refAllotment"/>
+	<qb:dataSet rdf:resource="http://data.gmdsp.org.uk/data/trafford/allotments/allotment-stats"/>
+	<rdfs:label>Grove Lane Allotments, statistics</rdfs:label>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://data.gmdsp.org.uk/id/trafford/allotments/allotment-stats/number-of-plots/riddings-hall-allotments">
+	<rdf:type rdf:resource="http://purl.org/linked-data/cube#Observation"/>
+	<rdfs:label>Riddings Hall Allotments, 2013-Q4, number of plots</rdfs:label>
+	<number-of-plots xmlns="http://data.gmdsp.org.uk/def/council/allotment/" rdf:datatype="http://www.w3.org/2001/XMLSchema#int">80</number-of-plots>
+	<sdmx-dimension:refPeriod rdf:resource="http://reference.data.gov.uk/id/quarter/2013-Q4"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://data.gmdsp.org.uk/data/trafford/allotments/allotment-stats">
+	<number-of-plots xmlns="http://gmdsp.org/def/statistical-dimension/allotments/" rdf:resource="http://data.gmdsp.org.uk/id/trafford/allotments/allotment-stats/number-of-plots/riddings-hall-allotments"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://data.gmdsp.org.uk/id/trafford/allotments/riddings-hall-allotments">
+	<rdf:type rdf:resource="http://gmdsp.org/def/statistical-dimension/allotments/refAllotment"/>
+	<qb:dataSet rdf:resource="http://data.gmdsp.org.uk/data/trafford/allotments/allotment-stats"/>
+	<rdfs:label>Riddings Hall Allotments, statistics</rdfs:label>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://data.gmdsp.org.uk/id/trafford/allotments/allotment-stats/number-of-plots/trafford-drive-allotments">
+	<rdf:type rdf:resource="http://purl.org/linked-data/cube#Observation"/>
+	<rdfs:label>Trafford Drive Allotments, 2013-Q4, number of plots</rdfs:label>
+	<number-of-plots xmlns="http://data.gmdsp.org.uk/def/council/allotment/" rdf:datatype="http://www.w3.org/2001/XMLSchema#int">57</number-of-plots>
+	<sdmx-dimension:refPeriod rdf:resource="http://reference.data.gov.uk/id/quarter/2013-Q4"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://data.gmdsp.org.uk/data/trafford/allotments/allotment-stats">
+	<number-of-plots xmlns="http://gmdsp.org/def/statistical-dimension/allotments/" rdf:resource="http://data.gmdsp.org.uk/id/trafford/allotments/allotment-stats/number-of-plots/trafford-drive-allotments"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://data.gmdsp.org.uk/id/trafford/allotments/trafford-drive-allotments">
+	<rdf:type rdf:resource="http://gmdsp.org/def/statistical-dimension/allotments/refAllotment"/>
+	<qb:dataSet rdf:resource="http://data.gmdsp.org.uk/data/trafford/allotments/allotment-stats"/>
+	<rdfs:label>Trafford Drive Allotments, statistics</rdfs:label>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://data.gmdsp.org.uk/id/trafford/allotments/allotment-stats/number-of-plots/pickering-lodge-allotments">
+	<rdf:type rdf:resource="http://purl.org/linked-data/cube#Observation"/>
+	<rdfs:label>Pickering Lodge Allotments, 2013-Q4, number of plots</rdfs:label>
+	<number-of-plots xmlns="http://data.gmdsp.org.uk/def/council/allotment/" rdf:datatype="http://www.w3.org/2001/XMLSchema#int">18</number-of-plots>
+	<sdmx-dimension:refPeriod rdf:resource="http://reference.data.gov.uk/id/quarter/2013-Q4"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://data.gmdsp.org.uk/data/trafford/allotments/allotment-stats">
+	<number-of-plots xmlns="http://gmdsp.org/def/statistical-dimension/allotments/" rdf:resource="http://data.gmdsp.org.uk/id/trafford/allotments/allotment-stats/number-of-plots/pickering-lodge-allotments"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://data.gmdsp.org.uk/id/trafford/allotments/pickering-lodge-allotments">
+	<rdf:type rdf:resource="http://gmdsp.org/def/statistical-dimension/allotments/refAllotment"/>
+	<qb:dataSet rdf:resource="http://data.gmdsp.org.uk/data/trafford/allotments/allotment-stats"/>
+	<rdfs:label>Pickering Lodge Allotments, statistics</rdfs:label>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://data.gmdsp.org.uk/id/trafford/allotments/allotment-stats/number-of-plots/woodstock-allotments">
+	<rdf:type rdf:resource="http://purl.org/linked-data/cube#Observation"/>
+	<rdfs:label>Woodstock Allotments, 2013-Q4, number of plots</rdfs:label>
+	<number-of-plots xmlns="http://data.gmdsp.org.uk/def/council/allotment/" rdf:datatype="http://www.w3.org/2001/XMLSchema#int">12</number-of-plots>
+	<sdmx-dimension:refPeriod rdf:resource="http://reference.data.gov.uk/id/quarter/2013-Q4"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://data.gmdsp.org.uk/data/trafford/allotments/allotment-stats">
+	<number-of-plots xmlns="http://gmdsp.org/def/statistical-dimension/allotments/" rdf:resource="http://data.gmdsp.org.uk/id/trafford/allotments/allotment-stats/number-of-plots/woodstock-allotments"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://data.gmdsp.org.uk/id/trafford/allotments/woodstock-allotments">
+	<rdf:type rdf:resource="http://gmdsp.org/def/statistical-dimension/allotments/refAllotment"/>
+	<qb:dataSet rdf:resource="http://data.gmdsp.org.uk/data/trafford/allotments/allotment-stats"/>
+	<rdfs:label>Woodstock Allotments, statistics</rdfs:label>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://data.gmdsp.org.uk/id/trafford/allotments/allotment-stats/number-of-plots/vicarage-lane-allotments">
+	<rdf:type rdf:resource="http://purl.org/linked-data/cube#Observation"/>
+	<rdfs:label>Vicarage Lane Allotments, 2013-Q4, number of plots</rdfs:label>
+	<number-of-plots xmlns="http://data.gmdsp.org.uk/def/council/allotment/" rdf:datatype="http://www.w3.org/2001/XMLSchema#int">33</number-of-plots>
+	<sdmx-dimension:refPeriod rdf:resource="http://reference.data.gov.uk/id/quarter/2013-Q4"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://data.gmdsp.org.uk/data/trafford/allotments/allotment-stats">
+	<number-of-plots xmlns="http://gmdsp.org/def/statistical-dimension/allotments/" rdf:resource="http://data.gmdsp.org.uk/id/trafford/allotments/allotment-stats/number-of-plots/vicarage-lane-allotments"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://data.gmdsp.org.uk/id/trafford/allotments/vicarage-lane-allotments">
+	<rdf:type rdf:resource="http://gmdsp.org/def/statistical-dimension/allotments/refAllotment"/>
+	<qb:dataSet rdf:resource="http://data.gmdsp.org.uk/data/trafford/allotments/allotment-stats"/>
+	<rdfs:label>Vicarage Lane Allotments, statistics</rdfs:label>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://data.gmdsp.org.uk/id/trafford/allotments/allotment-stats/number-of-plots/eaton-road-allotments">
+	<rdf:type rdf:resource="http://purl.org/linked-data/cube#Observation"/>
+	<rdfs:label>Eaton Road Allotments, 2013-Q4, number of plots</rdfs:label>
+	<number-of-plots xmlns="http://data.gmdsp.org.uk/def/council/allotment/" rdf:datatype="http://www.w3.org/2001/XMLSchema#int">9</number-of-plots>
+	<sdmx-dimension:refPeriod rdf:resource="http://reference.data.gov.uk/id/quarter/2013-Q4"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://data.gmdsp.org.uk/data/trafford/allotments/allotment-stats">
+	<number-of-plots xmlns="http://gmdsp.org/def/statistical-dimension/allotments/" rdf:resource="http://data.gmdsp.org.uk/id/trafford/allotments/allotment-stats/number-of-plots/eaton-road-allotments"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://data.gmdsp.org.uk/id/trafford/allotments/eaton-road-allotments">
+	<rdf:type rdf:resource="http://gmdsp.org/def/statistical-dimension/allotments/refAllotment"/>
+	<qb:dataSet rdf:resource="http://data.gmdsp.org.uk/data/trafford/allotments/allotment-stats"/>
+	<rdfs:label>Eaton Road Allotments, statistics</rdfs:label>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://data.gmdsp.org.uk/id/trafford/allotments/allotment-stats/number-of-plots/golf-road-allotments">
+	<rdf:type rdf:resource="http://purl.org/linked-data/cube#Observation"/>
+	<rdfs:label>Golf Road Allotments, 2013-Q4, number of plots</rdfs:label>
+	<number-of-plots xmlns="http://data.gmdsp.org.uk/def/council/allotment/" rdf:datatype="http://www.w3.org/2001/XMLSchema#int">97</number-of-plots>
+	<sdmx-dimension:refPeriod rdf:resource="http://reference.data.gov.uk/id/quarter/2013-Q4"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://data.gmdsp.org.uk/data/trafford/allotments/allotment-stats">
+	<number-of-plots xmlns="http://gmdsp.org/def/statistical-dimension/allotments/" rdf:resource="http://data.gmdsp.org.uk/id/trafford/allotments/allotment-stats/number-of-plots/golf-road-allotments"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://data.gmdsp.org.uk/id/trafford/allotments/golf-road-allotments">
+	<rdf:type rdf:resource="http://gmdsp.org/def/statistical-dimension/allotments/refAllotment"/>
+	<qb:dataSet rdf:resource="http://data.gmdsp.org.uk/data/trafford/allotments/allotment-stats"/>
+	<rdfs:label>Golf Road Allotments, statistics</rdfs:label>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://data.gmdsp.org.uk/id/trafford/allotments/allotment-stats/number-of-plots/moss-lane-allotments">
+	<rdf:type rdf:resource="http://purl.org/linked-data/cube#Observation"/>
+	<rdfs:label>Moss Lane Allotments, 2013-Q4, number of plots</rdfs:label>
+	<number-of-plots xmlns="http://data.gmdsp.org.uk/def/council/allotment/" rdf:datatype="http://www.w3.org/2001/XMLSchema#int">25</number-of-plots>
+	<sdmx-dimension:refPeriod rdf:resource="http://reference.data.gov.uk/id/quarter/2013-Q4"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://data.gmdsp.org.uk/data/trafford/allotments/allotment-stats">
+	<number-of-plots xmlns="http://gmdsp.org/def/statistical-dimension/allotments/" rdf:resource="http://data.gmdsp.org.uk/id/trafford/allotments/allotment-stats/number-of-plots/moss-lane-allotments"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://data.gmdsp.org.uk/id/trafford/allotments/moss-lane-allotments">
+	<rdf:type rdf:resource="http://gmdsp.org/def/statistical-dimension/allotments/refAllotment"/>
+	<qb:dataSet rdf:resource="http://data.gmdsp.org.uk/data/trafford/allotments/allotment-stats"/>
+	<rdfs:label>Moss Lane Allotments, statistics</rdfs:label>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://data.gmdsp.org.uk/id/trafford/allotments/allotment-stats/number-of-plots/wellfield-lane-allotments">
+	<rdf:type rdf:resource="http://purl.org/linked-data/cube#Observation"/>
+	<rdfs:label>Wellfield Lane Allotments, 2013-Q4, number of plots</rdfs:label>
+	<number-of-plots xmlns="http://data.gmdsp.org.uk/def/council/allotment/" rdf:datatype="http://www.w3.org/2001/XMLSchema#int">48</number-of-plots>
+	<sdmx-dimension:refPeriod rdf:resource="http://reference.data.gov.uk/id/quarter/2013-Q4"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://data.gmdsp.org.uk/data/trafford/allotments/allotment-stats">
+	<number-of-plots xmlns="http://gmdsp.org/def/statistical-dimension/allotments/" rdf:resource="http://data.gmdsp.org.uk/id/trafford/allotments/allotment-stats/number-of-plots/wellfield-lane-allotments"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://data.gmdsp.org.uk/id/trafford/allotments/wellfield-lane-allotments">
+	<rdf:type rdf:resource="http://gmdsp.org/def/statistical-dimension/allotments/refAllotment"/>
+	<qb:dataSet rdf:resource="http://data.gmdsp.org.uk/data/trafford/allotments/allotment-stats"/>
+	<rdfs:label>Wellfield Lane Allotments, statistics</rdfs:label>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://data.gmdsp.org.uk/id/trafford/allotments/allotment-stats/number-of-plots/totnes-road-allotments">
+	<rdf:type rdf:resource="http://purl.org/linked-data/cube#Observation"/>
+	<rdfs:label>Totnes Road Allotments, 2013-Q4, number of plots</rdfs:label>
+	<number-of-plots xmlns="http://data.gmdsp.org.uk/def/council/allotment/" rdf:datatype="http://www.w3.org/2001/XMLSchema#int">8</number-of-plots>
+	<sdmx-dimension:refPeriod rdf:resource="http://reference.data.gov.uk/id/quarter/2013-Q4"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://data.gmdsp.org.uk/data/trafford/allotments/allotment-stats">
+	<number-of-plots xmlns="http://gmdsp.org/def/statistical-dimension/allotments/" rdf:resource="http://data.gmdsp.org.uk/id/trafford/allotments/allotment-stats/number-of-plots/totnes-road-allotments"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://data.gmdsp.org.uk/id/trafford/allotments/totnes-road-allotments">
+	<rdf:type rdf:resource="http://gmdsp.org/def/statistical-dimension/allotments/refAllotment"/>
+	<qb:dataSet rdf:resource="http://data.gmdsp.org.uk/data/trafford/allotments/allotment-stats"/>
+	<rdfs:label>Totnes Road Allotments, statistics</rdfs:label>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://data.gmdsp.org.uk/id/trafford/allotments/allotment-stats/number-of-plots/de-quincey-road-allotments">
+	<rdf:type rdf:resource="http://purl.org/linked-data/cube#Observation"/>
+	<rdfs:label>De-Quincey Road Allotments, 2013-Q4, number of plots</rdfs:label>
+	<number-of-plots xmlns="http://data.gmdsp.org.uk/def/council/allotment/" rdf:datatype="http://www.w3.org/2001/XMLSchema#int">12</number-of-plots>
+	<sdmx-dimension:refPeriod rdf:resource="http://reference.data.gov.uk/id/quarter/2013-Q4"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://data.gmdsp.org.uk/data/trafford/allotments/allotment-stats">
+	<number-of-plots xmlns="http://gmdsp.org/def/statistical-dimension/allotments/" rdf:resource="http://data.gmdsp.org.uk/id/trafford/allotments/allotment-stats/number-of-plots/de-quincey-road-allotments"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://data.gmdsp.org.uk/id/trafford/allotments/de-quincey-road-allotments">
+	<rdf:type rdf:resource="http://gmdsp.org/def/statistical-dimension/allotments/refAllotment"/>
+	<qb:dataSet rdf:resource="http://data.gmdsp.org.uk/data/trafford/allotments/allotment-stats"/>
+	<rdfs:label>De-Quincey Road Allotments, statistics</rdfs:label>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://data.gmdsp.org.uk/id/trafford/allotments/allotment-stats/number-of-plots/warslow-drive-allotments">
+	<rdf:type rdf:resource="http://purl.org/linked-data/cube#Observation"/>
+	<rdfs:label>Warslow Drive Allotments, 2013-Q4, number of plots</rdfs:label>
+	<number-of-plots xmlns="http://data.gmdsp.org.uk/def/council/allotment/" rdf:datatype="http://www.w3.org/2001/XMLSchema#int">29</number-of-plots>
+	<sdmx-dimension:refPeriod rdf:resource="http://reference.data.gov.uk/id/quarter/2013-Q4"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://data.gmdsp.org.uk/data/trafford/allotments/allotment-stats">
+	<number-of-plots xmlns="http://gmdsp.org/def/statistical-dimension/allotments/" rdf:resource="http://data.gmdsp.org.uk/id/trafford/allotments/allotment-stats/number-of-plots/warslow-drive-allotments"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://data.gmdsp.org.uk/id/trafford/allotments/warslow-drive-allotments">
+	<rdf:type rdf:resource="http://gmdsp.org/def/statistical-dimension/allotments/refAllotment"/>
+	<qb:dataSet rdf:resource="http://data.gmdsp.org.uk/data/trafford/allotments/allotment-stats"/>
+	<rdfs:label>Warslow Drive Allotments, statistics</rdfs:label>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://data.gmdsp.org.uk/id/trafford/allotments/allotment-stats/number-of-plots/grosvenor-road-allotments">
+	<rdf:type rdf:resource="http://purl.org/linked-data/cube#Observation"/>
+	<rdfs:label>Grosvenor Road Allotments, 2013-Q4, number of plots</rdfs:label>
+	<number-of-plots xmlns="http://data.gmdsp.org.uk/def/council/allotment/" rdf:datatype="http://www.w3.org/2001/XMLSchema#int">86</number-of-plots>
+	<sdmx-dimension:refPeriod rdf:resource="http://reference.data.gov.uk/id/quarter/2013-Q4"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://data.gmdsp.org.uk/data/trafford/allotments/allotment-stats">
+	<number-of-plots xmlns="http://gmdsp.org/def/statistical-dimension/allotments/" rdf:resource="http://data.gmdsp.org.uk/id/trafford/allotments/allotment-stats/number-of-plots/grosvenor-road-allotments"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://data.gmdsp.org.uk/id/trafford/allotments/grosvenor-road-allotments">
+	<rdf:type rdf:resource="http://gmdsp.org/def/statistical-dimension/allotments/refAllotment"/>
+	<qb:dataSet rdf:resource="http://data.gmdsp.org.uk/data/trafford/allotments/allotment-stats"/>
+	<rdfs:label>Grosvenor Road Allotments, statistics</rdfs:label>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://data.gmdsp.org.uk/id/trafford/allotments/allotment-stats/number-of-plots/moor-nook-allotments">
+	<rdf:type rdf:resource="http://purl.org/linked-data/cube#Observation"/>
+	<rdfs:label>Moor Nook Allotments, 2013-Q4, number of plots</rdfs:label>
+	<number-of-plots xmlns="http://data.gmdsp.org.uk/def/council/allotment/" rdf:datatype="http://www.w3.org/2001/XMLSchema#int">70</number-of-plots>
+	<sdmx-dimension:refPeriod rdf:resource="http://reference.data.gov.uk/id/quarter/2013-Q4"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://data.gmdsp.org.uk/data/trafford/allotments/allotment-stats">
+	<number-of-plots xmlns="http://gmdsp.org/def/statistical-dimension/allotments/" rdf:resource="http://data.gmdsp.org.uk/id/trafford/allotments/allotment-stats/number-of-plots/moor-nook-allotments"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://data.gmdsp.org.uk/id/trafford/allotments/moor-nook-allotments">
+	<rdf:type rdf:resource="http://gmdsp.org/def/statistical-dimension/allotments/refAllotment"/>
+	<qb:dataSet rdf:resource="http://data.gmdsp.org.uk/data/trafford/allotments/allotment-stats"/>
+	<rdfs:label>Moor Nook Allotments, statistics</rdfs:label>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://data.gmdsp.org.uk/id/trafford/allotments/allotment-stats/number-of-plots/tavistock-road-allotments">
+	<rdf:type rdf:resource="http://purl.org/linked-data/cube#Observation"/>
+	<rdfs:label>Tavistock Road Allotments, 2013-Q4, number of plots</rdfs:label>
+	<number-of-plots xmlns="http://data.gmdsp.org.uk/def/council/allotment/" rdf:datatype="http://www.w3.org/2001/XMLSchema#int">4</number-of-plots>
+	<sdmx-dimension:refPeriod rdf:resource="http://reference.data.gov.uk/id/quarter/2013-Q4"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://data.gmdsp.org.uk/data/trafford/allotments/allotment-stats">
+	<number-of-plots xmlns="http://gmdsp.org/def/statistical-dimension/allotments/" rdf:resource="http://data.gmdsp.org.uk/id/trafford/allotments/allotment-stats/number-of-plots/tavistock-road-allotments"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://data.gmdsp.org.uk/id/trafford/allotments/tavistock-road-allotments">
+	<rdf:type rdf:resource="http://gmdsp.org/def/statistical-dimension/allotments/refAllotment"/>
+	<qb:dataSet rdf:resource="http://data.gmdsp.org.uk/data/trafford/allotments/allotment-stats"/>
+	<rdfs:label>Tavistock Road Allotments, statistics</rdfs:label>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://data.gmdsp.org.uk/id/trafford/allotments/allotment-stats/number-of-plots/walton-road-allotments">
+	<rdf:type rdf:resource="http://purl.org/linked-data/cube#Observation"/>
+	<rdfs:label>Walton Road Allotments, 2013-Q4, number of plots</rdfs:label>
+	<number-of-plots xmlns="http://data.gmdsp.org.uk/def/council/allotment/" rdf:datatype="http://www.w3.org/2001/XMLSchema#int">34</number-of-plots>
+	<sdmx-dimension:refPeriod rdf:resource="http://reference.data.gov.uk/id/quarter/2013-Q4"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://data.gmdsp.org.uk/data/trafford/allotments/allotment-stats">
+	<number-of-plots xmlns="http://gmdsp.org/def/statistical-dimension/allotments/" rdf:resource="http://data.gmdsp.org.uk/id/trafford/allotments/allotment-stats/number-of-plots/walton-road-allotments"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://data.gmdsp.org.uk/id/trafford/allotments/walton-road-allotments">
+	<rdf:type rdf:resource="http://gmdsp.org/def/statistical-dimension/allotments/refAllotment"/>
+	<qb:dataSet rdf:resource="http://data.gmdsp.org.uk/data/trafford/allotments/allotment-stats"/>
+	<rdfs:label>Walton Road Allotments, statistics</rdfs:label>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://data.gmdsp.org.uk/id/trafford/allotments/allotment-stats/number-of-plots/winstanley-road-allotments">
+	<rdf:type rdf:resource="http://purl.org/linked-data/cube#Observation"/>
+	<rdfs:label>Winstanley Road Allotments, 2013-Q4, number of plots</rdfs:label>
+	<number-of-plots xmlns="http://data.gmdsp.org.uk/def/council/allotment/" rdf:datatype="http://www.w3.org/2001/XMLSchema#int">93</number-of-plots>
+	<sdmx-dimension:refPeriod rdf:resource="http://reference.data.gov.uk/id/quarter/2013-Q4"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://data.gmdsp.org.uk/data/trafford/allotments/allotment-stats">
+	<number-of-plots xmlns="http://gmdsp.org/def/statistical-dimension/allotments/" rdf:resource="http://data.gmdsp.org.uk/id/trafford/allotments/allotment-stats/number-of-plots/winstanley-road-allotments"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://data.gmdsp.org.uk/id/trafford/allotments/winstanley-road-allotments">
+	<rdf:type rdf:resource="http://gmdsp.org/def/statistical-dimension/allotments/refAllotment"/>
+	<qb:dataSet rdf:resource="http://data.gmdsp.org.uk/data/trafford/allotments/allotment-stats"/>
+	<rdfs:label>Winstanley Road Allotments, statistics</rdfs:label>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://data.gmdsp.org.uk/id/trafford/allotments/allotment-stats/number-of-plots/church-street-allotments">
+	<rdf:type rdf:resource="http://purl.org/linked-data/cube#Observation"/>
+	<rdfs:label>Church Street Allotments, 2013-Q4, number of plots</rdfs:label>
+	<number-of-plots xmlns="http://data.gmdsp.org.uk/def/council/allotment/" rdf:datatype="http://www.w3.org/2001/XMLSchema#int">9</number-of-plots>
+	<sdmx-dimension:refPeriod rdf:resource="http://reference.data.gov.uk/id/quarter/2013-Q4"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://data.gmdsp.org.uk/data/trafford/allotments/allotment-stats">
+	<number-of-plots xmlns="http://gmdsp.org/def/statistical-dimension/allotments/" rdf:resource="http://data.gmdsp.org.uk/id/trafford/allotments/allotment-stats/number-of-plots/church-street-allotments"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://data.gmdsp.org.uk/id/trafford/allotments/church-street-allotments">
+	<rdf:type rdf:resource="http://gmdsp.org/def/statistical-dimension/allotments/refAllotment"/>
+	<qb:dataSet rdf:resource="http://data.gmdsp.org.uk/data/trafford/allotments/allotment-stats"/>
+	<rdfs:label>Church Street Allotments, statistics</rdfs:label>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://data.gmdsp.org.uk/id/trafford/allotments/allotment-stats/number-of-plots/gorse-hill-allotments">
+	<rdf:type rdf:resource="http://purl.org/linked-data/cube#Observation"/>
+	<rdfs:label>Gorse Hill Allotments, 2013-Q4, number of plots</rdfs:label>
+	<number-of-plots xmlns="http://data.gmdsp.org.uk/def/council/allotment/" rdf:datatype="http://www.w3.org/2001/XMLSchema#int">101</number-of-plots>
+	<sdmx-dimension:refPeriod rdf:resource="http://reference.data.gov.uk/id/quarter/2013-Q4"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://data.gmdsp.org.uk/data/trafford/allotments/allotment-stats">
+	<number-of-plots xmlns="http://gmdsp.org/def/statistical-dimension/allotments/" rdf:resource="http://data.gmdsp.org.uk/id/trafford/allotments/allotment-stats/number-of-plots/gorse-hill-allotments"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://data.gmdsp.org.uk/id/trafford/allotments/gorse-hill-allotments">
+	<rdf:type rdf:resource="http://gmdsp.org/def/statistical-dimension/allotments/refAllotment"/>
+	<qb:dataSet rdf:resource="http://data.gmdsp.org.uk/data/trafford/allotments/allotment-stats"/>
+	<rdfs:label>Gorse Hill Allotments, statistics</rdfs:label>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://data.gmdsp.org.uk/id/trafford/allotments/allotment-stats/number-of-plots/old-trafford-allotments">
+	<rdf:type rdf:resource="http://purl.org/linked-data/cube#Observation"/>
+	<rdfs:label>Old Trafford Allotments, 2013-Q4, number of plots</rdfs:label>
+	<number-of-plots xmlns="http://data.gmdsp.org.uk/def/council/allotment/" rdf:datatype="http://www.w3.org/2001/XMLSchema#int">99</number-of-plots>
+	<sdmx-dimension:refPeriod rdf:resource="http://reference.data.gov.uk/id/quarter/2013-Q4"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://data.gmdsp.org.uk/data/trafford/allotments/allotment-stats">
+	<number-of-plots xmlns="http://gmdsp.org/def/statistical-dimension/allotments/" rdf:resource="http://data.gmdsp.org.uk/id/trafford/allotments/allotment-stats/number-of-plots/old-trafford-allotments"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://data.gmdsp.org.uk/id/trafford/allotments/old-trafford-allotments">
+	<rdf:type rdf:resource="http://gmdsp.org/def/statistical-dimension/allotments/refAllotment"/>
+	<qb:dataSet rdf:resource="http://data.gmdsp.org.uk/data/trafford/allotments/allotment-stats"/>
+	<rdfs:label>Old Trafford Allotments, statistics</rdfs:label>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://data.gmdsp.org.uk/id/trafford/allotments/allotment-stats/number-of-plots/urmston-lane-allotments">
+	<rdf:type rdf:resource="http://purl.org/linked-data/cube#Observation"/>
+	<rdfs:label>Urmston Lane Allotments, 2013-Q4, number of plots</rdfs:label>
+	<number-of-plots xmlns="http://data.gmdsp.org.uk/def/council/allotment/" rdf:datatype="http://www.w3.org/2001/XMLSchema#int">35</number-of-plots>
+	<sdmx-dimension:refPeriod rdf:resource="http://reference.data.gov.uk/id/quarter/2013-Q4"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://data.gmdsp.org.uk/data/trafford/allotments/allotment-stats">
+	<number-of-plots xmlns="http://gmdsp.org/def/statistical-dimension/allotments/" rdf:resource="http://data.gmdsp.org.uk/id/trafford/allotments/allotment-stats/number-of-plots/urmston-lane-allotments"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://data.gmdsp.org.uk/id/trafford/allotments/urmston-lane-allotments">
+	<rdf:type rdf:resource="http://gmdsp.org/def/statistical-dimension/allotments/refAllotment"/>
+	<qb:dataSet rdf:resource="http://data.gmdsp.org.uk/data/trafford/allotments/allotment-stats"/>
+	<rdfs:label>Urmston Lane Allotments, statistics</rdfs:label>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://data.gmdsp.org.uk/id/trafford/allotments/allotment-stats/number-of-plots/balmoral-allotments">
+	<rdf:type rdf:resource="http://purl.org/linked-data/cube#Observation"/>
+	<rdfs:label>Balmoral Allotments, 2013-Q4, number of plots</rdfs:label>
+	<number-of-plots xmlns="http://data.gmdsp.org.uk/def/council/allotment/" rdf:datatype="http://www.w3.org/2001/XMLSchema#int">31</number-of-plots>
+	<sdmx-dimension:refPeriod rdf:resource="http://reference.data.gov.uk/id/quarter/2013-Q4"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://data.gmdsp.org.uk/data/trafford/allotments/allotment-stats">
+	<number-of-plots xmlns="http://gmdsp.org/def/statistical-dimension/allotments/" rdf:resource="http://data.gmdsp.org.uk/id/trafford/allotments/allotment-stats/number-of-plots/balmoral-allotments"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://data.gmdsp.org.uk/id/trafford/allotments/balmoral-allotments">
+	<rdf:type rdf:resource="http://gmdsp.org/def/statistical-dimension/allotments/refAllotment"/>
+	<qb:dataSet rdf:resource="http://data.gmdsp.org.uk/data/trafford/allotments/allotment-stats"/>
+	<rdfs:label>Balmoral Allotments, statistics</rdfs:label>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://data.gmdsp.org.uk/id/trafford/allotments/allotment-stats/number-of-plots/leagate-allotments">
+	<rdf:type rdf:resource="http://purl.org/linked-data/cube#Observation"/>
+	<rdfs:label>Leagate  Allotments, 2013-Q4, number of plots</rdfs:label>
+	<number-of-plots xmlns="http://data.gmdsp.org.uk/def/council/allotment/" rdf:datatype="http://www.w3.org/2001/XMLSchema#int">11</number-of-plots>
+	<sdmx-dimension:refPeriod rdf:resource="http://reference.data.gov.uk/id/quarter/2013-Q4"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://data.gmdsp.org.uk/data/trafford/allotments/allotment-stats">
+	<number-of-plots xmlns="http://gmdsp.org/def/statistical-dimension/allotments/" rdf:resource="http://data.gmdsp.org.uk/id/trafford/allotments/allotment-stats/number-of-plots/leagate-allotments"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://data.gmdsp.org.uk/id/trafford/allotments/leagate-allotments">
+	<rdf:type rdf:resource="http://gmdsp.org/def/statistical-dimension/allotments/refAllotment"/>
+	<qb:dataSet rdf:resource="http://data.gmdsp.org.uk/data/trafford/allotments/allotment-stats"/>
+	<rdfs:label>Leagate  Allotments, statistics</rdfs:label>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://data.gmdsp.org.uk/id/trafford/allotments/allotment-stats/number-of-plots/brookfield-allotments">
+	<rdf:type rdf:resource="http://purl.org/linked-data/cube#Observation"/>
+	<rdfs:label>Brookfield Allotments, 2013-Q4, number of plots</rdfs:label>
+	<number-of-plots xmlns="http://data.gmdsp.org.uk/def/council/allotment/" rdf:datatype="http://www.w3.org/2001/XMLSchema#int">42</number-of-plots>
+	<sdmx-dimension:refPeriod rdf:resource="http://reference.data.gov.uk/id/quarter/2013-Q4"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://data.gmdsp.org.uk/data/trafford/allotments/allotment-stats">
+	<number-of-plots xmlns="http://gmdsp.org/def/statistical-dimension/allotments/" rdf:resource="http://data.gmdsp.org.uk/id/trafford/allotments/allotment-stats/number-of-plots/brookfield-allotments"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://data.gmdsp.org.uk/id/trafford/allotments/brookfield-allotments">
+	<rdf:type rdf:resource="http://gmdsp.org/def/statistical-dimension/allotments/refAllotment"/>
+	<qb:dataSet rdf:resource="http://data.gmdsp.org.uk/data/trafford/allotments/allotment-stats"/>
+	<rdfs:label>Brookfield Allotments, statistics</rdfs:label>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://data.gmdsp.org.uk/id/trafford/allotments/allotment-stats/number-of-plots/chadwick-allotments">
+	<rdf:type rdf:resource="http://purl.org/linked-data/cube#Observation"/>
+	<rdfs:label>Chadwick Allotments, 2013-Q4, number of plots</rdfs:label>
+	<number-of-plots xmlns="http://data.gmdsp.org.uk/def/council/allotment/" rdf:datatype="http://www.w3.org/2001/XMLSchema#int">42</number-of-plots>
+	<sdmx-dimension:refPeriod rdf:resource="http://reference.data.gov.uk/id/quarter/2013-Q4"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://data.gmdsp.org.uk/data/trafford/allotments/allotment-stats">
+	<number-of-plots xmlns="http://gmdsp.org/def/statistical-dimension/allotments/" rdf:resource="http://data.gmdsp.org.uk/id/trafford/allotments/allotment-stats/number-of-plots/chadwick-allotments"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://data.gmdsp.org.uk/id/trafford/allotments/chadwick-allotments">
+	<rdf:type rdf:resource="http://gmdsp.org/def/statistical-dimension/allotments/refAllotment"/>
+	<qb:dataSet rdf:resource="http://data.gmdsp.org.uk/data/trafford/allotments/allotment-stats"/>
+	<rdfs:label>Chadwick Allotments, statistics</rdfs:label>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://data.gmdsp.org.uk/id/trafford/allotments/allotment-stats/number-of-plots/granville-park-allotments">
+	<rdf:type rdf:resource="http://purl.org/linked-data/cube#Observation"/>
+	<rdfs:label>Granville Park Allotments, 2013-Q4, number of plots</rdfs:label>
+	<number-of-plots xmlns="http://data.gmdsp.org.uk/def/council/allotment/" rdf:datatype="http://www.w3.org/2001/XMLSchema#int">42</number-of-plots>
+	<sdmx-dimension:refPeriod rdf:resource="http://reference.data.gov.uk/id/quarter/2013-Q4"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://data.gmdsp.org.uk/data/trafford/allotments/allotment-stats">
+	<number-of-plots xmlns="http://gmdsp.org/def/statistical-dimension/allotments/" rdf:resource="http://data.gmdsp.org.uk/id/trafford/allotments/allotment-stats/number-of-plots/granville-park-allotments"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://data.gmdsp.org.uk/id/trafford/allotments/granville-park-allotments">
+	<rdf:type rdf:resource="http://gmdsp.org/def/statistical-dimension/allotments/refAllotment"/>
+	<qb:dataSet rdf:resource="http://data.gmdsp.org.uk/data/trafford/allotments/allotment-stats"/>
+	<rdfs:label>Granville Park Allotments, statistics</rdfs:label>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://data.gmdsp.org.uk/id/trafford/allotments/allotment-stats/number-of-plots/the-grove-allotments">
+	<rdf:type rdf:resource="http://purl.org/linked-data/cube#Observation"/>
+	<rdfs:label>The Grove Allotments, 2013-Q4, number of plots</rdfs:label>
+	<number-of-plots xmlns="http://data.gmdsp.org.uk/def/council/allotment/" rdf:datatype="http://www.w3.org/2001/XMLSchema#int">28</number-of-plots>
+	<sdmx-dimension:refPeriod rdf:resource="http://reference.data.gov.uk/id/quarter/2013-Q4"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://data.gmdsp.org.uk/data/trafford/allotments/allotment-stats">
+	<number-of-plots xmlns="http://gmdsp.org/def/statistical-dimension/allotments/" rdf:resource="http://data.gmdsp.org.uk/id/trafford/allotments/allotment-stats/number-of-plots/the-grove-allotments"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://data.gmdsp.org.uk/id/trafford/allotments/the-grove-allotments">
+	<rdf:type rdf:resource="http://gmdsp.org/def/statistical-dimension/allotments/refAllotment"/>
+	<qb:dataSet rdf:resource="http://data.gmdsp.org.uk/data/trafford/allotments/allotment-stats"/>
+	<rdfs:label>The Grove Allotments, statistics</rdfs:label>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://data.gmdsp.org.uk/id/trafford/allotments/allotment-stats/number-of-plots/laneheads-private-allotments">
+	<rdf:type rdf:resource="http://purl.org/linked-data/cube#Observation"/>
+	<rdfs:label>Laneheads (Private) Allotments, 2013-Q4, number of plots</rdfs:label>
+	<number-of-plots xmlns="http://data.gmdsp.org.uk/def/council/allotment/" rdf:datatype="http://www.w3.org/2001/XMLSchema#int">33</number-of-plots>
+	<sdmx-dimension:refPeriod rdf:resource="http://reference.data.gov.uk/id/quarter/2013-Q4"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://data.gmdsp.org.uk/data/trafford/allotments/allotment-stats">
+	<number-of-plots xmlns="http://gmdsp.org/def/statistical-dimension/allotments/" rdf:resource="http://data.gmdsp.org.uk/id/trafford/allotments/allotment-stats/number-of-plots/laneheads-private-allotments"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://data.gmdsp.org.uk/id/trafford/allotments/laneheads-private-allotments">
+	<rdf:type rdf:resource="http://gmdsp.org/def/statistical-dimension/allotments/refAllotment"/>
+	<qb:dataSet rdf:resource="http://data.gmdsp.org.uk/data/trafford/allotments/allotment-stats"/>
+	<rdfs:label>Laneheads (Private) Allotments, statistics</rdfs:label>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://data.gmdsp.org.uk/id/trafford/allotments/allotment-stats/number-of-plots/mansfield-allotments">
+	<rdf:type rdf:resource="http://purl.org/linked-data/cube#Observation"/>
+	<rdfs:label>Mansfield Allotments, 2013-Q4, number of plots</rdfs:label>
+	<number-of-plots xmlns="http://data.gmdsp.org.uk/def/council/allotment/" rdf:datatype="http://www.w3.org/2001/XMLSchema#int">17</number-of-plots>
+	<sdmx-dimension:refPeriod rdf:resource="http://reference.data.gov.uk/id/quarter/2013-Q4"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://data.gmdsp.org.uk/data/trafford/allotments/allotment-stats">
+	<number-of-plots xmlns="http://gmdsp.org/def/statistical-dimension/allotments/" rdf:resource="http://data.gmdsp.org.uk/id/trafford/allotments/allotment-stats/number-of-plots/mansfield-allotments"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://data.gmdsp.org.uk/id/trafford/allotments/mansfield-allotments">
+	<rdf:type rdf:resource="http://gmdsp.org/def/statistical-dimension/allotments/refAllotment"/>
+	<qb:dataSet rdf:resource="http://data.gmdsp.org.uk/data/trafford/allotments/allotment-stats"/>
+	<rdfs:label>Mansfield Allotments, statistics</rdfs:label>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://data.gmdsp.org.uk/id/trafford/allotments/allotment-stats/number-of-plots/marlborough-allotments">
+	<rdf:type rdf:resource="http://purl.org/linked-data/cube#Observation"/>
+	<rdfs:label>Marlborough Allotments, 2013-Q4, number of plots</rdfs:label>
+	<number-of-plots xmlns="http://data.gmdsp.org.uk/def/council/allotment/" rdf:datatype="http://www.w3.org/2001/XMLSchema#int">80</number-of-plots>
+	<sdmx-dimension:refPeriod rdf:resource="http://reference.data.gov.uk/id/quarter/2013-Q4"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://data.gmdsp.org.uk/data/trafford/allotments/allotment-stats">
+	<number-of-plots xmlns="http://gmdsp.org/def/statistical-dimension/allotments/" rdf:resource="http://data.gmdsp.org.uk/id/trafford/allotments/allotment-stats/number-of-plots/marlborough-allotments"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://data.gmdsp.org.uk/id/trafford/allotments/marlborough-allotments">
+	<rdf:type rdf:resource="http://gmdsp.org/def/statistical-dimension/allotments/refAllotment"/>
+	<qb:dataSet rdf:resource="http://data.gmdsp.org.uk/data/trafford/allotments/allotment-stats"/>
+	<rdfs:label>Marlborough Allotments, statistics</rdfs:label>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://data.gmdsp.org.uk/id/trafford/allotments/allotment-stats/number-of-plots/mossfields-allotments">
+	<rdf:type rdf:resource="http://purl.org/linked-data/cube#Observation"/>
+	<rdfs:label>Mossfields Allotments, 2013-Q4, number of plots</rdfs:label>
+	<number-of-plots xmlns="http://data.gmdsp.org.uk/def/council/allotment/" rdf:datatype="http://www.w3.org/2001/XMLSchema#int">62</number-of-plots>
+	<sdmx-dimension:refPeriod rdf:resource="http://reference.data.gov.uk/id/quarter/2013-Q4"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://data.gmdsp.org.uk/data/trafford/allotments/allotment-stats">
+	<number-of-plots xmlns="http://gmdsp.org/def/statistical-dimension/allotments/" rdf:resource="http://data.gmdsp.org.uk/id/trafford/allotments/allotment-stats/number-of-plots/mossfields-allotments"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://data.gmdsp.org.uk/id/trafford/allotments/mossfields-allotments">
+	<rdf:type rdf:resource="http://gmdsp.org/def/statistical-dimension/allotments/refAllotment"/>
+	<qb:dataSet rdf:resource="http://data.gmdsp.org.uk/data/trafford/allotments/allotment-stats"/>
+	<rdfs:label>Mossfields Allotments, statistics</rdfs:label>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://data.gmdsp.org.uk/id/trafford/allotments/allotment-stats/number-of-plots/humphrey-park-allotments">
+	<rdf:type rdf:resource="http://purl.org/linked-data/cube#Observation"/>
+	<rdfs:label>Humphrey Park Allotments, 2013-Q4, number of plots</rdfs:label>
+	<number-of-plots xmlns="http://data.gmdsp.org.uk/def/council/allotment/" rdf:datatype="http://www.w3.org/2001/XMLSchema#int">70</number-of-plots>
+	<sdmx-dimension:refPeriod rdf:resource="http://reference.data.gov.uk/id/quarter/2013-Q4"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://data.gmdsp.org.uk/data/trafford/allotments/allotment-stats">
+	<number-of-plots xmlns="http://gmdsp.org/def/statistical-dimension/allotments/" rdf:resource="http://data.gmdsp.org.uk/id/trafford/allotments/allotment-stats/number-of-plots/humphrey-park-allotments"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://data.gmdsp.org.uk/id/trafford/allotments/humphrey-park-allotments">
+	<rdf:type rdf:resource="http://gmdsp.org/def/statistical-dimension/allotments/refAllotment"/>
+	<qb:dataSet rdf:resource="http://data.gmdsp.org.uk/data/trafford/allotments/allotment-stats"/>
+	<rdfs:label>Humphrey Park Allotments, statistics</rdfs:label>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://data.gmdsp.org.uk/id/trafford/allotments/allotment-stats/number-of-plots/wyndcliffe-allotments">
+	<rdf:type rdf:resource="http://purl.org/linked-data/cube#Observation"/>
+	<rdfs:label>Wyndcliffe Allotments, 2013-Q4, number of plots</rdfs:label>
+	<number-of-plots xmlns="http://data.gmdsp.org.uk/def/council/allotment/" rdf:datatype="http://www.w3.org/2001/XMLSchema#int">4</number-of-plots>
+	<sdmx-dimension:refPeriod rdf:resource="http://reference.data.gov.uk/id/quarter/2013-Q4"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://data.gmdsp.org.uk/data/trafford/allotments/allotment-stats">
+	<number-of-plots xmlns="http://gmdsp.org/def/statistical-dimension/allotments/" rdf:resource="http://data.gmdsp.org.uk/id/trafford/allotments/allotment-stats/number-of-plots/wyndcliffe-allotments"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://data.gmdsp.org.uk/id/trafford/allotments/wyndcliffe-allotments">
+	<rdf:type rdf:resource="http://gmdsp.org/def/statistical-dimension/allotments/refAllotment"/>
+	<qb:dataSet rdf:resource="http://data.gmdsp.org.uk/data/trafford/allotments/allotment-stats"/>
+	<rdfs:label>Wyndcliffe Allotments, statistics</rdfs:label>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://data.gmdsp.org.uk/id/trafford/allotments/allotment-stats/number-of-plots/st-marys-allotments">
+	<rdf:type rdf:resource="http://purl.org/linked-data/cube#Observation"/>
+	<rdfs:label>St Marys Allotments, 2013-Q4, number of plots</rdfs:label>
+	<number-of-plots xmlns="http://data.gmdsp.org.uk/def/council/allotment/" rdf:datatype="http://www.w3.org/2001/XMLSchema#int">19</number-of-plots>
+	<sdmx-dimension:refPeriod rdf:resource="http://reference.data.gov.uk/id/quarter/2013-Q4"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://data.gmdsp.org.uk/data/trafford/allotments/allotment-stats">
+	<number-of-plots xmlns="http://gmdsp.org/def/statistical-dimension/allotments/" rdf:resource="http://data.gmdsp.org.uk/id/trafford/allotments/allotment-stats/number-of-plots/st-marys-allotments"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://data.gmdsp.org.uk/id/trafford/allotments/st-marys-allotments">
+	<rdf:type rdf:resource="http://gmdsp.org/def/statistical-dimension/allotments/refAllotment"/>
+	<qb:dataSet rdf:resource="http://data.gmdsp.org.uk/data/trafford/allotments/allotment-stats"/>
+	<rdfs:label>St Marys Allotments, statistics</rdfs:label>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://data.gmdsp.org.uk/id/trafford/allotments/allotment-stats/number-of-plots/moss-view-allotments">
+	<rdf:type rdf:resource="http://purl.org/linked-data/cube#Observation"/>
+	<rdfs:label>Moss View Allotments, 2013-Q4, number of plots</rdfs:label>
+	<number-of-plots xmlns="http://data.gmdsp.org.uk/def/council/allotment/" rdf:datatype="http://www.w3.org/2001/XMLSchema#int">39</number-of-plots>
+	<sdmx-dimension:refPeriod rdf:resource="http://reference.data.gov.uk/id/quarter/2013-Q4"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://data.gmdsp.org.uk/data/trafford/allotments/allotment-stats">
+	<number-of-plots xmlns="http://gmdsp.org/def/statistical-dimension/allotments/" rdf:resource="http://data.gmdsp.org.uk/id/trafford/allotments/allotment-stats/number-of-plots/moss-view-allotments"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://data.gmdsp.org.uk/id/trafford/allotments/moss-view-allotments">
+	<rdf:type rdf:resource="http://gmdsp.org/def/statistical-dimension/allotments/refAllotment"/>
+	<qb:dataSet rdf:resource="http://data.gmdsp.org.uk/data/trafford/allotments/allotment-stats"/>
+	<rdfs:label>Moss View Allotments, statistics</rdfs:label>
+</rdf:Description>
+
+</rdf:RDF>

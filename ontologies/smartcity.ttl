@@ -1,0 +1,788 @@
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix : <http://data.smartcityconceptmodel.com/model/> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+<http://data.smartcityconceptmodel.com/model#Abstract>
+    a rdfs:Class ;
+    rdfs:comment "Existing in thought or as an idea but not having a physical existence." ;
+    rdfs:label "Abstract" ;
+    rdfs:subClassOf <http://data.smartcityconceptmodel.com/model#Item> .
+
+<http://data.smartcityconceptmodel.com/model#Account>
+    a rdfs:Class ;
+    rdfs:comment "A container of information, held by an AGENT, in which to record data arising from EVENTs that relate to an ITEM in a role." ;
+    rdfs:label "Account" ;
+    rdfs:subClassOf <http://data.smartcityconceptmodel.com/model#Abstract> .
+
+<http://data.smartcityconceptmodel.com/model#Agent>
+    a rdfs:Class ;
+    rdfs:comment "An ITEM, but most often a PERSON, or ORGANIZATION, providing a SERVICE or taking a role in an EVENT" ;
+    rdfs:label "Agent" .
+
+<http://data.smartcityconceptmodel.com/model#Agreement>
+    a rdfs:Class ;
+    rdfs:comment "A negotiated arrangement between AGENTs as to a course of action" ;
+    rdfs:label "Agreement" ;
+    rdfs:subClassOf <http://data.smartcityconceptmodel.com/model#Abstract> .
+
+<http://data.smartcityconceptmodel.com/model#Assumption>
+    a rdfs:Class ;
+    rdfs:comment "A predicted future STATE upon which DECISIONs are made." ;
+    rdfs:label "Assumption" ;
+    rdfs:subClassOf <http://data.smartcityconceptmodel.com/model#State> .
+
+<http://data.smartcityconceptmodel.com/model#Building>
+    a rdfs:Class ;
+    rdfs:comment "A man-made OBJECT with roof and walls, with a fixed PLACE, intended for sheltering PERSONs or other OBJECTs." ;
+    rdfs:label "Building" ;
+    rdfs:subClassOf <http://data.smartcityconceptmodel.com/model#Object> .
+
+<http://data.smartcityconceptmodel.com/model#Case>
+    a rdfs:Class ;
+    rdfs:comment "A container for information recording the history of EVENTS initiated by a SERVICE Demand." ;
+    rdfs:label "Case" ;
+    rdfs:subClassOf <http://data.smartcityconceptmodel.com/model#Abstract> .
+
+<http://data.smartcityconceptmodel.com/model#Collection>
+    a rdfs:Class ;
+    rdfs:comment "A grouping of ITEMS, as defined by an AGENT, that need to be managed, or operated upon together." ;
+    rdfs:label "Collection" ;
+    rdfs:subClassOf <http://data.smartcityconceptmodel.com/model#Abstract> .
+
+<http://data.smartcityconceptmodel.com/model#Community>
+    a rdfs:Class ;
+    rdfs:comment "A group of PERSONs and/or ORGANIZATIONs that share common characteristics such as PLACE, circumstance etc." ;
+    rdfs:label "Community" ;
+    rdfs:subClassOf <http://data.smartcityconceptmodel.com/model#Item> .
+
+<http://data.smartcityconceptmodel.com/model#Decision>
+    a rdfs:Class ;
+    rdfs:comment "A conclusion or resolution reached after consideration" ;
+    rdfs:label "Decision" ;
+    rdfs:subClassOf <http://data.smartcityconceptmodel.com/model#Abstract> .
+
+<http://data.smartcityconceptmodel.com/model#Event>
+    a rdfs:Class ;
+    rdfs:comment "An occurrence that has or might happen over a period of TIME." ;
+    rdfs:label "Event" .
+
+<http://data.smartcityconceptmodel.com/model#Function>
+    a rdfs:Class ;
+    rdfs:comment "A COLLECTION of SERVICEs" ;
+    rdfs:label "Function" ;
+    rdfs:subClassOf <http://data.smartcityconceptmodel.com/model#Collection> .
+
+<http://data.smartcityconceptmodel.com/model#Item>
+    a rdfs:Class ;
+    rdfs:comment "An individual article or unit, especially one that is part of a list, collection, or set." ;
+    rdfs:label "Item" .
+
+<http://data.smartcityconceptmodel.com/model#Method>
+    a rdfs:Class ;
+    rdfs:comment "A pre-determined procedure, or series of steps, designed to accomplish an OBJECTIVE." ;
+    rdfs:label "Method" ;
+    rdfs:subClassOf <http://data.smartcityconceptmodel.com/model#Abstract> .
+
+<http://data.smartcityconceptmodel.com/model#Metric>
+    a rdfs:Class ;
+    rdfs:comment "A measure of demography, characteristics, activity or performance" ;
+    rdfs:label "Metric" ;
+    rdfs:subClassOf <http://data.smartcityconceptmodel.com/model#State> .
+
+<http://data.smartcityconceptmodel.com/model#Object>
+    a rdfs:Class ;
+    rdfs:comment "A physical ITEM" ;
+    rdfs:label "Object" ;
+    rdfs:subClassOf <http://data.smartcityconceptmodel.com/model#Item> .
+
+<http://data.smartcityconceptmodel.com/model#Objective>
+    a rdfs:Class ;
+    rdfs:comment "An achievement desired by an AGENT." ;
+    rdfs:label "Objective" ;
+    rdfs:subClassOf <http://data.smartcityconceptmodel.com/model#Abstract> .
+
+<http://data.smartcityconceptmodel.com/model#Observation>
+    a rdfs:Class ;
+    rdfs:comment "An EVENT in which a STATE is recorded." ;
+    rdfs:label "Observation" ;
+    rdfs:subClassOf <http://data.smartcityconceptmodel.com/model#Event> .
+
+<http://data.smartcityconceptmodel.com/model#Organization>
+    a rdfs:Class ;
+    rdfs:comment "A group of PERSONs with a collective goal." ;
+    rdfs:label "Organization" ;
+    rdfs:subClassOf <http://data.smartcityconceptmodel.com/model#Item> .
+
+<http://data.smartcityconceptmodel.com/model#Person>
+    a rdfs:Class ;
+    rdfs:comment "An individual human being." ;
+    rdfs:label "Person" ;
+    rdfs:subClassOf <http://data.smartcityconceptmodel.com/model#Item> .
+
+<http://data.smartcityconceptmodel.com/model#Place>
+    a rdfs:Class ;
+    rdfs:comment "A geographic position, area, or volume." ;
+    rdfs:label "Place" .
+
+<http://data.smartcityconceptmodel.com/model#Plan>
+    a rdfs:Class ;
+    rdfs:comment "A list of steps with TIME and RESOURCE, used to achieve an OBJECTIVE." ;
+    rdfs:label "Plan" ;
+    rdfs:subClassOf <http://data.smartcityconceptmodel.com/model#Abstract> .
+
+<http://data.smartcityconceptmodel.com/model#Resource>
+    a rdfs:Class ;
+    rdfs:comment "An ITEM  that can be drawn on by an AGENT to produce a benefit." ;
+    rdfs:label "Resource" .
+
+<http://data.smartcityconceptmodel.com/model#Rule>
+    a rdfs:Class ;
+    rdfs:comment "an explicit or understood regulation or principle governing conduct or procedure within a particular area of activity" ;
+    rdfs:label "Rule" ;
+    rdfs:subClassOf <http://data.smartcityconceptmodel.com/model#Abstract> .
+
+<http://data.smartcityconceptmodel.com/model#Service>
+    a rdfs:Class ;
+    rdfs:comment "The capacity to carry out one or more METHODs." ;
+    rdfs:label "Service" ;
+    rdfs:subClassOf <http://data.smartcityconceptmodel.com/model#Abstract> .
+
+<http://data.smartcityconceptmodel.com/model#State>
+    a rdfs:Class ;
+    rdfs:comment "A circumstance or condition of an ITEM at a TIME." ;
+    rdfs:label "State" .
+
+<http://data.smartcityconceptmodel.com/model#Target>
+    a rdfs:Class ;
+    rdfs:comment "A desired STATE" ;
+    rdfs:label "Target" ;
+    rdfs:subClassOf <http://data.smartcityconceptmodel.com/model#State> .
+
+<http://data.smartcityconceptmodel.com/model#Time>
+    a rdfs:Class ;
+    rdfs:comment "TIME is a dimension in which EVENTs can be ordered from the past through the present into the future, and also the measure of durations of EVENTSs and the intervals between them." ;
+    rdfs:label "Time" .
+
+<http://data.smartcityconceptmodel.com/model#about>
+    a rdf:Property ;
+    rdfs:domain <http://data.smartcityconceptmodel.com/model#Decision> ;
+    rdfs:label "about" ;
+    rdfs:range <http://data.smartcityconceptmodel.com/model#Item> .
+
+<http://data.smartcityconceptmodel.com/model#aboutRoleOf>
+    a rdf:Property ;
+    rdfs:domain [
+        a owl:Class ;
+        owl:unionOf (<http://data.smartcityconceptmodel.com/model#Case>
+            <http://data.smartcityconceptmodel.com/model#Account>
+        )
+    ] ;
+    rdfs:label "about role of" ;
+    rdfs:range <http://data.smartcityconceptmodel.com/model#Item> .
+
+<http://data.smartcityconceptmodel.com/model#appliedTo>
+    a rdf:Property ;
+    rdfs:domain <http://data.smartcityconceptmodel.com/model#Resource> ;
+    rdfs:label "applied to" ;
+    rdfs:range [
+        a owl:Class ;
+        owl:unionOf (<http://data.smartcityconceptmodel.com/model#Plan>
+            <http://data.smartcityconceptmodel.com/model#Service>
+        )
+    ] .
+
+<http://data.smartcityconceptmodel.com/model#appliesTo>
+    a rdf:Property ;
+    rdfs:domain [
+        a owl:Class ;
+        owl:unionOf (<http://data.smartcityconceptmodel.com/model#Rule>
+            <http://data.smartcityconceptmodel.com/model#Agreement>
+        )
+    ] ;
+    rdfs:label "applies to" ;
+    rdfs:range <http://data.smartcityconceptmodel.com/model#Service> .
+
+<http://data.smartcityconceptmodel.com/model#assumptionMadeBy>
+    a rdf:Property ;
+    rdfs:domain <http://data.smartcityconceptmodel.com/model#Assumption> ;
+    rdfs:label "made by" ;
+    rdfs:range <http://data.smartcityconceptmodel.com/model#Agent> .
+
+<http://data.smartcityconceptmodel.com/model#atPlace>
+    a rdf:Property ;
+    rdfs:domain <http://data.smartcityconceptmodel.com/model#Item> ;
+    rdfs:label "at" ;
+    rdfs:range <http://data.smartcityconceptmodel.com/model#Place> .
+
+<http://data.smartcityconceptmodel.com/model#atTime>
+    a rdf:Property ;
+    rdfs:domain <http://data.smartcityconceptmodel.com/model#State> ;
+    rdfs:label "at time" ;
+    rdfs:range <http://data.smartcityconceptmodel.com/model#Time> .
+
+<http://data.smartcityconceptmodel.com/model#caseHasPlan>
+    a rdf:Property ;
+    rdfs:domain <http://data.smartcityconceptmodel.com/model#Case> ;
+    rdfs:label "has" ;
+    rdfs:range <http://data.smartcityconceptmodel.com/model#Plan> .
+
+<http://data.smartcityconceptmodel.com/model#causedBy>
+    a rdf:Property ;
+    rdfs:domain <http://data.smartcityconceptmodel.com/model#State> ;
+    rdfs:label "caused by" ;
+    rdfs:range <http://data.smartcityconceptmodel.com/model#Event> ;
+    owl:inverseOf <http://data.smartcityconceptmodel.com/model#causes> .
+
+<http://data.smartcityconceptmodel.com/model#causes>
+    a rdf:Property ;
+    rdfs:domain <http://data.smartcityconceptmodel.com/model#Event> ;
+    rdfs:label "causes" ;
+    rdfs:range <http://data.smartcityconceptmodel.com/model#State> .
+
+<http://data.smartcityconceptmodel.com/model#collectionContains>
+    a rdf:Property ;
+    rdfs:domain <http://data.smartcityconceptmodel.com/model#Collection> ;
+    rdfs:label "contains" ;
+    rdfs:range <http://data.smartcityconceptmodel.com/model#Item> .
+
+<http://data.smartcityconceptmodel.com/model#collectionDefinedBy>
+    a rdf:Property ;
+    rdfs:domain <http://data.smartcityconceptmodel.com/model#Collection> ;
+    rdfs:label "defined by" ;
+    rdfs:range <http://data.smartcityconceptmodel.com/model#Agent> .
+
+<http://data.smartcityconceptmodel.com/model#containedIn>
+    a rdf:Property ;
+    rdfs:domain [
+        a owl:Class ;
+        owl:unionOf (<http://data.smartcityconceptmodel.com/model#Plan>
+            <http://data.smartcityconceptmodel.com/model#Organization>
+            <http://data.smartcityconceptmodel.com/model#Community>
+            <http://data.smartcityconceptmodel.com/model#Event>
+        )
+    ] ;
+    rdfs:label "contained in" ;
+    rdfs:range [
+        a owl:Class ;
+        owl:unionOf (<http://data.smartcityconceptmodel.com/model#Plan>
+            <http://data.smartcityconceptmodel.com/model#Organization>
+            <http://data.smartcityconceptmodel.com/model#Community>
+            <http://data.smartcityconceptmodel.com/model#Account>
+        )
+    ] ;
+    owl:inverseOf <http://data.smartcityconceptmodel.com/model#contains> .
+
+<http://data.smartcityconceptmodel.com/model#containedInCollection>
+    a rdf:Property ;
+    rdfs:domain <http://data.smartcityconceptmodel.com/model#Item> ;
+    rdfs:label "contained in" ;
+    rdfs:range <http://data.smartcityconceptmodel.com/model#Collection> ;
+    owl:inverseOf <http://data.smartcityconceptmodel.com/model#collectionContains> .
+
+<http://data.smartcityconceptmodel.com/model#containedInFunction>
+    a rdf:Property ;
+    rdfs:domain <http://data.smartcityconceptmodel.com/model#Service> ;
+    rdfs:label "contained in" ;
+    rdfs:range <http://data.smartcityconceptmodel.com/model#Function> ;
+    owl:inverseOf <http://data.smartcityconceptmodel.com/model#functionContains> .
+
+<http://data.smartcityconceptmodel.com/model#containedInPlace>
+    a rdf:Property ;
+    rdfs:domain <http://data.smartcityconceptmodel.com/model#Place> ;
+    rdfs:label "contained in" ;
+    rdfs:range <http://data.smartcityconceptmodel.com/model#Place> ;
+    owl:inverseOf <http://data.smartcityconceptmodel.com/model#containsPlace> .
+
+<http://data.smartcityconceptmodel.com/model#containedInService>
+    a rdf:Property ;
+    rdfs:domain <http://data.smartcityconceptmodel.com/model#Service> ;
+    rdfs:label "contained in" ;
+    rdfs:range <http://data.smartcityconceptmodel.com/model#Service> ;
+    owl:inverseOf <http://data.smartcityconceptmodel.com/model#containsService> .
+
+<http://data.smartcityconceptmodel.com/model#contains>
+    a rdf:Property ;
+    rdfs:domain [
+        a owl:Class ;
+        owl:unionOf (<http://data.smartcityconceptmodel.com/model#Plan>
+            <http://data.smartcityconceptmodel.com/model#Organization>
+            <http://data.smartcityconceptmodel.com/model#Community>
+            <http://data.smartcityconceptmodel.com/model#Case>
+            <http://data.smartcityconceptmodel.com/model#Account>
+        )
+    ] ;
+    rdfs:label "contains" ;
+    rdfs:range [
+        a owl:Class ;
+        owl:unionOf (<http://data.smartcityconceptmodel.com/model#Plan>
+            <http://data.smartcityconceptmodel.com/model#Organization>
+            <http://data.smartcityconceptmodel.com/model#Community>
+            <http://data.smartcityconceptmodel.com/model#Event>
+        )
+    ] .
+
+<http://data.smartcityconceptmodel.com/model#containsPlace>
+    a rdf:Property ;
+    rdfs:domain <http://data.smartcityconceptmodel.com/model#Place> ;
+    rdfs:label "contains" ;
+    rdfs:range <http://data.smartcityconceptmodel.com/model#Place> .
+
+<http://data.smartcityconceptmodel.com/model#containsService>
+    a rdf:Property ;
+    rdfs:domain <http://data.smartcityconceptmodel.com/model#Service> ;
+    rdfs:label "contains" ;
+    rdfs:range <http://data.smartcityconceptmodel.com/model#Service> .
+
+<http://data.smartcityconceptmodel.com/model#definesCollection>
+    a rdf:Property ;
+    rdfs:domain <http://data.smartcityconceptmodel.com/model#Agent> ;
+    rdfs:label "defines" ;
+    rdfs:range <http://data.smartcityconceptmodel.com/model#Collection> ;
+    owl:inverseOf <http://data.smartcityconceptmodel.com/model#collectionDefinedBy> .
+
+<http://data.smartcityconceptmodel.com/model#derivationOfPlan>
+    a rdf:Property ;
+    rdfs:domain <http://data.smartcityconceptmodel.com/model#Method> ;
+    rdfs:label "derivation of" ;
+    rdfs:range <http://data.smartcityconceptmodel.com/model#Plan> ;
+    owl:inverseOf <http://data.smartcityconceptmodel.com/model#planDerivedFromMethod> .
+
+<http://data.smartcityconceptmodel.com/model#eventAtPlace>
+    a rdf:Property ;
+    rdfs:domain <http://data.smartcityconceptmodel.com/model#Event> ;
+    rdfs:label "at" ;
+    rdfs:range <http://data.smartcityconceptmodel.com/model#Place> .
+
+<http://data.smartcityconceptmodel.com/model#eventPlannedIn>
+    a rdf:Property ;
+    rdfs:domain <http://data.smartcityconceptmodel.com/model#Event> ;
+    rdfs:label "planned in" ;
+    rdfs:range <http://data.smartcityconceptmodel.com/model#Plan> ;
+    owl:inverseOf <http://data.smartcityconceptmodel.com/model#planForEvent> .
+
+<http://data.smartcityconceptmodel.com/model#forPlan>
+    a rdf:Property ;
+    rdfs:domain <http://data.smartcityconceptmodel.com/model#Time> ;
+    rdfs:label "for plan" ;
+    rdfs:range <http://data.smartcityconceptmodel.com/model#Plan> ;
+    owl:inverseOf <http://data.smartcityconceptmodel.com/model#overTime> .
+
+<http://data.smartcityconceptmodel.com/model#functionContains>
+    a rdf:Property ;
+    rdfs:domain <http://data.smartcityconceptmodel.com/model#Function> ;
+    rdfs:label "contains" ;
+    rdfs:range <http://data.smartcityconceptmodel.com/model#Service> .
+
+<http://data.smartcityconceptmodel.com/model#hasAgreement>
+    a rdf:Property ;
+    rdfs:domain <http://data.smartcityconceptmodel.com/model#Agent> ;
+    rdfs:label "has" ;
+    rdfs:range <http://data.smartcityconceptmodel.com/model#Agreement> .
+
+<http://data.smartcityconceptmodel.com/model#hasMember>
+    a rdf:Property ;
+    rdfs:domain <http://data.smartcityconceptmodel.com/model#Organization> ;
+    rdfs:label "has member" ;
+    rdfs:range <http://data.smartcityconceptmodel.com/model#Person> ;
+    owl:inverseOf <http://data.smartcityconceptmodel.com/model#memberOf> .
+
+<http://data.smartcityconceptmodel.com/model#hasObjective>
+    a rdf:Property ;
+    rdfs:domain <http://data.smartcityconceptmodel.com/model#Agent> ;
+    rdfs:label "has" ;
+    rdfs:range <http://data.smartcityconceptmodel.com/model#Objective> .
+
+<http://data.smartcityconceptmodel.com/model#hasOutcome>
+    a rdf:Property ;
+    rdfs:domain <http://data.smartcityconceptmodel.com/model#Event> ;
+    rdfs:label "has outcome" ;
+    rdfs:range <http://data.smartcityconceptmodel.com/model#Decision> ;
+    owl:inverseOf <http://data.smartcityconceptmodel.com/model#outcomeOf> .
+
+<http://data.smartcityconceptmodel.com/model#hasPlan>
+    a rdf:Property ;
+    rdfs:domain <http://data.smartcityconceptmodel.com/model#Agent> ;
+    rdfs:label "has" ;
+    rdfs:range <http://data.smartcityconceptmodel.com/model#Plan> .
+
+<http://data.smartcityconceptmodel.com/model#hasResource>
+    a rdf:Property ;
+    rdfs:domain <http://data.smartcityconceptmodel.com/model#Agent> ;
+    rdfs:label "has" ;
+    rdfs:range <http://data.smartcityconceptmodel.com/model#Resource> .
+
+<http://data.smartcityconceptmodel.com/model#hasRoleFrom>
+    a rdf:Property ;
+    rdfs:domain <http://data.smartcityconceptmodel.com/model#Event> ;
+    rdfs:label "has role from" ;
+    rdfs:range <http://data.smartcityconceptmodel.com/model#Item> ;
+    owl:inverseOf <http://data.smartcityconceptmodel.com/model#hasRoleIn> .
+
+<http://data.smartcityconceptmodel.com/model#hasRoleIn>
+    a rdf:Property ;
+    rdfs:domain <http://data.smartcityconceptmodel.com/model#Item> ;
+    rdfs:label "has role in" ;
+    rdfs:range [
+        a owl:Class ;
+        owl:unionOf (<http://data.smartcityconceptmodel.com/model#Event>
+            <http://data.smartcityconceptmodel.com/model#Case>
+        )
+    ] .
+
+<http://data.smartcityconceptmodel.com/model#hasRule>
+    a rdf:Property ;
+    rdfs:domain <http://data.smartcityconceptmodel.com/model#Service> ;
+    rdfs:label "has" ;
+    rdfs:range <http://data.smartcityconceptmodel.com/model#Rule> ;
+    owl:inverseOf <http://data.smartcityconceptmodel.com/model#appliesTo> .
+
+<http://data.smartcityconceptmodel.com/model#hasState>
+    a rdf:Property ;
+    rdfs:domain [
+        a owl:Class ;
+        owl:unionOf (<http://data.smartcityconceptmodel.com/model#Item>
+            <http://data.smartcityconceptmodel.com/model#Place>
+        )
+    ] ;
+    rdfs:label "has" ;
+    rdfs:range <http://data.smartcityconceptmodel.com/model#State> .
+
+<http://data.smartcityconceptmodel.com/model#hasTargetOutcome>
+    a rdf:Property ;
+    rdfs:domain <http://data.smartcityconceptmodel.com/model#Plan> ;
+    rdfs:label "for outcome" ;
+    rdfs:range <http://data.smartcityconceptmodel.com/model#Target> .
+
+<http://data.smartcityconceptmodel.com/model#influencedBy>
+    a rdf:Property ;
+    rdfs:domain [
+        a owl:Class ;
+        owl:unionOf (<http://data.smartcityconceptmodel.com/model#Service>
+            <http://data.smartcityconceptmodel.com/model#Decision>
+            <http://data.smartcityconceptmodel.com/model#Plan>
+        )
+    ] ;
+    rdfs:label "influenced by" ;
+    rdfs:range <http://data.smartcityconceptmodel.com/model#Objective> .
+
+<http://data.smartcityconceptmodel.com/model#influencedByAssumption>
+    a rdf:Property ;
+    rdfs:domain <http://data.smartcityconceptmodel.com/model#Objective> ;
+    rdfs:label "influenced by" ;
+    rdfs:range <http://data.smartcityconceptmodel.com/model#Assumption> .
+
+<http://data.smartcityconceptmodel.com/model#influences>
+    a rdf:Property ;
+    rdfs:domain <http://data.smartcityconceptmodel.com/model#Objective> ;
+    rdfs:label "influences" ;
+    rdfs:range [
+        a owl:Class ;
+        owl:unionOf (<http://data.smartcityconceptmodel.com/model#Service>
+            <http://data.smartcityconceptmodel.com/model#Decision>
+            <http://data.smartcityconceptmodel.com/model#Plan>
+        )
+    ] ;
+    owl:inverseOf <http://data.smartcityconceptmodel.com/model#influencedBy> .
+
+<http://data.smartcityconceptmodel.com/model#influencesObjective>
+    a rdf:Property ;
+    rdfs:domain <http://data.smartcityconceptmodel.com/model#Assumption> ;
+    rdfs:label "influences" ;
+    rdfs:range <http://data.smartcityconceptmodel.com/model#Objective> ;
+    owl:inverseOf <http://data.smartcityconceptmodel.com/model#influencedByAssumption> .
+
+<http://data.smartcityconceptmodel.com/model#isContainedIn>
+    a rdf:Property ;
+    rdfs:domain <http://data.smartcityconceptmodel.com/model#Event> ;
+    rdfs:label "contained in" ;
+    rdfs:range <http://data.smartcityconceptmodel.com/model#Case> ;
+    owl:inverseOf <http://data.smartcityconceptmodel.com/model#contains> .
+
+<http://data.smartcityconceptmodel.com/model#isRecordedBy>
+    a rdf:Property ;
+    rdfs:domain <http://data.smartcityconceptmodel.com/model#State> ;
+    rdfs:label "recorded by" ;
+    rdfs:range <http://data.smartcityconceptmodel.com/model#Observation> ;
+    owl:inverseOf <http://data.smartcityconceptmodel.com/model#records> .
+
+<http://data.smartcityconceptmodel.com/model#isStateOf>
+    a rdf:Property ;
+    rdfs:domain <http://data.smartcityconceptmodel.com/model#State> ;
+    rdfs:label "state of" ;
+    rdfs:range <http://data.smartcityconceptmodel.com/model#Item> ;
+    owl:inverseOf <http://data.smartcityconceptmodel.com/model#hasState> .
+
+<http://data.smartcityconceptmodel.com/model#isTimeOf>
+    a rdf:Property ;
+    rdfs:domain <http://data.smartcityconceptmodel.com/model#Time> ;
+    rdfs:label "time of" ;
+    rdfs:range <http://data.smartcityconceptmodel.com/model#Event> ;
+    owl:inverseOf <http://data.smartcityconceptmodel.com/model#occursAt> .
+
+<http://data.smartcityconceptmodel.com/model#locationOf>
+    a rdf:Property ;
+    rdfs:domain <http://data.smartcityconceptmodel.com/model#Place> ;
+    rdfs:label "of" ;
+    rdfs:range <http://data.smartcityconceptmodel.com/model#Event> ;
+    owl:inverseOf <http://data.smartcityconceptmodel.com/model#eventAtPlace> .
+
+<http://data.smartcityconceptmodel.com/model#makesAssumption>
+    a rdf:Property ;
+    rdfs:domain <http://data.smartcityconceptmodel.com/model#Agent> ;
+    rdfs:label "makes" ;
+    rdfs:range <http://data.smartcityconceptmodel.com/model#Assumption> ;
+    owl:inverseOf <http://data.smartcityconceptmodel.com/model#assumptionMadeBy> .
+
+<http://data.smartcityconceptmodel.com/model#memberOf>
+    a rdf:Property ;
+    rdfs:domain <http://data.smartcityconceptmodel.com/model#Person> ;
+    rdfs:label "member of" ;
+    rdfs:range <http://data.smartcityconceptmodel.com/model#Organization> .
+
+<http://data.smartcityconceptmodel.com/model#methodImplementedIn>
+    a rdf:Property ;
+    rdfs:domain <http://data.smartcityconceptmodel.com/model#Method> ;
+    rdfs:label "implemented in" ;
+    rdfs:range <http://data.smartcityconceptmodel.com/model#Service> ;
+    owl:inverseOf <http://data.smartcityconceptmodel.com/model#serviceImplementsMethod> .
+
+<http://data.smartcityconceptmodel.com/model#objectiveHasTarget>
+    a rdf:Property ;
+    rdfs:domain <http://data.smartcityconceptmodel.com/model#Objective> ;
+    rdfs:label "has" ;
+    rdfs:range <http://data.smartcityconceptmodel.com/model#Target> ;
+    owl:inverseOf <http://data.smartcityconceptmodel.com/model#targetOfObjective> .
+
+<http://data.smartcityconceptmodel.com/model#occursAt>
+    a rdf:Property ;
+    rdfs:domain <http://data.smartcityconceptmodel.com/model#Event> ;
+    rdfs:label "occurs at" ;
+    rdfs:range <http://data.smartcityconceptmodel.com/model#Time> .
+
+<http://data.smartcityconceptmodel.com/model#ofAgent>
+    a rdf:Property ;
+    rdfs:domain <http://data.smartcityconceptmodel.com/model#Objective> ;
+    rdfs:label "of" ;
+    rdfs:range <http://data.smartcityconceptmodel.com/model#Agent> ;
+    owl:inverseOf <http://data.smartcityconceptmodel.com/model#hasObjective> .
+
+<http://data.smartcityconceptmodel.com/model#outcomeOf>
+    a rdf:Property ;
+    rdfs:domain <http://data.smartcityconceptmodel.com/model#Decision> ;
+    rdfs:label "outcome of" ;
+    rdfs:range <http://data.smartcityconceptmodel.com/model#Event> .
+
+<http://data.smartcityconceptmodel.com/model#overTime>
+    a rdf:Property ;
+    rdfs:domain <http://data.smartcityconceptmodel.com/model#Plan> ;
+    rdfs:label "over time" ;
+    rdfs:range <http://data.smartcityconceptmodel.com/model#Time> .
+
+<http://data.smartcityconceptmodel.com/model#ownedBy>
+    a rdf:Property ;
+    rdfs:domain <http://data.smartcityconceptmodel.com/model#Account> ;
+    rdfs:label "owned by" ;
+    rdfs:range <http://data.smartcityconceptmodel.com/model#Agent> .
+
+<http://data.smartcityconceptmodel.com/model#owns>
+    a rdf:Property ;
+    rdfs:domain <http://data.smartcityconceptmodel.com/model#Agent> ;
+    rdfs:label "owns" ;
+    rdfs:range <http://data.smartcityconceptmodel.com/model#Account> ;
+    owl:inverseOf <http://data.smartcityconceptmodel.com/model#ownedBy> .
+
+<http://data.smartcityconceptmodel.com/model#placeOf>
+    a rdf:Property ;
+    rdfs:domain <http://data.smartcityconceptmodel.com/model#Place> ;
+    rdfs:label "place of" ;
+    rdfs:range <http://data.smartcityconceptmodel.com/model#Item> ;
+    owl:inverseOf <http://data.smartcityconceptmodel.com/model#atPlace> .
+
+<http://data.smartcityconceptmodel.com/model#planDerivedFromMethod>
+    a rdf:Property ;
+    rdfs:domain <http://data.smartcityconceptmodel.com/model#Plan> ;
+    rdfs:label "derived from" ;
+    rdfs:range <http://data.smartcityconceptmodel.com/model#Method> .
+
+<http://data.smartcityconceptmodel.com/model#planForCase>
+    a rdf:Property ;
+    rdfs:domain <http://data.smartcityconceptmodel.com/model#Plan> ;
+    rdfs:label "for" ;
+    rdfs:range <http://data.smartcityconceptmodel.com/model#Case> ;
+    owl:inverseOf <http://data.smartcityconceptmodel.com/model#caseHasPlan> .
+
+<http://data.smartcityconceptmodel.com/model#planForEvent>
+    a rdf:Property ;
+    rdfs:domain <http://data.smartcityconceptmodel.com/model#Plan> ;
+    rdfs:label "planned" ;
+    rdfs:range <http://data.smartcityconceptmodel.com/model#Event> .
+
+<http://data.smartcityconceptmodel.com/model#planOf>
+    a rdf:Property ;
+    rdfs:domain <http://data.smartcityconceptmodel.com/model#Plan> ;
+    rdfs:label "of" ;
+    rdfs:range <http://data.smartcityconceptmodel.com/model#Agent> ;
+    owl:inverseOf <http://data.smartcityconceptmodel.com/model#hasPlan> .
+
+<http://data.smartcityconceptmodel.com/model#providedBy>
+    a rdf:Property ;
+    rdfs:domain <http://data.smartcityconceptmodel.com/model#Service> ;
+    rdfs:label "provided by" ;
+    rdfs:range <http://data.smartcityconceptmodel.com/model#Agent> .
+
+<http://data.smartcityconceptmodel.com/model#provides>
+    a rdf:Property ;
+    rdfs:domain <http://data.smartcityconceptmodel.com/model#Agent> ;
+    rdfs:label "provides" ;
+    rdfs:range <http://data.smartcityconceptmodel.com/model#Service> ;
+    owl:inverseOf <http://data.smartcityconceptmodel.com/model#providedBy> .
+
+<http://data.smartcityconceptmodel.com/model#raisedFrom>
+    a rdf:Property ;
+    rdfs:domain <http://data.smartcityconceptmodel.com/model#Case> ;
+    rdfs:label "raised from" ;
+    rdfs:range <http://data.smartcityconceptmodel.com/model#Service> .
+
+<http://data.smartcityconceptmodel.com/model#raises>
+    a rdf:Property ;
+    rdfs:domain <http://data.smartcityconceptmodel.com/model#Service> ;
+    rdfs:label "raises" ;
+    rdfs:range <http://data.smartcityconceptmodel.com/model#Case> ;
+    owl:inverseOf <http://data.smartcityconceptmodel.com/model#raisedFrom> .
+
+<http://data.smartcityconceptmodel.com/model#records>
+    a rdf:Property ;
+    rdfs:domain <http://data.smartcityconceptmodel.com/model#Observation> ;
+    rdfs:label "records" ;
+    rdfs:range <http://data.smartcityconceptmodel.com/model#State> .
+
+<http://data.smartcityconceptmodel.com/model#relatedTo>
+    a rdf:Property ;
+    rdfs:domain <http://data.smartcityconceptmodel.com/model#Item> ;
+    rdfs:label "related to" ;
+    rdfs:range <http://data.smartcityconceptmodel.com/model#Item> .
+
+<http://data.smartcityconceptmodel.com/model#resourceOf>
+    a rdf:Property ;
+    rdfs:domain <http://data.smartcityconceptmodel.com/model#Resource> ;
+    rdfs:label "of" ;
+    rdfs:range <http://data.smartcityconceptmodel.com/model#Agent> ;
+    owl:inverseOf <http://data.smartcityconceptmodel.com/model#hasResource> .
+
+<http://data.smartcityconceptmodel.com/model#responsibilityOf>
+    a rdf:Property ;
+    rdfs:domain <http://data.smartcityconceptmodel.com/model#Service> ;
+    rdfs:label "responsibility of" ;
+    rdfs:range <http://data.smartcityconceptmodel.com/model#Agent> .
+
+<http://data.smartcityconceptmodel.com/model#responsibleFor>
+    a rdf:Property ;
+    rdfs:domain <http://data.smartcityconceptmodel.com/model#Agent> ;
+    rdfs:label "responsible for" ;
+    rdfs:range <http://data.smartcityconceptmodel.com/model#Service> ;
+    owl:inverseOf <http://data.smartcityconceptmodel.com/model#responsibilityOf> .
+
+<http://data.smartcityconceptmodel.com/model#serviceImplementsMethod>
+    a rdf:Property ;
+    rdfs:domain <http://data.smartcityconceptmodel.com/model#Service> ;
+    rdfs:label "implements" ;
+    rdfs:range <http://data.smartcityconceptmodel.com/model#Method> .
+
+<http://data.smartcityconceptmodel.com/model#stateOf>
+    a rdf:Property ;
+    rdfs:domain <http://data.smartcityconceptmodel.com/model#State> ;
+    rdfs:label "state of" ;
+    rdfs:range <http://data.smartcityconceptmodel.com/model#Place> ;
+    owl:inverseOf <http://data.smartcityconceptmodel.com/model#hasState> .
+
+<http://data.smartcityconceptmodel.com/model#subjectOf>
+    a rdf:Property ;
+    rdfs:domain [
+        a owl:Class ;
+        owl:unionOf (<http://data.smartcityconceptmodel.com/model#Item>
+            <http://data.smartcityconceptmodel.com/model#Service>
+        )
+    ] ;
+    rdfs:label "subject of" ;
+    rdfs:range [
+        a owl:Class ;
+        owl:unionOf (<http://data.smartcityconceptmodel.com/model#Decision>
+            <http://data.smartcityconceptmodel.com/model#Agreement>
+        )
+    ] ;
+    owl:inverseOf <http://data.smartcityconceptmodel.com/model#about> .
+
+<http://data.smartcityconceptmodel.com/model#subjectOfAccount>
+    a rdf:Property ;
+    rdfs:domain <http://data.smartcityconceptmodel.com/model#Item> ;
+    rdfs:label "subject of" ;
+    rdfs:range <http://data.smartcityconceptmodel.com/model#Account> ;
+    owl:inverseOf <http://data.smartcityconceptmodel.com/model#aboutRoleOf> .
+
+<http://data.smartcityconceptmodel.com/model#takenBy>
+    a rdf:Property ;
+    rdfs:domain <http://data.smartcityconceptmodel.com/model#Decision> ;
+    rdfs:label "taken by" ;
+    rdfs:range <http://data.smartcityconceptmodel.com/model#Agent> ;
+    owl:inverseOf <http://data.smartcityconceptmodel.com/model#takesDecision> .
+
+<http://data.smartcityconceptmodel.com/model#takesDecision>
+    a rdf:Property ;
+    rdfs:domain <http://data.smartcityconceptmodel.com/model#Agent> ;
+    rdfs:label "takes" ;
+    rdfs:range <http://data.smartcityconceptmodel.com/model#Decision> .
+
+<http://data.smartcityconceptmodel.com/model#targetHasPlan>
+    a rdf:Property ;
+    rdfs:domain <http://data.smartcityconceptmodel.com/model#Target> ;
+    rdfs:label "outcome of" ;
+    rdfs:range <http://data.smartcityconceptmodel.com/model#Plan> ;
+    owl:inverseOf <http://data.smartcityconceptmodel.com/model#hasTargetOutcome> .
+
+<http://data.smartcityconceptmodel.com/model#targetOfObjective>
+    a rdf:Property ;
+    rdfs:domain <http://data.smartcityconceptmodel.com/model#Target> ;
+    rdfs:label "applies to" ;
+    rdfs:range <http://data.smartcityconceptmodel.com/model#Objective> .
+
+<http://data.smartcityconceptmodel.com/model#timeOf>
+    a rdf:Property ;
+    rdfs:domain <http://data.smartcityconceptmodel.com/model#Time> ;
+    rdfs:label "time of" ;
+    rdfs:range <http://data.smartcityconceptmodel.com/model#State> ;
+    owl:inverseOf <http://data.smartcityconceptmodel.com/model#atTime> .
+
+<http://data.smartcityconceptmodel.com/model#usedBy>
+    a rdf:Property ;
+    rdfs:domain <http://data.smartcityconceptmodel.com/model#Service> ;
+    rdfs:label "used by" ;
+    rdfs:range <http://data.smartcityconceptmodel.com/model#Community> .
+
+<http://data.smartcityconceptmodel.com/model#uses>
+    a rdf:Property ;
+    rdfs:domain <http://data.smartcityconceptmodel.com/model#Community> ;
+    rdfs:label "uses" ;
+    rdfs:range <http://data.smartcityconceptmodel.com/model#Service> ;
+    owl:inverseOf <http://data.smartcityconceptmodel.com/model#usedBy> .
+
+<http://data.smartcityconceptmodel.com/model#usesResource>
+    a rdf:Property ;
+    rdfs:domain [
+        a owl:Class ;
+        owl:unionOf (<http://data.smartcityconceptmodel.com/model#Plan>
+            <http://data.smartcityconceptmodel.com/model#Service>
+        )
+    ] ;
+    rdfs:label "uses" ;
+    rdfs:range <http://data.smartcityconceptmodel.com/model#Resource> ;
+    owl:inverseOf <http://data.smartcityconceptmodel.com/model#appliedTo> .
+
+<http://data.smartcityconceptmodel.com/model#withAgent>
+    a rdf:Property ;
+    rdfs:domain <http://data.smartcityconceptmodel.com/model#Agreement> ;
+    rdfs:label "with" ;
+    rdfs:range <http://data.smartcityconceptmodel.com/model#Agent> ;
+    owl:inverseOf <http://data.smartcityconceptmodel.com/model#hasAgreement> .
+
