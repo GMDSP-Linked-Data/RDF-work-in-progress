@@ -3,6 +3,7 @@ __author__ = 'jond'
 import csv
 
 from rdflib import URIRef, Literal, Namespace, RDF
+from rdflib.namespace import XSD
 
 from gmdspconverters import utils
 
@@ -28,16 +29,26 @@ def convert(graph, input_path):
         graph.add((rc, utils.OS["northing"], Literal(row["Northings"])))
         graph.add((rc, utils.OS["easting"], Literal(row["Eastings"])))
 
-        """
+
         # recycling information
-        graph << [subject, RECYCLING_CENTRES.hasCardboard, csv_obj["Cardboard"]] unless csv_obj["Cardboard"].nil?
-        graph << [subject, RECYCLING_CENTRES.hasPaper, csv_obj["Paper"]] unless csv_obj["Paper"].nil?
-        graph << [subject, RECYCLING_CENTRES.hasCartons, csv_obj["Cartons"]] unless csv_obj["Cartons"].nil?
-        graph << [subject, RECYCLING_CENTRES.hasShoes, csv_obj["Shoes"]] unless csv_obj["Shoes"].nil?
-        graph << [subject, RECYCLING_CENTRES.hasGlass, csv_obj["Glass"]] unless csv_obj["Glass"].nil?
-        graph << [subject, RECYCLING_CENTRES.hasTextiles, csv_obj["Textiles"]] unless csv_obj["Textiles"].nil?
-        graph << [subject, RECYCLING_CENTRES.hasCans, csv_obj["Cans"]] unless csv_obj["Cans"].nil?
-        graph << [subject, RECYCLING_CENTRES.hasFoil, csv_obj["Foil"]] unless csv_obj["Foil"].nil?
-        graph << [subject, RECYCLING_CENTRES.hasPlasticBottles, csv_obj["Plastic Bottles"]] unless csv_obj["Plastic Bottles"].nil?
-        graph << [subject, RECYCLING_CENTRES.hasAerosols, csv_obj["Aerosols"]] unless csv_obj["Aerosols"].nil?
-        """
+        if row["Cardboard"]:
+            graph.add((rc, RECYCLING["hasCardboard"], Literal("true", datatype=XSD.boolean)))
+        if row["Paper"]:
+            graph.add((rc, RECYCLING["hasPaper"], Literal("true", datatype=XSD.boolean)))
+        if row["Cartons"]:
+            graph.add((rc, RECYCLING["hasCartons"], Literal("true", datatype=XSD.boolean)))
+        if row["Shoes"]:
+            graph.add((rc, RECYCLING["hasShoes"], Literal("true", datatype=XSD.boolean)))
+        if row["Glass"]:
+            graph.add((rc, RECYCLING["hasGlass"], Literal("true", datatype=XSD.boolean)))
+        if row["Textiles"]:
+            graph.add((rc, RECYCLING["hasTextiles"], Literal("true", datatype=XSD.boolean)))
+        if row["Cans"]:
+            graph.add((rc, RECYCLING["hasCans"], Literal("true", datatype=XSD.boolean)))
+        if row["Foil"]:
+            graph.add((rc, RECYCLING["hasFoil"], Literal("true", datatype=XSD.boolean)))
+        if row["Plastic Bottles"]:
+            graph.add((rc, RECYCLING["hasPlasticBottles"], Literal("true", datatype=XSD.boolean)))
+        if row["Aerosols"]:
+            graph.add((rc, RECYCLING["hasAerosols"], Literal("true", datatype=XSD.boolean)))
+
