@@ -1,15 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="9d644dcd-0d89-4285-85b1-21a3c7dfdfa4" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Data/Ctax Extract.csv" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/CouncilTaxData.py" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/DataToRDF.iml" afterPath="$PROJECT_DIR$/.idea/DataToRDF.iml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/allotments-tmp.rdf" afterPath="$PROJECT_DIR$/allotments-tmp.rdf" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/allotments.py" afterPath="$PROJECT_DIR$/allotments.py" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/misc.xml" afterPath="$PROJECT_DIR$/.idea/misc.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-    </list>
+    <list default="true" id="9d644dcd-0d89-4285-85b1-21a3c7dfdfa4" name="Default" comment="" />
     <ignored path="DataToRDF.iws" />
     <ignored path=".idea/workspace.xml" />
     <option name="TRACKING_ENABLED" value="true" />
