@@ -20,7 +20,7 @@ def idify(s):
         "/",
     ]
     s = re.sub('[%s]' % ''.join(chars), '-', s)
-    return s
+    return s.lower()
 
 def create_graph():
 
