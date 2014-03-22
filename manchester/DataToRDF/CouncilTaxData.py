@@ -43,8 +43,10 @@ SDMXDIMENSION = Namespace("http://purl.org/linked-data/sdmx/2009/dimension#")
 SDMXATTRIBUTE = Namespace("http://purl.org/linked-data/sdmx/2009/attribute#")
 SDMXMEASURE= Namespace("http://purl.org/linked-data/sdmx/2009/measure#")
 qb = Namespace("http://purl.org/linked-data/cube#")
-
-COUNCILTAX = Namespace('http://scheme.org/data/')
+INTERVAL = Namespace("http://www.w3.org/2006/time#")
+COUNCILTAX = Namespace('http://data.gmdsp.org.uk/data/manchester/council-tax/')
+DATEREF = Namespace('http://reference.data.gov.uk/id/day/')
+COUNCILBAND = Namespace('http://data.gmdsp.org.uk/def/council/Council-Tax/')
 
 class Store:
     def __init__(self):
@@ -66,10 +68,16 @@ class Store:
         self.graph.bind('qb', qb)
         self.graph.bind('admingeo',ADMINGEO)
         self.graph.bind('sdmx-attribute', SDMXATTRIBUTE)
+        self.graph.bind('interval', INTERVAL)
+        self.graph.bind('day', DATEREF)
+        self.graph.bind('councilband', COUNCILBAND)
 
     def save(self):
         #self.graph.serialize(storeuri, format='pretty-xml')
         self.graph.serialize(storeun3, format='n3')
+
+    def new_postcode(self, postcode):
+        pc = COUNCILTAX
 
     def refArea(self):
         d = COUNCILTAX["refArea"]
@@ -77,7 +85,7 @@ class Store:
         self.graph.add((d, RDF.type, qb["DimensionProperty"]))
         self.graph.add((d, RDFS["label"], Literal("reference area")))
         self.graph.add((d, RDFS["subPropertyOf"], SDMXDIMENSION["refArea"]))
-        self.graph.add((d, RDFS["range"], ADMINGEO["UnitaryAuthority"]))
+        self.graph.add((d, RDFS["range"], POST["PostcodeArea"]))
         self.graph.add((d, qb["concept"], SDMXCONCEPT["refArea"]))
 
     def refPeriod(self):
@@ -86,7 +94,7 @@ class Store:
         self.graph.add((d, RDF.type, qb["DimensionProperty"]))
         self.graph.add((d, RDFS["label"], Literal("reference period")))
         self.graph.add((d, RDFS["subPropertyOf"], SDMXDIMENSION["refPeriod"]))
-        #self.graph.add((d, RDF["range"], interval["Interval"]))
+        self.graph.add((d, RDFS["range"], INTERVAL["Interval"]))
         self.graph.add((d, qb["concept"], SDMXCONCEPT["refPeriod"]))
 
     def refBand(self):
@@ -94,6 +102,7 @@ class Store:
         self.graph.add((d, RDF.type, qb["Property"]))
         self.graph.add((d, RDF.type, qb["DimensionProperty"]))
         self.graph.add((d, RDFS["label"], Literal("reference band")))
+        self.graph.add((d, RDFS["domain"], URIRef("http://data.gmdsp.org.uk/def/council/Council-Tax")))
 
     def countDef(self):
         d = COUNCILTAX["countDef"]
@@ -122,11 +131,12 @@ class Store:
     def new_observation(self, band, postcode, date, count):
         observation = COUNCILTAX[postcode.replace(" ", "-").lower()+band.replace(" ", "-").lower()]
         self.graph.add((observation, RDF.type, qb['Observation']))
-        self.graph.add((observation, qb["dataSet"], COUNCILTAX['data']))
-        self.graph.add((observation, POST['refArea'], Literal(postcode)))
-        self.graph.add((observation, COUNCILTAX['count'], Literal(count, datatype=XSD.integer)))
-        self.graph.add((observation, COUNCILTAX['band'], Literal(band)))
-        self.graph.add((observation, COUNCILTAX['refPeriod'], URIRef('http://reference.data.gov.uk/id/day/'+time.strftime('%Y-%m-%d',date))))
+        self.graph.add((observation, qb["dataSet"], URIRef('http://data.gmdsp.org.uk/data/manchester/council-tax')))
+        self.graph.add((observation, COUNCILTAX['refArea'], URIRef("http://data.ordnancesurvey.co.uk/doc/postcodeunit/"+postcode.replace(" ",""))))
+        self.graph.add((observation, COUNCILTAX['countDef'], Literal(count, datatype=XSD.integer)))
+        #refrence this to the list in the data set which Ian is making.
+        self.graph.add((observation, COUNCILTAX['refBand'], COUNCILBAND[band]))
+        self.graph.add((observation, COUNCILTAX['refPeriod'], DATEREF[time.strftime('%Y-%m-%d',date)]))
 
 
 def keyfn(x):
@@ -150,7 +160,7 @@ def main(argv=None):
     reader = csv.DictReader(open('./Data/Ctax Extract.csv', mode='rU'))
     for k,g in [(k, list(g)) for k,g in groupby(sorted(reader, key=keyfn), keyfn)]:
         for b,n in [(kq, list(go)) for kq,go in groupby(sorted(g, key=keyfnp), keyfnp)]:
-            if count <= 100:
+            if count <= 1000000:
                 s.new_observation(b, k, time.strptime("01/01/0001", "%d/%m/%Y"), len(n))
                 count = count + 1
     print "-- Saving --"
