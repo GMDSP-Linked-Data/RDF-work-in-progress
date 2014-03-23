@@ -42,6 +42,7 @@ def convert(graph, input_path):
         graph.add((pa, PLANNING_ONT['decision'], Literal(row["RECOMMENDATION DECODE"])))
         graph.add((pa, PLANNING_ONT['decisionDate'], Literal(row["DECISION DATE"])))
 
+        # planning application site
         pa_site = PLANNING["site/" + utils.idify(row["REFERENCE"])]
         graph.add((pa, PLANNING_ONT['planningApplicationSite'], pa_site))
         graph.add((pa_site, utils.RDFS['label'], Literal("Planning application site for planning application " + row["REFERENCE"])))
@@ -49,16 +50,6 @@ def convert(graph, input_path):
         graph.add((pa_site, utils.OS["easting"], Literal(row["EASTING"])))
         graph.add((pa_site, utils.VCARD['street-address'], Literal(clean_string(row["LOCATION"]))))
 
-        #address = utils.idify(row["Address"])
-        #graph.add((rc, utils.VCARD['adr'], URIRef("http://data.gmdsp.org.uk/def/council/recycling-centre/address/"+address)))
-
-        # now add the address VCARD
-        #vcard = RECYCLING["address/"+address]
-        #graph.add((vcard, RDF.type, utils.VCARD["location"]))
-        #graph.add((vcard, utils.VCARD['street-address'], Literal(row["Address"])))
-
-        # location information
-        #
 
 
 
