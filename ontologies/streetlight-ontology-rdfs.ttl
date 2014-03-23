@@ -26,26 +26,26 @@ streetlighting:wattage
       rdf:type rdfs:Property ;
       rdfs:label "Wattage"^^xsd:string ;
 	  rdfs:comment "How much power in watts does the streetlight use" ;
-      rdfs:domain council:Streetlight ;
+      rdfs:domain streetlighting:Streetlight ;
       rdfs:range qudt:Watt .
 
 streetlighting:lampType
       rdf:type rdfs:Property ;
       rdfs:label "Lamp type"^^xsd:string ;
 	  rdfs:comment "What is the lamp type for this streetlight" ;
-      rdfs:domain council:Streetlight ;
+      rdfs:domain streetlighting:Streetlight ;
       rdfs:range xsd:string .
 
 streetlighting:columnHeight
       rdf:type rdfs:Property ;
       rdfs:label "Streetlight height"^^xsd:string ;
 	  rdfs:comment "How high the streetlight is ie. What height the lamp is off the ground." ;
-      rdfs:domain council:Streetlight ;
+      rdfs:domain streetlighting:Streetlight ;
       rdfs:range qudt:Meter .
 
 streetlighting:manufacturer
       rdf:type rdfs:Property ;
       rdfs:label "Streetlight manufacturer"^^xsd:string ;
 	  rdfs:comment "Which company or individual manufactured the streetlight." ;
-      rdfs:domain council:Streetlight ;
+      rdfs:domain streetlighting:Streetlight ;
       rdfs:range xsd:string .

@@ -3,7 +3,6 @@
 @prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
 @prefix qudt: <http://qudt.org/vocab/unit/> .
 @prefix gritting: <http://data.gmdsp.org.uk/def/council/gritting/> .
-@prefix council: <http://data.gmdsp.org.uk/def/council/> .
 @prefix smartcity: <http://data.smartcityconceptmodel.com/model#> .
 
 #################################################################
@@ -12,11 +11,11 @@
 #
 #################################################################
 
-council:Gritbin
+gritting:Gritbin
       rdfs:label "An RDF class to describe a grit bin"^^xsd:string ;
       rdfs:subClassOf smartcity:Object .
 
-council:GrittingRoute
+gritting:GrittingRoute
       rdfs:label "An RDF class to describe a gritting route"^^xsd:string .
 
 
@@ -30,4 +29,4 @@ gritting:routeFile
       rdf:type rdfs:Property ;
       rdfs:label "File which contains points which describe a gritting route"^^xsd:string ;
 	  rdfs:comment "URL for a file which contains the collection of geo encoded points for a gritting route. Encoded as either lat/long or easting/northing pairs." ;
-      rdfs:domain council:GrittingRoute .
+      rdfs:domain gritting:GrittingRoute .
