@@ -44,7 +44,7 @@ def convert(graph, input_path):
 
         pa_site = PLANNING["site/" + utils.idify(row["REFERENCE"])]
         graph.add((pa, PLANNING_ONT['planningApplicationSite'], pa_site))
-
+        graph.add((pa_site, utils.RDFS['label'], Literal("Planning application site for planning application " + row["REFERENCE"])))
         graph.add((pa_site, utils.OS["northing"], Literal(row["NORTHING"])))
         graph.add((pa_site, utils.OS["easting"], Literal(row["EASTING"])))
         graph.add((pa_site, utils.VCARD['street-address'], Literal(clean_string(row["LOCATION"]))))
