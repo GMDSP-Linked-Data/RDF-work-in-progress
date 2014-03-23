@@ -1,0 +1,80 @@
+General questions
+
+Admin geography - statistical or ward: http://data.ordnancesurvey.co.uk/ontology/postcode/ward ?
+
+IDs - skos:notation ?
+
+
+Street lighting
+==========================
+
+Unique Street Reference Number (UK) is in the source data, but hasnt been transformed
+
+Have used ID for the URI
+
+Description - might be useful to point to somewhere that can explain this
+
+Have added ward code / URL from statistical-geography namespace - which needs importing
+http://statistics.data.gov.uk/def/statistical-geography#ward
+http://statistics.data.gov.uk/def/hierarchy/best-fit#ward
+
+Have only imported 10 records
+
+
+Allotments
+======================
+
+
+Recycling
+====================
+A recycling site is a gmdsp:recyclingSite
+It has a type gmdsp-recycling-types:recyclingTypes
+http://data.gmdsp.org.uk/def/council/recycling/RecyclingType
+http://data.gmdsp.org.uk/def/council/recycling/RecyclingSite
+
+Have created a vcard entry - as per allotments and streetlights
+
+Check the lat and long values - they dont look correct
+
+Council Tax
+==================
+
+<http://data.gmdsp.org.uk/id/trafford/counciltaxbanding/48-borough-road-altrincham> gmdsp-council:councilTaxBand <http://data.gmdsp.org.uk/def/council/council-tax-bands/C>
+
+ http://data.gmdsp.org.uk/def/council/council-tax-bands/
+
+http://data.gmdsp.org.uk/id/trafford/property/12345678
+
+No date
+
+
+Planning
+====================
+Four Classes
+
+http://data.gmdsp.org.uk/def/council/planning/PlanningDecision
+http://data.gmdsp.org.uk/def/council/planning/PlanningAppeal
+
+Only 50 records uploaded
+
+May be some problem with text formatting?
+
+Columns: PK and TITLE and the same as REFERENCE and APPLICATION_NUMBER?
+DECISION_LEVEL - empty
+
+What are?
+DOE_REF1	
+DOE_REF2
+
+Expenditure
+======================
+http://reference.data.gov.uk/def/payment#
+
+
+
+
+Gritting Routes
+===================
+
+
+

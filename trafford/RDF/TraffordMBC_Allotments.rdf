@@ -1,38 +1,21 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <rdf:RDF
-	xmlns:dc="http://purl.org/dc/elements/1.1/"
 	xmlns:con="http://www.w3.org/2000/10/swap/pim/contact#"
-	xmlns:gmdsp="http://data.gmdsp.org.uk/def/"
+	xmlns:dc="http://purl.org/dc/elements/1.1/"
 	xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
+	xmlns:gmdsp="http://data.gmdsp.org.uk/def/council/allotment/"
 	xmlns:geo="http://www.w3.org/2003/01/geo/wgs84_pos#"
 	xmlns:foaf="http://xmlns.com/foaf/0.1/"
 	xmlns:osspr="http://data.ordnancesurvey.co.uk/ontology/spatialrelations/"
-	xmlns:owl="http://www.w3.org/2002/07/owl#"
 	xmlns:xsd="http://www.w3.org/2001/XMLSchema#"
+	xmlns:owl="http://www.w3.org/2002/07/owl#"
 	xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+	xmlns:qb="http://purl.org/linked-data/cube#"
 	xmlns:skos="http://www.w3.org/2004/02/skos/core#"
 	xmlns:vcard="http://www.w3.org/2006/vcard/ns#">
 
-<rdf:Description rdf:about="http://id.esd.org.uk/service/510">
-	<rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
-	<rdfs:label>Allotments</rdfs:label>
-</rdf:Description>
-
-<rdf:Description rdf:nodeID="node18im6tn6nx1">
-	<rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Collection"/>
-	<rdfs:label>Allotment Name</rdfs:label>
-	<con:fullName>Contact Person</con:fullName>
-	<con:phone>Phone Number</con:phone>
-	<osspr:easting>Easting</osspr:easting>
-	<osspr:northing>Northing</osspr:northing>
-</rdf:Description>
-
-<rdf:Description rdf:about="http://id.esd.org.uk/service/510">
-	<skos:definition rdf:nodeID="node18im6tn6nx1"/>
-</rdf:Description>
-
 <rdf:Description rdf:about="http://data.gmdsp.org.uk/id/trafford/allotments/balmoral-road-allotments">
-	<rdf:type rdf:resource="http://data.gmdsp.org.uk/def/allotments"/>
+	<rdf:type rdf:resource="http://data.gmdsp.org.uk/def/council/allotment/Allotment"/>
 	<rdfs:label>Balmoral Road Allotments</rdfs:label>
 	<con:fullName>Mrs C Graham</con:fullName>
 	<con:phone>0161 865 0644</con:phone>
@@ -40,16 +23,42 @@
 	<osspr:northing>394310</osspr:northing>
 </rdf:Description>
 
+<rdf:Description rdf:about="http://data.gmdsp.org.uk/id/trafford/allotments/address/balmoral-road-allotments">
+	<rdfs:label>Balmoral Road Allotments</rdfs:label>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://data.gmdsp.org.uk/id/trafford/allotments/balmoral-road-allotments">
+	<vcard:adr rdf:resource="http://data.gmdsp.org.uk/id/trafford/allotments/address/balmoral-road-allotments"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://data.gmdsp.org.uk/id/trafford/allotments/address/balmoral-road-allotments">
+	<rdf:type rdf:resource="http://www.w3.org/2006/vcard/ns#Location"/>
+	<vcard:street-address>Balmoral Road Allotments</vcard:street-address>
+</rdf:Description>
+
 <rdf:Description rdf:about="http://data.gmdsp.org.uk/id/trafford/allotments/brookfield-allotments">
-	<rdf:type rdf:resource="http://data.gmdsp.org.uk/def/allotments"/>
+	<rdf:type rdf:resource="http://data.gmdsp.org.uk/def/council/allotment/Allotment"/>
 	<rdfs:label>Brookfield Allotments</rdfs:label>
 	<con:fullName>Mr S Barlow</con:fullName>
 	<osspr:easting>375150</osspr:easting>
 	<osspr:northing>394847</osspr:northing>
 </rdf:Description>
 
+<rdf:Description rdf:about="http://data.gmdsp.org.uk/id/trafford/allotments/address/brookfield-allotments">
+	<rdfs:label>Brookfield Allotments</rdfs:label>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://data.gmdsp.org.uk/id/trafford/allotments/brookfield-allotments">
+	<vcard:adr rdf:resource="http://data.gmdsp.org.uk/id/trafford/allotments/address/brookfield-allotments"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://data.gmdsp.org.uk/id/trafford/allotments/address/brookfield-allotments">
+	<rdf:type rdf:resource="http://www.w3.org/2006/vcard/ns#Location"/>
+	<vcard:street-address>Brookfield Allotments</vcard:street-address>
+</rdf:Description>
+
 <rdf:Description rdf:about="http://data.gmdsp.org.uk/id/trafford/allotments/chadwick-allotments">
-	<rdf:type rdf:resource="http://data.gmdsp.org.uk/def/allotments"/>
+	<rdf:type rdf:resource="http://data.gmdsp.org.uk/def/council/allotment/Allotment"/>
 	<rdfs:label>Chadwick Allotments</rdfs:label>
 	<con:fullName>Mrs S Strickland</con:fullName>
 	<con:phone>0161 747 2067</con:phone>
@@ -57,8 +66,21 @@
 	<osspr:northing>394684</osspr:northing>
 </rdf:Description>
 
+<rdf:Description rdf:about="http://data.gmdsp.org.uk/id/trafford/allotments/address/chadwick-allotments">
+	<rdfs:label>Chadwick Allotments</rdfs:label>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://data.gmdsp.org.uk/id/trafford/allotments/chadwick-allotments">
+	<vcard:adr rdf:resource="http://data.gmdsp.org.uk/id/trafford/allotments/address/chadwick-allotments"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://data.gmdsp.org.uk/id/trafford/allotments/address/chadwick-allotments">
+	<rdf:type rdf:resource="http://www.w3.org/2006/vcard/ns#Location"/>
+	<vcard:street-address>Chadwick Allotments</vcard:street-address>
+</rdf:Description>
+
 <rdf:Description rdf:about="http://data.gmdsp.org.uk/id/trafford/allotments/church-street-allotments">
-	<rdf:type rdf:resource="http://data.gmdsp.org.uk/def/allotments"/>
+	<rdf:type rdf:resource="http://data.gmdsp.org.uk/def/council/allotment/Allotment"/>
 	<rdfs:label>Church Street Allotments</rdfs:label>
 	<con:fullName>Mr K Cooksey</con:fullName>
 	<con:phone>0161 374 1956</con:phone>
@@ -66,8 +88,21 @@
 	<osspr:northing>394187</osspr:northing>
 </rdf:Description>
 
+<rdf:Description rdf:about="http://data.gmdsp.org.uk/id/trafford/allotments/address/church-street-allotments">
+	<rdfs:label>Church Street Allotments</rdfs:label>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://data.gmdsp.org.uk/id/trafford/allotments/church-street-allotments">
+	<vcard:adr rdf:resource="http://data.gmdsp.org.uk/id/trafford/allotments/address/church-street-allotments"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://data.gmdsp.org.uk/id/trafford/allotments/address/church-street-allotments">
+	<rdf:type rdf:resource="http://www.w3.org/2006/vcard/ns#Location"/>
+	<vcard:street-address>Church Street Allotments</vcard:street-address>
+</rdf:Description>
+
 <rdf:Description rdf:about="http://data.gmdsp.org.uk/id/trafford/allotments/dequincey-road-allotments">
-	<rdf:type rdf:resource="http://data.gmdsp.org.uk/def/allotments"/>
+	<rdf:type rdf:resource="http://data.gmdsp.org.uk/def/council/allotment/Allotment"/>
 	<rdfs:label>Dequincey Road Allotments</rdfs:label>
 	<con:fullName>Mr D Roberts</con:fullName>
 	<con:phone>0161 969 8868</con:phone>
@@ -75,8 +110,21 @@
 	<osspr:northing>390099</osspr:northing>
 </rdf:Description>
 
+<rdf:Description rdf:about="http://data.gmdsp.org.uk/id/trafford/allotments/address/dequincey-road-allotments">
+	<rdfs:label>Dequincey Road Allotments</rdfs:label>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://data.gmdsp.org.uk/id/trafford/allotments/dequincey-road-allotments">
+	<vcard:adr rdf:resource="http://data.gmdsp.org.uk/id/trafford/allotments/address/dequincey-road-allotments"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://data.gmdsp.org.uk/id/trafford/allotments/address/dequincey-road-allotments">
+	<rdf:type rdf:resource="http://www.w3.org/2006/vcard/ns#Location"/>
+	<vcard:street-address>Dequincey Road Allotments</vcard:street-address>
+</rdf:Description>
+
 <rdf:Description rdf:about="http://data.gmdsp.org.uk/id/trafford/allotments/eaton-road-allotments">
-	<rdf:type rdf:resource="http://data.gmdsp.org.uk/def/allotments"/>
+	<rdf:type rdf:resource="http://data.gmdsp.org.uk/def/council/allotment/Allotment"/>
 	<rdfs:label>Eaton Road Allotments</rdfs:label>
 	<con:fullName>Mrs J Long</con:fullName>
 	<con:phone>0161 912 5410</con:phone>
@@ -84,8 +132,21 @@
 	<osspr:northing>386190</osspr:northing>
 </rdf:Description>
 
+<rdf:Description rdf:about="http://data.gmdsp.org.uk/id/trafford/allotments/address/eaton-road-allotments">
+	<rdfs:label>Eaton Road Allotments</rdfs:label>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://data.gmdsp.org.uk/id/trafford/allotments/eaton-road-allotments">
+	<vcard:adr rdf:resource="http://data.gmdsp.org.uk/id/trafford/allotments/address/eaton-road-allotments"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://data.gmdsp.org.uk/id/trafford/allotments/address/eaton-road-allotments">
+	<rdf:type rdf:resource="http://www.w3.org/2006/vcard/ns#Location"/>
+	<vcard:street-address>Eaton Road Allotments</vcard:street-address>
+</rdf:Description>
+
 <rdf:Description rdf:about="http://data.gmdsp.org.uk/id/trafford/allotments/gorse-hill-allotments">
-	<rdf:type rdf:resource="http://data.gmdsp.org.uk/def/allotments"/>
+	<rdf:type rdf:resource="http://data.gmdsp.org.uk/def/council/allotment/Allotment"/>
 	<rdfs:label>Gorse Hill Allotments</rdfs:label>
 	<con:fullName>Mr T Van Gelderen</con:fullName>
 	<con:phone>0161 283 7192</con:phone>
@@ -93,8 +154,21 @@
 	<osspr:northing>395764</osspr:northing>
 </rdf:Description>
 
+<rdf:Description rdf:about="http://data.gmdsp.org.uk/id/trafford/allotments/address/gorse-hill-allotments">
+	<rdfs:label>Gorse Hill Allotments</rdfs:label>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://data.gmdsp.org.uk/id/trafford/allotments/gorse-hill-allotments">
+	<vcard:adr rdf:resource="http://data.gmdsp.org.uk/id/trafford/allotments/address/gorse-hill-allotments"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://data.gmdsp.org.uk/id/trafford/allotments/address/gorse-hill-allotments">
+	<rdf:type rdf:resource="http://www.w3.org/2006/vcard/ns#Location"/>
+	<vcard:street-address>Gorse Hill Allotments</vcard:street-address>
+</rdf:Description>
+
 <rdf:Description rdf:about="http://data.gmdsp.org.uk/id/trafford/allotments/granville-road-allotments">
-	<rdf:type rdf:resource="http://data.gmdsp.org.uk/def/allotments"/>
+	<rdf:type rdf:resource="http://data.gmdsp.org.uk/def/council/allotment/Allotment"/>
 	<rdfs:label>Granville Road Allotments</rdfs:label>
 	<con:fullName>Mrs S Blain</con:fullName>
 	<con:phone>0161 747 9441</con:phone>
@@ -102,8 +176,21 @@
 	<osspr:northing>395022</osspr:northing>
 </rdf:Description>
 
+<rdf:Description rdf:about="http://data.gmdsp.org.uk/id/trafford/allotments/address/granville-road-allotments">
+	<rdfs:label>Granville Road Allotments</rdfs:label>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://data.gmdsp.org.uk/id/trafford/allotments/granville-road-allotments">
+	<vcard:adr rdf:resource="http://data.gmdsp.org.uk/id/trafford/allotments/address/granville-road-allotments"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://data.gmdsp.org.uk/id/trafford/allotments/address/granville-road-allotments">
+	<rdf:type rdf:resource="http://www.w3.org/2006/vcard/ns#Location"/>
+	<vcard:street-address>Granville Road Allotments</vcard:street-address>
+</rdf:Description>
+
 <rdf:Description rdf:about="http://data.gmdsp.org.uk/id/trafford/allotments/grosvenor-road-allotments">
-	<rdf:type rdf:resource="http://data.gmdsp.org.uk/def/allotments"/>
+	<rdf:type rdf:resource="http://data.gmdsp.org.uk/def/council/allotment/Allotment"/>
 	<rdfs:label>Grosvenor Road Allotments</rdfs:label>
 	<con:fullName>Mrs Louise Black</con:fullName>
 	<con:phone>0161 283 7415</con:phone>
@@ -111,8 +198,21 @@
 	<osspr:northing>392641</osspr:northing>
 </rdf:Description>
 
+<rdf:Description rdf:about="http://data.gmdsp.org.uk/id/trafford/allotments/address/grosvenor-road-allotments">
+	<rdfs:label>Grosvenor Road Allotments</rdfs:label>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://data.gmdsp.org.uk/id/trafford/allotments/grosvenor-road-allotments">
+	<vcard:adr rdf:resource="http://data.gmdsp.org.uk/id/trafford/allotments/address/grosvenor-road-allotments"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://data.gmdsp.org.uk/id/trafford/allotments/address/grosvenor-road-allotments">
+	<rdf:type rdf:resource="http://www.w3.org/2006/vcard/ns#Location"/>
+	<vcard:street-address>Grosvenor Road Allotments</vcard:street-address>
+</rdf:Description>
+
 <rdf:Description rdf:about="http://data.gmdsp.org.uk/id/trafford/allotments/grove-lane-allotments">
-	<rdf:type rdf:resource="http://data.gmdsp.org.uk/def/allotments"/>
+	<rdf:type rdf:resource="http://data.gmdsp.org.uk/def/council/allotment/Allotment"/>
 	<rdfs:label>Grove Lane Allotments</rdfs:label>
 	<con:fullName>Mr K Pearce</con:fullName>
 	<con:phone>0161 980 6404</con:phone>
@@ -120,8 +220,21 @@
 	<osspr:northing>389163</osspr:northing>
 </rdf:Description>
 
+<rdf:Description rdf:about="http://data.gmdsp.org.uk/id/trafford/allotments/address/grove-lane-allotments">
+	<rdfs:label>Grove Lane Allotments</rdfs:label>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://data.gmdsp.org.uk/id/trafford/allotments/grove-lane-allotments">
+	<vcard:adr rdf:resource="http://data.gmdsp.org.uk/id/trafford/allotments/address/grove-lane-allotments"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://data.gmdsp.org.uk/id/trafford/allotments/address/grove-lane-allotments">
+	<rdf:type rdf:resource="http://www.w3.org/2006/vcard/ns#Location"/>
+	<vcard:street-address>Grove Lane Allotments</vcard:street-address>
+</rdf:Description>
+
 <rdf:Description rdf:about="http://data.gmdsp.org.uk/id/trafford/allotments/humphrey-park-allotments">
-	<rdf:type rdf:resource="http://data.gmdsp.org.uk/def/allotments"/>
+	<rdf:type rdf:resource="http://data.gmdsp.org.uk/def/council/allotment/Allotment"/>
 	<rdfs:label>Humphrey Park Allotments</rdfs:label>
 	<con:fullName>Mr I Greenhalgh</con:fullName>
 	<con:phone>0161 614 9500</con:phone>
@@ -129,8 +242,21 @@
 	<osspr:northing>394665</osspr:northing>
 </rdf:Description>
 
+<rdf:Description rdf:about="http://data.gmdsp.org.uk/id/trafford/allotments/address/humphrey-park-allotments">
+	<rdfs:label>Humphrey Park Allotments</rdfs:label>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://data.gmdsp.org.uk/id/trafford/allotments/humphrey-park-allotments">
+	<vcard:adr rdf:resource="http://data.gmdsp.org.uk/id/trafford/allotments/address/humphrey-park-allotments"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://data.gmdsp.org.uk/id/trafford/allotments/address/humphrey-park-allotments">
+	<rdf:type rdf:resource="http://www.w3.org/2006/vcard/ns#Location"/>
+	<vcard:street-address>Humphrey Park Allotments</vcard:street-address>
+</rdf:Description>
+
 <rdf:Description rdf:about="http://data.gmdsp.org.uk/id/trafford/allotments/woodstock-allotments">
-	<rdf:type rdf:resource="http://data.gmdsp.org.uk/def/allotments"/>
+	<rdf:type rdf:resource="http://data.gmdsp.org.uk/def/council/allotment/Allotment"/>
 	<rdfs:label>Woodstock Allotments</rdfs:label>
 	<con:fullName>Miss E Limbert</con:fullName>
 	<con:phone>0161 929 0179</con:phone>
@@ -138,8 +264,21 @@
 	<osspr:northing>389609</osspr:northing>
 </rdf:Description>
 
+<rdf:Description rdf:about="http://data.gmdsp.org.uk/id/trafford/allotments/address/woodstock-allotments">
+	<rdfs:label>Woodstock Allotments</rdfs:label>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://data.gmdsp.org.uk/id/trafford/allotments/woodstock-allotments">
+	<vcard:adr rdf:resource="http://data.gmdsp.org.uk/id/trafford/allotments/address/woodstock-allotments"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://data.gmdsp.org.uk/id/trafford/allotments/address/woodstock-allotments">
+	<rdf:type rdf:resource="http://www.w3.org/2006/vcard/ns#Location"/>
+	<vcard:street-address>Woodstock Allotments</vcard:street-address>
+</rdf:Description>
+
 <rdf:Description rdf:about="http://data.gmdsp.org.uk/id/trafford/allotments/leagate-allotments">
-	<rdf:type rdf:resource="http://data.gmdsp.org.uk/def/allotments"/>
+	<rdf:type rdf:resource="http://data.gmdsp.org.uk/def/council/allotment/Allotment"/>
 	<rdfs:label>Leagate Allotments</rdfs:label>
 	<con:fullName>0</con:fullName>
 	<con:phone>0</con:phone>
@@ -147,8 +286,21 @@
 	<osspr:northing>394281</osspr:northing>
 </rdf:Description>
 
+<rdf:Description rdf:about="http://data.gmdsp.org.uk/id/trafford/allotments/address/leagate-allotments">
+	<rdfs:label>Leagate Allotments</rdfs:label>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://data.gmdsp.org.uk/id/trafford/allotments/leagate-allotments">
+	<vcard:adr rdf:resource="http://data.gmdsp.org.uk/id/trafford/allotments/address/leagate-allotments"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://data.gmdsp.org.uk/id/trafford/allotments/address/leagate-allotments">
+	<rdf:type rdf:resource="http://www.w3.org/2006/vcard/ns#Location"/>
+	<vcard:street-address>Leagate Allotments</vcard:street-address>
+</rdf:Description>
+
 <rdf:Description rdf:about="http://data.gmdsp.org.uk/id/trafford/allotments/lesley-road-moss-park-allotments">
-	<rdf:type rdf:resource="http://data.gmdsp.org.uk/def/allotments"/>
+	<rdf:type rdf:resource="http://data.gmdsp.org.uk/def/council/allotment/Allotment"/>
 	<rdfs:label>Lesley Road / Moss Park Allotments</rdfs:label>
 	<con:fullName>Mrs C Greathead</con:fullName>
 	<con:phone>0161 864 1664</con:phone>
@@ -156,8 +308,21 @@
 	<osspr:northing>394184</osspr:northing>
 </rdf:Description>
 
+<rdf:Description rdf:about="http://data.gmdsp.org.uk/id/trafford/allotments/address/lesley-road-moss-park-allotments">
+	<rdfs:label>Lesley Road / Moss Park Allotments</rdfs:label>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://data.gmdsp.org.uk/id/trafford/allotments/lesley-road-moss-park-allotments">
+	<vcard:adr rdf:resource="http://data.gmdsp.org.uk/id/trafford/allotments/address/lesley-road-moss-park-allotments"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://data.gmdsp.org.uk/id/trafford/allotments/address/lesley-road-moss-park-allotments">
+	<rdf:type rdf:resource="http://www.w3.org/2006/vcard/ns#Location"/>
+	<vcard:street-address>Lesley Road / Moss Park Allotments</vcard:street-address>
+</rdf:Description>
+
 <rdf:Description rdf:about="http://data.gmdsp.org.uk/id/trafford/allotments/mansfield-allotments">
-	<rdf:type rdf:resource="http://data.gmdsp.org.uk/def/allotments"/>
+	<rdf:type rdf:resource="http://data.gmdsp.org.uk/def/council/allotment/Allotment"/>
 	<rdfs:label>Mansfield Allotments</rdfs:label>
 	<con:fullName>Mrs S Bernard</con:fullName>
 	<con:phone>0161 613 1677</con:phone>
@@ -165,8 +330,21 @@
 	<osspr:northing>394340</osspr:northing>
 </rdf:Description>
 
+<rdf:Description rdf:about="http://data.gmdsp.org.uk/id/trafford/allotments/address/mansfield-allotments">
+	<rdfs:label>Mansfield Allotments</rdfs:label>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://data.gmdsp.org.uk/id/trafford/allotments/mansfield-allotments">
+	<vcard:adr rdf:resource="http://data.gmdsp.org.uk/id/trafford/allotments/address/mansfield-allotments"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://data.gmdsp.org.uk/id/trafford/allotments/address/mansfield-allotments">
+	<rdf:type rdf:resource="http://www.w3.org/2006/vcard/ns#Location"/>
+	<vcard:street-address>Mansfield Allotments</vcard:street-address>
+</rdf:Description>
+
 <rdf:Description rdf:about="http://data.gmdsp.org.uk/id/trafford/allotments/marlborough-road-allotments">
-	<rdf:type rdf:resource="http://data.gmdsp.org.uk/def/allotments"/>
+	<rdf:type rdf:resource="http://data.gmdsp.org.uk/def/council/allotment/Allotment"/>
 	<rdfs:label>Marlborough Road Allotments</rdfs:label>
 	<con:fullName>Mrs J Morton</con:fullName>
 	<con:phone>0161 747 5308</con:phone>
@@ -174,8 +352,21 @@
 	<osspr:northing>394819</osspr:northing>
 </rdf:Description>
 
+<rdf:Description rdf:about="http://data.gmdsp.org.uk/id/trafford/allotments/address/marlborough-road-allotments">
+	<rdfs:label>Marlborough Road Allotments</rdfs:label>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://data.gmdsp.org.uk/id/trafford/allotments/marlborough-road-allotments">
+	<vcard:adr rdf:resource="http://data.gmdsp.org.uk/id/trafford/allotments/address/marlborough-road-allotments"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://data.gmdsp.org.uk/id/trafford/allotments/address/marlborough-road-allotments">
+	<rdf:type rdf:resource="http://www.w3.org/2006/vcard/ns#Location"/>
+	<vcard:street-address>Marlborough Road Allotments</vcard:street-address>
+</rdf:Description>
+
 <rdf:Description rdf:about="http://data.gmdsp.org.uk/id/trafford/allotments/moor-nook-allotments">
-	<rdf:type rdf:resource="http://data.gmdsp.org.uk/def/allotments"/>
+	<rdf:type rdf:resource="http://data.gmdsp.org.uk/def/council/allotment/Allotment"/>
 	<rdfs:label>Moor Nook Allotments</rdfs:label>
 	<con:fullName>Mrs J Bruce</con:fullName>
 	<con:phone>0161 282 9223</con:phone>
@@ -183,8 +374,21 @@
 	<osspr:northing>391170</osspr:northing>
 </rdf:Description>
 
+<rdf:Description rdf:about="http://data.gmdsp.org.uk/id/trafford/allotments/address/moor-nook-allotments">
+	<rdfs:label>Moor Nook Allotments</rdfs:label>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://data.gmdsp.org.uk/id/trafford/allotments/moor-nook-allotments">
+	<vcard:adr rdf:resource="http://data.gmdsp.org.uk/id/trafford/allotments/address/moor-nook-allotments"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://data.gmdsp.org.uk/id/trafford/allotments/address/moor-nook-allotments">
+	<rdf:type rdf:resource="http://www.w3.org/2006/vcard/ns#Location"/>
+	<vcard:street-address>Moor Nook Allotments</vcard:street-address>
+</rdf:Description>
+
 <rdf:Description rdf:about="http://data.gmdsp.org.uk/id/trafford/allotments/moss-lane-golf-road-allotments">
-	<rdf:type rdf:resource="http://data.gmdsp.org.uk/def/allotments"/>
+	<rdf:type rdf:resource="http://data.gmdsp.org.uk/def/council/allotment/Allotment"/>
 	<rdfs:label>Moss Lane / Golf Road Allotments</rdfs:label>
 	<con:fullName>Mr D Merrill</con:fullName>
 	<con:phone>0161 980 5846</con:phone>
@@ -192,8 +396,21 @@
 	<osspr:northing>387456</osspr:northing>
 </rdf:Description>
 
+<rdf:Description rdf:about="http://data.gmdsp.org.uk/id/trafford/allotments/address/moss-lane-golf-road-allotments">
+	<rdfs:label>Moss Lane / Golf Road Allotments</rdfs:label>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://data.gmdsp.org.uk/id/trafford/allotments/moss-lane-golf-road-allotments">
+	<vcard:adr rdf:resource="http://data.gmdsp.org.uk/id/trafford/allotments/address/moss-lane-golf-road-allotments"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://data.gmdsp.org.uk/id/trafford/allotments/address/moss-lane-golf-road-allotments">
+	<rdf:type rdf:resource="http://www.w3.org/2006/vcard/ns#Location"/>
+	<vcard:street-address>Moss Lane / Golf Road Allotments</vcard:street-address>
+</rdf:Description>
+
 <rdf:Description rdf:about="http://data.gmdsp.org.uk/id/trafford/allotments/moss-lane-allotments">
-	<rdf:type rdf:resource="http://data.gmdsp.org.uk/def/allotments"/>
+	<rdf:type rdf:resource="http://data.gmdsp.org.uk/def/council/allotment/Allotment"/>
 	<rdfs:label>Moss Lane Allotments</rdfs:label>
 	<con:fullName>0</con:fullName>
 	<con:phone>0</con:phone>
@@ -201,8 +418,21 @@
 	<osspr:northing>387385</osspr:northing>
 </rdf:Description>
 
+<rdf:Description rdf:about="http://data.gmdsp.org.uk/id/trafford/allotments/address/moss-lane-allotments">
+	<rdfs:label>Moss Lane Allotments</rdfs:label>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://data.gmdsp.org.uk/id/trafford/allotments/moss-lane-allotments">
+	<vcard:adr rdf:resource="http://data.gmdsp.org.uk/id/trafford/allotments/address/moss-lane-allotments"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://data.gmdsp.org.uk/id/trafford/allotments/address/moss-lane-allotments">
+	<rdf:type rdf:resource="http://www.w3.org/2006/vcard/ns#Location"/>
+	<vcard:street-address>Moss Lane Allotments</vcard:street-address>
+</rdf:Description>
+
 <rdf:Description rdf:about="http://data.gmdsp.org.uk/id/trafford/allotments/moss-view-allotments">
-	<rdf:type rdf:resource="http://data.gmdsp.org.uk/def/allotments"/>
+	<rdf:type rdf:resource="http://data.gmdsp.org.uk/def/council/allotment/Allotment"/>
 	<rdfs:label>Moss View Allotments</rdfs:label>
 	<con:fullName>Mrs C Keevney</con:fullName>
 	<con:phone>0161 775 3213</con:phone>
@@ -210,8 +440,21 @@
 	<osspr:northing>391171</osspr:northing>
 </rdf:Description>
 
+<rdf:Description rdf:about="http://data.gmdsp.org.uk/id/trafford/allotments/address/moss-view-allotments">
+	<rdfs:label>Moss View Allotments</rdfs:label>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://data.gmdsp.org.uk/id/trafford/allotments/moss-view-allotments">
+	<vcard:adr rdf:resource="http://data.gmdsp.org.uk/id/trafford/allotments/address/moss-view-allotments"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://data.gmdsp.org.uk/id/trafford/allotments/address/moss-view-allotments">
+	<rdf:type rdf:resource="http://www.w3.org/2006/vcard/ns#Location"/>
+	<vcard:street-address>Moss View Allotments</vcard:street-address>
+</rdf:Description>
+
 <rdf:Description rdf:about="http://data.gmdsp.org.uk/id/trafford/allotments/mossfield-allotments">
-	<rdf:type rdf:resource="http://data.gmdsp.org.uk/def/allotments"/>
+	<rdf:type rdf:resource="http://data.gmdsp.org.uk/def/council/allotment/Allotment"/>
 	<rdfs:label>Mossfield Allotments</rdfs:label>
 	<con:fullName>Mr Ken Evans</con:fullName>
 	<con:phone>0161 747 4709</con:phone>
@@ -219,8 +462,21 @@
 	<osspr:northing>394888</osspr:northing>
 </rdf:Description>
 
+<rdf:Description rdf:about="http://data.gmdsp.org.uk/id/trafford/allotments/address/mossfield-allotments">
+	<rdfs:label>Mossfield Allotments</rdfs:label>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://data.gmdsp.org.uk/id/trafford/allotments/mossfield-allotments">
+	<vcard:adr rdf:resource="http://data.gmdsp.org.uk/id/trafford/allotments/address/mossfield-allotments"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://data.gmdsp.org.uk/id/trafford/allotments/address/mossfield-allotments">
+	<rdf:type rdf:resource="http://www.w3.org/2006/vcard/ns#Location"/>
+	<vcard:street-address>Mossfield Allotments</vcard:street-address>
+</rdf:Description>
+
 <rdf:Description rdf:about="http://data.gmdsp.org.uk/id/trafford/allotments/old-trafford-allotments">
-	<rdf:type rdf:resource="http://data.gmdsp.org.uk/def/allotments"/>
+	<rdf:type rdf:resource="http://data.gmdsp.org.uk/def/council/allotment/Allotment"/>
 	<rdfs:label>Old Trafford Allotments</rdfs:label>
 	<con:fullName>0</con:fullName>
 	<con:phone>0</con:phone>
@@ -228,8 +484,21 @@
 	<osspr:northing>395437</osspr:northing>
 </rdf:Description>
 
+<rdf:Description rdf:about="http://data.gmdsp.org.uk/id/trafford/allotments/address/old-trafford-allotments">
+	<rdfs:label>Old Trafford Allotments</rdfs:label>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://data.gmdsp.org.uk/id/trafford/allotments/old-trafford-allotments">
+	<vcard:adr rdf:resource="http://data.gmdsp.org.uk/id/trafford/allotments/address/old-trafford-allotments"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://data.gmdsp.org.uk/id/trafford/allotments/address/old-trafford-allotments">
+	<rdf:type rdf:resource="http://www.w3.org/2006/vcard/ns#Location"/>
+	<vcard:street-address>Old Trafford Allotments</vcard:street-address>
+</rdf:Description>
+
 <rdf:Description rdf:about="http://data.gmdsp.org.uk/id/trafford/allotments/quarry-bank-allotments">
-	<rdf:type rdf:resource="http://data.gmdsp.org.uk/def/allotments"/>
+	<rdf:type rdf:resource="http://data.gmdsp.org.uk/def/council/allotment/Allotment"/>
 	<rdfs:label>Quarry Bank Allotments</rdfs:label>
 	<con:fullName>0</con:fullName>
 	<con:phone>0</con:phone>
@@ -237,8 +506,21 @@
 	<osspr:northing>389163</osspr:northing>
 </rdf:Description>
 
+<rdf:Description rdf:about="http://data.gmdsp.org.uk/id/trafford/allotments/address/quarry-bank-allotments">
+	<rdfs:label>Quarry Bank Allotments</rdfs:label>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://data.gmdsp.org.uk/id/trafford/allotments/quarry-bank-allotments">
+	<vcard:adr rdf:resource="http://data.gmdsp.org.uk/id/trafford/allotments/address/quarry-bank-allotments"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://data.gmdsp.org.uk/id/trafford/allotments/address/quarry-bank-allotments">
+	<rdf:type rdf:resource="http://www.w3.org/2006/vcard/ns#Location"/>
+	<vcard:street-address>Quarry Bank Allotments</vcard:street-address>
+</rdf:Description>
+
 <rdf:Description rdf:about="http://data.gmdsp.org.uk/id/trafford/allotments/riddings-allotments">
-	<rdf:type rdf:resource="http://data.gmdsp.org.uk/def/allotments"/>
+	<rdf:type rdf:resource="http://data.gmdsp.org.uk/def/council/allotment/Allotment"/>
 	<rdfs:label>Riddings Allotments</rdfs:label>
 	<con:fullName>Mrs B Ennis</con:fullName>
 	<con:phone>0161 962 1285</con:phone>
@@ -246,8 +528,21 @@
 	<osspr:northing>390177</osspr:northing>
 </rdf:Description>
 
+<rdf:Description rdf:about="http://data.gmdsp.org.uk/id/trafford/allotments/address/riddings-allotments">
+	<rdfs:label>Riddings Allotments</rdfs:label>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://data.gmdsp.org.uk/id/trafford/allotments/riddings-allotments">
+	<vcard:adr rdf:resource="http://data.gmdsp.org.uk/id/trafford/allotments/address/riddings-allotments"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://data.gmdsp.org.uk/id/trafford/allotments/address/riddings-allotments">
+	<rdf:type rdf:resource="http://www.w3.org/2006/vcard/ns#Location"/>
+	<vcard:street-address>Riddings Allotments</vcard:street-address>
+</rdf:Description>
+
 <rdf:Description rdf:about="http://data.gmdsp.org.uk/id/trafford/allotments/st-marys-allotments">
-	<rdf:type rdf:resource="http://data.gmdsp.org.uk/def/allotments"/>
+	<rdf:type rdf:resource="http://data.gmdsp.org.uk/def/council/allotment/Allotment"/>
 	<rdfs:label>St Mary's Allotments</rdfs:label>
 	<con:fullName>Mrs J Long</con:fullName>
 	<con:phone>0161 912 5410</con:phone>
@@ -255,8 +550,21 @@
 	<osspr:northing>391681</osspr:northing>
 </rdf:Description>
 
+<rdf:Description rdf:about="http://data.gmdsp.org.uk/id/trafford/allotments/address/st-marys-allotments">
+	<rdfs:label>St Mary's Allotments</rdfs:label>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://data.gmdsp.org.uk/id/trafford/allotments/st-marys-allotments">
+	<vcard:adr rdf:resource="http://data.gmdsp.org.uk/id/trafford/allotments/address/st-marys-allotments"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://data.gmdsp.org.uk/id/trafford/allotments/address/st-marys-allotments">
+	<rdf:type rdf:resource="http://www.w3.org/2006/vcard/ns#Location"/>
+	<vcard:street-address>St Mary's Allotments</vcard:street-address>
+</rdf:Description>
+
 <rdf:Description rdf:about="http://data.gmdsp.org.uk/id/trafford/allotments/tavistock-road-allotments">
-	<rdf:type rdf:resource="http://data.gmdsp.org.uk/def/allotments"/>
+	<rdf:type rdf:resource="http://data.gmdsp.org.uk/def/council/allotment/Allotment"/>
 	<rdfs:label>Tavistock Road Allotments</rdfs:label>
 	<con:fullName>Mrs J Long</con:fullName>
 	<con:phone>0161 912 5410</con:phone>
@@ -264,8 +572,21 @@
 	<osspr:northing>392180</osspr:northing>
 </rdf:Description>
 
+<rdf:Description rdf:about="http://data.gmdsp.org.uk/id/trafford/allotments/address/tavistock-road-allotments">
+	<rdfs:label>Tavistock Road Allotments</rdfs:label>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://data.gmdsp.org.uk/id/trafford/allotments/tavistock-road-allotments">
+	<vcard:adr rdf:resource="http://data.gmdsp.org.uk/id/trafford/allotments/address/tavistock-road-allotments"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://data.gmdsp.org.uk/id/trafford/allotments/address/tavistock-road-allotments">
+	<rdf:type rdf:resource="http://www.w3.org/2006/vcard/ns#Location"/>
+	<vcard:street-address>Tavistock Road Allotments</vcard:street-address>
+</rdf:Description>
+
 <rdf:Description rdf:about="http://data.gmdsp.org.uk/id/trafford/allotments/the-grove-allotments">
-	<rdf:type rdf:resource="http://data.gmdsp.org.uk/def/allotments"/>
+	<rdf:type rdf:resource="http://data.gmdsp.org.uk/def/council/allotment/Allotment"/>
 	<rdfs:label>The Grove Allotments</rdfs:label>
 	<con:fullName>Mr E Kelson</con:fullName>
 	<con:phone>0161 865 4671</con:phone>
@@ -273,8 +594,21 @@
 	<osspr:northing>395006</osspr:northing>
 </rdf:Description>
 
+<rdf:Description rdf:about="http://data.gmdsp.org.uk/id/trafford/allotments/address/the-grove-allotments">
+	<rdfs:label>The Grove Allotments</rdfs:label>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://data.gmdsp.org.uk/id/trafford/allotments/the-grove-allotments">
+	<vcard:adr rdf:resource="http://data.gmdsp.org.uk/id/trafford/allotments/address/the-grove-allotments"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://data.gmdsp.org.uk/id/trafford/allotments/address/the-grove-allotments">
+	<rdf:type rdf:resource="http://www.w3.org/2006/vcard/ns#Location"/>
+	<vcard:street-address>The Grove Allotments</vcard:street-address>
+</rdf:Description>
+
 <rdf:Description rdf:about="http://data.gmdsp.org.uk/id/trafford/allotments/the-mount-allotments">
-	<rdf:type rdf:resource="http://data.gmdsp.org.uk/def/allotments"/>
+	<rdf:type rdf:resource="http://data.gmdsp.org.uk/def/council/allotment/Allotment"/>
 	<rdfs:label>The Mount Allotments</rdfs:label>
 	<con:fullName>0</con:fullName>
 	<con:phone>0</con:phone>
@@ -282,8 +616,21 @@
 	<osspr:northing>385944</osspr:northing>
 </rdf:Description>
 
+<rdf:Description rdf:about="http://data.gmdsp.org.uk/id/trafford/allotments/address/the-mount-allotments">
+	<rdfs:label>The Mount Allotments</rdfs:label>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://data.gmdsp.org.uk/id/trafford/allotments/the-mount-allotments">
+	<vcard:adr rdf:resource="http://data.gmdsp.org.uk/id/trafford/allotments/address/the-mount-allotments"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://data.gmdsp.org.uk/id/trafford/allotments/address/the-mount-allotments">
+	<rdf:type rdf:resource="http://www.w3.org/2006/vcard/ns#Location"/>
+	<vcard:street-address>The Mount Allotments</vcard:street-address>
+</rdf:Description>
+
 <rdf:Description rdf:about="http://data.gmdsp.org.uk/id/trafford/allotments/totnes-road-allotments">
-	<rdf:type rdf:resource="http://data.gmdsp.org.uk/def/allotments"/>
+	<rdf:type rdf:resource="http://data.gmdsp.org.uk/def/council/allotment/Allotment"/>
 	<rdfs:label>Totnes Road Allotments</rdfs:label>
 	<con:fullName>Mrs J Long</con:fullName>
 	<con:phone>0161 912 5410</con:phone>
@@ -291,8 +638,21 @@
 	<osspr:northing>392388</osspr:northing>
 </rdf:Description>
 
+<rdf:Description rdf:about="http://data.gmdsp.org.uk/id/trafford/allotments/address/totnes-road-allotments">
+	<rdfs:label>Totnes Road Allotments</rdfs:label>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://data.gmdsp.org.uk/id/trafford/allotments/totnes-road-allotments">
+	<vcard:adr rdf:resource="http://data.gmdsp.org.uk/id/trafford/allotments/address/totnes-road-allotments"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://data.gmdsp.org.uk/id/trafford/allotments/address/totnes-road-allotments">
+	<rdf:type rdf:resource="http://www.w3.org/2006/vcard/ns#Location"/>
+	<vcard:street-address>Totnes Road Allotments</vcard:street-address>
+</rdf:Description>
+
 <rdf:Description rdf:about="http://data.gmdsp.org.uk/id/trafford/allotments/trafford-drive-beech-ave-allotments">
-	<rdf:type rdf:resource="http://data.gmdsp.org.uk/def/allotments"/>
+	<rdf:type rdf:resource="http://data.gmdsp.org.uk/def/council/allotment/Allotment"/>
 	<rdfs:label>Trafford Drive / Beech Ave Allotments</rdfs:label>
 	<con:fullName>Mrs M Farrell</con:fullName>
 	<con:phone>0161 282 9340</con:phone>
@@ -300,8 +660,21 @@
 	<osspr:northing>389877</osspr:northing>
 </rdf:Description>
 
+<rdf:Description rdf:about="http://data.gmdsp.org.uk/id/trafford/allotments/address/trafford-drive-beech-ave-allotments">
+	<rdfs:label>Trafford Drive / Beech Ave Allotments</rdfs:label>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://data.gmdsp.org.uk/id/trafford/allotments/trafford-drive-beech-ave-allotments">
+	<vcard:adr rdf:resource="http://data.gmdsp.org.uk/id/trafford/allotments/address/trafford-drive-beech-ave-allotments"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://data.gmdsp.org.uk/id/trafford/allotments/address/trafford-drive-beech-ave-allotments">
+	<rdf:type rdf:resource="http://www.w3.org/2006/vcard/ns#Location"/>
+	<vcard:street-address>Trafford Drive / Beech Ave Allotments</vcard:street-address>
+</rdf:Description>
+
 <rdf:Description rdf:about="http://data.gmdsp.org.uk/id/trafford/allotments/ullswater-road-allotments">
-	<rdf:type rdf:resource="http://data.gmdsp.org.uk/def/allotments"/>
+	<rdf:type rdf:resource="http://data.gmdsp.org.uk/def/council/allotment/Allotment"/>
 	<rdfs:label>Ullswater Road Allotments</rdfs:label>
 	<con:fullName>0</con:fullName>
 	<con:phone>0</con:phone>
@@ -309,8 +682,21 @@
 	<osspr:northing>395450</osspr:northing>
 </rdf:Description>
 
+<rdf:Description rdf:about="http://data.gmdsp.org.uk/id/trafford/allotments/address/ullswater-road-allotments">
+	<rdfs:label>Ullswater Road Allotments</rdfs:label>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://data.gmdsp.org.uk/id/trafford/allotments/ullswater-road-allotments">
+	<vcard:adr rdf:resource="http://data.gmdsp.org.uk/id/trafford/allotments/address/ullswater-road-allotments"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://data.gmdsp.org.uk/id/trafford/allotments/address/ullswater-road-allotments">
+	<rdf:type rdf:resource="http://www.w3.org/2006/vcard/ns#Location"/>
+	<vcard:street-address>Ullswater Road Allotments</vcard:street-address>
+</rdf:Description>
+
 <rdf:Description rdf:about="http://data.gmdsp.org.uk/id/trafford/allotments/vicarage-lane-allotments">
-	<rdf:type rdf:resource="http://data.gmdsp.org.uk/def/allotments"/>
+	<rdf:type rdf:resource="http://data.gmdsp.org.uk/def/council/allotment/Allotment"/>
 	<rdfs:label>Vicarage Lane Allotments</rdfs:label>
 	<con:fullName>Mrs S Tee</con:fullName>
 	<con:phone>0161 941 7047</con:phone>
@@ -318,8 +704,21 @@
 	<osspr:northing>386233</osspr:northing>
 </rdf:Description>
 
+<rdf:Description rdf:about="http://data.gmdsp.org.uk/id/trafford/allotments/address/vicarage-lane-allotments">
+	<rdfs:label>Vicarage Lane Allotments</rdfs:label>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://data.gmdsp.org.uk/id/trafford/allotments/vicarage-lane-allotments">
+	<vcard:adr rdf:resource="http://data.gmdsp.org.uk/id/trafford/allotments/address/vicarage-lane-allotments"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://data.gmdsp.org.uk/id/trafford/allotments/address/vicarage-lane-allotments">
+	<rdf:type rdf:resource="http://www.w3.org/2006/vcard/ns#Location"/>
+	<vcard:street-address>Vicarage Lane Allotments</vcard:street-address>
+</rdf:Description>
+
 <rdf:Description rdf:about="http://data.gmdsp.org.uk/id/trafford/allotments/walton-road-allotments">
-	<rdf:type rdf:resource="http://data.gmdsp.org.uk/def/allotments"/>
+	<rdf:type rdf:resource="http://data.gmdsp.org.uk/def/council/allotment/Allotment"/>
 	<rdfs:label>Walton Road Allotments</rdfs:label>
 	<con:fullName>Mrs B Margison</con:fullName>
 	<con:phone>0161 962 3572</con:phone>
@@ -327,8 +726,21 @@
 	<osspr:northing>391147</osspr:northing>
 </rdf:Description>
 
+<rdf:Description rdf:about="http://data.gmdsp.org.uk/id/trafford/allotments/address/walton-road-allotments">
+	<rdfs:label>Walton Road Allotments</rdfs:label>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://data.gmdsp.org.uk/id/trafford/allotments/walton-road-allotments">
+	<vcard:adr rdf:resource="http://data.gmdsp.org.uk/id/trafford/allotments/address/walton-road-allotments"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://data.gmdsp.org.uk/id/trafford/allotments/address/walton-road-allotments">
+	<rdf:type rdf:resource="http://www.w3.org/2006/vcard/ns#Location"/>
+	<vcard:street-address>Walton Road Allotments</vcard:street-address>
+</rdf:Description>
+
 <rdf:Description rdf:about="http://data.gmdsp.org.uk/id/trafford/allotments/warslow-drive-allotments">
-	<rdf:type rdf:resource="http://data.gmdsp.org.uk/def/allotments"/>
+	<rdf:type rdf:resource="http://data.gmdsp.org.uk/def/council/allotment/Allotment"/>
 	<rdfs:label>Warslow Drive Allotments</rdfs:label>
 	<con:fullName>NaN</con:fullName>
 	<con:phone>NaN</con:phone>
@@ -336,8 +748,21 @@
 	<osspr:northing>NaN</osspr:northing>
 </rdf:Description>
 
+<rdf:Description rdf:about="http://data.gmdsp.org.uk/id/trafford/allotments/address/warslow-drive-allotments">
+	<rdfs:label>Warslow Drive Allotments</rdfs:label>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://data.gmdsp.org.uk/id/trafford/allotments/warslow-drive-allotments">
+	<vcard:adr rdf:resource="http://data.gmdsp.org.uk/id/trafford/allotments/address/warslow-drive-allotments"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://data.gmdsp.org.uk/id/trafford/allotments/address/warslow-drive-allotments">
+	<rdf:type rdf:resource="http://www.w3.org/2006/vcard/ns#Location"/>
+	<vcard:street-address>Warslow Drive Allotments</vcard:street-address>
+</rdf:Description>
+
 <rdf:Description rdf:about="http://data.gmdsp.org.uk/id/trafford/allotments/wellfield-allotments">
-	<rdf:type rdf:resource="http://data.gmdsp.org.uk/def/allotments"/>
+	<rdf:type rdf:resource="http://data.gmdsp.org.uk/def/council/allotment/Allotment"/>
 	<rdfs:label>Wellfield Allotments</rdfs:label>
 	<con:fullName>Mr Thwaite</con:fullName>
 	<con:phone>0161 980 7174</con:phone>
@@ -345,8 +770,21 @@
 	<osspr:northing>387382</osspr:northing>
 </rdf:Description>
 
+<rdf:Description rdf:about="http://data.gmdsp.org.uk/id/trafford/allotments/address/wellfield-allotments">
+	<rdfs:label>Wellfield Allotments</rdfs:label>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://data.gmdsp.org.uk/id/trafford/allotments/wellfield-allotments">
+	<vcard:adr rdf:resource="http://data.gmdsp.org.uk/id/trafford/allotments/address/wellfield-allotments"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://data.gmdsp.org.uk/id/trafford/allotments/address/wellfield-allotments">
+	<rdf:type rdf:resource="http://www.w3.org/2006/vcard/ns#Location"/>
+	<vcard:street-address>Wellfield Allotments</vcard:street-address>
+</rdf:Description>
+
 <rdf:Description rdf:about="http://data.gmdsp.org.uk/id/trafford/allotments/winstanley-road-allotments">
-	<rdf:type rdf:resource="http://data.gmdsp.org.uk/def/allotments"/>
+	<rdf:type rdf:resource="http://data.gmdsp.org.uk/def/council/allotment/Allotment"/>
 	<rdfs:label>Winstanley Road Allotments</rdfs:label>
 	<con:fullName>Mr B Igoe</con:fullName>
 	<con:phone>07961 297 741</con:phone>
@@ -354,8 +792,21 @@
 	<osspr:northing>392395</osspr:northing>
 </rdf:Description>
 
+<rdf:Description rdf:about="http://data.gmdsp.org.uk/id/trafford/allotments/address/winstanley-road-allotments">
+	<rdfs:label>Winstanley Road Allotments</rdfs:label>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://data.gmdsp.org.uk/id/trafford/allotments/winstanley-road-allotments">
+	<vcard:adr rdf:resource="http://data.gmdsp.org.uk/id/trafford/allotments/address/winstanley-road-allotments"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://data.gmdsp.org.uk/id/trafford/allotments/address/winstanley-road-allotments">
+	<rdf:type rdf:resource="http://www.w3.org/2006/vcard/ns#Location"/>
+	<vcard:street-address>Winstanley Road Allotments</vcard:street-address>
+</rdf:Description>
+
 <rdf:Description rdf:about="http://data.gmdsp.org.uk/id/trafford/allotments/woodcote-road-allotments">
-	<rdf:type rdf:resource="http://data.gmdsp.org.uk/def/allotments"/>
+	<rdf:type rdf:resource="http://data.gmdsp.org.uk/def/council/allotment/Allotment"/>
 	<rdfs:label>Woodcote Road Allotments</rdfs:label>
 	<con:fullName>0</con:fullName>
 	<con:phone>0</con:phone>
@@ -363,13 +814,39 @@
 	<osspr:northing>390136</osspr:northing>
 </rdf:Description>
 
+<rdf:Description rdf:about="http://data.gmdsp.org.uk/id/trafford/allotments/address/woodcote-road-allotments">
+	<rdfs:label>Woodcote Road Allotments</rdfs:label>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://data.gmdsp.org.uk/id/trafford/allotments/woodcote-road-allotments">
+	<vcard:adr rdf:resource="http://data.gmdsp.org.uk/id/trafford/allotments/address/woodcote-road-allotments"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://data.gmdsp.org.uk/id/trafford/allotments/address/woodcote-road-allotments">
+	<rdf:type rdf:resource="http://www.w3.org/2006/vcard/ns#Location"/>
+	<vcard:street-address>Woodcote Road Allotments</vcard:street-address>
+</rdf:Description>
+
 <rdf:Description rdf:about="http://data.gmdsp.org.uk/id/trafford/allotments/wyndcliff-drive-allotments">
-	<rdf:type rdf:resource="http://data.gmdsp.org.uk/def/allotments"/>
+	<rdf:type rdf:resource="http://data.gmdsp.org.uk/def/council/allotment/Allotment"/>
 	<rdfs:label>Wyndcliff Drive Allotments</rdfs:label>
 	<con:fullName>Mr Clarry</con:fullName>
 	<con:phone>0161 912 5410</con:phone>
 	<osspr:easting>374364</osspr:easting>
 	<osspr:northing>394401</osspr:northing>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://data.gmdsp.org.uk/id/trafford/allotments/address/wyndcliff-drive-allotments">
+	<rdfs:label>Wyndcliff Drive Allotments</rdfs:label>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://data.gmdsp.org.uk/id/trafford/allotments/wyndcliff-drive-allotments">
+	<vcard:adr rdf:resource="http://data.gmdsp.org.uk/id/trafford/allotments/address/wyndcliff-drive-allotments"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://data.gmdsp.org.uk/id/trafford/allotments/address/wyndcliff-drive-allotments">
+	<rdf:type rdf:resource="http://www.w3.org/2006/vcard/ns#Location"/>
+	<vcard:street-address>Wyndcliff Drive Allotments</vcard:street-address>
 </rdf:Description>
 
 </rdf:RDF>

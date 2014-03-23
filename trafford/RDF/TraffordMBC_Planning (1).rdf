@@ -1,0 +1,987 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rdf:RDF
+	xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
+	xmlns:gmdsp-planning="http://data.gmdsp.org.uk/def/council/planning/"
+	xmlns:foaf="http://xmlns.com/foaf/0.1/"
+	xmlns:owl="http://www.w3.org/2002/07/owl#"
+	xmlns:xsd="http://www.w3.org/2001/XMLSchema#"
+	xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+	xmlns:sdmx="http://purl.org/linked-data/sdmx#"
+	xmlns:vcard="http://www.w3.org/2006/vcard/ns#"
+	xmlns:dcterms="http://purl.org/dc/terms/">
+
+<rdf:Description rdf:about="http://data.gmdsp.org.uk/id/trafford/planning/436406">
+	<rdf:type rdf:resource="http://data.gmdsp.org.uk/def/council/planning/PlanningApplication"/>
+	<rdfs:label>00511/UN/2014</rdfs:label>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://data.gmdsp.org.uk/def/council/planning/application-type/full-planning-application">
+	<rdfs:label>Full Planning Application</rdfs:label>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://data.gmdsp.org.uk/id/trafford/planning/436406">
+	<gmdsp-planning:application-type rdf:resource="http://data.gmdsp.org.uk/def/council/planning/application-type/full-planning-application"/>
+	<rdfs:comment> (8 Church Road, Urmston, Manchester, M41 9BU)</rdfs:comment>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://data.gmdsp.org.uk/id/trafford/planning/address/436406">
+	<rdfs:label>436406</rdfs:label>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://data.gmdsp.org.uk/id/trafford/planning/436406">
+	<vcard:adr rdf:resource="http://data.gmdsp.org.uk/id/trafford/planning/address/436406"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://data.gmdsp.org.uk/id/trafford/planning/applicationsite/436406">
+	<rdf:type rdf:resource="http://data.gmdsp.org.uk/def/council/planning/PlanningApplicationSite"/>
+	<vcard:street-address>8 Church Road, Urmston, Manchester, M41 9BU</vcard:street-address>
+	<rdfs:label>Site Address</rdfs:label>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://data.gmdsp.org.uk/id/trafford/planning/decision/436406">
+	<rdf:type rdf:resource="http://data.gmdsp.org.uk/def/council/planning/PlanningDecision"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://data.gmdsp.org.uk/def/council/planning/decision/other">
+	<rdfs:label>Other</rdfs:label>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://data.gmdsp.org.uk/id/trafford/planning/decision/436406">
+	<gmdsp-planning:decision rdf:resource="http://data.gmdsp.org.uk/def/council/planning/decision/other"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://data.gmdsp.org.uk/id/trafford/planning/appeal/436406">
+	<rdf:type rdf:resource="http://data.gmdsp.org.uk/def/council/planning/PlanningAppeal"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://data.gmdsp.org.uk/id/trafford/planning/appeal/n">
+	<rdfs:label>N</rdfs:label>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://data.gmdsp.org.uk/id/trafford/planning/appeal/436406">
+	<gmdsp-planning:appeal rdf:resource="http://data.gmdsp.org.uk/id/trafford/planning/appeal/n"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://data.gmdsp.org.uk/id/trafford/planning/436265">
+	<rdf:type rdf:resource="http://data.gmdsp.org.uk/def/council/planning/PlanningApplication"/>
+	<rdfs:label>00468/PP/2014</rdfs:label>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://data.gmdsp.org.uk/def/council/planning/application-type/variation-of-condition">
+	<rdfs:label>Variation of Condition</rdfs:label>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://data.gmdsp.org.uk/id/trafford/planning/436265">
+	<gmdsp-planning:application-type rdf:resource="http://data.gmdsp.org.uk/def/council/planning/application-type/variation-of-condition"/>
+	<rdfs:comment>Variation of Condition 2 of planning permission 74199/FULL/2009 (Erection of a pair of semi detached dwellings with 4no. bedrooms and formation of vehicular access to Oldfield Road) to refer to revised drawings to facilitate an increase in the size of t</rdfs:comment>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://data.gmdsp.org.uk/id/trafford/planning/address/436265">
+	<rdfs:label>436265</rdfs:label>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://data.gmdsp.org.uk/id/trafford/planning/436265">
+	<vcard:adr rdf:resource="http://data.gmdsp.org.uk/id/trafford/planning/address/436265"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://data.gmdsp.org.uk/id/trafford/planning/applicationsite/436265">
+	<rdf:type rdf:resource="http://data.gmdsp.org.uk/def/council/planning/PlanningApplicationSite"/>
+	<vcard:street-address>Land at 66/68 Oldfield Road, Sale, M33 2AQ</vcard:street-address>
+	<rdfs:label>Site Address</rdfs:label>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://data.gmdsp.org.uk/id/trafford/planning/decision/436265">
+	<rdf:type rdf:resource="http://data.gmdsp.org.uk/def/council/planning/PlanningDecision"/>
+	<gmdsp-planning:decision rdf:resource="http://data.gmdsp.org.uk/def/council/planning/decision/other"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://data.gmdsp.org.uk/id/trafford/planning/appeal/436265">
+	<rdf:type rdf:resource="http://data.gmdsp.org.uk/def/council/planning/PlanningAppeal"/>
+	<gmdsp-planning:appeal rdf:resource="http://data.gmdsp.org.uk/id/trafford/planning/appeal/n"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://data.gmdsp.org.uk/id/trafford/planning/436123">
+	<rdf:type rdf:resource="http://data.gmdsp.org.uk/def/council/planning/PlanningApplication"/>
+	<rdfs:label>82482/FULL/2014</rdfs:label>
+	<gmdsp-planning:application-type rdf:resource="http://data.gmdsp.org.uk/def/council/planning/application-type/full-planning-application"/>
+	<rdfs:comment>Rear single story extension to provide improved / enlarged facilities for existing veterinary practice. (Buchanan Vets Ltd, 120 Wood Lane, Timperley, WA15 7PJ)</rdfs:comment>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://data.gmdsp.org.uk/id/trafford/planning/address/436123">
+	<rdfs:label>436123</rdfs:label>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://data.gmdsp.org.uk/id/trafford/planning/436123">
+	<vcard:adr rdf:resource="http://data.gmdsp.org.uk/id/trafford/planning/address/436123"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://data.gmdsp.org.uk/id/trafford/planning/applicationsite/436123">
+	<rdf:type rdf:resource="http://data.gmdsp.org.uk/def/council/planning/PlanningApplicationSite"/>
+	<vcard:street-address>Buchanan Vets Ltd, 120 Wood Lane, Timperley, WA15 7PJ</vcard:street-address>
+	<rdfs:label>Site Address</rdfs:label>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://data.gmdsp.org.uk/id/trafford/planning/decision/436123">
+	<rdf:type rdf:resource="http://data.gmdsp.org.uk/def/council/planning/PlanningDecision"/>
+	<gmdsp-planning:decision rdf:resource="http://data.gmdsp.org.uk/def/council/planning/decision/other"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://data.gmdsp.org.uk/id/trafford/planning/appeal/436123">
+	<rdf:type rdf:resource="http://data.gmdsp.org.uk/def/council/planning/PlanningAppeal"/>
+	<gmdsp-planning:appeal rdf:resource="http://data.gmdsp.org.uk/id/trafford/planning/appeal/n"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://data.gmdsp.org.uk/id/trafford/planning/436121">
+	<rdf:type rdf:resource="http://data.gmdsp.org.uk/def/council/planning/PlanningApplication"/>
+	<rdfs:label>00433/PP/2014</rdfs:label>
+	<gmdsp-planning:application-type rdf:resource="http://data.gmdsp.org.uk/def/council/planning/application-type/full-planning-application"/>
+	<rdfs:comment>Conversion of existing building from a church to 2no. residential dwellinghouses with associated car parking and landscaping, including demolition of existing single storey rear extension and insertion of velux windows within the roof slopes. (King's Wa</rdfs:comment>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://data.gmdsp.org.uk/id/trafford/planning/address/436121">
+	<rdfs:label>436121</rdfs:label>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://data.gmdsp.org.uk/id/trafford/planning/436121">
+	<vcard:adr rdf:resource="http://data.gmdsp.org.uk/id/trafford/planning/address/436121"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://data.gmdsp.org.uk/id/trafford/planning/applicationsite/436121">
+	<rdf:type rdf:resource="http://data.gmdsp.org.uk/def/council/planning/PlanningApplicationSite"/>
+	<vcard:street-address>King's Way Church, Glebelands Road, Sale, M33 6PB</vcard:street-address>
+	<rdfs:label>Site Address</rdfs:label>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://data.gmdsp.org.uk/id/trafford/planning/decision/436121">
+	<rdf:type rdf:resource="http://data.gmdsp.org.uk/def/council/planning/PlanningDecision"/>
+	<gmdsp-planning:decision rdf:resource="http://data.gmdsp.org.uk/def/council/planning/decision/other"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://data.gmdsp.org.uk/id/trafford/planning/appeal/436121">
+	<rdf:type rdf:resource="http://data.gmdsp.org.uk/def/council/planning/PlanningAppeal"/>
+	<gmdsp-planning:appeal rdf:resource="http://data.gmdsp.org.uk/id/trafford/planning/appeal/n"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://data.gmdsp.org.uk/id/trafford/planning/436099">
+	<rdf:type rdf:resource="http://data.gmdsp.org.uk/def/council/planning/PlanningApplication"/>
+	<rdfs:label>00429/PP/2014</rdfs:label>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://data.gmdsp.org.uk/def/council/planning/application-type/householder">
+	<rdfs:label>Householder</rdfs:label>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://data.gmdsp.org.uk/id/trafford/planning/436099">
+	<gmdsp-planning:application-type rdf:resource="http://data.gmdsp.org.uk/def/council/planning/application-type/householder"/>
+	<rdfs:comment>Erection of first floor side extension and single storey front extension. (19 Clay Lane
+
+Hale
+
+WA15 8PJ)</rdfs:comment>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://data.gmdsp.org.uk/id/trafford/planning/address/436099">
+	<rdfs:label>436099</rdfs:label>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://data.gmdsp.org.uk/id/trafford/planning/436099">
+	<vcard:adr rdf:resource="http://data.gmdsp.org.uk/id/trafford/planning/address/436099"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://data.gmdsp.org.uk/id/trafford/planning/applicationsite/436099">
+	<rdf:type rdf:resource="http://data.gmdsp.org.uk/def/council/planning/PlanningApplicationSite"/>
+	<vcard:street-address>19 Clay Lane
+
+Hale
+
+WA15 8PJ</vcard:street-address>
+	<rdfs:label>Site Address</rdfs:label>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://data.gmdsp.org.uk/id/trafford/planning/decision/436099">
+	<rdf:type rdf:resource="http://data.gmdsp.org.uk/def/council/planning/PlanningDecision"/>
+	<gmdsp-planning:decision rdf:resource="http://data.gmdsp.org.uk/def/council/planning/decision/other"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://data.gmdsp.org.uk/id/trafford/planning/appeal/436099">
+	<rdf:type rdf:resource="http://data.gmdsp.org.uk/def/council/planning/PlanningAppeal"/>
+	<gmdsp-planning:appeal rdf:resource="http://data.gmdsp.org.uk/id/trafford/planning/appeal/n"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://data.gmdsp.org.uk/id/trafford/planning/436090">
+	<rdf:type rdf:resource="http://data.gmdsp.org.uk/def/council/planning/PlanningApplication"/>
+	<rdfs:label>00428/UN/2014</rdfs:label>
+	<gmdsp-planning:application-type rdf:resource="http://data.gmdsp.org.uk/def/council/planning/application-type/full-planning-application"/>
+	<rdfs:comment>Erection of permanent storage shed within existing refuse compound to the south of Studio 4 and siting of two temporary storage cabins to the west of Studio 4. (ITV Studios
+
+Trafford Wharf Road
+
+Trafford Park
+
+Manchester
+
+M17 1FZ)</rdfs:comment>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://data.gmdsp.org.uk/id/trafford/planning/address/436090">
+	<rdfs:label>436090</rdfs:label>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://data.gmdsp.org.uk/id/trafford/planning/436090">
+	<vcard:adr rdf:resource="http://data.gmdsp.org.uk/id/trafford/planning/address/436090"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://data.gmdsp.org.uk/id/trafford/planning/applicationsite/436090">
+	<rdf:type rdf:resource="http://data.gmdsp.org.uk/def/council/planning/PlanningApplicationSite"/>
+	<vcard:street-address>ITV Studios
+
+Trafford Wharf Road
+
+Trafford Park
+
+Manchester
+
+M17 1FZ</vcard:street-address>
+	<rdfs:label>Site Address</rdfs:label>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://data.gmdsp.org.uk/id/trafford/planning/decision/436090">
+	<rdf:type rdf:resource="http://data.gmdsp.org.uk/def/council/planning/PlanningDecision"/>
+	<gmdsp-planning:decision rdf:resource="http://data.gmdsp.org.uk/def/council/planning/decision/other"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://data.gmdsp.org.uk/id/trafford/planning/appeal/436090">
+	<rdf:type rdf:resource="http://data.gmdsp.org.uk/def/council/planning/PlanningAppeal"/>
+	<gmdsp-planning:appeal rdf:resource="http://data.gmdsp.org.uk/id/trafford/planning/appeal/n"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://data.gmdsp.org.uk/id/trafford/planning/436089">
+	<rdf:type rdf:resource="http://data.gmdsp.org.uk/def/council/planning/PlanningApplication"/>
+	<rdfs:label>00424/UN/2014</rdfs:label>
+	<gmdsp-planning:application-type rdf:resource="http://data.gmdsp.org.uk/def/council/planning/application-type/householder"/>
+	<rdfs:comment>Erection of sliding, timber gate to front boundary. (60 Carrwood
+
+Hale Barns
+
+WA15 0EP)</rdfs:comment>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://data.gmdsp.org.uk/id/trafford/planning/address/436089">
+	<rdfs:label>436089</rdfs:label>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://data.gmdsp.org.uk/id/trafford/planning/436089">
+	<vcard:adr rdf:resource="http://data.gmdsp.org.uk/id/trafford/planning/address/436089"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://data.gmdsp.org.uk/id/trafford/planning/applicationsite/436089">
+	<rdf:type rdf:resource="http://data.gmdsp.org.uk/def/council/planning/PlanningApplicationSite"/>
+	<vcard:street-address>60 Carrwood
+
+Hale Barns
+
+WA15 0EP</vcard:street-address>
+	<rdfs:label>Site Address</rdfs:label>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://data.gmdsp.org.uk/id/trafford/planning/decision/436089">
+	<rdf:type rdf:resource="http://data.gmdsp.org.uk/def/council/planning/PlanningDecision"/>
+	<gmdsp-planning:decision rdf:resource="http://data.gmdsp.org.uk/def/council/planning/decision/other"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://data.gmdsp.org.uk/id/trafford/planning/appeal/436089">
+	<rdf:type rdf:resource="http://data.gmdsp.org.uk/def/council/planning/PlanningAppeal"/>
+	<gmdsp-planning:appeal rdf:resource="http://data.gmdsp.org.uk/id/trafford/planning/appeal/n"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://data.gmdsp.org.uk/id/trafford/planning/436084">
+	<rdf:type rdf:resource="http://data.gmdsp.org.uk/def/council/planning/PlanningApplication"/>
+	<rdfs:label>00421/UN/2014</rdfs:label>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://data.gmdsp.org.uk/def/council/planning/application-type/advertisment">
+	<rdfs:label>Advertisment</rdfs:label>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://data.gmdsp.org.uk/id/trafford/planning/436084">
+	<gmdsp-planning:application-type rdf:resource="http://data.gmdsp.org.uk/def/council/planning/application-type/advertisment"/>
+	<rdfs:comment>Display of various non-illuminated signage around superstore site in connection with fromation of a hand car-wash and valeting facility.  (Tesco Stores Limited, Chester Road, Stretford)</rdfs:comment>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://data.gmdsp.org.uk/id/trafford/planning/address/436084">
+	<rdfs:label>436084</rdfs:label>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://data.gmdsp.org.uk/id/trafford/planning/436084">
+	<vcard:adr rdf:resource="http://data.gmdsp.org.uk/id/trafford/planning/address/436084"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://data.gmdsp.org.uk/id/trafford/planning/applicationsite/436084">
+	<rdf:type rdf:resource="http://data.gmdsp.org.uk/def/council/planning/PlanningApplicationSite"/>
+	<vcard:street-address>Tesco Stores Limited, Chester Road, Stretford</vcard:street-address>
+	<rdfs:label>Site Address</rdfs:label>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://data.gmdsp.org.uk/id/trafford/planning/decision/436084">
+	<rdf:type rdf:resource="http://data.gmdsp.org.uk/def/council/planning/PlanningDecision"/>
+	<gmdsp-planning:decision rdf:resource="http://data.gmdsp.org.uk/def/council/planning/decision/other"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://data.gmdsp.org.uk/id/trafford/planning/appeal/436084">
+	<rdf:type rdf:resource="http://data.gmdsp.org.uk/def/council/planning/PlanningAppeal"/>
+	<gmdsp-planning:appeal rdf:resource="http://data.gmdsp.org.uk/id/trafford/planning/appeal/n"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://data.gmdsp.org.uk/id/trafford/planning/436082">
+	<rdf:type rdf:resource="http://data.gmdsp.org.uk/def/council/planning/PlanningApplication"/>
+	<rdfs:label>82481/HHA/2014</rdfs:label>
+	<gmdsp-planning:application-type rdf:resource="http://data.gmdsp.org.uk/def/council/planning/application-type/householder"/>
+	<rdfs:comment>Erection of part two storey / part single storey rear extension. (247 Moorside Road
+
+Flixton
+
+M41 5SH)</rdfs:comment>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://data.gmdsp.org.uk/id/trafford/planning/address/436082">
+	<rdfs:label>436082</rdfs:label>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://data.gmdsp.org.uk/id/trafford/planning/436082">
+	<vcard:adr rdf:resource="http://data.gmdsp.org.uk/id/trafford/planning/address/436082"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://data.gmdsp.org.uk/id/trafford/planning/applicationsite/436082">
+	<rdf:type rdf:resource="http://data.gmdsp.org.uk/def/council/planning/PlanningApplicationSite"/>
+	<vcard:street-address>247 Moorside Road
+
+Flixton
+
+M41 5SH</vcard:street-address>
+	<rdfs:label>Site Address</rdfs:label>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://data.gmdsp.org.uk/id/trafford/planning/decision/436082">
+	<rdf:type rdf:resource="http://data.gmdsp.org.uk/def/council/planning/PlanningDecision"/>
+	<gmdsp-planning:decision rdf:resource="http://data.gmdsp.org.uk/def/council/planning/decision/other"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://data.gmdsp.org.uk/id/trafford/planning/appeal/436082">
+	<rdf:type rdf:resource="http://data.gmdsp.org.uk/def/council/planning/PlanningAppeal"/>
+	<gmdsp-planning:appeal rdf:resource="http://data.gmdsp.org.uk/id/trafford/planning/appeal/n"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://data.gmdsp.org.uk/id/trafford/planning/436063">
+	<rdf:type rdf:resource="http://data.gmdsp.org.uk/def/council/planning/PlanningApplication"/>
+	<rdfs:label>00414/UN/2014</rdfs:label>
+	<gmdsp-planning:application-type rdf:resource="http://data.gmdsp.org.uk/def/council/planning/application-type/householder"/>
+	<rdfs:comment>Erection of first floor side and single storey rear extensions. (8 Beechwood Avenue
+
+Flixton
+
+M41 8UG)</rdfs:comment>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://data.gmdsp.org.uk/id/trafford/planning/address/436063">
+	<rdfs:label>436063</rdfs:label>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://data.gmdsp.org.uk/id/trafford/planning/436063">
+	<vcard:adr rdf:resource="http://data.gmdsp.org.uk/id/trafford/planning/address/436063"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://data.gmdsp.org.uk/id/trafford/planning/applicationsite/436063">
+	<rdf:type rdf:resource="http://data.gmdsp.org.uk/def/council/planning/PlanningApplicationSite"/>
+	<vcard:street-address>8 Beechwood Avenue
+
+Flixton
+
+M41 8UG</vcard:street-address>
+	<rdfs:label>Site Address</rdfs:label>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://data.gmdsp.org.uk/id/trafford/planning/decision/436063">
+	<rdf:type rdf:resource="http://data.gmdsp.org.uk/def/council/planning/PlanningDecision"/>
+	<gmdsp-planning:decision rdf:resource="http://data.gmdsp.org.uk/def/council/planning/decision/other"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://data.gmdsp.org.uk/id/trafford/planning/appeal/436063">
+	<rdf:type rdf:resource="http://data.gmdsp.org.uk/def/council/planning/PlanningAppeal"/>
+	<gmdsp-planning:appeal rdf:resource="http://data.gmdsp.org.uk/id/trafford/planning/appeal/n"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://data.gmdsp.org.uk/id/trafford/planning/436030">
+	<rdf:type rdf:resource="http://data.gmdsp.org.uk/def/council/planning/PlanningApplication"/>
+	<rdfs:label>00404/UN/2014</rdfs:label>
+	<gmdsp-planning:application-type rdf:resource="http://data.gmdsp.org.uk/def/council/planning/application-type/full-planning-application"/>
+	<rdfs:comment>Proposed alterations to external building. (84 Talbot Road
+
+Stretford
+
+M14 0PG)</rdfs:comment>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://data.gmdsp.org.uk/id/trafford/planning/address/436030">
+	<rdfs:label>436030</rdfs:label>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://data.gmdsp.org.uk/id/trafford/planning/436030">
+	<vcard:adr rdf:resource="http://data.gmdsp.org.uk/id/trafford/planning/address/436030"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://data.gmdsp.org.uk/id/trafford/planning/applicationsite/436030">
+	<rdf:type rdf:resource="http://data.gmdsp.org.uk/def/council/planning/PlanningApplicationSite"/>
+	<vcard:street-address>84 Talbot Road
+
+Stretford
+
+M14 0PG</vcard:street-address>
+	<rdfs:label>Site Address</rdfs:label>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://data.gmdsp.org.uk/id/trafford/planning/decision/436030">
+	<rdf:type rdf:resource="http://data.gmdsp.org.uk/def/council/planning/PlanningDecision"/>
+	<gmdsp-planning:decision rdf:resource="http://data.gmdsp.org.uk/def/council/planning/decision/other"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://data.gmdsp.org.uk/id/trafford/planning/appeal/436030">
+	<rdf:type rdf:resource="http://data.gmdsp.org.uk/def/council/planning/PlanningAppeal"/>
+	<gmdsp-planning:appeal rdf:resource="http://data.gmdsp.org.uk/id/trafford/planning/appeal/n"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://data.gmdsp.org.uk/id/trafford/planning/436025">
+	<rdf:type rdf:resource="http://data.gmdsp.org.uk/def/council/planning/PlanningApplication"/>
+	<rdfs:label>00399/UN/2014</rdfs:label>
+	<gmdsp-planning:application-type rdf:resource="http://data.gmdsp.org.uk/def/council/planning/application-type/full-planning-application"/>
+	<rdfs:comment> (Albion House 
+
+33 Oxford Road
+
+Altrincham
+
+WA14 2ED)</rdfs:comment>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://data.gmdsp.org.uk/id/trafford/planning/address/436025">
+	<rdfs:label>436025</rdfs:label>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://data.gmdsp.org.uk/id/trafford/planning/436025">
+	<vcard:adr rdf:resource="http://data.gmdsp.org.uk/id/trafford/planning/address/436025"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://data.gmdsp.org.uk/id/trafford/planning/applicationsite/436025">
+	<rdf:type rdf:resource="http://data.gmdsp.org.uk/def/council/planning/PlanningApplicationSite"/>
+	<vcard:street-address>Albion House 
+
+33 Oxford Road
+
+Altrincham
+
+WA14 2ED</vcard:street-address>
+	<rdfs:label>Site Address</rdfs:label>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://data.gmdsp.org.uk/id/trafford/planning/decision/436025">
+	<rdf:type rdf:resource="http://data.gmdsp.org.uk/def/council/planning/PlanningDecision"/>
+	<gmdsp-planning:decision rdf:resource="http://data.gmdsp.org.uk/def/council/planning/decision/other"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://reference.data.gov.uk/id/day/20140317">
+	<rdfs:label>20140317</rdfs:label>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://data.gmdsp.org.uk/id/trafford/planning/decision/436025">
+	<dcterms:date rdf:resource="http://reference.data.gov.uk/id/day/20140317"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://data.gmdsp.org.uk/id/trafford/planning/appeal/436025">
+	<rdf:type rdf:resource="http://data.gmdsp.org.uk/def/council/planning/PlanningAppeal"/>
+	<gmdsp-planning:appeal rdf:resource="http://data.gmdsp.org.uk/id/trafford/planning/appeal/n"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://data.gmdsp.org.uk/id/trafford/planning/436024">
+	<rdf:type rdf:resource="http://data.gmdsp.org.uk/def/council/planning/PlanningApplication"/>
+	<rdfs:label>00398/UN/2014</rdfs:label>
+	<gmdsp-planning:application-type rdf:resource="http://data.gmdsp.org.uk/def/council/planning/application-type/householder"/>
+	<rdfs:comment>Erection of single storey side and rear extension following demolition of existing garahe (82 Grosvenor Road
+
+Sale
+
+M33 6NN)</rdfs:comment>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://data.gmdsp.org.uk/id/trafford/planning/address/436024">
+	<rdfs:label>436024</rdfs:label>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://data.gmdsp.org.uk/id/trafford/planning/436024">
+	<vcard:adr rdf:resource="http://data.gmdsp.org.uk/id/trafford/planning/address/436024"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://data.gmdsp.org.uk/id/trafford/planning/applicationsite/436024">
+	<rdf:type rdf:resource="http://data.gmdsp.org.uk/def/council/planning/PlanningApplicationSite"/>
+	<vcard:street-address>82 Grosvenor Road
+
+Sale
+
+M33 6NN</vcard:street-address>
+	<rdfs:label>Site Address</rdfs:label>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://data.gmdsp.org.uk/id/trafford/planning/decision/436024">
+	<rdf:type rdf:resource="http://data.gmdsp.org.uk/def/council/planning/PlanningDecision"/>
+	<gmdsp-planning:decision rdf:resource="http://data.gmdsp.org.uk/def/council/planning/decision/other"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://data.gmdsp.org.uk/id/trafford/planning/appeal/436024">
+	<rdf:type rdf:resource="http://data.gmdsp.org.uk/def/council/planning/PlanningAppeal"/>
+	<gmdsp-planning:appeal rdf:resource="http://data.gmdsp.org.uk/id/trafford/planning/appeal/n"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://data.gmdsp.org.uk/id/trafford/planning/436019">
+	<rdf:type rdf:resource="http://data.gmdsp.org.uk/def/council/planning/PlanningApplication"/>
+	<rdfs:label>00393/UN/2014</rdfs:label>
+	<gmdsp-planning:application-type rdf:resource="http://data.gmdsp.org.uk/def/council/planning/application-type/householder"/>
+	<rdfs:comment>Retention of a part single, part two storey side extension, single storey rear extension and pitched roof over existing single storey rear extension (revisions to planning permission 76862/HHA/2011). (7 Rochester Road
+
+Davyhulme
+
+M41 0RS)</rdfs:comment>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://data.gmdsp.org.uk/id/trafford/planning/address/436019">
+	<rdfs:label>436019</rdfs:label>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://data.gmdsp.org.uk/id/trafford/planning/436019">
+	<vcard:adr rdf:resource="http://data.gmdsp.org.uk/id/trafford/planning/address/436019"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://data.gmdsp.org.uk/id/trafford/planning/applicationsite/436019">
+	<rdf:type rdf:resource="http://data.gmdsp.org.uk/def/council/planning/PlanningApplicationSite"/>
+	<vcard:street-address>7 Rochester Road
+
+Davyhulme
+
+M41 0RS</vcard:street-address>
+	<rdfs:label>Site Address</rdfs:label>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://data.gmdsp.org.uk/id/trafford/planning/decision/436019">
+	<rdf:type rdf:resource="http://data.gmdsp.org.uk/def/council/planning/PlanningDecision"/>
+	<gmdsp-planning:decision rdf:resource="http://data.gmdsp.org.uk/def/council/planning/decision/other"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://data.gmdsp.org.uk/id/trafford/planning/appeal/436019">
+	<rdf:type rdf:resource="http://data.gmdsp.org.uk/def/council/planning/PlanningAppeal"/>
+	<gmdsp-planning:appeal rdf:resource="http://data.gmdsp.org.uk/id/trafford/planning/appeal/n"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://data.gmdsp.org.uk/id/trafford/planning/436002">
+	<rdf:type rdf:resource="http://data.gmdsp.org.uk/def/council/planning/PlanningApplication"/>
+	<rdfs:label>00391/PP/2014</rdfs:label>
+	<gmdsp-planning:application-type rdf:resource="http://data.gmdsp.org.uk/def/council/planning/application-type/householder"/>
+	<rdfs:comment>Erection of single storey outbuilding to the rear of the property to be used as a gym/therapy room following demolition of existing garage. (24 Auburn Road
+
+Manchester
+
+M16 9NT)</rdfs:comment>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://data.gmdsp.org.uk/id/trafford/planning/address/436002">
+	<rdfs:label>436002</rdfs:label>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://data.gmdsp.org.uk/id/trafford/planning/436002">
+	<vcard:adr rdf:resource="http://data.gmdsp.org.uk/id/trafford/planning/address/436002"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://data.gmdsp.org.uk/id/trafford/planning/applicationsite/436002">
+	<rdf:type rdf:resource="http://data.gmdsp.org.uk/def/council/planning/PlanningApplicationSite"/>
+	<vcard:street-address>24 Auburn Road
+
+Manchester
+
+M16 9NT</vcard:street-address>
+	<rdfs:label>Site Address</rdfs:label>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://data.gmdsp.org.uk/id/trafford/planning/decision/436002">
+	<rdf:type rdf:resource="http://data.gmdsp.org.uk/def/council/planning/PlanningDecision"/>
+	<gmdsp-planning:decision rdf:resource="http://data.gmdsp.org.uk/def/council/planning/decision/other"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://data.gmdsp.org.uk/id/trafford/planning/appeal/436002">
+	<rdf:type rdf:resource="http://data.gmdsp.org.uk/def/council/planning/PlanningAppeal"/>
+	<gmdsp-planning:appeal rdf:resource="http://data.gmdsp.org.uk/id/trafford/planning/appeal/n"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://data.gmdsp.org.uk/id/trafford/planning/436001">
+	<rdf:type rdf:resource="http://data.gmdsp.org.uk/def/council/planning/PlanningApplication"/>
+	<rdfs:label>00390/PP/2014</rdfs:label>
+	<gmdsp-planning:application-type rdf:resource="http://data.gmdsp.org.uk/def/council/planning/application-type/full-planning-application"/>
+	<rdfs:comment>Change of use for ground floor from car parking to 4 no.1 bedroom apartments. (Ansell &amp; Bailey, 84 Talbot Road, Old Trafford, M16 0PG)</rdfs:comment>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://data.gmdsp.org.uk/id/trafford/planning/address/436001">
+	<rdfs:label>436001</rdfs:label>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://data.gmdsp.org.uk/id/trafford/planning/436001">
+	<vcard:adr rdf:resource="http://data.gmdsp.org.uk/id/trafford/planning/address/436001"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://data.gmdsp.org.uk/id/trafford/planning/applicationsite/436001">
+	<rdf:type rdf:resource="http://data.gmdsp.org.uk/def/council/planning/PlanningApplicationSite"/>
+	<vcard:street-address>Ansell &amp; Bailey, 84 Talbot Road, Old Trafford, M16 0PG</vcard:street-address>
+	<rdfs:label>Site Address</rdfs:label>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://data.gmdsp.org.uk/id/trafford/planning/decision/436001">
+	<rdf:type rdf:resource="http://data.gmdsp.org.uk/def/council/planning/PlanningDecision"/>
+	<gmdsp-planning:decision rdf:resource="http://data.gmdsp.org.uk/def/council/planning/decision/other"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://data.gmdsp.org.uk/id/trafford/planning/appeal/436001">
+	<rdf:type rdf:resource="http://data.gmdsp.org.uk/def/council/planning/PlanningAppeal"/>
+	<gmdsp-planning:appeal rdf:resource="http://data.gmdsp.org.uk/id/trafford/planning/appeal/n"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://data.gmdsp.org.uk/id/trafford/planning/436000">
+	<rdf:type rdf:resource="http://data.gmdsp.org.uk/def/council/planning/PlanningApplication"/>
+	<rdfs:label>00389/PP/2014</rdfs:label>
+	<gmdsp-planning:application-type rdf:resource="http://data.gmdsp.org.uk/def/council/planning/application-type/householder"/>
+	<rdfs:comment>Remodelling and extensions to existing bungalow incorporating increase in ridge height and dormers to the front and rear elevations. (39 Heyes Lane
+
+Timperley
+
+WA15 6EF)</rdfs:comment>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://data.gmdsp.org.uk/id/trafford/planning/address/436000">
+	<rdfs:label>436000</rdfs:label>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://data.gmdsp.org.uk/id/trafford/planning/436000">
+	<vcard:adr rdf:resource="http://data.gmdsp.org.uk/id/trafford/planning/address/436000"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://data.gmdsp.org.uk/id/trafford/planning/applicationsite/436000">
+	<rdf:type rdf:resource="http://data.gmdsp.org.uk/def/council/planning/PlanningApplicationSite"/>
+	<vcard:street-address>39 Heyes Lane
+
+Timperley
+
+WA15 6EF</vcard:street-address>
+	<rdfs:label>Site Address</rdfs:label>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://data.gmdsp.org.uk/id/trafford/planning/decision/436000">
+	<rdf:type rdf:resource="http://data.gmdsp.org.uk/def/council/planning/PlanningDecision"/>
+	<gmdsp-planning:decision rdf:resource="http://data.gmdsp.org.uk/def/council/planning/decision/other"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://data.gmdsp.org.uk/id/trafford/planning/appeal/436000">
+	<rdf:type rdf:resource="http://data.gmdsp.org.uk/def/council/planning/PlanningAppeal"/>
+	<gmdsp-planning:appeal rdf:resource="http://data.gmdsp.org.uk/id/trafford/planning/appeal/n"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://data.gmdsp.org.uk/id/trafford/planning/435999">
+	<rdf:type rdf:resource="http://data.gmdsp.org.uk/def/council/planning/PlanningApplication"/>
+	<rdfs:label>00388/PP/2014</rdfs:label>
+	<gmdsp-planning:application-type rdf:resource="http://data.gmdsp.org.uk/def/council/planning/application-type/advertisment"/>
+	<rdfs:comment>Display of a 19.5m high, four-sided totem sign adjacent to Peel Circle. (Event City Ltd, Barton Dock Road, Urmston, M41 7TB)</rdfs:comment>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://data.gmdsp.org.uk/id/trafford/planning/address/435999">
+	<rdfs:label>435999</rdfs:label>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://data.gmdsp.org.uk/id/trafford/planning/435999">
+	<vcard:adr rdf:resource="http://data.gmdsp.org.uk/id/trafford/planning/address/435999"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://data.gmdsp.org.uk/id/trafford/planning/applicationsite/435999">
+	<rdf:type rdf:resource="http://data.gmdsp.org.uk/def/council/planning/PlanningApplicationSite"/>
+	<vcard:street-address>Event City Ltd, Barton Dock Road, Urmston, M41 7TB</vcard:street-address>
+	<rdfs:label>Site Address</rdfs:label>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://data.gmdsp.org.uk/id/trafford/planning/decision/435999">
+	<rdf:type rdf:resource="http://data.gmdsp.org.uk/def/council/planning/PlanningDecision"/>
+	<gmdsp-planning:decision rdf:resource="http://data.gmdsp.org.uk/def/council/planning/decision/other"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://data.gmdsp.org.uk/id/trafford/planning/appeal/435999">
+	<rdf:type rdf:resource="http://data.gmdsp.org.uk/def/council/planning/PlanningAppeal"/>
+	<gmdsp-planning:appeal rdf:resource="http://data.gmdsp.org.uk/id/trafford/planning/appeal/n"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://data.gmdsp.org.uk/id/trafford/planning/435981">
+	<rdf:type rdf:resource="http://data.gmdsp.org.uk/def/council/planning/PlanningApplication"/>
+	<rdfs:label>82468/HHA/2014</rdfs:label>
+	<gmdsp-planning:application-type rdf:resource="http://data.gmdsp.org.uk/def/council/planning/application-type/householder"/>
+	<rdfs:comment>Erection of single storey side and rear extension following demolition of existing garage. (25 Thorley Lane
+
+Timperley
+
+WA15 7BJ)</rdfs:comment>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://data.gmdsp.org.uk/id/trafford/planning/address/435981">
+	<rdfs:label>435981</rdfs:label>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://data.gmdsp.org.uk/id/trafford/planning/435981">
+	<vcard:adr rdf:resource="http://data.gmdsp.org.uk/id/trafford/planning/address/435981"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://data.gmdsp.org.uk/id/trafford/planning/applicationsite/435981">
+	<rdf:type rdf:resource="http://data.gmdsp.org.uk/def/council/planning/PlanningApplicationSite"/>
+	<vcard:street-address>25 Thorley Lane
+
+Timperley
+
+WA15 7BJ</vcard:street-address>
+	<rdfs:label>Site Address</rdfs:label>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://data.gmdsp.org.uk/id/trafford/planning/decision/435981">
+	<rdf:type rdf:resource="http://data.gmdsp.org.uk/def/council/planning/PlanningDecision"/>
+	<gmdsp-planning:decision rdf:resource="http://data.gmdsp.org.uk/def/council/planning/decision/other"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://data.gmdsp.org.uk/id/trafford/planning/appeal/435981">
+	<rdf:type rdf:resource="http://data.gmdsp.org.uk/def/council/planning/PlanningAppeal"/>
+	<gmdsp-planning:appeal rdf:resource="http://data.gmdsp.org.uk/id/trafford/planning/appeal/n"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://data.gmdsp.org.uk/id/trafford/planning/435979">
+	<rdf:type rdf:resource="http://data.gmdsp.org.uk/def/council/planning/PlanningApplication"/>
+	<rdfs:label>82451/CLOPD/2014</rdfs:label>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://data.gmdsp.org.uk/def/council/planning/application-type/certificate-of-proposed-use-development">
+	<rdfs:label>Certificate of Proposed Use Development</rdfs:label>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://data.gmdsp.org.uk/id/trafford/planning/435979">
+	<gmdsp-planning:application-type rdf:resource="http://data.gmdsp.org.uk/def/council/planning/application-type/certificate-of-proposed-use-development"/>
+	<rdfs:comment>Application for Certificate of Lawful Development for the erection of a rear dormer window.  (11 Bankhall Lane, Hale, WA15 0LA)</rdfs:comment>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://data.gmdsp.org.uk/id/trafford/planning/address/435979">
+	<rdfs:label>435979</rdfs:label>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://data.gmdsp.org.uk/id/trafford/planning/435979">
+	<vcard:adr rdf:resource="http://data.gmdsp.org.uk/id/trafford/planning/address/435979"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://data.gmdsp.org.uk/id/trafford/planning/applicationsite/435979">
+	<rdf:type rdf:resource="http://data.gmdsp.org.uk/def/council/planning/PlanningApplicationSite"/>
+	<vcard:street-address>11 Bankhall Lane, Hale, WA15 0LA</vcard:street-address>
+	<rdfs:label>Site Address</rdfs:label>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://data.gmdsp.org.uk/id/trafford/planning/decision/435979">
+	<rdf:type rdf:resource="http://data.gmdsp.org.uk/def/council/planning/PlanningDecision"/>
+	<gmdsp-planning:decision rdf:resource="http://data.gmdsp.org.uk/def/council/planning/decision/other"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://data.gmdsp.org.uk/id/trafford/planning/appeal/435979">
+	<rdf:type rdf:resource="http://data.gmdsp.org.uk/def/council/planning/PlanningAppeal"/>
+	<gmdsp-planning:appeal rdf:resource="http://data.gmdsp.org.uk/id/trafford/planning/appeal/n"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://data.gmdsp.org.uk/id/trafford/planning/435963">
+	<rdf:type rdf:resource="http://data.gmdsp.org.uk/def/council/planning/PlanningApplication"/>
+	<rdfs:label>00384/PP/2014</rdfs:label>
+	<gmdsp-planning:application-type rdf:resource="http://data.gmdsp.org.uk/def/council/planning/application-type/householder"/>
+	<rdfs:comment>Creation of vehicular access fronting onto Talbot Road. (203 Talbot Road
+
+Stretford
+
+M32 0YN)</rdfs:comment>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://data.gmdsp.org.uk/id/trafford/planning/address/435963">
+	<rdfs:label>435963</rdfs:label>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://data.gmdsp.org.uk/id/trafford/planning/435963">
+	<vcard:adr rdf:resource="http://data.gmdsp.org.uk/id/trafford/planning/address/435963"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://data.gmdsp.org.uk/id/trafford/planning/applicationsite/435963">
+	<rdf:type rdf:resource="http://data.gmdsp.org.uk/def/council/planning/PlanningApplicationSite"/>
+	<vcard:street-address>203 Talbot Road
+
+Stretford
+
+M32 0YN</vcard:street-address>
+	<rdfs:label>Site Address</rdfs:label>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://data.gmdsp.org.uk/id/trafford/planning/decision/435963">
+	<rdf:type rdf:resource="http://data.gmdsp.org.uk/def/council/planning/PlanningDecision"/>
+	<gmdsp-planning:decision rdf:resource="http://data.gmdsp.org.uk/def/council/planning/decision/other"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://data.gmdsp.org.uk/id/trafford/planning/appeal/435963">
+	<rdf:type rdf:resource="http://data.gmdsp.org.uk/def/council/planning/PlanningAppeal"/>
+	<gmdsp-planning:appeal rdf:resource="http://data.gmdsp.org.uk/id/trafford/planning/appeal/n"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://data.gmdsp.org.uk/id/trafford/planning/435962">
+	<rdf:type rdf:resource="http://data.gmdsp.org.uk/def/council/planning/PlanningApplication"/>
+	<rdfs:label>00383/PP/2014</rdfs:label>
+	<gmdsp-planning:application-type rdf:resource="http://data.gmdsp.org.uk/def/council/planning/application-type/householder"/>
+	<rdfs:comment>Erection of part single, part two storey side extension and two storey rear extension
+
+ (74 Riddings Road
+
+Timperley
+
+WA15 6BU)</rdfs:comment>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://data.gmdsp.org.uk/id/trafford/planning/address/435962">
+	<rdfs:label>435962</rdfs:label>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://data.gmdsp.org.uk/id/trafford/planning/435962">
+	<vcard:adr rdf:resource="http://data.gmdsp.org.uk/id/trafford/planning/address/435962"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://data.gmdsp.org.uk/id/trafford/planning/applicationsite/435962">
+	<rdf:type rdf:resource="http://data.gmdsp.org.uk/def/council/planning/PlanningApplicationSite"/>
+	<vcard:street-address>74 Riddings Road
+
+Timperley
+
+WA15 6BU</vcard:street-address>
+	<rdfs:label>Site Address</rdfs:label>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://data.gmdsp.org.uk/id/trafford/planning/decision/435962">
+	<rdf:type rdf:resource="http://data.gmdsp.org.uk/def/council/planning/PlanningDecision"/>
+	<gmdsp-planning:decision rdf:resource="http://data.gmdsp.org.uk/def/council/planning/decision/other"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://data.gmdsp.org.uk/id/trafford/planning/appeal/435962">
+	<rdf:type rdf:resource="http://data.gmdsp.org.uk/def/council/planning/PlanningAppeal"/>
+	<gmdsp-planning:appeal rdf:resource="http://data.gmdsp.org.uk/id/trafford/planning/appeal/n"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://data.gmdsp.org.uk/id/trafford/planning/435961">
+	<rdf:type rdf:resource="http://data.gmdsp.org.uk/def/council/planning/PlanningApplication"/>
+	<rdfs:label>82469/HHA/2014</rdfs:label>
+	<gmdsp-planning:application-type rdf:resource="http://data.gmdsp.org.uk/def/council/planning/application-type/householder"/>
+	<rdfs:comment>Erection of single storey side extension. (4 Bower Road
+
+Hale
+
+WA15 9DT)</rdfs:comment>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://data.gmdsp.org.uk/id/trafford/planning/address/435961">
+	<rdfs:label>435961</rdfs:label>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://data.gmdsp.org.uk/id/trafford/planning/435961">
+	<vcard:adr rdf:resource="http://data.gmdsp.org.uk/id/trafford/planning/address/435961"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://data.gmdsp.org.uk/id/trafford/planning/applicationsite/435961">
+	<rdf:type rdf:resource="http://data.gmdsp.org.uk/def/council/planning/PlanningApplicationSite"/>
+	<vcard:street-address>4 Bower Road
+
+Hale
+
+WA15 9DT</vcard:street-address>
+	<rdfs:label>Site Address</rdfs:label>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://data.gmdsp.org.uk/id/trafford/planning/decision/435961">
+	<rdf:type rdf:resource="http://data.gmdsp.org.uk/def/council/planning/PlanningDecision"/>
+	<gmdsp-planning:decision rdf:resource="http://data.gmdsp.org.uk/def/council/planning/decision/other"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://data.gmdsp.org.uk/id/trafford/planning/appeal/435961">
+	<rdf:type rdf:resource="http://data.gmdsp.org.uk/def/council/planning/PlanningAppeal"/>
+	<gmdsp-planning:appeal rdf:resource="http://data.gmdsp.org.uk/id/trafford/planning/appeal/n"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://data.gmdsp.org.uk/id/trafford/planning/435960">
+	<rdf:type rdf:resource="http://data.gmdsp.org.uk/def/council/planning/PlanningApplication"/>
+	<rdfs:label>82483/FULL/2014</rdfs:label>
+	<gmdsp-planning:application-type rdf:resource="http://data.gmdsp.org.uk/def/council/planning/application-type/full-planning-application"/>
+	<rdfs:comment>Retention of 11no. condenser units located on the roof. (HSS Hire Service Group Ltd, Circle House, Lostock Road, Urmston, M41 0HS)</rdfs:comment>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://data.gmdsp.org.uk/id/trafford/planning/address/435960">
+	<rdfs:label>435960</rdfs:label>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://data.gmdsp.org.uk/id/trafford/planning/435960">
+	<vcard:adr rdf:resource="http://data.gmdsp.org.uk/id/trafford/planning/address/435960"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://data.gmdsp.org.uk/id/trafford/planning/applicationsite/435960">
+	<rdf:type rdf:resource="http://data.gmdsp.org.uk/def/council/planning/PlanningApplicationSite"/>
+	<vcard:street-address>HSS Hire Service Group Ltd, Circle House, Lostock Road, Urmston, M41 0HS</vcard:street-address>
+	<rdfs:label>Site Address</rdfs:label>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://data.gmdsp.org.uk/id/trafford/planning/decision/435960">
+	<rdf:type rdf:resource="http://data.gmdsp.org.uk/def/council/planning/PlanningDecision"/>
+	<gmdsp-planning:decision rdf:resource="http://data.gmdsp.org.uk/def/council/planning/decision/other"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://data.gmdsp.org.uk/id/trafford/planning/appeal/435960">
+	<rdf:type rdf:resource="http://data.gmdsp.org.uk/def/council/planning/PlanningAppeal"/>
+	<gmdsp-planning:appeal rdf:resource="http://data.gmdsp.org.uk/id/trafford/planning/appeal/n"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://data.gmdsp.org.uk/id/trafford/planning/435959">
+	<rdf:type rdf:resource="http://data.gmdsp.org.uk/def/council/planning/PlanningApplication"/>
+	<rdfs:label>82494/HHA/2014</rdfs:label>
+	<gmdsp-planning:application-type rdf:resource="http://data.gmdsp.org.uk/def/council/planning/application-type/householder"/>
+	<rdfs:comment>Erection of single storey side and rear extension. (19 Urban Road
+
+Sale
+
+M33 7TG)</rdfs:comment>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://data.gmdsp.org.uk/id/trafford/planning/address/435959">
+	<rdfs:label>435959</rdfs:label>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://data.gmdsp.org.uk/id/trafford/planning/435959">
+	<vcard:adr rdf:resource="http://data.gmdsp.org.uk/id/trafford/planning/address/435959"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://data.gmdsp.org.uk/id/trafford/planning/applicationsite/435959">
+	<rdf:type rdf:resource="http://data.gmdsp.org.uk/def/council/planning/PlanningApplicationSite"/>
+	<vcard:street-address>19 Urban Road
+
+Sale
+
+M33 7TG</vcard:street-address>
+	<rdfs:label>Site Address</rdfs:label>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://data.gmdsp.org.uk/id/trafford/planning/decision/435959">
+	<rdf:type rdf:resource="http://data.gmdsp.org.uk/def/council/planning/PlanningDecision"/>
+	<gmdsp-planning:decision rdf:resource="http://data.gmdsp.org.uk/def/council/planning/decision/other"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://data.gmdsp.org.uk/id/trafford/planning/appeal/435959">
+	<rdf:type rdf:resource="http://data.gmdsp.org.uk/def/council/planning/PlanningAppeal"/>
+	<gmdsp-planning:appeal rdf:resource="http://data.gmdsp.org.uk/id/trafford/planning/appeal/n"/>
+</rdf:Description>
+
+</rdf:RDF>

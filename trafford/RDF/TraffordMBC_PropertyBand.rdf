@@ -1,0 +1,248 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rdf:RDF
+	xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
+	xmlns:foaf="http://xmlns.com/foaf/0.1/"
+	xmlns:xsd="http://www.w3.org/2001/XMLSchema#"
+	xmlns:owl="http://www.w3.org/2002/07/owl#"
+	xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+	xmlns:gmdsp-propertyband="http://data.gmdsp.org.uk/def/council/counciltax/"
+	xmlns:vcard="http://www.w3.org/2006/vcard/ns#">
+
+<rdf:Description rdf:about="http://data.gmdsp.org.uk/id/trafford/property/41625">
+	<rdf:type rdf:resource="http://data.gmdsp.org.uk/def/council/counciltax/Property"/>
+	<rdfs:label>41625</rdfs:label>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://data.gmdsp.org.uk/id/trafford/property/address/41625">
+	<rdfs:label>38 ABBOTS COURT, MORNINGTON ROAD, SALE, M33 2DB</rdfs:label>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://data.gmdsp.org.uk/id/trafford/property/41625">
+	<vcard:adr rdf:resource="http://data.gmdsp.org.uk/id/trafford/property/address/41625"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://data.gmdsp.org.uk/id/trafford/property/address/41625">
+	<rdf:type rdf:resource="http://www.w3.org/2006/vcard/ns#Location"/>
+	<vcard:street-address>38 ABBOTS COURT, MORNINGTON ROAD, SALE, M33 2DB</vcard:street-address>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://data.gmdsp.org.uk/id/trafford/property/41625">
+	<rdf:type rdf:resource="http://data.gmdsp.org.uk/def/council/counciltax/CouncilTaxBand"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://data.gmdsp.org.uk/def/council/council-tax-bands/A">
+	<rdfs:label>A</rdfs:label>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://data.gmdsp.org.uk/id/trafford/property/41625">
+	<rdfs:label rdf:resource="http://data.gmdsp.org.uk/def/council/council-tax-bands/A"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://data.gmdsp.org.uk/id/trafford/property/60025">
+	<rdf:type rdf:resource="http://data.gmdsp.org.uk/def/council/counciltax/Property"/>
+	<rdfs:label>60025</rdfs:label>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://data.gmdsp.org.uk/id/trafford/property/address/60025">
+	<rdfs:label>FLAT 3C, 17-19 ALEXANDRA ROAD, SALE, M33 3EF</rdfs:label>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://data.gmdsp.org.uk/id/trafford/property/60025">
+	<vcard:adr rdf:resource="http://data.gmdsp.org.uk/id/trafford/property/address/60025"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://data.gmdsp.org.uk/id/trafford/property/address/60025">
+	<rdf:type rdf:resource="http://www.w3.org/2006/vcard/ns#Location"/>
+	<vcard:street-address>FLAT 3C, 17-19 ALEXANDRA ROAD, SALE, M33 3EF</vcard:street-address>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://data.gmdsp.org.uk/id/trafford/property/60025">
+	<rdf:type rdf:resource="http://data.gmdsp.org.uk/def/council/counciltax/CouncilTaxBand"/>
+	<rdfs:label rdf:resource="http://data.gmdsp.org.uk/def/council/council-tax-bands/A"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://data.gmdsp.org.uk/id/trafford/property/60050">
+	<rdf:type rdf:resource="http://data.gmdsp.org.uk/def/council/counciltax/Property"/>
+	<rdfs:label>60050</rdfs:label>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://data.gmdsp.org.uk/id/trafford/property/address/60050">
+	<rdfs:label>32A ALEXANDRA ROAD, SALE, M33 3FE</rdfs:label>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://data.gmdsp.org.uk/id/trafford/property/60050">
+	<vcard:adr rdf:resource="http://data.gmdsp.org.uk/id/trafford/property/address/60050"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://data.gmdsp.org.uk/id/trafford/property/address/60050">
+	<rdf:type rdf:resource="http://www.w3.org/2006/vcard/ns#Location"/>
+	<vcard:street-address>32A ALEXANDRA ROAD, SALE, M33 3FE</vcard:street-address>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://data.gmdsp.org.uk/id/trafford/property/60050">
+	<rdf:type rdf:resource="http://data.gmdsp.org.uk/def/council/counciltax/CouncilTaxBand"/>
+	<rdfs:label rdf:resource="http://data.gmdsp.org.uk/def/council/council-tax-bands/A"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://data.gmdsp.org.uk/id/trafford/property/60075">
+	<rdf:type rdf:resource="http://data.gmdsp.org.uk/def/council/counciltax/Property"/>
+	<rdfs:label>60075</rdfs:label>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://data.gmdsp.org.uk/id/trafford/property/address/60075">
+	<rdfs:label>FLAT 2B, 17-19 ALEXANDRA ROAD, SALE, M33 3EF</rdfs:label>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://data.gmdsp.org.uk/id/trafford/property/60075">
+	<vcard:adr rdf:resource="http://data.gmdsp.org.uk/id/trafford/property/address/60075"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://data.gmdsp.org.uk/id/trafford/property/address/60075">
+	<rdf:type rdf:resource="http://www.w3.org/2006/vcard/ns#Location"/>
+	<vcard:street-address>FLAT 2B, 17-19 ALEXANDRA ROAD, SALE, M33 3EF</vcard:street-address>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://data.gmdsp.org.uk/id/trafford/property/60075">
+	<rdf:type rdf:resource="http://data.gmdsp.org.uk/def/council/counciltax/CouncilTaxBand"/>
+	<rdfs:label rdf:resource="http://data.gmdsp.org.uk/def/council/council-tax-bands/A"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://data.gmdsp.org.uk/id/trafford/property/60577">
+	<rdf:type rdf:resource="http://data.gmdsp.org.uk/def/council/counciltax/Property"/>
+	<rdfs:label>60577</rdfs:label>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://data.gmdsp.org.uk/id/trafford/property/address/60577">
+	<rdfs:label>FLAT 1, 15 ALEXANDRA ROAD, SALE, M33 3EF</rdfs:label>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://data.gmdsp.org.uk/id/trafford/property/60577">
+	<vcard:adr rdf:resource="http://data.gmdsp.org.uk/id/trafford/property/address/60577"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://data.gmdsp.org.uk/id/trafford/property/address/60577">
+	<rdf:type rdf:resource="http://www.w3.org/2006/vcard/ns#Location"/>
+	<vcard:street-address>FLAT 1, 15 ALEXANDRA ROAD, SALE, M33 3EF</vcard:street-address>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://data.gmdsp.org.uk/id/trafford/property/60577">
+	<rdf:type rdf:resource="http://data.gmdsp.org.uk/def/council/counciltax/CouncilTaxBand"/>
+	<rdfs:label rdf:resource="http://data.gmdsp.org.uk/def/council/council-tax-bands/A"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://data.gmdsp.org.uk/id/trafford/property/60579">
+	<rdf:type rdf:resource="http://data.gmdsp.org.uk/def/council/counciltax/Property"/>
+	<rdfs:label>60579</rdfs:label>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://data.gmdsp.org.uk/id/trafford/property/address/60579">
+	<rdfs:label>FLAT 2, 15 ALEXANDRA ROAD, SALE, M33 3EF</rdfs:label>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://data.gmdsp.org.uk/id/trafford/property/60579">
+	<vcard:adr rdf:resource="http://data.gmdsp.org.uk/id/trafford/property/address/60579"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://data.gmdsp.org.uk/id/trafford/property/address/60579">
+	<rdf:type rdf:resource="http://www.w3.org/2006/vcard/ns#Location"/>
+	<vcard:street-address>FLAT 2, 15 ALEXANDRA ROAD, SALE, M33 3EF</vcard:street-address>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://data.gmdsp.org.uk/id/trafford/property/60579">
+	<rdf:type rdf:resource="http://data.gmdsp.org.uk/def/council/counciltax/CouncilTaxBand"/>
+	<rdfs:label rdf:resource="http://data.gmdsp.org.uk/def/council/council-tax-bands/A"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://data.gmdsp.org.uk/id/trafford/property/60581">
+	<rdf:type rdf:resource="http://data.gmdsp.org.uk/def/council/counciltax/Property"/>
+	<rdfs:label>60581</rdfs:label>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://data.gmdsp.org.uk/id/trafford/property/address/60581">
+	<rdfs:label>FLAT 3, 15 ALEXANDRA ROAD, SALE, M33 3EF</rdfs:label>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://data.gmdsp.org.uk/id/trafford/property/60581">
+	<vcard:adr rdf:resource="http://data.gmdsp.org.uk/id/trafford/property/address/60581"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://data.gmdsp.org.uk/id/trafford/property/address/60581">
+	<rdf:type rdf:resource="http://www.w3.org/2006/vcard/ns#Location"/>
+	<vcard:street-address>FLAT 3, 15 ALEXANDRA ROAD, SALE, M33 3EF</vcard:street-address>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://data.gmdsp.org.uk/id/trafford/property/60581">
+	<rdf:type rdf:resource="http://data.gmdsp.org.uk/def/council/counciltax/CouncilTaxBand"/>
+	<rdfs:label rdf:resource="http://data.gmdsp.org.uk/def/council/council-tax-bands/A"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://data.gmdsp.org.uk/id/trafford/property/60583">
+	<rdf:type rdf:resource="http://data.gmdsp.org.uk/def/council/counciltax/Property"/>
+	<rdfs:label>60583</rdfs:label>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://data.gmdsp.org.uk/id/trafford/property/address/60583">
+	<rdfs:label>FLAT 4, 15 ALEXANDRA ROAD, SALE, M33 3EF</rdfs:label>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://data.gmdsp.org.uk/id/trafford/property/60583">
+	<vcard:adr rdf:resource="http://data.gmdsp.org.uk/id/trafford/property/address/60583"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://data.gmdsp.org.uk/id/trafford/property/address/60583">
+	<rdf:type rdf:resource="http://www.w3.org/2006/vcard/ns#Location"/>
+	<vcard:street-address>FLAT 4, 15 ALEXANDRA ROAD, SALE, M33 3EF</vcard:street-address>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://data.gmdsp.org.uk/id/trafford/property/60583">
+	<rdf:type rdf:resource="http://data.gmdsp.org.uk/def/council/counciltax/CouncilTaxBand"/>
+	<rdfs:label rdf:resource="http://data.gmdsp.org.uk/def/council/council-tax-bands/A"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://data.gmdsp.org.uk/id/trafford/property/60585">
+	<rdf:type rdf:resource="http://data.gmdsp.org.uk/def/council/counciltax/Property"/>
+	<rdfs:label>60585</rdfs:label>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://data.gmdsp.org.uk/id/trafford/property/address/60585">
+	<rdfs:label>FLAT 5, 15 ALEXANDRA ROAD, SALE, M33 3EF</rdfs:label>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://data.gmdsp.org.uk/id/trafford/property/60585">
+	<vcard:adr rdf:resource="http://data.gmdsp.org.uk/id/trafford/property/address/60585"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://data.gmdsp.org.uk/id/trafford/property/address/60585">
+	<rdf:type rdf:resource="http://www.w3.org/2006/vcard/ns#Location"/>
+	<vcard:street-address>FLAT 5, 15 ALEXANDRA ROAD, SALE, M33 3EF</vcard:street-address>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://data.gmdsp.org.uk/id/trafford/property/60585">
+	<rdf:type rdf:resource="http://data.gmdsp.org.uk/def/council/counciltax/CouncilTaxBand"/>
+	<rdfs:label rdf:resource="http://data.gmdsp.org.uk/def/council/council-tax-bands/A"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://data.gmdsp.org.uk/id/trafford/property/60587">
+	<rdf:type rdf:resource="http://data.gmdsp.org.uk/def/council/counciltax/Property"/>
+	<rdfs:label>60587</rdfs:label>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://data.gmdsp.org.uk/id/trafford/property/address/60587">
+	<rdfs:label>FLAT 6, 15 ALEXANDRA ROAD, SALE, M33 3EF</rdfs:label>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://data.gmdsp.org.uk/id/trafford/property/60587">
+	<vcard:adr rdf:resource="http://data.gmdsp.org.uk/id/trafford/property/address/60587"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://data.gmdsp.org.uk/id/trafford/property/address/60587">
+	<rdf:type rdf:resource="http://www.w3.org/2006/vcard/ns#Location"/>
+	<vcard:street-address>FLAT 6, 15 ALEXANDRA ROAD, SALE, M33 3EF</vcard:street-address>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://data.gmdsp.org.uk/id/trafford/property/60587">
+	<rdf:type rdf:resource="http://data.gmdsp.org.uk/def/council/counciltax/CouncilTaxBand"/>
+	<rdfs:label rdf:resource="http://data.gmdsp.org.uk/def/council/council-tax-bands/A"/>
+</rdf:Description>
+
+</rdf:RDF>
