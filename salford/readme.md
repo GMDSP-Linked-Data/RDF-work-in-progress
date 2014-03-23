@@ -10,3 +10,7 @@ Python2.7
 ### Dependencies
 
 rdflib
+
+## Example usage
+
+see docstring in main.py
