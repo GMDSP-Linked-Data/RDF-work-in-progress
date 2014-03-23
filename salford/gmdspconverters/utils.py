@@ -1,9 +1,9 @@
 __author__ = 'jond'
 
 import os
+import re
 
 from rdflib import Graph, Namespace
-from rdflib.store import VALID_STORE
 
 OS = Namespace('http://data.ordnancesurvey.co.uk/ontology/spatialrelations/')
 POST = Namespace('http://data.ordnancesurvey.co.uk/ontology/postcode/')
@@ -14,7 +14,13 @@ SCHEME = Namespace('http://schema.org/')
 QB = Namespace('http://purl.org/linked-data/cube#')
 
 def idify(s):
-    return s.replace(" ", "-").replace(",","-").lower()
+    chars = [
+        " ",
+        ",",
+        "/",
+    ]
+    s = re.sub('[%s]' % ''.join(chars), '-', s)
+    return s.lower()
 
 def create_graph():
 

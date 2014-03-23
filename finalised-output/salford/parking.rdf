@@ -1,0 +1,126 @@
+<?xml version="1.0" encoding="utf-8"?>
+<rdf:RDF
+  xmlns:ns1="http://data.gmdsp.org.uk/def/council/parking/"
+  xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+  xmlns:geo="http://www.w3.org/2003/01/geo/wgs84_pos#"
+  xmlns:vcard="http://www.w3.org/2006/vcard/ns#"
+  xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
+>
+  <ns1:Parking rdf:about="http://data.gmdsp.org.uk/id/salford/parking/irwell-place">
+    <geo:lat>53.48214365</geo:lat>
+    <ns1:type>Pay and Display</ns1:type>
+    <vcard:adr rdf:resource="http://data.gmdsp.org.uk/def/council/parking/address/car-park--irwell-place--eccles--manchester--m30-0dd"/>
+    <rdfs:label>Irwell Place</rdfs:label>
+    <geo:long>-2.338610908</geo:long>
+    <ns1:operator>Salford City Council</ns1:operator>
+  </ns1:Parking>
+  <vcard:location rdf:about="http://data.gmdsp.org.uk/id/salford/parking/address/eccles-precinct-car-park--john-williams-street--eccles--m30-0ea">
+    <vcard:postal-code>M30 0EA</vcard:postal-code>
+    <vcard:street-address>Eccles Precinct Car Park, John Williams Street, Eccles, M30 0EA</vcard:street-address>
+    <rdfs:label>Eccles Precinct</rdfs:label>
+  </vcard:location>
+  <ns1:Parking rdf:about="http://data.gmdsp.org.uk/id/salford/parking/hankinson-way">
+    <geo:lat>53.48780007</geo:lat>
+    <vcard:adr rdf:resource="http://data.gmdsp.org.uk/def/council/parking/address/car-park-east-off-hankinson-way-and-north--churchill-way--salford--m6-5ja"/>
+    <rdfs:label>Hankinson Way</rdfs:label>
+    <ns1:type>Pay and Display</ns1:type>
+    <ns1:operator>Salford City Council</ns1:operator>
+    <geo:long>-2.28666345</geo:long>
+  </ns1:Parking>
+  <vcard:location rdf:about="http://data.gmdsp.org.uk/id/salford/parking/address/car-park--church-street--swinton">
+    <vcard:street-address>Car Park, Church Street, Swinton</vcard:street-address>
+    <rdfs:label>Church Street</rdfs:label>
+    <vcard:postal-code>M27 6BD</vcard:postal-code>
+  </vcard:location>
+  <vcard:location rdf:about="http://data.gmdsp.org.uk/id/salford/parking/address/car-park--st-marys-road--eccles--manchester--m30-0ax">
+    <rdfs:label>St Mary's Road</rdfs:label>
+    <vcard:postal-code>M30 0AX</vcard:postal-code>
+    <vcard:street-address>Car Park, St Marys Road, Eccles, Manchester, M30 0AX</vcard:street-address>
+  </vcard:location>
+  <ns1:Parking rdf:about="http://data.gmdsp.org.uk/id/salford/parking/john-william-street">
+    <vcard:adr rdf:resource="http://data.gmdsp.org.uk/def/council/parking/address/john-william-street-car-park--john-william-street--eccles--manchester--m30-0bl"/>
+    <geo:lat>53.48507252</geo:lat>
+    <ns1:operator>Salford City Council</ns1:operator>
+    <ns1:type>Pay and Display</ns1:type>
+    <geo:long>-2.336435898</geo:long>
+    <rdfs:label>John William Street</rdfs:label>
+  </ns1:Parking>
+  <ns1:Parking rdf:about="http://data.gmdsp.org.uk/id/salford/parking/corporation-road">
+    <geo:lat>53.48280271</geo:lat>
+    <ns1:type>Pay and Display</ns1:type>
+    <vcard:adr rdf:resource="http://data.gmdsp.org.uk/def/council/parking/address/car-park--corporation-road--eccles--manchester--m30-0eq"/>
+    <geo:long>-2.340038981</geo:long>
+    <rdfs:label>Corporation Road</rdfs:label>
+    <ns1:operator>Salford City Council</ns1:operator>
+  </ns1:Parking>
+  <ns1:Parking rdf:about="http://data.gmdsp.org.uk/id/salford/parking/eccles-precinct">
+    <geo:lat>53.48447471</geo:lat>
+    <ns1:type>Pay and Display</ns1:type>
+    <ns1:operator>Salford City Council</ns1:operator>
+    <rdfs:label>Eccles Precinct</rdfs:label>
+    <geo:long>-2.336379171</geo:long>
+    <vcard:adr rdf:resource="http://data.gmdsp.org.uk/def/council/parking/address/eccles-precinct-car-park--john-williams-street--eccles--m30-0ea"/>
+  </ns1:Parking>
+  <ns1:Parking rdf:about="http://data.gmdsp.org.uk/id/salford/parking/worsley-court-house">
+    <geo:long>-2.382344323</geo:long>
+    <ns1:type>Pay and Display</ns1:type>
+    <ns1:operator>Salford City Council</ns1:operator>
+    <geo:lat>53.49976168</geo:lat>
+    <vcard:adr rdf:resource="http://data.gmdsp.org.uk/def/council/parking/address/car-park--worsley-road--worsley--manchester--m28-2pb"/>
+    <rdfs:label>Worsley Court House</rdfs:label>
+  </ns1:Parking>
+  <vcard:location rdf:about="http://data.gmdsp.org.uk/id/salford/parking/address/car-park--corporation-road--eccles--manchester--m30-0eq">
+    <vcard:street-address>Car Park, Corporation Road, Eccles, Manchester, M30 0EQ</vcard:street-address>
+    <rdfs:label>Corporation Road</rdfs:label>
+    <vcard:postal-code>M30 0TU</vcard:postal-code>
+  </vcard:location>
+  <ns1:Parking rdf:about="http://data.gmdsp.org.uk/id/salford/parking/partington-street">
+    <geo:lat>53.49141217</geo:lat>
+    <rdfs:label>Partington Street</rdfs:label>
+    <geo:long>-2.351075902</geo:long>
+    <vcard:adr rdf:resource="http://data.gmdsp.org.uk/def/council/parking/address/salford-city-council-car-park--monton-road--eccles--manchester"/>
+    <ns1:operator>Salford City Council</ns1:operator>
+    <ns1:type>Pay and Display</ns1:type>
+  </ns1:Parking>
+  <ns1:Parking rdf:about="http://data.gmdsp.org.uk/id/salford/parking/st-mary's-road">
+    <ns1:type>Pay and Display</ns1:type>
+    <geo:long>-2.333705011</geo:long>
+    <rdfs:label>St Mary's Road</rdfs:label>
+    <geo:lat>53.48516786</geo:lat>
+    <ns1:operator>Salford City Council</ns1:operator>
+    <vcard:adr rdf:resource="http://data.gmdsp.org.uk/def/council/parking/address/car-park--st-marys-road--eccles--manchester--m30-0ax"/>
+  </ns1:Parking>
+  <ns1:Parking rdf:about="http://data.gmdsp.org.uk/id/salford/parking/church-street">
+    <ns1:operator>Salford City Council</ns1:operator>
+    <ns1:type>Pay and Display</ns1:type>
+    <vcard:adr rdf:resource="http://data.gmdsp.org.uk/def/council/parking/address/car-park--church-street--swinton"/>
+    <rdfs:label>Church Street</rdfs:label>
+    <geo:lat>53.51247758</geo:lat>
+    <geo:long>-2.341398499</geo:long>
+  </ns1:Parking>
+  <vcard:location rdf:about="http://data.gmdsp.org.uk/id/salford/parking/address/salford-city-council-car-park--monton-road--eccles--manchester">
+    <vcard:postal-code>M30 9GA</vcard:postal-code>
+    <rdfs:label>Partington Street</rdfs:label>
+    <vcard:street-address>Salford City Council Car Park, Monton Road, Eccles, Manchester</vcard:street-address>
+  </vcard:location>
+  <vcard:location rdf:about="http://data.gmdsp.org.uk/id/salford/parking/address/car-park--irwell-place--eccles--manchester--m30-0dd">
+    <vcard:postal-code>M30 0DD</vcard:postal-code>
+    <vcard:street-address>Car Park, Irwell Place, Eccles, Manchester, M30 0DD</vcard:street-address>
+    <rdfs:label>Irwell Place</rdfs:label>
+  </vcard:location>
+  <vcard:location rdf:about="http://data.gmdsp.org.uk/id/salford/parking/address/car-park-east-off-hankinson-way-and-north--churchill-way--salford--m6-5ja">
+    <vcard:street-address>Car Park East Off Hankinson Way And North, Churchill Way, Salford, M6 5JA</vcard:street-address>
+    <rdfs:label>Hankinson Way</rdfs:label>
+    <vcard:postal-code>M6 5UX</vcard:postal-code>
+  </vcard:location>
+  <vcard:location rdf:about="http://data.gmdsp.org.uk/id/salford/parking/address/john-william-street-car-park--john-william-street--eccles--manchester--m30-0bl">
+    <rdfs:label>John William Street</rdfs:label>
+    <vcard:postal-code>M30 0BL</vcard:postal-code>
+    <vcard:street-address>John William Street Car Park, John William Street, Eccles, Manchester, M30 0BL</vcard:street-address>
+  </vcard:location>
+  <vcard:location rdf:about="http://data.gmdsp.org.uk/id/salford/parking/address/car-park--worsley-road--worsley--manchester--m28-2pb">
+    <rdfs:label>Worsley Court House</rdfs:label>
+    <vcard:postal-code>M28 2PB</vcard:postal-code>
+    <vcard:street-address>Car Park, Worsley Road, Worsley, Manchester, M28 2PB</vcard:street-address>
+  </vcard:location>
+</rdf:RDF>

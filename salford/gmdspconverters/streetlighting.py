@@ -7,7 +7,7 @@ from rdflib import URIRef, Literal, Namespace, RDF
 
 from gmdspconverters import utils
 
-al = Namespace('http://data.gmdsp.org.uk/id/salford/street-lights/')
+al = Namespace('http://data.gmdsp.org.uk/id/salford/streetlighting/')
 STREETLIGHT = Namespace('http://data.gmdsp.org.uk/def/council/streetlighting/')
 
 
@@ -17,11 +17,11 @@ def convert(graph, input_path):
 
     for row in reader:
         sl = al[utils.idify(row["FEATURE ID"])]
-        graph.add((sl, RDF.type, URIRef('http://data.gmdsp.org.uk/def/council/streetlighting')))
+        graph.add((sl, RDF.type, STREETLIGHT["Streetlight"]))
         graph.add((sl, utils.RDFS['label'], Literal(row["FEATURE ID"])))
 
         address = utils.idify(row["FEATURE ID"])
-        graph.add((sl, utils.VCARD['adr'], URIRef("http://data.gmdsp.org.uk/def/council/streetlighting/address/"+address)))
+        graph.add((sl, utils.VCARD['adr'], STREETLIGHT["address/"+address]))
 
         # now add the address VCARD
         vcard = al["address/"+address]
