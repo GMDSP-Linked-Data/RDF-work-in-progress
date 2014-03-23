@@ -15,9 +15,12 @@ def convert(graph, input_path):
     for row in reader:
         p = PARKING[utils.idify(row["Name"])]
         graph.add((p, RDF.type, PARKING_ONT["Parking"]))
-        graph.add((p, utils.RDFS['label'], row["Name"]))
-        graph.add((p, PARKING_ONT['type'], row["Type"]))
-        graph.add((p, PARKING_ONT['operator'], row["Operator"]))
+        graph.add((p, utils.RDFS['label'], Literal(row["Name"])))
+        graph.add((p, PARKING_ONT['type'], Literal(row["Type"])))
+        graph.add((p, PARKING_ONT['operator'], Literal(row["Operator"])))
+
+        graph.add((p, utils.GEO["lat"], Literal(row["Latitude"])))
+        graph.add((p, utils.GEO["long"], Literal(row["Longitude"])))
 
         address = utils.idify(row["Address"])
         graph.add((p, utils.VCARD['adr'], URIRef("http://data.gmdsp.org.uk/def/council/parking/address/"+address)))
@@ -25,5 +28,6 @@ def convert(graph, input_path):
         # now add the address VCARD
         vcard = PARKING["address/"+address]
         graph.add((vcard, RDF.type, utils.VCARD["location"]))
+        graph.add((vcard, utils.RDFS['label'], Literal(row["Name"])))
         graph.add((vcard, utils.VCARD['street-address'], Literal(row["Address"])))
         graph.add((vcard, utils.VCARD['postal-code'], Literal(row["Postcode"])))
