@@ -5,10 +5,12 @@ the GMDSP.
 
 ## Requirements
 
-Ruby 2.0
+Python2.7
 
-### Gems
+### Dependencies
 
-nokogiri
-rdf
-rdf-rdfxml
+rdflib
+
+## Example usage
+
+see docstring in main.py
