@@ -7,7 +7,8 @@ from rdflib.namespace import XSD
 
 from gmdspconverters import utils
 
-RECYCLING = Namespace('http://data.gmdsp.org.uk/id/salford/recyclingsites/')
+RECYCLING = Namespace('http://data.gmdsp.org.uk/id/salford/recycling/')
+RECYCLING_ONT = Namespace('http://data.gmdsp.org.uk/def/council/recycling/')
 GMDSP = Namespace('http://data.gmdsp.org.uk/def/')
 
 def convert(graph, input_path):
@@ -15,8 +16,8 @@ def convert(graph, input_path):
     reader = csv.DictReader(open(input_path, mode='r'))
     for row in reader:
         rc = RECYCLING[utils.idify(row["Location"])]
-        graph.add((rc, RDF.type, URIRef('http://data.gmdsp.org.uk/def/recyclingsites')))
-        graph.add((rc, utils.RDFS['label'], Literal(row["Location"])))
+        graph.add((rc, RDF.type, RECYCLING_ONT["RecyclingSite"]))
+        graph.add((rc, utils.RDFS['label'], Literal("Recycling Site at " + row["Location"])))
 
         address = utils.idify(row["Address"])
         graph.add((rc, utils.VCARD['adr'], URIRef("http://data.gmdsp.org.uk/def/council/recycling-centre/address/"+address)))
@@ -24,6 +25,7 @@ def convert(graph, input_path):
         # now add the address VCARD
         vcard = RECYCLING["address/"+address]
         graph.add((vcard, RDF.type, utils.VCARD["location"]))
+        graph.add((vcard, utils.RDFS['label'], Literal("Address of Recycling Site at " + row["Location"])))
         graph.add((vcard, utils.VCARD['street-address'], Literal(row["Address"])))
 
         # location information
@@ -48,4 +50,4 @@ def convert(graph, input_path):
 
         for facility in facility_map:
             if row[facility]:
-                graph.add((rc, GMDSP['facility'], Literal(facility_map[facility])))
+                graph.add((rc, RECYCLING_ONT['RecyclingType'], Literal(facility_map[facility])))
