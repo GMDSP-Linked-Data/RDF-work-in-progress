@@ -18,6 +18,11 @@ Have added ward code / URL from statistical-geography namespace - which needs im
 http://statistics.data.gov.uk/def/statistical-geography#ward
 http://statistics.data.gov.uk/def/hierarchy/best-fit#ward
 
+E05000829
+E00031199
+
+http://statistics.data.gov.uk/id/statistical-geography/E05000829
+
 Have only imported 10 records
 
 
@@ -44,6 +49,10 @@ Council Tax
  http://data.gmdsp.org.uk/def/council/council-tax-bands/
 
 http://data.gmdsp.org.uk/id/trafford/property/12345678
+
+http://data.gmdsp.org.uk/def/council/counciltax/Property
+http://data.gmdsp.org.uk/def/council/counciltax/CouncilTaxBand
+
 
 No date
 
