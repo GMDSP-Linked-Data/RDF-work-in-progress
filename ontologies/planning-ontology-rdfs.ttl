@@ -10,12 +10,12 @@
 #################################################################
 
 <http://data.gmdsp.org.uk/def/council/planning/PlanningApplication>
-      rdfs:label "An RDF class to describe a planning application"^^xsd:string ;
+      rdfs:label "Planning application"^^xsd:string ;
       rdfs:subClassOf smartcity:Object ;
       rdfs:isDefinedBy <http://data.gmdsp.org.uk/def/council/planning> .
 
 <http://data.gmdsp.org.uk/def/council/planning/PlanningApplicationSite>
-      rdfs:label "An RDF class to describe a planning application site"^^xsd:string ;
+      rdfs:label "Planning application site"^^xsd:string ;
       rdfs:subClassOf smartcity:Object ;
       rdfs:isDefinedBy <http://data.gmdsp.org.uk/def/council/planning> .
 
@@ -28,7 +28,7 @@
 
 <http://data.gmdsp.org.uk/def/council/planning/decision>
       rdf:type rdfs:Property ;
-      rdfs:label "Final state of a planning application"^^xsd:string ;
+      rdfs:label "Planning decision"^^xsd:string ;
 	  rdfs:comment "What the outcome of a planning applications was. Will have one decision as defined in a concept scheme." ;
       rdfs:domain <http://data.gmdsp.org.uk/def/council/planning/PlanningApplication> ;
       rdfs:range <http://data.gmdsp.org.uk/def/council/planning/planning-application-status> .
