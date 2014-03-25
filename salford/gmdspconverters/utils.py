@@ -7,6 +7,7 @@ from rdflib import Graph, Namespace
 
 OS = Namespace('http://data.ordnancesurvey.co.uk/ontology/spatialrelations/')
 POST = Namespace('http://data.ordnancesurvey.co.uk/ontology/postcode/')
+ADMINGEO = Namespace('http://data.ordnancesurvey.co.uk/ontology/admingeo/')
 RDFS = Namespace('http://www.w3.org/2000/01/rdf-schema#')
 GEO = Namespace('http://www.w3.org/2003/01/geo/wgs84_pos#')
 VCARD = Namespace('http://www.w3.org/2006/vcard/ns#')
