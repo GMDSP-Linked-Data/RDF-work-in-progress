@@ -40,7 +40,7 @@ import csv
 import pprint
 import time
 
-storefn = os.path.dirname(os.path.realpath(__file__)) + '/Output/spend.turtle'
+storefn = os.path.dirname(os.path.realpath(__file__)) + '/Output/spend.rdf'
 #storefn = '/home/simon/codes/film.dev/movies.n3'
 storeuri = 'file://'+storefn
 title = 'Movies viewed by %s'
@@ -55,7 +55,7 @@ DIS = Namespace('http://www.w3.org/2006/03/test-description#')
 DISSISION = Namespace('http://purl.org/cerif/frapo/')
 SUB = Namespace('http://purl.org/dc/terms/')
 PAY = Namespace('http://reference.data.gov.uk/def/payment#')
-al = Namespace('https://gmdsp-admin.publishmydata.com/id/Planning/')
+al = Namespace('http://data.gmdsp.org.uk/id/manchester/payment/')
 
 
 class Store:
@@ -79,21 +79,23 @@ class Store:
 
     def save(self):
         print storeuri
-        self.graph.serialize(storeuri, format='turtle')
+        self.graph.serialize(storeuri, format='pretty-xml')
+
+    def new_payline(self):
+        line = al['']
 
     def new_spend(self, name, type, date, amount, area, supplier, number):
         payment = al[number.replace (" ", "_")] # @@ humanize the identifier (something like #rev-$date)
         self.graph.add((payment, RDF.type, PAY.Payment))
         self.graph.add((payment, PAY["reference"], Literal(number)))
-        self.graph.add((payment, PAY['payer'], URIRef("http://www.elmbridge.gov.uk/id/"+name.replace(" ","_"))))
-        self.graph.add((payment, PAY['payee'], URIRef("http://www.elmbridge.gov.uk/id/payee/"+supplier.replace(" ","_"))))
+        self.graph.add((payment, PAY['payer'], Literal(name.replace(" "," "))))
+        self.graph.add((payment, PAY['payee'], Literal(supplier.replace(" "," "))))
         self.graph.add((payment, PAY['date'], URIRef('http://reference.data.gov.uk/id/day/'+time.strftime('%Y-%m-%d',date))))
-        self.graph.add((payment, PAY['netAmount'], Literal(amount)))
-        self.graph.add((payment, PAY['unit'], URIRef("http://www.elmbridge.gov.uk/id/department/"+area.replace(" ","_"))))
-        #self.graph.add((allotment, GEO["ward"], Literal(ward)))
-        #self.graph.add((allotment, DC['date'], Literal(plot_size)))
-        #self.graph.add((allotment, GEO['rating'], Literal(rent)))
-        self.save()
+        if amount[0] == ',':
+            self.graph.add((payment, PAY['netAmount'], Literal(amount[1:])))
+        else:
+            self.graph.add((payment, PAY['netAmount'], Literal(amount)))
+        self.graph.add((payment, PAY['unit'], Literal(area.replace(" "," "))))
 
 def help():
     print(__doc__.split('--')[1])
@@ -105,6 +107,6 @@ def main(argv=None):
     for row in reader:
         pprint.pprint(row)
         s.new_spend(row["Body Name"], row["Expenses Type"],  time.strptime(row["Invoice Payment Date"], "%d.%m.%Y"), row["Net Amount"][3:], row["Service Area"], row["Supplier Name"], row["Transaction Number"])
-
+    s.save()
 if __name__ == '__main__':
     main()
