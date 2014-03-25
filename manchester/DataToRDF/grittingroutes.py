@@ -41,7 +41,7 @@ from rdflib.namespace import FOAF, DC
 import csv
 import pprint
 
-storefn = os.path.dirname(os.path.realpath(__file__)) + '/streetlight.turtle'
+storefn = os.path.dirname(os.path.realpath(__file__)) + '/Output/streetlight.turtle'
 #storefn = '/home/simon/codes/film.dev/movies.n3'
 storeuri = 'file://'+storefn
 title = 'Movies viewed by %s'
