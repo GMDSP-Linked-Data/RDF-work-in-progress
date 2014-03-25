@@ -24,6 +24,7 @@ def postcode_helper(addr_string):
         return addr_string.split(postcode[0])[0], postcode[0]
     return addr_string, None
 
+
 def convert(graph, input_path):
 
     reader = csv.DictReader(open(input_path, mode='r'))
@@ -36,8 +37,14 @@ def convert(graph, input_path):
         allotment = al[utils.idify(row["Name"])]
         graph.add((allotment, RDF.type, al_ont['Allotment']))
         graph.add((allotment, utils.RDFS['label'], Literal("Allotment site " + row["Name"])))
+
+        # geo info
         graph.add((allotment, utils.OS["northing"], Literal(row["Northing"])))
         graph.add((allotment, utils.OS["easting"], Literal(row["Easting"])))
+        # add conversion for lat/long
+        lat_long = utils.ENtoLL84(float(row["Easting"]), float(row["Northing"]))
+        graph.add((allotment, utils.GEO["long"], Literal(lat_long[0])))
+        graph.add((allotment, utils.GEO["lat"], Literal(lat_long[1])))
 
         address = utils.idify(row["Address"])
         graph.add((allotment, utils.VCARD['adr'], al_ont["address/"+address]))
