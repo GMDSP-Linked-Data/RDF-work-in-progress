@@ -54,7 +54,8 @@ DIS = Namespace('http://www.w3.org/2006/03/test-description#')
 DISSISION = Namespace('http://purl.org/cerif/frapo/')
 SUB = Namespace('http://purl.org/dc/terms/')
 PLUREL = Namespace('http://purl.org/cerif/frapo/')
-PLANNING = Namespace('http://data.gmdsp.org.uk/id/manchester/planning/')
+PLANNING = Namespace('http://data.gmdsp.org.uk/def/council/planning/')
+PLANNINGID = Namespace('http://data.gmdsp.org.uk/id/manchester/planning/')
 
 class Store:
     def __init__(self):
@@ -76,6 +77,7 @@ class Store:
         self.graph.bind('sub',SUB)
         self.graph.bind('planing', PLANNING)
         self.graph.bind('plurel', PLUREL)
+        self.graph.bind('id', PLANNINGID)
 
     def save(self):
         self.graph.serialize(storeuri, format='pretty-xml')
@@ -92,24 +94,24 @@ class Store:
         #     self.new_application_type(application_type)
             self.applic.append(application_type)
 
-        applicatinon = PLANNING[refval.replace ("/", "-").lower()] # @@ humanize the identifier (something like #rev-$date)
-        self.graph.add((applicatinon, RDF.type, URIRef('http://data.gmdsp.org.uk/def/council/neighbourhood/planning')))
+        applicatinon = PLANNINGID[refval.replace ("/", "-").lower()] # @@ humanize the identifier (something like #rev-$date)
+        self.graph.add((applicatinon, RDF.type, URIRef('http://data.gmdsp.org.uk/def/council/planning/PlanningApplication')))
         self.graph.add((applicatinon, VCARD['street-address'], Literal(address)))
-        self.graph.add((applicatinon, PLUREL['hasDecisionDate'], URIRef('http://reference.data.gov.uk/id/day/'+time.strftime('%Y-%m-%d',datdeciss))))
+        self.graph.add((applicatinon, PLANNING['decisionDate'], URIRef('http://reference.data.gov.uk/id/day/'+time.strftime('%Y-%m-%d',datdeciss))))
         self.graph.add((applicatinon, PLANNING['validatedDate'], URIRef('http://reference.data.gov.uk/id/day/'+time.strftime('%Y-%m-%d',dateapval))))
-        self.graph.add((applicatinon, PLANNING['hasDecision'], URIRef('http://data.gmdsp.org.uk/def/council/planning/planning-application-status/'+dissision.replace (" ", "-").lower())))
-        self.graph.add((applicatinon, PLANNING['application-type'], URIRef('http://data.gmdsp.org.uk/def/council/neighbourhood/planning/application-type/'+application_type.replace (" ", "-").lower())))
+        self.graph.add((applicatinon, PLANNING['decision'], URIRef('http://data.gmdsp.org.uk/def/council/planning/planning-application-status/'+dissision.replace (" ", "-").lower())))
+        self.graph.add((applicatinon, PLANNING['applicationType'], URIRef('http://data.gmdsp.org.uk/def/council/planning/planning-application-status/'+application_type.replace (" ", "-").lower())))
         self.graph.add((applicatinon, GEO["ward"], URIRef("http://data.ordnancesurvey.co.uk/ontology/postcode/ward/"+ward)))
         self.graph.add((applicatinon, PLANNING["proposal"], Literal(proposal)))
         self.graph.add((applicatinon, PLANNING["other"], Literal(DTYPNUMBCO_CODETEXT)))
 
     def new_dission(self, dissision):
-        dissision = PLANNING[dissision.replace (" ", "-").lower()]
+        dissision = PLANNINGID[dissision.replace (" ", "-").lower()]
         self.graph.add((dissision, RDF.type, URIRef('http://data.gmdsp.org.uk/def/council/planning/decision')))
         self.graph.add((dissision, RDFS["label"], Literal(dissision)))
 
     def new_application_type(self, aplication_type):
-        application_type = PLANNING[aplication_type.replace (" ", "-").lower()]
+        application_type = PLANNINGID[aplication_type.replace (" ", "-").lower()]
         self.graph.add((application_type, RDF.type, URIRef('http://data.gmdsp.org.uk/def/council/neighbourhood/planning/application-type')))
         self.graph.add((application_type, RDFS["label"], Literal(aplication_type)))
 
@@ -129,7 +131,7 @@ def main(argv=None):
         if row["DATEAPVAL"] == "":
             row["DATEAPVAL"] = "01/01/0001"
 
-        if count < 10000:
+        if count < 100:
             count = count + 1
             s.new_plan(rx.sub(" ", row["ADDRESS"]).strip(), row["Ward Name"].strip().replace(' ','-'), row["REFVAL"].strip(), time.strptime(row["DATEAPVAL"].strip(), "%d/%m/%Y"), time.strptime(row["DATEDECISS"].strip(), "%d/%m/%Y"), row["DECSN CODE_CODETEXT"], row["DCAPPTYP CODE_CODETEXT"], rx.sub(" ", row["PROPOSAL"]).strip().decode("utf-8", "replace").replace('\n', ' ').replace('\r', ''), row["DTYPNUMBCO_CODETEXT"])
     s.save()

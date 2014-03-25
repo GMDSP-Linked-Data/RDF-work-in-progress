@@ -98,7 +98,7 @@ class Store:
         self.graph.add((allotment, OS["northing"], Literal(str(utm.from_latlon(float(location.split(',')[0]), float(location.split(',')[1]))[0]))))
         self.graph.add((allotment, OS["easting"], Literal(str(utm.from_latlon(float(location.split(',')[0]), float(location.split(',')[1]))[1]))))
         self.graph.add((allotment, RDFS['label'], Literal(name)))
-        self.graph.add((allotment,VCARD['adr'], URIRef("http://data.gmdsp.org.uk/def/council/neighbourhood/allotment/address/"+address.replace(" ", "_").replace(",","-").lower())))
+        self.graph.add((allotment,VCARD['adr'], URIRef("http://data.gmdsp.org.uk/id/manchester/allotments/address/"+address.replace(" ", "_").replace(",","-").lower())))
         self.save()
 
 def help():

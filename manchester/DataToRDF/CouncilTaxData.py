@@ -46,7 +46,7 @@ qb = Namespace("http://purl.org/linked-data/cube#")
 INTERVAL = Namespace("http://www.w3.org/2006/time#")
 COUNCILTAX = Namespace('http://data.gmdsp.org.uk/data/manchester/council-tax/')
 DATEREF = Namespace('http://reference.data.gov.uk/id/day/')
-COUNCILBAND = Namespace('http://data.gmdsp.org.uk/def/council/Council-Tax/')
+COUNCILBAND = Namespace('http://data.gmdsp.org.uk/def/council/counciltax/council-tax-bands/')
 
 class Store:
     def __init__(self):
@@ -102,7 +102,7 @@ class Store:
         self.graph.add((d, RDF.type, qb["Property"]))
         self.graph.add((d, RDF.type, qb["DimensionProperty"]))
         self.graph.add((d, RDFS["label"], Literal("reference band")))
-        self.graph.add((d, RDFS["domain"], URIRef("http://data.gmdsp.org.uk/def/council/Council-Tax")))
+        self.graph.add((d, RDFS["domain"], URIRef("http://data.gmdsp.org.uk/def/council/counciltax/CouncilTaxBand")))
 
     def countDef(self):
         d = COUNCILTAX["countDef"]
