@@ -118,8 +118,9 @@ def help():
 
 def main(argv=None):
     s = Store()
-
+    rx = re.compile('\W+')
     reader = csv.DictReader(open('./Data/planning2.csv', mode='rU'))
+    count = 0
     for row in reader:
         #s.new_allotment(row["Address"], row["Application"], row["Disabled access"], row["External link"], row["Guidance"], row["Location"], row["Name"], row["Plot sizes"], row["Rent"])
         if row["DATEDECISS"] == "":
@@ -128,7 +129,9 @@ def main(argv=None):
         if row["DATEAPVAL"] == "":
             row["DATEAPVAL"] = "01/01/0001"
 
-        s.new_plan(re.sub("[^a-zA-Z0-9\n\.]", " ", row["ADDRESS"].replace('\n', '').replace('\r', '')), row["Ward Name"].strip(), row["REFVAL"].strip(), time.strptime(row["DATEAPVAL"].strip(), "%d/%m/%Y"), time.strptime(row["DATEDECISS"].strip(), "%d/%m/%Y"), row["DECSN CODE_CODETEXT"], row["DCAPPTYP CODE_CODETEXT"], row["PROPOSAL"].decode("utf-8", "replace").replace('\n', ' ').replace('\r', ''), row["DTYPNUMBCO_CODETEXT"])
+        if count < 10000:
+            count = count + 1
+            s.new_plan(rx.sub(" ", row["ADDRESS"]).strip(), row["Ward Name"].strip().replace(' ','-'), row["REFVAL"].strip(), time.strptime(row["DATEAPVAL"].strip(), "%d/%m/%Y"), time.strptime(row["DATEDECISS"].strip(), "%d/%m/%Y"), row["DECSN CODE_CODETEXT"], row["DCAPPTYP CODE_CODETEXT"], rx.sub(" ", row["PROPOSAL"]).strip().decode("utf-8", "replace").replace('\n', ' ').replace('\r', ''), row["DTYPNUMBCO_CODETEXT"])
     s.save()
 
 if __name__ == '__main__':
