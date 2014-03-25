@@ -40,7 +40,7 @@ import csv
 import pprint
 import time
 
-storefn = os.path.dirname(os.path.realpath(__file__)) + '/spend.turtle'
+storefn = os.path.dirname(os.path.realpath(__file__)) + '/Output/spend.turtle'
 #storefn = '/home/simon/codes/film.dev/movies.n3'
 storeuri = 'file://'+storefn
 title = 'Movies viewed by %s'
