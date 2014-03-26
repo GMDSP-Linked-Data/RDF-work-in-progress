@@ -9,6 +9,7 @@ from gmdspconverters import utils
 
 RECYCLING = Namespace('http://data.gmdsp.org.uk/id/salford/recycling/')
 RECYCLING_ONT = Namespace('http://data.gmdsp.org.uk/def/council/recycling/')
+RECYCLING_TYPES_ONT = Namespace('http://data.gmdsp.org.uk/def/council/recycling-type/')
 GMDSP = Namespace('http://data.gmdsp.org.uk/def/')
 
 def convert(graph, input_path):
@@ -31,6 +32,10 @@ def convert(graph, input_path):
         # location information
         graph.add((rc, utils.OS["northing"], Literal(row["Northings"])))
         graph.add((rc, utils.OS["easting"], Literal(row["Eastings"])))
+        # add conversion for lat/long
+        lat_long = utils.ENtoLL84(float(row["Eastings"]), float(row["Northings"]))
+        graph.add((rc, utils.GEO["long"], Literal(lat_long[0])))
+        graph.add((rc, utils.GEO["lat"], Literal(lat_long[1])))
 
 
         # recycling information
@@ -50,4 +55,4 @@ def convert(graph, input_path):
 
         for facility in facility_map:
             if row[facility]:
-                graph.add((rc, RECYCLING_ONT['RecyclingType'], Literal(facility_map[facility])))
+                graph.add((rc, RECYCLING_TYPES_ONT[row[facility].lower()], Literal(facility_map[facility])))
