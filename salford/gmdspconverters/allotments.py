@@ -58,8 +58,7 @@ def convert(graph, input_path):
         graph.add((vcard, utils.VCARD['street-address'], Literal(street_address)))
         if address_postcode is not None:
             graph.add((vcard, utils.VCARD['postal-code'], Literal(address_postcode)))
-            os_postcode = address_postcode.replace(" ", "").upper()
-            graph.add((vcard, utils.POST['postcode'], URIRef("http://data.ordnancesurvey.co.uk/id/postcodeunit/"+os_postcode)))
+            graph.add((vcard, utils.POST['postcode'], URIRef(utils.convertpostcodeto_osuri(address_postcode))))
 
         if row["Plots"]:
             try:
