@@ -53,7 +53,7 @@ def convert(graph, input_path):
 
         # now add the address VCARD
         vcard = al["address/"+address]
-        graph.add((vcard, RDF.type, utils.VCARD["location"]))
+        graph.add((vcard, RDF.type, utils.VCARD["Location"]))
         graph.add((vcard, utils.RDFS['label'], Literal("Address of allotment site " + row["Name"])))
         graph.add((vcard, utils.VCARD['street-address'], Literal(street_address)))
         if address_postcode is not None:
