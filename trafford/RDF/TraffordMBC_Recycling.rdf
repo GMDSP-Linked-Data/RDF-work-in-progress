@@ -1,13 +1,13 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <rdf:RDF
+	xmlns:gmdsp-recycling-type="http://data.gmdsp.org.uk/def/council/recycling/recycling-type/"
 	xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
-	xmlns:gmdsp-recycling-type="http://data.gmdsp.org.uk/def/recycling/recycling-type/"
 	xmlns:geo="http://www.w3.org/2003/01/geo/wgs84_pos#"
 	xmlns:foaf="http://xmlns.com/foaf/0.1/"
-	xmlns:owl="http://www.w3.org/2002/07/owl#"
 	xmlns:xsd="http://www.w3.org/2001/XMLSchema#"
-	xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+	xmlns:owl="http://www.w3.org/2002/07/owl#"
 	xmlns:gmdsp-recycling="http://data.gmdsp.org.uk/def/council/recycling/"
+	xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
 	xmlns:skos="http://www.w3.org/2004/02/skos/core#"
 	xmlns:vcard="http://www.w3.org/2006/vcard/ns#">
 
@@ -395,7 +395,7 @@
 <rdf:Description rdf:about="http://data.gmdsp.org.uk/id/trafford/recyclingsites/chester-road-household-waste-and-recycling-centre-stretford">
 	<vcard:adr rdf:resource="http://data.gmdsp.org.uk/id/trafford/recycling/address/chester-road-household-waste-and-recycling-centre-stretford"/>
 	<rdf:type rdf:resource="http://data.gmdsp.org.uk/def/council/recycling/RecyclingType"/>
-	<gmdsp-recycling-type:extraFacilities>Extra Facilities</gmdsp-recycling-type:extraFacilities>
+	<gmdsp-recycling-type:extra-facilities>Extra Facilities</gmdsp-recycling-type:extra-facilities>
 	<gmdsp-recycling-type:paper>Paper</gmdsp-recycling-type:paper>
 	<gmdsp-recycling-type:dry>Dry</gmdsp-recycling-type:dry>
 	<gmdsp-recycling-type:glass>Glass</gmdsp-recycling-type:glass>
@@ -493,7 +493,7 @@
 <rdf:Description rdf:about="http://data.gmdsp.org.uk/id/trafford/recyclingsites/sinderland-road-household-waste-and-recycling-centre-altrincham">
 	<vcard:adr rdf:resource="http://data.gmdsp.org.uk/id/trafford/recycling/address/sinderland-road-household-waste-and-recycling-centre-altrincham"/>
 	<rdf:type rdf:resource="http://data.gmdsp.org.uk/def/council/recycling/RecyclingType"/>
-	<gmdsp-recycling-type:extraFacilities>Extra Facilities</gmdsp-recycling-type:extraFacilities>
+	<gmdsp-recycling-type:extra-facilities>Extra Facilities</gmdsp-recycling-type:extra-facilities>
 	<gmdsp-recycling-type:paper>Paper</gmdsp-recycling-type:paper>
 	<gmdsp-recycling-type:dry>Dry</gmdsp-recycling-type:dry>
 	<gmdsp-recycling-type:glass>Glass</gmdsp-recycling-type:glass>
