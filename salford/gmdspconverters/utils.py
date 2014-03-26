@@ -46,6 +46,10 @@ def output_graph(graph, output_path):
     storeuri = 'file://'+storefn
     graph.serialize(storeuri, format='pretty-xml')
 
+def convertpostcodeto_osuri(postcode):
+    os_postcode = postcode.replace(" ", "").upper()
+    return "http://data.ordnancesurvey.co.uk/id/postcodeunit/"+os_postcode
+
 
 def ENtoLL84(easting, northing):
     """Returns (longitude, latitude) tuple
