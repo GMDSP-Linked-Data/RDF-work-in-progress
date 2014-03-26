@@ -24,7 +24,7 @@ def convert(graph, input_path):
 
         # now add the address VCARD
         vcard = RECYCLING["address/"+address]
-        graph.add((vcard, RDF.type, utils.VCARD["location"]))
+        graph.add((vcard, RDF.type, utils.VCARD["Location"]))
         graph.add((vcard, utils.RDFS['label'], Literal("Address of Recycling Site at " + row["Location"])))
         graph.add((vcard, utils.VCARD['street-address'], Literal(row["Address"])))
 

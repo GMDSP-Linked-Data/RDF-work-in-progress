@@ -33,7 +33,7 @@ def convert(graph, input_path):
 
         # now add the address VCARD
         vcard = PARKING["address/"+address]
-        graph.add((vcard, RDF.type, utils.VCARD["location"]))
+        graph.add((vcard, RDF.type, utils.VCARD["Location"]))
         graph.add((vcard, utils.RDFS['label'], Literal(row["Name"])))
         graph.add((vcard, utils.VCARD['street-address'], Literal(row["Address"])))
         graph.add((vcard, utils.VCARD['postal-code'], Literal(row["Postcode"])))

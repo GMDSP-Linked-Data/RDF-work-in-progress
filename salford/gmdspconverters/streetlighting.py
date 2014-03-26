@@ -25,7 +25,7 @@ def convert(graph, input_path):
 
         # now add the address VCARD
         vcard = al["address/"+address]
-        graph.add((vcard, RDF.type, utils.VCARD["location"]))
+        graph.add((vcard, RDF.type, utils.VCARD["Location"]))
         graph.add((vcard, utils.VCARD['street-address'], Literal(row["ROADNAME"])))
         graph.add((vcard, utils.VCARD['postal-code'], Literal(row["POSTCODE"])))
 
