@@ -9,7 +9,7 @@ from gmdspconverters import utils
 
 RECYCLING = Namespace('http://data.gmdsp.org.uk/id/salford/recycling/')
 RECYCLING_ONT = Namespace('http://data.gmdsp.org.uk/def/council/recycling/')
-RECYCLING_TYPES_ONT = Namespace('http://data.gmdsp.org.uk/def/council/recycling-type/')
+RECYCLING_TYPES_ONT = Namespace('http://data.gmdsp.org.uk/def/council/recycling/recycling-type/')
 GMDSP = Namespace('http://data.gmdsp.org.uk/def/')
 
 def convert(graph, input_path):
@@ -21,13 +21,15 @@ def convert(graph, input_path):
         graph.add((rc, utils.RDFS['label'], Literal("Recycling Site at " + row["Location"])))
 
         address = utils.idify(row["Address"])
-        graph.add((rc, utils.VCARD['hasAddress'], URIRef("http://data.gmdsp.org.uk/def/council/recycling-centre/address/"+address)))
+        graph.add((rc, utils.VCARD['hasAddress'], RECYCLING_ONT["address/"+address]))
 
         # now add the address VCARD
         vcard = RECYCLING["address/"+address]
         graph.add((vcard, RDF.type, utils.VCARD["Location"]))
         graph.add((vcard, utils.RDFS['label'], Literal("Address of Recycling Site at " + row["Location"])))
         graph.add((vcard, utils.VCARD['street-address'], Literal(row["Address"])))
+        graph.add((vcard, utils.VCARD['postal-code'], Literal(row["Postcode"])))
+        graph.add((vcard, utils.POST['postcode'], URIRef(utils.convertpostcodeto_osuri(row["Postcode"]))))
 
         # location information
         graph.add((rc, utils.OS["northing"], Literal(row["Northings"])))
@@ -37,9 +39,7 @@ def convert(graph, input_path):
         graph.add((rc, utils.GEO["long"], Literal(lat_long[0])))
         graph.add((rc, utils.GEO["lat"], Literal(lat_long[1])))
 
-
-        # recycling information
-
+        # recycling informationxs
         # maps the CSV header to the recycling facility concept schema
         facility_map = {
             "Cardboard": "Cardboard",
@@ -55,4 +55,4 @@ def convert(graph, input_path):
 
         for facility in facility_map:
             if row[facility]:
-                graph.add((rc, RECYCLING_TYPES_ONT[row[facility].lower()], Literal(facility_map[facility])))
+                graph.add((rc, RECYCLING_TYPES_ONT[facility_map[facility].lower()], Literal(facility_map[facility])))
