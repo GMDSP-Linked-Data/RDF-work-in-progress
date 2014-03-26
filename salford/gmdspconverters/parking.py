@@ -29,7 +29,7 @@ def convert(graph, input_path):
         graph.add((p, utils.GEO["long"], Literal(row["Longitude"])))
 
         address = utils.idify(row["Address"])
-        graph.add((p, utils.VCARD['adr'], URIRef("http://data.gmdsp.org.uk/def/council/parking/address/"+address)))
+        graph.add((p, utils.VCARD['hasAddress'], URIRef("http://data.gmdsp.org.uk/def/council/parking/address/"+address)))
 
         # now add the address VCARD
         vcard = PARKING["address/"+address]
