@@ -14,10 +14,16 @@ def convert(graph, input_path):
 
     for row in reader:
         p = PARKING[utils.idify(row["Name"])]
-        graph.add((p, RDF.type, PARKING_ONT["Parking"]))
+        graph.add((p, RDF.type, PARKING_ONT["ParkingSite"]))
         graph.add((p, utils.RDFS['label'], Literal(row["Name"])))
         graph.add((p, PARKING_ONT['type'], Literal(row["Type"])))
-        graph.add((p, PARKING_ONT['operator'], Literal(row["Operator"])))
+        graph.add((p, PARKING_ONT['informationPage'], Literal(row["URL"])))
+
+        p_operator = PARKING["operator/" + utils.idify(row["Operator"])]
+        graph.add((p, PARKING_ONT['operator'], p_operator))
+        graph.add((p_operator, RDF.type, PARKING_ONT["ParkingSiteOperator"]))
+        graph.add((p_operator, utils.RDFS['label'], Literal(row["Operator"])))
+        graph.add((p_operator, utils.ADMINGEO["MetropolitanDistrict"], URIRef("http://data.ordnancesurvey.co.uk/id/7000000000018805")))
 
         graph.add((p, utils.GEO["lat"], Literal(row["Latitude"])))
         graph.add((p, utils.GEO["long"], Literal(row["Longitude"])))

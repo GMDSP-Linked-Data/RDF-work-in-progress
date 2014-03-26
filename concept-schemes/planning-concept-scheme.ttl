@@ -184,3 +184,273 @@
         rdfs:label "Permitted change of use" ;
         skos:prefLabel "Permitted change of use" ;
         skos:definition "The planning application for change of use was permitted" .
+
+<http://data.gmdsp.org.uk/def/council/planning/planning-application-status/alternative-development-certificate> skos:inScheme <http://data.gmdsp.org.uk/def/council/planning/planning-application-status> ;
+        a skos:Concept ;
+        rdfs:label 'Alternative Development Certificate' ;
+        skos:prefLabel 'Alternative Development Certificate' ;
+        skos:definition 'Alternative Development Certificate' .
+
+<http://data.gmdsp.org.uk/def/council/planning/planning-application-status/advertisement-consent> skos:inScheme <http://data.gmdsp.org.uk/def/council/planning/planning-application-status> ;
+        a skos:Concept ;
+        rdfs:label 'Advertisement Consent' ;
+        skos:prefLabel 'Advertisement Consent' ;
+        skos:definition 'Advertisement Consent' .
+
+<http://data.gmdsp.org.uk/def/council/planning/planning-application-status/advertisement-hoardings-consent> skos:inScheme <http://data.gmdsp.org.uk/def/council/planning/planning-application-status> ;
+        a skos:Concept ;
+        rdfs:label 'Advertisement Hoardings Consent' ;
+        skos:prefLabel 'Advertisement Hoardings Consent' ;
+        skos:definition 'Advertisement Hoardings Consent' .
+
+<http://data.gmdsp.org.uk/def/council/planning/planning-application-status/conservation-area-consent> skos:inScheme <http://data.gmdsp.org.uk/def/council/planning/planning-application-status> ;
+        a skos:Concept ;
+        rdfs:label 'Conservation Area Consent' ;
+        skos:prefLabel 'Conservation Area Consent' ;
+        skos:definition 'Conservation Area Consent' .
+
+<http://data.gmdsp.org.uk/def/council/planning/planning-application-status/crown-development-consent> skos:inScheme <http://data.gmdsp.org.uk/def/council/planning/planning-application-status> ;
+        a skos:Concept ;
+        rdfs:label 'Crown Development Consent' ;
+        skos:prefLabel 'Crown Development Consent' ;
+        skos:definition 'Crown Development Consent' .
+
+<http://data.gmdsp.org.uk/def/council/planning/planning-application-status/cmdc-advertisements> skos:inScheme <http://data.gmdsp.org.uk/def/council/planning/planning-application-status> ;
+        a skos:Concept ;
+        rdfs:label 'CMDC Advertisements' ;
+        skos:prefLabel 'CMDC Advertisements' ;
+        skos:definition 'CMDC Advertisements' .
+
+<http://data.gmdsp.org.uk/def/council/planning/planning-application-status/cmdc-conservation-area-consent> skos:inScheme <http://data.gmdsp.org.uk/def/council/planning/planning-application-status> ;
+        a skos:Concept ;
+        rdfs:label 'CMDC Conservation Area Consent' ;
+        skos:prefLabel 'CMDC Conservation Area Consent' ;
+        skos:definition 'CMDC Conservation Area Consent' .
+
+<http://data.gmdsp.org.uk/def/council/planning/planning-application-status/cmdc-full> skos:inScheme <http://data.gmdsp.org.uk/def/council/planning/planning-application-status> ;
+        a skos:Concept ;
+        rdfs:label 'CMDC Full' ;
+        skos:prefLabel 'CMDC Full' ;
+        skos:definition 'CMDC Full' .
+
+<http://data.gmdsp.org.uk/def/council/planning/planning-application-status/cmdc-householder> skos:inScheme <http://data.gmdsp.org.uk/def/council/planning/planning-application-status> ;
+        a skos:Concept ;
+        rdfs:label 'CMDC Householder' ;
+        skos:prefLabel 'CMDC Householder' ;
+        skos:definition 'CMDC Householder' .
+
+<http://data.gmdsp.org.uk/def/council/planning/planning-application-status/cmdc-certificate-lawful-develpmnt-exstng> skos:inScheme <http://data.gmdsp.org.uk/def/council/planning/planning-application-status> ;
+        a skos:Concept ;
+        rdfs:label 'CMDC Certificate Lawful Develpmnt Exstng' ;
+        skos:prefLabel 'CMDC Certificate Lawful Develpmnt Exstng' ;
+        skos:definition 'CMDC Certificate Lawful Develpmnt Exstng' .
+
+<http://data.gmdsp.org.uk/def/council/planning/planning-application-status/cmdc-listed-building-consent> skos:inScheme <http://data.gmdsp.org.uk/def/council/planning/planning-application-status> ;
+        a skos:Concept ;
+        rdfs:label 'CMDC Listed Building Consent' ;
+        skos:prefLabel 'CMDC Listed Building Consent' ;
+        skos:definition 'CMDC Listed Building Consent' .
+
+<http://data.gmdsp.org.uk/def/council/planning/planning-application-status/cmdc-reserved-matters> skos:inScheme <http://data.gmdsp.org.uk/def/council/planning/planning-application-status> ;
+        a skos:Concept ;
+        rdfs:label 'CMDC Reserved Matters' ;
+        skos:prefLabel 'CMDC Reserved Matters' ;
+        skos:definition 'CMDC Reserved Matters' .
+
+<http://data.gmdsp.org.uk/def/council/planning/planning-application-status/cmdc-renewal-of-permission> skos:inScheme <http://data.gmdsp.org.uk/def/council/planning/planning-application-status> ;
+        a skos:Concept ;
+        rdfs:label 'CMDC Renewal of Permission' ;
+        skos:prefLabel 'CMDC Renewal of Permission' ;
+        skos:definition 'CMDC Renewal of Permission' .
+
+<http://data.gmdsp.org.uk/def/council/planning/planning-application-status/cmdc-outline> skos:inScheme <http://data.gmdsp.org.uk/def/council/planning/planning-application-status> ;
+        a skos:Concept ;
+        rdfs:label 'CMDC Outline' ;
+        skos:prefLabel 'CMDC Outline' ;
+        skos:definition 'CMDC Outline' .
+
+<http://data.gmdsp.org.uk/def/council/planning/planning-application-status/cmdc-change-of-use> skos:inScheme <http://data.gmdsp.org.uk/def/council/planning/planning-application-status> ;
+        a skos:Concept ;
+        rdfs:label 'CMDC Change of Use' ;
+        skos:prefLabel 'CMDC Change of Use' ;
+        skos:definition 'CMDC Change of Use' .
+
+<http://data.gmdsp.org.uk/def/council/planning/planning-application-status/deemed-application-enforcement-appeal> skos:inScheme <http://data.gmdsp.org.uk/def/council/planning/planning-application-status> ;
+        a skos:Concept ;
+        rdfs:label 'Deemed Application Enforcement Appeal' ;
+        skos:prefLabel 'Deemed Application Enforcement Appeal' ;
+        skos:definition 'Deemed Application Enforcement Appeal' .
+
+<http://data.gmdsp.org.uk/def/council/planning/planning-application-status/established-use-certificate> skos:inScheme <http://data.gmdsp.org.uk/def/council/planning/planning-application-status> ;
+        a skos:Concept ;
+        rdfs:label 'Established Use Certificate' ;
+        skos:prefLabel 'Established Use Certificate' ;
+        skos:definition 'Established Use Certificate' .
+
+<http://data.gmdsp.org.uk/def/council/planning/planning-application-status/full-householder-application> skos:inScheme <http://data.gmdsp.org.uk/def/council/planning/planning-application-status> ;
+        a skos:Concept ;
+        rdfs:label 'Full Householder Application' ;
+        skos:prefLabel 'Full Householder Application' ;
+        skos:definition 'Full Householder Application' .
+
+<http://data.gmdsp.org.uk/def/council/planning/planning-application-status/full-application-consent> skos:inScheme <http://data.gmdsp.org.uk/def/council/planning/planning-application-status> ;
+        a skos:Concept ;
+        rdfs:label 'Full Application Consent' ;
+        skos:prefLabel 'Full Application Consent' ;
+        skos:definition 'Full Application Consent' .
+
+<http://data.gmdsp.org.uk/def/council/planning/planning-application-status/change-of-use-consent> skos:inScheme <http://data.gmdsp.org.uk/def/council/planning/planning-application-status> ;
+        a skos:Concept ;
+        rdfs:label 'Change of use Consent' ;
+        skos:prefLabel 'Change of use Consent' ;
+        skos:definition 'Change of use Consent' .
+
+<http://data.gmdsp.org.uk/def/council/planning/planning-application-status/hazardous-substance-consent> skos:inScheme <http://data.gmdsp.org.uk/def/council/planning/planning-application-status> ;
+        a skos:Concept ;
+        rdfs:label 'Hazardous Substance Consent' ;
+        skos:prefLabel 'Hazardous Substance Consent' ;
+        skos:definition 'Hazardous Substance Consent' .
+
+<http://data.gmdsp.org.uk/def/council/planning/planning-application-status/variation-or-removal-of-condition> skos:inScheme <http://data.gmdsp.org.uk/def/council/planning/planning-application-status> ;
+        a skos:Concept ;
+        rdfs:label 'Variation or Removal of Condition' ;
+        skos:prefLabel 'Variation or Removal of Condition' ;
+        skos:definition 'Variation or Removal of Condition' .
+
+<http://data.gmdsp.org.uk/def/council/planning/planning-application-status/certificate-lawful-development-existing> skos:inScheme <http://data.gmdsp.org.uk/def/council/planning/planning-application-status> ;
+        a skos:Concept ;
+        rdfs:label 'Certificate Lawful Development Existing' ;
+        skos:prefLabel 'Certificate Lawful Development Existing' ;
+        skos:definition 'Certificate Lawful Development Existing' .
+
+<http://data.gmdsp.org.uk/def/council/planning/planning-application-status/listed-building-demolition-consent> skos:inScheme <http://data.gmdsp.org.uk/def/council/planning/planning-application-status> ;
+        a skos:Concept ;
+        rdfs:label 'Listed Building Demolition Consent' ;
+        skos:prefLabel 'Listed Building Demolition Consent' ;
+        skos:definition 'Listed Building Demolition Consent' .
+
+<http://data.gmdsp.org.uk/def/council/planning/planning-application-status/listed-building-consent> skos:inScheme <http://data.gmdsp.org.uk/def/council/planning/planning-application-status> ;
+        a skos:Concept ;
+        rdfs:label 'Listed Building Consent' ;
+        skos:prefLabel 'Listed Building Consent' ;
+        skos:definition 'Listed Building Consent' .
+
+<http://data.gmdsp.org.uk/def/council/planning/planning-application-status/certificate-lawful-develpmnt-proposed> skos:inScheme <http://data.gmdsp.org.uk/def/council/planning/planning-application-status> ;
+        a skos:Concept ;
+        rdfs:label 'Certificate Lawful Develpmnt Proposed' ;
+        skos:prefLabel 'Certificate Lawful Develpmnt Proposed' ;
+        skos:definition 'Certificate Lawful Develpmnt Proposed' .
+
+<http://data.gmdsp.org.uk/def/council/planning/planning-application-status/reserved-matters-consent> skos:inScheme <http://data.gmdsp.org.uk/def/council/planning/planning-application-status> ;
+        a skos:Concept ;
+        rdfs:label 'Reserved Matters Consent' ;
+        skos:prefLabel 'Reserved Matters Consent' ;
+        skos:definition 'Reserved Matters Consent' .
+
+<http://data.gmdsp.org.uk/def/council/planning/planning-application-status/outline-consent> skos:inScheme <http://data.gmdsp.org.uk/def/council/planning/planning-application-status> ;
+        a skos:Concept ;
+        rdfs:label 'Outline Consent' ;
+        skos:prefLabel 'Outline Consent' ;
+        skos:definition 'Outline Consent' .
+
+<http://data.gmdsp.org.uk/def/council/planning/planning-application-status/renewal-of-full-application-consent> skos:inScheme <http://data.gmdsp.org.uk/def/council/planning/planning-application-status> ;
+        a skos:Concept ;
+        rdfs:label 'Renewal of Full Application Consent' ;
+        skos:prefLabel 'Renewal of Full Application Consent' ;
+        skos:definition 'Renewal of Full Application Consent' .
+
+<http://data.gmdsp.org.uk/def/council/planning/planning-application-status/renewal-of-change-of-use-consent> skos:inScheme <http://data.gmdsp.org.uk/def/council/planning/planning-application-status> ;
+        a skos:Concept ;
+        rdfs:label 'Renewal of Change of Use Consent' ;
+        skos:prefLabel 'Renewal of Change of Use Consent' ;
+        skos:definition 'Renewal of Change of Use Consent' .
+
+<http://data.gmdsp.org.uk/def/council/planning/planning-application-status/works-to-trees-in-conservation-area> skos:inScheme <http://data.gmdsp.org.uk/def/council/planning/planning-application-status> ;
+        a skos:Concept ;
+        rdfs:label 'Works to trees in Conservation Area' ;
+        skos:prefLabel 'Works to trees in Conservation Area' ;
+        skos:definition 'Works to trees in Conservation Area' .
+
+<http://data.gmdsp.org.uk/def/council/planning/planning-application-status/telecommunication-application> skos:inScheme <http://data.gmdsp.org.uk/def/council/planning/planning-application-status> ;
+        a skos:Concept ;
+        rdfs:label 'Telecommunication Application' ;
+        skos:prefLabel 'Telecommunication Application' ;
+        skos:definition 'Telecommunication Application' .
+
+<http://data.gmdsp.org.uk/def/council/planning/planning-application-status/works-to-trees-in-tree-preservation-ordr> skos:inScheme <http://data.gmdsp.org.uk/def/council/planning/planning-application-status> ;
+        a skos:Concept ;
+        rdfs:label 'Works to trees in Tree Preservation Ordr' ;
+        skos:prefLabel 'Works to trees in Tree Preservation Ordr' ;
+        skos:definition 'Works to trees in Tree Preservation Ordr' .
+
+<http://data.gmdsp.org.uk/def/council/planning/planning-application-status/regulation-3-consent> skos:inScheme <http://data.gmdsp.org.uk/def/council/planning/planning-application-status> ;
+        a skos:Concept ;
+        rdfs:label 'Regulation 3 Consent' ;
+        skos:prefLabel 'Regulation 3 Consent' ;
+        skos:definition 'Regulation 3 Consent' .
+
+<http://data.gmdsp.org.uk/def/council/planning/planning-application-status/regulation-4-consent> skos:inScheme <http://data.gmdsp.org.uk/def/council/planning/planning-application-status> ;
+        a skos:Concept ;
+        rdfs:label 'Regulation 4 Consent' ;
+        skos:prefLabel 'Regulation 4 Consent' ;
+        skos:definition 'Regulation 4 Consent' .
+
+<http://data.gmdsp.org.uk/def/council/planning/planning-application-status/agricultural-building-consent> skos:inScheme <http://data.gmdsp.org.uk/def/council/planning/planning-application-status> ;
+        a skos:Concept ;
+        rdfs:label 'Agricultural Building Consent' ;
+        skos:prefLabel 'Agricultural Building Consent' ;
+        skos:definition 'Agricultural Building Consent' .
+
+<http://data.gmdsp.org.uk/def/council/planning/planning-application-status/proposed-demolition> skos:inScheme <http://data.gmdsp.org.uk/def/council/planning/planning-application-status> ;
+        a skos:Concept ;
+        rdfs:label 'Proposed demolition' ;
+        skos:prefLabel 'Proposed demolition' ;
+        skos:definition 'Proposed demolition' .
+
+<http://data.gmdsp.org.uk/def/council/planning/planning-application-status/prior-approval-(other)> skos:inScheme <http://data.gmdsp.org.uk/def/council/planning/planning-application-status> ;
+        a skos:Concept ;
+        rdfs:label 'Prior Approval (Other)' ;
+        skos:prefLabel 'Prior Approval (Other)' ;
+        skos:definition 'Prior Approval (Other)' .
+
+<http://data.gmdsp.org.uk/def/council/planning/planning-application-status/waste> skos:inScheme <http://data.gmdsp.org.uk/def/council/planning/planning-application-status> ;
+        a skos:Concept ;
+        rdfs:label 'Waste' ;
+        skos:prefLabel 'Waste' ;
+        skos:definition 'Waste' .
+
+<http://data.gmdsp.org.uk/def/council/planning/planning-application-status/non-material-change-application> skos:inScheme <http://data.gmdsp.org.uk/def/council/planning/planning-application-status> ;
+        a skos:Concept ;
+        rdfs:label 'Non-Material Change Application' ;
+        skos:prefLabel 'Non-Material Change Application' ;
+        skos:definition 'Non-Material Change Application' .
+
+<http://data.gmdsp.org.uk/def/council/planning/planning-application-status/replace-extant-permission-application> skos:inScheme <http://data.gmdsp.org.uk/def/council/planning/planning-application-status> ;
+        a skos:Concept ;
+        rdfs:label 'Replace Extant Permission Application' ;
+        skos:prefLabel 'Replace Extant Permission Application' ;
+        skos:definition 'Replace Extant Permission Application' .
+
+<http://data.gmdsp.org.uk/def/council/planning/planning-application-status/hedgerow-regulation-application> skos:inScheme <http://data.gmdsp.org.uk/def/council/planning/planning-application-status> ;
+        a skos:Concept ;
+        rdfs:label 'Hedgerow regulation application' ;
+        skos:prefLabel 'Hedgerow regulation application' ;
+        skos:definition 'Hedgerow regulation application' .
+
+<http://data.gmdsp.org.uk/def/council/planning/planning-application-status/general-permitted-development-extensions> skos:inScheme <http://data.gmdsp.org.uk/def/council/planning/planning-application-status> ;
+        a skos:Concept ;
+        rdfs:label 'General Permitted Development-Extensions' ;
+        skos:prefLabel 'General Permitted Development-Extensions' ;
+        skos:definition 'General Permitted Development-Extensions' .
+
+<http://data.gmdsp.org.uk/def/council/planning/planning-application-status/prior-approval-offices-to-dwellings> skos:inScheme <http://data.gmdsp.org.uk/def/council/planning/planning-application-status> ;
+        a skos:Concept ;
+        rdfs:label 'Prior Approval Offices to Dwellings' ;
+        skos:prefLabel 'Prior Approval Offices to Dwellings' ;
+        skos:definition 'Prior Approval Offices to Dwellings' .
+
+<http://data.gmdsp.org.uk/def/council/planning/planning-application-status/temporary-change-of-use> skos:inScheme <http://data.gmdsp.org.uk/def/council/planning/planning-application-status> ;
+        a skos:Concept ;
+        rdfs:label 'Temporary Change of Use' ;
+        skos:prefLabel 'Temporary Change of Use' ;
+        skos:definition 'Temporary Change of Use' .

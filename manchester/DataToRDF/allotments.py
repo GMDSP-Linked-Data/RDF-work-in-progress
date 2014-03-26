@@ -41,7 +41,7 @@ import pprint
 import utm
 from bs4 import BeautifulSoup
 
-storefn = os.path.dirname(os.path.realpath(__file__)) + '/allotments-tmp.rdf'
+storefn = os.path.dirname(os.path.realpath(__file__)) + '/Output/allotments-tmp.rdf'
 #storefn = '/home/simon/codes/film.dev/movies.n3'
 storeuri = 'file://'+storefn
 title = 'Movies viewed by %s'
@@ -89,7 +89,7 @@ class Store:
         self.new_address(address)
         print utm.from_latlon(float(location.split(',')[0]), float(location.split(',')[1]))[1]
         allotment = al[name.replace(" ", "-").lower()] # @@ humanize the identifier (something like #rev-$date)
-        self.graph.add((allotment, RDF.type, URIRef('http://data.gmdsp.org.uk/def/council/allotment')))
+        self.graph.add((allotment, RDF.type, URIRef('http://data.gmdsp.org.uk/def/council/allotment/Allotment')))
         self.graph.add((allotment, SCHEME['url'], Literal(application)))
         self.graph.add((allotment, SCHEME['url'], Literal(external_link)))
         self.graph.add((allotment, SCHEME['url'], Literal("http://www.manchester.gov.uk"+guidence)))
@@ -98,7 +98,7 @@ class Store:
         self.graph.add((allotment, OS["northing"], Literal(str(utm.from_latlon(float(location.split(',')[0]), float(location.split(',')[1]))[0]))))
         self.graph.add((allotment, OS["easting"], Literal(str(utm.from_latlon(float(location.split(',')[0]), float(location.split(',')[1]))[1]))))
         self.graph.add((allotment, RDFS['label'], Literal(name)))
-        self.graph.add((allotment,VCARD['adr'], URIRef("http://data.gmdsp.org.uk/def/council/neighbourhood/allotment/address/"+address.replace(" ", "_").replace(",","-").lower())))
+        self.graph.add((allotment,VCARD['adr'], URIRef("http://data.gmdsp.org.uk/id/manchester/allotments/address/"+address.replace(" ", "_").replace(",","-").lower())))
         self.save()
 
 def help():

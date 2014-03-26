@@ -53,7 +53,8 @@ GEO = Namespace('http://www.w3.org/2003/01/geo/wgs84_pos#')
 VCARD = Namespace('http://www.w3.org/2006/vcard/ns#')
 SCHEMA = Namespace('http://schema.org/')
 sl = Namespace('http://data.gmdsp.org.uk/id/manchester/street-lights/')
-streetdef = Namespace('http://data.gmdsp.org.uk/def/council/streetlighting/')
+streetdef = Namespace('http://data.gmdsp.org.uk/def/council/streetlighting/Streetlight')
+
 class Store:
     def __init__(self):
 
