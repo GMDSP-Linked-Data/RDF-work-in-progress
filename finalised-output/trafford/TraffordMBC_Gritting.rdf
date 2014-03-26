@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<rdf:RDF
+  xmlns:ns1="http://data.gmdsp.org.uk/def/council/gritting/"
+  xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+  xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
+>
+  <ns1:GrittingRoute rdf:about="http://data.gmdsp.org.uk/id/trafford/gritting/route">
+    <rdfs:label>Gritting routes, Trafford</rdfs:label>
+    <ns1:routeFile rdf:resource="https://raw.githubusercontent.com/GMDSP-Linked-Data/RDF-work-in-progress/master/finalised-output/trafford/gritting/Gritting_routes_polyline.json"/>
+  </ns1:GrittingRoute>
+</rdf:RDF>
