@@ -101,7 +101,7 @@ class Store:
         self.graph.add((applicatinon, PLANNING['validatedDate'], URIRef('http://reference.data.gov.uk/id/day/'+time.strftime('%Y-%m-%d',dateapval))))
         self.graph.add((applicatinon, PLANNING['decision'], URIRef('http://data.gmdsp.org.uk/def/council/planning/planning-application-status/'+dissision.replace (" ", "-").lower())))
         self.graph.add((applicatinon, PLANNING['applicationType'], URIRef('http://data.gmdsp.org.uk/def/council/planning/planning-application-status/'+application_type.replace (" ", "-").lower())))
-        self.graph.add((applicatinon, GEO["ward"], URIRef("http://data.ordnancesurvey.co.uk/ontology/postcode/ward/"+ward)))
+        self.graph.add((applicatinon, OS["DistrictWard"], URIRef("http://data.ordnancesurvey.co.uk/id/"+ward)))
         self.graph.add((applicatinon, PLANNING["proposal"], Literal(proposal)))
         self.graph.add((applicatinon, PLANNING["other"], Literal(DTYPNUMBCO_CODETEXT)))
 
@@ -131,7 +131,7 @@ def main(argv=None):
         if row["DATEAPVAL"] == "":
             row["DATEAPVAL"] = "01/01/0001"
 
-        if count < 100:
+        if count < 10000000000:
             count = count + 1
             s.new_plan(rx.sub(" ", row["ADDRESS"]).strip(), row["Ward Name"].strip().replace(' ','-'), row["REFVAL"].strip(), time.strptime(row["DATEAPVAL"].strip(), "%d/%m/%Y"), time.strptime(row["DATEDECISS"].strip(), "%d/%m/%Y"), row["DECSN CODE_CODETEXT"], row["DCAPPTYP CODE_CODETEXT"], rx.sub(" ", row["PROPOSAL"]).strip().decode("utf-8", "replace").replace('\n', ' ').replace('\r', ''), row["DTYPNUMBCO_CODETEXT"])
     s.save()

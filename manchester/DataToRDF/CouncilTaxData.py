@@ -132,7 +132,7 @@ class Store:
         observation = COUNCILTAX[postcode.replace(" ", "-").lower()+band.replace(" ", "-").lower()]
         self.graph.add((observation, RDF.type, qb['Observation']))
         self.graph.add((observation, qb["dataSet"], URIRef('http://data.gmdsp.org.uk/data/manchester/council-tax')))
-        self.graph.add((observation, COUNCILTAX['refArea'], URIRef("http://data.ordnancesurvey.co.uk/doc/postcodeunit/"+postcode.replace(" ",""))))
+        self.graph.add((observation, COUNCILTAX['refArea'], URIRef("http://data.ordnancesurvey.co.uk/id/postcodeunit/"+postcode.replace(" ",""))))
         self.graph.add((observation, COUNCILTAX['countDef'], Literal(count, datatype=XSD.integer)))
         #refrence this to the list in the data set which Ian is making.
         self.graph.add((observation, COUNCILTAX['refBand'], COUNCILBAND[band]))
