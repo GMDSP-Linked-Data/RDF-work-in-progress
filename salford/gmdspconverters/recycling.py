@@ -20,7 +20,7 @@ def convert(graph, input_path):
         graph.add((rc, utils.RDFS['label'], Literal("Recycling Site at " + row["Location"])))
 
         address = utils.idify(row["Address"])
-        graph.add((rc, utils.VCARD['adr'], URIRef("http://data.gmdsp.org.uk/def/council/recycling-centre/address/"+address)))
+        graph.add((rc, utils.VCARD['hasAddress'], URIRef("http://data.gmdsp.org.uk/def/council/recycling-centre/address/"+address)))
 
         # now add the address VCARD
         vcard = RECYCLING["address/"+address]

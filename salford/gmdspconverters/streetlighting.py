@@ -21,7 +21,7 @@ def convert(graph, input_path):
         graph.add((sl, utils.RDFS['label'], Literal(row["FEATURE ID"])))
 
         address = utils.idify(row["FEATURE ID"])
-        graph.add((sl, utils.VCARD['adr'], STREETLIGHT["address/"+address]))
+        graph.add((sl, utils.VCARD['hasAddress'], STREETLIGHT["address/"+address]))
 
         # now add the address VCARD
         vcard = al["address/"+address]
