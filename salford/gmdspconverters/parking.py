@@ -37,3 +37,4 @@ def convert(graph, input_path):
         graph.add((vcard, utils.RDFS['label'], Literal(row["Name"])))
         graph.add((vcard, utils.VCARD['street-address'], Literal(row["Address"])))
         graph.add((vcard, utils.VCARD['postal-code'], Literal(row["Postcode"])))
+        graph.add((vcard, utils.POST['postcode'], URIRef(utils.convertpostcodeto_osuri(row["Postcode"]))))
