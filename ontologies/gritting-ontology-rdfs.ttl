@@ -26,7 +26,7 @@ gritting:GrittingRoute
 #################################################################
 
 gritting:routeFile
-      rdf:type rdfs:Property ;
+      rdf:type rdf:Property ;
       rdfs:label "Gritting route file"^^xsd:string ;
 	  rdfs:comment "URL for a file which contains the collection of geo encoded points for a gritting route. Encoded as either lat/long or easting/northing pairs." ;
       rdfs:domain gritting:GrittingRoute .

@@ -1,4 +1,5 @@
 @prefix rdfs:  <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
 @prefix owl:   <http://www.w3.org/2002/07/owl#> .
 @prefix xsd:   <http://www.w3.org/2001/XMLSchema#> .
 @prefix rdf:   <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
@@ -20,7 +21,7 @@
         rdfs:isDefinedBy <http://data.gmdsp.org.uk/def/council/allotment> .
 
 <http://data.gmdsp.org.uk/def/council/allotment/numberOfPlots>
-        a             rdfs:Property ;
+        a             rdf:Property ;
         rdfs:comment  "Total number of plots which the allotment has"^^xsd:string ;
         rdfs:domain   <http://data.gmdsp.org.uk/def/council/allotment/Allotment> ;
         rdfs:label    "Total number of plots"^^xsd:string ;
@@ -28,7 +29,7 @@
         rdfs:isDefinedBy <http://data.gmdsp.org.uk/def/council/allotment> .
 
 <http://data.gmdsp.org.uk/def/council/allotment/informationPage>
-        a                   rdfs:Property ;
+        a                   rdf:Property ;
         rdfs:comment        "Page (given by URL) where further information for this allotment."^^xsd:string ;
         rdfs:domain         <http://data.gmdsp.org.uk/def/council/allotment/Allotment> ;
         rdfs:label          "Information page"^^xsd:string ;
@@ -36,7 +37,7 @@
         rdfs:isDefinedBy <http://data.gmdsp.org.uk/def/council/allotment> .
 
 <http://data.gmdsp.org.uk/def/council/allotment/disabledAccess>
-        a             rdfs:Property ;
+        a             rdf:Property ;
         rdfs:comment  "Does the allotment have disabled access"^^xsd:string ;
         rdfs:domain   <http://data.gmdsp.org.uk/def/council/allotment/Allotment> ;
         rdfs:label    "Disabled access"^^xsd:string ;
@@ -44,7 +45,7 @@
         rdfs:isDefinedBy <http://data.gmdsp.org.uk/def/council/allotment> .
 
 <http://data.gmdsp.org.uk/def/council/allotment/plotSize>
-        a             rdfs:Property ;
+        a             rdf:Property ;
         rdfs:comment  "How big is the allotment plot in square meters"^^xsd:string ;
         rdfs:domain   <http://data.gmdsp.org.uk/def/council/allotment/Allotment> ;
         rdfs:label    "Plot size"^^xsd:string ;
@@ -57,11 +58,11 @@
         rdfs:label    "A plot belongs to an allotment"^^xsd:string ;
         rdfs:range    <http://data.gmdsp.org.uk/def/council/Plot> ;
         <http://www.w3.org/2000/01/rdf-schema#type:>
-                rdfs:Property ;
+                rdf:Property ;
                 rdfs:isDefinedBy <http://data.gmdsp.org.uk/def/council/allotment> .
 
 <http://data.gmdsp.org.uk/def/council/allotment/applicationPage>
-        a                   rdfs:Property ;
+        a                   rdf:Property ;
         rdfs:comment        "Page (given by URL) with application information for this allotment."^^xsd:string ;
         rdfs:domain         <http://data.gmdsp.org.uk/def/council/allotment/Allotment> ;
         rdfs:label          "Application page"^^xsd:string ;
@@ -69,7 +70,7 @@
         rdfs:isDefinedBy <http://data.gmdsp.org.uk/def/council/allotment> .
 
 <http://data.gmdsp.org.uk/def/council/allotment/guidancePage>
-        a                   rdfs:Property ;
+        a                   rdf:Property ;
         rdfs:comment        "Page (given by URL) with guidance for this allotment."^^xsd:string ;
         rdfs:domain         <http://data.gmdsp.org.uk/def/council/allotment/Allotment> ;
         rdfs:label          "Guidance page"^^xsd:string ;
@@ -83,37 +84,37 @@
         rdfs:isDefinedBy <http://data.gmdsp.org.uk/def/council/allotment> .
 
 <http://data.gmdsp.org.uk/def/statistical-dimension/allotments/refAllotment> 
-        a                rdfs:Property ;
+        a                rdf:Property ;
         rdfs:label       "Reference allotment."^^xsd:string ;
         rdfs:comment     "Used when referring to an allotment measure in an observation" ;
         rdfs:isDefinedBy <http://data.gmdsp.org.uk/def/statistical-dimension/allotments>  .
 
 <http://data.gmdsp.org.uk/def/statistical-dimension/allotments/inUse> 
-        a                rdfs:Property ;
+        a                rdf:Property ;
         rdfs:label       "The allotment usage"^^xsd:string ;
         rdfs:comment     "Used when referring to allotment usage at one particular moment in time in an statistical observation" ;
         rdfs:isDefinedBy <http://data.gmdsp.org.uk/def/statistical-dimension/allotments>  .
 
 <http://data.gmdsp.org.uk/def/statistical-dimension/allotments/untenable> 
-        a                rdfs:Property ;
+        a                rdf:Property ;
         rdfs:label       "The amount of allotment plots which are untenable"^^xsd:string ;
         rdfs:comment     "Used when referring to the amount of allotment plots which are untenable at one particular moment in time in an statistical observation" ;
         rdfs:isDefinedBy <http://data.gmdsp.org.uk/def/statistical-dimension/allotments>  .
 
 <http://data.gmdsp.org.uk/def/statistical-dimension/allotments/vacant> 
-        a                rdfs:Property ;
+        a                rdf:Property ;
         rdfs:label       "The amount of allotment plots which are vacant"^^xsd:string ;
         rdfs:comment     "Used when referring to the amount of allotment plots which are vacant at one particular moment in time in an statistical observation" ;
         rdfs:isDefinedBy <http://data.gmdsp.org.uk/def/statistical-dimension/allotments>  .
 
 <http://data.gmdsp.org.uk/def/statistical-dimension/allotments/notice> 
-        a                rdfs:Property ;
+        a                rdf:Property ;
         rdfs:label       "The amount of allotment plots who's renters have been given notice"^^xsd:string ;
         rdfs:comment     "Used when referring to the amount of allotment plots who's current renters have been served notice to vacate at one particular moment in time in an statistical observation" ;
         rdfs:isDefinedBy <http://data.gmdsp.org.uk/def/statistical-dimension/allotments>  .
 
 <http://data.gmdsp.org.uk/def/statistical-dimension/allotments/waiting> 
-        a                rdfs:Property ;
+        a                rdf:Property ;
         rdfs:label       "The number of people on the waiting list for an alotment"^^xsd:string ;
         rdfs:comment     "Used when referring to the number of people on the waiting list at an allotment at one particular moment in time in an statistical observation" ;
         rdfs:isDefinedBy <http://data.gmdsp.org.uk/def/statistical-dimension/allotments>  .
