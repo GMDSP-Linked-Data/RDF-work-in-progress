@@ -20,7 +20,7 @@
 #
 #################################################################
 
-<http://data.gmdsp.org.uk/def/council/counciltax/CouncilTaxBand>
+<http://data.gmdsp.org.uk/def/council/counciltax/councilTaxBand>
       rdf:type rdfs:Property ;
       rdfs:label "Council tax band"^^xsd:string ;
 	  rdfs:comment "What council tax applies to a particular property or group of properties eg in a postcode." ;
