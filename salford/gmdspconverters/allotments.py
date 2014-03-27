@@ -47,19 +47,18 @@ def convert(graph, input_path):
         graph.add((allotment, utils.GEO["lat"], Literal(lat_long[1])))
 
         address = utils.idify(row["Address"])
-        graph.add((allotment, utils.VCARD['adr'], al_ont["address/"+address]))
+        graph.add((allotment, utils.VCARD['hasAddress'], al_ont["address/"+address]))
 
         street_address, address_postcode = postcode_helper(row["Address"])
 
         # now add the address VCARD
         vcard = al["address/"+address]
-        graph.add((vcard, RDF.type, utils.VCARD["location"]))
+        graph.add((vcard, RDF.type, utils.VCARD["Location"]))
         graph.add((vcard, utils.RDFS['label'], Literal("Address of allotment site " + row["Name"])))
         graph.add((vcard, utils.VCARD['street-address'], Literal(street_address)))
         if address_postcode is not None:
             graph.add((vcard, utils.VCARD['postal-code'], Literal(address_postcode)))
-            os_postcode = address_postcode.replace(" ", "").upper()
-            graph.add((vcard, utils.POST['postcode'], URIRef("http://data.ordnancesurvey.co.uk/id/postcodeunit/"+os_postcode)))
+            graph.add((vcard, utils.POST['postcode'], URIRef(utils.convertpostcodeto_osuri(address_postcode))))
 
         if row["Plots"]:
             try:

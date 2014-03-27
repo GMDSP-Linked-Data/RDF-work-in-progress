@@ -52,7 +52,7 @@
 	a skos:Concept ;
 	rdfs:label "band G" ;
 	skos:prefLabel "band G" ;
-	skos:definition "Council tax v G" .
+	skos:definition "Council tax band G" .
 	
 <http://data.gmdsp.org.uk/def/council/counciltax/council-tax-bands/H> skos:inScheme <http://data.gmdsp.org.uk/def/council/counciltax/council-tax-bands> ;
 	a skos:Concept ;
@@ -64,4 +64,5 @@
 	a skos:Concept ;
 	rdfs:label "band T" ;
 	skos:prefLabel "band T" ;
+	rdfs:comment "Band T refers to a temporary deletion of the property from the ratings list. This is done at the Valuation Office's discretion and usually relates to properties that are going through a large scale redevelopment" ;
 	skos:definition "Council tax band T" .
