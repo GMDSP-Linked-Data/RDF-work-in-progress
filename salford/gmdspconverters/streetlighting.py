@@ -28,6 +28,7 @@ def convert(graph, input_path):
         graph.add((vcard, RDF.type, utils.VCARD["Location"]))
         graph.add((vcard, utils.VCARD['street-address'], Literal(row["ROADNAME"])))
         graph.add((vcard, utils.VCARD['postal-code'], Literal(row["POSTCODE"])))
+        graph.add((vcard, utils.POST['postcode'], URIRef(utils.convertpostcodeto_osuri(row["POSTCODE"]))))
 
         # street light specific stuff
         if row["LAMP WATTAGE"]:
