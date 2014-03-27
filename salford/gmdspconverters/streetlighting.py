@@ -18,7 +18,7 @@ def convert(graph, input_path):
     for row in reader:
         sl = STREETLIGHT[utils.idify(row["FEATURE ID"])]
         graph.add((sl, RDF.type, STREETLIGHT_ONT["Streetlight"]))
-        graph.add((sl, utils.RDFS['label'], Literal(row["FEATURE ID"])))
+        graph.add((sl, utils.RDFS['label'], Literal("Streetlight with ID " + row["FEATURE ID"])))
 
         address = utils.idify(row["FEATURE ID"])
         graph.add((sl, utils.VCARD['hasAddress'], STREETLIGHT["address/"+address]))
@@ -26,6 +26,7 @@ def convert(graph, input_path):
         # now add the address VCARD
         vcard = STREETLIGHT["address/"+address]
         graph.add((vcard, RDF.type, utils.VCARD["Location"]))
+        graph.add((vcard, utils.RDFS['label'], Literal("Address of streetlight with ID " + row["FEATURE ID"])))
         graph.add((vcard, utils.VCARD['street-address'], Literal(row["ROADNAME"])))
         graph.add((vcard, utils.VCARD['postal-code'], Literal(row["POSTCODE"])))
         graph.add((vcard, utils.POST['postcode'], URIRef(utils.convertpostcodeto_osuri(row["POSTCODE"]))))
