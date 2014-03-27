@@ -1,0 +1,11 @@
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+
+<http://data.gmdsp.org.uk/def/council/parking/parking-type> a skos:ConceptScheme ;
+        skos:hasTopConcept <http://data.gmdsp.org.uk/def/council/parking/parking-type/pay-and-display> .
+
+<http://data.gmdsp.org.uk/def/council/parking/parking-type/pay-and-display> skos:inScheme <http://data.gmdsp.org.uk/def/council/parking/parking-type> ;
+	a skos:Concept ;
+	rdfs:label "Pay and display" ;
+	skos:prefLabel "Pay and display" ;
+	skos:definition "Pay and display" .
