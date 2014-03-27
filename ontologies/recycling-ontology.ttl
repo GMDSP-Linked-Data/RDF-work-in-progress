@@ -25,4 +25,4 @@
       rdfs:label "Recycling type"^^xsd:string ;
 	  rdfs:comment "What types of recycling a particular recycling site can handle." ;
       rdfs:domain <http://data.gmdsp.org.uk/def/council/recycling/RecyclingSite> ;
-      rdfs:range <http://data.gmdsp.org.uk/def/council/council-tax-bands/> .
+      rdfs:range <http://data.gmdsp.org.uk/def/council/recycling/recycling-type> .
