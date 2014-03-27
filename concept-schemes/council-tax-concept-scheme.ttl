@@ -9,7 +9,8 @@
         skos:hasTopConcept <http://data.gmdsp.org.uk/def/council/counciltax/council-tax-bands/E> ;
         skos:hasTopConcept <http://data.gmdsp.org.uk/def/council/counciltax/council-tax-bands/F> ;
         skos:hasTopConcept <http://data.gmdsp.org.uk/def/council/counciltax/council-tax-bands/G> ;
-        skos:hasTopConcept <http://data.gmdsp.org.uk/def/council/counciltax/council-tax-bands/H> .
+        skos:hasTopConcept <http://data.gmdsp.org.uk/def/council/counciltax/council-tax-bands/H> ;
+        skos:hasTopConcept <http://data.gmdsp.org.uk/def/council/counciltax/council-tax-bands/T> .
 
 <http://data.gmdsp.org.uk/def/council/counciltax/council-tax-bands/A> skos:inScheme <http://data.gmdsp.org.uk/def/council/counciltax/council-tax-bands> ;
 	a skos:Concept ;
