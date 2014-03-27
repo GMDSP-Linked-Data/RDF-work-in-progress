@@ -26,6 +26,8 @@ def idify(s):
         ",",
         "/",
     ]
+    s = s.lstrip()
+    s = s.rstrip()
     s = re.sub('[%s]' % ''.join(chars), '-', s)
     return s.lower()
 
