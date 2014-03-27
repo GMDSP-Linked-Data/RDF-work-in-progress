@@ -1,401 +1,401 @@
 <?xml version="1.0" encoding="utf-8"?>
 <rdf:RDF
   xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
-  xmlns:geo="http://www.w3.org/2003/01/geo/wgs84_pos#"
-  xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
-  xmlns:ns1="http://data.ordnancesurvey.co.uk/ontology/postcode/"
-  xmlns:ns2="http://data.gmdsp.org.uk/def/council/allotment/"
   xmlns:os="http://data.ordnancesurvey.co.uk/ontology/spatialrelations/"
+  xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+  xmlns:ns1="http://data.gmdsp.org.uk/def/council/allotment/"
+  xmlns:ns2="http://data.ordnancesurvey.co.uk/ontology/postcode/"
+  xmlns:geo="http://www.w3.org/2003/01/geo/wgs84_pos#"
   xmlns:vcard="http://www.w3.org/2006/vcard/ns#"
 >
-  <ns2:Allotment rdf:about="http://data.gmdsp.org.uk/id/salford/allotments/addison-road-allotments">
-    <geo:long rdf:datatype="http://www.w3.org/2001/XMLSchema#double">-2.40734745929</geo:long>
+  <ns1:Allotment rdf:about="http://data.gmdsp.org.uk/id/salford/allotments/toad-lane-allotments">
+    <geo:long rdf:datatype="http://www.w3.org/2001/XMLSchema#double">-2.37476189959</geo:long>
     <vcard:hasAddress>
-      <vcard:Location rdf:about="http://data.gmdsp.org.uk/id/salford/allotments/address/addison-road-allotments-addison-road-irlam-manchester-m44-6ep-">
-        <ns1:postcode rdf:resource="http://data.ordnancesurvey.co.uk/id/postcodeunit/M446EP"/>
-        <rdfs:label>Address of allotment site Addison Road Allotments</rdfs:label>
-        <vcard:street-address>Addison Road Allotments Addison Road Irlam Manchester </vcard:street-address>
-        <vcard:postal-code>M44 6EP</vcard:postal-code>
+      <vcard:Location rdf:about="http://data.gmdsp.org.uk/id/salford/allotments/address/toad-lane-allotments-greenleach-lane-worsley-manchester-m28-2rr">
+        <rdfs:label>Address of allotment site Toad Lane Allotments</rdfs:label>
+        <vcard:postal-code>M28 2RR</vcard:postal-code>
+        <vcard:street-address>Toad Lane Allotments Greenleach Lane Worsley Manchester </vcard:street-address>
+        <ns2:postcode rdf:resource="http://data.ordnancesurvey.co.uk/id/postcodeunit/M282RR"/>
       </vcard:Location>
     </vcard:hasAddress>
-    <os:northing>395664</os:northing>
-    <rdfs:label>Allotment site Addison Road Allotments</rdfs:label>
-    <os:easting>373049</os:easting>
-    <geo:lat rdf:datatype="http://www.w3.org/2001/XMLSchema#double">53.4570326225</geo:lat>
-  </ns2:Allotment>
-  <ns2:Allotment rdf:about="http://data.gmdsp.org.uk/id/salford/allotments/linnyshaw-allotments">
-    <vcard:hasAddress>
-      <vcard:Location rdf:about="http://data.gmdsp.org.uk/id/salford/allotments/address/linnyshaw-allotments-bracken-avenue-worsley-manchester-m28-3fy-">
-        <rdfs:label>Address of allotment site Linnyshaw Allotments</rdfs:label>
-        <vcard:postal-code>M28 3FY</vcard:postal-code>
-        <vcard:street-address>Linnyshaw Allotments Bracken Avenue Worsley Manchester </vcard:street-address>
-        <ns1:postcode rdf:resource="http://data.ordnancesurvey.co.uk/id/postcodeunit/M283FY"/>
-      </vcard:Location>
-    </vcard:hasAddress>
-    <os:northing>403055</os:northing>
-    <rdfs:label>Allotment site Linnyshaw Allotments</rdfs:label>
-    <geo:long rdf:datatype="http://www.w3.org/2001/XMLSchema#double">-2.38848246802</geo:long>
-    <os:easting>374342</os:easting>
-    <geo:lat rdf:datatype="http://www.w3.org/2001/XMLSchema#double">53.5235293469</geo:lat>
-  </ns2:Allotment>
-  <ns2:Allotment rdf:about="http://data.gmdsp.org.uk/id/salford/allotments/cotton-street-allotments">
-    <os:northing>403130</os:northing>
-    <vcard:hasAddress>
-      <vcard:Location rdf:about="http://data.gmdsp.org.uk/id/salford/allotments/address/cotton-street-allotments-fitton-crescent-clifton-swinton-manchester-m27-6pj-">
-        <ns1:postcode rdf:resource="http://data.ordnancesurvey.co.uk/id/postcodeunit/M276PJ"/>
-        <vcard:street-address>Cotton Street Allotments Fitton Crescent Clifton Swinton Manchester </vcard:street-address>
-        <rdfs:label>Address of allotment site Cotton Street Allotments</rdfs:label>
-        <vcard:postal-code>M27 6PJ</vcard:postal-code>
-      </vcard:Location>
-    </vcard:hasAddress>
-    <geo:lat rdf:datatype="http://www.w3.org/2001/XMLSchema#double">53.5243599597</geo:lat>
-    <geo:long rdf:datatype="http://www.w3.org/2001/XMLSchema#double">-2.33693346098</geo:long>
-    <rdfs:label>Allotment site Cotton Street Allotments</rdfs:label>
-    <os:easting>377760</os:easting>
-  </ns2:Allotment>
-  <ns2:Allotment rdf:about="http://data.gmdsp.org.uk/id/salford/allotments/corrie-street-allotments">
-    <os:northing>403692</os:northing>
-    <os:easting>372433</os:easting>
-    <vcard:hasAddress>
-      <vcard:Location rdf:about="http://data.gmdsp.org.uk/id/salford/allotments/address/corrie-street-allotments-corrie-street-little-hulton-manchester-m38-9wg-">
-        <vcard:street-address>Corrie Street Allotments Corrie Street Little Hulton Manchester </vcard:street-address>
-        <vcard:postal-code>M38 9WG</vcard:postal-code>
-        <rdfs:label>Address of allotment site Corrie Street Allotments</rdfs:label>
-        <ns1:postcode rdf:resource="http://data.ordnancesurvey.co.uk/id/postcodeunit/M389WG"/>
-      </vcard:Location>
-    </vcard:hasAddress>
-    <geo:long rdf:datatype="http://www.w3.org/2001/XMLSchema#double">-2.41733237701</geo:long>
-    <rdfs:label>Allotment site Corrie Street Allotments</rdfs:label>
-    <geo:lat rdf:datatype="http://www.w3.org/2001/XMLSchema#double">53.5291577041</geo:lat>
-  </ns2:Allotment>
-  <ns2:Allotment rdf:about="http://data.gmdsp.org.uk/id/salford/allotments/cleavley-allotments">
-    <os:easting>375152</os:easting>
-    <geo:lat rdf:datatype="http://www.w3.org/2001/XMLSchema#double">53.490024477</geo:lat>
-    <geo:long rdf:datatype="http://www.w3.org/2001/XMLSchema#double">-2.3759679666</geo:long>
-    <vcard:hasAddress>
-      <vcard:Location rdf:about="http://data.gmdsp.org.uk/id/salford/allotments/address/cleavley-allotments-blantyre-street-eccles-manchester-m30-8hy-">
-        <vcard:postal-code>M30 8HY</vcard:postal-code>
-        <rdfs:label>Address of allotment site Cleavley Allotments</rdfs:label>
-        <vcard:street-address>Cleavley Allotments Blantyre Street Eccles Manchester </vcard:street-address>
-        <ns1:postcode rdf:resource="http://data.ordnancesurvey.co.uk/id/postcodeunit/M308HY"/>
-      </vcard:Location>
-    </vcard:hasAddress>
-    <os:northing>399323</os:northing>
-    <rdfs:label>Allotment site Cleavley Allotments</rdfs:label>
-  </ns2:Allotment>
-  <ns2:Allotment rdf:about="http://data.gmdsp.org.uk/id/salford/allotments/tynesbank-allotments">
-    <geo:lat rdf:datatype="http://www.w3.org/2001/XMLSchema#double">53.5247662443</geo:lat>
-    <vcard:hasAddress>
-      <vcard:Location rdf:about="http://data.gmdsp.org.uk/id/salford/allotments/address/tynesbank-allotments-shearwater-drive-worsley-manchester-m28-0ah-">
-        <vcard:street-address>Tynesbank Allotments Shearwater Drive Worsley Manchester </vcard:street-address>
-        <rdfs:label>Address of allotment site Tynesbank Allotments</rdfs:label>
-        <vcard:postal-code>M28 0AH</vcard:postal-code>
-        <ns1:postcode rdf:resource="http://data.ordnancesurvey.co.uk/id/postcodeunit/M280AH"/>
-      </vcard:Location>
-    </vcard:hasAddress>
-    <rdfs:label>Allotment site Tynesbank Allotments</rdfs:label>
-    <geo:long rdf:datatype="http://www.w3.org/2001/XMLSchema#double">-2.40576499046</geo:long>
-    <os:easting>373197</os:easting>
-    <os:northing>403199</os:northing>
-  </ns2:Allotment>
-  <ns2:Allotment rdf:about="http://data.gmdsp.org.uk/id/salford/allotments/bingham-street-allotments">
-    <geo:long rdf:datatype="http://www.w3.org/2001/XMLSchema#double">-2.33389755562</geo:long>
-    <geo:lat rdf:datatype="http://www.w3.org/2001/XMLSchema#double">53.5104274372</geo:lat>
-    <os:northing>401579</os:northing>
-    <vcard:hasAddress>
-      <vcard:Location rdf:about="http://data.gmdsp.org.uk/id/salford/allotments/address/swinton-and-pendlebury-gardening-association-bingham-street-allotments-bingham-street-swinton-manchester-m27-4aq-">
-        <ns1:postcode rdf:resource="http://data.ordnancesurvey.co.uk/id/postcodeunit/M274AQ"/>
-        <vcard:street-address>Swinton And Pendlebury Gardening Association Bingham Street Allotments Bingham Street Swinton Manchester </vcard:street-address>
-        <rdfs:label>Address of allotment site Bingham Street Allotments</rdfs:label>
-        <vcard:postal-code>M27 4AQ</vcard:postal-code>
-      </vcard:Location>
-    </vcard:hasAddress>
-    <rdfs:label>Allotment site Bingham Street Allotments</rdfs:label>
-    <os:easting>377954</os:easting>
-  </ns2:Allotment>
-  <ns2:Allotment rdf:about="http://data.gmdsp.org.uk/id/salford/allotments/blackleach-allotments">
-    <rdfs:label>Allotment site Blackleach Allotments</rdfs:label>
-    <vcard:hasAddress>
-      <vcard:Location rdf:about="http://data.gmdsp.org.uk/id/salford/allotments/address/blackleach-allotments-harcourt-street-worsley-manchester-m28-3gn-">
-        <vcard:postal-code>M28 3GN</vcard:postal-code>
-        <ns1:postcode rdf:resource="http://data.ordnancesurvey.co.uk/id/postcodeunit/M283GN"/>
-        <vcard:street-address>Blackleach Allotments Harcourt Street Worsley Manchester </vcard:street-address>
-        <rdfs:label>Address of allotment site Blackleach Allotments</rdfs:label>
-      </vcard:Location>
-    </vcard:hasAddress>
-    <os:northing>404201</os:northing>
-    <geo:long rdf:datatype="http://www.w3.org/2001/XMLSchema#double">-2.39841337463</geo:long>
-    <geo:lat rdf:datatype="http://www.w3.org/2001/XMLSchema#double">53.5337973834</geo:lat>
-    <os:easting>373690</os:easting>
-  </ns2:Allotment>
-  <ns2:Allotment rdf:about="http://data.gmdsp.org.uk/id/salford/allotments/townsend-road-allotments">
-    <os:northing>402145</os:northing>
-    <os:easting>378056</os:easting>
-    <rdfs:label>Allotment site Townsend Road Allotments</rdfs:label>
-    <vcard:hasAddress>
-      <vcard:Location rdf:about="http://data.gmdsp.org.uk/id/salford/allotments/address/townsend-road-allotments-townsend-road-pendlebury-swinton-manchester-m27-6ed-">
-        <vcard:postal-code>M27 6ED</vcard:postal-code>
-        <vcard:street-address>Townsend Road Allotments Townsend Road Pendlebury Swinton Manchester </vcard:street-address>
-        <rdfs:label>Address of allotment site Townsend Road Allotments</rdfs:label>
-        <ns1:postcode rdf:resource="http://data.ordnancesurvey.co.uk/id/postcodeunit/M276ED"/>
-      </vcard:Location>
-    </vcard:hasAddress>
-    <geo:long rdf:datatype="http://www.w3.org/2001/XMLSchema#double">-2.33239938154</geo:long>
-    <geo:lat rdf:datatype="http://www.w3.org/2001/XMLSchema#double">53.5155190667</geo:lat>
-  </ns2:Allotment>
-  <ns2:Allotment rdf:about="http://data.gmdsp.org.uk/id/salford/allotments/dixon-street-allotments">
-    <vcard:hasAddress>
-      <vcard:Location rdf:about="http://data.gmdsp.org.uk/id/salford/allotments/address/dixon-street-allotments-dixon-street-irlam-manchester-m44-6ad-">
-        <rdfs:label>Address of allotment site Dixon Street Allotments</rdfs:label>
-        <vcard:street-address>Dixon Street Allotments Dixon Street Irlam Manchester </vcard:street-address>
-        <vcard:postal-code>M44 6AD</vcard:postal-code>
-        <ns1:postcode rdf:resource="http://data.ordnancesurvey.co.uk/id/postcodeunit/M446AD"/>
-      </vcard:Location>
-    </vcard:hasAddress>
-    <rdfs:label>Allotment site Dixon Street Allotments</rdfs:label>
-    <geo:lat rdf:datatype="http://www.w3.org/2001/XMLSchema#double">53.4398638726</geo:lat>
-    <os:northing>393763</os:northing>
-    <geo:long rdf:datatype="http://www.w3.org/2001/XMLSchema#double">-2.43057695353</geo:long>
-    <os:easting>371495</os:easting>
-  </ns2:Allotment>
-  <ns2:Allotment rdf:about="http://data.gmdsp.org.uk/id/salford/allotments/clovelly-road-allotments">
-    <os:northing>401040</os:northing>
-    <os:easting>376465</os:easting>
-    <geo:lat rdf:datatype="http://www.w3.org/2001/XMLSchema#double">53.5055179248</geo:lat>
-    <rdfs:label>Allotment site Clovelly Road Allotments</rdfs:label>
-    <vcard:hasAddress>
-      <vcard:Location rdf:about="http://data.gmdsp.org.uk/id/salford/allotments/address/clovelly-road-allotments-norwood-drive-swinton-manchester-m27-0fu-">
-        <ns1:postcode rdf:resource="http://data.ordnancesurvey.co.uk/id/postcodeunit/M270FU"/>
-        <vcard:postal-code>M27 0FU</vcard:postal-code>
-        <vcard:street-address>Clovelly Road Allotments Norwood Drive Swinton Manchester </vcard:street-address>
-        <rdfs:label>Address of allotment site Clovelly Road Allotments</rdfs:label>
-      </vcard:Location>
-    </vcard:hasAddress>
-    <geo:long rdf:datatype="http://www.w3.org/2001/XMLSchema#double">-2.35630882678</geo:long>
-  </ns2:Allotment>
-  <ns2:Allotment rdf:about="http://data.gmdsp.org.uk/id/salford/allotments/destructor-site-allotments">
-    <vcard:hasAddress>
-      <vcard:Location rdf:about="http://data.gmdsp.org.uk/id/salford/allotments/address/destructor-site-allotments-mossfield-road-pendlebury-swinton-manchester-m27-6eh-">
-        <rdfs:label>Address of allotment site Destructor Site Allotments</rdfs:label>
-        <vcard:postal-code>M27 6EH</vcard:postal-code>
-        <ns1:postcode rdf:resource="http://data.ordnancesurvey.co.uk/id/postcodeunit/M276EH"/>
-        <vcard:street-address>Destructor Site Allotments Mossfield Road Pendlebury Swinton Manchester </vcard:street-address>
-      </vcard:Location>
-    </vcard:hasAddress>
-    <rdfs:label>Allotment site Destructor Site Allotments</rdfs:label>
-    <os:easting>377678</os:easting>
-    <os:northing>402418</os:northing>
-    <geo:lat rdf:datatype="http://www.w3.org/2001/XMLSchema#double">53.5179568553</geo:lat>
-    <geo:long rdf:datatype="http://www.w3.org/2001/XMLSchema#double">-2.33811930843</geo:long>
-  </ns2:Allotment>
-  <ns2:Allotment rdf:about="http://data.gmdsp.org.uk/id/salford/allotments/newhall-avenue-allotments">
+    <os:northing>401409</os:northing>
     <os:easting>375243</os:easting>
-    <vcard:hasAddress>
-      <vcard:Location rdf:about="http://data.gmdsp.org.uk/id/salford/allotments/address/newhall-avenue-allotments-new-hall-avenue-eccles-manchester-m30-7lf-">
-        <ns1:postcode rdf:resource="http://data.ordnancesurvey.co.uk/id/postcodeunit/M307LF"/>
-        <vcard:postal-code>M30 7LF</vcard:postal-code>
-        <rdfs:label>Address of allotment site Newhall Avenue Allotments</rdfs:label>
-        <vcard:street-address>Newhall Avenue Allotments New Hall Avenue Eccles Manchester </vcard:street-address>
-      </vcard:Location>
-    </vcard:hasAddress>
-    <rdfs:label>Allotment site Newhall Avenue Allotments</rdfs:label>
-    <os:northing>397525</os:northing>
-    <geo:long rdf:datatype="http://www.w3.org/2001/XMLSchema#double">-2.37445405209</geo:long>
-    <geo:lat rdf:datatype="http://www.w3.org/2001/XMLSchema#double">53.47386793</geo:lat>
-  </ns2:Allotment>
-  <ns2:Allotment rdf:about="http://data.gmdsp.org.uk/id/salford/allotments/lorne-street-allotments">
-    <geo:lat rdf:datatype="http://www.w3.org/2001/XMLSchema#double">53.4772371635</geo:lat>
-    <os:northing>397897</os:northing>
-    <os:easting>375791</os:easting>
-    <rdfs:label>Allotment site Lorne Street Allotments</rdfs:label>
-    <geo:long rdf:datatype="http://www.w3.org/2001/XMLSchema#double">-2.36622694184</geo:long>
-    <vcard:hasAddress>
-      <vcard:Location rdf:about="http://data.gmdsp.org.uk/id/salford/allotments/address/lorne-street-allotments-lorne-street-eccles-manchester-m30-7bt-">
-        <rdfs:label>Address of allotment site Lorne Street Allotments</rdfs:label>
-        <vcard:postal-code>M30 7BT</vcard:postal-code>
-        <vcard:street-address>Lorne Street Allotments Lorne Street Eccles Manchester </vcard:street-address>
-        <ns1:postcode rdf:resource="http://data.ordnancesurvey.co.uk/id/postcodeunit/M307BT"/>
-      </vcard:Location>
-    </vcard:hasAddress>
-  </ns2:Allotment>
-  <ns2:Allotment rdf:about="http://data.gmdsp.org.uk/id/salford/allotments/weaste-allotments">
-    <rdfs:label>Allotment site Weaste Allotments</rdfs:label>
-    <geo:lat rdf:datatype="http://www.w3.org/2001/XMLSchema#double">53.4856540178</geo:lat>
-    <vcard:hasAddress>
-      <vcard:Location rdf:about="http://data.gmdsp.org.uk/id/salford/allotments/address/weaste-allotments-don-avenue-salford-m6-8dz-">
-        <rdfs:label>Address of allotment site Weaste Allotments</rdfs:label>
-        <vcard:street-address>Weaste Allotments Don Avenue Salford </vcard:street-address>
-        <vcard:postal-code>M6 8DZ</vcard:postal-code>
-        <ns1:postcode rdf:resource="http://data.ordnancesurvey.co.uk/id/postcodeunit/M68DZ"/>
-      </vcard:Location>
-    </vcard:hasAddress>
-    <os:easting>379229</os:easting>
-    <geo:long rdf:datatype="http://www.w3.org/2001/XMLSchema#double">-2.31448845205</geo:long>
-    <os:northing>398817</os:northing>
-  </ns2:Allotment>
-  <ns2:Allotment rdf:about="http://data.gmdsp.org.uk/id/salford/allotments/hilton-lane-allotments">
-    <geo:long rdf:datatype="http://www.w3.org/2001/XMLSchema#double">-2.40571347212</geo:long>
-    <geo:lat rdf:datatype="http://www.w3.org/2001/XMLSchema#double">53.5178003789</geo:lat>
-    <os:easting>373196</os:easting>
-    <rdfs:label>Allotment site Hilton Lane Allotments</rdfs:label>
-    <vcard:hasAddress>
-      <vcard:Location rdf:about="http://data.gmdsp.org.uk/id/salford/allotments/address/hilton-lane-allotments-hilton-lane-worsley-manchester-m28-3tl-">
-        <rdfs:label>Address of allotment site Hilton Lane Allotments</rdfs:label>
-        <vcard:postal-code>M28 3TL</vcard:postal-code>
-        <vcard:street-address>Hilton Lane Allotments Hilton Lane Worsley Manchester </vcard:street-address>
-        <ns1:postcode rdf:resource="http://data.ordnancesurvey.co.uk/id/postcodeunit/M283TL"/>
-      </vcard:Location>
-    </vcard:hasAddress>
-    <os:northing>402424</os:northing>
-  </ns2:Allotment>
-  <ns2:Allotment rdf:about="http://data.gmdsp.org.uk/id/salford/allotments/littleton-road-allotments">
-    <geo:lat rdf:datatype="http://www.w3.org/2001/XMLSchema#double">53.502005674</geo:lat>
-    <os:northing>400626</os:northing>
+    <geo:lat rdf:datatype="http://www.w3.org/2001/XMLSchema#double">53.5087781998</geo:lat>
+    <rdfs:label>Allotment site Toad Lane Allotments</rdfs:label>
+  </ns1:Allotment>
+  <ns1:Allotment rdf:about="http://data.gmdsp.org.uk/id/salford/allotments/littleton-road-allotments">
     <geo:long rdf:datatype="http://www.w3.org/2001/XMLSchema#double">-2.27755302152</geo:long>
+    <geo:lat rdf:datatype="http://www.w3.org/2001/XMLSchema#double">53.502005674</geo:lat>
     <rdfs:label>Allotment site Littleton Road Allotments</rdfs:label>
     <os:easting>381687</os:easting>
     <vcard:hasAddress>
-      <vcard:Location rdf:about="http://data.gmdsp.org.uk/id/salford/allotments/address/littleton-road-allotments-littleton-road-salford-m7-3tj-">
-        <vcard:postal-code>M7 3TJ</vcard:postal-code>
+      <vcard:Location rdf:about="http://data.gmdsp.org.uk/id/salford/allotments/address/littleton-road-allotments-littleton-road-salford-m7-3tj">
         <vcard:street-address>Littleton Road Allotments Littleton Road Salford </vcard:street-address>
         <rdfs:label>Address of allotment site Littleton Road Allotments</rdfs:label>
-        <ns1:postcode rdf:resource="http://data.ordnancesurvey.co.uk/id/postcodeunit/M73TJ"/>
+        <ns2:postcode rdf:resource="http://data.ordnancesurvey.co.uk/id/postcodeunit/M73TJ"/>
+        <vcard:postal-code>M7 3TJ</vcard:postal-code>
       </vcard:Location>
     </vcard:hasAddress>
-  </ns2:Allotment>
-  <ns2:Allotment rdf:about="http://data.gmdsp.org.uk/id/salford/allotments/moss-lane-allotments">
-    <rdfs:label>Allotment site Moss Lane Allotments</rdfs:label>
-    <geo:long rdf:datatype="http://www.w3.org/2001/XMLSchema#double">-2.34119469491</geo:long>
-    <os:northing>402819</os:northing>
-    <os:easting>377476</os:easting>
+    <os:northing>400626</os:northing>
+  </ns1:Allotment>
+  <ns1:Allotment rdf:about="http://data.gmdsp.org.uk/id/salford/allotments/linnyshaw-allotments">
+    <geo:lat rdf:datatype="http://www.w3.org/2001/XMLSchema#double">53.5235293469</geo:lat>
+    <os:northing>403055</os:northing>
+    <rdfs:label>Allotment site Linnyshaw Allotments</rdfs:label>
+    <geo:long rdf:datatype="http://www.w3.org/2001/XMLSchema#double">-2.38848246802</geo:long>
     <vcard:hasAddress>
-      <vcard:Location rdf:about="http://data.gmdsp.org.uk/id/salford/allotments/address/moss-lane-allotments-chelford-drive-swinton-manchester-m27-9ht-">
-        <rdfs:label>Address of allotment site Moss Lane Allotments</rdfs:label>
-        <ns1:postcode rdf:resource="http://data.ordnancesurvey.co.uk/id/postcodeunit/M279HT"/>
+      <vcard:Location rdf:about="http://data.gmdsp.org.uk/id/salford/allotments/address/linnyshaw-allotments-bracken-avenue-worsley-manchester-m28-3fy">
+        <vcard:street-address>Linnyshaw Allotments Bracken Avenue Worsley Manchester </vcard:street-address>
+        <vcard:postal-code>M28 3FY</vcard:postal-code>
+        <rdfs:label>Address of allotment site Linnyshaw Allotments</rdfs:label>
+        <ns2:postcode rdf:resource="http://data.ordnancesurvey.co.uk/id/postcodeunit/M283FY"/>
+      </vcard:Location>
+    </vcard:hasAddress>
+    <os:easting>374342</os:easting>
+  </ns1:Allotment>
+  <ns1:Allotment rdf:about="http://data.gmdsp.org.uk/id/salford/allotments/townsend-road-allotments">
+    <geo:lat rdf:datatype="http://www.w3.org/2001/XMLSchema#double">53.5155190667</geo:lat>
+    <geo:long rdf:datatype="http://www.w3.org/2001/XMLSchema#double">-2.33239938154</geo:long>
+    <vcard:hasAddress>
+      <vcard:Location rdf:about="http://data.gmdsp.org.uk/id/salford/allotments/address/townsend-road-allotments-townsend-road-pendlebury-swinton-manchester-m27-6ed">
+        <ns2:postcode rdf:resource="http://data.ordnancesurvey.co.uk/id/postcodeunit/M276ED"/>
+        <vcard:street-address>Townsend Road Allotments Townsend Road Pendlebury Swinton Manchester </vcard:street-address>
+        <rdfs:label>Address of allotment site Townsend Road Allotments</rdfs:label>
+        <vcard:postal-code>M27 6ED</vcard:postal-code>
+      </vcard:Location>
+    </vcard:hasAddress>
+    <os:easting>378056</os:easting>
+    <rdfs:label>Allotment site Townsend Road Allotments</rdfs:label>
+    <os:northing>402145</os:northing>
+  </ns1:Allotment>
+  <ns1:Allotment rdf:about="http://data.gmdsp.org.uk/id/salford/allotments/corrie-street-allotments">
+    <rdfs:label>Allotment site Corrie Street Allotments</rdfs:label>
+    <os:northing>403692</os:northing>
+    <os:easting>372433</os:easting>
+    <geo:long rdf:datatype="http://www.w3.org/2001/XMLSchema#double">-2.41733237701</geo:long>
+    <geo:lat rdf:datatype="http://www.w3.org/2001/XMLSchema#double">53.5291577041</geo:lat>
+    <vcard:hasAddress>
+      <vcard:Location rdf:about="http://data.gmdsp.org.uk/id/salford/allotments/address/corrie-street-allotments-corrie-street-little-hulton-manchester-m38-9wg">
+        <vcard:postal-code>M38 9WG</vcard:postal-code>
+        <rdfs:label>Address of allotment site Corrie Street Allotments</rdfs:label>
+        <ns2:postcode rdf:resource="http://data.ordnancesurvey.co.uk/id/postcodeunit/M389WG"/>
+        <vcard:street-address>Corrie Street Allotments Corrie Street Little Hulton Manchester </vcard:street-address>
+      </vcard:Location>
+    </vcard:hasAddress>
+  </ns1:Allotment>
+  <ns1:Allotment rdf:about="http://data.gmdsp.org.uk/id/salford/allotments/addison-road-allotments">
+    <os:northing>395664</os:northing>
+    <geo:lat rdf:datatype="http://www.w3.org/2001/XMLSchema#double">53.4570326225</geo:lat>
+    <geo:long rdf:datatype="http://www.w3.org/2001/XMLSchema#double">-2.40734745929</geo:long>
+    <os:easting>373049</os:easting>
+    <vcard:hasAddress>
+      <vcard:Location rdf:about="http://data.gmdsp.org.uk/id/salford/allotments/address/addison-road-allotments-addison-road-irlam-manchester-m44-6ep">
+        <vcard:postal-code>M44 6EP</vcard:postal-code>
+        <rdfs:label>Address of allotment site Addison Road Allotments</rdfs:label>
+        <ns2:postcode rdf:resource="http://data.ordnancesurvey.co.uk/id/postcodeunit/M446EP"/>
+        <vcard:street-address>Addison Road Allotments Addison Road Irlam Manchester </vcard:street-address>
+      </vcard:Location>
+    </vcard:hasAddress>
+    <rdfs:label>Allotment site Addison Road Allotments</rdfs:label>
+  </ns1:Allotment>
+  <ns1:Allotment rdf:about="http://data.gmdsp.org.uk/id/salford/allotments/tynesbank-allotments">
+    <geo:long rdf:datatype="http://www.w3.org/2001/XMLSchema#double">-2.40576499046</geo:long>
+    <rdfs:label>Allotment site Tynesbank Allotments</rdfs:label>
+    <os:easting>373197</os:easting>
+    <vcard:hasAddress>
+      <vcard:Location rdf:about="http://data.gmdsp.org.uk/id/salford/allotments/address/tynesbank-allotments-shearwater-drive-worsley-manchester-m28-0ah">
+        <vcard:street-address>Tynesbank Allotments Shearwater Drive Worsley Manchester </vcard:street-address>
+        <rdfs:label>Address of allotment site Tynesbank Allotments</rdfs:label>
+        <vcard:postal-code>M28 0AH</vcard:postal-code>
+        <ns2:postcode rdf:resource="http://data.ordnancesurvey.co.uk/id/postcodeunit/M280AH"/>
+      </vcard:Location>
+    </vcard:hasAddress>
+    <geo:lat rdf:datatype="http://www.w3.org/2001/XMLSchema#double">53.5247662443</geo:lat>
+    <os:northing>403199</os:northing>
+  </ns1:Allotment>
+  <ns1:Allotment rdf:about="http://data.gmdsp.org.uk/id/salford/allotments/dixon-street-allotments">
+    <os:northing>393763</os:northing>
+    <vcard:hasAddress>
+      <vcard:Location rdf:about="http://data.gmdsp.org.uk/id/salford/allotments/address/dixon-street-allotments-dixon-street-irlam-manchester-m44-6ad">
+        <rdfs:label>Address of allotment site Dixon Street Allotments</rdfs:label>
+        <vcard:postal-code>M44 6AD</vcard:postal-code>
+        <ns2:postcode rdf:resource="http://data.ordnancesurvey.co.uk/id/postcodeunit/M446AD"/>
+        <vcard:street-address>Dixon Street Allotments Dixon Street Irlam Manchester </vcard:street-address>
+      </vcard:Location>
+    </vcard:hasAddress>
+    <geo:lat rdf:datatype="http://www.w3.org/2001/XMLSchema#double">53.4398638726</geo:lat>
+    <geo:long rdf:datatype="http://www.w3.org/2001/XMLSchema#double">-2.43057695353</geo:long>
+    <rdfs:label>Allotment site Dixon Street Allotments</rdfs:label>
+    <os:easting>371495</os:easting>
+  </ns1:Allotment>
+  <ns1:Allotment rdf:about="http://data.gmdsp.org.uk/id/salford/allotments/destructor-site-allotments">
+    <geo:lat rdf:datatype="http://www.w3.org/2001/XMLSchema#double">53.5179568553</geo:lat>
+    <os:easting>377678</os:easting>
+    <rdfs:label>Allotment site Destructor Site Allotments</rdfs:label>
+    <os:northing>402418</os:northing>
+    <geo:long rdf:datatype="http://www.w3.org/2001/XMLSchema#double">-2.33811930843</geo:long>
+    <vcard:hasAddress>
+      <vcard:Location rdf:about="http://data.gmdsp.org.uk/id/salford/allotments/address/destructor-site-allotments-mossfield-road-pendlebury-swinton-manchester-m27-6eh">
+        <vcard:street-address>Destructor Site Allotments Mossfield Road Pendlebury Swinton Manchester </vcard:street-address>
+        <rdfs:label>Address of allotment site Destructor Site Allotments</rdfs:label>
+        <vcard:postal-code>M27 6EH</vcard:postal-code>
+        <ns2:postcode rdf:resource="http://data.ordnancesurvey.co.uk/id/postcodeunit/M276EH"/>
+      </vcard:Location>
+    </vcard:hasAddress>
+  </ns1:Allotment>
+  <ns1:Allotment rdf:about="http://data.gmdsp.org.uk/id/salford/allotments/blackleach-allotments">
+    <geo:lat rdf:datatype="http://www.w3.org/2001/XMLSchema#double">53.5337973834</geo:lat>
+    <os:northing>404201</os:northing>
+    <geo:long rdf:datatype="http://www.w3.org/2001/XMLSchema#double">-2.39841337463</geo:long>
+    <rdfs:label>Allotment site Blackleach Allotments</rdfs:label>
+    <os:easting>373690</os:easting>
+    <vcard:hasAddress>
+      <vcard:Location rdf:about="http://data.gmdsp.org.uk/id/salford/allotments/address/blackleach-allotments-harcourt-street-worsley-manchester-m28-3gn">
+        <rdfs:label>Address of allotment site Blackleach Allotments</rdfs:label>
+        <ns2:postcode rdf:resource="http://data.ordnancesurvey.co.uk/id/postcodeunit/M283GN"/>
+        <vcard:postal-code>M28 3GN</vcard:postal-code>
+        <vcard:street-address>Blackleach Allotments Harcourt Street Worsley Manchester </vcard:street-address>
+      </vcard:Location>
+    </vcard:hasAddress>
+  </ns1:Allotment>
+  <ns1:Allotment rdf:about="http://data.gmdsp.org.uk/id/salford/allotments/moss-lane-allotments">
+    <vcard:hasAddress>
+      <vcard:Location rdf:about="http://data.gmdsp.org.uk/id/salford/allotments/address/moss-lane-allotments-chelford-drive-swinton-manchester-m27-9ht">
         <vcard:street-address>Moss Lane Allotments Chelford Drive Swinton Manchester </vcard:street-address>
+        <rdfs:label>Address of allotment site Moss Lane Allotments</rdfs:label>
         <vcard:postal-code>M27 9HT</vcard:postal-code>
+        <ns2:postcode rdf:resource="http://data.ordnancesurvey.co.uk/id/postcodeunit/M279HT"/>
       </vcard:Location>
     </vcard:hasAddress>
+    <os:northing>402819</os:northing>
     <geo:lat rdf:datatype="http://www.w3.org/2001/XMLSchema#double">53.5215524693</geo:lat>
-  </ns2:Allotment>
-  <ns2:Allotment rdf:about="http://data.gmdsp.org.uk/id/salford/allotments/beechfield-allotments">
-    <geo:lat rdf:datatype="http://www.w3.org/2001/XMLSchema#double">53.4978337948</geo:lat>
-    <os:easting>377091</os:easting>
-    <os:northing>400182</os:northing>
+    <rdfs:label>Allotment site Moss Lane Allotments</rdfs:label>
+    <os:easting>377476</os:easting>
+    <geo:long rdf:datatype="http://www.w3.org/2001/XMLSchema#double">-2.34119469491</geo:long>
+  </ns1:Allotment>
+  <ns1:Allotment rdf:about="http://data.gmdsp.org.uk/id/salford/allotments/cleavley-allotments">
     <vcard:hasAddress>
-      <vcard:Location rdf:about="http://data.gmdsp.org.uk/id/salford/allotments/address/beechfield-allotments-south-avenue-swinton-manchester-m27-5rp-">
-        <vcard:street-address>Beechfield Allotments South Avenue Swinton Manchester </vcard:street-address>
-        <rdfs:label>Address of allotment site Beechfield Allotments</rdfs:label>
-        <ns1:postcode rdf:resource="http://data.ordnancesurvey.co.uk/id/postcodeunit/M275RP"/>
-        <vcard:postal-code>M27 5RP</vcard:postal-code>
+      <vcard:Location rdf:about="http://data.gmdsp.org.uk/id/salford/allotments/address/cleavley-allotments-blantyre-street-eccles-manchester-m30-8hy">
+        <vcard:street-address>Cleavley Allotments Blantyre Street Eccles Manchester </vcard:street-address>
+        <vcard:postal-code>M30 8HY</vcard:postal-code>
+        <ns2:postcode rdf:resource="http://data.ordnancesurvey.co.uk/id/postcodeunit/M308HY"/>
+        <rdfs:label>Address of allotment site Cleavley Allotments</rdfs:label>
       </vcard:Location>
     </vcard:hasAddress>
-    <rdfs:label>Allotment site Beechfield Allotments</rdfs:label>
-    <geo:long rdf:datatype="http://www.w3.org/2001/XMLSchema#double">-2.34680776092</geo:long>
-  </ns2:Allotment>
-  <ns2:Allotment rdf:about="http://data.gmdsp.org.uk/id/salford/allotments/tindall-street-allotments">
-    <geo:long rdf:datatype="http://www.w3.org/2001/XMLSchema#double">-2.37081642492</geo:long>
-    <os:northing>397630</os:northing>
-    <os:easting>375485</os:easting>
-    <vcard:hasAddress>
-      <vcard:Location rdf:about="http://data.gmdsp.org.uk/id/salford/allotments/address/tindall-street-allotments-tindall-street-eccles-manchester-m30-7df-">
-        <vcard:street-address>Tindall Street Allotments Tindall Street Eccles Manchester </vcard:street-address>
-        <vcard:postal-code>M30 7DF</vcard:postal-code>
-        <ns1:postcode rdf:resource="http://data.ordnancesurvey.co.uk/id/postcodeunit/M307DF"/>
-        <rdfs:label>Address of allotment site Tindall Street Allotments</rdfs:label>
-      </vcard:Location>
-    </vcard:hasAddress>
+    <os:northing>399323</os:northing>
+    <os:easting>375152</os:easting>
+    <rdfs:label>Allotment site Cleavley Allotments</rdfs:label>
+    <geo:lat rdf:datatype="http://www.w3.org/2001/XMLSchema#double">53.490024477</geo:lat>
+    <geo:long rdf:datatype="http://www.w3.org/2001/XMLSchema#double">-2.3759679666</geo:long>
+  </ns1:Allotment>
+  <ns1:Allotment rdf:about="http://data.gmdsp.org.uk/id/salford/allotments/tindall-street-allotments">
     <geo:lat rdf:datatype="http://www.w3.org/2001/XMLSchema#double">53.4748230729</geo:lat>
+    <os:easting>375485</os:easting>
+    <os:northing>397630</os:northing>
+    <geo:long rdf:datatype="http://www.w3.org/2001/XMLSchema#double">-2.37081642492</geo:long>
     <rdfs:label>Allotment site Tindall Street Allotments</rdfs:label>
-  </ns2:Allotment>
-  <ns2:Allotment rdf:about="http://data.gmdsp.org.uk/id/salford/allotments/cawdor-street-allotments">
-    <os:northing>402875</os:northing>
-    <geo:long rdf:datatype="http://www.w3.org/2001/XMLSchema#double">-2.38742696055</geo:long>
     <vcard:hasAddress>
-      <vcard:Location rdf:about="http://data.gmdsp.org.uk/id/salford/allotments/address/cawdor-street-allotments-cawdor-street-worsley-manchester-m28-3hf-">
-        <vcard:street-address>Cawdor Street Allotments Cawdor Street Worsley Manchester </vcard:street-address>
-        <ns1:postcode rdf:resource="http://data.ordnancesurvey.co.uk/id/postcodeunit/M283HF"/>
-        <vcard:postal-code>M28 3HF</vcard:postal-code>
-        <rdfs:label>Address of allotment site Cawdor Street Allotments</rdfs:label>
+      <vcard:Location rdf:about="http://data.gmdsp.org.uk/id/salford/allotments/address/tindall-street-allotments-tindall-street-eccles-manchester-m30-7df">
+        <vcard:street-address>Tindall Street Allotments Tindall Street Eccles Manchester </vcard:street-address>
+        <rdfs:label>Address of allotment site Tindall Street Allotments</rdfs:label>
+        <vcard:postal-code>M30 7DF</vcard:postal-code>
+        <ns2:postcode rdf:resource="http://data.ordnancesurvey.co.uk/id/postcodeunit/M307DF"/>
       </vcard:Location>
     </vcard:hasAddress>
-    <rdfs:label>Allotment site Cawdor Street Allotments</rdfs:label>
-    <os:easting>374411</os:easting>
-    <geo:lat rdf:datatype="http://www.w3.org/2001/XMLSchema#double">53.5219148563</geo:lat>
-  </ns2:Allotment>
-  <ns2:Allotment rdf:about="http://data.gmdsp.org.uk/id/salford/allotments/mountain-street-allotments">
-    <geo:long rdf:datatype="http://www.w3.org/2001/XMLSchema#double">-2.40433862479</geo:long>
+  </ns1:Allotment>
+  <ns1:Allotment rdf:about="http://data.gmdsp.org.uk/id/salford/allotments/lorne-street-allotments">
+    <os:northing>397897</os:northing>
+    <geo:long rdf:datatype="http://www.w3.org/2001/XMLSchema#double">-2.36622694184</geo:long>
+    <rdfs:label>Allotment site Lorne Street Allotments</rdfs:label>
     <vcard:hasAddress>
-      <vcard:Location rdf:about="http://data.gmdsp.org.uk/id/salford/allotments/address/mountain-street-allotments-mountain-street-worsley-manchester-m28-3rb-">
-        <rdfs:label>Address of allotment site Mountain Street Allotments</rdfs:label>
-        <vcard:postal-code>M28 3RB</vcard:postal-code>
-        <vcard:street-address>Mountain Street Allotments Mountain Street Worsley Manchester </vcard:street-address>
-        <ns1:postcode rdf:resource="http://data.ordnancesurvey.co.uk/id/postcodeunit/M283RB"/>
+      <vcard:Location rdf:about="http://data.gmdsp.org.uk/id/salford/allotments/address/lorne-street-allotments-lorne-street-eccles-manchester-m30-7bt">
+        <vcard:street-address>Lorne Street Allotments Lorne Street Eccles Manchester </vcard:street-address>
+        <vcard:postal-code>M30 7BT</vcard:postal-code>
+        <rdfs:label>Address of allotment site Lorne Street Allotments</rdfs:label>
+        <ns2:postcode rdf:resource="http://data.ordnancesurvey.co.uk/id/postcodeunit/M307BT"/>
       </vcard:Location>
     </vcard:hasAddress>
-    <geo:lat rdf:datatype="http://www.w3.org/2001/XMLSchema#double">53.530209079</geo:lat>
-    <os:easting>373295</os:easting>
-    <os:northing>403804</os:northing>
-    <rdfs:label>Allotment site Mountain Street Allotments</rdfs:label>
-  </ns2:Allotment>
-  <ns2:Allotment rdf:about="http://data.gmdsp.org.uk/id/salford/allotments/cumberland-avenue-allotments">
-    <geo:lat rdf:datatype="http://www.w3.org/2001/XMLSchema#double">53.4235969377</geo:lat>
-    <rdfs:label>Allotment site Cumberland Avenue Allotments</rdfs:label>
+    <os:easting>375791</os:easting>
+    <geo:lat rdf:datatype="http://www.w3.org/2001/XMLSchema#double">53.4772371635</geo:lat>
+  </ns1:Allotment>
+  <ns1:Allotment rdf:about="http://data.gmdsp.org.uk/id/salford/allotments/bingham-street-allotments">
     <vcard:hasAddress>
-      <vcard:Location rdf:about="http://data.gmdsp.org.uk/id/salford/allotments/address/cumberland-avenue-allotments-cumberland-avenue-cadishead-manchester-m44-5ef-">
-        <ns1:postcode rdf:resource="http://data.ordnancesurvey.co.uk/id/postcodeunit/M445EF"/>
-        <rdfs:label>Address of allotment site Cumberland Avenue Allotments</rdfs:label>
-        <vcard:postal-code>M44 5EF</vcard:postal-code>
-        <vcard:street-address>Cumberland Avenue Allotments Cumberland Avenue Cadishead Manchester </vcard:street-address>
+      <vcard:Location rdf:about="http://data.gmdsp.org.uk/id/salford/allotments/address/swinton-and-pendlebury-gardening-association-bingham-street-allotments-bingham-street-swinton-manchester-m27-4aq">
+        <vcard:street-address>Swinton And Pendlebury Gardening Association Bingham Street Allotments Bingham Street Swinton Manchester </vcard:street-address>
+        <rdfs:label>Address of allotment site Bingham Street Allotments</rdfs:label>
+        <ns2:postcode rdf:resource="http://data.ordnancesurvey.co.uk/id/postcodeunit/M274AQ"/>
+        <vcard:postal-code>M27 4AQ</vcard:postal-code>
       </vcard:Location>
     </vcard:hasAddress>
-    <os:easting>370390</os:easting>
-    <os:northing>391960</os:northing>
-    <geo:long rdf:datatype="http://www.w3.org/2001/XMLSchema#double">-2.44704074747</geo:long>
-  </ns2:Allotment>
-  <ns2:Allotment rdf:about="http://data.gmdsp.org.uk/id/salford/allotments/toad-lane-allotments">
-    <os:northing>401409</os:northing>
-    <geo:long rdf:datatype="http://www.w3.org/2001/XMLSchema#double">-2.37476189959</geo:long>
-    <rdfs:label>Allotment site Toad Lane Allotments</rdfs:label>
-    <vcard:hasAddress>
-      <vcard:Location rdf:about="http://data.gmdsp.org.uk/id/salford/allotments/address/toad-lane-allotments-greenleach-lane-worsley-manchester-m28-2rr-">
-        <ns1:postcode rdf:resource="http://data.ordnancesurvey.co.uk/id/postcodeunit/M282RR"/>
-        <vcard:postal-code>M28 2RR</vcard:postal-code>
-        <vcard:street-address>Toad Lane Allotments Greenleach Lane Worsley Manchester </vcard:street-address>
-        <rdfs:label>Address of allotment site Toad Lane Allotments</rdfs:label>
-      </vcard:Location>
-    </vcard:hasAddress>
-    <geo:lat rdf:datatype="http://www.w3.org/2001/XMLSchema#double">53.5087781998</geo:lat>
-    <os:easting>375243</os:easting>
-  </ns2:Allotment>
-  <ns2:Allotment rdf:about="http://data.gmdsp.org.uk/id/salford/allotments/poorlots-allotments">
-    <vcard:hasAddress>
-      <vcard:Location rdf:about="http://data.gmdsp.org.uk/id/salford/allotments/address/poorlots-allotments-allotment-road-cadishead-manchester-m44-5jd-">
-        <rdfs:label>Address of allotment site Poorlots Allotments</rdfs:label>
-        <vcard:postal-code>M44 5JD</vcard:postal-code>
-        <vcard:street-address>Poorlots Allotments Allotment Road Cadishead Manchester </vcard:street-address>
-        <ns1:postcode rdf:resource="http://data.ordnancesurvey.co.uk/id/postcodeunit/M445JD"/>
-      </vcard:Location>
-    </vcard:hasAddress>
+    <geo:long rdf:datatype="http://www.w3.org/2001/XMLSchema#double">-2.33389755562</geo:long>
+    <os:northing>401579</os:northing>
+    <geo:lat rdf:datatype="http://www.w3.org/2001/XMLSchema#double">53.5104274372</geo:lat>
+    <rdfs:label>Allotment site Bingham Street Allotments</rdfs:label>
+    <os:easting>377954</os:easting>
+  </ns1:Allotment>
+  <ns1:Allotment rdf:about="http://data.gmdsp.org.uk/id/salford/allotments/poorlots-allotments">
     <os:easting>370854</os:easting>
-    <geo:long rdf:datatype="http://www.w3.org/2001/XMLSchema#double">-2.44014559461</geo:long>
-    <rdfs:label>Allotment site Poorlots Allotments</rdfs:label>
     <os:northing>392896</os:northing>
     <geo:lat rdf:datatype="http://www.w3.org/2001/XMLSchema#double">53.4320358822</geo:lat>
-  </ns2:Allotment>
-  <ns2:Allotment rdf:about="http://data.gmdsp.org.uk/id/salford/allotments/victoria-allotments">
-    <geo:long rdf:datatype="http://www.w3.org/2001/XMLSchema#double">-2.32768109147</geo:long>
-    <rdfs:label>Allotment site Victoria Allotments</rdfs:label>
-    <geo:lat rdf:datatype="http://www.w3.org/2001/XMLSchema#double">53.5099143333</geo:lat>
     <vcard:hasAddress>
-      <vcard:Location rdf:about="http://data.gmdsp.org.uk/id/salford/allotments/address/victoria-allotments-park-avenue-swinton-manchester-m27-4tz-">
+      <vcard:Location rdf:about="http://data.gmdsp.org.uk/id/salford/allotments/address/poorlots-allotments-allotment-road-cadishead-manchester-m44-5jd">
+        <rdfs:label>Address of allotment site Poorlots Allotments</rdfs:label>
+        <ns2:postcode rdf:resource="http://data.ordnancesurvey.co.uk/id/postcodeunit/M445JD"/>
+        <vcard:postal-code>M44 5JD</vcard:postal-code>
+        <vcard:street-address>Poorlots Allotments Allotment Road Cadishead Manchester </vcard:street-address>
+      </vcard:Location>
+    </vcard:hasAddress>
+    <rdfs:label>Allotment site Poorlots Allotments</rdfs:label>
+    <geo:long rdf:datatype="http://www.w3.org/2001/XMLSchema#double">-2.44014559461</geo:long>
+  </ns1:Allotment>
+  <ns1:Allotment rdf:about="http://data.gmdsp.org.uk/id/salford/allotments/cotton-street-allotments">
+    <rdfs:label>Allotment site Cotton Street Allotments</rdfs:label>
+    <vcard:hasAddress>
+      <vcard:Location rdf:about="http://data.gmdsp.org.uk/id/salford/allotments/address/cotton-street-allotments-fitton-crescent-clifton-swinton-manchester-m27-6pj">
+        <rdfs:label>Address of allotment site Cotton Street Allotments</rdfs:label>
+        <vcard:postal-code>M27 6PJ</vcard:postal-code>
+        <ns2:postcode rdf:resource="http://data.ordnancesurvey.co.uk/id/postcodeunit/M276PJ"/>
+        <vcard:street-address>Cotton Street Allotments Fitton Crescent Clifton Swinton Manchester </vcard:street-address>
+      </vcard:Location>
+    </vcard:hasAddress>
+    <geo:long rdf:datatype="http://www.w3.org/2001/XMLSchema#double">-2.33693346098</geo:long>
+    <os:northing>403130</os:northing>
+    <geo:lat rdf:datatype="http://www.w3.org/2001/XMLSchema#double">53.5243599597</geo:lat>
+    <os:easting>377760</os:easting>
+  </ns1:Allotment>
+  <ns1:Allotment rdf:about="http://data.gmdsp.org.uk/id/salford/allotments/mountain-street-allotments">
+    <os:easting>373295</os:easting>
+    <rdfs:label>Allotment site Mountain Street Allotments</rdfs:label>
+    <geo:lat rdf:datatype="http://www.w3.org/2001/XMLSchema#double">53.530209079</geo:lat>
+    <vcard:hasAddress>
+      <vcard:Location rdf:about="http://data.gmdsp.org.uk/id/salford/allotments/address/mountain-street-allotments-mountain-street-worsley-manchester-m28-3rb">
+        <vcard:street-address>Mountain Street Allotments Mountain Street Worsley Manchester </vcard:street-address>
+        <rdfs:label>Address of allotment site Mountain Street Allotments</rdfs:label>
+        <ns2:postcode rdf:resource="http://data.ordnancesurvey.co.uk/id/postcodeunit/M283RB"/>
+        <vcard:postal-code>M28 3RB</vcard:postal-code>
+      </vcard:Location>
+    </vcard:hasAddress>
+    <os:northing>403804</os:northing>
+    <geo:long rdf:datatype="http://www.w3.org/2001/XMLSchema#double">-2.40433862479</geo:long>
+  </ns1:Allotment>
+  <ns1:Allotment rdf:about="http://data.gmdsp.org.uk/id/salford/allotments/newhall-avenue-allotments">
+    <rdfs:label>Allotment site Newhall Avenue Allotments</rdfs:label>
+    <geo:lat rdf:datatype="http://www.w3.org/2001/XMLSchema#double">53.47386793</geo:lat>
+    <os:easting>375243</os:easting>
+    <geo:long rdf:datatype="http://www.w3.org/2001/XMLSchema#double">-2.37445405209</geo:long>
+    <vcard:hasAddress>
+      <vcard:Location rdf:about="http://data.gmdsp.org.uk/id/salford/allotments/address/newhall-avenue-allotments-new-hall-avenue-eccles-manchester-m30-7lf">
+        <rdfs:label>Address of allotment site Newhall Avenue Allotments</rdfs:label>
+        <vcard:postal-code>M30 7LF</vcard:postal-code>
+        <vcard:street-address>Newhall Avenue Allotments New Hall Avenue Eccles Manchester </vcard:street-address>
+        <ns2:postcode rdf:resource="http://data.ordnancesurvey.co.uk/id/postcodeunit/M307LF"/>
+      </vcard:Location>
+    </vcard:hasAddress>
+    <os:northing>397525</os:northing>
+  </ns1:Allotment>
+  <ns1:Allotment rdf:about="http://data.gmdsp.org.uk/id/salford/allotments/clovelly-road-allotments">
+    <geo:lat rdf:datatype="http://www.w3.org/2001/XMLSchema#double">53.5055179248</geo:lat>
+    <geo:long rdf:datatype="http://www.w3.org/2001/XMLSchema#double">-2.35630882678</geo:long>
+    <os:easting>376465</os:easting>
+    <os:northing>401040</os:northing>
+    <rdfs:label>Allotment site Clovelly Road Allotments</rdfs:label>
+    <vcard:hasAddress>
+      <vcard:Location rdf:about="http://data.gmdsp.org.uk/id/salford/allotments/address/clovelly-road-allotments-norwood-drive-swinton-manchester-m27-0fu">
+        <vcard:street-address>Clovelly Road Allotments Norwood Drive Swinton Manchester </vcard:street-address>
+        <ns2:postcode rdf:resource="http://data.ordnancesurvey.co.uk/id/postcodeunit/M270FU"/>
+        <rdfs:label>Address of allotment site Clovelly Road Allotments</rdfs:label>
+        <vcard:postal-code>M27 0FU</vcard:postal-code>
+      </vcard:Location>
+    </vcard:hasAddress>
+  </ns1:Allotment>
+  <ns1:Allotment rdf:about="http://data.gmdsp.org.uk/id/salford/allotments/cawdor-street-allotments">
+    <os:northing>402875</os:northing>
+    <geo:lat rdf:datatype="http://www.w3.org/2001/XMLSchema#double">53.5219148563</geo:lat>
+    <rdfs:label>Allotment site Cawdor Street Allotments</rdfs:label>
+    <geo:long rdf:datatype="http://www.w3.org/2001/XMLSchema#double">-2.38742696055</geo:long>
+    <os:easting>374411</os:easting>
+    <vcard:hasAddress>
+      <vcard:Location rdf:about="http://data.gmdsp.org.uk/id/salford/allotments/address/cawdor-street-allotments-cawdor-street-worsley-manchester-m28-3hf">
+        <rdfs:label>Address of allotment site Cawdor Street Allotments</rdfs:label>
+        <vcard:postal-code>M28 3HF</vcard:postal-code>
+        <ns2:postcode rdf:resource="http://data.ordnancesurvey.co.uk/id/postcodeunit/M283HF"/>
+        <vcard:street-address>Cawdor Street Allotments Cawdor Street Worsley Manchester </vcard:street-address>
+      </vcard:Location>
+    </vcard:hasAddress>
+  </ns1:Allotment>
+  <ns1:Allotment rdf:about="http://data.gmdsp.org.uk/id/salford/allotments/victoria-allotments">
+    <rdfs:label>Allotment site Victoria Allotments</rdfs:label>
+    <geo:long rdf:datatype="http://www.w3.org/2001/XMLSchema#double">-2.32768109147</geo:long>
+    <os:northing>401520</os:northing>
+    <os:easting>378366</os:easting>
+    <vcard:hasAddress>
+      <vcard:Location rdf:about="http://data.gmdsp.org.uk/id/salford/allotments/address/victoria-allotments-park-avenue-swinton-manchester-m27-4tz">
+        <ns2:postcode rdf:resource="http://data.ordnancesurvey.co.uk/id/postcodeunit/M274TZ"/>
         <rdfs:label>Address of allotment site Victoria Allotments</rdfs:label>
         <vcard:postal-code>M27 4TZ</vcard:postal-code>
-        <ns1:postcode rdf:resource="http://data.ordnancesurvey.co.uk/id/postcodeunit/M274TZ"/>
         <vcard:street-address>Victoria Allotments Park Avenue Swinton Manchester </vcard:street-address>
       </vcard:Location>
     </vcard:hasAddress>
-    <os:easting>378366</os:easting>
-    <os:northing>401520</os:northing>
-  </ns2:Allotment>
+    <geo:lat rdf:datatype="http://www.w3.org/2001/XMLSchema#double">53.5099143333</geo:lat>
+  </ns1:Allotment>
+  <ns1:Allotment rdf:about="http://data.gmdsp.org.uk/id/salford/allotments/hilton-lane-allotments">
+    <os:easting>373196</os:easting>
+    <geo:long rdf:datatype="http://www.w3.org/2001/XMLSchema#double">-2.40571347212</geo:long>
+    <os:northing>402424</os:northing>
+    <rdfs:label>Allotment site Hilton Lane Allotments</rdfs:label>
+    <vcard:hasAddress>
+      <vcard:Location rdf:about="http://data.gmdsp.org.uk/id/salford/allotments/address/hilton-lane-allotments-hilton-lane-worsley-manchester-m28-3tl">
+        <vcard:street-address>Hilton Lane Allotments Hilton Lane Worsley Manchester </vcard:street-address>
+        <rdfs:label>Address of allotment site Hilton Lane Allotments</rdfs:label>
+        <vcard:postal-code>M28 3TL</vcard:postal-code>
+        <ns2:postcode rdf:resource="http://data.ordnancesurvey.co.uk/id/postcodeunit/M283TL"/>
+      </vcard:Location>
+    </vcard:hasAddress>
+    <geo:lat rdf:datatype="http://www.w3.org/2001/XMLSchema#double">53.5178003789</geo:lat>
+  </ns1:Allotment>
+  <ns1:Allotment rdf:about="http://data.gmdsp.org.uk/id/salford/allotments/cumberland-avenue-allotments">
+    <os:easting>370390</os:easting>
+    <os:northing>391960</os:northing>
+    <geo:lat rdf:datatype="http://www.w3.org/2001/XMLSchema#double">53.4235969377</geo:lat>
+    <geo:long rdf:datatype="http://www.w3.org/2001/XMLSchema#double">-2.44704074747</geo:long>
+    <vcard:hasAddress>
+      <vcard:Location rdf:about="http://data.gmdsp.org.uk/id/salford/allotments/address/cumberland-avenue-allotments-cumberland-avenue-cadishead-manchester-m44-5ef">
+        <rdfs:label>Address of allotment site Cumberland Avenue Allotments</rdfs:label>
+        <ns2:postcode rdf:resource="http://data.ordnancesurvey.co.uk/id/postcodeunit/M445EF"/>
+        <vcard:street-address>Cumberland Avenue Allotments Cumberland Avenue Cadishead Manchester </vcard:street-address>
+        <vcard:postal-code>M44 5EF</vcard:postal-code>
+      </vcard:Location>
+    </vcard:hasAddress>
+    <rdfs:label>Allotment site Cumberland Avenue Allotments</rdfs:label>
+  </ns1:Allotment>
+  <ns1:Allotment rdf:about="http://data.gmdsp.org.uk/id/salford/allotments/beechfield-allotments">
+    <geo:long rdf:datatype="http://www.w3.org/2001/XMLSchema#double">-2.34680776092</geo:long>
+    <rdfs:label>Allotment site Beechfield Allotments</rdfs:label>
+    <os:northing>400182</os:northing>
+    <geo:lat rdf:datatype="http://www.w3.org/2001/XMLSchema#double">53.4978337948</geo:lat>
+    <vcard:hasAddress>
+      <vcard:Location rdf:about="http://data.gmdsp.org.uk/id/salford/allotments/address/beechfield-allotments-south-avenue-swinton-manchester-m27-5rp">
+        <ns2:postcode rdf:resource="http://data.ordnancesurvey.co.uk/id/postcodeunit/M275RP"/>
+        <vcard:street-address>Beechfield Allotments South Avenue Swinton Manchester </vcard:street-address>
+        <rdfs:label>Address of allotment site Beechfield Allotments</rdfs:label>
+        <vcard:postal-code>M27 5RP</vcard:postal-code>
+      </vcard:Location>
+    </vcard:hasAddress>
+    <os:easting>377091</os:easting>
+  </ns1:Allotment>
+  <ns1:Allotment rdf:about="http://data.gmdsp.org.uk/id/salford/allotments/weaste-allotments">
+    <geo:long rdf:datatype="http://www.w3.org/2001/XMLSchema#double">-2.31448845205</geo:long>
+    <geo:lat rdf:datatype="http://www.w3.org/2001/XMLSchema#double">53.4856540178</geo:lat>
+    <os:northing>398817</os:northing>
+    <os:easting>379229</os:easting>
+    <rdfs:label>Allotment site Weaste Allotments</rdfs:label>
+    <vcard:hasAddress>
+      <vcard:Location rdf:about="http://data.gmdsp.org.uk/id/salford/allotments/address/weaste-allotments-don-avenue-salford-m6-8dz">
+        <vcard:postal-code>M6 8DZ</vcard:postal-code>
+        <ns2:postcode rdf:resource="http://data.ordnancesurvey.co.uk/id/postcodeunit/M68DZ"/>
+        <rdfs:label>Address of allotment site Weaste Allotments</rdfs:label>
+        <vcard:street-address>Weaste Allotments Don Avenue Salford </vcard:street-address>
+      </vcard:Location>
+    </vcard:hasAddress>
+  </ns1:Allotment>
 </rdf:RDF>
