@@ -29,5 +29,6 @@ def convert(graph, input_path):
                 graph.add((allotment_plots, utils.RDFS['label'], Literal("{}, {}, number of plots".format(row["Name"], YEAR_STRING))))
                 graph.add((allotment_plots, al_ont["numberOfPlots"], Literal(int(row["Plots"]), datatype=XSD.integer)))
                 graph.add((allotment_plots, RDF.type, utils.QB['Observation']))
+                graph.add((allotment_plots, utils.SDMXDIMENSION['refPeriod'], utils.QUARTER[YEAR_STRING]))
             except ValueError:
                 pass
