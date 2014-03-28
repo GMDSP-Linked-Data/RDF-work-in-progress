@@ -62,7 +62,8 @@ def convert(graph, input_path):
 
         # planning application site
         pa_site = PLANNING["site/" + utils.idify(row["REFERENCE"])]
-        graph.add((pa, PLANNING_ONT['PlanningApplicationSite'], pa_site))
+        graph.add((pa, PLANNING_ONT['hasAddress'], pa_site))
+        graph.add((pa, RDF.type, PLANNING_ONT['PlanningApplicationSite']))
         graph.add((pa_site, utils.RDFS['label'], Literal("Planning application site for planning application " + row["REFERENCE"])))
 
         if row["NORTHING"] and row["EASTING"]:
