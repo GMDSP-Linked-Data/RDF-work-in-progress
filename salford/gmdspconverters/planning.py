@@ -34,13 +34,20 @@ def convert(graph, input_path):
         graph.add((pa, utils.RDFS['label'], Literal("Planning application " + row["REFERENCE"])))
 
         # planning application specific stuff
-        graph.add((pa, PLANNING_ONT['applicationType'], Literal(row["APP TYPE DECODE"])))
-        graph.add((pa, PLANNING_ONT['applicationTypeCode'], Literal(row["APP TYPE"])))
-        graph.add((pa, PLANNING_ONT['developmentType'], Literal(row["DEVELOPMENT TYPE DECODE"])))
-        graph.add((pa, PLANNING_ONT['proposal'], Literal(clean_string(row["PROPOSAL"]))))
-        graph.add((pa, PLANNING_ONT['validatedDate'], Literal(row["VALIDATION DATE"])))
-        graph.add((pa, PLANNING_ONT['decision'], Literal(row["RECOMMENDATION DECODE"])))
-        graph.add((pa, PLANNING_ONT['decisionDate'], Literal(row["DECISION DATE"])))
+        if row["APP TYPE DECODE"]:
+            graph.add((pa, PLANNING_ONT['applicationType'], Literal(row["APP TYPE DECODE"])))
+        if row["APP TYPE"]:
+            graph.add((pa, PLANNING_ONT['applicationTypeCode'], Literal(row["APP TYPE"])))
+        if row["DEVELOPMENT TYPE DECODE"]:
+            graph.add((pa, PLANNING_ONT['developmentType'], Literal(row["DEVELOPMENT TYPE DECODE"])))
+        if row["PROPOSAL"]:
+            graph.add((pa, PLANNING_ONT['proposal'], Literal(clean_string(row["PROPOSAL"]))))
+        if row["VALIDATION DATE"]:
+            graph.add((pa, PLANNING_ONT['validatedDate'], Literal(row["VALIDATION DATE"])))
+        if row["RECOMMENDATION DECODE"]:
+            graph.add((pa, PLANNING_ONT['decision'], Literal(row["RECOMMENDATION DECODE"])))
+        if row["DECISION DATE"]:
+            graph.add((pa, PLANNING_ONT['decisionDate'], Literal(row["DECISION DATE"])))
 
         # planning application site
         pa_site = PLANNING["site/" + utils.idify(row["REFERENCE"])]
