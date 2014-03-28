@@ -21,6 +21,10 @@ def convert(graph, input_path):
     graph.add((utils.QUARTER[YEAR_STRING], RDF.type, utils.QB["DimensionProperty"]))
     graph.add((utils.QUARTER[YEAR_STRING], utils.RDFS["label"], Literal("2013 Q4")))
 
+    # define number of plots
+    graph.add((al_ont["numberOfPlots"], RDF.type, utils.QB["MeasureProperty"]))
+    graph.add((al_ont["numberOfPlots"], utils.RDFS["label"], Literal("Total number of plots")))
+
     for row in reader:
         if row["Plots"]:
             try:
