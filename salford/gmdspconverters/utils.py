@@ -20,6 +20,7 @@ VCARD = Namespace('http://www.w3.org/2006/vcard/ns#')
 SCHEME = Namespace('http://schema.org/')
 QB = Namespace('http://purl.org/linked-data/cube#')
 DATE = Namespace('http://reference.data.gov.uk/id/day/')
+QUARTER = Namespace('http://reference.data.gov.uk/id/quarter/')
 
 def idify(s):
     chars = [
