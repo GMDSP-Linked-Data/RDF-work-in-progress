@@ -1,0 +1,1994 @@
+@prefix geo: <http://www.w3.org/2003/01/geo/wgs84_pos#> .
+@prefix ns1: <http://data.gmdsp.org.uk/def/council/gritting/> .
+@prefix os: <http://data.ordnancesurvey.co.uk/ontology/admingeo/> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix schema: <http://schema.org/> .
+@prefix spacial: <http://data.ordnancesurvey.co.uk/ontology/spatialrelations/> .
+@prefix xml: <http://www.w3.org/XML/1998/namespace> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+<https://gmdsp-admin.publishmydata.com/id/manchester/gritting/route-0> a ns1:GrittingRoute ;
+    rdfs:label "route-0" ;
+    ns1:routeFile <https://raw.githubusercontent.com/GMDSP-Linked-Data/RDF-work-in-progress/master/finalised-output/manchester/grittingroutes/route-0.json> .
+
+<https://gmdsp-admin.publishmydata.com/id/manchester/gritting/route-1> a ns1:GrittingRoute ;
+    rdfs:label "route-1" ;
+    ns1:routeFile <https://raw.githubusercontent.com/GMDSP-Linked-Data/RDF-work-in-progress/master/finalised-output/manchester/grittingroutes/route-1.json> .
+
+<https://gmdsp-admin.publishmydata.com/id/manchester/gritting/route-10> a ns1:GrittingRoute ;
+    rdfs:label "route-10" ;
+    ns1:routeFile <https://raw.githubusercontent.com/GMDSP-Linked-Data/RDF-work-in-progress/master/finalised-output/manchester/grittingroutes/route-10.json> .
+
+<https://gmdsp-admin.publishmydata.com/id/manchester/gritting/route-100> a ns1:GrittingRoute ;
+    rdfs:label "route-100" ;
+    ns1:routeFile <https://raw.githubusercontent.com/GMDSP-Linked-Data/RDF-work-in-progress/master/finalised-output/manchester/grittingroutes/route-100.json> .
+
+<https://gmdsp-admin.publishmydata.com/id/manchester/gritting/route-101> a ns1:GrittingRoute ;
+    rdfs:label "route-101" ;
+    ns1:routeFile <https://raw.githubusercontent.com/GMDSP-Linked-Data/RDF-work-in-progress/master/finalised-output/manchester/grittingroutes/route-101.json> .
+
+<https://gmdsp-admin.publishmydata.com/id/manchester/gritting/route-102> a ns1:GrittingRoute ;
+    rdfs:label "route-102" ;
+    ns1:routeFile <https://raw.githubusercontent.com/GMDSP-Linked-Data/RDF-work-in-progress/master/finalised-output/manchester/grittingroutes/route-102.json> .
+
+<https://gmdsp-admin.publishmydata.com/id/manchester/gritting/route-103> a ns1:GrittingRoute ;
+    rdfs:label "route-103" ;
+    ns1:routeFile <https://raw.githubusercontent.com/GMDSP-Linked-Data/RDF-work-in-progress/master/finalised-output/manchester/grittingroutes/route-103.json> .
+
+<https://gmdsp-admin.publishmydata.com/id/manchester/gritting/route-104> a ns1:GrittingRoute ;
+    rdfs:label "route-104" ;
+    ns1:routeFile <https://raw.githubusercontent.com/GMDSP-Linked-Data/RDF-work-in-progress/master/finalised-output/manchester/grittingroutes/route-104.json> .
+
+<https://gmdsp-admin.publishmydata.com/id/manchester/gritting/route-105> a ns1:GrittingRoute ;
+    rdfs:label "route-105" ;
+    ns1:routeFile <https://raw.githubusercontent.com/GMDSP-Linked-Data/RDF-work-in-progress/master/finalised-output/manchester/grittingroutes/route-105.json> .
+
+<https://gmdsp-admin.publishmydata.com/id/manchester/gritting/route-106> a ns1:GrittingRoute ;
+    rdfs:label "route-106" ;
+    ns1:routeFile <https://raw.githubusercontent.com/GMDSP-Linked-Data/RDF-work-in-progress/master/finalised-output/manchester/grittingroutes/route-106.json> .
+
+<https://gmdsp-admin.publishmydata.com/id/manchester/gritting/route-107> a ns1:GrittingRoute ;
+    rdfs:label "route-107" ;
+    ns1:routeFile <https://raw.githubusercontent.com/GMDSP-Linked-Data/RDF-work-in-progress/master/finalised-output/manchester/grittingroutes/route-107.json> .
+
+<https://gmdsp-admin.publishmydata.com/id/manchester/gritting/route-108> a ns1:GrittingRoute ;
+    rdfs:label "route-108" ;
+    ns1:routeFile <https://raw.githubusercontent.com/GMDSP-Linked-Data/RDF-work-in-progress/master/finalised-output/manchester/grittingroutes/route-108.json> .
+
+<https://gmdsp-admin.publishmydata.com/id/manchester/gritting/route-109> a ns1:GrittingRoute ;
+    rdfs:label "route-109" ;
+    ns1:routeFile <https://raw.githubusercontent.com/GMDSP-Linked-Data/RDF-work-in-progress/master/finalised-output/manchester/grittingroutes/route-109.json> .
+
+<https://gmdsp-admin.publishmydata.com/id/manchester/gritting/route-11> a ns1:GrittingRoute ;
+    rdfs:label "route-11" ;
+    ns1:routeFile <https://raw.githubusercontent.com/GMDSP-Linked-Data/RDF-work-in-progress/master/finalised-output/manchester/grittingroutes/route-11.json> .
+
+<https://gmdsp-admin.publishmydata.com/id/manchester/gritting/route-110> a ns1:GrittingRoute ;
+    rdfs:label "route-110" ;
+    ns1:routeFile <https://raw.githubusercontent.com/GMDSP-Linked-Data/RDF-work-in-progress/master/finalised-output/manchester/grittingroutes/route-110.json> .
+
+<https://gmdsp-admin.publishmydata.com/id/manchester/gritting/route-111> a ns1:GrittingRoute ;
+    rdfs:label "route-111" ;
+    ns1:routeFile <https://raw.githubusercontent.com/GMDSP-Linked-Data/RDF-work-in-progress/master/finalised-output/manchester/grittingroutes/route-111.json> .
+
+<https://gmdsp-admin.publishmydata.com/id/manchester/gritting/route-112> a ns1:GrittingRoute ;
+    rdfs:label "route-112" ;
+    ns1:routeFile <https://raw.githubusercontent.com/GMDSP-Linked-Data/RDF-work-in-progress/master/finalised-output/manchester/grittingroutes/route-112.json> .
+
+<https://gmdsp-admin.publishmydata.com/id/manchester/gritting/route-113> a ns1:GrittingRoute ;
+    rdfs:label "route-113" ;
+    ns1:routeFile <https://raw.githubusercontent.com/GMDSP-Linked-Data/RDF-work-in-progress/master/finalised-output/manchester/grittingroutes/route-113.json> .
+
+<https://gmdsp-admin.publishmydata.com/id/manchester/gritting/route-114> a ns1:GrittingRoute ;
+    rdfs:label "route-114" ;
+    ns1:routeFile <https://raw.githubusercontent.com/GMDSP-Linked-Data/RDF-work-in-progress/master/finalised-output/manchester/grittingroutes/route-114.json> .
+
+<https://gmdsp-admin.publishmydata.com/id/manchester/gritting/route-115> a ns1:GrittingRoute ;
+    rdfs:label "route-115" ;
+    ns1:routeFile <https://raw.githubusercontent.com/GMDSP-Linked-Data/RDF-work-in-progress/master/finalised-output/manchester/grittingroutes/route-115.json> .
+
+<https://gmdsp-admin.publishmydata.com/id/manchester/gritting/route-116> a ns1:GrittingRoute ;
+    rdfs:label "route-116" ;
+    ns1:routeFile <https://raw.githubusercontent.com/GMDSP-Linked-Data/RDF-work-in-progress/master/finalised-output/manchester/grittingroutes/route-116.json> .
+
+<https://gmdsp-admin.publishmydata.com/id/manchester/gritting/route-117> a ns1:GrittingRoute ;
+    rdfs:label "route-117" ;
+    ns1:routeFile <https://raw.githubusercontent.com/GMDSP-Linked-Data/RDF-work-in-progress/master/finalised-output/manchester/grittingroutes/route-117.json> .
+
+<https://gmdsp-admin.publishmydata.com/id/manchester/gritting/route-118> a ns1:GrittingRoute ;
+    rdfs:label "route-118" ;
+    ns1:routeFile <https://raw.githubusercontent.com/GMDSP-Linked-Data/RDF-work-in-progress/master/finalised-output/manchester/grittingroutes/route-118.json> .
+
+<https://gmdsp-admin.publishmydata.com/id/manchester/gritting/route-119> a ns1:GrittingRoute ;
+    rdfs:label "route-119" ;
+    ns1:routeFile <https://raw.githubusercontent.com/GMDSP-Linked-Data/RDF-work-in-progress/master/finalised-output/manchester/grittingroutes/route-119.json> .
+
+<https://gmdsp-admin.publishmydata.com/id/manchester/gritting/route-12> a ns1:GrittingRoute ;
+    rdfs:label "route-12" ;
+    ns1:routeFile <https://raw.githubusercontent.com/GMDSP-Linked-Data/RDF-work-in-progress/master/finalised-output/manchester/grittingroutes/route-12.json> .
+
+<https://gmdsp-admin.publishmydata.com/id/manchester/gritting/route-120> a ns1:GrittingRoute ;
+    rdfs:label "route-120" ;
+    ns1:routeFile <https://raw.githubusercontent.com/GMDSP-Linked-Data/RDF-work-in-progress/master/finalised-output/manchester/grittingroutes/route-120.json> .
+
+<https://gmdsp-admin.publishmydata.com/id/manchester/gritting/route-121> a ns1:GrittingRoute ;
+    rdfs:label "route-121" ;
+    ns1:routeFile <https://raw.githubusercontent.com/GMDSP-Linked-Data/RDF-work-in-progress/master/finalised-output/manchester/grittingroutes/route-121.json> .
+
+<https://gmdsp-admin.publishmydata.com/id/manchester/gritting/route-122> a ns1:GrittingRoute ;
+    rdfs:label "route-122" ;
+    ns1:routeFile <https://raw.githubusercontent.com/GMDSP-Linked-Data/RDF-work-in-progress/master/finalised-output/manchester/grittingroutes/route-122.json> .
+
+<https://gmdsp-admin.publishmydata.com/id/manchester/gritting/route-123> a ns1:GrittingRoute ;
+    rdfs:label "route-123" ;
+    ns1:routeFile <https://raw.githubusercontent.com/GMDSP-Linked-Data/RDF-work-in-progress/master/finalised-output/manchester/grittingroutes/route-123.json> .
+
+<https://gmdsp-admin.publishmydata.com/id/manchester/gritting/route-124> a ns1:GrittingRoute ;
+    rdfs:label "route-124" ;
+    ns1:routeFile <https://raw.githubusercontent.com/GMDSP-Linked-Data/RDF-work-in-progress/master/finalised-output/manchester/grittingroutes/route-124.json> .
+
+<https://gmdsp-admin.publishmydata.com/id/manchester/gritting/route-125> a ns1:GrittingRoute ;
+    rdfs:label "route-125" ;
+    ns1:routeFile <https://raw.githubusercontent.com/GMDSP-Linked-Data/RDF-work-in-progress/master/finalised-output/manchester/grittingroutes/route-125.json> .
+
+<https://gmdsp-admin.publishmydata.com/id/manchester/gritting/route-126> a ns1:GrittingRoute ;
+    rdfs:label "route-126" ;
+    ns1:routeFile <https://raw.githubusercontent.com/GMDSP-Linked-Data/RDF-work-in-progress/master/finalised-output/manchester/grittingroutes/route-126.json> .
+
+<https://gmdsp-admin.publishmydata.com/id/manchester/gritting/route-127> a ns1:GrittingRoute ;
+    rdfs:label "route-127" ;
+    ns1:routeFile <https://raw.githubusercontent.com/GMDSP-Linked-Data/RDF-work-in-progress/master/finalised-output/manchester/grittingroutes/route-127.json> .
+
+<https://gmdsp-admin.publishmydata.com/id/manchester/gritting/route-128> a ns1:GrittingRoute ;
+    rdfs:label "route-128" ;
+    ns1:routeFile <https://raw.githubusercontent.com/GMDSP-Linked-Data/RDF-work-in-progress/master/finalised-output/manchester/grittingroutes/route-128.json> .
+
+<https://gmdsp-admin.publishmydata.com/id/manchester/gritting/route-129> a ns1:GrittingRoute ;
+    rdfs:label "route-129" ;
+    ns1:routeFile <https://raw.githubusercontent.com/GMDSP-Linked-Data/RDF-work-in-progress/master/finalised-output/manchester/grittingroutes/route-129.json> .
+
+<https://gmdsp-admin.publishmydata.com/id/manchester/gritting/route-13> a ns1:GrittingRoute ;
+    rdfs:label "route-13" ;
+    ns1:routeFile <https://raw.githubusercontent.com/GMDSP-Linked-Data/RDF-work-in-progress/master/finalised-output/manchester/grittingroutes/route-13.json> .
+
+<https://gmdsp-admin.publishmydata.com/id/manchester/gritting/route-130> a ns1:GrittingRoute ;
+    rdfs:label "route-130" ;
+    ns1:routeFile <https://raw.githubusercontent.com/GMDSP-Linked-Data/RDF-work-in-progress/master/finalised-output/manchester/grittingroutes/route-130.json> .
+
+<https://gmdsp-admin.publishmydata.com/id/manchester/gritting/route-131> a ns1:GrittingRoute ;
+    rdfs:label "route-131" ;
+    ns1:routeFile <https://raw.githubusercontent.com/GMDSP-Linked-Data/RDF-work-in-progress/master/finalised-output/manchester/grittingroutes/route-131.json> .
+
+<https://gmdsp-admin.publishmydata.com/id/manchester/gritting/route-132> a ns1:GrittingRoute ;
+    rdfs:label "route-132" ;
+    ns1:routeFile <https://raw.githubusercontent.com/GMDSP-Linked-Data/RDF-work-in-progress/master/finalised-output/manchester/grittingroutes/route-132.json> .
+
+<https://gmdsp-admin.publishmydata.com/id/manchester/gritting/route-133> a ns1:GrittingRoute ;
+    rdfs:label "route-133" ;
+    ns1:routeFile <https://raw.githubusercontent.com/GMDSP-Linked-Data/RDF-work-in-progress/master/finalised-output/manchester/grittingroutes/route-133.json> .
+
+<https://gmdsp-admin.publishmydata.com/id/manchester/gritting/route-134> a ns1:GrittingRoute ;
+    rdfs:label "route-134" ;
+    ns1:routeFile <https://raw.githubusercontent.com/GMDSP-Linked-Data/RDF-work-in-progress/master/finalised-output/manchester/grittingroutes/route-134.json> .
+
+<https://gmdsp-admin.publishmydata.com/id/manchester/gritting/route-135> a ns1:GrittingRoute ;
+    rdfs:label "route-135" ;
+    ns1:routeFile <https://raw.githubusercontent.com/GMDSP-Linked-Data/RDF-work-in-progress/master/finalised-output/manchester/grittingroutes/route-135.json> .
+
+<https://gmdsp-admin.publishmydata.com/id/manchester/gritting/route-136> a ns1:GrittingRoute ;
+    rdfs:label "route-136" ;
+    ns1:routeFile <https://raw.githubusercontent.com/GMDSP-Linked-Data/RDF-work-in-progress/master/finalised-output/manchester/grittingroutes/route-136.json> .
+
+<https://gmdsp-admin.publishmydata.com/id/manchester/gritting/route-137> a ns1:GrittingRoute ;
+    rdfs:label "route-137" ;
+    ns1:routeFile <https://raw.githubusercontent.com/GMDSP-Linked-Data/RDF-work-in-progress/master/finalised-output/manchester/grittingroutes/route-137.json> .
+
+<https://gmdsp-admin.publishmydata.com/id/manchester/gritting/route-138> a ns1:GrittingRoute ;
+    rdfs:label "route-138" ;
+    ns1:routeFile <https://raw.githubusercontent.com/GMDSP-Linked-Data/RDF-work-in-progress/master/finalised-output/manchester/grittingroutes/route-138.json> .
+
+<https://gmdsp-admin.publishmydata.com/id/manchester/gritting/route-139> a ns1:GrittingRoute ;
+    rdfs:label "route-139" ;
+    ns1:routeFile <https://raw.githubusercontent.com/GMDSP-Linked-Data/RDF-work-in-progress/master/finalised-output/manchester/grittingroutes/route-139.json> .
+
+<https://gmdsp-admin.publishmydata.com/id/manchester/gritting/route-14> a ns1:GrittingRoute ;
+    rdfs:label "route-14" ;
+    ns1:routeFile <https://raw.githubusercontent.com/GMDSP-Linked-Data/RDF-work-in-progress/master/finalised-output/manchester/grittingroutes/route-14.json> .
+
+<https://gmdsp-admin.publishmydata.com/id/manchester/gritting/route-140> a ns1:GrittingRoute ;
+    rdfs:label "route-140" ;
+    ns1:routeFile <https://raw.githubusercontent.com/GMDSP-Linked-Data/RDF-work-in-progress/master/finalised-output/manchester/grittingroutes/route-140.json> .
+
+<https://gmdsp-admin.publishmydata.com/id/manchester/gritting/route-141> a ns1:GrittingRoute ;
+    rdfs:label "route-141" ;
+    ns1:routeFile <https://raw.githubusercontent.com/GMDSP-Linked-Data/RDF-work-in-progress/master/finalised-output/manchester/grittingroutes/route-141.json> .
+
+<https://gmdsp-admin.publishmydata.com/id/manchester/gritting/route-142> a ns1:GrittingRoute ;
+    rdfs:label "route-142" ;
+    ns1:routeFile <https://raw.githubusercontent.com/GMDSP-Linked-Data/RDF-work-in-progress/master/finalised-output/manchester/grittingroutes/route-142.json> .
+
+<https://gmdsp-admin.publishmydata.com/id/manchester/gritting/route-143> a ns1:GrittingRoute ;
+    rdfs:label "route-143" ;
+    ns1:routeFile <https://raw.githubusercontent.com/GMDSP-Linked-Data/RDF-work-in-progress/master/finalised-output/manchester/grittingroutes/route-143.json> .
+
+<https://gmdsp-admin.publishmydata.com/id/manchester/gritting/route-144> a ns1:GrittingRoute ;
+    rdfs:label "route-144" ;
+    ns1:routeFile <https://raw.githubusercontent.com/GMDSP-Linked-Data/RDF-work-in-progress/master/finalised-output/manchester/grittingroutes/route-144.json> .
+
+<https://gmdsp-admin.publishmydata.com/id/manchester/gritting/route-145> a ns1:GrittingRoute ;
+    rdfs:label "route-145" ;
+    ns1:routeFile <https://raw.githubusercontent.com/GMDSP-Linked-Data/RDF-work-in-progress/master/finalised-output/manchester/grittingroutes/route-145.json> .
+
+<https://gmdsp-admin.publishmydata.com/id/manchester/gritting/route-146> a ns1:GrittingRoute ;
+    rdfs:label "route-146" ;
+    ns1:routeFile <https://raw.githubusercontent.com/GMDSP-Linked-Data/RDF-work-in-progress/master/finalised-output/manchester/grittingroutes/route-146.json> .
+
+<https://gmdsp-admin.publishmydata.com/id/manchester/gritting/route-147> a ns1:GrittingRoute ;
+    rdfs:label "route-147" ;
+    ns1:routeFile <https://raw.githubusercontent.com/GMDSP-Linked-Data/RDF-work-in-progress/master/finalised-output/manchester/grittingroutes/route-147.json> .
+
+<https://gmdsp-admin.publishmydata.com/id/manchester/gritting/route-148> a ns1:GrittingRoute ;
+    rdfs:label "route-148" ;
+    ns1:routeFile <https://raw.githubusercontent.com/GMDSP-Linked-Data/RDF-work-in-progress/master/finalised-output/manchester/grittingroutes/route-148.json> .
+
+<https://gmdsp-admin.publishmydata.com/id/manchester/gritting/route-149> a ns1:GrittingRoute ;
+    rdfs:label "route-149" ;
+    ns1:routeFile <https://raw.githubusercontent.com/GMDSP-Linked-Data/RDF-work-in-progress/master/finalised-output/manchester/grittingroutes/route-149.json> .
+
+<https://gmdsp-admin.publishmydata.com/id/manchester/gritting/route-15> a ns1:GrittingRoute ;
+    rdfs:label "route-15" ;
+    ns1:routeFile <https://raw.githubusercontent.com/GMDSP-Linked-Data/RDF-work-in-progress/master/finalised-output/manchester/grittingroutes/route-15.json> .
+
+<https://gmdsp-admin.publishmydata.com/id/manchester/gritting/route-150> a ns1:GrittingRoute ;
+    rdfs:label "route-150" ;
+    ns1:routeFile <https://raw.githubusercontent.com/GMDSP-Linked-Data/RDF-work-in-progress/master/finalised-output/manchester/grittingroutes/route-150.json> .
+
+<https://gmdsp-admin.publishmydata.com/id/manchester/gritting/route-151> a ns1:GrittingRoute ;
+    rdfs:label "route-151" ;
+    ns1:routeFile <https://raw.githubusercontent.com/GMDSP-Linked-Data/RDF-work-in-progress/master/finalised-output/manchester/grittingroutes/route-151.json> .
+
+<https://gmdsp-admin.publishmydata.com/id/manchester/gritting/route-152> a ns1:GrittingRoute ;
+    rdfs:label "route-152" ;
+    ns1:routeFile <https://raw.githubusercontent.com/GMDSP-Linked-Data/RDF-work-in-progress/master/finalised-output/manchester/grittingroutes/route-152.json> .
+
+<https://gmdsp-admin.publishmydata.com/id/manchester/gritting/route-153> a ns1:GrittingRoute ;
+    rdfs:label "route-153" ;
+    ns1:routeFile <https://raw.githubusercontent.com/GMDSP-Linked-Data/RDF-work-in-progress/master/finalised-output/manchester/grittingroutes/route-153.json> .
+
+<https://gmdsp-admin.publishmydata.com/id/manchester/gritting/route-154> a ns1:GrittingRoute ;
+    rdfs:label "route-154" ;
+    ns1:routeFile <https://raw.githubusercontent.com/GMDSP-Linked-Data/RDF-work-in-progress/master/finalised-output/manchester/grittingroutes/route-154.json> .
+
+<https://gmdsp-admin.publishmydata.com/id/manchester/gritting/route-155> a ns1:GrittingRoute ;
+    rdfs:label "route-155" ;
+    ns1:routeFile <https://raw.githubusercontent.com/GMDSP-Linked-Data/RDF-work-in-progress/master/finalised-output/manchester/grittingroutes/route-155.json> .
+
+<https://gmdsp-admin.publishmydata.com/id/manchester/gritting/route-156> a ns1:GrittingRoute ;
+    rdfs:label "route-156" ;
+    ns1:routeFile <https://raw.githubusercontent.com/GMDSP-Linked-Data/RDF-work-in-progress/master/finalised-output/manchester/grittingroutes/route-156.json> .
+
+<https://gmdsp-admin.publishmydata.com/id/manchester/gritting/route-157> a ns1:GrittingRoute ;
+    rdfs:label "route-157" ;
+    ns1:routeFile <https://raw.githubusercontent.com/GMDSP-Linked-Data/RDF-work-in-progress/master/finalised-output/manchester/grittingroutes/route-157.json> .
+
+<https://gmdsp-admin.publishmydata.com/id/manchester/gritting/route-158> a ns1:GrittingRoute ;
+    rdfs:label "route-158" ;
+    ns1:routeFile <https://raw.githubusercontent.com/GMDSP-Linked-Data/RDF-work-in-progress/master/finalised-output/manchester/grittingroutes/route-158.json> .
+
+<https://gmdsp-admin.publishmydata.com/id/manchester/gritting/route-159> a ns1:GrittingRoute ;
+    rdfs:label "route-159" ;
+    ns1:routeFile <https://raw.githubusercontent.com/GMDSP-Linked-Data/RDF-work-in-progress/master/finalised-output/manchester/grittingroutes/route-159.json> .
+
+<https://gmdsp-admin.publishmydata.com/id/manchester/gritting/route-16> a ns1:GrittingRoute ;
+    rdfs:label "route-16" ;
+    ns1:routeFile <https://raw.githubusercontent.com/GMDSP-Linked-Data/RDF-work-in-progress/master/finalised-output/manchester/grittingroutes/route-16.json> .
+
+<https://gmdsp-admin.publishmydata.com/id/manchester/gritting/route-160> a ns1:GrittingRoute ;
+    rdfs:label "route-160" ;
+    ns1:routeFile <https://raw.githubusercontent.com/GMDSP-Linked-Data/RDF-work-in-progress/master/finalised-output/manchester/grittingroutes/route-160.json> .
+
+<https://gmdsp-admin.publishmydata.com/id/manchester/gritting/route-161> a ns1:GrittingRoute ;
+    rdfs:label "route-161" ;
+    ns1:routeFile <https://raw.githubusercontent.com/GMDSP-Linked-Data/RDF-work-in-progress/master/finalised-output/manchester/grittingroutes/route-161.json> .
+
+<https://gmdsp-admin.publishmydata.com/id/manchester/gritting/route-162> a ns1:GrittingRoute ;
+    rdfs:label "route-162" ;
+    ns1:routeFile <https://raw.githubusercontent.com/GMDSP-Linked-Data/RDF-work-in-progress/master/finalised-output/manchester/grittingroutes/route-162.json> .
+
+<https://gmdsp-admin.publishmydata.com/id/manchester/gritting/route-163> a ns1:GrittingRoute ;
+    rdfs:label "route-163" ;
+    ns1:routeFile <https://raw.githubusercontent.com/GMDSP-Linked-Data/RDF-work-in-progress/master/finalised-output/manchester/grittingroutes/route-163.json> .
+
+<https://gmdsp-admin.publishmydata.com/id/manchester/gritting/route-164> a ns1:GrittingRoute ;
+    rdfs:label "route-164" ;
+    ns1:routeFile <https://raw.githubusercontent.com/GMDSP-Linked-Data/RDF-work-in-progress/master/finalised-output/manchester/grittingroutes/route-164.json> .
+
+<https://gmdsp-admin.publishmydata.com/id/manchester/gritting/route-165> a ns1:GrittingRoute ;
+    rdfs:label "route-165" ;
+    ns1:routeFile <https://raw.githubusercontent.com/GMDSP-Linked-Data/RDF-work-in-progress/master/finalised-output/manchester/grittingroutes/route-165.json> .
+
+<https://gmdsp-admin.publishmydata.com/id/manchester/gritting/route-166> a ns1:GrittingRoute ;
+    rdfs:label "route-166" ;
+    ns1:routeFile <https://raw.githubusercontent.com/GMDSP-Linked-Data/RDF-work-in-progress/master/finalised-output/manchester/grittingroutes/route-166.json> .
+
+<https://gmdsp-admin.publishmydata.com/id/manchester/gritting/route-167> a ns1:GrittingRoute ;
+    rdfs:label "route-167" ;
+    ns1:routeFile <https://raw.githubusercontent.com/GMDSP-Linked-Data/RDF-work-in-progress/master/finalised-output/manchester/grittingroutes/route-167.json> .
+
+<https://gmdsp-admin.publishmydata.com/id/manchester/gritting/route-168> a ns1:GrittingRoute ;
+    rdfs:label "route-168" ;
+    ns1:routeFile <https://raw.githubusercontent.com/GMDSP-Linked-Data/RDF-work-in-progress/master/finalised-output/manchester/grittingroutes/route-168.json> .
+
+<https://gmdsp-admin.publishmydata.com/id/manchester/gritting/route-169> a ns1:GrittingRoute ;
+    rdfs:label "route-169" ;
+    ns1:routeFile <https://raw.githubusercontent.com/GMDSP-Linked-Data/RDF-work-in-progress/master/finalised-output/manchester/grittingroutes/route-169.json> .
+
+<https://gmdsp-admin.publishmydata.com/id/manchester/gritting/route-17> a ns1:GrittingRoute ;
+    rdfs:label "route-17" ;
+    ns1:routeFile <https://raw.githubusercontent.com/GMDSP-Linked-Data/RDF-work-in-progress/master/finalised-output/manchester/grittingroutes/route-17.json> .
+
+<https://gmdsp-admin.publishmydata.com/id/manchester/gritting/route-170> a ns1:GrittingRoute ;
+    rdfs:label "route-170" ;
+    ns1:routeFile <https://raw.githubusercontent.com/GMDSP-Linked-Data/RDF-work-in-progress/master/finalised-output/manchester/grittingroutes/route-170.json> .
+
+<https://gmdsp-admin.publishmydata.com/id/manchester/gritting/route-171> a ns1:GrittingRoute ;
+    rdfs:label "route-171" ;
+    ns1:routeFile <https://raw.githubusercontent.com/GMDSP-Linked-Data/RDF-work-in-progress/master/finalised-output/manchester/grittingroutes/route-171.json> .
+
+<https://gmdsp-admin.publishmydata.com/id/manchester/gritting/route-172> a ns1:GrittingRoute ;
+    rdfs:label "route-172" ;
+    ns1:routeFile <https://raw.githubusercontent.com/GMDSP-Linked-Data/RDF-work-in-progress/master/finalised-output/manchester/grittingroutes/route-172.json> .
+
+<https://gmdsp-admin.publishmydata.com/id/manchester/gritting/route-173> a ns1:GrittingRoute ;
+    rdfs:label "route-173" ;
+    ns1:routeFile <https://raw.githubusercontent.com/GMDSP-Linked-Data/RDF-work-in-progress/master/finalised-output/manchester/grittingroutes/route-173.json> .
+
+<https://gmdsp-admin.publishmydata.com/id/manchester/gritting/route-174> a ns1:GrittingRoute ;
+    rdfs:label "route-174" ;
+    ns1:routeFile <https://raw.githubusercontent.com/GMDSP-Linked-Data/RDF-work-in-progress/master/finalised-output/manchester/grittingroutes/route-174.json> .
+
+<https://gmdsp-admin.publishmydata.com/id/manchester/gritting/route-175> a ns1:GrittingRoute ;
+    rdfs:label "route-175" ;
+    ns1:routeFile <https://raw.githubusercontent.com/GMDSP-Linked-Data/RDF-work-in-progress/master/finalised-output/manchester/grittingroutes/route-175.json> .
+
+<https://gmdsp-admin.publishmydata.com/id/manchester/gritting/route-176> a ns1:GrittingRoute ;
+    rdfs:label "route-176" ;
+    ns1:routeFile <https://raw.githubusercontent.com/GMDSP-Linked-Data/RDF-work-in-progress/master/finalised-output/manchester/grittingroutes/route-176.json> .
+
+<https://gmdsp-admin.publishmydata.com/id/manchester/gritting/route-177> a ns1:GrittingRoute ;
+    rdfs:label "route-177" ;
+    ns1:routeFile <https://raw.githubusercontent.com/GMDSP-Linked-Data/RDF-work-in-progress/master/finalised-output/manchester/grittingroutes/route-177.json> .
+
+<https://gmdsp-admin.publishmydata.com/id/manchester/gritting/route-178> a ns1:GrittingRoute ;
+    rdfs:label "route-178" ;
+    ns1:routeFile <https://raw.githubusercontent.com/GMDSP-Linked-Data/RDF-work-in-progress/master/finalised-output/manchester/grittingroutes/route-178.json> .
+
+<https://gmdsp-admin.publishmydata.com/id/manchester/gritting/route-179> a ns1:GrittingRoute ;
+    rdfs:label "route-179" ;
+    ns1:routeFile <https://raw.githubusercontent.com/GMDSP-Linked-Data/RDF-work-in-progress/master/finalised-output/manchester/grittingroutes/route-179.json> .
+
+<https://gmdsp-admin.publishmydata.com/id/manchester/gritting/route-18> a ns1:GrittingRoute ;
+    rdfs:label "route-18" ;
+    ns1:routeFile <https://raw.githubusercontent.com/GMDSP-Linked-Data/RDF-work-in-progress/master/finalised-output/manchester/grittingroutes/route-18.json> .
+
+<https://gmdsp-admin.publishmydata.com/id/manchester/gritting/route-180> a ns1:GrittingRoute ;
+    rdfs:label "route-180" ;
+    ns1:routeFile <https://raw.githubusercontent.com/GMDSP-Linked-Data/RDF-work-in-progress/master/finalised-output/manchester/grittingroutes/route-180.json> .
+
+<https://gmdsp-admin.publishmydata.com/id/manchester/gritting/route-181> a ns1:GrittingRoute ;
+    rdfs:label "route-181" ;
+    ns1:routeFile <https://raw.githubusercontent.com/GMDSP-Linked-Data/RDF-work-in-progress/master/finalised-output/manchester/grittingroutes/route-181.json> .
+
+<https://gmdsp-admin.publishmydata.com/id/manchester/gritting/route-182> a ns1:GrittingRoute ;
+    rdfs:label "route-182" ;
+    ns1:routeFile <https://raw.githubusercontent.com/GMDSP-Linked-Data/RDF-work-in-progress/master/finalised-output/manchester/grittingroutes/route-182.json> .
+
+<https://gmdsp-admin.publishmydata.com/id/manchester/gritting/route-183> a ns1:GrittingRoute ;
+    rdfs:label "route-183" ;
+    ns1:routeFile <https://raw.githubusercontent.com/GMDSP-Linked-Data/RDF-work-in-progress/master/finalised-output/manchester/grittingroutes/route-183.json> .
+
+<https://gmdsp-admin.publishmydata.com/id/manchester/gritting/route-184> a ns1:GrittingRoute ;
+    rdfs:label "route-184" ;
+    ns1:routeFile <https://raw.githubusercontent.com/GMDSP-Linked-Data/RDF-work-in-progress/master/finalised-output/manchester/grittingroutes/route-184.json> .
+
+<https://gmdsp-admin.publishmydata.com/id/manchester/gritting/route-185> a ns1:GrittingRoute ;
+    rdfs:label "route-185" ;
+    ns1:routeFile <https://raw.githubusercontent.com/GMDSP-Linked-Data/RDF-work-in-progress/master/finalised-output/manchester/grittingroutes/route-185.json> .
+
+<https://gmdsp-admin.publishmydata.com/id/manchester/gritting/route-186> a ns1:GrittingRoute ;
+    rdfs:label "route-186" ;
+    ns1:routeFile <https://raw.githubusercontent.com/GMDSP-Linked-Data/RDF-work-in-progress/master/finalised-output/manchester/grittingroutes/route-186.json> .
+
+<https://gmdsp-admin.publishmydata.com/id/manchester/gritting/route-187> a ns1:GrittingRoute ;
+    rdfs:label "route-187" ;
+    ns1:routeFile <https://raw.githubusercontent.com/GMDSP-Linked-Data/RDF-work-in-progress/master/finalised-output/manchester/grittingroutes/route-187.json> .
+
+<https://gmdsp-admin.publishmydata.com/id/manchester/gritting/route-188> a ns1:GrittingRoute ;
+    rdfs:label "route-188" ;
+    ns1:routeFile <https://raw.githubusercontent.com/GMDSP-Linked-Data/RDF-work-in-progress/master/finalised-output/manchester/grittingroutes/route-188.json> .
+
+<https://gmdsp-admin.publishmydata.com/id/manchester/gritting/route-189> a ns1:GrittingRoute ;
+    rdfs:label "route-189" ;
+    ns1:routeFile <https://raw.githubusercontent.com/GMDSP-Linked-Data/RDF-work-in-progress/master/finalised-output/manchester/grittingroutes/route-189.json> .
+
+<https://gmdsp-admin.publishmydata.com/id/manchester/gritting/route-19> a ns1:GrittingRoute ;
+    rdfs:label "route-19" ;
+    ns1:routeFile <https://raw.githubusercontent.com/GMDSP-Linked-Data/RDF-work-in-progress/master/finalised-output/manchester/grittingroutes/route-19.json> .
+
+<https://gmdsp-admin.publishmydata.com/id/manchester/gritting/route-190> a ns1:GrittingRoute ;
+    rdfs:label "route-190" ;
+    ns1:routeFile <https://raw.githubusercontent.com/GMDSP-Linked-Data/RDF-work-in-progress/master/finalised-output/manchester/grittingroutes/route-190.json> .
+
+<https://gmdsp-admin.publishmydata.com/id/manchester/gritting/route-191> a ns1:GrittingRoute ;
+    rdfs:label "route-191" ;
+    ns1:routeFile <https://raw.githubusercontent.com/GMDSP-Linked-Data/RDF-work-in-progress/master/finalised-output/manchester/grittingroutes/route-191.json> .
+
+<https://gmdsp-admin.publishmydata.com/id/manchester/gritting/route-192> a ns1:GrittingRoute ;
+    rdfs:label "route-192" ;
+    ns1:routeFile <https://raw.githubusercontent.com/GMDSP-Linked-Data/RDF-work-in-progress/master/finalised-output/manchester/grittingroutes/route-192.json> .
+
+<https://gmdsp-admin.publishmydata.com/id/manchester/gritting/route-193> a ns1:GrittingRoute ;
+    rdfs:label "route-193" ;
+    ns1:routeFile <https://raw.githubusercontent.com/GMDSP-Linked-Data/RDF-work-in-progress/master/finalised-output/manchester/grittingroutes/route-193.json> .
+
+<https://gmdsp-admin.publishmydata.com/id/manchester/gritting/route-194> a ns1:GrittingRoute ;
+    rdfs:label "route-194" ;
+    ns1:routeFile <https://raw.githubusercontent.com/GMDSP-Linked-Data/RDF-work-in-progress/master/finalised-output/manchester/grittingroutes/route-194.json> .
+
+<https://gmdsp-admin.publishmydata.com/id/manchester/gritting/route-195> a ns1:GrittingRoute ;
+    rdfs:label "route-195" ;
+    ns1:routeFile <https://raw.githubusercontent.com/GMDSP-Linked-Data/RDF-work-in-progress/master/finalised-output/manchester/grittingroutes/route-195.json> .
+
+<https://gmdsp-admin.publishmydata.com/id/manchester/gritting/route-196> a ns1:GrittingRoute ;
+    rdfs:label "route-196" ;
+    ns1:routeFile <https://raw.githubusercontent.com/GMDSP-Linked-Data/RDF-work-in-progress/master/finalised-output/manchester/grittingroutes/route-196.json> .
+
+<https://gmdsp-admin.publishmydata.com/id/manchester/gritting/route-197> a ns1:GrittingRoute ;
+    rdfs:label "route-197" ;
+    ns1:routeFile <https://raw.githubusercontent.com/GMDSP-Linked-Data/RDF-work-in-progress/master/finalised-output/manchester/grittingroutes/route-197.json> .
+
+<https://gmdsp-admin.publishmydata.com/id/manchester/gritting/route-198> a ns1:GrittingRoute ;
+    rdfs:label "route-198" ;
+    ns1:routeFile <https://raw.githubusercontent.com/GMDSP-Linked-Data/RDF-work-in-progress/master/finalised-output/manchester/grittingroutes/route-198.json> .
+
+<https://gmdsp-admin.publishmydata.com/id/manchester/gritting/route-199> a ns1:GrittingRoute ;
+    rdfs:label "route-199" ;
+    ns1:routeFile <https://raw.githubusercontent.com/GMDSP-Linked-Data/RDF-work-in-progress/master/finalised-output/manchester/grittingroutes/route-199.json> .
+
+<https://gmdsp-admin.publishmydata.com/id/manchester/gritting/route-2> a ns1:GrittingRoute ;
+    rdfs:label "route-2" ;
+    ns1:routeFile <https://raw.githubusercontent.com/GMDSP-Linked-Data/RDF-work-in-progress/master/finalised-output/manchester/grittingroutes/route-2.json> .
+
+<https://gmdsp-admin.publishmydata.com/id/manchester/gritting/route-20> a ns1:GrittingRoute ;
+    rdfs:label "route-20" ;
+    ns1:routeFile <https://raw.githubusercontent.com/GMDSP-Linked-Data/RDF-work-in-progress/master/finalised-output/manchester/grittingroutes/route-20.json> .
+
+<https://gmdsp-admin.publishmydata.com/id/manchester/gritting/route-200> a ns1:GrittingRoute ;
+    rdfs:label "route-200" ;
+    ns1:routeFile <https://raw.githubusercontent.com/GMDSP-Linked-Data/RDF-work-in-progress/master/finalised-output/manchester/grittingroutes/route-200.json> .
+
+<https://gmdsp-admin.publishmydata.com/id/manchester/gritting/route-201> a ns1:GrittingRoute ;
+    rdfs:label "route-201" ;
+    ns1:routeFile <https://raw.githubusercontent.com/GMDSP-Linked-Data/RDF-work-in-progress/master/finalised-output/manchester/grittingroutes/route-201.json> .
+
+<https://gmdsp-admin.publishmydata.com/id/manchester/gritting/route-202> a ns1:GrittingRoute ;
+    rdfs:label "route-202" ;
+    ns1:routeFile <https://raw.githubusercontent.com/GMDSP-Linked-Data/RDF-work-in-progress/master/finalised-output/manchester/grittingroutes/route-202.json> .
+
+<https://gmdsp-admin.publishmydata.com/id/manchester/gritting/route-203> a ns1:GrittingRoute ;
+    rdfs:label "route-203" ;
+    ns1:routeFile <https://raw.githubusercontent.com/GMDSP-Linked-Data/RDF-work-in-progress/master/finalised-output/manchester/grittingroutes/route-203.json> .
+
+<https://gmdsp-admin.publishmydata.com/id/manchester/gritting/route-204> a ns1:GrittingRoute ;
+    rdfs:label "route-204" ;
+    ns1:routeFile <https://raw.githubusercontent.com/GMDSP-Linked-Data/RDF-work-in-progress/master/finalised-output/manchester/grittingroutes/route-204.json> .
+
+<https://gmdsp-admin.publishmydata.com/id/manchester/gritting/route-205> a ns1:GrittingRoute ;
+    rdfs:label "route-205" ;
+    ns1:routeFile <https://raw.githubusercontent.com/GMDSP-Linked-Data/RDF-work-in-progress/master/finalised-output/manchester/grittingroutes/route-205.json> .
+
+<https://gmdsp-admin.publishmydata.com/id/manchester/gritting/route-206> a ns1:GrittingRoute ;
+    rdfs:label "route-206" ;
+    ns1:routeFile <https://raw.githubusercontent.com/GMDSP-Linked-Data/RDF-work-in-progress/master/finalised-output/manchester/grittingroutes/route-206.json> .
+
+<https://gmdsp-admin.publishmydata.com/id/manchester/gritting/route-207> a ns1:GrittingRoute ;
+    rdfs:label "route-207" ;
+    ns1:routeFile <https://raw.githubusercontent.com/GMDSP-Linked-Data/RDF-work-in-progress/master/finalised-output/manchester/grittingroutes/route-207.json> .
+
+<https://gmdsp-admin.publishmydata.com/id/manchester/gritting/route-208> a ns1:GrittingRoute ;
+    rdfs:label "route-208" ;
+    ns1:routeFile <https://raw.githubusercontent.com/GMDSP-Linked-Data/RDF-work-in-progress/master/finalised-output/manchester/grittingroutes/route-208.json> .
+
+<https://gmdsp-admin.publishmydata.com/id/manchester/gritting/route-209> a ns1:GrittingRoute ;
+    rdfs:label "route-209" ;
+    ns1:routeFile <https://raw.githubusercontent.com/GMDSP-Linked-Data/RDF-work-in-progress/master/finalised-output/manchester/grittingroutes/route-209.json> .
+
+<https://gmdsp-admin.publishmydata.com/id/manchester/gritting/route-21> a ns1:GrittingRoute ;
+    rdfs:label "route-21" ;
+    ns1:routeFile <https://raw.githubusercontent.com/GMDSP-Linked-Data/RDF-work-in-progress/master/finalised-output/manchester/grittingroutes/route-21.json> .
+
+<https://gmdsp-admin.publishmydata.com/id/manchester/gritting/route-210> a ns1:GrittingRoute ;
+    rdfs:label "route-210" ;
+    ns1:routeFile <https://raw.githubusercontent.com/GMDSP-Linked-Data/RDF-work-in-progress/master/finalised-output/manchester/grittingroutes/route-210.json> .
+
+<https://gmdsp-admin.publishmydata.com/id/manchester/gritting/route-211> a ns1:GrittingRoute ;
+    rdfs:label "route-211" ;
+    ns1:routeFile <https://raw.githubusercontent.com/GMDSP-Linked-Data/RDF-work-in-progress/master/finalised-output/manchester/grittingroutes/route-211.json> .
+
+<https://gmdsp-admin.publishmydata.com/id/manchester/gritting/route-212> a ns1:GrittingRoute ;
+    rdfs:label "route-212" ;
+    ns1:routeFile <https://raw.githubusercontent.com/GMDSP-Linked-Data/RDF-work-in-progress/master/finalised-output/manchester/grittingroutes/route-212.json> .
+
+<https://gmdsp-admin.publishmydata.com/id/manchester/gritting/route-213> a ns1:GrittingRoute ;
+    rdfs:label "route-213" ;
+    ns1:routeFile <https://raw.githubusercontent.com/GMDSP-Linked-Data/RDF-work-in-progress/master/finalised-output/manchester/grittingroutes/route-213.json> .
+
+<https://gmdsp-admin.publishmydata.com/id/manchester/gritting/route-214> a ns1:GrittingRoute ;
+    rdfs:label "route-214" ;
+    ns1:routeFile <https://raw.githubusercontent.com/GMDSP-Linked-Data/RDF-work-in-progress/master/finalised-output/manchester/grittingroutes/route-214.json> .
+
+<https://gmdsp-admin.publishmydata.com/id/manchester/gritting/route-215> a ns1:GrittingRoute ;
+    rdfs:label "route-215" ;
+    ns1:routeFile <https://raw.githubusercontent.com/GMDSP-Linked-Data/RDF-work-in-progress/master/finalised-output/manchester/grittingroutes/route-215.json> .
+
+<https://gmdsp-admin.publishmydata.com/id/manchester/gritting/route-216> a ns1:GrittingRoute ;
+    rdfs:label "route-216" ;
+    ns1:routeFile <https://raw.githubusercontent.com/GMDSP-Linked-Data/RDF-work-in-progress/master/finalised-output/manchester/grittingroutes/route-216.json> .
+
+<https://gmdsp-admin.publishmydata.com/id/manchester/gritting/route-217> a ns1:GrittingRoute ;
+    rdfs:label "route-217" ;
+    ns1:routeFile <https://raw.githubusercontent.com/GMDSP-Linked-Data/RDF-work-in-progress/master/finalised-output/manchester/grittingroutes/route-217.json> .
+
+<https://gmdsp-admin.publishmydata.com/id/manchester/gritting/route-218> a ns1:GrittingRoute ;
+    rdfs:label "route-218" ;
+    ns1:routeFile <https://raw.githubusercontent.com/GMDSP-Linked-Data/RDF-work-in-progress/master/finalised-output/manchester/grittingroutes/route-218.json> .
+
+<https://gmdsp-admin.publishmydata.com/id/manchester/gritting/route-219> a ns1:GrittingRoute ;
+    rdfs:label "route-219" ;
+    ns1:routeFile <https://raw.githubusercontent.com/GMDSP-Linked-Data/RDF-work-in-progress/master/finalised-output/manchester/grittingroutes/route-219.json> .
+
+<https://gmdsp-admin.publishmydata.com/id/manchester/gritting/route-22> a ns1:GrittingRoute ;
+    rdfs:label "route-22" ;
+    ns1:routeFile <https://raw.githubusercontent.com/GMDSP-Linked-Data/RDF-work-in-progress/master/finalised-output/manchester/grittingroutes/route-22.json> .
+
+<https://gmdsp-admin.publishmydata.com/id/manchester/gritting/route-220> a ns1:GrittingRoute ;
+    rdfs:label "route-220" ;
+    ns1:routeFile <https://raw.githubusercontent.com/GMDSP-Linked-Data/RDF-work-in-progress/master/finalised-output/manchester/grittingroutes/route-220.json> .
+
+<https://gmdsp-admin.publishmydata.com/id/manchester/gritting/route-221> a ns1:GrittingRoute ;
+    rdfs:label "route-221" ;
+    ns1:routeFile <https://raw.githubusercontent.com/GMDSP-Linked-Data/RDF-work-in-progress/master/finalised-output/manchester/grittingroutes/route-221.json> .
+
+<https://gmdsp-admin.publishmydata.com/id/manchester/gritting/route-222> a ns1:GrittingRoute ;
+    rdfs:label "route-222" ;
+    ns1:routeFile <https://raw.githubusercontent.com/GMDSP-Linked-Data/RDF-work-in-progress/master/finalised-output/manchester/grittingroutes/route-222.json> .
+
+<https://gmdsp-admin.publishmydata.com/id/manchester/gritting/route-223> a ns1:GrittingRoute ;
+    rdfs:label "route-223" ;
+    ns1:routeFile <https://raw.githubusercontent.com/GMDSP-Linked-Data/RDF-work-in-progress/master/finalised-output/manchester/grittingroutes/route-223.json> .
+
+<https://gmdsp-admin.publishmydata.com/id/manchester/gritting/route-224> a ns1:GrittingRoute ;
+    rdfs:label "route-224" ;
+    ns1:routeFile <https://raw.githubusercontent.com/GMDSP-Linked-Data/RDF-work-in-progress/master/finalised-output/manchester/grittingroutes/route-224.json> .
+
+<https://gmdsp-admin.publishmydata.com/id/manchester/gritting/route-225> a ns1:GrittingRoute ;
+    rdfs:label "route-225" ;
+    ns1:routeFile <https://raw.githubusercontent.com/GMDSP-Linked-Data/RDF-work-in-progress/master/finalised-output/manchester/grittingroutes/route-225.json> .
+
+<https://gmdsp-admin.publishmydata.com/id/manchester/gritting/route-226> a ns1:GrittingRoute ;
+    rdfs:label "route-226" ;
+    ns1:routeFile <https://raw.githubusercontent.com/GMDSP-Linked-Data/RDF-work-in-progress/master/finalised-output/manchester/grittingroutes/route-226.json> .
+
+<https://gmdsp-admin.publishmydata.com/id/manchester/gritting/route-227> a ns1:GrittingRoute ;
+    rdfs:label "route-227" ;
+    ns1:routeFile <https://raw.githubusercontent.com/GMDSP-Linked-Data/RDF-work-in-progress/master/finalised-output/manchester/grittingroutes/route-227.json> .
+
+<https://gmdsp-admin.publishmydata.com/id/manchester/gritting/route-228> a ns1:GrittingRoute ;
+    rdfs:label "route-228" ;
+    ns1:routeFile <https://raw.githubusercontent.com/GMDSP-Linked-Data/RDF-work-in-progress/master/finalised-output/manchester/grittingroutes/route-228.json> .
+
+<https://gmdsp-admin.publishmydata.com/id/manchester/gritting/route-229> a ns1:GrittingRoute ;
+    rdfs:label "route-229" ;
+    ns1:routeFile <https://raw.githubusercontent.com/GMDSP-Linked-Data/RDF-work-in-progress/master/finalised-output/manchester/grittingroutes/route-229.json> .
+
+<https://gmdsp-admin.publishmydata.com/id/manchester/gritting/route-23> a ns1:GrittingRoute ;
+    rdfs:label "route-23" ;
+    ns1:routeFile <https://raw.githubusercontent.com/GMDSP-Linked-Data/RDF-work-in-progress/master/finalised-output/manchester/grittingroutes/route-23.json> .
+
+<https://gmdsp-admin.publishmydata.com/id/manchester/gritting/route-230> a ns1:GrittingRoute ;
+    rdfs:label "route-230" ;
+    ns1:routeFile <https://raw.githubusercontent.com/GMDSP-Linked-Data/RDF-work-in-progress/master/finalised-output/manchester/grittingroutes/route-230.json> .
+
+<https://gmdsp-admin.publishmydata.com/id/manchester/gritting/route-231> a ns1:GrittingRoute ;
+    rdfs:label "route-231" ;
+    ns1:routeFile <https://raw.githubusercontent.com/GMDSP-Linked-Data/RDF-work-in-progress/master/finalised-output/manchester/grittingroutes/route-231.json> .
+
+<https://gmdsp-admin.publishmydata.com/id/manchester/gritting/route-232> a ns1:GrittingRoute ;
+    rdfs:label "route-232" ;
+    ns1:routeFile <https://raw.githubusercontent.com/GMDSP-Linked-Data/RDF-work-in-progress/master/finalised-output/manchester/grittingroutes/route-232.json> .
+
+<https://gmdsp-admin.publishmydata.com/id/manchester/gritting/route-233> a ns1:GrittingRoute ;
+    rdfs:label "route-233" ;
+    ns1:routeFile <https://raw.githubusercontent.com/GMDSP-Linked-Data/RDF-work-in-progress/master/finalised-output/manchester/grittingroutes/route-233.json> .
+
+<https://gmdsp-admin.publishmydata.com/id/manchester/gritting/route-234> a ns1:GrittingRoute ;
+    rdfs:label "route-234" ;
+    ns1:routeFile <https://raw.githubusercontent.com/GMDSP-Linked-Data/RDF-work-in-progress/master/finalised-output/manchester/grittingroutes/route-234.json> .
+
+<https://gmdsp-admin.publishmydata.com/id/manchester/gritting/route-235> a ns1:GrittingRoute ;
+    rdfs:label "route-235" ;
+    ns1:routeFile <https://raw.githubusercontent.com/GMDSP-Linked-Data/RDF-work-in-progress/master/finalised-output/manchester/grittingroutes/route-235.json> .
+
+<https://gmdsp-admin.publishmydata.com/id/manchester/gritting/route-236> a ns1:GrittingRoute ;
+    rdfs:label "route-236" ;
+    ns1:routeFile <https://raw.githubusercontent.com/GMDSP-Linked-Data/RDF-work-in-progress/master/finalised-output/manchester/grittingroutes/route-236.json> .
+
+<https://gmdsp-admin.publishmydata.com/id/manchester/gritting/route-237> a ns1:GrittingRoute ;
+    rdfs:label "route-237" ;
+    ns1:routeFile <https://raw.githubusercontent.com/GMDSP-Linked-Data/RDF-work-in-progress/master/finalised-output/manchester/grittingroutes/route-237.json> .
+
+<https://gmdsp-admin.publishmydata.com/id/manchester/gritting/route-238> a ns1:GrittingRoute ;
+    rdfs:label "route-238" ;
+    ns1:routeFile <https://raw.githubusercontent.com/GMDSP-Linked-Data/RDF-work-in-progress/master/finalised-output/manchester/grittingroutes/route-238.json> .
+
+<https://gmdsp-admin.publishmydata.com/id/manchester/gritting/route-239> a ns1:GrittingRoute ;
+    rdfs:label "route-239" ;
+    ns1:routeFile <https://raw.githubusercontent.com/GMDSP-Linked-Data/RDF-work-in-progress/master/finalised-output/manchester/grittingroutes/route-239.json> .
+
+<https://gmdsp-admin.publishmydata.com/id/manchester/gritting/route-24> a ns1:GrittingRoute ;
+    rdfs:label "route-24" ;
+    ns1:routeFile <https://raw.githubusercontent.com/GMDSP-Linked-Data/RDF-work-in-progress/master/finalised-output/manchester/grittingroutes/route-24.json> .
+
+<https://gmdsp-admin.publishmydata.com/id/manchester/gritting/route-240> a ns1:GrittingRoute ;
+    rdfs:label "route-240" ;
+    ns1:routeFile <https://raw.githubusercontent.com/GMDSP-Linked-Data/RDF-work-in-progress/master/finalised-output/manchester/grittingroutes/route-240.json> .
+
+<https://gmdsp-admin.publishmydata.com/id/manchester/gritting/route-241> a ns1:GrittingRoute ;
+    rdfs:label "route-241" ;
+    ns1:routeFile <https://raw.githubusercontent.com/GMDSP-Linked-Data/RDF-work-in-progress/master/finalised-output/manchester/grittingroutes/route-241.json> .
+
+<https://gmdsp-admin.publishmydata.com/id/manchester/gritting/route-242> a ns1:GrittingRoute ;
+    rdfs:label "route-242" ;
+    ns1:routeFile <https://raw.githubusercontent.com/GMDSP-Linked-Data/RDF-work-in-progress/master/finalised-output/manchester/grittingroutes/route-242.json> .
+
+<https://gmdsp-admin.publishmydata.com/id/manchester/gritting/route-243> a ns1:GrittingRoute ;
+    rdfs:label "route-243" ;
+    ns1:routeFile <https://raw.githubusercontent.com/GMDSP-Linked-Data/RDF-work-in-progress/master/finalised-output/manchester/grittingroutes/route-243.json> .
+
+<https://gmdsp-admin.publishmydata.com/id/manchester/gritting/route-244> a ns1:GrittingRoute ;
+    rdfs:label "route-244" ;
+    ns1:routeFile <https://raw.githubusercontent.com/GMDSP-Linked-Data/RDF-work-in-progress/master/finalised-output/manchester/grittingroutes/route-244.json> .
+
+<https://gmdsp-admin.publishmydata.com/id/manchester/gritting/route-245> a ns1:GrittingRoute ;
+    rdfs:label "route-245" ;
+    ns1:routeFile <https://raw.githubusercontent.com/GMDSP-Linked-Data/RDF-work-in-progress/master/finalised-output/manchester/grittingroutes/route-245.json> .
+
+<https://gmdsp-admin.publishmydata.com/id/manchester/gritting/route-246> a ns1:GrittingRoute ;
+    rdfs:label "route-246" ;
+    ns1:routeFile <https://raw.githubusercontent.com/GMDSP-Linked-Data/RDF-work-in-progress/master/finalised-output/manchester/grittingroutes/route-246.json> .
+
+<https://gmdsp-admin.publishmydata.com/id/manchester/gritting/route-247> a ns1:GrittingRoute ;
+    rdfs:label "route-247" ;
+    ns1:routeFile <https://raw.githubusercontent.com/GMDSP-Linked-Data/RDF-work-in-progress/master/finalised-output/manchester/grittingroutes/route-247.json> .
+
+<https://gmdsp-admin.publishmydata.com/id/manchester/gritting/route-248> a ns1:GrittingRoute ;
+    rdfs:label "route-248" ;
+    ns1:routeFile <https://raw.githubusercontent.com/GMDSP-Linked-Data/RDF-work-in-progress/master/finalised-output/manchester/grittingroutes/route-248.json> .
+
+<https://gmdsp-admin.publishmydata.com/id/manchester/gritting/route-249> a ns1:GrittingRoute ;
+    rdfs:label "route-249" ;
+    ns1:routeFile <https://raw.githubusercontent.com/GMDSP-Linked-Data/RDF-work-in-progress/master/finalised-output/manchester/grittingroutes/route-249.json> .
+
+<https://gmdsp-admin.publishmydata.com/id/manchester/gritting/route-25> a ns1:GrittingRoute ;
+    rdfs:label "route-25" ;
+    ns1:routeFile <https://raw.githubusercontent.com/GMDSP-Linked-Data/RDF-work-in-progress/master/finalised-output/manchester/grittingroutes/route-25.json> .
+
+<https://gmdsp-admin.publishmydata.com/id/manchester/gritting/route-250> a ns1:GrittingRoute ;
+    rdfs:label "route-250" ;
+    ns1:routeFile <https://raw.githubusercontent.com/GMDSP-Linked-Data/RDF-work-in-progress/master/finalised-output/manchester/grittingroutes/route-250.json> .
+
+<https://gmdsp-admin.publishmydata.com/id/manchester/gritting/route-251> a ns1:GrittingRoute ;
+    rdfs:label "route-251" ;
+    ns1:routeFile <https://raw.githubusercontent.com/GMDSP-Linked-Data/RDF-work-in-progress/master/finalised-output/manchester/grittingroutes/route-251.json> .
+
+<https://gmdsp-admin.publishmydata.com/id/manchester/gritting/route-252> a ns1:GrittingRoute ;
+    rdfs:label "route-252" ;
+    ns1:routeFile <https://raw.githubusercontent.com/GMDSP-Linked-Data/RDF-work-in-progress/master/finalised-output/manchester/grittingroutes/route-252.json> .
+
+<https://gmdsp-admin.publishmydata.com/id/manchester/gritting/route-253> a ns1:GrittingRoute ;
+    rdfs:label "route-253" ;
+    ns1:routeFile <https://raw.githubusercontent.com/GMDSP-Linked-Data/RDF-work-in-progress/master/finalised-output/manchester/grittingroutes/route-253.json> .
+
+<https://gmdsp-admin.publishmydata.com/id/manchester/gritting/route-254> a ns1:GrittingRoute ;
+    rdfs:label "route-254" ;
+    ns1:routeFile <https://raw.githubusercontent.com/GMDSP-Linked-Data/RDF-work-in-progress/master/finalised-output/manchester/grittingroutes/route-254.json> .
+
+<https://gmdsp-admin.publishmydata.com/id/manchester/gritting/route-255> a ns1:GrittingRoute ;
+    rdfs:label "route-255" ;
+    ns1:routeFile <https://raw.githubusercontent.com/GMDSP-Linked-Data/RDF-work-in-progress/master/finalised-output/manchester/grittingroutes/route-255.json> .
+
+<https://gmdsp-admin.publishmydata.com/id/manchester/gritting/route-256> a ns1:GrittingRoute ;
+    rdfs:label "route-256" ;
+    ns1:routeFile <https://raw.githubusercontent.com/GMDSP-Linked-Data/RDF-work-in-progress/master/finalised-output/manchester/grittingroutes/route-256.json> .
+
+<https://gmdsp-admin.publishmydata.com/id/manchester/gritting/route-257> a ns1:GrittingRoute ;
+    rdfs:label "route-257" ;
+    ns1:routeFile <https://raw.githubusercontent.com/GMDSP-Linked-Data/RDF-work-in-progress/master/finalised-output/manchester/grittingroutes/route-257.json> .
+
+<https://gmdsp-admin.publishmydata.com/id/manchester/gritting/route-258> a ns1:GrittingRoute ;
+    rdfs:label "route-258" ;
+    ns1:routeFile <https://raw.githubusercontent.com/GMDSP-Linked-Data/RDF-work-in-progress/master/finalised-output/manchester/grittingroutes/route-258.json> .
+
+<https://gmdsp-admin.publishmydata.com/id/manchester/gritting/route-259> a ns1:GrittingRoute ;
+    rdfs:label "route-259" ;
+    ns1:routeFile <https://raw.githubusercontent.com/GMDSP-Linked-Data/RDF-work-in-progress/master/finalised-output/manchester/grittingroutes/route-259.json> .
+
+<https://gmdsp-admin.publishmydata.com/id/manchester/gritting/route-26> a ns1:GrittingRoute ;
+    rdfs:label "route-26" ;
+    ns1:routeFile <https://raw.githubusercontent.com/GMDSP-Linked-Data/RDF-work-in-progress/master/finalised-output/manchester/grittingroutes/route-26.json> .
+
+<https://gmdsp-admin.publishmydata.com/id/manchester/gritting/route-260> a ns1:GrittingRoute ;
+    rdfs:label "route-260" ;
+    ns1:routeFile <https://raw.githubusercontent.com/GMDSP-Linked-Data/RDF-work-in-progress/master/finalised-output/manchester/grittingroutes/route-260.json> .
+
+<https://gmdsp-admin.publishmydata.com/id/manchester/gritting/route-261> a ns1:GrittingRoute ;
+    rdfs:label "route-261" ;
+    ns1:routeFile <https://raw.githubusercontent.com/GMDSP-Linked-Data/RDF-work-in-progress/master/finalised-output/manchester/grittingroutes/route-261.json> .
+
+<https://gmdsp-admin.publishmydata.com/id/manchester/gritting/route-262> a ns1:GrittingRoute ;
+    rdfs:label "route-262" ;
+    ns1:routeFile <https://raw.githubusercontent.com/GMDSP-Linked-Data/RDF-work-in-progress/master/finalised-output/manchester/grittingroutes/route-262.json> .
+
+<https://gmdsp-admin.publishmydata.com/id/manchester/gritting/route-263> a ns1:GrittingRoute ;
+    rdfs:label "route-263" ;
+    ns1:routeFile <https://raw.githubusercontent.com/GMDSP-Linked-Data/RDF-work-in-progress/master/finalised-output/manchester/grittingroutes/route-263.json> .
+
+<https://gmdsp-admin.publishmydata.com/id/manchester/gritting/route-264> a ns1:GrittingRoute ;
+    rdfs:label "route-264" ;
+    ns1:routeFile <https://raw.githubusercontent.com/GMDSP-Linked-Data/RDF-work-in-progress/master/finalised-output/manchester/grittingroutes/route-264.json> .
+
+<https://gmdsp-admin.publishmydata.com/id/manchester/gritting/route-265> a ns1:GrittingRoute ;
+    rdfs:label "route-265" ;
+    ns1:routeFile <https://raw.githubusercontent.com/GMDSP-Linked-Data/RDF-work-in-progress/master/finalised-output/manchester/grittingroutes/route-265.json> .
+
+<https://gmdsp-admin.publishmydata.com/id/manchester/gritting/route-266> a ns1:GrittingRoute ;
+    rdfs:label "route-266" ;
+    ns1:routeFile <https://raw.githubusercontent.com/GMDSP-Linked-Data/RDF-work-in-progress/master/finalised-output/manchester/grittingroutes/route-266.json> .
+
+<https://gmdsp-admin.publishmydata.com/id/manchester/gritting/route-267> a ns1:GrittingRoute ;
+    rdfs:label "route-267" ;
+    ns1:routeFile <https://raw.githubusercontent.com/GMDSP-Linked-Data/RDF-work-in-progress/master/finalised-output/manchester/grittingroutes/route-267.json> .
+
+<https://gmdsp-admin.publishmydata.com/id/manchester/gritting/route-268> a ns1:GrittingRoute ;
+    rdfs:label "route-268" ;
+    ns1:routeFile <https://raw.githubusercontent.com/GMDSP-Linked-Data/RDF-work-in-progress/master/finalised-output/manchester/grittingroutes/route-268.json> .
+
+<https://gmdsp-admin.publishmydata.com/id/manchester/gritting/route-269> a ns1:GrittingRoute ;
+    rdfs:label "route-269" ;
+    ns1:routeFile <https://raw.githubusercontent.com/GMDSP-Linked-Data/RDF-work-in-progress/master/finalised-output/manchester/grittingroutes/route-269.json> .
+
+<https://gmdsp-admin.publishmydata.com/id/manchester/gritting/route-27> a ns1:GrittingRoute ;
+    rdfs:label "route-27" ;
+    ns1:routeFile <https://raw.githubusercontent.com/GMDSP-Linked-Data/RDF-work-in-progress/master/finalised-output/manchester/grittingroutes/route-27.json> .
+
+<https://gmdsp-admin.publishmydata.com/id/manchester/gritting/route-270> a ns1:GrittingRoute ;
+    rdfs:label "route-270" ;
+    ns1:routeFile <https://raw.githubusercontent.com/GMDSP-Linked-Data/RDF-work-in-progress/master/finalised-output/manchester/grittingroutes/route-270.json> .
+
+<https://gmdsp-admin.publishmydata.com/id/manchester/gritting/route-271> a ns1:GrittingRoute ;
+    rdfs:label "route-271" ;
+    ns1:routeFile <https://raw.githubusercontent.com/GMDSP-Linked-Data/RDF-work-in-progress/master/finalised-output/manchester/grittingroutes/route-271.json> .
+
+<https://gmdsp-admin.publishmydata.com/id/manchester/gritting/route-272> a ns1:GrittingRoute ;
+    rdfs:label "route-272" ;
+    ns1:routeFile <https://raw.githubusercontent.com/GMDSP-Linked-Data/RDF-work-in-progress/master/finalised-output/manchester/grittingroutes/route-272.json> .
+
+<https://gmdsp-admin.publishmydata.com/id/manchester/gritting/route-273> a ns1:GrittingRoute ;
+    rdfs:label "route-273" ;
+    ns1:routeFile <https://raw.githubusercontent.com/GMDSP-Linked-Data/RDF-work-in-progress/master/finalised-output/manchester/grittingroutes/route-273.json> .
+
+<https://gmdsp-admin.publishmydata.com/id/manchester/gritting/route-274> a ns1:GrittingRoute ;
+    rdfs:label "route-274" ;
+    ns1:routeFile <https://raw.githubusercontent.com/GMDSP-Linked-Data/RDF-work-in-progress/master/finalised-output/manchester/grittingroutes/route-274.json> .
+
+<https://gmdsp-admin.publishmydata.com/id/manchester/gritting/route-275> a ns1:GrittingRoute ;
+    rdfs:label "route-275" ;
+    ns1:routeFile <https://raw.githubusercontent.com/GMDSP-Linked-Data/RDF-work-in-progress/master/finalised-output/manchester/grittingroutes/route-275.json> .
+
+<https://gmdsp-admin.publishmydata.com/id/manchester/gritting/route-276> a ns1:GrittingRoute ;
+    rdfs:label "route-276" ;
+    ns1:routeFile <https://raw.githubusercontent.com/GMDSP-Linked-Data/RDF-work-in-progress/master/finalised-output/manchester/grittingroutes/route-276.json> .
+
+<https://gmdsp-admin.publishmydata.com/id/manchester/gritting/route-277> a ns1:GrittingRoute ;
+    rdfs:label "route-277" ;
+    ns1:routeFile <https://raw.githubusercontent.com/GMDSP-Linked-Data/RDF-work-in-progress/master/finalised-output/manchester/grittingroutes/route-277.json> .
+
+<https://gmdsp-admin.publishmydata.com/id/manchester/gritting/route-278> a ns1:GrittingRoute ;
+    rdfs:label "route-278" ;
+    ns1:routeFile <https://raw.githubusercontent.com/GMDSP-Linked-Data/RDF-work-in-progress/master/finalised-output/manchester/grittingroutes/route-278.json> .
+
+<https://gmdsp-admin.publishmydata.com/id/manchester/gritting/route-279> a ns1:GrittingRoute ;
+    rdfs:label "route-279" ;
+    ns1:routeFile <https://raw.githubusercontent.com/GMDSP-Linked-Data/RDF-work-in-progress/master/finalised-output/manchester/grittingroutes/route-279.json> .
+
+<https://gmdsp-admin.publishmydata.com/id/manchester/gritting/route-28> a ns1:GrittingRoute ;
+    rdfs:label "route-28" ;
+    ns1:routeFile <https://raw.githubusercontent.com/GMDSP-Linked-Data/RDF-work-in-progress/master/finalised-output/manchester/grittingroutes/route-28.json> .
+
+<https://gmdsp-admin.publishmydata.com/id/manchester/gritting/route-280> a ns1:GrittingRoute ;
+    rdfs:label "route-280" ;
+    ns1:routeFile <https://raw.githubusercontent.com/GMDSP-Linked-Data/RDF-work-in-progress/master/finalised-output/manchester/grittingroutes/route-280.json> .
+
+<https://gmdsp-admin.publishmydata.com/id/manchester/gritting/route-281> a ns1:GrittingRoute ;
+    rdfs:label "route-281" ;
+    ns1:routeFile <https://raw.githubusercontent.com/GMDSP-Linked-Data/RDF-work-in-progress/master/finalised-output/manchester/grittingroutes/route-281.json> .
+
+<https://gmdsp-admin.publishmydata.com/id/manchester/gritting/route-282> a ns1:GrittingRoute ;
+    rdfs:label "route-282" ;
+    ns1:routeFile <https://raw.githubusercontent.com/GMDSP-Linked-Data/RDF-work-in-progress/master/finalised-output/manchester/grittingroutes/route-282.json> .
+
+<https://gmdsp-admin.publishmydata.com/id/manchester/gritting/route-283> a ns1:GrittingRoute ;
+    rdfs:label "route-283" ;
+    ns1:routeFile <https://raw.githubusercontent.com/GMDSP-Linked-Data/RDF-work-in-progress/master/finalised-output/manchester/grittingroutes/route-283.json> .
+
+<https://gmdsp-admin.publishmydata.com/id/manchester/gritting/route-284> a ns1:GrittingRoute ;
+    rdfs:label "route-284" ;
+    ns1:routeFile <https://raw.githubusercontent.com/GMDSP-Linked-Data/RDF-work-in-progress/master/finalised-output/manchester/grittingroutes/route-284.json> .
+
+<https://gmdsp-admin.publishmydata.com/id/manchester/gritting/route-285> a ns1:GrittingRoute ;
+    rdfs:label "route-285" ;
+    ns1:routeFile <https://raw.githubusercontent.com/GMDSP-Linked-Data/RDF-work-in-progress/master/finalised-output/manchester/grittingroutes/route-285.json> .
+
+<https://gmdsp-admin.publishmydata.com/id/manchester/gritting/route-286> a ns1:GrittingRoute ;
+    rdfs:label "route-286" ;
+    ns1:routeFile <https://raw.githubusercontent.com/GMDSP-Linked-Data/RDF-work-in-progress/master/finalised-output/manchester/grittingroutes/route-286.json> .
+
+<https://gmdsp-admin.publishmydata.com/id/manchester/gritting/route-287> a ns1:GrittingRoute ;
+    rdfs:label "route-287" ;
+    ns1:routeFile <https://raw.githubusercontent.com/GMDSP-Linked-Data/RDF-work-in-progress/master/finalised-output/manchester/grittingroutes/route-287.json> .
+
+<https://gmdsp-admin.publishmydata.com/id/manchester/gritting/route-288> a ns1:GrittingRoute ;
+    rdfs:label "route-288" ;
+    ns1:routeFile <https://raw.githubusercontent.com/GMDSP-Linked-Data/RDF-work-in-progress/master/finalised-output/manchester/grittingroutes/route-288.json> .
+
+<https://gmdsp-admin.publishmydata.com/id/manchester/gritting/route-289> a ns1:GrittingRoute ;
+    rdfs:label "route-289" ;
+    ns1:routeFile <https://raw.githubusercontent.com/GMDSP-Linked-Data/RDF-work-in-progress/master/finalised-output/manchester/grittingroutes/route-289.json> .
+
+<https://gmdsp-admin.publishmydata.com/id/manchester/gritting/route-29> a ns1:GrittingRoute ;
+    rdfs:label "route-29" ;
+    ns1:routeFile <https://raw.githubusercontent.com/GMDSP-Linked-Data/RDF-work-in-progress/master/finalised-output/manchester/grittingroutes/route-29.json> .
+
+<https://gmdsp-admin.publishmydata.com/id/manchester/gritting/route-290> a ns1:GrittingRoute ;
+    rdfs:label "route-290" ;
+    ns1:routeFile <https://raw.githubusercontent.com/GMDSP-Linked-Data/RDF-work-in-progress/master/finalised-output/manchester/grittingroutes/route-290.json> .
+
+<https://gmdsp-admin.publishmydata.com/id/manchester/gritting/route-291> a ns1:GrittingRoute ;
+    rdfs:label "route-291" ;
+    ns1:routeFile <https://raw.githubusercontent.com/GMDSP-Linked-Data/RDF-work-in-progress/master/finalised-output/manchester/grittingroutes/route-291.json> .
+
+<https://gmdsp-admin.publishmydata.com/id/manchester/gritting/route-292> a ns1:GrittingRoute ;
+    rdfs:label "route-292" ;
+    ns1:routeFile <https://raw.githubusercontent.com/GMDSP-Linked-Data/RDF-work-in-progress/master/finalised-output/manchester/grittingroutes/route-292.json> .
+
+<https://gmdsp-admin.publishmydata.com/id/manchester/gritting/route-293> a ns1:GrittingRoute ;
+    rdfs:label "route-293" ;
+    ns1:routeFile <https://raw.githubusercontent.com/GMDSP-Linked-Data/RDF-work-in-progress/master/finalised-output/manchester/grittingroutes/route-293.json> .
+
+<https://gmdsp-admin.publishmydata.com/id/manchester/gritting/route-294> a ns1:GrittingRoute ;
+    rdfs:label "route-294" ;
+    ns1:routeFile <https://raw.githubusercontent.com/GMDSP-Linked-Data/RDF-work-in-progress/master/finalised-output/manchester/grittingroutes/route-294.json> .
+
+<https://gmdsp-admin.publishmydata.com/id/manchester/gritting/route-295> a ns1:GrittingRoute ;
+    rdfs:label "route-295" ;
+    ns1:routeFile <https://raw.githubusercontent.com/GMDSP-Linked-Data/RDF-work-in-progress/master/finalised-output/manchester/grittingroutes/route-295.json> .
+
+<https://gmdsp-admin.publishmydata.com/id/manchester/gritting/route-296> a ns1:GrittingRoute ;
+    rdfs:label "route-296" ;
+    ns1:routeFile <https://raw.githubusercontent.com/GMDSP-Linked-Data/RDF-work-in-progress/master/finalised-output/manchester/grittingroutes/route-296.json> .
+
+<https://gmdsp-admin.publishmydata.com/id/manchester/gritting/route-297> a ns1:GrittingRoute ;
+    rdfs:label "route-297" ;
+    ns1:routeFile <https://raw.githubusercontent.com/GMDSP-Linked-Data/RDF-work-in-progress/master/finalised-output/manchester/grittingroutes/route-297.json> .
+
+<https://gmdsp-admin.publishmydata.com/id/manchester/gritting/route-298> a ns1:GrittingRoute ;
+    rdfs:label "route-298" ;
+    ns1:routeFile <https://raw.githubusercontent.com/GMDSP-Linked-Data/RDF-work-in-progress/master/finalised-output/manchester/grittingroutes/route-298.json> .
+
+<https://gmdsp-admin.publishmydata.com/id/manchester/gritting/route-299> a ns1:GrittingRoute ;
+    rdfs:label "route-299" ;
+    ns1:routeFile <https://raw.githubusercontent.com/GMDSP-Linked-Data/RDF-work-in-progress/master/finalised-output/manchester/grittingroutes/route-299.json> .
+
+<https://gmdsp-admin.publishmydata.com/id/manchester/gritting/route-3> a ns1:GrittingRoute ;
+    rdfs:label "route-3" ;
+    ns1:routeFile <https://raw.githubusercontent.com/GMDSP-Linked-Data/RDF-work-in-progress/master/finalised-output/manchester/grittingroutes/route-3.json> .
+
+<https://gmdsp-admin.publishmydata.com/id/manchester/gritting/route-30> a ns1:GrittingRoute ;
+    rdfs:label "route-30" ;
+    ns1:routeFile <https://raw.githubusercontent.com/GMDSP-Linked-Data/RDF-work-in-progress/master/finalised-output/manchester/grittingroutes/route-30.json> .
+
+<https://gmdsp-admin.publishmydata.com/id/manchester/gritting/route-300> a ns1:GrittingRoute ;
+    rdfs:label "route-300" ;
+    ns1:routeFile <https://raw.githubusercontent.com/GMDSP-Linked-Data/RDF-work-in-progress/master/finalised-output/manchester/grittingroutes/route-300.json> .
+
+<https://gmdsp-admin.publishmydata.com/id/manchester/gritting/route-301> a ns1:GrittingRoute ;
+    rdfs:label "route-301" ;
+    ns1:routeFile <https://raw.githubusercontent.com/GMDSP-Linked-Data/RDF-work-in-progress/master/finalised-output/manchester/grittingroutes/route-301.json> .
+
+<https://gmdsp-admin.publishmydata.com/id/manchester/gritting/route-302> a ns1:GrittingRoute ;
+    rdfs:label "route-302" ;
+    ns1:routeFile <https://raw.githubusercontent.com/GMDSP-Linked-Data/RDF-work-in-progress/master/finalised-output/manchester/grittingroutes/route-302.json> .
+
+<https://gmdsp-admin.publishmydata.com/id/manchester/gritting/route-303> a ns1:GrittingRoute ;
+    rdfs:label "route-303" ;
+    ns1:routeFile <https://raw.githubusercontent.com/GMDSP-Linked-Data/RDF-work-in-progress/master/finalised-output/manchester/grittingroutes/route-303.json> .
+
+<https://gmdsp-admin.publishmydata.com/id/manchester/gritting/route-304> a ns1:GrittingRoute ;
+    rdfs:label "route-304" ;
+    ns1:routeFile <https://raw.githubusercontent.com/GMDSP-Linked-Data/RDF-work-in-progress/master/finalised-output/manchester/grittingroutes/route-304.json> .
+
+<https://gmdsp-admin.publishmydata.com/id/manchester/gritting/route-305> a ns1:GrittingRoute ;
+    rdfs:label "route-305" ;
+    ns1:routeFile <https://raw.githubusercontent.com/GMDSP-Linked-Data/RDF-work-in-progress/master/finalised-output/manchester/grittingroutes/route-305.json> .
+
+<https://gmdsp-admin.publishmydata.com/id/manchester/gritting/route-306> a ns1:GrittingRoute ;
+    rdfs:label "route-306" ;
+    ns1:routeFile <https://raw.githubusercontent.com/GMDSP-Linked-Data/RDF-work-in-progress/master/finalised-output/manchester/grittingroutes/route-306.json> .
+
+<https://gmdsp-admin.publishmydata.com/id/manchester/gritting/route-307> a ns1:GrittingRoute ;
+    rdfs:label "route-307" ;
+    ns1:routeFile <https://raw.githubusercontent.com/GMDSP-Linked-Data/RDF-work-in-progress/master/finalised-output/manchester/grittingroutes/route-307.json> .
+
+<https://gmdsp-admin.publishmydata.com/id/manchester/gritting/route-308> a ns1:GrittingRoute ;
+    rdfs:label "route-308" ;
+    ns1:routeFile <https://raw.githubusercontent.com/GMDSP-Linked-Data/RDF-work-in-progress/master/finalised-output/manchester/grittingroutes/route-308.json> .
+
+<https://gmdsp-admin.publishmydata.com/id/manchester/gritting/route-309> a ns1:GrittingRoute ;
+    rdfs:label "route-309" ;
+    ns1:routeFile <https://raw.githubusercontent.com/GMDSP-Linked-Data/RDF-work-in-progress/master/finalised-output/manchester/grittingroutes/route-309.json> .
+
+<https://gmdsp-admin.publishmydata.com/id/manchester/gritting/route-31> a ns1:GrittingRoute ;
+    rdfs:label "route-31" ;
+    ns1:routeFile <https://raw.githubusercontent.com/GMDSP-Linked-Data/RDF-work-in-progress/master/finalised-output/manchester/grittingroutes/route-31.json> .
+
+<https://gmdsp-admin.publishmydata.com/id/manchester/gritting/route-310> a ns1:GrittingRoute ;
+    rdfs:label "route-310" ;
+    ns1:routeFile <https://raw.githubusercontent.com/GMDSP-Linked-Data/RDF-work-in-progress/master/finalised-output/manchester/grittingroutes/route-310.json> .
+
+<https://gmdsp-admin.publishmydata.com/id/manchester/gritting/route-311> a ns1:GrittingRoute ;
+    rdfs:label "route-311" ;
+    ns1:routeFile <https://raw.githubusercontent.com/GMDSP-Linked-Data/RDF-work-in-progress/master/finalised-output/manchester/grittingroutes/route-311.json> .
+
+<https://gmdsp-admin.publishmydata.com/id/manchester/gritting/route-312> a ns1:GrittingRoute ;
+    rdfs:label "route-312" ;
+    ns1:routeFile <https://raw.githubusercontent.com/GMDSP-Linked-Data/RDF-work-in-progress/master/finalised-output/manchester/grittingroutes/route-312.json> .
+
+<https://gmdsp-admin.publishmydata.com/id/manchester/gritting/route-313> a ns1:GrittingRoute ;
+    rdfs:label "route-313" ;
+    ns1:routeFile <https://raw.githubusercontent.com/GMDSP-Linked-Data/RDF-work-in-progress/master/finalised-output/manchester/grittingroutes/route-313.json> .
+
+<https://gmdsp-admin.publishmydata.com/id/manchester/gritting/route-314> a ns1:GrittingRoute ;
+    rdfs:label "route-314" ;
+    ns1:routeFile <https://raw.githubusercontent.com/GMDSP-Linked-Data/RDF-work-in-progress/master/finalised-output/manchester/grittingroutes/route-314.json> .
+
+<https://gmdsp-admin.publishmydata.com/id/manchester/gritting/route-315> a ns1:GrittingRoute ;
+    rdfs:label "route-315" ;
+    ns1:routeFile <https://raw.githubusercontent.com/GMDSP-Linked-Data/RDF-work-in-progress/master/finalised-output/manchester/grittingroutes/route-315.json> .
+
+<https://gmdsp-admin.publishmydata.com/id/manchester/gritting/route-316> a ns1:GrittingRoute ;
+    rdfs:label "route-316" ;
+    ns1:routeFile <https://raw.githubusercontent.com/GMDSP-Linked-Data/RDF-work-in-progress/master/finalised-output/manchester/grittingroutes/route-316.json> .
+
+<https://gmdsp-admin.publishmydata.com/id/manchester/gritting/route-317> a ns1:GrittingRoute ;
+    rdfs:label "route-317" ;
+    ns1:routeFile <https://raw.githubusercontent.com/GMDSP-Linked-Data/RDF-work-in-progress/master/finalised-output/manchester/grittingroutes/route-317.json> .
+
+<https://gmdsp-admin.publishmydata.com/id/manchester/gritting/route-318> a ns1:GrittingRoute ;
+    rdfs:label "route-318" ;
+    ns1:routeFile <https://raw.githubusercontent.com/GMDSP-Linked-Data/RDF-work-in-progress/master/finalised-output/manchester/grittingroutes/route-318.json> .
+
+<https://gmdsp-admin.publishmydata.com/id/manchester/gritting/route-319> a ns1:GrittingRoute ;
+    rdfs:label "route-319" ;
+    ns1:routeFile <https://raw.githubusercontent.com/GMDSP-Linked-Data/RDF-work-in-progress/master/finalised-output/manchester/grittingroutes/route-319.json> .
+
+<https://gmdsp-admin.publishmydata.com/id/manchester/gritting/route-32> a ns1:GrittingRoute ;
+    rdfs:label "route-32" ;
+    ns1:routeFile <https://raw.githubusercontent.com/GMDSP-Linked-Data/RDF-work-in-progress/master/finalised-output/manchester/grittingroutes/route-32.json> .
+
+<https://gmdsp-admin.publishmydata.com/id/manchester/gritting/route-320> a ns1:GrittingRoute ;
+    rdfs:label "route-320" ;
+    ns1:routeFile <https://raw.githubusercontent.com/GMDSP-Linked-Data/RDF-work-in-progress/master/finalised-output/manchester/grittingroutes/route-320.json> .
+
+<https://gmdsp-admin.publishmydata.com/id/manchester/gritting/route-321> a ns1:GrittingRoute ;
+    rdfs:label "route-321" ;
+    ns1:routeFile <https://raw.githubusercontent.com/GMDSP-Linked-Data/RDF-work-in-progress/master/finalised-output/manchester/grittingroutes/route-321.json> .
+
+<https://gmdsp-admin.publishmydata.com/id/manchester/gritting/route-322> a ns1:GrittingRoute ;
+    rdfs:label "route-322" ;
+    ns1:routeFile <https://raw.githubusercontent.com/GMDSP-Linked-Data/RDF-work-in-progress/master/finalised-output/manchester/grittingroutes/route-322.json> .
+
+<https://gmdsp-admin.publishmydata.com/id/manchester/gritting/route-323> a ns1:GrittingRoute ;
+    rdfs:label "route-323" ;
+    ns1:routeFile <https://raw.githubusercontent.com/GMDSP-Linked-Data/RDF-work-in-progress/master/finalised-output/manchester/grittingroutes/route-323.json> .
+
+<https://gmdsp-admin.publishmydata.com/id/manchester/gritting/route-324> a ns1:GrittingRoute ;
+    rdfs:label "route-324" ;
+    ns1:routeFile <https://raw.githubusercontent.com/GMDSP-Linked-Data/RDF-work-in-progress/master/finalised-output/manchester/grittingroutes/route-324.json> .
+
+<https://gmdsp-admin.publishmydata.com/id/manchester/gritting/route-325> a ns1:GrittingRoute ;
+    rdfs:label "route-325" ;
+    ns1:routeFile <https://raw.githubusercontent.com/GMDSP-Linked-Data/RDF-work-in-progress/master/finalised-output/manchester/grittingroutes/route-325.json> .
+
+<https://gmdsp-admin.publishmydata.com/id/manchester/gritting/route-326> a ns1:GrittingRoute ;
+    rdfs:label "route-326" ;
+    ns1:routeFile <https://raw.githubusercontent.com/GMDSP-Linked-Data/RDF-work-in-progress/master/finalised-output/manchester/grittingroutes/route-326.json> .
+
+<https://gmdsp-admin.publishmydata.com/id/manchester/gritting/route-327> a ns1:GrittingRoute ;
+    rdfs:label "route-327" ;
+    ns1:routeFile <https://raw.githubusercontent.com/GMDSP-Linked-Data/RDF-work-in-progress/master/finalised-output/manchester/grittingroutes/route-327.json> .
+
+<https://gmdsp-admin.publishmydata.com/id/manchester/gritting/route-328> a ns1:GrittingRoute ;
+    rdfs:label "route-328" ;
+    ns1:routeFile <https://raw.githubusercontent.com/GMDSP-Linked-Data/RDF-work-in-progress/master/finalised-output/manchester/grittingroutes/route-328.json> .
+
+<https://gmdsp-admin.publishmydata.com/id/manchester/gritting/route-329> a ns1:GrittingRoute ;
+    rdfs:label "route-329" ;
+    ns1:routeFile <https://raw.githubusercontent.com/GMDSP-Linked-Data/RDF-work-in-progress/master/finalised-output/manchester/grittingroutes/route-329.json> .
+
+<https://gmdsp-admin.publishmydata.com/id/manchester/gritting/route-33> a ns1:GrittingRoute ;
+    rdfs:label "route-33" ;
+    ns1:routeFile <https://raw.githubusercontent.com/GMDSP-Linked-Data/RDF-work-in-progress/master/finalised-output/manchester/grittingroutes/route-33.json> .
+
+<https://gmdsp-admin.publishmydata.com/id/manchester/gritting/route-330> a ns1:GrittingRoute ;
+    rdfs:label "route-330" ;
+    ns1:routeFile <https://raw.githubusercontent.com/GMDSP-Linked-Data/RDF-work-in-progress/master/finalised-output/manchester/grittingroutes/route-330.json> .
+
+<https://gmdsp-admin.publishmydata.com/id/manchester/gritting/route-331> a ns1:GrittingRoute ;
+    rdfs:label "route-331" ;
+    ns1:routeFile <https://raw.githubusercontent.com/GMDSP-Linked-Data/RDF-work-in-progress/master/finalised-output/manchester/grittingroutes/route-331.json> .
+
+<https://gmdsp-admin.publishmydata.com/id/manchester/gritting/route-332> a ns1:GrittingRoute ;
+    rdfs:label "route-332" ;
+    ns1:routeFile <https://raw.githubusercontent.com/GMDSP-Linked-Data/RDF-work-in-progress/master/finalised-output/manchester/grittingroutes/route-332.json> .
+
+<https://gmdsp-admin.publishmydata.com/id/manchester/gritting/route-333> a ns1:GrittingRoute ;
+    rdfs:label "route-333" ;
+    ns1:routeFile <https://raw.githubusercontent.com/GMDSP-Linked-Data/RDF-work-in-progress/master/finalised-output/manchester/grittingroutes/route-333.json> .
+
+<https://gmdsp-admin.publishmydata.com/id/manchester/gritting/route-334> a ns1:GrittingRoute ;
+    rdfs:label "route-334" ;
+    ns1:routeFile <https://raw.githubusercontent.com/GMDSP-Linked-Data/RDF-work-in-progress/master/finalised-output/manchester/grittingroutes/route-334.json> .
+
+<https://gmdsp-admin.publishmydata.com/id/manchester/gritting/route-335> a ns1:GrittingRoute ;
+    rdfs:label "route-335" ;
+    ns1:routeFile <https://raw.githubusercontent.com/GMDSP-Linked-Data/RDF-work-in-progress/master/finalised-output/manchester/grittingroutes/route-335.json> .
+
+<https://gmdsp-admin.publishmydata.com/id/manchester/gritting/route-336> a ns1:GrittingRoute ;
+    rdfs:label "route-336" ;
+    ns1:routeFile <https://raw.githubusercontent.com/GMDSP-Linked-Data/RDF-work-in-progress/master/finalised-output/manchester/grittingroutes/route-336.json> .
+
+<https://gmdsp-admin.publishmydata.com/id/manchester/gritting/route-337> a ns1:GrittingRoute ;
+    rdfs:label "route-337" ;
+    ns1:routeFile <https://raw.githubusercontent.com/GMDSP-Linked-Data/RDF-work-in-progress/master/finalised-output/manchester/grittingroutes/route-337.json> .
+
+<https://gmdsp-admin.publishmydata.com/id/manchester/gritting/route-338> a ns1:GrittingRoute ;
+    rdfs:label "route-338" ;
+    ns1:routeFile <https://raw.githubusercontent.com/GMDSP-Linked-Data/RDF-work-in-progress/master/finalised-output/manchester/grittingroutes/route-338.json> .
+
+<https://gmdsp-admin.publishmydata.com/id/manchester/gritting/route-339> a ns1:GrittingRoute ;
+    rdfs:label "route-339" ;
+    ns1:routeFile <https://raw.githubusercontent.com/GMDSP-Linked-Data/RDF-work-in-progress/master/finalised-output/manchester/grittingroutes/route-339.json> .
+
+<https://gmdsp-admin.publishmydata.com/id/manchester/gritting/route-34> a ns1:GrittingRoute ;
+    rdfs:label "route-34" ;
+    ns1:routeFile <https://raw.githubusercontent.com/GMDSP-Linked-Data/RDF-work-in-progress/master/finalised-output/manchester/grittingroutes/route-34.json> .
+
+<https://gmdsp-admin.publishmydata.com/id/manchester/gritting/route-340> a ns1:GrittingRoute ;
+    rdfs:label "route-340" ;
+    ns1:routeFile <https://raw.githubusercontent.com/GMDSP-Linked-Data/RDF-work-in-progress/master/finalised-output/manchester/grittingroutes/route-340.json> .
+
+<https://gmdsp-admin.publishmydata.com/id/manchester/gritting/route-341> a ns1:GrittingRoute ;
+    rdfs:label "route-341" ;
+    ns1:routeFile <https://raw.githubusercontent.com/GMDSP-Linked-Data/RDF-work-in-progress/master/finalised-output/manchester/grittingroutes/route-341.json> .
+
+<https://gmdsp-admin.publishmydata.com/id/manchester/gritting/route-342> a ns1:GrittingRoute ;
+    rdfs:label "route-342" ;
+    ns1:routeFile <https://raw.githubusercontent.com/GMDSP-Linked-Data/RDF-work-in-progress/master/finalised-output/manchester/grittingroutes/route-342.json> .
+
+<https://gmdsp-admin.publishmydata.com/id/manchester/gritting/route-343> a ns1:GrittingRoute ;
+    rdfs:label "route-343" ;
+    ns1:routeFile <https://raw.githubusercontent.com/GMDSP-Linked-Data/RDF-work-in-progress/master/finalised-output/manchester/grittingroutes/route-343.json> .
+
+<https://gmdsp-admin.publishmydata.com/id/manchester/gritting/route-344> a ns1:GrittingRoute ;
+    rdfs:label "route-344" ;
+    ns1:routeFile <https://raw.githubusercontent.com/GMDSP-Linked-Data/RDF-work-in-progress/master/finalised-output/manchester/grittingroutes/route-344.json> .
+
+<https://gmdsp-admin.publishmydata.com/id/manchester/gritting/route-345> a ns1:GrittingRoute ;
+    rdfs:label "route-345" ;
+    ns1:routeFile <https://raw.githubusercontent.com/GMDSP-Linked-Data/RDF-work-in-progress/master/finalised-output/manchester/grittingroutes/route-345.json> .
+
+<https://gmdsp-admin.publishmydata.com/id/manchester/gritting/route-346> a ns1:GrittingRoute ;
+    rdfs:label "route-346" ;
+    ns1:routeFile <https://raw.githubusercontent.com/GMDSP-Linked-Data/RDF-work-in-progress/master/finalised-output/manchester/grittingroutes/route-346.json> .
+
+<https://gmdsp-admin.publishmydata.com/id/manchester/gritting/route-347> a ns1:GrittingRoute ;
+    rdfs:label "route-347" ;
+    ns1:routeFile <https://raw.githubusercontent.com/GMDSP-Linked-Data/RDF-work-in-progress/master/finalised-output/manchester/grittingroutes/route-347.json> .
+
+<https://gmdsp-admin.publishmydata.com/id/manchester/gritting/route-348> a ns1:GrittingRoute ;
+    rdfs:label "route-348" ;
+    ns1:routeFile <https://raw.githubusercontent.com/GMDSP-Linked-Data/RDF-work-in-progress/master/finalised-output/manchester/grittingroutes/route-348.json> .
+
+<https://gmdsp-admin.publishmydata.com/id/manchester/gritting/route-349> a ns1:GrittingRoute ;
+    rdfs:label "route-349" ;
+    ns1:routeFile <https://raw.githubusercontent.com/GMDSP-Linked-Data/RDF-work-in-progress/master/finalised-output/manchester/grittingroutes/route-349.json> .
+
+<https://gmdsp-admin.publishmydata.com/id/manchester/gritting/route-35> a ns1:GrittingRoute ;
+    rdfs:label "route-35" ;
+    ns1:routeFile <https://raw.githubusercontent.com/GMDSP-Linked-Data/RDF-work-in-progress/master/finalised-output/manchester/grittingroutes/route-35.json> .
+
+<https://gmdsp-admin.publishmydata.com/id/manchester/gritting/route-350> a ns1:GrittingRoute ;
+    rdfs:label "route-350" ;
+    ns1:routeFile <https://raw.githubusercontent.com/GMDSP-Linked-Data/RDF-work-in-progress/master/finalised-output/manchester/grittingroutes/route-350.json> .
+
+<https://gmdsp-admin.publishmydata.com/id/manchester/gritting/route-351> a ns1:GrittingRoute ;
+    rdfs:label "route-351" ;
+    ns1:routeFile <https://raw.githubusercontent.com/GMDSP-Linked-Data/RDF-work-in-progress/master/finalised-output/manchester/grittingroutes/route-351.json> .
+
+<https://gmdsp-admin.publishmydata.com/id/manchester/gritting/route-352> a ns1:GrittingRoute ;
+    rdfs:label "route-352" ;
+    ns1:routeFile <https://raw.githubusercontent.com/GMDSP-Linked-Data/RDF-work-in-progress/master/finalised-output/manchester/grittingroutes/route-352.json> .
+
+<https://gmdsp-admin.publishmydata.com/id/manchester/gritting/route-353> a ns1:GrittingRoute ;
+    rdfs:label "route-353" ;
+    ns1:routeFile <https://raw.githubusercontent.com/GMDSP-Linked-Data/RDF-work-in-progress/master/finalised-output/manchester/grittingroutes/route-353.json> .
+
+<https://gmdsp-admin.publishmydata.com/id/manchester/gritting/route-354> a ns1:GrittingRoute ;
+    rdfs:label "route-354" ;
+    ns1:routeFile <https://raw.githubusercontent.com/GMDSP-Linked-Data/RDF-work-in-progress/master/finalised-output/manchester/grittingroutes/route-354.json> .
+
+<https://gmdsp-admin.publishmydata.com/id/manchester/gritting/route-355> a ns1:GrittingRoute ;
+    rdfs:label "route-355" ;
+    ns1:routeFile <https://raw.githubusercontent.com/GMDSP-Linked-Data/RDF-work-in-progress/master/finalised-output/manchester/grittingroutes/route-355.json> .
+
+<https://gmdsp-admin.publishmydata.com/id/manchester/gritting/route-356> a ns1:GrittingRoute ;
+    rdfs:label "route-356" ;
+    ns1:routeFile <https://raw.githubusercontent.com/GMDSP-Linked-Data/RDF-work-in-progress/master/finalised-output/manchester/grittingroutes/route-356.json> .
+
+<https://gmdsp-admin.publishmydata.com/id/manchester/gritting/route-357> a ns1:GrittingRoute ;
+    rdfs:label "route-357" ;
+    ns1:routeFile <https://raw.githubusercontent.com/GMDSP-Linked-Data/RDF-work-in-progress/master/finalised-output/manchester/grittingroutes/route-357.json> .
+
+<https://gmdsp-admin.publishmydata.com/id/manchester/gritting/route-358> a ns1:GrittingRoute ;
+    rdfs:label "route-358" ;
+    ns1:routeFile <https://raw.githubusercontent.com/GMDSP-Linked-Data/RDF-work-in-progress/master/finalised-output/manchester/grittingroutes/route-358.json> .
+
+<https://gmdsp-admin.publishmydata.com/id/manchester/gritting/route-359> a ns1:GrittingRoute ;
+    rdfs:label "route-359" ;
+    ns1:routeFile <https://raw.githubusercontent.com/GMDSP-Linked-Data/RDF-work-in-progress/master/finalised-output/manchester/grittingroutes/route-359.json> .
+
+<https://gmdsp-admin.publishmydata.com/id/manchester/gritting/route-36> a ns1:GrittingRoute ;
+    rdfs:label "route-36" ;
+    ns1:routeFile <https://raw.githubusercontent.com/GMDSP-Linked-Data/RDF-work-in-progress/master/finalised-output/manchester/grittingroutes/route-36.json> .
+
+<https://gmdsp-admin.publishmydata.com/id/manchester/gritting/route-360> a ns1:GrittingRoute ;
+    rdfs:label "route-360" ;
+    ns1:routeFile <https://raw.githubusercontent.com/GMDSP-Linked-Data/RDF-work-in-progress/master/finalised-output/manchester/grittingroutes/route-360.json> .
+
+<https://gmdsp-admin.publishmydata.com/id/manchester/gritting/route-361> a ns1:GrittingRoute ;
+    rdfs:label "route-361" ;
+    ns1:routeFile <https://raw.githubusercontent.com/GMDSP-Linked-Data/RDF-work-in-progress/master/finalised-output/manchester/grittingroutes/route-361.json> .
+
+<https://gmdsp-admin.publishmydata.com/id/manchester/gritting/route-362> a ns1:GrittingRoute ;
+    rdfs:label "route-362" ;
+    ns1:routeFile <https://raw.githubusercontent.com/GMDSP-Linked-Data/RDF-work-in-progress/master/finalised-output/manchester/grittingroutes/route-362.json> .
+
+<https://gmdsp-admin.publishmydata.com/id/manchester/gritting/route-363> a ns1:GrittingRoute ;
+    rdfs:label "route-363" ;
+    ns1:routeFile <https://raw.githubusercontent.com/GMDSP-Linked-Data/RDF-work-in-progress/master/finalised-output/manchester/grittingroutes/route-363.json> .
+
+<https://gmdsp-admin.publishmydata.com/id/manchester/gritting/route-364> a ns1:GrittingRoute ;
+    rdfs:label "route-364" ;
+    ns1:routeFile <https://raw.githubusercontent.com/GMDSP-Linked-Data/RDF-work-in-progress/master/finalised-output/manchester/grittingroutes/route-364.json> .
+
+<https://gmdsp-admin.publishmydata.com/id/manchester/gritting/route-365> a ns1:GrittingRoute ;
+    rdfs:label "route-365" ;
+    ns1:routeFile <https://raw.githubusercontent.com/GMDSP-Linked-Data/RDF-work-in-progress/master/finalised-output/manchester/grittingroutes/route-365.json> .
+
+<https://gmdsp-admin.publishmydata.com/id/manchester/gritting/route-366> a ns1:GrittingRoute ;
+    rdfs:label "route-366" ;
+    ns1:routeFile <https://raw.githubusercontent.com/GMDSP-Linked-Data/RDF-work-in-progress/master/finalised-output/manchester/grittingroutes/route-366.json> .
+
+<https://gmdsp-admin.publishmydata.com/id/manchester/gritting/route-367> a ns1:GrittingRoute ;
+    rdfs:label "route-367" ;
+    ns1:routeFile <https://raw.githubusercontent.com/GMDSP-Linked-Data/RDF-work-in-progress/master/finalised-output/manchester/grittingroutes/route-367.json> .
+
+<https://gmdsp-admin.publishmydata.com/id/manchester/gritting/route-368> a ns1:GrittingRoute ;
+    rdfs:label "route-368" ;
+    ns1:routeFile <https://raw.githubusercontent.com/GMDSP-Linked-Data/RDF-work-in-progress/master/finalised-output/manchester/grittingroutes/route-368.json> .
+
+<https://gmdsp-admin.publishmydata.com/id/manchester/gritting/route-369> a ns1:GrittingRoute ;
+    rdfs:label "route-369" ;
+    ns1:routeFile <https://raw.githubusercontent.com/GMDSP-Linked-Data/RDF-work-in-progress/master/finalised-output/manchester/grittingroutes/route-369.json> .
+
+<https://gmdsp-admin.publishmydata.com/id/manchester/gritting/route-37> a ns1:GrittingRoute ;
+    rdfs:label "route-37" ;
+    ns1:routeFile <https://raw.githubusercontent.com/GMDSP-Linked-Data/RDF-work-in-progress/master/finalised-output/manchester/grittingroutes/route-37.json> .
+
+<https://gmdsp-admin.publishmydata.com/id/manchester/gritting/route-370> a ns1:GrittingRoute ;
+    rdfs:label "route-370" ;
+    ns1:routeFile <https://raw.githubusercontent.com/GMDSP-Linked-Data/RDF-work-in-progress/master/finalised-output/manchester/grittingroutes/route-370.json> .
+
+<https://gmdsp-admin.publishmydata.com/id/manchester/gritting/route-371> a ns1:GrittingRoute ;
+    rdfs:label "route-371" ;
+    ns1:routeFile <https://raw.githubusercontent.com/GMDSP-Linked-Data/RDF-work-in-progress/master/finalised-output/manchester/grittingroutes/route-371.json> .
+
+<https://gmdsp-admin.publishmydata.com/id/manchester/gritting/route-372> a ns1:GrittingRoute ;
+    rdfs:label "route-372" ;
+    ns1:routeFile <https://raw.githubusercontent.com/GMDSP-Linked-Data/RDF-work-in-progress/master/finalised-output/manchester/grittingroutes/route-372.json> .
+
+<https://gmdsp-admin.publishmydata.com/id/manchester/gritting/route-373> a ns1:GrittingRoute ;
+    rdfs:label "route-373" ;
+    ns1:routeFile <https://raw.githubusercontent.com/GMDSP-Linked-Data/RDF-work-in-progress/master/finalised-output/manchester/grittingroutes/route-373.json> .
+
+<https://gmdsp-admin.publishmydata.com/id/manchester/gritting/route-374> a ns1:GrittingRoute ;
+    rdfs:label "route-374" ;
+    ns1:routeFile <https://raw.githubusercontent.com/GMDSP-Linked-Data/RDF-work-in-progress/master/finalised-output/manchester/grittingroutes/route-374.json> .
+
+<https://gmdsp-admin.publishmydata.com/id/manchester/gritting/route-375> a ns1:GrittingRoute ;
+    rdfs:label "route-375" ;
+    ns1:routeFile <https://raw.githubusercontent.com/GMDSP-Linked-Data/RDF-work-in-progress/master/finalised-output/manchester/grittingroutes/route-375.json> .
+
+<https://gmdsp-admin.publishmydata.com/id/manchester/gritting/route-376> a ns1:GrittingRoute ;
+    rdfs:label "route-376" ;
+    ns1:routeFile <https://raw.githubusercontent.com/GMDSP-Linked-Data/RDF-work-in-progress/master/finalised-output/manchester/grittingroutes/route-376.json> .
+
+<https://gmdsp-admin.publishmydata.com/id/manchester/gritting/route-377> a ns1:GrittingRoute ;
+    rdfs:label "route-377" ;
+    ns1:routeFile <https://raw.githubusercontent.com/GMDSP-Linked-Data/RDF-work-in-progress/master/finalised-output/manchester/grittingroutes/route-377.json> .
+
+<https://gmdsp-admin.publishmydata.com/id/manchester/gritting/route-378> a ns1:GrittingRoute ;
+    rdfs:label "route-378" ;
+    ns1:routeFile <https://raw.githubusercontent.com/GMDSP-Linked-Data/RDF-work-in-progress/master/finalised-output/manchester/grittingroutes/route-378.json> .
+
+<https://gmdsp-admin.publishmydata.com/id/manchester/gritting/route-379> a ns1:GrittingRoute ;
+    rdfs:label "route-379" ;
+    ns1:routeFile <https://raw.githubusercontent.com/GMDSP-Linked-Data/RDF-work-in-progress/master/finalised-output/manchester/grittingroutes/route-379.json> .
+
+<https://gmdsp-admin.publishmydata.com/id/manchester/gritting/route-38> a ns1:GrittingRoute ;
+    rdfs:label "route-38" ;
+    ns1:routeFile <https://raw.githubusercontent.com/GMDSP-Linked-Data/RDF-work-in-progress/master/finalised-output/manchester/grittingroutes/route-38.json> .
+
+<https://gmdsp-admin.publishmydata.com/id/manchester/gritting/route-380> a ns1:GrittingRoute ;
+    rdfs:label "route-380" ;
+    ns1:routeFile <https://raw.githubusercontent.com/GMDSP-Linked-Data/RDF-work-in-progress/master/finalised-output/manchester/grittingroutes/route-380.json> .
+
+<https://gmdsp-admin.publishmydata.com/id/manchester/gritting/route-381> a ns1:GrittingRoute ;
+    rdfs:label "route-381" ;
+    ns1:routeFile <https://raw.githubusercontent.com/GMDSP-Linked-Data/RDF-work-in-progress/master/finalised-output/manchester/grittingroutes/route-381.json> .
+
+<https://gmdsp-admin.publishmydata.com/id/manchester/gritting/route-382> a ns1:GrittingRoute ;
+    rdfs:label "route-382" ;
+    ns1:routeFile <https://raw.githubusercontent.com/GMDSP-Linked-Data/RDF-work-in-progress/master/finalised-output/manchester/grittingroutes/route-382.json> .
+
+<https://gmdsp-admin.publishmydata.com/id/manchester/gritting/route-383> a ns1:GrittingRoute ;
+    rdfs:label "route-383" ;
+    ns1:routeFile <https://raw.githubusercontent.com/GMDSP-Linked-Data/RDF-work-in-progress/master/finalised-output/manchester/grittingroutes/route-383.json> .
+
+<https://gmdsp-admin.publishmydata.com/id/manchester/gritting/route-384> a ns1:GrittingRoute ;
+    rdfs:label "route-384" ;
+    ns1:routeFile <https://raw.githubusercontent.com/GMDSP-Linked-Data/RDF-work-in-progress/master/finalised-output/manchester/grittingroutes/route-384.json> .
+
+<https://gmdsp-admin.publishmydata.com/id/manchester/gritting/route-385> a ns1:GrittingRoute ;
+    rdfs:label "route-385" ;
+    ns1:routeFile <https://raw.githubusercontent.com/GMDSP-Linked-Data/RDF-work-in-progress/master/finalised-output/manchester/grittingroutes/route-385.json> .
+
+<https://gmdsp-admin.publishmydata.com/id/manchester/gritting/route-386> a ns1:GrittingRoute ;
+    rdfs:label "route-386" ;
+    ns1:routeFile <https://raw.githubusercontent.com/GMDSP-Linked-Data/RDF-work-in-progress/master/finalised-output/manchester/grittingroutes/route-386.json> .
+
+<https://gmdsp-admin.publishmydata.com/id/manchester/gritting/route-387> a ns1:GrittingRoute ;
+    rdfs:label "route-387" ;
+    ns1:routeFile <https://raw.githubusercontent.com/GMDSP-Linked-Data/RDF-work-in-progress/master/finalised-output/manchester/grittingroutes/route-387.json> .
+
+<https://gmdsp-admin.publishmydata.com/id/manchester/gritting/route-388> a ns1:GrittingRoute ;
+    rdfs:label "route-388" ;
+    ns1:routeFile <https://raw.githubusercontent.com/GMDSP-Linked-Data/RDF-work-in-progress/master/finalised-output/manchester/grittingroutes/route-388.json> .
+
+<https://gmdsp-admin.publishmydata.com/id/manchester/gritting/route-389> a ns1:GrittingRoute ;
+    rdfs:label "route-389" ;
+    ns1:routeFile <https://raw.githubusercontent.com/GMDSP-Linked-Data/RDF-work-in-progress/master/finalised-output/manchester/grittingroutes/route-389.json> .
+
+<https://gmdsp-admin.publishmydata.com/id/manchester/gritting/route-39> a ns1:GrittingRoute ;
+    rdfs:label "route-39" ;
+    ns1:routeFile <https://raw.githubusercontent.com/GMDSP-Linked-Data/RDF-work-in-progress/master/finalised-output/manchester/grittingroutes/route-39.json> .
+
+<https://gmdsp-admin.publishmydata.com/id/manchester/gritting/route-390> a ns1:GrittingRoute ;
+    rdfs:label "route-390" ;
+    ns1:routeFile <https://raw.githubusercontent.com/GMDSP-Linked-Data/RDF-work-in-progress/master/finalised-output/manchester/grittingroutes/route-390.json> .
+
+<https://gmdsp-admin.publishmydata.com/id/manchester/gritting/route-391> a ns1:GrittingRoute ;
+    rdfs:label "route-391" ;
+    ns1:routeFile <https://raw.githubusercontent.com/GMDSP-Linked-Data/RDF-work-in-progress/master/finalised-output/manchester/grittingroutes/route-391.json> .
+
+<https://gmdsp-admin.publishmydata.com/id/manchester/gritting/route-392> a ns1:GrittingRoute ;
+    rdfs:label "route-392" ;
+    ns1:routeFile <https://raw.githubusercontent.com/GMDSP-Linked-Data/RDF-work-in-progress/master/finalised-output/manchester/grittingroutes/route-392.json> .
+
+<https://gmdsp-admin.publishmydata.com/id/manchester/gritting/route-393> a ns1:GrittingRoute ;
+    rdfs:label "route-393" ;
+    ns1:routeFile <https://raw.githubusercontent.com/GMDSP-Linked-Data/RDF-work-in-progress/master/finalised-output/manchester/grittingroutes/route-393.json> .
+
+<https://gmdsp-admin.publishmydata.com/id/manchester/gritting/route-394> a ns1:GrittingRoute ;
+    rdfs:label "route-394" ;
+    ns1:routeFile <https://raw.githubusercontent.com/GMDSP-Linked-Data/RDF-work-in-progress/master/finalised-output/manchester/grittingroutes/route-394.json> .
+
+<https://gmdsp-admin.publishmydata.com/id/manchester/gritting/route-395> a ns1:GrittingRoute ;
+    rdfs:label "route-395" ;
+    ns1:routeFile <https://raw.githubusercontent.com/GMDSP-Linked-Data/RDF-work-in-progress/master/finalised-output/manchester/grittingroutes/route-395.json> .
+
+<https://gmdsp-admin.publishmydata.com/id/manchester/gritting/route-396> a ns1:GrittingRoute ;
+    rdfs:label "route-396" ;
+    ns1:routeFile <https://raw.githubusercontent.com/GMDSP-Linked-Data/RDF-work-in-progress/master/finalised-output/manchester/grittingroutes/route-396.json> .
+
+<https://gmdsp-admin.publishmydata.com/id/manchester/gritting/route-397> a ns1:GrittingRoute ;
+    rdfs:label "route-397" ;
+    ns1:routeFile <https://raw.githubusercontent.com/GMDSP-Linked-Data/RDF-work-in-progress/master/finalised-output/manchester/grittingroutes/route-397.json> .
+
+<https://gmdsp-admin.publishmydata.com/id/manchester/gritting/route-398> a ns1:GrittingRoute ;
+    rdfs:label "route-398" ;
+    ns1:routeFile <https://raw.githubusercontent.com/GMDSP-Linked-Data/RDF-work-in-progress/master/finalised-output/manchester/grittingroutes/route-398.json> .
+
+<https://gmdsp-admin.publishmydata.com/id/manchester/gritting/route-399> a ns1:GrittingRoute ;
+    rdfs:label "route-399" ;
+    ns1:routeFile <https://raw.githubusercontent.com/GMDSP-Linked-Data/RDF-work-in-progress/master/finalised-output/manchester/grittingroutes/route-399.json> .
+
+<https://gmdsp-admin.publishmydata.com/id/manchester/gritting/route-4> a ns1:GrittingRoute ;
+    rdfs:label "route-4" ;
+    ns1:routeFile <https://raw.githubusercontent.com/GMDSP-Linked-Data/RDF-work-in-progress/master/finalised-output/manchester/grittingroutes/route-4.json> .
+
+<https://gmdsp-admin.publishmydata.com/id/manchester/gritting/route-40> a ns1:GrittingRoute ;
+    rdfs:label "route-40" ;
+    ns1:routeFile <https://raw.githubusercontent.com/GMDSP-Linked-Data/RDF-work-in-progress/master/finalised-output/manchester/grittingroutes/route-40.json> .
+
+<https://gmdsp-admin.publishmydata.com/id/manchester/gritting/route-400> a ns1:GrittingRoute ;
+    rdfs:label "route-400" ;
+    ns1:routeFile <https://raw.githubusercontent.com/GMDSP-Linked-Data/RDF-work-in-progress/master/finalised-output/manchester/grittingroutes/route-400.json> .
+
+<https://gmdsp-admin.publishmydata.com/id/manchester/gritting/route-401> a ns1:GrittingRoute ;
+    rdfs:label "route-401" ;
+    ns1:routeFile <https://raw.githubusercontent.com/GMDSP-Linked-Data/RDF-work-in-progress/master/finalised-output/manchester/grittingroutes/route-401.json> .
+
+<https://gmdsp-admin.publishmydata.com/id/manchester/gritting/route-402> a ns1:GrittingRoute ;
+    rdfs:label "route-402" ;
+    ns1:routeFile <https://raw.githubusercontent.com/GMDSP-Linked-Data/RDF-work-in-progress/master/finalised-output/manchester/grittingroutes/route-402.json> .
+
+<https://gmdsp-admin.publishmydata.com/id/manchester/gritting/route-403> a ns1:GrittingRoute ;
+    rdfs:label "route-403" ;
+    ns1:routeFile <https://raw.githubusercontent.com/GMDSP-Linked-Data/RDF-work-in-progress/master/finalised-output/manchester/grittingroutes/route-403.json> .
+
+<https://gmdsp-admin.publishmydata.com/id/manchester/gritting/route-404> a ns1:GrittingRoute ;
+    rdfs:label "route-404" ;
+    ns1:routeFile <https://raw.githubusercontent.com/GMDSP-Linked-Data/RDF-work-in-progress/master/finalised-output/manchester/grittingroutes/route-404.json> .
+
+<https://gmdsp-admin.publishmydata.com/id/manchester/gritting/route-405> a ns1:GrittingRoute ;
+    rdfs:label "route-405" ;
+    ns1:routeFile <https://raw.githubusercontent.com/GMDSP-Linked-Data/RDF-work-in-progress/master/finalised-output/manchester/grittingroutes/route-405.json> .
+
+<https://gmdsp-admin.publishmydata.com/id/manchester/gritting/route-406> a ns1:GrittingRoute ;
+    rdfs:label "route-406" ;
+    ns1:routeFile <https://raw.githubusercontent.com/GMDSP-Linked-Data/RDF-work-in-progress/master/finalised-output/manchester/grittingroutes/route-406.json> .
+
+<https://gmdsp-admin.publishmydata.com/id/manchester/gritting/route-407> a ns1:GrittingRoute ;
+    rdfs:label "route-407" ;
+    ns1:routeFile <https://raw.githubusercontent.com/GMDSP-Linked-Data/RDF-work-in-progress/master/finalised-output/manchester/grittingroutes/route-407.json> .
+
+<https://gmdsp-admin.publishmydata.com/id/manchester/gritting/route-408> a ns1:GrittingRoute ;
+    rdfs:label "route-408" ;
+    ns1:routeFile <https://raw.githubusercontent.com/GMDSP-Linked-Data/RDF-work-in-progress/master/finalised-output/manchester/grittingroutes/route-408.json> .
+
+<https://gmdsp-admin.publishmydata.com/id/manchester/gritting/route-409> a ns1:GrittingRoute ;
+    rdfs:label "route-409" ;
+    ns1:routeFile <https://raw.githubusercontent.com/GMDSP-Linked-Data/RDF-work-in-progress/master/finalised-output/manchester/grittingroutes/route-409.json> .
+
+<https://gmdsp-admin.publishmydata.com/id/manchester/gritting/route-41> a ns1:GrittingRoute ;
+    rdfs:label "route-41" ;
+    ns1:routeFile <https://raw.githubusercontent.com/GMDSP-Linked-Data/RDF-work-in-progress/master/finalised-output/manchester/grittingroutes/route-41.json> .
+
+<https://gmdsp-admin.publishmydata.com/id/manchester/gritting/route-410> a ns1:GrittingRoute ;
+    rdfs:label "route-410" ;
+    ns1:routeFile <https://raw.githubusercontent.com/GMDSP-Linked-Data/RDF-work-in-progress/master/finalised-output/manchester/grittingroutes/route-410.json> .
+
+<https://gmdsp-admin.publishmydata.com/id/manchester/gritting/route-411> a ns1:GrittingRoute ;
+    rdfs:label "route-411" ;
+    ns1:routeFile <https://raw.githubusercontent.com/GMDSP-Linked-Data/RDF-work-in-progress/master/finalised-output/manchester/grittingroutes/route-411.json> .
+
+<https://gmdsp-admin.publishmydata.com/id/manchester/gritting/route-412> a ns1:GrittingRoute ;
+    rdfs:label "route-412" ;
+    ns1:routeFile <https://raw.githubusercontent.com/GMDSP-Linked-Data/RDF-work-in-progress/master/finalised-output/manchester/grittingroutes/route-412.json> .
+
+<https://gmdsp-admin.publishmydata.com/id/manchester/gritting/route-413> a ns1:GrittingRoute ;
+    rdfs:label "route-413" ;
+    ns1:routeFile <https://raw.githubusercontent.com/GMDSP-Linked-Data/RDF-work-in-progress/master/finalised-output/manchester/grittingroutes/route-413.json> .
+
+<https://gmdsp-admin.publishmydata.com/id/manchester/gritting/route-414> a ns1:GrittingRoute ;
+    rdfs:label "route-414" ;
+    ns1:routeFile <https://raw.githubusercontent.com/GMDSP-Linked-Data/RDF-work-in-progress/master/finalised-output/manchester/grittingroutes/route-414.json> .
+
+<https://gmdsp-admin.publishmydata.com/id/manchester/gritting/route-415> a ns1:GrittingRoute ;
+    rdfs:label "route-415" ;
+    ns1:routeFile <https://raw.githubusercontent.com/GMDSP-Linked-Data/RDF-work-in-progress/master/finalised-output/manchester/grittingroutes/route-415.json> .
+
+<https://gmdsp-admin.publishmydata.com/id/manchester/gritting/route-416> a ns1:GrittingRoute ;
+    rdfs:label "route-416" ;
+    ns1:routeFile <https://raw.githubusercontent.com/GMDSP-Linked-Data/RDF-work-in-progress/master/finalised-output/manchester/grittingroutes/route-416.json> .
+
+<https://gmdsp-admin.publishmydata.com/id/manchester/gritting/route-417> a ns1:GrittingRoute ;
+    rdfs:label "route-417" ;
+    ns1:routeFile <https://raw.githubusercontent.com/GMDSP-Linked-Data/RDF-work-in-progress/master/finalised-output/manchester/grittingroutes/route-417.json> .
+
+<https://gmdsp-admin.publishmydata.com/id/manchester/gritting/route-418> a ns1:GrittingRoute ;
+    rdfs:label "route-418" ;
+    ns1:routeFile <https://raw.githubusercontent.com/GMDSP-Linked-Data/RDF-work-in-progress/master/finalised-output/manchester/grittingroutes/route-418.json> .
+
+<https://gmdsp-admin.publishmydata.com/id/manchester/gritting/route-419> a ns1:GrittingRoute ;
+    rdfs:label "route-419" ;
+    ns1:routeFile <https://raw.githubusercontent.com/GMDSP-Linked-Data/RDF-work-in-progress/master/finalised-output/manchester/grittingroutes/route-419.json> .
+
+<https://gmdsp-admin.publishmydata.com/id/manchester/gritting/route-42> a ns1:GrittingRoute ;
+    rdfs:label "route-42" ;
+    ns1:routeFile <https://raw.githubusercontent.com/GMDSP-Linked-Data/RDF-work-in-progress/master/finalised-output/manchester/grittingroutes/route-42.json> .
+
+<https://gmdsp-admin.publishmydata.com/id/manchester/gritting/route-420> a ns1:GrittingRoute ;
+    rdfs:label "route-420" ;
+    ns1:routeFile <https://raw.githubusercontent.com/GMDSP-Linked-Data/RDF-work-in-progress/master/finalised-output/manchester/grittingroutes/route-420.json> .
+
+<https://gmdsp-admin.publishmydata.com/id/manchester/gritting/route-421> a ns1:GrittingRoute ;
+    rdfs:label "route-421" ;
+    ns1:routeFile <https://raw.githubusercontent.com/GMDSP-Linked-Data/RDF-work-in-progress/master/finalised-output/manchester/grittingroutes/route-421.json> .
+
+<https://gmdsp-admin.publishmydata.com/id/manchester/gritting/route-422> a ns1:GrittingRoute ;
+    rdfs:label "route-422" ;
+    ns1:routeFile <https://raw.githubusercontent.com/GMDSP-Linked-Data/RDF-work-in-progress/master/finalised-output/manchester/grittingroutes/route-422.json> .
+
+<https://gmdsp-admin.publishmydata.com/id/manchester/gritting/route-423> a ns1:GrittingRoute ;
+    rdfs:label "route-423" ;
+    ns1:routeFile <https://raw.githubusercontent.com/GMDSP-Linked-Data/RDF-work-in-progress/master/finalised-output/manchester/grittingroutes/route-423.json> .
+
+<https://gmdsp-admin.publishmydata.com/id/manchester/gritting/route-424> a ns1:GrittingRoute ;
+    rdfs:label "route-424" ;
+    ns1:routeFile <https://raw.githubusercontent.com/GMDSP-Linked-Data/RDF-work-in-progress/master/finalised-output/manchester/grittingroutes/route-424.json> .
+
+<https://gmdsp-admin.publishmydata.com/id/manchester/gritting/route-425> a ns1:GrittingRoute ;
+    rdfs:label "route-425" ;
+    ns1:routeFile <https://raw.githubusercontent.com/GMDSP-Linked-Data/RDF-work-in-progress/master/finalised-output/manchester/grittingroutes/route-425.json> .
+
+<https://gmdsp-admin.publishmydata.com/id/manchester/gritting/route-426> a ns1:GrittingRoute ;
+    rdfs:label "route-426" ;
+    ns1:routeFile <https://raw.githubusercontent.com/GMDSP-Linked-Data/RDF-work-in-progress/master/finalised-output/manchester/grittingroutes/route-426.json> .
+
+<https://gmdsp-admin.publishmydata.com/id/manchester/gritting/route-427> a ns1:GrittingRoute ;
+    rdfs:label "route-427" ;
+    ns1:routeFile <https://raw.githubusercontent.com/GMDSP-Linked-Data/RDF-work-in-progress/master/finalised-output/manchester/grittingroutes/route-427.json> .
+
+<https://gmdsp-admin.publishmydata.com/id/manchester/gritting/route-428> a ns1:GrittingRoute ;
+    rdfs:label "route-428" ;
+    ns1:routeFile <https://raw.githubusercontent.com/GMDSP-Linked-Data/RDF-work-in-progress/master/finalised-output/manchester/grittingroutes/route-428.json> .
+
+<https://gmdsp-admin.publishmydata.com/id/manchester/gritting/route-429> a ns1:GrittingRoute ;
+    rdfs:label "route-429" ;
+    ns1:routeFile <https://raw.githubusercontent.com/GMDSP-Linked-Data/RDF-work-in-progress/master/finalised-output/manchester/grittingroutes/route-429.json> .
+
+<https://gmdsp-admin.publishmydata.com/id/manchester/gritting/route-43> a ns1:GrittingRoute ;
+    rdfs:label "route-43" ;
+    ns1:routeFile <https://raw.githubusercontent.com/GMDSP-Linked-Data/RDF-work-in-progress/master/finalised-output/manchester/grittingroutes/route-43.json> .
+
+<https://gmdsp-admin.publishmydata.com/id/manchester/gritting/route-430> a ns1:GrittingRoute ;
+    rdfs:label "route-430" ;
+    ns1:routeFile <https://raw.githubusercontent.com/GMDSP-Linked-Data/RDF-work-in-progress/master/finalised-output/manchester/grittingroutes/route-430.json> .
+
+<https://gmdsp-admin.publishmydata.com/id/manchester/gritting/route-431> a ns1:GrittingRoute ;
+    rdfs:label "route-431" ;
+    ns1:routeFile <https://raw.githubusercontent.com/GMDSP-Linked-Data/RDF-work-in-progress/master/finalised-output/manchester/grittingroutes/route-431.json> .
+
+<https://gmdsp-admin.publishmydata.com/id/manchester/gritting/route-432> a ns1:GrittingRoute ;
+    rdfs:label "route-432" ;
+    ns1:routeFile <https://raw.githubusercontent.com/GMDSP-Linked-Data/RDF-work-in-progress/master/finalised-output/manchester/grittingroutes/route-432.json> .
+
+<https://gmdsp-admin.publishmydata.com/id/manchester/gritting/route-433> a ns1:GrittingRoute ;
+    rdfs:label "route-433" ;
+    ns1:routeFile <https://raw.githubusercontent.com/GMDSP-Linked-Data/RDF-work-in-progress/master/finalised-output/manchester/grittingroutes/route-433.json> .
+
+<https://gmdsp-admin.publishmydata.com/id/manchester/gritting/route-434> a ns1:GrittingRoute ;
+    rdfs:label "route-434" ;
+    ns1:routeFile <https://raw.githubusercontent.com/GMDSP-Linked-Data/RDF-work-in-progress/master/finalised-output/manchester/grittingroutes/route-434.json> .
+
+<https://gmdsp-admin.publishmydata.com/id/manchester/gritting/route-435> a ns1:GrittingRoute ;
+    rdfs:label "route-435" ;
+    ns1:routeFile <https://raw.githubusercontent.com/GMDSP-Linked-Data/RDF-work-in-progress/master/finalised-output/manchester/grittingroutes/route-435.json> .
+
+<https://gmdsp-admin.publishmydata.com/id/manchester/gritting/route-436> a ns1:GrittingRoute ;
+    rdfs:label "route-436" ;
+    ns1:routeFile <https://raw.githubusercontent.com/GMDSP-Linked-Data/RDF-work-in-progress/master/finalised-output/manchester/grittingroutes/route-436.json> .
+
+<https://gmdsp-admin.publishmydata.com/id/manchester/gritting/route-437> a ns1:GrittingRoute ;
+    rdfs:label "route-437" ;
+    ns1:routeFile <https://raw.githubusercontent.com/GMDSP-Linked-Data/RDF-work-in-progress/master/finalised-output/manchester/grittingroutes/route-437.json> .
+
+<https://gmdsp-admin.publishmydata.com/id/manchester/gritting/route-438> a ns1:GrittingRoute ;
+    rdfs:label "route-438" ;
+    ns1:routeFile <https://raw.githubusercontent.com/GMDSP-Linked-Data/RDF-work-in-progress/master/finalised-output/manchester/grittingroutes/route-438.json> .
+
+<https://gmdsp-admin.publishmydata.com/id/manchester/gritting/route-439> a ns1:GrittingRoute ;
+    rdfs:label "route-439" ;
+    ns1:routeFile <https://raw.githubusercontent.com/GMDSP-Linked-Data/RDF-work-in-progress/master/finalised-output/manchester/grittingroutes/route-439.json> .
+
+<https://gmdsp-admin.publishmydata.com/id/manchester/gritting/route-44> a ns1:GrittingRoute ;
+    rdfs:label "route-44" ;
+    ns1:routeFile <https://raw.githubusercontent.com/GMDSP-Linked-Data/RDF-work-in-progress/master/finalised-output/manchester/grittingroutes/route-44.json> .
+
+<https://gmdsp-admin.publishmydata.com/id/manchester/gritting/route-440> a ns1:GrittingRoute ;
+    rdfs:label "route-440" ;
+    ns1:routeFile <https://raw.githubusercontent.com/GMDSP-Linked-Data/RDF-work-in-progress/master/finalised-output/manchester/grittingroutes/route-440.json> .
+
+<https://gmdsp-admin.publishmydata.com/id/manchester/gritting/route-441> a ns1:GrittingRoute ;
+    rdfs:label "route-441" ;
+    ns1:routeFile <https://raw.githubusercontent.com/GMDSP-Linked-Data/RDF-work-in-progress/master/finalised-output/manchester/grittingroutes/route-441.json> .
+
+<https://gmdsp-admin.publishmydata.com/id/manchester/gritting/route-442> a ns1:GrittingRoute ;
+    rdfs:label "route-442" ;
+    ns1:routeFile <https://raw.githubusercontent.com/GMDSP-Linked-Data/RDF-work-in-progress/master/finalised-output/manchester/grittingroutes/route-442.json> .
+
+<https://gmdsp-admin.publishmydata.com/id/manchester/gritting/route-443> a ns1:GrittingRoute ;
+    rdfs:label "route-443" ;
+    ns1:routeFile <https://raw.githubusercontent.com/GMDSP-Linked-Data/RDF-work-in-progress/master/finalised-output/manchester/grittingroutes/route-443.json> .
+
+<https://gmdsp-admin.publishmydata.com/id/manchester/gritting/route-444> a ns1:GrittingRoute ;
+    rdfs:label "route-444" ;
+    ns1:routeFile <https://raw.githubusercontent.com/GMDSP-Linked-Data/RDF-work-in-progress/master/finalised-output/manchester/grittingroutes/route-444.json> .
+
+<https://gmdsp-admin.publishmydata.com/id/manchester/gritting/route-445> a ns1:GrittingRoute ;
+    rdfs:label "route-445" ;
+    ns1:routeFile <https://raw.githubusercontent.com/GMDSP-Linked-Data/RDF-work-in-progress/master/finalised-output/manchester/grittingroutes/route-445.json> .
+
+<https://gmdsp-admin.publishmydata.com/id/manchester/gritting/route-446> a ns1:GrittingRoute ;
+    rdfs:label "route-446" ;
+    ns1:routeFile <https://raw.githubusercontent.com/GMDSP-Linked-Data/RDF-work-in-progress/master/finalised-output/manchester/grittingroutes/route-446.json> .
+
+<https://gmdsp-admin.publishmydata.com/id/manchester/gritting/route-447> a ns1:GrittingRoute ;
+    rdfs:label "route-447" ;
+    ns1:routeFile <https://raw.githubusercontent.com/GMDSP-Linked-Data/RDF-work-in-progress/master/finalised-output/manchester/grittingroutes/route-447.json> .
+
+<https://gmdsp-admin.publishmydata.com/id/manchester/gritting/route-448> a ns1:GrittingRoute ;
+    rdfs:label "route-448" ;
+    ns1:routeFile <https://raw.githubusercontent.com/GMDSP-Linked-Data/RDF-work-in-progress/master/finalised-output/manchester/grittingroutes/route-448.json> .
+
+<https://gmdsp-admin.publishmydata.com/id/manchester/gritting/route-449> a ns1:GrittingRoute ;
+    rdfs:label "route-449" ;
+    ns1:routeFile <https://raw.githubusercontent.com/GMDSP-Linked-Data/RDF-work-in-progress/master/finalised-output/manchester/grittingroutes/route-449.json> .
+
+<https://gmdsp-admin.publishmydata.com/id/manchester/gritting/route-45> a ns1:GrittingRoute ;
+    rdfs:label "route-45" ;
+    ns1:routeFile <https://raw.githubusercontent.com/GMDSP-Linked-Data/RDF-work-in-progress/master/finalised-output/manchester/grittingroutes/route-45.json> .
+
+<https://gmdsp-admin.publishmydata.com/id/manchester/gritting/route-450> a ns1:GrittingRoute ;
+    rdfs:label "route-450" ;
+    ns1:routeFile <https://raw.githubusercontent.com/GMDSP-Linked-Data/RDF-work-in-progress/master/finalised-output/manchester/grittingroutes/route-450.json> .
+
+<https://gmdsp-admin.publishmydata.com/id/manchester/gritting/route-451> a ns1:GrittingRoute ;
+    rdfs:label "route-451" ;
+    ns1:routeFile <https://raw.githubusercontent.com/GMDSP-Linked-Data/RDF-work-in-progress/master/finalised-output/manchester/grittingroutes/route-451.json> .
+
+<https://gmdsp-admin.publishmydata.com/id/manchester/gritting/route-452> a ns1:GrittingRoute ;
+    rdfs:label "route-452" ;
+    ns1:routeFile <https://raw.githubusercontent.com/GMDSP-Linked-Data/RDF-work-in-progress/master/finalised-output/manchester/grittingroutes/route-452.json> .
+
+<https://gmdsp-admin.publishmydata.com/id/manchester/gritting/route-453> a ns1:GrittingRoute ;
+    rdfs:label "route-453" ;
+    ns1:routeFile <https://raw.githubusercontent.com/GMDSP-Linked-Data/RDF-work-in-progress/master/finalised-output/manchester/grittingroutes/route-453.json> .
+
+<https://gmdsp-admin.publishmydata.com/id/manchester/gritting/route-454> a ns1:GrittingRoute ;
+    rdfs:label "route-454" ;
+    ns1:routeFile <https://raw.githubusercontent.com/GMDSP-Linked-Data/RDF-work-in-progress/master/finalised-output/manchester/grittingroutes/route-454.json> .
+
+<https://gmdsp-admin.publishmydata.com/id/manchester/gritting/route-455> a ns1:GrittingRoute ;
+    rdfs:label "route-455" ;
+    ns1:routeFile <https://raw.githubusercontent.com/GMDSP-Linked-Data/RDF-work-in-progress/master/finalised-output/manchester/grittingroutes/route-455.json> .
+
+<https://gmdsp-admin.publishmydata.com/id/manchester/gritting/route-456> a ns1:GrittingRoute ;
+    rdfs:label "route-456" ;
+    ns1:routeFile <https://raw.githubusercontent.com/GMDSP-Linked-Data/RDF-work-in-progress/master/finalised-output/manchester/grittingroutes/route-456.json> .
+
+<https://gmdsp-admin.publishmydata.com/id/manchester/gritting/route-457> a ns1:GrittingRoute ;
+    rdfs:label "route-457" ;
+    ns1:routeFile <https://raw.githubusercontent.com/GMDSP-Linked-Data/RDF-work-in-progress/master/finalised-output/manchester/grittingroutes/route-457.json> .
+
+<https://gmdsp-admin.publishmydata.com/id/manchester/gritting/route-458> a ns1:GrittingRoute ;
+    rdfs:label "route-458" ;
+    ns1:routeFile <https://raw.githubusercontent.com/GMDSP-Linked-Data/RDF-work-in-progress/master/finalised-output/manchester/grittingroutes/route-458.json> .
+
+<https://gmdsp-admin.publishmydata.com/id/manchester/gritting/route-459> a ns1:GrittingRoute ;
+    rdfs:label "route-459" ;
+    ns1:routeFile <https://raw.githubusercontent.com/GMDSP-Linked-Data/RDF-work-in-progress/master/finalised-output/manchester/grittingroutes/route-459.json> .
+
+<https://gmdsp-admin.publishmydata.com/id/manchester/gritting/route-46> a ns1:GrittingRoute ;
+    rdfs:label "route-46" ;
+    ns1:routeFile <https://raw.githubusercontent.com/GMDSP-Linked-Data/RDF-work-in-progress/master/finalised-output/manchester/grittingroutes/route-46.json> .
+
+<https://gmdsp-admin.publishmydata.com/id/manchester/gritting/route-460> a ns1:GrittingRoute ;
+    rdfs:label "route-460" ;
+    ns1:routeFile <https://raw.githubusercontent.com/GMDSP-Linked-Data/RDF-work-in-progress/master/finalised-output/manchester/grittingroutes/route-460.json> .
+
+<https://gmdsp-admin.publishmydata.com/id/manchester/gritting/route-461> a ns1:GrittingRoute ;
+    rdfs:label "route-461" ;
+    ns1:routeFile <https://raw.githubusercontent.com/GMDSP-Linked-Data/RDF-work-in-progress/master/finalised-output/manchester/grittingroutes/route-461.json> .
+
+<https://gmdsp-admin.publishmydata.com/id/manchester/gritting/route-462> a ns1:GrittingRoute ;
+    rdfs:label "route-462" ;
+    ns1:routeFile <https://raw.githubusercontent.com/GMDSP-Linked-Data/RDF-work-in-progress/master/finalised-output/manchester/grittingroutes/route-462.json> .
+
+<https://gmdsp-admin.publishmydata.com/id/manchester/gritting/route-463> a ns1:GrittingRoute ;
+    rdfs:label "route-463" ;
+    ns1:routeFile <https://raw.githubusercontent.com/GMDSP-Linked-Data/RDF-work-in-progress/master/finalised-output/manchester/grittingroutes/route-463.json> .
+
+<https://gmdsp-admin.publishmydata.com/id/manchester/gritting/route-464> a ns1:GrittingRoute ;
+    rdfs:label "route-464" ;
+    ns1:routeFile <https://raw.githubusercontent.com/GMDSP-Linked-Data/RDF-work-in-progress/master/finalised-output/manchester/grittingroutes/route-464.json> .
+
+<https://gmdsp-admin.publishmydata.com/id/manchester/gritting/route-465> a ns1:GrittingRoute ;
+    rdfs:label "route-465" ;
+    ns1:routeFile <https://raw.githubusercontent.com/GMDSP-Linked-Data/RDF-work-in-progress/master/finalised-output/manchester/grittingroutes/route-465.json> .
+
+<https://gmdsp-admin.publishmydata.com/id/manchester/gritting/route-466> a ns1:GrittingRoute ;
+    rdfs:label "route-466" ;
+    ns1:routeFile <https://raw.githubusercontent.com/GMDSP-Linked-Data/RDF-work-in-progress/master/finalised-output/manchester/grittingroutes/route-466.json> .
+
+<https://gmdsp-admin.publishmydata.com/id/manchester/gritting/route-467> a ns1:GrittingRoute ;
+    rdfs:label "route-467" ;
+    ns1:routeFile <https://raw.githubusercontent.com/GMDSP-Linked-Data/RDF-work-in-progress/master/finalised-output/manchester/grittingroutes/route-467.json> .
+
+<https://gmdsp-admin.publishmydata.com/id/manchester/gritting/route-468> a ns1:GrittingRoute ;
+    rdfs:label "route-468" ;
+    ns1:routeFile <https://raw.githubusercontent.com/GMDSP-Linked-Data/RDF-work-in-progress/master/finalised-output/manchester/grittingroutes/route-468.json> .
+
+<https://gmdsp-admin.publishmydata.com/id/manchester/gritting/route-469> a ns1:GrittingRoute ;
+    rdfs:label "route-469" ;
+    ns1:routeFile <https://raw.githubusercontent.com/GMDSP-Linked-Data/RDF-work-in-progress/master/finalised-output/manchester/grittingroutes/route-469.json> .
+
+<https://gmdsp-admin.publishmydata.com/id/manchester/gritting/route-47> a ns1:GrittingRoute ;
+    rdfs:label "route-47" ;
+    ns1:routeFile <https://raw.githubusercontent.com/GMDSP-Linked-Data/RDF-work-in-progress/master/finalised-output/manchester/grittingroutes/route-47.json> .
+
+<https://gmdsp-admin.publishmydata.com/id/manchester/gritting/route-470> a ns1:GrittingRoute ;
+    rdfs:label "route-470" ;
+    ns1:routeFile <https://raw.githubusercontent.com/GMDSP-Linked-Data/RDF-work-in-progress/master/finalised-output/manchester/grittingroutes/route-470.json> .
+
+<https://gmdsp-admin.publishmydata.com/id/manchester/gritting/route-471> a ns1:GrittingRoute ;
+    rdfs:label "route-471" ;
+    ns1:routeFile <https://raw.githubusercontent.com/GMDSP-Linked-Data/RDF-work-in-progress/master/finalised-output/manchester/grittingroutes/route-471.json> .
+
+<https://gmdsp-admin.publishmydata.com/id/manchester/gritting/route-472> a ns1:GrittingRoute ;
+    rdfs:label "route-472" ;
+    ns1:routeFile <https://raw.githubusercontent.com/GMDSP-Linked-Data/RDF-work-in-progress/master/finalised-output/manchester/grittingroutes/route-472.json> .
+
+<https://gmdsp-admin.publishmydata.com/id/manchester/gritting/route-473> a ns1:GrittingRoute ;
+    rdfs:label "route-473" ;
+    ns1:routeFile <https://raw.githubusercontent.com/GMDSP-Linked-Data/RDF-work-in-progress/master/finalised-output/manchester/grittingroutes/route-473.json> .
+
+<https://gmdsp-admin.publishmydata.com/id/manchester/gritting/route-474> a ns1:GrittingRoute ;
+    rdfs:label "route-474" ;
+    ns1:routeFile <https://raw.githubusercontent.com/GMDSP-Linked-Data/RDF-work-in-progress/master/finalised-output/manchester/grittingroutes/route-474.json> .
+
+<https://gmdsp-admin.publishmydata.com/id/manchester/gritting/route-475> a ns1:GrittingRoute ;
+    rdfs:label "route-475" ;
+    ns1:routeFile <https://raw.githubusercontent.com/GMDSP-Linked-Data/RDF-work-in-progress/master/finalised-output/manchester/grittingroutes/route-475.json> .
+
+<https://gmdsp-admin.publishmydata.com/id/manchester/gritting/route-476> a ns1:GrittingRoute ;
+    rdfs:label "route-476" ;
+    ns1:routeFile <https://raw.githubusercontent.com/GMDSP-Linked-Data/RDF-work-in-progress/master/finalised-output/manchester/grittingroutes/route-476.json> .
+
+<https://gmdsp-admin.publishmydata.com/id/manchester/gritting/route-477> a ns1:GrittingRoute ;
+    rdfs:label "route-477" ;
+    ns1:routeFile <https://raw.githubusercontent.com/GMDSP-Linked-Data/RDF-work-in-progress/master/finalised-output/manchester/grittingroutes/route-477.json> .
+
+<https://gmdsp-admin.publishmydata.com/id/manchester/gritting/route-478> a ns1:GrittingRoute ;
+    rdfs:label "route-478" ;
+    ns1:routeFile <https://raw.githubusercontent.com/GMDSP-Linked-Data/RDF-work-in-progress/master/finalised-output/manchester/grittingroutes/route-478.json> .
+
+<https://gmdsp-admin.publishmydata.com/id/manchester/gritting/route-479> a ns1:GrittingRoute ;
+    rdfs:label "route-479" ;
+    ns1:routeFile <https://raw.githubusercontent.com/GMDSP-Linked-Data/RDF-work-in-progress/master/finalised-output/manchester/grittingroutes/route-479.json> .
+
+<https://gmdsp-admin.publishmydata.com/id/manchester/gritting/route-48> a ns1:GrittingRoute ;
+    rdfs:label "route-48" ;
+    ns1:routeFile <https://raw.githubusercontent.com/GMDSP-Linked-Data/RDF-work-in-progress/master/finalised-output/manchester/grittingroutes/route-48.json> .
+
+<https://gmdsp-admin.publishmydata.com/id/manchester/gritting/route-480> a ns1:GrittingRoute ;
+    rdfs:label "route-480" ;
+    ns1:routeFile <https://raw.githubusercontent.com/GMDSP-Linked-Data/RDF-work-in-progress/master/finalised-output/manchester/grittingroutes/route-480.json> .
+
+<https://gmdsp-admin.publishmydata.com/id/manchester/gritting/route-481> a ns1:GrittingRoute ;
+    rdfs:label "route-481" ;
+    ns1:routeFile <https://raw.githubusercontent.com/GMDSP-Linked-Data/RDF-work-in-progress/master/finalised-output/manchester/grittingroutes/route-481.json> .
+
+<https://gmdsp-admin.publishmydata.com/id/manchester/gritting/route-482> a ns1:GrittingRoute ;
+    rdfs:label "route-482" ;
+    ns1:routeFile <https://raw.githubusercontent.com/GMDSP-Linked-Data/RDF-work-in-progress/master/finalised-output/manchester/grittingroutes/route-482.json> .
+
+<https://gmdsp-admin.publishmydata.com/id/manchester/gritting/route-483> a ns1:GrittingRoute ;
+    rdfs:label "route-483" ;
+    ns1:routeFile <https://raw.githubusercontent.com/GMDSP-Linked-Data/RDF-work-in-progress/master/finalised-output/manchester/grittingroutes/route-483.json> .
+
+<https://gmdsp-admin.publishmydata.com/id/manchester/gritting/route-484> a ns1:GrittingRoute ;
+    rdfs:label "route-484" ;
+    ns1:routeFile <https://raw.githubusercontent.com/GMDSP-Linked-Data/RDF-work-in-progress/master/finalised-output/manchester/grittingroutes/route-484.json> .
+
+<https://gmdsp-admin.publishmydata.com/id/manchester/gritting/route-485> a ns1:GrittingRoute ;
+    rdfs:label "route-485" ;
+    ns1:routeFile <https://raw.githubusercontent.com/GMDSP-Linked-Data/RDF-work-in-progress/master/finalised-output/manchester/grittingroutes/route-485.json> .
+
+<https://gmdsp-admin.publishmydata.com/id/manchester/gritting/route-486> a ns1:GrittingRoute ;
+    rdfs:label "route-486" ;
+    ns1:routeFile <https://raw.githubusercontent.com/GMDSP-Linked-Data/RDF-work-in-progress/master/finalised-output/manchester/grittingroutes/route-486.json> .
+
+<https://gmdsp-admin.publishmydata.com/id/manchester/gritting/route-487> a ns1:GrittingRoute ;
+    rdfs:label "route-487" ;
+    ns1:routeFile <https://raw.githubusercontent.com/GMDSP-Linked-Data/RDF-work-in-progress/master/finalised-output/manchester/grittingroutes/route-487.json> .
+
+<https://gmdsp-admin.publishmydata.com/id/manchester/gritting/route-488> a ns1:GrittingRoute ;
+    rdfs:label "route-488" ;
+    ns1:routeFile <https://raw.githubusercontent.com/GMDSP-Linked-Data/RDF-work-in-progress/master/finalised-output/manchester/grittingroutes/route-488.json> .
+
+<https://gmdsp-admin.publishmydata.com/id/manchester/gritting/route-489> a ns1:GrittingRoute ;
+    rdfs:label "route-489" ;
+    ns1:routeFile <https://raw.githubusercontent.com/GMDSP-Linked-Data/RDF-work-in-progress/master/finalised-output/manchester/grittingroutes/route-489.json> .
+
+<https://gmdsp-admin.publishmydata.com/id/manchester/gritting/route-49> a ns1:GrittingRoute ;
+    rdfs:label "route-49" ;
+    ns1:routeFile <https://raw.githubusercontent.com/GMDSP-Linked-Data/RDF-work-in-progress/master/finalised-output/manchester/grittingroutes/route-49.json> .
+
+<https://gmdsp-admin.publishmydata.com/id/manchester/gritting/route-490> a ns1:GrittingRoute ;
+    rdfs:label "route-490" ;
+    ns1:routeFile <https://raw.githubusercontent.com/GMDSP-Linked-Data/RDF-work-in-progress/master/finalised-output/manchester/grittingroutes/route-490.json> .
+
+<https://gmdsp-admin.publishmydata.com/id/manchester/gritting/route-491> a ns1:GrittingRoute ;
+    rdfs:label "route-491" ;
+    ns1:routeFile <https://raw.githubusercontent.com/GMDSP-Linked-Data/RDF-work-in-progress/master/finalised-output/manchester/grittingroutes/route-491.json> .
+
+<https://gmdsp-admin.publishmydata.com/id/manchester/gritting/route-492> a ns1:GrittingRoute ;
+    rdfs:label "route-492" ;
+    ns1:routeFile <https://raw.githubusercontent.com/GMDSP-Linked-Data/RDF-work-in-progress/master/finalised-output/manchester/grittingroutes/route-492.json> .
+
+<https://gmdsp-admin.publishmydata.com/id/manchester/gritting/route-493> a ns1:GrittingRoute ;
+    rdfs:label "route-493" ;
+    ns1:routeFile <https://raw.githubusercontent.com/GMDSP-Linked-Data/RDF-work-in-progress/master/finalised-output/manchester/grittingroutes/route-493.json> .
+
+<https://gmdsp-admin.publishmydata.com/id/manchester/gritting/route-494> a ns1:GrittingRoute ;
+    rdfs:label "route-494" ;
+    ns1:routeFile <https://raw.githubusercontent.com/GMDSP-Linked-Data/RDF-work-in-progress/master/finalised-output/manchester/grittingroutes/route-494.json> .
+
+<https://gmdsp-admin.publishmydata.com/id/manchester/gritting/route-495> a ns1:GrittingRoute ;
+    rdfs:label "route-495" ;
+    ns1:routeFile <https://raw.githubusercontent.com/GMDSP-Linked-Data/RDF-work-in-progress/master/finalised-output/manchester/grittingroutes/route-495.json> .
+
+<https://gmdsp-admin.publishmydata.com/id/manchester/gritting/route-5> a ns1:GrittingRoute ;
+    rdfs:label "route-5" ;
+    ns1:routeFile <https://raw.githubusercontent.com/GMDSP-Linked-Data/RDF-work-in-progress/master/finalised-output/manchester/grittingroutes/route-5.json> .
+
+<https://gmdsp-admin.publishmydata.com/id/manchester/gritting/route-50> a ns1:GrittingRoute ;
+    rdfs:label "route-50" ;
+    ns1:routeFile <https://raw.githubusercontent.com/GMDSP-Linked-Data/RDF-work-in-progress/master/finalised-output/manchester/grittingroutes/route-50.json> .
+
+<https://gmdsp-admin.publishmydata.com/id/manchester/gritting/route-51> a ns1:GrittingRoute ;
+    rdfs:label "route-51" ;
+    ns1:routeFile <https://raw.githubusercontent.com/GMDSP-Linked-Data/RDF-work-in-progress/master/finalised-output/manchester/grittingroutes/route-51.json> .
+
+<https://gmdsp-admin.publishmydata.com/id/manchester/gritting/route-52> a ns1:GrittingRoute ;
+    rdfs:label "route-52" ;
+    ns1:routeFile <https://raw.githubusercontent.com/GMDSP-Linked-Data/RDF-work-in-progress/master/finalised-output/manchester/grittingroutes/route-52.json> .
+
+<https://gmdsp-admin.publishmydata.com/id/manchester/gritting/route-53> a ns1:GrittingRoute ;
+    rdfs:label "route-53" ;
+    ns1:routeFile <https://raw.githubusercontent.com/GMDSP-Linked-Data/RDF-work-in-progress/master/finalised-output/manchester/grittingroutes/route-53.json> .
+
+<https://gmdsp-admin.publishmydata.com/id/manchester/gritting/route-54> a ns1:GrittingRoute ;
+    rdfs:label "route-54" ;
+    ns1:routeFile <https://raw.githubusercontent.com/GMDSP-Linked-Data/RDF-work-in-progress/master/finalised-output/manchester/grittingroutes/route-54.json> .
+
+<https://gmdsp-admin.publishmydata.com/id/manchester/gritting/route-55> a ns1:GrittingRoute ;
+    rdfs:label "route-55" ;
+    ns1:routeFile <https://raw.githubusercontent.com/GMDSP-Linked-Data/RDF-work-in-progress/master/finalised-output/manchester/grittingroutes/route-55.json> .
+
+<https://gmdsp-admin.publishmydata.com/id/manchester/gritting/route-56> a ns1:GrittingRoute ;
+    rdfs:label "route-56" ;
+    ns1:routeFile <https://raw.githubusercontent.com/GMDSP-Linked-Data/RDF-work-in-progress/master/finalised-output/manchester/grittingroutes/route-56.json> .
+
+<https://gmdsp-admin.publishmydata.com/id/manchester/gritting/route-57> a ns1:GrittingRoute ;
+    rdfs:label "route-57" ;
+    ns1:routeFile <https://raw.githubusercontent.com/GMDSP-Linked-Data/RDF-work-in-progress/master/finalised-output/manchester/grittingroutes/route-57.json> .
+
+<https://gmdsp-admin.publishmydata.com/id/manchester/gritting/route-58> a ns1:GrittingRoute ;
+    rdfs:label "route-58" ;
+    ns1:routeFile <https://raw.githubusercontent.com/GMDSP-Linked-Data/RDF-work-in-progress/master/finalised-output/manchester/grittingroutes/route-58.json> .
+
+<https://gmdsp-admin.publishmydata.com/id/manchester/gritting/route-59> a ns1:GrittingRoute ;
+    rdfs:label "route-59" ;
+    ns1:routeFile <https://raw.githubusercontent.com/GMDSP-Linked-Data/RDF-work-in-progress/master/finalised-output/manchester/grittingroutes/route-59.json> .
+
+<https://gmdsp-admin.publishmydata.com/id/manchester/gritting/route-6> a ns1:GrittingRoute ;
+    rdfs:label "route-6" ;
+    ns1:routeFile <https://raw.githubusercontent.com/GMDSP-Linked-Data/RDF-work-in-progress/master/finalised-output/manchester/grittingroutes/route-6.json> .
+
+<https://gmdsp-admin.publishmydata.com/id/manchester/gritting/route-60> a ns1:GrittingRoute ;
+    rdfs:label "route-60" ;
+    ns1:routeFile <https://raw.githubusercontent.com/GMDSP-Linked-Data/RDF-work-in-progress/master/finalised-output/manchester/grittingroutes/route-60.json> .
+
+<https://gmdsp-admin.publishmydata.com/id/manchester/gritting/route-61> a ns1:GrittingRoute ;
+    rdfs:label "route-61" ;
+    ns1:routeFile <https://raw.githubusercontent.com/GMDSP-Linked-Data/RDF-work-in-progress/master/finalised-output/manchester/grittingroutes/route-61.json> .
+
+<https://gmdsp-admin.publishmydata.com/id/manchester/gritting/route-62> a ns1:GrittingRoute ;
+    rdfs:label "route-62" ;
+    ns1:routeFile <https://raw.githubusercontent.com/GMDSP-Linked-Data/RDF-work-in-progress/master/finalised-output/manchester/grittingroutes/route-62.json> .
+
+<https://gmdsp-admin.publishmydata.com/id/manchester/gritting/route-63> a ns1:GrittingRoute ;
+    rdfs:label "route-63" ;
+    ns1:routeFile <https://raw.githubusercontent.com/GMDSP-Linked-Data/RDF-work-in-progress/master/finalised-output/manchester/grittingroutes/route-63.json> .
+
+<https://gmdsp-admin.publishmydata.com/id/manchester/gritting/route-64> a ns1:GrittingRoute ;
+    rdfs:label "route-64" ;
+    ns1:routeFile <https://raw.githubusercontent.com/GMDSP-Linked-Data/RDF-work-in-progress/master/finalised-output/manchester/grittingroutes/route-64.json> .
+
+<https://gmdsp-admin.publishmydata.com/id/manchester/gritting/route-65> a ns1:GrittingRoute ;
+    rdfs:label "route-65" ;
+    ns1:routeFile <https://raw.githubusercontent.com/GMDSP-Linked-Data/RDF-work-in-progress/master/finalised-output/manchester/grittingroutes/route-65.json> .
+
+<https://gmdsp-admin.publishmydata.com/id/manchester/gritting/route-66> a ns1:GrittingRoute ;
+    rdfs:label "route-66" ;
+    ns1:routeFile <https://raw.githubusercontent.com/GMDSP-Linked-Data/RDF-work-in-progress/master/finalised-output/manchester/grittingroutes/route-66.json> .
+
+<https://gmdsp-admin.publishmydata.com/id/manchester/gritting/route-67> a ns1:GrittingRoute ;
+    rdfs:label "route-67" ;
+    ns1:routeFile <https://raw.githubusercontent.com/GMDSP-Linked-Data/RDF-work-in-progress/master/finalised-output/manchester/grittingroutes/route-67.json> .
+
+<https://gmdsp-admin.publishmydata.com/id/manchester/gritting/route-68> a ns1:GrittingRoute ;
+    rdfs:label "route-68" ;
+    ns1:routeFile <https://raw.githubusercontent.com/GMDSP-Linked-Data/RDF-work-in-progress/master/finalised-output/manchester/grittingroutes/route-68.json> .
+
+<https://gmdsp-admin.publishmydata.com/id/manchester/gritting/route-69> a ns1:GrittingRoute ;
+    rdfs:label "route-69" ;
+    ns1:routeFile <https://raw.githubusercontent.com/GMDSP-Linked-Data/RDF-work-in-progress/master/finalised-output/manchester/grittingroutes/route-69.json> .
+
+<https://gmdsp-admin.publishmydata.com/id/manchester/gritting/route-7> a ns1:GrittingRoute ;
+    rdfs:label "route-7" ;
+    ns1:routeFile <https://raw.githubusercontent.com/GMDSP-Linked-Data/RDF-work-in-progress/master/finalised-output/manchester/grittingroutes/route-7.json> .
+
+<https://gmdsp-admin.publishmydata.com/id/manchester/gritting/route-70> a ns1:GrittingRoute ;
+    rdfs:label "route-70" ;
+    ns1:routeFile <https://raw.githubusercontent.com/GMDSP-Linked-Data/RDF-work-in-progress/master/finalised-output/manchester/grittingroutes/route-70.json> .
+
+<https://gmdsp-admin.publishmydata.com/id/manchester/gritting/route-71> a ns1:GrittingRoute ;
+    rdfs:label "route-71" ;
+    ns1:routeFile <https://raw.githubusercontent.com/GMDSP-Linked-Data/RDF-work-in-progress/master/finalised-output/manchester/grittingroutes/route-71.json> .
+
+<https://gmdsp-admin.publishmydata.com/id/manchester/gritting/route-72> a ns1:GrittingRoute ;
+    rdfs:label "route-72" ;
+    ns1:routeFile <https://raw.githubusercontent.com/GMDSP-Linked-Data/RDF-work-in-progress/master/finalised-output/manchester/grittingroutes/route-72.json> .
+
+<https://gmdsp-admin.publishmydata.com/id/manchester/gritting/route-73> a ns1:GrittingRoute ;
+    rdfs:label "route-73" ;
+    ns1:routeFile <https://raw.githubusercontent.com/GMDSP-Linked-Data/RDF-work-in-progress/master/finalised-output/manchester/grittingroutes/route-73.json> .
+
+<https://gmdsp-admin.publishmydata.com/id/manchester/gritting/route-74> a ns1:GrittingRoute ;
+    rdfs:label "route-74" ;
+    ns1:routeFile <https://raw.githubusercontent.com/GMDSP-Linked-Data/RDF-work-in-progress/master/finalised-output/manchester/grittingroutes/route-74.json> .
+
+<https://gmdsp-admin.publishmydata.com/id/manchester/gritting/route-75> a ns1:GrittingRoute ;
+    rdfs:label "route-75" ;
+    ns1:routeFile <https://raw.githubusercontent.com/GMDSP-Linked-Data/RDF-work-in-progress/master/finalised-output/manchester/grittingroutes/route-75.json> .
+
+<https://gmdsp-admin.publishmydata.com/id/manchester/gritting/route-76> a ns1:GrittingRoute ;
+    rdfs:label "route-76" ;
+    ns1:routeFile <https://raw.githubusercontent.com/GMDSP-Linked-Data/RDF-work-in-progress/master/finalised-output/manchester/grittingroutes/route-76.json> .
+
+<https://gmdsp-admin.publishmydata.com/id/manchester/gritting/route-77> a ns1:GrittingRoute ;
+    rdfs:label "route-77" ;
+    ns1:routeFile <https://raw.githubusercontent.com/GMDSP-Linked-Data/RDF-work-in-progress/master/finalised-output/manchester/grittingroutes/route-77.json> .
+
+<https://gmdsp-admin.publishmydata.com/id/manchester/gritting/route-78> a ns1:GrittingRoute ;
+    rdfs:label "route-78" ;
+    ns1:routeFile <https://raw.githubusercontent.com/GMDSP-Linked-Data/RDF-work-in-progress/master/finalised-output/manchester/grittingroutes/route-78.json> .
+
+<https://gmdsp-admin.publishmydata.com/id/manchester/gritting/route-79> a ns1:GrittingRoute ;
+    rdfs:label "route-79" ;
+    ns1:routeFile <https://raw.githubusercontent.com/GMDSP-Linked-Data/RDF-work-in-progress/master/finalised-output/manchester/grittingroutes/route-79.json> .
+
+<https://gmdsp-admin.publishmydata.com/id/manchester/gritting/route-8> a ns1:GrittingRoute ;
+    rdfs:label "route-8" ;
+    ns1:routeFile <https://raw.githubusercontent.com/GMDSP-Linked-Data/RDF-work-in-progress/master/finalised-output/manchester/grittingroutes/route-8.json> .
+
+<https://gmdsp-admin.publishmydata.com/id/manchester/gritting/route-80> a ns1:GrittingRoute ;
+    rdfs:label "route-80" ;
+    ns1:routeFile <https://raw.githubusercontent.com/GMDSP-Linked-Data/RDF-work-in-progress/master/finalised-output/manchester/grittingroutes/route-80.json> .
+
+<https://gmdsp-admin.publishmydata.com/id/manchester/gritting/route-81> a ns1:GrittingRoute ;
+    rdfs:label "route-81" ;
+    ns1:routeFile <https://raw.githubusercontent.com/GMDSP-Linked-Data/RDF-work-in-progress/master/finalised-output/manchester/grittingroutes/route-81.json> .
+
+<https://gmdsp-admin.publishmydata.com/id/manchester/gritting/route-82> a ns1:GrittingRoute ;
+    rdfs:label "route-82" ;
+    ns1:routeFile <https://raw.githubusercontent.com/GMDSP-Linked-Data/RDF-work-in-progress/master/finalised-output/manchester/grittingroutes/route-82.json> .
+
+<https://gmdsp-admin.publishmydata.com/id/manchester/gritting/route-83> a ns1:GrittingRoute ;
+    rdfs:label "route-83" ;
+    ns1:routeFile <https://raw.githubusercontent.com/GMDSP-Linked-Data/RDF-work-in-progress/master/finalised-output/manchester/grittingroutes/route-83.json> .
+
+<https://gmdsp-admin.publishmydata.com/id/manchester/gritting/route-84> a ns1:GrittingRoute ;
+    rdfs:label "route-84" ;
+    ns1:routeFile <https://raw.githubusercontent.com/GMDSP-Linked-Data/RDF-work-in-progress/master/finalised-output/manchester/grittingroutes/route-84.json> .
+
+<https://gmdsp-admin.publishmydata.com/id/manchester/gritting/route-85> a ns1:GrittingRoute ;
+    rdfs:label "route-85" ;
+    ns1:routeFile <https://raw.githubusercontent.com/GMDSP-Linked-Data/RDF-work-in-progress/master/finalised-output/manchester/grittingroutes/route-85.json> .
+
+<https://gmdsp-admin.publishmydata.com/id/manchester/gritting/route-86> a ns1:GrittingRoute ;
+    rdfs:label "route-86" ;
+    ns1:routeFile <https://raw.githubusercontent.com/GMDSP-Linked-Data/RDF-work-in-progress/master/finalised-output/manchester/grittingroutes/route-86.json> .
+
+<https://gmdsp-admin.publishmydata.com/id/manchester/gritting/route-87> a ns1:GrittingRoute ;
+    rdfs:label "route-87" ;
+    ns1:routeFile <https://raw.githubusercontent.com/GMDSP-Linked-Data/RDF-work-in-progress/master/finalised-output/manchester/grittingroutes/route-87.json> .
+
+<https://gmdsp-admin.publishmydata.com/id/manchester/gritting/route-88> a ns1:GrittingRoute ;
+    rdfs:label "route-88" ;
+    ns1:routeFile <https://raw.githubusercontent.com/GMDSP-Linked-Data/RDF-work-in-progress/master/finalised-output/manchester/grittingroutes/route-88.json> .
+
+<https://gmdsp-admin.publishmydata.com/id/manchester/gritting/route-89> a ns1:GrittingRoute ;
+    rdfs:label "route-89" ;
+    ns1:routeFile <https://raw.githubusercontent.com/GMDSP-Linked-Data/RDF-work-in-progress/master/finalised-output/manchester/grittingroutes/route-89.json> .
+
+<https://gmdsp-admin.publishmydata.com/id/manchester/gritting/route-9> a ns1:GrittingRoute ;
+    rdfs:label "route-9" ;
+    ns1:routeFile <https://raw.githubusercontent.com/GMDSP-Linked-Data/RDF-work-in-progress/master/finalised-output/manchester/grittingroutes/route-9.json> .
+
+<https://gmdsp-admin.publishmydata.com/id/manchester/gritting/route-90> a ns1:GrittingRoute ;
+    rdfs:label "route-90" ;
+    ns1:routeFile <https://raw.githubusercontent.com/GMDSP-Linked-Data/RDF-work-in-progress/master/finalised-output/manchester/grittingroutes/route-90.json> .
+
+<https://gmdsp-admin.publishmydata.com/id/manchester/gritting/route-91> a ns1:GrittingRoute ;
+    rdfs:label "route-91" ;
+    ns1:routeFile <https://raw.githubusercontent.com/GMDSP-Linked-Data/RDF-work-in-progress/master/finalised-output/manchester/grittingroutes/route-91.json> .
+
+<https://gmdsp-admin.publishmydata.com/id/manchester/gritting/route-92> a ns1:GrittingRoute ;
+    rdfs:label "route-92" ;
+    ns1:routeFile <https://raw.githubusercontent.com/GMDSP-Linked-Data/RDF-work-in-progress/master/finalised-output/manchester/grittingroutes/route-92.json> .
+
+<https://gmdsp-admin.publishmydata.com/id/manchester/gritting/route-93> a ns1:GrittingRoute ;
+    rdfs:label "route-93" ;
+    ns1:routeFile <https://raw.githubusercontent.com/GMDSP-Linked-Data/RDF-work-in-progress/master/finalised-output/manchester/grittingroutes/route-93.json> .
+
+<https://gmdsp-admin.publishmydata.com/id/manchester/gritting/route-94> a ns1:GrittingRoute ;
+    rdfs:label "route-94" ;
+    ns1:routeFile <https://raw.githubusercontent.com/GMDSP-Linked-Data/RDF-work-in-progress/master/finalised-output/manchester/grittingroutes/route-94.json> .
+
+<https://gmdsp-admin.publishmydata.com/id/manchester/gritting/route-95> a ns1:GrittingRoute ;
+    rdfs:label "route-95" ;
+    ns1:routeFile <https://raw.githubusercontent.com/GMDSP-Linked-Data/RDF-work-in-progress/master/finalised-output/manchester/grittingroutes/route-95.json> .
+
+<https://gmdsp-admin.publishmydata.com/id/manchester/gritting/route-96> a ns1:GrittingRoute ;
+    rdfs:label "route-96" ;
+    ns1:routeFile <https://raw.githubusercontent.com/GMDSP-Linked-Data/RDF-work-in-progress/master/finalised-output/manchester/grittingroutes/route-96.json> .
+
+<https://gmdsp-admin.publishmydata.com/id/manchester/gritting/route-97> a ns1:GrittingRoute ;
+    rdfs:label "route-97" ;
+    ns1:routeFile <https://raw.githubusercontent.com/GMDSP-Linked-Data/RDF-work-in-progress/master/finalised-output/manchester/grittingroutes/route-97.json> .
+
+<https://gmdsp-admin.publishmydata.com/id/manchester/gritting/route-98> a ns1:GrittingRoute ;
+    rdfs:label "route-98" ;
+    ns1:routeFile <https://raw.githubusercontent.com/GMDSP-Linked-Data/RDF-work-in-progress/master/finalised-output/manchester/grittingroutes/route-98.json> .
+
+<https://gmdsp-admin.publishmydata.com/id/manchester/gritting/route-99> a ns1:GrittingRoute ;
+    rdfs:label "route-99" ;
+    ns1:routeFile <https://raw.githubusercontent.com/GMDSP-Linked-Data/RDF-work-in-progress/master/finalised-output/manchester/grittingroutes/route-99.json> .
+

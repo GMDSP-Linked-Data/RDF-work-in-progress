@@ -1,0 +1,14 @@
+@prefix geo: <http://www.w3.org/2003/01/geo/wgs84_pos#> .
+@prefix ns1: <http://data.gmdsp.org.uk/def/council/gritting/> .
+@prefix os: <http://data.ordnancesurvey.co.uk/ontology/admingeo/> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix schema: <http://schema.org/> .
+@prefix spacial: <http://data.ordnancesurvey.co.uk/ontology/spatialrelations/> .
+@prefix xml: <http://www.w3.org/XML/1998/namespace> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+<https://gmdsp-admin.publishmydata.com/id/manchester/gritting/route-0> a ns1:GrittingRoute ;
+    rdfs:label "route-0" ;
+    ns1:routeFile <https://raw.githubusercontent.com/GMDSP-Linked-Data/RDF-work-in-progress/master/finalised-output/salford/grittingroutes/route-0.json> .
+

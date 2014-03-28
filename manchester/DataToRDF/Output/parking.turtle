@@ -1,0 +1,874 @@
+@prefix geo: <http://www.w3.org/2003/01/geo/wgs84_pos#> .
+@prefix ns1: <http://data.gmdsp.org.uk/def/manchester/parking/> .
+@prefix ns2: <http://www.w3.org/2006/vcard/ns#> .
+@prefix os: <http://data.ordnancesurvey.co.uk/ontology/admingeo/> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix schema: <http://schema.org/> .
+@prefix spacial: <http://data.ordnancesurvey.co.uk/ontology/spatialrelations/> .
+@prefix xml: <http://www.w3.org/XML/1998/namespace> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+<http://data.gmdsp.org.uk/id/manchester/parking/Abingdon-Street> a ns1:ParkingSite ;
+    rdfs:label "Abingdon Street" ;
+    ns1:operator <http://data.gmdsp.org.uk/id/manchester/parking/operator/NCP-Manchester-Ltd> ;
+    ns1:type "Surface Car Park" ;
+    geo:lat "53.477057" ;
+    geo:long "-2.238957" ;
+    ns2:hasAddress <http://data.gmdsp.org.uk/def/council/parking/address/Abingdon-Street-Corner-Of-Major-Street-M1-6DD> .
+
+<http://data.gmdsp.org.uk/id/manchester/parking/Albert-Square---12-bays> a ns1:ParkingSite ;
+    rdfs:label "Albert Square - 12 bays" ;
+    ns1:operator <http://data.gmdsp.org.uk/id/manchester/parking/operator/Manchester-City-Council> ;
+    ns1:type "Motorcycle" ;
+    geo:lat "53.47875006090752" ;
+    geo:long "-2.2447943687438965" ;
+    ns2:hasAddress <http://data.gmdsp.org.uk/def/council/parking/address/Outside-Tampopo-and-Rajdoot> .
+
+<http://data.gmdsp.org.uk/id/manchester/parking/Aquatic-Centre-> a ns1:ParkingSite ;
+    rdfs:label "Aquatic Centre " ;
+    ns1:operator <http://data.gmdsp.org.uk/id/manchester/parking/operator/NCP-Manchester-Ltd> ;
+    ns1:type "Multi Storey Car Park" ;
+    geo:lat "53.46902" ;
+    geo:long "-2.235017" ;
+    ns2:hasAddress <http://data.gmdsp.org.uk/def/council/parking/address/Aquatic-Centre-Booth-Street-East> .
+
+<http://data.gmdsp.org.uk/id/manchester/parking/Auburn-Street---4-bays> a ns1:ParkingSite ;
+    rdfs:label "Auburn Street - 4 bays" ;
+    ns1:operator <http://data.gmdsp.org.uk/id/manchester/parking/operator/Manchester-City-Council> ;
+    ns1:type "Motorcycle" ;
+    geo:lat "53.478392501956115" ;
+    geo:long "-2.234344482421875" ;
+    ns2:hasAddress <http://data.gmdsp.org.uk/def/council/parking/address/Behind-the-Court-Minshull-Street-just-off-Aytoun-Street> .
+
+<http://data.gmdsp.org.uk/id/manchester/parking/Bale-Street---2-bays> a ns1:ParkingSite ;
+    rdfs:label "Bale Street - 2 bays" ;
+    ns1:operator <http://data.gmdsp.org.uk/id/manchester/parking/operator/Manchester-City-Council> ;
+    ns1:type "Motorcycle" ;
+    geo:lat "53.47683453135818" ;
+    geo:long "-2.243936061859131" ;
+    ns2:hasAddress <http://data.gmdsp.org.uk/def/council/parking/address/Behind-Peter-House-Oxford-Street> .
+
+<http://data.gmdsp.org.uk/id/manchester/parking/Bishopsgate---2-bays> a ns1:ParkingSite ;
+    rdfs:label "Bishopsgate - 2 bays" ;
+    ns1:operator <http://data.gmdsp.org.uk/id/manchester/parking/operator/Manchester-City-Council> ;
+    ns1:type "Motorcycle" ;
+    geo:lat "53.47655357975259" ;
+    geo:long "-2.2446227073669434" ;
+    ns2:hasAddress <http://data.gmdsp.org.uk/def/council/parking/address/Behind-Premier-Inn-and-Fitness-First-Lower-Mosley-Street> .
+
+<http://data.gmdsp.org.uk/id/manchester/parking/Bloom-Street> a ns1:ParkingSite ;
+    rdfs:label "Bloom Street" ;
+    ns1:operator <http://data.gmdsp.org.uk/id/manchester/parking/operator/NCP-Manchester-Ltd> ;
+    ns1:type "Surface Car Park" ;
+    geo:lat "53.476896" ;
+    geo:long "-2.238034" ;
+    ns2:hasAddress <http://data.gmdsp.org.uk/def/council/parking/address/Bloom-Street-Fmr-National-Express-Bus-Station> .
+
+<http://data.gmdsp.org.uk/id/manchester/parking/Brick-Street---3-bays> a ns1:ParkingSite ;
+    rdfs:label "Brick Street - 3 bays" ;
+    ns1:operator <http://data.gmdsp.org.uk/id/manchester/parking/operator/Manchester-City-Council> ;
+    ns1:type "Disabled parking bays" ;
+    geo:lat "53.48417373296113" ;
+    geo:long "-2.2372305393218994" ;
+    ns2:hasAddress <http://data.gmdsp.org.uk/def/council/parking/address/Off-Thomas-Street-Northern-Quarter> .
+
+<http://data.gmdsp.org.uk/id/manchester/parking/Bridge-Street-> a ns1:ParkingSite ;
+    rdfs:label "Bridge Street " ;
+    ns1:operator <http://data.gmdsp.org.uk/id/manchester/parking/operator/NCP-Manchester-Ltd> ;
+    ns1:type "Surface Car Park" ;
+    geo:lat "53.48145081064745" ;
+    geo:long "-2.251220941543579" ;
+    ns2:hasAddress <http://data.gmdsp.org.uk/def/council/parking/address/Bridge-Street-Sp> .
+
+<http://data.gmdsp.org.uk/id/manchester/parking/Bridgewater-Hall-> a ns1:ParkingSite ;
+    rdfs:label "Bridgewater Hall " ;
+    ns1:operator <http://data.gmdsp.org.uk/id/manchester/parking/operator/NCP-Manchester-Ltd> ;
+    ns1:type "Surface Car Park" ;
+    geo:lat "53.474143" ;
+    geo:long "-2.250214" ;
+    ns2:hasAddress <http://data.gmdsp.org.uk/def/council/parking/address/Bridgewater-Hall-Little-Peter-Street> .
+
+<http://data.gmdsp.org.uk/id/manchester/parking/Brown-Street---3-bays> a ns1:ParkingSite ;
+    rdfs:label "Brown Street - 3 bays" ;
+    ns1:operator <http://data.gmdsp.org.uk/id/manchester/parking/operator/Manchester-City-Council> ;
+    ns1:type "Disabled parking bays" ;
+    geo:lat "53.481687038263786" ;
+    geo:long "-2.241339683532715" ;
+    ns2:hasAddress <http://data.gmdsp.org.uk/def/council/parking/address/Outside-Post-Office> .
+
+<http://data.gmdsp.org.uk/id/manchester/parking/Brown-Street---4-bays> a ns1:ParkingSite ;
+    rdfs:label "Brown Street - 4 bays" ;
+    ns1:operator <http://data.gmdsp.org.uk/id/manchester/parking/operator/Manchester-City-Council> ;
+    ns1:type "Motorcycle" ;
+    geo:lat "53.481763652343375" ;
+    geo:long "-2.2418761253356934" ;
+    ns2:hasAddress <http://data.gmdsp.org.uk/def/council/parking/address/Off-Kings-Street-near-All-Bar-One> .
+
+<http://data.gmdsp.org.uk/id/manchester/parking/Central-Library---14-bays> a ns1:ParkingSite ;
+    rdfs:label "Central Library - 14 bays" ;
+    ns1:operator <http://data.gmdsp.org.uk/id/manchester/parking/operator/Manchester-City-Council> ;
+    ns1:type "Disabled parking bays" ;
+    geo:lat "53.4779263937989" ;
+    geo:long "-2.2441184520721436" ;
+    ns2:hasAddress <http://data.gmdsp.org.uk/def/council/parking/address/Outside-Central-Library-and-Town-Hall-extention> .
+
+<http://data.gmdsp.org.uk/id/manchester/parking/Chapel-Walks---6-bays> a ns1:ParkingSite ;
+    rdfs:label "Chapel Walks - 6 bays" ;
+    ns1:operator <http://data.gmdsp.org.uk/id/manchester/parking/operator/Manchester-City-Council> ;
+    ns1:type "Disabled parking bays" ;
+    geo:lat "53.48169980728667" ;
+    geo:long "-2.243828773498535" ;
+    ns2:hasAddress <http://data.gmdsp.org.uk/def/council/parking/address/Off-Cross--Street> .
+
+<http://data.gmdsp.org.uk/id/manchester/parking/Cheapside---2-bays> a ns1:ParkingSite ;
+    rdfs:label "Cheapside - 2 bays" ;
+    ns1:operator <http://data.gmdsp.org.uk/id/manchester/parking/operator/Manchester-City-Council> ;
+    ns1:type "Disabled parking bays" ;
+    geo:lat "53.48117627419747" ;
+    geo:long "-2.244107723236084" ;
+    ns2:hasAddress <http://data.gmdsp.org.uk/def/council/parking/address/Off-King-Street-outside-Lloyds-TSB-bank> .
+
+<http://data.gmdsp.org.uk/id/manchester/parking/Chepstow-Street> a ns1:ParkingSite ;
+    rdfs:label "Chepstow Street" ;
+    ns1:operator <http://data.gmdsp.org.uk/id/manchester/parking/operator/NCP-Manchester-Ltd> ;
+    ns1:type "Surface Car Park" ;
+    geo:lat "53.475715" ;
+    geo:long "-2.244355" ;
+    ns2:hasAddress <http://data.gmdsp.org.uk/def/council/parking/address/Chepstow-Street> .
+
+<http://data.gmdsp.org.uk/id/manchester/parking/Chepstow-Street---4-bays> a ns1:ParkingSite ;
+    rdfs:label "Chepstow Street - 4 bays" ;
+    ns1:operator <http://data.gmdsp.org.uk/id/manchester/parking/operator/Manchester-City-Council> ;
+    ns1:type "Motorcycle" ;
+    geo:lat "53.47606829532509" ;
+    geo:long "-2.2433996200561523" ;
+    ns2:hasAddress <http://data.gmdsp.org.uk/def/council/parking/address/> .
+
+<http://data.gmdsp.org.uk/id/manchester/parking/Chester-Street> a ns1:ParkingSite ;
+    rdfs:label "Chester Street" ;
+    ns1:operator <http://data.gmdsp.org.uk/id/manchester/parking/operator/NCP-Manchester-Ltd> ;
+    ns1:type "Surface Car Park" ;
+    geo:lat "53.472072" ;
+    geo:long "-2.241427" ;
+    ns2:hasAddress <http://data.gmdsp.org.uk/def/council/parking/address/Chester-Street> .
+
+<http://data.gmdsp.org.uk/id/manchester/parking/China-Town-> a ns1:ParkingSite ;
+    rdfs:label "China Town " ;
+    ns1:operator <http://data.gmdsp.org.uk/id/manchester/parking/operator/NCP-Manchester-Ltd> ;
+    ns1:type "Surface Car Park" ;
+    geo:lat "53.478268" ;
+    geo:long "-2.239564" ;
+    ns2:hasAddress <http://data.gmdsp.org.uk/def/council/parking/address/China-Town> .
+
+<http://data.gmdsp.org.uk/id/manchester/parking/Chorlton-Street-> a ns1:ParkingSite ;
+    rdfs:label "Chorlton Street " ;
+    ns1:operator <http://data.gmdsp.org.uk/id/manchester/parking/operator/NCP-Manchester-Ltd> ;
+    ns1:type "Multi Storey Car Park" ;
+    geo:lat "53.477459" ;
+    geo:long "-2.235325" ;
+    ns2:hasAddress <http://data.gmdsp.org.uk/def/council/parking/address/Chorlton-Street> .
+
+<http://data.gmdsp.org.uk/id/manchester/parking/Chorlton-Street---7-bays> a ns1:ParkingSite ;
+    rdfs:label "Chorlton Street - 7 bays" ;
+    ns1:operator <http://data.gmdsp.org.uk/id/manchester/parking/operator/Manchester-City-Council> ;
+    ns1:type "Disabled parking bays" ;
+    geo:lat "53.47677067888391" ;
+    geo:long "-2.234816551208496" ;
+    ns2:hasAddress <http://data.gmdsp.org.uk/def/council/parking/address/Opposite-Churchills-pub> .
+
+<http://data.gmdsp.org.uk/id/manchester/parking/Church-Street-> a ns1:ParkingSite ;
+    rdfs:label "Church Street " ;
+    ns1:operator <http://data.gmdsp.org.uk/id/manchester/parking/operator/NCP-Manchester-Ltd> ;
+    ns1:type "Multi Storey Car Park" ;
+    geo:lat "53.48377" ;
+    geo:long "-2.234983" ;
+    ns2:hasAddress <http://data.gmdsp.org.uk/def/council/parking/address/Church-Street> .
+
+<http://data.gmdsp.org.uk/id/manchester/parking/Dolefield---4-bays> a ns1:ParkingSite ;
+    rdfs:label "Dolefield - 4 bays" ;
+    ns1:operator <http://data.gmdsp.org.uk/id/manchester/parking/operator/Manchester-City-Council> ;
+    ns1:type "Disabled parking bays" ;
+    geo:lat "53.481163505017044" ;
+    geo:long "-2.2512316703796387" ;
+    ns2:hasAddress <http://data.gmdsp.org.uk/def/council/parking/address/Off-Bridge-Street-outside-Shimla-Pinks-and-the-law-courts> .
+
+<http://data.gmdsp.org.uk/id/manchester/parking/Fountain-Street---18-bays> a ns1:ParkingSite ;
+    rdfs:label "Fountain Street - 18 bays" ;
+    ns1:operator <http://data.gmdsp.org.uk/id/manchester/parking/operator/Manchester-City-Council> ;
+    ns1:type "Motorcycle" ;
+    geo:lat "53.48180195933127" ;
+    geo:long "-2.240009307861328" ;
+    ns2:hasAddress <http://data.gmdsp.org.uk/def/council/parking/address/Side-of-Primark> .
+
+<http://data.gmdsp.org.uk/id/manchester/parking/Fountain-Street---3-bays> a ns1:ParkingSite ;
+    rdfs:label "Fountain Street - 3 bays" ;
+    ns1:operator <http://data.gmdsp.org.uk/id/manchester/parking/operator/Manchester-City-Council> ;
+    ns1:type "Disabled parking bays" ;
+    geo:lat "53.48144442609903" ;
+    geo:long "-2.23996639251709" ;
+    ns2:hasAddress <http://data.gmdsp.org.uk/def/council/parking/address/outside-Primark> .
+
+<http://data.gmdsp.org.uk/id/manchester/parking/George-Street---20-bays> a ns1:ParkingSite ;
+    rdfs:label "George Street - 20 bays" ;
+    ns1:operator <http://data.gmdsp.org.uk/id/manchester/parking/operator/Manchester-City-Council> ;
+    ns1:type "Motorcycle" ;
+    geo:lat "53.47876283081436" ;
+    geo:long "-2.2405028343200684" ;
+    ns2:hasAddress <http://data.gmdsp.org.uk/def/council/parking/address/Side-of-the-Chinese-Arch> .
+
+<http://data.gmdsp.org.uk/id/manchester/parking/Gt-Northern-Warehouse-1> a ns1:ParkingSite ;
+    rdfs:label "Gt Northern Warehouse 1" ;
+    ns1:operator <http://data.gmdsp.org.uk/id/manchester/parking/operator/NCP-Manchester-Ltd> ;
+    ns1:type "Multi Storey Car Park" ;
+    geo:lat "53.47664244167102" ;
+    geo:long "-2.248874902506941" ;
+    ns2:hasAddress <http://data.gmdsp.org.uk/def/council/parking/address/Gt-Northern-Warehouse-Watson-Street> .
+
+<http://data.gmdsp.org.uk/id/manchester/parking/Gt-Northern-Warehouse-2> a ns1:ParkingSite ;
+    rdfs:label "Gt Northern Warehouse 2" ;
+    ns1:operator <http://data.gmdsp.org.uk/id/manchester/parking/operator/NCP-Manchester-Ltd> ;
+    ns1:type "Multi Storey Car Park" ;
+    geo:lat "53.476608227120536" ;
+    geo:long "-2.2488194702964392" ;
+    ns2:hasAddress <http://data.gmdsp.org.uk/def/council/parking/address/Gt-Northern-Warehouse-Watson-Street> .
+
+<http://data.gmdsp.org.uk/id/manchester/parking/High-Street---2-bays> a ns1:ParkingSite ;
+    rdfs:label "High Street - 2 bays" ;
+    ns1:operator <http://data.gmdsp.org.uk/id/manchester/parking/operator/Manchester-City-Council> ;
+    ns1:type "Disabled parking bays" ;
+    geo:lat "53.48432375994283" ;
+    geo:long "-2.2374558448791504" ;
+    ns2:hasAddress <http://data.gmdsp.org.uk/def/council/parking/address/Near-crossrounds-with-Thomas-Street> .
+
+<http://data.gmdsp.org.uk/id/manchester/parking/High-Street-Arndale-Centre> a ns1:ParkingSite ;
+    rdfs:label "High Street Arndale Centre" ;
+    ns1:operator <http://data.gmdsp.org.uk/id/manchester/parking/operator/NCP-Manchester-Ltd> ;
+    ns1:type "Multi Storey Car Park" ;
+    geo:lat "53.483838" ;
+    geo:long "-2.237869" ;
+    ns2:hasAddress <http://data.gmdsp.org.uk/def/council/parking/address/High-Street-Nicholas-Croft> .
+
+<http://data.gmdsp.org.uk/id/manchester/parking/Hulme-Street> a ns1:ParkingSite ;
+    rdfs:label "Hulme Street" ;
+    ns1:operator <http://data.gmdsp.org.uk/id/manchester/parking/operator/NCP-Manchester-Ltd> ;
+    ns1:type "Surface Car Park" ;
+    geo:lat "53.47207236307442" ;
+    geo:long "-2.2439432139799464" ;
+    ns2:hasAddress <http://data.gmdsp.org.uk/def/council/parking/address/Hulme-Street-> .
+
+<http://data.gmdsp.org.uk/id/manchester/parking/King-Street-West-> a ns1:ParkingSite ;
+    rdfs:label "King Street West " ;
+    ns1:operator <http://data.gmdsp.org.uk/id/manchester/parking/operator/NCP-Manchester-Ltd> ;
+    ns1:type "Multi Storey Car Park" ;
+    geo:lat "53.481413" ;
+    geo:long "-2.248848" ;
+    ns2:hasAddress <http://data.gmdsp.org.uk/def/council/parking/address/King-Street-West-> .
+
+<http://data.gmdsp.org.uk/id/manchester/parking/King-Street-West---4-bays> a ns1:ParkingSite ;
+    rdfs:label "King Street West - 4 bays" ;
+    ns1:operator <http://data.gmdsp.org.uk/id/manchester/parking/operator/Manchester-City-Council> ;
+    ns1:type "Motorcycle" ;
+    geo:lat "53.481584885942446" ;
+    geo:long "-2.2490644454956055" ;
+    ns2:hasAddress <http://data.gmdsp.org.uk/def/council/parking/address/Side-of-Kendals-off-Deansgate> .
+
+<http://data.gmdsp.org.uk/id/manchester/parking/Major-Street> a ns1:ParkingSite ;
+    rdfs:label "Major Street" ;
+    ns1:operator <http://data.gmdsp.org.uk/id/manchester/parking/operator/NCP-Manchester-Ltd> ;
+    ns1:type "Surface Car Park" ;
+    geo:lat "53.478752" ;
+    geo:long "-2.236176" ;
+    ns2:hasAddress <http://data.gmdsp.org.uk/def/council/parking/address/Major-Street-> .
+
+<http://data.gmdsp.org.uk/id/manchester/parking/Manchester-Arena-> a ns1:ParkingSite ;
+    rdfs:label "Manchester Arena " ;
+    ns1:operator <http://data.gmdsp.org.uk/id/manchester/parking/operator/NCP-Manchester-Ltd> ;
+    ns1:type "Multi Storey Car Park" ;
+    geo:lat "53.489801" ;
+    geo:long "-2.243788" ;
+    ns2:hasAddress <http://data.gmdsp.org.uk/def/council/parking/address/New-Bridge-Street> .
+
+<http://data.gmdsp.org.uk/id/manchester/parking/Manchester-Central---G-Mex-Under-> a ns1:ParkingSite ;
+    rdfs:label "Manchester Central - G-Mex Under " ;
+    ns1:operator <http://data.gmdsp.org.uk/id/manchester/parking/operator/NCP-Manchester-Ltd> ;
+    ns1:type "Underground Car Park" ;
+    geo:lat "53.476904" ;
+    geo:long "-2.247156" ;
+    ns2:hasAddress <http://data.gmdsp.org.uk/def/council/parking/address/Central-(G-Mex)-Underground-Lower-Mosley-Street> .
+
+<http://data.gmdsp.org.uk/id/manchester/parking/Manchester-Central---G-Mex-Upper-> a ns1:ParkingSite ;
+    rdfs:label "Manchester Central - G-Mex Upper " ;
+    ns1:operator <http://data.gmdsp.org.uk/id/manchester/parking/operator/NCP-Manchester-Ltd> ;
+    ns1:type "Surface Car Park" ;
+    geo:lat "53.476904" ;
+    geo:long "-2.247156" ;
+    ns2:hasAddress <http://data.gmdsp.org.uk/def/council/parking/address/Central-(G-Mex)-Rt-Lower-Mosley-Street> .
+
+<http://data.gmdsp.org.uk/id/manchester/parking/Manchester-Printworks> a ns1:ParkingSite ;
+    rdfs:label "Manchester Printworks" ;
+    ns1:operator <http://data.gmdsp.org.uk/id/manchester/parking/operator/NCP-Manchester-Ltd> ;
+    ns1:type "Multi Storey Car Park" ;
+    geo:lat "53.485157" ;
+    geo:long "-2.23962" ;
+    ns2:hasAddress <http://data.gmdsp.org.uk/def/council/parking/address/Manchester-Transport-Interchange-Site-B-Shudehill> .
+
+<http://data.gmdsp.org.uk/id/manchester/parking/Manchester-Victoria-Station> a ns1:ParkingSite ;
+    rdfs:label "Manchester Victoria Station" ;
+    ns1:operator <http://data.gmdsp.org.uk/id/manchester/parking/operator/NCP-Manchester-Ltd> ;
+    ns1:type "Surface Car Park" ;
+    geo:lat "53.486354" ;
+    geo:long "-2.241719" ;
+    ns2:hasAddress <http://data.gmdsp.org.uk/def/council/parking/address/Long-Mill-Gate-Street> .
+
+<http://data.gmdsp.org.uk/id/manchester/parking/Market-Place-> a ns1:ParkingSite ;
+    rdfs:label "Market Place " ;
+    ns1:operator <http://data.gmdsp.org.uk/id/manchester/parking/operator/NCP-Manchester-Ltd> ;
+    ns1:type "Multi Storey Car Park" ;
+    geo:lat "53.483332" ;
+    geo:long "-2.246855" ;
+    ns2:hasAddress <http://data.gmdsp.org.uk/def/council/parking/address/Blackfriars-Street> .
+
+<http://data.gmdsp.org.uk/id/manchester/parking/Market-Street---5-bays> a ns1:ParkingSite ;
+    rdfs:label "Market Street - 5 bays" ;
+    ns1:operator <http://data.gmdsp.org.uk/id/manchester/parking/operator/Manchester-City-Council> ;
+    ns1:type "Disabled parking bays" ;
+    geo:lat "53.48300222743128" ;
+    geo:long "-2.244279384613037" ;
+    ns2:hasAddress <http://data.gmdsp.org.uk/def/council/parking/address/Opposite-Marks-and-Spencers> .
+
+<http://data.gmdsp.org.uk/id/manchester/parking/Marks-&-Spencer-> a ns1:ParkingSite ;
+    rdfs:label "Marks & Spencer " ;
+    ns1:operator <http://data.gmdsp.org.uk/id/manchester/parking/operator/NCP-Manchester-Ltd> ;
+    ns1:type "Underground Car Park" ;
+    geo:lat "53.483707" ;
+    geo:long "-2.243949" ;
+    ns2:hasAddress <http://data.gmdsp.org.uk/def/council/parking/address/Marks-&-Spencer-Underground-Off-Market-Street> .
+
+<http://data.gmdsp.org.uk/id/manchester/parking/Medlock-Street> a ns1:ParkingSite ;
+    rdfs:label "Medlock Street" ;
+    ns1:operator <http://data.gmdsp.org.uk/id/manchester/parking/operator/NCP-Manchester-Ltd> ;
+    ns1:type "Surface Car Park" ;
+    geo:lat "53.471508904840114" ;
+    geo:long "-2.2457170486450195" ;
+    ns2:hasAddress <http://data.gmdsp.org.uk/def/council/parking/address/Medlock-Street-Old-Dunlop-Street-(Opposite-Premier-Lodge)> .
+
+<http://data.gmdsp.org.uk/id/manchester/parking/Miller-Street-> a ns1:ParkingSite ;
+    rdfs:label "Miller Street " ;
+    ns1:operator <http://data.gmdsp.org.uk/id/manchester/parking/operator/NCP-Manchester-Ltd> ;
+    ns1:type "Surface Car Park" ;
+    geo:lat "53.487743" ;
+    geo:long "-2.239391" ;
+    ns2:hasAddress <http://data.gmdsp.org.uk/def/council/parking/address/Miller-Street-Dantzic-Street> .
+
+<http://data.gmdsp.org.uk/id/manchester/parking/Mount-Street---4-bays> a ns1:ParkingSite ;
+    rdfs:label "Mount Street - 4 bays" ;
+    ns1:operator <http://data.gmdsp.org.uk/id/manchester/parking/operator/Manchester-City-Council> ;
+    ns1:type "Disabled parking bays" ;
+    geo:lat "53.47819456624088" ;
+    geo:long "-2.2452664375305176" ;
+    ns2:hasAddress <http://data.gmdsp.org.uk/def/council/parking/address/Back-of-Central-Library> .
+
+<http://data.gmdsp.org.uk/id/manchester/parking/Norfork-Street---8-bays> a ns1:ParkingSite ;
+    rdfs:label "Norfork Street - 8 bays" ;
+    ns1:operator <http://data.gmdsp.org.uk/id/manchester/parking/operator/Manchester-City-Council> ;
+    ns1:type "Disabled parking bays" ;
+    geo:lat "53.481999878217756" ;
+    geo:long "-2.2422516345977783" ;
+    ns2:hasAddress <http://data.gmdsp.org.uk/def/council/parking/address/Behind-Tescos-outside-the-blood-donor-clinic> .
+
+<http://data.gmdsp.org.uk/id/manchester/parking/Oxford-Road-Station-> a ns1:ParkingSite ;
+    rdfs:label "Oxford Road Station " ;
+    ns1:operator <http://data.gmdsp.org.uk/id/manchester/parking/operator/Manchester-City-Council> ;
+    ns1:type "Disabled parking bays" ;
+    geo:lat "53.47413987341371" ;
+    geo:long "-2.241940498352051" ;
+    ns2:hasAddress <http://data.gmdsp.org.uk/def/council/parking/address/Outside-the-Cornerhouse> .
+
+<http://data.gmdsp.org.uk/id/manchester/parking/Oxford-Street-> a ns1:ParkingSite ;
+    rdfs:label "Oxford Street " ;
+    ns1:operator <http://data.gmdsp.org.uk/id/manchester/parking/operator/NCP-Manchester-Ltd> ;
+    ns1:type "Multi Storey Car Park" ;
+    geo:lat "53.475646" ;
+    geo:long "-2.242126" ;
+    ns2:hasAddress <http://data.gmdsp.org.uk/def/council/parking/address/Oxford-Street> .
+
+<http://data.gmdsp.org.uk/id/manchester/parking/Palace-> a ns1:ParkingSite ;
+    rdfs:label "Palace " ;
+    ns1:operator <http://data.gmdsp.org.uk/id/manchester/parking/operator/NCP-Manchester-Ltd> ;
+    ns1:type "Multi Storey Car Park" ;
+    geo:lat "53.475564221540616" ;
+    geo:long "-2.239732146153983" ;
+    ns2:hasAddress <http://data.gmdsp.org.uk/def/council/parking/address/Palace-Whitworth-Street> .
+
+<http://data.gmdsp.org.uk/id/manchester/parking/Park-Street> a ns1:ParkingSite ;
+    rdfs:label "Park Street" ;
+    ns1:operator <http://data.gmdsp.org.uk/id/manchester/parking/operator/NCP-Manchester-Ltd> ;
+    ns1:type "Surface Car Park" ;
+    geo:lat "53.490495" ;
+    geo:long "-2.243342" ;
+    ns2:hasAddress <http://data.gmdsp.org.uk/def/council/parking/address/Park-Street> .
+
+<http://data.gmdsp.org.uk/id/manchester/parking/Peter-Street---8-bays> a ns1:ParkingSite ;
+    rdfs:label "Peter Street - 8 bays" ;
+    ns1:operator <http://data.gmdsp.org.uk/id/manchester/parking/operator/Manchester-City-Council> ;
+    ns1:type "Motorcycle" ;
+    geo:lat "53.477843387699544" ;
+    geo:long "-2.2449874877929688" ;
+    ns2:hasAddress <http://data.gmdsp.org.uk/def/council/parking/address/Outside-Central-Library-opposite-Midland-Hotel> .
+
+<http://data.gmdsp.org.uk/id/manchester/parking/Piccadilly-Plaza-Ug> a ns1:ParkingSite ;
+    rdfs:label "Piccadilly Plaza Ug" ;
+    ns1:operator <http://data.gmdsp.org.uk/id/manchester/parking/operator/NCP-Manchester-Ltd> ;
+    ns1:type "Underground Car Park" ;
+    geo:lat "53.47961989563453" ;
+    geo:long "-2.238235473196255" ;
+    ns2:hasAddress <http://data.gmdsp.org.uk/def/council/parking/address/York-Street> .
+
+<http://data.gmdsp.org.uk/id/manchester/parking/Portland-Street---8-bays> a ns1:ParkingSite ;
+    rdfs:label "Portland Street - 8 bays" ;
+    ns1:operator <http://data.gmdsp.org.uk/id/manchester/parking/operator/Manchester-City-Council> ;
+    ns1:type "Motorcycle" ;
+    geo:lat "53.477868928055116" ;
+    geo:long "-2.2393441200256348" ;
+    ns2:hasAddress <http://data.gmdsp.org.uk/def/council/parking/address/Outside-CIS-Building> .
+
+<http://data.gmdsp.org.uk/id/manchester/parking/Queen-Street> a ns1:ParkingSite ;
+    rdfs:label "Queen Street" ;
+    ns1:operator <http://data.gmdsp.org.uk/id/manchester/parking/operator/NCP-Manchester-Ltd> ;
+    ns1:type "Surface Car Park" ;
+    geo:lat "53.479518" ;
+    geo:long "-2.248189" ;
+    ns2:hasAddress <http://data.gmdsp.org.uk/def/council/parking/address/Queen-Street-Sp> .
+
+<http://data.gmdsp.org.uk/id/manchester/parking/Queens-Street/Lincoln-Square---1-bay> a ns1:ParkingSite ;
+    rdfs:label "Queens Street/Lincoln Square - 1 bay" ;
+    ns1:operator <http://data.gmdsp.org.uk/id/manchester/parking/operator/Manchester-City-Council> ;
+    ns1:type "Disabled parking bays" ;
+    geo:lat "53.479490709150234" ;
+    geo:long "-2.2465968132019043" ;
+    ns2:hasAddress <http://data.gmdsp.org.uk/def/council/parking/address/Off-Deansgate-and-Brazennose-Street> .
+
+<http://data.gmdsp.org.uk/id/manchester/parking/Sackville-Street-> a ns1:ParkingSite ;
+    rdfs:label "Sackville Street " ;
+    ns1:operator <http://data.gmdsp.org.uk/id/manchester/parking/operator/NCP-Manchester-Ltd> ;
+    ns1:type "Surface Car Park" ;
+    geo:lat "53.476896" ;
+    geo:long "-2.238034" ;
+    ns2:hasAddress <http://data.gmdsp.org.uk/def/council/parking/address/Off-Bloom-Street> .
+
+<http://data.gmdsp.org.uk/id/manchester/parking/Sheffield-Street> a ns1:ParkingSite ;
+    rdfs:label "Sheffield Street" ;
+    ns1:operator <http://data.gmdsp.org.uk/id/manchester/parking/operator/NCP-Manchester-Ltd> ;
+    ns1:type "Surface Car Park" ;
+    geo:lat "53.477062" ;
+    geo:long "-2.227081" ;
+    ns2:hasAddress <http://data.gmdsp.org.uk/def/council/parking/address/Sheffield-Street> .
+
+<http://data.gmdsp.org.uk/id/manchester/parking/Spinningfields-> a ns1:ParkingSite ;
+    rdfs:label "Spinningfields " ;
+    ns1:operator <http://data.gmdsp.org.uk/id/manchester/parking/operator/NCP-Manchester-Ltd> ;
+    ns1:type "Multi Storey Car Park" ;
+    geo:lat "53.479712" ;
+    geo:long "-2.254414" ;
+    ns2:hasAddress <http://data.gmdsp.org.uk/def/council/parking/address/New-Quay-Street> .
+
+<http://data.gmdsp.org.uk/id/manchester/parking/Spring-Gardens---1-bay> a ns1:ParkingSite ;
+    rdfs:label "Spring Gardens - 1 bay" ;
+    ns1:operator <http://data.gmdsp.org.uk/id/manchester/parking/operator/Manchester-City-Council> ;
+    ns1:type "Disabled parking bays" ;
+    geo:lat "53.48062719596798" ;
+    geo:long "-2.242112159729004" ;
+    ns2:hasAddress <http://data.gmdsp.org.uk/def/council/parking/address/Outside-Post-Office> .
+
+<http://data.gmdsp.org.uk/id/manchester/parking/St-Ann-Street--4-bays> a ns1:ParkingSite ;
+    rdfs:label "St Ann Street- 4 bays" ;
+    ns1:operator <http://data.gmdsp.org.uk/id/manchester/parking/operator/Manchester-City-Council> ;
+    ns1:type "Disabled parking bays" ;
+    geo:lat "53.481661500206506" ;
+    geo:long "-2.2451162338256836" ;
+    ns2:hasAddress <http://data.gmdsp.org.uk/def/council/parking/address/Off-St-Anns-Square-near-GAP> .
+
+<http://data.gmdsp.org.uk/id/manchester/parking/St-Ann-Street--5-bays> a ns1:ParkingSite ;
+    rdfs:label "St Ann Street- 5 bays" ;
+    ns1:operator <http://data.gmdsp.org.uk/id/manchester/parking/operator/Manchester-City-Council> ;
+    ns1:type "Disabled parking bays" ;
+    geo:lat "53.48191688008747" ;
+    geo:long "-2.246060371398926" ;
+    ns2:hasAddress <http://data.gmdsp.org.uk/def/council/parking/address/Off-St-Anns-Square-near-Russell-and-Bromley> .
+
+<http://data.gmdsp.org.uk/id/manchester/parking/St-Mary's-Street---5-bays> a ns1:ParkingSite ;
+    rdfs:label "St Mary's Street - 5 bays" ;
+    ns1:operator <http://data.gmdsp.org.uk/id/manchester/parking/operator/Manchester-City-Council> ;
+    ns1:type "Disabled parking bays" ;
+    geo:lat "53.482223333915385" ;
+    geo:long "-2.2475624084472656" ;
+    ns2:hasAddress <http://data.gmdsp.org.uk/def/council/parking/address/Off-Deansgate-side-of-Kendals> .
+
+<http://data.gmdsp.org.uk/id/manchester/parking/St-Peter's-Square---4-bays> a ns1:ParkingSite ;
+    rdfs:label "St Peter's Square - 4 bays" ;
+    ns1:operator <http://data.gmdsp.org.uk/id/manchester/parking/operator/Manchester-City-Council> ;
+    ns1:type "Motorcycle" ;
+    geo:lat "53.47753690223376" ;
+    geo:long "-2.2433996200561523" ;
+    ns2:hasAddress <http://data.gmdsp.org.uk/def/council/parking/address/Outside-library> .
+
+<http://data.gmdsp.org.uk/id/manchester/parking/Stone-Street> a ns1:ParkingSite ;
+    rdfs:label "Stone Street" ;
+    ns1:operator <http://data.gmdsp.org.uk/id/manchester/parking/operator/NCP-Manchester-Ltd> ;
+    ns1:type "Surface Car Park" ;
+    geo:lat "53.476091" ;
+    geo:long "-2.253925" ;
+    ns2:hasAddress <http://data.gmdsp.org.uk/def/council/parking/address/Stone-Street-Sp> .
+
+<http://data.gmdsp.org.uk/id/manchester/parking/The-Grand-> a ns1:ParkingSite ;
+    rdfs:label "The Grand " ;
+    ns1:operator <http://data.gmdsp.org.uk/id/manchester/parking/operator/NCP-Manchester-Ltd> ;
+    ns1:type "Multi Storey Car Park" ;
+    geo:lat "53.479727" ;
+    geo:long "-2.234087" ;
+    ns2:hasAddress <http://data.gmdsp.org.uk/def/council/parking/address/Chatham-Street> .
+
+<http://data.gmdsp.org.uk/id/manchester/parking/Tib-Street> a ns1:ParkingSite ;
+    rdfs:label "Tib Street" ;
+    ns1:operator <http://data.gmdsp.org.uk/id/manchester/parking/operator/NCP-Manchester-Ltd> ;
+    ns1:type "Surface Car Park" ;
+    geo:lat "53.483899" ;
+    geo:long "-2.234589" ;
+    ns2:hasAddress <http://data.gmdsp.org.uk/def/council/parking/address/Tib-Street> .
+
+<http://data.gmdsp.org.uk/id/manchester/parking/Tib-Street---2-bays> a ns1:ParkingSite ;
+    rdfs:label "Tib Street - 2 bays" ;
+    ns1:operator <http://data.gmdsp.org.uk/id/manchester/parking/operator/Manchester-City-Council> ;
+    ns1:type "Disabled parking bays" ;
+    geo:lat "53.482146720665924" ;
+    geo:long "-2.237863540649414" ;
+    ns2:hasAddress <http://data.gmdsp.org.uk/def/council/parking/address/Outside-Sachas-side-of-Debenhams> .
+
+<http://data.gmdsp.org.uk/id/manchester/parking/Travis-Street-> a ns1:ParkingSite ;
+    rdfs:label "Travis Street " ;
+    ns1:operator <http://data.gmdsp.org.uk/id/manchester/parking/operator/NCP-Manchester-Ltd> ;
+    ns1:type "Surface Car Park" ;
+    geo:lat "53.477209" ;
+    geo:long "-2.225364" ;
+    ns2:hasAddress <http://data.gmdsp.org.uk/def/council/parking/address/Travis-Street> .
+
+<http://data.gmdsp.org.uk/id/manchester/parking/Water-Street> a ns1:ParkingSite ;
+    rdfs:label "Water Street" ;
+    ns1:operator <http://data.gmdsp.org.uk/id/manchester/parking/operator/NCP-Manchester-Ltd> ;
+    ns1:type "Surface Car Park" ;
+    geo:lat "53.474068" ;
+    geo:long "-2.262425" ;
+    ns2:hasAddress <http://data.gmdsp.org.uk/def/council/parking/address/Water-Street> .
+
+<http://data.gmdsp.org.uk/id/manchester/parking/Withy-Grove---4-bays> a ns1:ParkingSite ;
+    rdfs:label "Withy Grove - 4 bays" ;
+    ns1:operator <http://data.gmdsp.org.uk/id/manchester/parking/operator/Manchester-City-Council> ;
+    ns1:type "Motorcycle" ;
+    geo:lat "53.48463019638439" ;
+    geo:long "-2.2411465644836426" ;
+    ns2:hasAddress <http://data.gmdsp.org.uk/def/council/parking/address/Outside-Tiger-Tiger> .
+
+<http://data.gmdsp.org.uk/id/manchester/parking/York-Street-> a ns1:ParkingSite ;
+    rdfs:label "York Street " ;
+    ns1:operator <http://data.gmdsp.org.uk/id/manchester/parking/operator/Manchester-City-Council> ;
+    ns1:type "Disabled parking bays" ;
+    geo:lat "53.48083150497655" ;
+    geo:long "-2.2408461570739746" ;
+    ns2:hasAddress <http://data.gmdsp.org.uk/def/council/parking/address/> .
+
+<http://data.gmdsp.org.uk/id/manchester/parking/York-Street---14-bays> a ns1:ParkingSite ;
+    rdfs:label "York Street - 14 bays" ;
+    ns1:operator <http://data.gmdsp.org.uk/id/manchester/parking/operator/Manchester-City-Council> ;
+    ns1:type "Motorcycle" ;
+    geo:lat "53.47973333248734" ;
+    geo:long "-2.238314151763916" ;
+    ns2:hasAddress <http://data.gmdsp.org.uk/def/council/parking/address/Behind-Picadilly-Plaza> .
+
+<http://data.gmdsp.org.uk/id/manchester/parking/address/> a ns2:Location ;
+    rdfs:label "Chepstow Street - 4 bays",
+        "York Street " ;
+    ns2:street-address "" .
+
+<http://data.gmdsp.org.uk/id/manchester/parking/address/Abingdon-Street-Corner-Of-Major-Street-M1-6DD> a ns2:Location ;
+    rdfs:label "Abingdon Street" ;
+    ns2:street-address "Abingdon Street, Corner Of Major Street, M1 6DD" .
+
+<http://data.gmdsp.org.uk/id/manchester/parking/address/Aquatic-Centre-Booth-Street-East> a ns2:Location ;
+    rdfs:label "Aquatic Centre " ;
+    ns2:street-address "Aquatic Centre, Booth Street East" .
+
+<http://data.gmdsp.org.uk/id/manchester/parking/address/Back-of-Central-Library> a ns2:Location ;
+    rdfs:label "Mount Street - 4 bays" ;
+    ns2:street-address "Back of Central Library" .
+
+<http://data.gmdsp.org.uk/id/manchester/parking/address/Behind-Peter-House-Oxford-Street> a ns2:Location ;
+    rdfs:label "Bale Street - 2 bays" ;
+    ns2:street-address "Behind Peter House Oxford Street" .
+
+<http://data.gmdsp.org.uk/id/manchester/parking/address/Behind-Picadilly-Plaza> a ns2:Location ;
+    rdfs:label "York Street - 14 bays" ;
+    ns2:street-address "Behind Picadilly Plaza" .
+
+<http://data.gmdsp.org.uk/id/manchester/parking/address/Behind-Premier-Inn-and-Fitness-First-Lower-Mosley-Street> a ns2:Location ;
+    rdfs:label "Bishopsgate - 2 bays" ;
+    ns2:street-address "Behind Premier Inn and Fitness First Lower Mosley Street" .
+
+<http://data.gmdsp.org.uk/id/manchester/parking/address/Behind-Tescos-outside-the-blood-donor-clinic> a ns2:Location ;
+    rdfs:label "Norfork Street - 8 bays" ;
+    ns2:street-address "Behind Tescos, outside the blood donor clinic" .
+
+<http://data.gmdsp.org.uk/id/manchester/parking/address/Behind-the-Court-Minshull-Street-just-off-Aytoun-Street> a ns2:Location ;
+    rdfs:label "Auburn Street - 4 bays" ;
+    ns2:street-address "Behind the Court Minshull Street, just off Aytoun Street" .
+
+<http://data.gmdsp.org.uk/id/manchester/parking/address/Blackfriars-Street> a ns2:Location ;
+    rdfs:label "Market Place " ;
+    ns2:street-address "Blackfriars Street" .
+
+<http://data.gmdsp.org.uk/id/manchester/parking/address/Bloom-Street-Fmr-National-Express-Bus-Station> a ns2:Location ;
+    rdfs:label "Bloom Street" ;
+    ns2:street-address "Bloom Street, Fmr National Express Bus Station" .
+
+<http://data.gmdsp.org.uk/id/manchester/parking/address/Bridge-Street-Sp> a ns2:Location ;
+    rdfs:label "Bridge Street " ;
+    ns2:street-address "Bridge Street Sp" .
+
+<http://data.gmdsp.org.uk/id/manchester/parking/address/Bridgewater-Hall-Little-Peter-Street> a ns2:Location ;
+    rdfs:label "Bridgewater Hall " ;
+    ns2:street-address "Bridgewater Hall, Little Peter Street" .
+
+<http://data.gmdsp.org.uk/id/manchester/parking/address/Central-(G-Mex)-Rt-Lower-Mosley-Street> a ns2:Location ;
+    rdfs:label "Manchester Central - G-Mex Upper " ;
+    ns2:street-address "Central (G-Mex) Rt, Lower Mosley Street" .
+
+<http://data.gmdsp.org.uk/id/manchester/parking/address/Central-(G-Mex)-Underground-Lower-Mosley-Street> a ns2:Location ;
+    rdfs:label "Manchester Central - G-Mex Under " ;
+    ns2:street-address "Central (G-Mex) Underground, Lower Mosley Street" .
+
+<http://data.gmdsp.org.uk/id/manchester/parking/address/Chatham-Street> a ns2:Location ;
+    rdfs:label "The Grand " ;
+    ns2:street-address "Chatham Street" .
+
+<http://data.gmdsp.org.uk/id/manchester/parking/address/Chepstow-Street> a ns2:Location ;
+    rdfs:label "Chepstow Street" ;
+    ns2:street-address "Chepstow Street" .
+
+<http://data.gmdsp.org.uk/id/manchester/parking/address/Chester-Street> a ns2:Location ;
+    rdfs:label "Chester Street" ;
+    ns2:street-address "Chester Street" .
+
+<http://data.gmdsp.org.uk/id/manchester/parking/address/China-Town> a ns2:Location ;
+    rdfs:label "China Town " ;
+    ns2:street-address "China Town" .
+
+<http://data.gmdsp.org.uk/id/manchester/parking/address/Chorlton-Street> a ns2:Location ;
+    rdfs:label "Chorlton Street " ;
+    ns2:street-address "Chorlton Street" .
+
+<http://data.gmdsp.org.uk/id/manchester/parking/address/Church-Street> a ns2:Location ;
+    rdfs:label "Church Street " ;
+    ns2:street-address "Church Street" .
+
+<http://data.gmdsp.org.uk/id/manchester/parking/address/Gt-Northern-Warehouse-Watson-Street> a ns2:Location ;
+    rdfs:label "Gt Northern Warehouse 1",
+        "Gt Northern Warehouse 2" ;
+    ns2:street-address "Gt Northern Warehouse, Watson Street" .
+
+<http://data.gmdsp.org.uk/id/manchester/parking/address/High-Street-Nicholas-Croft> a ns2:Location ;
+    rdfs:label "High Street Arndale Centre" ;
+    ns2:street-address "High Street, Nicholas Croft" .
+
+<http://data.gmdsp.org.uk/id/manchester/parking/address/Hulme-Street-> a ns2:Location ;
+    rdfs:label "Hulme Street" ;
+    ns2:street-address "Hulme Street " .
+
+<http://data.gmdsp.org.uk/id/manchester/parking/address/King-Street-West-> a ns2:Location ;
+    rdfs:label "King Street West " ;
+    ns2:street-address "King Street West " .
+
+<http://data.gmdsp.org.uk/id/manchester/parking/address/Long-Mill-Gate-Street> a ns2:Location ;
+    rdfs:label "Manchester Victoria Station" ;
+    ns2:street-address "Long Mill Gate Street" .
+
+<http://data.gmdsp.org.uk/id/manchester/parking/address/Major-Street-> a ns2:Location ;
+    rdfs:label "Major Street" ;
+    ns2:street-address "Major Street " .
+
+<http://data.gmdsp.org.uk/id/manchester/parking/address/Manchester-Transport-Interchange-Site-B-Shudehill> a ns2:Location ;
+    rdfs:label "Manchester Printworks" ;
+    ns2:street-address "Manchester Transport Interchange, Site B, Shudehill" .
+
+<http://data.gmdsp.org.uk/id/manchester/parking/address/Marks-&-Spencer-Underground-Off-Market-Street> a ns2:Location ;
+    rdfs:label "Marks & Spencer " ;
+    ns2:street-address "Marks & Spencer Underground, Off Market Street" .
+
+<http://data.gmdsp.org.uk/id/manchester/parking/address/Medlock-Street-Old-Dunlop-Street-(Opposite-Premier-Lodge)> a ns2:Location ;
+    rdfs:label "Medlock Street" ;
+    ns2:street-address "Medlock Street, Old Dunlop Street, (Opposite Premier Lodge)" .
+
+<http://data.gmdsp.org.uk/id/manchester/parking/address/Miller-Street-Dantzic-Street> a ns2:Location ;
+    rdfs:label "Miller Street " ;
+    ns2:street-address "Miller Street, Dantzic Street" .
+
+<http://data.gmdsp.org.uk/id/manchester/parking/address/Near-crossrounds-with-Thomas-Street> a ns2:Location ;
+    rdfs:label "High Street - 2 bays" ;
+    ns2:street-address "Near crossrounds with Thomas Street" .
+
+<http://data.gmdsp.org.uk/id/manchester/parking/address/New-Bridge-Street> a ns2:Location ;
+    rdfs:label "Manchester Arena " ;
+    ns2:street-address "New Bridge Street" .
+
+<http://data.gmdsp.org.uk/id/manchester/parking/address/New-Quay-Street> a ns2:Location ;
+    rdfs:label "Spinningfields " ;
+    ns2:street-address "New Quay Street" .
+
+<http://data.gmdsp.org.uk/id/manchester/parking/address/Off-Bloom-Street> a ns2:Location ;
+    rdfs:label "Sackville Street " ;
+    ns2:street-address "Off Bloom Street" .
+
+<http://data.gmdsp.org.uk/id/manchester/parking/address/Off-Bridge-Street-outside-Shimla-Pinks-and-the-law-courts> a ns2:Location ;
+    rdfs:label "Dolefield - 4 bays" ;
+    ns2:street-address "Off Bridge Street, outside Shimla Pinks and the law courts" .
+
+<http://data.gmdsp.org.uk/id/manchester/parking/address/Off-Cross--Street> a ns2:Location ;
+    rdfs:label "Chapel Walks - 6 bays" ;
+    ns2:street-address "Off Cross  Street" .
+
+<http://data.gmdsp.org.uk/id/manchester/parking/address/Off-Deansgate-and-Brazennose-Street> a ns2:Location ;
+    rdfs:label "Queens Street/Lincoln Square - 1 bay" ;
+    ns2:street-address "Off Deansgate, and Brazennose Street" .
+
+<http://data.gmdsp.org.uk/id/manchester/parking/address/Off-Deansgate-side-of-Kendals> a ns2:Location ;
+    rdfs:label "St Mary's Street - 5 bays" ;
+    ns2:street-address "Off Deansgate, side of Kendals" .
+
+<http://data.gmdsp.org.uk/id/manchester/parking/address/Off-King-Street-outside-Lloyds-TSB-bank> a ns2:Location ;
+    rdfs:label "Cheapside - 2 bays" ;
+    ns2:street-address "Off King Street, outside Lloyds TSB bank" .
+
+<http://data.gmdsp.org.uk/id/manchester/parking/address/Off-Kings-Street-near-All-Bar-One> a ns2:Location ;
+    rdfs:label "Brown Street - 4 bays" ;
+    ns2:street-address "Off Kings Street, near All Bar One" .
+
+<http://data.gmdsp.org.uk/id/manchester/parking/address/Off-St-Anns-Square-near-GAP> a ns2:Location ;
+    rdfs:label "St Ann Street- 4 bays" ;
+    ns2:street-address "Off St Anns Square, near GAP" .
+
+<http://data.gmdsp.org.uk/id/manchester/parking/address/Off-St-Anns-Square-near-Russell-and-Bromley> a ns2:Location ;
+    rdfs:label "St Ann Street- 5 bays" ;
+    ns2:street-address "Off St Anns Square, near Russell and Bromley" .
+
+<http://data.gmdsp.org.uk/id/manchester/parking/address/Off-Thomas-Street-Northern-Quarter> a ns2:Location ;
+    rdfs:label "Brick Street - 3 bays" ;
+    ns2:street-address "Off Thomas Street, Northern Quarter" .
+
+<http://data.gmdsp.org.uk/id/manchester/parking/address/Opposite-Churchills-pub> a ns2:Location ;
+    rdfs:label "Chorlton Street - 7 bays" ;
+    ns2:street-address "Opposite Churchills pub" .
+
+<http://data.gmdsp.org.uk/id/manchester/parking/address/Opposite-Marks-and-Spencers> a ns2:Location ;
+    rdfs:label "Market Street - 5 bays" ;
+    ns2:street-address "Opposite Marks and Spencers" .
+
+<http://data.gmdsp.org.uk/id/manchester/parking/address/Outside-CIS-Building> a ns2:Location ;
+    rdfs:label "Portland Street - 8 bays" ;
+    ns2:street-address "Outside CIS Building" .
+
+<http://data.gmdsp.org.uk/id/manchester/parking/address/Outside-Central-Library-and-Town-Hall-extention> a ns2:Location ;
+    rdfs:label "Central Library - 14 bays" ;
+    ns2:street-address "Outside Central Library and Town Hall extention" .
+
+<http://data.gmdsp.org.uk/id/manchester/parking/address/Outside-Central-Library-opposite-Midland-Hotel> a ns2:Location ;
+    rdfs:label "Peter Street - 8 bays" ;
+    ns2:street-address "Outside Central Library, opposite Midland Hotel" .
+
+<http://data.gmdsp.org.uk/id/manchester/parking/address/Outside-Post-Office> a ns2:Location ;
+    rdfs:label "Brown Street - 3 bays",
+        "Spring Gardens - 1 bay" ;
+    ns2:street-address "Outside Post Office" .
+
+<http://data.gmdsp.org.uk/id/manchester/parking/address/Outside-Sachas-side-of-Debenhams> a ns2:Location ;
+    rdfs:label "Tib Street - 2 bays" ;
+    ns2:street-address "Outside Sachas, side of Debenhams" .
+
+<http://data.gmdsp.org.uk/id/manchester/parking/address/Outside-Tampopo-and-Rajdoot> a ns2:Location ;
+    rdfs:label "Albert Square - 12 bays" ;
+    ns2:street-address "Outside Tampopo and Rajdoot" .
+
+<http://data.gmdsp.org.uk/id/manchester/parking/address/Outside-Tiger-Tiger> a ns2:Location ;
+    rdfs:label "Withy Grove - 4 bays" ;
+    ns2:street-address "Outside Tiger Tiger" .
+
+<http://data.gmdsp.org.uk/id/manchester/parking/address/Outside-library> a ns2:Location ;
+    rdfs:label "St Peter's Square - 4 bays" ;
+    ns2:street-address "Outside library" .
+
+<http://data.gmdsp.org.uk/id/manchester/parking/address/Outside-the-Cornerhouse> a ns2:Location ;
+    rdfs:label "Oxford Road Station " ;
+    ns2:street-address "Outside the Cornerhouse" .
+
+<http://data.gmdsp.org.uk/id/manchester/parking/address/Oxford-Street> a ns2:Location ;
+    rdfs:label "Oxford Street " ;
+    ns2:street-address "Oxford Street" .
+
+<http://data.gmdsp.org.uk/id/manchester/parking/address/Palace-Whitworth-Street> a ns2:Location ;
+    rdfs:label "Palace " ;
+    ns2:street-address "Palace, Whitworth Street" .
+
+<http://data.gmdsp.org.uk/id/manchester/parking/address/Park-Street> a ns2:Location ;
+    rdfs:label "Park Street" ;
+    ns2:street-address "Park Street" .
+
+<http://data.gmdsp.org.uk/id/manchester/parking/address/Queen-Street-Sp> a ns2:Location ;
+    rdfs:label "Queen Street" ;
+    ns2:street-address "Queen Street Sp" .
+
+<http://data.gmdsp.org.uk/id/manchester/parking/address/Sheffield-Street> a ns2:Location ;
+    rdfs:label "Sheffield Street" ;
+    ns2:street-address "Sheffield Street" .
+
+<http://data.gmdsp.org.uk/id/manchester/parking/address/Side-of-Kendals-off-Deansgate> a ns2:Location ;
+    rdfs:label "King Street West - 4 bays" ;
+    ns2:street-address "Side of Kendals, off Deansgate" .
+
+<http://data.gmdsp.org.uk/id/manchester/parking/address/Side-of-Primark> a ns2:Location ;
+    rdfs:label "Fountain Street - 18 bays" ;
+    ns2:street-address "Side of Primark" .
+
+<http://data.gmdsp.org.uk/id/manchester/parking/address/Side-of-the-Chinese-Arch> a ns2:Location ;
+    rdfs:label "George Street - 20 bays" ;
+    ns2:street-address "Side of the Chinese Arch" .
+
+<http://data.gmdsp.org.uk/id/manchester/parking/address/Stone-Street-Sp> a ns2:Location ;
+    rdfs:label "Stone Street" ;
+    ns2:street-address "Stone Street Sp" .
+
+<http://data.gmdsp.org.uk/id/manchester/parking/address/Tib-Street> a ns2:Location ;
+    rdfs:label "Tib Street" ;
+    ns2:street-address "Tib Street" .
+
+<http://data.gmdsp.org.uk/id/manchester/parking/address/Travis-Street> a ns2:Location ;
+    rdfs:label "Travis Street " ;
+    ns2:street-address "Travis Street" .
+
+<http://data.gmdsp.org.uk/id/manchester/parking/address/Water-Street> a ns2:Location ;
+    rdfs:label "Water Street" ;
+    ns2:street-address "Water Street" .
+
+<http://data.gmdsp.org.uk/id/manchester/parking/address/York-Street> a ns2:Location ;
+    rdfs:label "Piccadilly Plaza Ug" ;
+    ns2:street-address "York Street" .
+
+<http://data.gmdsp.org.uk/id/manchester/parking/address/outside-Primark> a ns2:Location ;
+    rdfs:label "Fountain Street - 3 bays" ;
+    ns2:street-address "outside Primark" .
+
+<http://data.gmdsp.org.uk/id/manchester/parking/operator/Manchester-City-Council> a ns1:ParkingSiteOperator ;
+    rdfs:label "Manchester City Council" ;
+    os:MetropolitanDistrict <http://data.ordnancesurvey.co.uk/id/7000000000018821> .
+
+<http://data.gmdsp.org.uk/id/manchester/parking/operator/NCP-Manchester-Ltd> a ns1:ParkingSiteOperator ;
+    rdfs:label "NCP Manchester Ltd" ;
+    os:MetropolitanDistrict <http://data.ordnancesurvey.co.uk/id/7000000000018821> .
+

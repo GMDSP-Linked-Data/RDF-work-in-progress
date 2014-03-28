@@ -41,7 +41,7 @@ from rdflib.namespace import FOAF, DC
 import csv
 import pprint
 
-storefn = os.path.dirname(os.path.realpath(__file__)) + '/Output/streetlight.turtle'
+storefn = os.path.dirname(os.path.realpath(__file__)) + '/Output/gritting.turtle'
 #storefn = '/home/simon/codes/film.dev/movies.n3'
 storeuri = 'file://'+storefn
 title = 'Movies viewed by %s'
@@ -54,7 +54,7 @@ RDFS = Namespace('http://www.w3.org/2000/01/rdf-schema#')
 GEO = Namespace('http://www.w3.org/2003/01/geo/wgs84_pos#')
 VCARD = Namespace('http://www.w3.org/2006/vcard/ns#')
 SCHEMA = Namespace('http://schema.org/')
-sl = Namespace('https://gmdsp-admin.publishmydata.com/id/Street_Lighting/')
+sl = Namespace('https://gmdsp-admin.publishmydata.com/id/manchester/gritting/')
 class Store:
     def __init__(self):
 
@@ -77,19 +77,11 @@ class Store:
         self.graph.serialize(storeuri, format='turtle')
 
     #def new_streetlight(self, height, easting, eligible, lamp, lampwatts, location, mintyn, northing, objectId, street, unitid, unitno):
-    def new_streetlight(self, height, easting, northing, street, objectId):
-        streetlamp = sl[objectId] # @@ humanize the identifier (something like #rev-$date)
-        self.graph.add((streetlamp, RDF.type, Literal("Street Lamp")))
-        self.graph.add((streetlamp, SCHEMA['height'], Literal(height)))
-        self.graph.add((streetlamp, SPACIAL['easting'], Literal(easting)))
-        self.graph.add((streetlamp, SPACIAL['northing'], Literal(northing)))
-        self.graph.add((streetlamp, VCARD['hasstreetaddress'], Literal(street)))
-        #self.graph.add((allotment, DC['date'], Literal(external_link)))
-        #self.graph.add((allotment, DC['date'], Literal(guidence)))
-        #self.graph.add((allotment, GEO["lat//long"], Literal(location)))
-        #self.graph.add((allotment, RDFS['label'], Literal(name)))
-        #self.graph.add((allotment, DC['date'], Literal(plot_size)))
-        #self.graph.add((allotment, GEO['rating'], Literal(rent)))
+    def new_streetlight(self, lable, filename, ):
+        streetlamp = sl[lable] # @@ humanize the identifier (something like #rev-$date)
+        self.graph.add((streetlamp, RDF.type, URIRef('http://data.gmdsp.org.uk/def/council/gritting/GrittingRoute')))
+        self.graph.add((streetlamp, RDFS['label'], Literal(lable)))
+        self.graph.add((streetlamp, URIRef('http://data.gmdsp.org.uk/def/council/gritting/routeFile'), URIRef(filename)))
         self.save()
 
 def help():
@@ -108,8 +100,11 @@ def main(argv=None):
 
     r = shapefile.Reader(shp=myshp, dbf=mydbf, bdf=mydbf, prj=myprj, sbn=mysbn, sbx=mysbx, shx=myshx)
     shapes = r.shapes()
+    count = 0
     for bb in shapes:
-        print bb.points
+        print bb
+        s.new_streetlight('route-'+str(count), 'https://raw.githubusercontent.com/GMDSP-Linked-Data/RDF-work-in-progress/master/finalised-output/manchester/grittingroutes/route-'+str(count)+'.json')
+        count = count + 1
     #reader = csv.DictReader(open('./Data/Street_Lighting.txt', mode='r'))
     # for row in reader:
     #     pprint.pprint(row)

@@ -78,7 +78,7 @@ class Store:
 
     def new_address(self, address):
         addr = al["address/"+address.replace(" ", "_").replace(",","-").lower()]
-        self.graph.add((addr, RDF.type, VCARD["location"]))
+        self.graph.add((addr, RDF.type, VCARD["Location"]))
         self.graph.add((addr, VCARD['street-address'], Literal(address.split(", ")[0])))
         self.graph.add((addr, VCARD['locality'], Literal(address.split(", ")[1])))
         self.graph.add((addr, POST['postcode'], URIRef("http://data.ordnancesurvey.co.uk/id/postcodeunit/"+address.split(", ")[2].replace(" ",""))))
@@ -90,15 +90,15 @@ class Store:
         print utm.from_latlon(float(location.split(',')[0]), float(location.split(',')[1]))[1]
         allotment = al[name.replace(" ", "-").lower()] # @@ humanize the identifier (something like #rev-$date)
         self.graph.add((allotment, RDF.type, URIRef('http://data.gmdsp.org.uk/def/council/allotment/Allotment')))
-        self.graph.add((allotment, SCHEME['url'], Literal(application)))
-        self.graph.add((allotment, SCHEME['url'], Literal(external_link)))
-        self.graph.add((allotment, SCHEME['url'], Literal("http://www.manchester.gov.uk"+guidence)))
+        self.graph.add((allotment, SCHEME['url'], URIRef(application)))
+        self.graph.add((allotment, SCHEME['url'], URIRef(external_link)))
+        self.graph.add((allotment, SCHEME['url'], URIRef("http://www.manchester.gov.uk"+guidence)))
         self.graph.add((allotment, GEO["lat"], Literal(location.split(',')[0])))
         self.graph.add((allotment, GEO["long"], Literal(location.split(',')[1])))
-        self.graph.add((allotment, OS["northing"], Literal(str(utm.from_latlon(float(location.split(',')[0]), float(location.split(',')[1]))[0]))))
-        self.graph.add((allotment, OS["easting"], Literal(str(utm.from_latlon(float(location.split(',')[0]), float(location.split(',')[1]))[1]))))
+        self.graph.add((allotment, OS["northing"], Literal(str(utm.from_latlon(float(location.split(',')[0]), float(location.split(',')[1]))[1]))))
+        self.graph.add((allotment, OS["easting"], Literal(str(utm.from_latlon(float(location.split(',')[0]), float(location.split(',')[1]))[0]))))
         self.graph.add((allotment, RDFS['label'], Literal(name)))
-        self.graph.add((allotment,VCARD['adr'], URIRef("http://data.gmdsp.org.uk/id/manchester/allotments/address/"+address.replace(" ", "_").replace(",","-").lower())))
+        self.graph.add((allotment,VCARD['hasAddress'], URIRef("http://data.gmdsp.org.uk/id/manchester/allotments/address/"+address.replace(" ", "_").replace(",","-").lower())))
         self.save()
 
 def help():

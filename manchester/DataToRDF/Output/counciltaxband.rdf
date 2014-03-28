@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<rdf:RDF
+  xmlns:ns1="http://data.gmdsp.org.uk/def/council/counciltax/"
+  xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+  xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
+>
+  <ns1:CouncilTaxBand rdf:about="http://data.gmdsp.org.uk/id/manchester/counciltaxbands/H">
+    <ns1:councilTaxBand rdf:resource="http://data.gmdsp.org.uk/def/council/counciltax/council-tax-bands/H"/>
+    <rdfs:label xml:lang="en">Council tax valuation charges for band H</rdfs:label>
+    <ns1:charge>2764.42</ns1:charge>
+  </ns1:CouncilTaxBand>
+  <ns1:CouncilTaxBand rdf:about="http://data.gmdsp.org.uk/id/manchester/counciltaxbands/B">
+    <ns1:charge>1075.06</ns1:charge>
+    <rdfs:label xml:lang="en">Council tax valuation charges for band B</rdfs:label>
+    <ns1:councilTaxBand rdf:resource="http://data.gmdsp.org.uk/def/council/counciltax/council-tax-bands/B"/>
+  </ns1:CouncilTaxBand>
+  <ns1:CouncilTaxBand rdf:about="http://data.gmdsp.org.uk/id/manchester/counciltaxbands/F">
+    <ns1:councilTaxBand rdf:resource="http://data.gmdsp.org.uk/def/council/counciltax/council-tax-bands/F"/>
+    <ns1:charge>1996.53</ns1:charge>
+    <rdfs:label xml:lang="en">Council tax valuation charges for band F</rdfs:label>
+  </ns1:CouncilTaxBand>
+  <ns1:CouncilTaxBand rdf:about="http://data.gmdsp.org.uk/id/manchester/counciltaxbands/D">
+    <ns1:councilTaxBand rdf:resource="http://data.gmdsp.org.uk/def/council/counciltax/council-tax-bands/D"/>
+    <rdfs:label xml:lang="en">Council tax valuation charges for band D</rdfs:label>
+    <ns1:charge>1382.21</ns1:charge>
+  </ns1:CouncilTaxBand>
+  <ns1:CouncilTaxBand rdf:about="http://data.gmdsp.org.uk/id/manchester/counciltaxbands/C">
+    <ns1:charge>1228.64</ns1:charge>
+    <ns1:councilTaxBand rdf:resource="http://data.gmdsp.org.uk/def/council/counciltax/council-tax-bands/C"/>
+    <rdfs:label xml:lang="en">Council tax valuation charges for band C</rdfs:label>
+  </ns1:CouncilTaxBand>
+  <ns1:CouncilTaxBand rdf:about="http://data.gmdsp.org.uk/id/manchester/counciltaxbands/E">
+    <rdfs:label xml:lang="en">Council tax valuation charges for band E</rdfs:label>
+    <ns1:councilTaxBand rdf:resource="http://data.gmdsp.org.uk/def/council/counciltax/council-tax-bands/E"/>
+    <ns1:charge>1689.37</ns1:charge>
+  </ns1:CouncilTaxBand>
+  <ns1:CouncilTaxBand rdf:about="http://data.gmdsp.org.uk/id/manchester/counciltaxbands/A">
+    <ns1:charge>921.47</ns1:charge>
+    <rdfs:label xml:lang="en">Council tax valuation charges for band A</rdfs:label>
+    <ns1:councilTaxBand rdf:resource="http://data.gmdsp.org.uk/def/council/counciltax/council-tax-bands/A"/>
+  </ns1:CouncilTaxBand>
+  <ns1:CouncilTaxBand rdf:about="http://data.gmdsp.org.uk/id/manchester/counciltaxbands/G">
+    <rdfs:label xml:lang="en">Council tax valuation charges for band G</rdfs:label>
+    <ns1:councilTaxBand rdf:resource="http://data.gmdsp.org.uk/def/council/counciltax/council-tax-bands/G"/>
+    <ns1:charge>2303.69</ns1:charge>
+  </ns1:CouncilTaxBand>
+</rdf:RDF>

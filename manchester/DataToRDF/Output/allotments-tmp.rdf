@@ -1,692 +1,692 @@
 <?xml version="1.0" encoding="utf-8"?>
 <rdf:RDF
   xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
-  xmlns:os="http://data.ordnancesurvey.co.uk/ontology/spatialrelations/"
+  xmlns:geo="http://www.w3.org/2003/01/geo/wgs84_pos#"
   xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
   xmlns:ns1="http://data.ordnancesurvey.co.uk/ontology/postcode/"
   xmlns:ns2="http://data.gmdsp.org.uk/def/council/allotment/"
   xmlns:scheme="http://schema.org/"
-  xmlns:geo="http://www.w3.org/2003/01/geo/wgs84_pos#"
+  xmlns:os="http://data.ordnancesurvey.co.uk/ontology/spatialrelations/"
   xmlns:vcard="http://www.w3.org/2006/vcard/ns#"
 >
-  <ns2:Allotment rdf:about="http://data.gmdsp.org.uk/id/manchester/allotments/hough-end-allotments">
-    <geo:long>-2.2509098052978515</geo:long>
-    <vcard:adr>
-      <vcard:location rdf:about="http://data.gmdsp.org.uk/id/manchester/allotments/address/mauldeth_road-_chorlton-_m21_7th">
-        <vcard:street-address>Mauldeth Road</vcard:street-address>
-        <ns1:postcode rdf:resource="http://data.ordnancesurvey.co.uk/id/postcodeunit/M217TH"/>
-        <vcard:locality>Chorlton</vcard:locality>
-      </vcard:location>
-    </vcard:adr>
-    <os:northing>549759.298939</os:northing>
-    <geo:lat>53.43952832706292</geo:lat>
-    <scheme:url>http://www.manchester.gov.uk/info/200073/parks_playgrounds_and_open_spaces/3104/allotments_in_manchester/2</scheme:url>
-    <scheme:url>http://www.manchester.gov.uk/downloads/download/5222/allotment_plotholders_handbook</scheme:url>
-    <rdfs:label>Hough End allotments</rdfs:label>
-    <scheme:url>http://www.feedingmanchester.org.uk/allotments</scheme:url>
-    <os:easting>5921427.52569</os:easting>
-  </ns2:Allotment>
-  <ns2:Allotment rdf:about="http://data.gmdsp.org.uk/id/manchester/allotments/brooklands-allotments">
-    <geo:long>-2.3055821</geo:long>
-    <scheme:url>http://www.manchester.gov.uk/downloads/download/5222/allotment_plotholders_handbook</scheme:url>
-    <scheme:url>http://www.feedingmanchester.org.uk/allotments</scheme:url>
-    <os:easting>5917895.14953</os:easting>
-    <rdfs:label>Brooklands allotments</rdfs:label>
-    <scheme:url>http://www.manchester.gov.uk/info/200073/parks_playgrounds_and_open_spaces/3104/allotments_in_manchester/2</scheme:url>
-    <geo:lat>53.4081062</geo:lat>
-    <vcard:adr>
-      <vcard:location rdf:about="http://data.gmdsp.org.uk/id/manchester/allotments/address/sparkford_avenue-_wythenshawe-_m23_9el">
-        <ns1:postcode rdf:resource="http://data.ordnancesurvey.co.uk/id/postcodeunit/M239EL"/>
-        <vcard:locality>Wythenshawe</vcard:locality>
-        <vcard:street-address>Sparkford Avenue</vcard:street-address>
-      </vcard:location>
-    </vcard:adr>
-    <os:northing>546161.698362</os:northing>
-  </ns2:Allotment>
-  <ns2:Allotment rdf:about="http://data.gmdsp.org.uk/id/manchester/allotments/tonbridge-road-allotments">
-    <os:northing>554158.738073</os:northing>
-    <scheme:url>http://www.manchester.gov.uk/downloads/download/5222/allotment_plotholders_handbook</scheme:url>
-    <vcard:adr>
-      <vcard:location rdf:about="http://data.gmdsp.org.uk/id/manchester/allotments/address/tonbridge_road-_levenshulme-_m19_2tq">
-        <vcard:street-address>Tonbridge Road</vcard:street-address>
-        <ns1:postcode rdf:resource="http://data.ordnancesurvey.co.uk/id/postcodeunit/M192TQ"/>
-        <vcard:locality>Levenshulme</vcard:locality>
-      </vcard:location>
-    </vcard:adr>
-    <scheme:url>http://www.manchester.gov.uk/info/200073/parks_playgrounds_and_open_spaces/3104/allotments_in_manchester/2</scheme:url>
-    <rdfs:label>Tonbridge Road allotments</rdfs:label>
-    <geo:lat>53.4392303</geo:lat>
-    <geo:long>-2.1846839</geo:long>
-    <scheme:url>http://www.feedingmanchester.org.uk/allotments</scheme:url>
-    <os:easting>5921442.61291</os:easting>
-  </ns2:Allotment>
-  <ns2:Allotment rdf:about="http://data.gmdsp.org.uk/id/manchester/allotments/ivy-green-allotments">
-    <scheme:url>http://www.manchester.gov.uk/info/200073/parks_playgrounds_and_open_spaces/3104/allotments_in_manchester/2</scheme:url>
-    <os:easting>5921244.03453</os:easting>
-    <geo:lat>53.4380887</geo:lat>
-    <geo:long>-2.2851442</geo:long>
-    <os:northing>547486.874412</os:northing>
-    <rdfs:label>Ivy Green allotments</rdfs:label>
-    <scheme:url>http://www.feedingmanchester.org.uk/allotments</scheme:url>
-    <scheme:url>http://www.manchester.gov.uk/downloads/download/5222/allotment_plotholders_handbook</scheme:url>
-    <vcard:adr>
-      <vcard:location rdf:about="http://data.gmdsp.org.uk/id/manchester/allotments/address/edwards_avenue-_chorlton-_m21_9et">
-        <ns1:postcode rdf:resource="http://data.ordnancesurvey.co.uk/id/postcodeunit/M219ET"/>
-        <vcard:street-address>Edwards Avenue</vcard:street-address>
-        <vcard:locality>Chorlton</vcard:locality>
-      </vcard:location>
-    </vcard:adr>
-  </ns2:Allotment>
-  <ns2:Allotment rdf:about="http://data.gmdsp.org.uk/id/manchester/allotments/brailsford-road-allotments">
-    <os:easting>5921647.36561</os:easting>
-    <scheme:url>http://www.manchester.gov.uk/info/200073/parks_playgrounds_and_open_spaces/3104/allotments_in_manchester/2</scheme:url>
-    <rdfs:label>Brailsford Road allotments</rdfs:label>
-    <geo:long>-2.2106915</geo:long>
-    <scheme:url>http://www.feedingmanchester.org.uk/allotments</scheme:url>
-    <vcard:adr>
-      <vcard:location rdf:about="http://data.gmdsp.org.uk/id/manchester/allotments/address/brailsford_road-_fallowfield-_m14_6pt">
-        <vcard:locality>Fallowfield</vcard:locality>
-        <ns1:postcode rdf:resource="http://data.ordnancesurvey.co.uk/id/postcodeunit/M146PT"/>
-        <vcard:street-address>Brailsford Road</vcard:street-address>
-      </vcard:location>
-    </vcard:adr>
-    <geo:lat>53.4412455</geo:lat>
-    <scheme:url>http://www.manchester.gov.uk/downloads/download/5222/allotment_plotholders_handbook</scheme:url>
-    <os:northing>552428.690977</os:northing>
-  </ns2:Allotment>
-  <ns2:Allotment rdf:about="http://data.gmdsp.org.uk/id/manchester/allotments/pleasant-street-allotments">
-    <geo:lat>53.5317974</geo:lat>
-    <scheme:url>http://www.manchester.gov.uk/info/200073/parks_playgrounds_and_open_spaces/3104/allotments_in_manchester/2</scheme:url>
-    <os:northing>551104.402843</os:northing>
-    <rdfs:label>Pleasant Street allotments</rdfs:label>
-    <scheme:url>http://www.feedingmanchester.org.uk/allotments</scheme:url>
-    <os:easting>5931707.78629</os:easting>
-    <geo:long>-2.2289885</geo:long>
-    <vcard:adr>
-      <vcard:location rdf:about="http://data.gmdsp.org.uk/id/manchester/allotments/address/pleasant_street-_harpurhey-_m9_8wj">
-        <ns1:postcode rdf:resource="http://data.ordnancesurvey.co.uk/id/postcodeunit/M98WJ"/>
-        <vcard:locality>Harpurhey</vcard:locality>
-        <vcard:street-address>Pleasant Street</vcard:street-address>
-      </vcard:location>
-    </vcard:adr>
-    <scheme:url>http://www.manchester.gov.uk/downloads/download/5222/allotment_plotholders_handbook</scheme:url>
-  </ns2:Allotment>
-  <ns2:Allotment rdf:about="http://data.gmdsp.org.uk/id/manchester/allotments/edge-lane-allotments">
-    <scheme:url>http://www.manchester.gov.uk/info/200073/parks_playgrounds_and_open_spaces/3104/allotments_in_manchester/2</scheme:url>
-    <rdfs:label>Edge Lane allotments</rdfs:label>
-    <geo:lat>53.4766988</geo:lat>
-    <os:easting>5925627.48069</os:easting>
-    <os:northing>555544.186892</os:northing>
-    <vcard:adr>
-      <vcard:location rdf:about="http://data.gmdsp.org.uk/id/manchester/allotments/address/edge_lane-_bradford-_m43_6ba">
-        <ns1:postcode rdf:resource="http://data.ordnancesurvey.co.uk/id/postcodeunit/M436BA"/>
-        <vcard:locality>Bradford</vcard:locality>
-        <vcard:street-address>Edge Lane</vcard:street-address>
-      </vcard:location>
-    </vcard:adr>
-    <scheme:url>http://www.manchester.gov.uk/downloads/download/5222/allotment_plotholders_handbook</scheme:url>
-    <scheme:url>http://www.feedingmanchester.org.uk/allotments</scheme:url>
-    <geo:long>-2.1630902</geo:long>
-  </ns2:Allotment>
-  <ns2:Allotment rdf:about="http://data.gmdsp.org.uk/id/manchester/allotments/abbey-hey-allotments">
-    <scheme:url>http://www.manchester.gov.uk/downloads/download/5222/allotment_plotholders_handbook</scheme:url>
-    <os:northing>556211.380514</os:northing>
-    <vcard:adr>
-      <vcard:location rdf:about="http://data.gmdsp.org.uk/id/manchester/allotments/address/ackroyd_avenue-_abbey_hey-_m18_8tl">
-        <ns1:postcode rdf:resource="http://data.ordnancesurvey.co.uk/id/postcodeunit/M188TL"/>
-        <vcard:locality>Abbey Hey</vcard:locality>
-        <vcard:street-address>Ackroyd Avenue</vcard:street-address>
-      </vcard:location>
-    </vcard:adr>
-    <scheme:url>http://www.manchester.gov.uk/info/200073/parks_playgrounds_and_open_spaces/3104/allotments_in_manchester/2</scheme:url>
-    <os:easting>5924831.96404</os:easting>
-    <scheme:url>http://www.feedingmanchester.org.uk/allotments</scheme:url>
-    <geo:long>-2.1531808376312256</geo:long>
-    <rdfs:label>Abbey Hey allotments</rdfs:label>
-    <geo:lat>53.4694780942634</geo:lat>
-  </ns2:Allotment>
-  <ns2:Allotment rdf:about="http://data.gmdsp.org.uk/id/manchester/allotments/aquarius-allotments">
-    <os:northing>550245.097717</os:northing>
-    <rdfs:label>Aquarius allotments</rdfs:label>
-    <os:easting>5924240.99541</os:easting>
-    <scheme:url>http://www.manchester.gov.uk/info/200073/parks_playgrounds_and_open_spaces/3104/allotments_in_manchester/2</scheme:url>
-    <scheme:url>http://www.manchester.gov.uk/downloads/download/5222/allotment_plotholders_handbook</scheme:url>
-    <vcard:adr>
-      <vcard:location rdf:about="http://data.gmdsp.org.uk/id/manchester/allotments/address/crediton_close-_hulme-_m15_6ew">
-        <vcard:street-address>Crediton Close</vcard:street-address>
-        <ns1:postcode rdf:resource="http://data.ordnancesurvey.co.uk/id/postcodeunit/M156EW"/>
-        <vcard:locality>Hulme</vcard:locality>
-      </vcard:location>
-    </vcard:adr>
-    <geo:long>-2.2431477</geo:long>
-    <geo:lat>53.4647696</geo:lat>
-    <scheme:url>http://www.feedingmanchester.org.uk/allotments</scheme:url>
-  </ns2:Allotment>
-  <ns2:Allotment rdf:about="http://data.gmdsp.org.uk/id/manchester/allotments/crowden-road-allotments">
-    <os:easting>5930508.67942</os:easting>
-    <os:northing>554097.535395</os:northing>
-    <geo:long>-2.1840432</geo:long>
-    <vcard:adr>
-      <vcard:location rdf:about="http://data.gmdsp.org.uk/id/manchester/allotments/address/crowden_road-_moston-_m40_5rw">
-        <vcard:street-address>Crowden Road</vcard:street-address>
-        <ns1:postcode rdf:resource="http://data.ordnancesurvey.co.uk/id/postcodeunit/M405RW"/>
-        <vcard:locality>Moston</vcard:locality>
-      </vcard:location>
-    </vcard:adr>
-    <scheme:url>http://www.manchester.gov.uk/info/200073/parks_playgrounds_and_open_spaces/3104/allotments_in_manchester/2</scheme:url>
-    <geo:lat>53.5207205</geo:lat>
-    <scheme:url>http://www.manchester.gov.uk/downloads/download/5222/allotment_plotholders_handbook</scheme:url>
-    <scheme:url>http://www.feedingmanchester.org.uk/allotments</scheme:url>
-    <rdfs:label>Crowden Road allotments</rdfs:label>
-  </ns2:Allotment>
-  <ns2:Allotment rdf:about="http://data.gmdsp.org.uk/id/manchester/allotments/acorn-close-allotments">
-    <vcard:adr>
-      <vcard:location rdf:about="http://data.gmdsp.org.uk/id/manchester/allotments/address/acorn_close-_levenshulme-_m19_2hs">
-        <vcard:street-address>Acorn Close</vcard:street-address>
-        <vcard:locality>Levenshulme</vcard:locality>
-        <ns1:postcode rdf:resource="http://data.ordnancesurvey.co.uk/id/postcodeunit/M192HS"/>
-      </vcard:location>
-    </vcard:adr>
-    <os:easting>5921509.2286</os:easting>
-    <scheme:url>http://www.manchester.gov.uk/info/200073/parks_playgrounds_and_open_spaces/3104/allotments_in_manchester/2</scheme:url>
-    <geo:lat>53.4399406</geo:lat>
-    <scheme:url>http://www.manchester.gov.uk/downloads/download/5222/allotment_plotholders_handbook</scheme:url>
-    <scheme:url>http://www.feedingmanchester.org.uk/allotments</scheme:url>
-    <os:northing>553061.694254</os:northing>
-    <geo:long>-2.201186</geo:long>
-    <rdfs:label>Acorn Close allotments</rdfs:label>
-  </ns2:Allotment>
-  <ns2:Allotment rdf:about="http://data.gmdsp.org.uk/id/manchester/allotments/frenchbarn-lane-allotments">
-    <scheme:url>http://www.manchester.gov.uk/info/200073/parks_playgrounds_and_open_spaces/3104/allotments_in_manchester/2</scheme:url>
-    <os:northing>551762.004016</os:northing>
-    <geo:long>-2.2191953659057617</geo:long>
-    <scheme:url>http://www.manchester.gov.uk/downloads/download/5222/allotment_plotholders_handbook</scheme:url>
-    <geo:lat>53.524824392268236</geo:lat>
-    <vcard:adr>
-      <vcard:location rdf:about="http://data.gmdsp.org.uk/id/manchester/allotments/address/frenchbarn_lane-_blackley-_m9_6pb">
-        <vcard:locality>Blackley</vcard:locality>
-        <vcard:street-address>Frenchbarn Lane</vcard:street-address>
-        <ns1:postcode rdf:resource="http://data.ordnancesurvey.co.uk/id/postcodeunit/M96PB"/>
-      </vcard:location>
-    </vcard:adr>
-    <scheme:url>http://www.feedingmanchester.org.uk/allotments</scheme:url>
-    <rdfs:label>Frenchbarn Lane allotments</rdfs:label>
-    <os:easting>5930939.11799</os:easting>
-  </ns2:Allotment>
-  <ns2:Allotment rdf:about="http://data.gmdsp.org.uk/id/manchester/allotments/cheetham-and-crumpsall-allotments">
-    <scheme:url>http://www.manchester.gov.uk/info/200073/parks_playgrounds_and_open_spaces/3104/allotments_in_manchester/2</scheme:url>
-    <geo:lat>53.50892738712311</geo:lat>
-    <scheme:url>http://www.manchester.gov.uk/downloads/download/5222/allotment_plotholders_handbook</scheme:url>
-    <os:easting>5929165.35558</os:easting>
-    <vcard:adr>
-      <vcard:location rdf:about="http://data.gmdsp.org.uk/id/manchester/allotments/address/hazelbottom_road-_cheetham-_m8_0gq">
-        <vcard:locality>Cheetham</vcard:locality>
-        <vcard:street-address>Hazelbottom Road</vcard:street-address>
-        <ns1:postcode rdf:resource="http://data.ordnancesurvey.co.uk/id/postcodeunit/M80GQ"/>
-      </vcard:location>
-    </vcard:adr>
-    <rdfs:label>Cheetham and Crumpsall allotments</rdfs:label>
-    <geo:long>-2.2264480590820312</geo:long>
-    <os:northing>551300.407563</os:northing>
-    <scheme:url>http://www.feedingmanchester.org.uk/allotments</scheme:url>
-  </ns2:Allotment>
-  <ns2:Allotment rdf:about="http://data.gmdsp.org.uk/id/manchester/allotments/ryder-brow-allotments">
-    <scheme:url>http://www.feedingmanchester.org.uk/allotments</scheme:url>
-    <geo:long>-2.1689259</geo:long>
-    <rdfs:label>Ryder Brow allotments</rdfs:label>
-    <scheme:url>http://www.manchester.gov.uk/info/200073/parks_playgrounds_and_open_spaces/3104/allotments_in_manchester/2</scheme:url>
-    <vcard:adr>
-      <vcard:location rdf:about="http://data.gmdsp.org.uk/id/manchester/allotments/address/far_lane-_gorton-_m18_7ff">
-        <ns1:postcode rdf:resource="http://data.ordnancesurvey.co.uk/id/postcodeunit/M187FF"/>
-        <vcard:street-address>Far Lane</vcard:street-address>
-        <vcard:locality>Gorton</vcard:locality>
-      </vcard:location>
-    </vcard:adr>
-    <os:easting>5923650.15999</os:easting>
-    <scheme:url>http://www.manchester.gov.uk/downloads/download/5222/allotment_plotholders_handbook</scheme:url>
-    <geo:lat>53.4589654</geo:lat>
-    <os:northing>555179.88463</os:northing>
-  </ns2:Allotment>
-  <ns2:Allotment rdf:about="http://data.gmdsp.org.uk/id/manchester/allotments/southern-allotments">
-    <vcard:adr>
-      <vcard:location rdf:about="http://data.gmdsp.org.uk/id/manchester/allotments/address/wintermans_road-_chorlton-_m21_7ge">
-        <ns1:postcode rdf:resource="http://data.ordnancesurvey.co.uk/id/postcodeunit/M217GE"/>
-        <vcard:locality>Chorlton</vcard:locality>
-        <vcard:street-address>Wintermans Road</vcard:street-address>
-      </vcard:location>
-    </vcard:adr>
-    <rdfs:label>Southern allotments</rdfs:label>
-    <scheme:url>http://www.manchester.gov.uk/info/200073/parks_playgrounds_and_open_spaces/3104/allotments_in_manchester/2</scheme:url>
-    <os:northing>549549.101667</os:northing>
-    <geo:long>-2.254171371459961</geo:long>
-    <scheme:url>http://www.feedingmanchester.org.uk/allotments</scheme:url>
-    <os:easting>5920808.09753</os:easting>
-    <geo:lat>53.433980702715104</geo:lat>
-    <scheme:url>http://www.manchester.gov.uk/downloads/download/5222/allotment_plotholders_handbook</scheme:url>
-  </ns2:Allotment>
-  <ns2:Allotment rdf:about="http://data.gmdsp.org.uk/id/manchester/allotments/northen-moor-allotments">
-    <geo:long>-2.279206</geo:long>
-    <vcard:adr>
-      <vcard:location rdf:about="http://data.gmdsp.org.uk/id/manchester/allotments/address/stortford_drive-_wythenshawe-_m23_0fx">
-        <vcard:locality>Wythenshawe</vcard:locality>
-        <vcard:street-address>Stortford Drive</vcard:street-address>
-        <ns1:postcode rdf:resource="http://data.ordnancesurvey.co.uk/id/postcodeunit/M230FX"/>
-      </vcard:location>
-    </vcard:adr>
-    <scheme:url>http://www.manchester.gov.uk/info/200073/parks_playgrounds_and_open_spaces/3104/allotments_in_manchester/2</scheme:url>
-    <scheme:url>http://www.manchester.gov.uk/downloads/download/5222/allotment_plotholders_handbook</scheme:url>
-    <os:northing>547908.364914</os:northing>
-    <scheme:url>http://www.feedingmanchester.org.uk/allotments</scheme:url>
-    <os:easting>5918572.69785</os:easting>
-    <rdfs:label>Northen Moor allotments</rdfs:label>
-    <geo:lat>53.4140404</geo:lat>
-  </ns2:Allotment>
-  <ns2:Allotment rdf:about="http://data.gmdsp.org.uk/id/manchester/allotments/cypress-street-allotments">
-    <os:easting>5929273.96784</os:easting>
-    <geo:lat>53.50985</geo:lat>
-    <rdfs:label>Cypress Street allotments</rdfs:label>
-    <scheme:url>http://www.manchester.gov.uk/info/200073/parks_playgrounds_and_open_spaces/3104/allotments_in_manchester/2</scheme:url>
-    <os:northing>551846.637732</os:northing>
-    <vcard:adr>
-      <vcard:location rdf:about="http://data.gmdsp.org.uk/id/manchester/allotments/address/cypress_street-_harpurhey-_m9_5xz">
-        <vcard:locality>Harpurhey</vcard:locality>
-        <ns1:postcode rdf:resource="http://data.ordnancesurvey.co.uk/id/postcodeunit/M95XZ"/>
-        <vcard:street-address>Cypress Street</vcard:street-address>
-      </vcard:location>
-    </vcard:adr>
-    <scheme:url>http://www.feedingmanchester.org.uk/allotments</scheme:url>
-    <scheme:url>http://www.manchester.gov.uk/downloads/download/5222/allotment_plotholders_handbook</scheme:url>
-    <geo:long>-2.2181944</geo:long>
-  </ns2:Allotment>
-  <ns2:Allotment rdf:about="http://data.gmdsp.org.uk/id/manchester/allotments/minehead-avenue-allotments">
-    <scheme:url>http://www.manchester.gov.uk/info/200073/parks_playgrounds_and_open_spaces/3104/allotments_in_manchester/2</scheme:url>
-    <geo:lat>53.4332539</geo:lat>
-    <os:northing>550216.27486</os:northing>
-    <scheme:url>http://www.manchester.gov.uk/downloads/download/5222/allotment_plotholders_handbook</scheme:url>
-    <os:easting>5920734.25643</os:easting>
-    <rdfs:label>Minehead Avenue allotments</rdfs:label>
-    <scheme:url>http://www.feedingmanchester.org.uk/allotments</scheme:url>
-    <vcard:adr>
-      <vcard:location rdf:about="http://data.gmdsp.org.uk/id/manchester/allotments/address/minehead_avenue-_withington-_m20_1fw">
-        <vcard:locality>Withington</vcard:locality>
-        <vcard:street-address>Minehead Avenue</vcard:street-address>
-        <ns1:postcode rdf:resource="http://data.ordnancesurvey.co.uk/id/postcodeunit/M201FW"/>
-      </vcard:location>
-    </vcard:adr>
-    <geo:long>-2.2441416</geo:long>
-  </ns2:Allotment>
-  <ns2:Allotment rdf:about="http://data.gmdsp.org.uk/id/manchester/allotments/abbotsford-road-allotments">
-    <os:northing>548271.916078</os:northing>
-    <os:easting>5922173.12508</os:easting>
-    <geo:lat>53.4463681</geo:lat>
-    <rdfs:label>Abbotsford Road allotments</rdfs:label>
-    <scheme:url>http://www.feedingmanchester.org.uk/allotments</scheme:url>
-    <scheme:url>http://www.manchester.gov.uk/downloads/download/5222/allotment_plotholders_handbook</scheme:url>
-    <geo:long>-2.2731849</geo:long>
-    <scheme:url>http://www.manchester.gov.uk/info/200073/parks_playgrounds_and_open_spaces/3104/allotments_in_manchester/2</scheme:url>
-    <vcard:adr>
-      <vcard:location rdf:about="http://data.gmdsp.org.uk/id/manchester/allotments/address/abbotsford_road-_whally_range-_m21_0rj">
-        <vcard:street-address>Abbotsford Road</vcard:street-address>
-        <vcard:locality>Whally Range</vcard:locality>
-        <ns1:postcode rdf:resource="http://data.ordnancesurvey.co.uk/id/postcodeunit/M210RJ"/>
-      </vcard:location>
-    </vcard:adr>
-  </ns2:Allotment>
-  <ns2:Allotment rdf:about="http://data.gmdsp.org.uk/id/manchester/allotments/scott-avenue-allotments">
-    <os:northing>547990.3275</os:northing>
-    <os:easting>5922407.47257</os:easting>
-    <vcard:adr>
-      <vcard:location rdf:about="http://data.gmdsp.org.uk/id/manchester/allotments/address/scott_avenue-_chorlton-_m21_9qw">
-        <vcard:locality>Chorlton</vcard:locality>
-        <vcard:street-address>Scott Avenue</vcard:street-address>
-        <ns1:postcode rdf:resource="http://data.ordnancesurvey.co.uk/id/postcodeunit/M219QW"/>
-      </vcard:location>
-    </vcard:adr>
-    <scheme:url>http://www.feedingmanchester.org.uk/allotments</scheme:url>
-    <scheme:url>http://www.manchester.gov.uk/downloads/download/5222/allotment_plotholders_handbook</scheme:url>
-    <rdfs:label>Scott Avenue allotments</rdfs:label>
-    <geo:long>-2.277388572692871</geo:long>
-    <scheme:url>http://www.manchester.gov.uk/info/200073/parks_playgrounds_and_open_spaces/3104/allotments_in_manchester/2</scheme:url>
-    <geo:lat>53.44850014026593</geo:lat>
-  </ns2:Allotment>
-  <ns2:Allotment rdf:about="http://data.gmdsp.org.uk/id/manchester/allotments/levenshulme-allotments">
-    <scheme:url>http://www.feedingmanchester.org.uk/allotments</scheme:url>
-    <scheme:url>http://www.manchester.gov.uk/downloads/download/5222/allotment_plotholders_handbook</scheme:url>
-    <geo:long>-2.1809359</geo:long>
-    <scheme:url>http://www.manchester.gov.uk/info/200073/parks_playgrounds_and_open_spaces/3104/allotments_in_manchester/2</scheme:url>
-    <os:easting>5921847.07712</os:easting>
-    <geo:lat>53.4428404</geo:lat>
-    <vcard:adr>
-      <vcard:location rdf:about="http://data.gmdsp.org.uk/id/manchester/allotments/address/highfield_road-_levenshulme-_m19_3jx">
-        <ns1:postcode rdf:resource="http://data.ordnancesurvey.co.uk/id/postcodeunit/M193JX"/>
-        <vcard:locality>Levenshulme</vcard:locality>
-        <vcard:street-address>Highfield Road</vcard:street-address>
-      </vcard:location>
-    </vcard:adr>
-    <os:northing>554403.088461</os:northing>
-    <rdfs:label>Levenshulme allotments</rdfs:label>
-  </ns2:Allotment>
-  <ns2:Allotment rdf:about="http://data.gmdsp.org.uk/id/manchester/allotments/scotland-hall-road-allotments">
-    <os:northing>554169.57307</os:northing>
-    <rdfs:label>Scotland Hall Road allotments</rdfs:label>
-    <os:easting>5927870.42223</os:easting>
-    <scheme:url>http://www.manchester.gov.uk/downloads/download/5222/allotment_plotholders_handbook</scheme:url>
-    <scheme:url>http://www.manchester.gov.uk/info/200073/parks_playgrounds_and_open_spaces/3104/allotments_in_manchester/2</scheme:url>
-    <geo:lat>53.4970011</geo:lat>
-    <vcard:adr>
-      <vcard:location rdf:about="http://data.gmdsp.org.uk/id/manchester/allotments/address/ascot_road-_newton_heath-_m40_2rd">
-        <vcard:street-address>Ascot Road</vcard:street-address>
-        <vcard:locality>Newton Heath</vcard:locality>
-        <ns1:postcode rdf:resource="http://data.ordnancesurvey.co.uk/id/postcodeunit/M402RD"/>
-      </vcard:location>
-    </vcard:adr>
-    <scheme:url>http://www.feedingmanchester.org.uk/allotments</scheme:url>
-    <geo:long>-2.1834127</geo:long>
-  </ns2:Allotment>
   <ns2:Allotment rdf:about="http://data.gmdsp.org.uk/id/manchester/allotments/caythorpe-street-allotments">
     <rdfs:label>Caythorpe Street allotments</rdfs:label>
-    <scheme:url>http://www.feedingmanchester.org.uk/allotments</scheme:url>
-    <scheme:url>http://www.manchester.gov.uk/downloads/download/5222/allotment_plotholders_handbook</scheme:url>
-    <os:northing>550386.450476</os:northing>
-    <geo:lat>53.4555694</geo:lat>
-    <vcard:adr>
-      <vcard:location rdf:about="http://data.gmdsp.org.uk/id/manchester/allotments/address/caythorpe_street-_moss_side-_m14_4ud">
+    <scheme:url rdf:resource="http://www.feedingmanchester.org.uk/allotments"/>
+    <vcard:hasAddress>
+      <vcard:Location rdf:about="http://data.gmdsp.org.uk/id/manchester/allotments/address/caythorpe_street-_moss_side-_m14_4ud">
         <vcard:locality>Moss Side</vcard:locality>
-        <vcard:street-address>Caythorpe Street</vcard:street-address>
         <ns1:postcode rdf:resource="http://data.ordnancesurvey.co.uk/id/postcodeunit/M144UD"/>
-      </vcard:location>
-    </vcard:adr>
-    <os:easting>5923218.88213</os:easting>
-    <scheme:url>http://www.manchester.gov.uk/info/200073/parks_playgrounds_and_open_spaces/3104/allotments_in_manchester/2</scheme:url>
+        <vcard:street-address>Caythorpe Street</vcard:street-address>
+      </vcard:Location>
+    </vcard:hasAddress>
+    <scheme:url rdf:resource="http://www.manchester.gov.uk/info/200073/parks_playgrounds_and_open_spaces/3104/allotments_in_manchester/2"/>
+    <scheme:url rdf:resource="http://www.manchester.gov.uk/downloads/download/5222/allotment_plotholders_handbook"/>
+    <os:northing>5923218.88213</os:northing>
+    <geo:lat>53.4555694</geo:lat>
+    <os:easting>550386.450476</os:easting>
     <geo:long>-2.2411825</geo:long>
   </ns2:Allotment>
-  <ns2:Allotment rdf:about="http://data.gmdsp.org.uk/id/manchester/allotments/ossory-street-allotments">
-    <vcard:adr>
-      <vcard:location rdf:about="http://data.gmdsp.org.uk/id/manchester/allotments/address/great_western_street-_moss_side-_m14_4bx">
-        <vcard:street-address>Great Western Street</vcard:street-address>
-        <ns1:postcode rdf:resource="http://data.ordnancesurvey.co.uk/id/postcodeunit/M144BX"/>
-        <vcard:locality>Moss Side</vcard:locality>
-      </vcard:location>
-    </vcard:adr>
-    <geo:lat>53.4554735</geo:lat>
-    <scheme:url>http://www.manchester.gov.uk/info/200073/parks_playgrounds_and_open_spaces/3104/allotments_in_manchester/2</scheme:url>
-    <os:northing>551089.56364</os:northing>
-    <scheme:url>http://www.feedingmanchester.org.uk/allotments</scheme:url>
-    <rdfs:label>Ossory Street allotments</rdfs:label>
-    <geo:long>-2.2305952</geo:long>
-    <os:easting>5923215.74607</os:easting>
-    <scheme:url>http://www.manchester.gov.uk/downloads/download/5222/allotment_plotholders_handbook</scheme:url>
+  <ns2:Allotment rdf:about="http://data.gmdsp.org.uk/id/manchester/allotments/edge-lane-allotments">
+    <scheme:url rdf:resource="http://www.manchester.gov.uk/downloads/download/5222/allotment_plotholders_handbook"/>
+    <vcard:hasAddress>
+      <vcard:Location rdf:about="http://data.gmdsp.org.uk/id/manchester/allotments/address/edge_lane-_bradford-_m43_6ba">
+        <vcard:locality>Bradford</vcard:locality>
+        <ns1:postcode rdf:resource="http://data.ordnancesurvey.co.uk/id/postcodeunit/M436BA"/>
+        <vcard:street-address>Edge Lane</vcard:street-address>
+      </vcard:Location>
+    </vcard:hasAddress>
+    <os:easting>555544.186892</os:easting>
+    <geo:lat>53.4766988</geo:lat>
+    <geo:long>-2.1630902</geo:long>
+    <scheme:url rdf:resource="http://www.manchester.gov.uk/info/200073/parks_playgrounds_and_open_spaces/3104/allotments_in_manchester/2"/>
+    <os:northing>5925627.48069</os:northing>
+    <scheme:url rdf:resource="http://www.feedingmanchester.org.uk/allotments"/>
+    <rdfs:label>Edge Lane allotments</rdfs:label>
   </ns2:Allotment>
-  <ns2:Allotment rdf:about="http://data.gmdsp.org.uk/id/manchester/allotments/foxfield-road-allotments">
-    <scheme:url>http://www.manchester.gov.uk/info/200073/parks_playgrounds_and_open_spaces/3104/allotments_in_manchester/2</scheme:url>
-    <geo:long>-2.286362</geo:long>
-    <os:northing>547468.486411</os:northing>
-    <os:easting>5914993.20306</os:easting>
-    <rdfs:label>Foxfield Road allotments</rdfs:label>
-    <scheme:url>http://www.manchester.gov.uk/downloads/download/5222/allotment_plotholders_handbook</scheme:url>
-    <geo:lat>53.3819072</geo:lat>
-    <scheme:url>http://www.feedingmanchester.org.uk/allotments</scheme:url>
-    <vcard:adr>
-      <vcard:location rdf:about="http://data.gmdsp.org.uk/id/manchester/allotments/address/foxfield_road-_newall_green-_m23_2te">
-        <vcard:street-address>Foxfield Road</vcard:street-address>
-        <vcard:locality>Newall Green</vcard:locality>
-        <ns1:postcode rdf:resource="http://data.ordnancesurvey.co.uk/id/postcodeunit/M232TE"/>
-      </vcard:location>
-    </vcard:adr>
+  <ns2:Allotment rdf:about="http://data.gmdsp.org.uk/id/manchester/allotments/sharston-allotments">
+    <scheme:url rdf:resource="http://www.feedingmanchester.org.uk/allotments"/>
+    <geo:long>-2.2538322</geo:long>
+    <geo:lat>53.3899088</geo:lat>
+    <scheme:url rdf:resource="http://www.manchester.gov.uk/downloads/download/5222/allotment_plotholders_handbook"/>
+    <os:easting>549622.905137</os:easting>
+    <rdfs:label>Sharston allotments</rdfs:label>
+    <scheme:url rdf:resource="http://www.manchester.gov.uk/info/200073/parks_playgrounds_and_open_spaces/3104/allotments_in_manchester/2"/>
+    <os:northing>5915905.47636</os:northing>
+    <vcard:hasAddress>
+      <vcard:Location rdf:about="http://data.gmdsp.org.uk/id/manchester/allotments/address/stancliffe_road-_wythenshawe-_m22_4ps">
+        <vcard:locality>Wythenshawe</vcard:locality>
+        <ns1:postcode rdf:resource="http://data.ordnancesurvey.co.uk/id/postcodeunit/M224PS"/>
+        <vcard:street-address>Stancliffe Road</vcard:street-address>
+      </vcard:Location>
+    </vcard:hasAddress>
   </ns2:Allotment>
-  <ns2:Allotment rdf:about="http://data.gmdsp.org.uk/id/manchester/allotments/bluestone-road-allotments">
-    <geo:lat>53.5112132</geo:lat>
-    <os:northing>553457.417934</os:northing>
-    <geo:long>-2.1938788</geo:long>
-    <scheme:url>http://www.feedingmanchester.org.uk/allotments</scheme:url>
-    <scheme:url>http://www.manchester.gov.uk/downloads/download/5222/allotment_plotholders_handbook</scheme:url>
-    <rdfs:label>Bluestone Road allotments</rdfs:label>
-    <scheme:url>http://www.manchester.gov.uk/info/200073/parks_playgrounds_and_open_spaces/3104/allotments_in_manchester/2</scheme:url>
-    <os:easting>5929443.58674</os:easting>
-    <vcard:adr>
-      <vcard:location rdf:about="http://data.gmdsp.org.uk/id/manchester/allotments/address/bluestone_road-_moston-_m40_9jd">
-        <ns1:postcode rdf:resource="http://data.ordnancesurvey.co.uk/id/postcodeunit/M409JD"/>
-        <vcard:street-address>Bluestone Road</vcard:street-address>
-        <vcard:locality>Moston</vcard:locality>
-      </vcard:location>
-    </vcard:adr>
-  </ns2:Allotment>
-  <ns2:Allotment rdf:about="http://data.gmdsp.org.uk/id/manchester/allotments/philips-park-allotments">
-    <os:northing>553753.061589</os:northing>
-    <scheme:url>http://www.feedingmanchester.org.uk/allotments</scheme:url>
-    <geo:lat>53.48689648050751</geo:lat>
-    <rdfs:label>Philips Park allotments</rdfs:label>
-    <scheme:url>http://www.manchester.gov.uk/downloads/download/5222/allotment_plotholders_handbook</scheme:url>
-    <vcard:adr>
-      <vcard:location rdf:about="http://data.gmdsp.org.uk/id/manchester/allotments/address/fairclough_street-_clayton-_m11_4tn">
-        <vcard:locality>Clayton</vcard:locality>
-        <vcard:street-address>Fairclough Street</vcard:street-address>
-        <ns1:postcode rdf:resource="http://data.ordnancesurvey.co.uk/id/postcodeunit/M114TN"/>
-      </vcard:location>
-    </vcard:adr>
-    <geo:long>-2.1898841857910156</geo:long>
-    <os:easting>5926741.40717</os:easting>
-    <scheme:url>http://www.manchester.gov.uk/info/200073/parks_playgrounds_and_open_spaces/3104/allotments_in_manchester/2</scheme:url>
-  </ns2:Allotment>
-  <ns2:Allotment rdf:about="http://data.gmdsp.org.uk/id/manchester/allotments/broadhurst-allotments">
-    <os:northing>553997.087543</os:northing>
-    <scheme:url>http://www.manchester.gov.uk/info/200073/parks_playgrounds_and_open_spaces/3104/allotments_in_manchester/2</scheme:url>
-    <rdfs:label>Broadhurst allotments</rdfs:label>
-    <vcard:adr>
-      <vcard:location rdf:about="http://data.gmdsp.org.uk/id/manchester/allotments/address/joyce_street-_moston-_m40_5hh">
-        <ns1:postcode rdf:resource="http://data.ordnancesurvey.co.uk/id/postcodeunit/M405HH"/>
-        <vcard:locality>Moston</vcard:locality>
-        <vcard:street-address>Joyce Street</vcard:street-address>
-      </vcard:location>
-    </vcard:adr>
-    <scheme:url>http://www.manchester.gov.uk/downloads/download/5222/allotment_plotholders_handbook</scheme:url>
-    <os:easting>5929186.14139</os:easting>
-    <geo:lat>53.5088442</geo:lat>
-    <scheme:url>http://www.feedingmanchester.org.uk/allotments</scheme:url>
-    <geo:long>-2.185786</geo:long>
-  </ns2:Allotment>
-  <ns2:Allotment rdf:about="http://data.gmdsp.org.uk/id/manchester/allotments/brighton-grove-allotments">
-    <scheme:url>http://www.feedingmanchester.org.uk/allotments</scheme:url>
-    <scheme:url>http://www.manchester.gov.uk/downloads/download/5222/allotment_plotholders_handbook</scheme:url>
-    <geo:lat>53.4497292</geo:lat>
-    <rdfs:label>Brighton Grove allotments</rdfs:label>
-    <geo:long>-2.2165607</geo:long>
-    <vcard:adr>
-      <vcard:location rdf:about="http://data.gmdsp.org.uk/id/manchester/allotments/address/brighton_grove-_rusholme-_m14_5jr">
-        <vcard:street-address>Brighton Grove</vcard:street-address>
-        <vcard:locality>Rusholme</vcard:locality>
-        <ns1:postcode rdf:resource="http://data.ordnancesurvey.co.uk/id/postcodeunit/M145JR"/>
-      </vcard:location>
-    </vcard:adr>
-    <os:easting>5922586.85461</os:easting>
-    <os:northing>552028.477722</os:northing>
-    <scheme:url>http://www.manchester.gov.uk/info/200073/parks_playgrounds_and_open_spaces/3104/allotments_in_manchester/2</scheme:url>
-  </ns2:Allotment>
-  <ns2:Allotment rdf:about="http://data.gmdsp.org.uk/id/manchester/allotments/hazeldene-road-allotments">
-    <os:easting>5930098.49947</os:easting>
-    <scheme:url>http://www.manchester.gov.uk/info/200073/parks_playgrounds_and_open_spaces/3104/allotments_in_manchester/2</scheme:url>
-    <scheme:url>http://www.manchester.gov.uk/downloads/download/5222/allotment_plotholders_handbook</scheme:url>
-    <os:northing>555512.443549</os:northing>
-    <geo:lat>53.5168864</geo:lat>
-    <scheme:url>http://www.feedingmanchester.org.uk/allotments</scheme:url>
-    <rdfs:label>Hazeldene Road allotments</rdfs:label>
-    <geo:long>-2.1627772</geo:long>
-    <vcard:adr>
-      <vcard:location rdf:about="http://data.gmdsp.org.uk/id/manchester/allotments/address/hazeldene_road-_moston-_m40_3gl">
-        <vcard:street-address>Hazeldene Road</vcard:street-address>
-        <vcard:locality>Moston</vcard:locality>
-        <ns1:postcode rdf:resource="http://data.ordnancesurvey.co.uk/id/postcodeunit/M403GL"/>
-      </vcard:location>
-    </vcard:adr>
-  </ns2:Allotment>
-  <ns2:Allotment rdf:about="http://data.gmdsp.org.uk/id/manchester/allotments/baguley-allotments">
-    <scheme:url>http://www.manchester.gov.uk/downloads/download/5222/allotment_plotholders_handbook</scheme:url>
-    <vcard:adr>
-      <vcard:location rdf:about="http://data.gmdsp.org.uk/id/manchester/allotments/address/leaton_avenue-__wythenshawe-_m23_1hl">
-        <ns1:postcode rdf:resource="http://data.ordnancesurvey.co.uk/id/postcodeunit/M231HL"/>
-        <vcard:locality> Wythenshawe</vcard:locality>
-        <vcard:street-address>Leaton Avenue</vcard:street-address>
-      </vcard:location>
-    </vcard:adr>
-    <geo:lat>53.3972582</geo:lat>
-    <os:easting>5916700.52114</os:easting>
-    <scheme:url>http://www.feedingmanchester.org.uk/allotments</scheme:url>
-    <scheme:url>http://www.manchester.gov.uk/info/200073/parks_playgrounds_and_open_spaces/3104/allotments_in_manchester/2</scheme:url>
-    <geo:long>-2.2870065</geo:long>
-    <rdfs:label>Baguley allotments</rdfs:label>
-    <os:northing>547408.557832</os:northing>
-  </ns2:Allotment>
-  <ns2:Allotment rdf:about="http://data.gmdsp.org.uk/id/manchester/allotments/bethnal-drive-allotments">
-    <rdfs:label>Bethnal Drive allotments</rdfs:label>
-    <geo:lat>53.4424745</geo:lat>
-    <geo:long>-2.2360348</geo:long>
-    <scheme:url>http://www.manchester.gov.uk/info/200073/parks_playgrounds_and_open_spaces/3104/allotments_in_manchester/2</scheme:url>
-    <scheme:url>http://www.feedingmanchester.org.uk/allotments</scheme:url>
-    <vcard:adr>
-      <vcard:location rdf:about="http://data.gmdsp.org.uk/id/manchester/allotments/address/shawfield_road-_fallowfield-_m14_7ed">
-        <ns1:postcode rdf:resource="http://data.ordnancesurvey.co.uk/id/postcodeunit/M147ED"/>
+  <ns2:Allotment rdf:about="http://data.gmdsp.org.uk/id/manchester/allotments/brailsford-road-allotments">
+    <scheme:url rdf:resource="http://www.feedingmanchester.org.uk/allotments"/>
+    <os:northing>5921647.36561</os:northing>
+    <os:easting>552428.690977</os:easting>
+    <scheme:url rdf:resource="http://www.manchester.gov.uk/info/200073/parks_playgrounds_and_open_spaces/3104/allotments_in_manchester/2"/>
+    <geo:long>-2.2106915</geo:long>
+    <vcard:hasAddress>
+      <vcard:Location rdf:about="http://data.gmdsp.org.uk/id/manchester/allotments/address/brailsford_road-_fallowfield-_m14_6pt">
         <vcard:locality>Fallowfield</vcard:locality>
-        <vcard:street-address>Shawfield Road</vcard:street-address>
-      </vcard:location>
-    </vcard:adr>
-    <os:northing>550743.863371</os:northing>
-    <scheme:url>http://www.manchester.gov.uk/downloads/download/5222/allotment_plotholders_handbook</scheme:url>
-    <os:easting>5921765.75899</os:easting>
+        <vcard:street-address>Brailsford Road</vcard:street-address>
+        <ns1:postcode rdf:resource="http://data.ordnancesurvey.co.uk/id/postcodeunit/M146PT"/>
+      </vcard:Location>
+    </vcard:hasAddress>
+    <scheme:url rdf:resource="http://www.manchester.gov.uk/downloads/download/5222/allotment_plotholders_handbook"/>
+    <rdfs:label>Brailsford Road allotments</rdfs:label>
+    <geo:lat>53.4412455</geo:lat>
+  </ns2:Allotment>
+  <ns2:Allotment rdf:about="http://data.gmdsp.org.uk/id/manchester/allotments/frenchbarn-lane-allotments">
+    <scheme:url rdf:resource="http://www.manchester.gov.uk/downloads/download/5222/allotment_plotholders_handbook"/>
+    <rdfs:label>Frenchbarn Lane allotments</rdfs:label>
+    <os:northing>5930939.11799</os:northing>
+    <scheme:url rdf:resource="http://www.manchester.gov.uk/info/200073/parks_playgrounds_and_open_spaces/3104/allotments_in_manchester/2"/>
+    <scheme:url rdf:resource="http://www.feedingmanchester.org.uk/allotments"/>
+    <geo:lat>53.524824392268236</geo:lat>
+    <geo:long>-2.2191953659057617</geo:long>
+    <os:easting>551762.004016</os:easting>
+    <vcard:hasAddress>
+      <vcard:Location rdf:about="http://data.gmdsp.org.uk/id/manchester/allotments/address/frenchbarn_lane-_blackley-_m9_6pb">
+        <vcard:locality>Blackley</vcard:locality>
+        <ns1:postcode rdf:resource="http://data.ordnancesurvey.co.uk/id/postcodeunit/M96PB"/>
+        <vcard:street-address>Frenchbarn Lane</vcard:street-address>
+      </vcard:Location>
+    </vcard:hasAddress>
+  </ns2:Allotment>
+  <ns2:Allotment rdf:about="http://data.gmdsp.org.uk/id/manchester/allotments/brooklands-allotments">
+    <geo:lat>53.4081062</geo:lat>
+    <vcard:hasAddress>
+      <vcard:Location rdf:about="http://data.gmdsp.org.uk/id/manchester/allotments/address/sparkford_avenue-_wythenshawe-_m23_9el">
+        <vcard:street-address>Sparkford Avenue</vcard:street-address>
+        <vcard:locality>Wythenshawe</vcard:locality>
+        <ns1:postcode rdf:resource="http://data.ordnancesurvey.co.uk/id/postcodeunit/M239EL"/>
+      </vcard:Location>
+    </vcard:hasAddress>
+    <scheme:url rdf:resource="http://www.manchester.gov.uk/info/200073/parks_playgrounds_and_open_spaces/3104/allotments_in_manchester/2"/>
+    <scheme:url rdf:resource="http://www.manchester.gov.uk/downloads/download/5222/allotment_plotholders_handbook"/>
+    <geo:long>-2.3055821</geo:long>
+    <rdfs:label>Brooklands allotments</rdfs:label>
+    <os:easting>546161.698362</os:easting>
+    <os:northing>5917895.14953</os:northing>
+    <scheme:url rdf:resource="http://www.feedingmanchester.org.uk/allotments"/>
+  </ns2:Allotment>
+  <ns2:Allotment rdf:about="http://data.gmdsp.org.uk/id/manchester/allotments/caxton-road-allotments">
+    <scheme:url rdf:resource="http://www.manchester.gov.uk/info/200073/parks_playgrounds_and_open_spaces/3104/allotments_in_manchester/2"/>
+    <scheme:url rdf:resource="http://www.manchester.gov.uk/downloads/download/5222/allotment_plotholders_handbook"/>
+    <geo:long>-2.2293986</geo:long>
+    <os:northing>5921831.9314</os:northing>
+    <rdfs:label>Caxton Road allotments</rdfs:label>
+    <scheme:url rdf:resource="http://www.feedingmanchester.org.uk/allotments"/>
+    <geo:lat>53.4430267</geo:lat>
+    <vcard:hasAddress>
+      <vcard:Location rdf:about="http://data.gmdsp.org.uk/id/manchester/allotments/address/caxton_road-_fallowfield-_m14_6ee">
+        <vcard:locality>Fallowfield</vcard:locality>
+        <vcard:street-address>Caxton Road</vcard:street-address>
+        <ns1:postcode rdf:resource="http://data.ordnancesurvey.co.uk/id/postcodeunit/M146EE"/>
+      </vcard:Location>
+    </vcard:hasAddress>
+    <os:easting>551183.97965</os:easting>
   </ns2:Allotment>
   <ns2:Allotment rdf:about="http://data.gmdsp.org.uk/id/manchester/allotments/woodhouse-park-allotments">
     <geo:lat>53.3746891</geo:lat>
-    <scheme:url>http://www.manchester.gov.uk/info/200073/parks_playgrounds_and_open_spaces/3104/allotments_in_manchester/2</scheme:url>
+    <os:easting>547973.719253</os:easting>
     <rdfs:label>Woodhouse Park allotments</rdfs:label>
-    <scheme:url>http://www.feedingmanchester.org.uk/allotments</scheme:url>
-    <vcard:adr>
-      <vcard:location rdf:about="http://data.gmdsp.org.uk/id/manchester/allotments/address/maisemore_road-_wythenshawe-_m22_1sa">
+    <vcard:hasAddress>
+      <vcard:Location rdf:about="http://data.gmdsp.org.uk/id/manchester/allotments/address/maisemore_road-_wythenshawe-_m22_1sa">
+        <ns1:postcode rdf:resource="http://data.ordnancesurvey.co.uk/id/postcodeunit/M221SA"/>
         <vcard:locality>Wythenshawe</vcard:locality>
         <vcard:street-address>Maisemore Road</vcard:street-address>
-        <ns1:postcode rdf:resource="http://data.ordnancesurvey.co.uk/id/postcodeunit/M221SA"/>
-      </vcard:location>
-    </vcard:adr>
+      </vcard:Location>
+    </vcard:hasAddress>
+    <scheme:url rdf:resource="http://www.manchester.gov.uk/info/200073/parks_playgrounds_and_open_spaces/3104/allotments_in_manchester/2"/>
+    <scheme:url rdf:resource="http://www.manchester.gov.uk/downloads/download/5222/allotment_plotholders_handbook"/>
+    <scheme:url rdf:resource="http://www.feedingmanchester.org.uk/allotments"/>
+    <os:northing>5914195.21195</os:northing>
     <geo:long>-2.2788882</geo:long>
-    <scheme:url>http://www.manchester.gov.uk/downloads/download/5222/allotment_plotholders_handbook</scheme:url>
-    <os:easting>5914195.21195</os:easting>
-    <os:northing>547973.719253</os:northing>
   </ns2:Allotment>
-  <ns2:Allotment rdf:about="http://data.gmdsp.org.uk/id/manchester/allotments/bradley-fold-allotments">
-    <scheme:url>http://www.manchester.gov.uk/info/200073/parks_playgrounds_and_open_spaces/3104/allotments_in_manchester/2</scheme:url>
-    <os:easting>5918432.82759</os:easting>
-    <geo:lat>53.41252477903943</geo:lat>
-    <os:northing>550675.107122</os:northing>
-    <scheme:url>http://www.manchester.gov.uk/downloads/download/5222/allotment_plotholders_handbook</scheme:url>
-    <vcard:adr>
-      <vcard:location rdf:about="http://data.gmdsp.org.uk/id/manchester/allotments/address/ford_lane-_didsbury-_m20_2ru">
-        <ns1:postcode rdf:resource="http://data.ordnancesurvey.co.uk/id/postcodeunit/M202RU"/>
-        <vcard:street-address>Ford Lane</vcard:street-address>
-        <vcard:locality>Didsbury</vcard:locality>
-      </vcard:location>
-    </vcard:adr>
-    <scheme:url>http://www.feedingmanchester.org.uk/allotments</scheme:url>
-    <rdfs:label>Bradley Fold allotments</rdfs:label>
-    <geo:long>-2.2376060485839843</geo:long>
-  </ns2:Allotment>
-  <ns2:Allotment rdf:about="http://data.gmdsp.org.uk/id/manchester/allotments/sharston-allotments">
-    <rdfs:label>Sharston allotments</rdfs:label>
-    <vcard:adr>
-      <vcard:location rdf:about="http://data.gmdsp.org.uk/id/manchester/allotments/address/stancliffe_road-_wythenshawe-_m22_4ps">
-        <vcard:locality>Wythenshawe</vcard:locality>
-        <vcard:street-address>Stancliffe Road</vcard:street-address>
-        <ns1:postcode rdf:resource="http://data.ordnancesurvey.co.uk/id/postcodeunit/M224PS"/>
-      </vcard:location>
-    </vcard:adr>
-    <os:northing>549622.905137</os:northing>
-    <scheme:url>http://www.feedingmanchester.org.uk/allotments</scheme:url>
-    <os:easting>5915905.47636</os:easting>
-    <scheme:url>http://www.manchester.gov.uk/downloads/download/5222/allotment_plotholders_handbook</scheme:url>
-    <scheme:url>http://www.manchester.gov.uk/info/200073/parks_playgrounds_and_open_spaces/3104/allotments_in_manchester/2</scheme:url>
-    <geo:long>-2.2538322</geo:long>
-    <geo:lat>53.3899088</geo:lat>
-  </ns2:Allotment>
-  <ns2:Allotment rdf:about="http://data.gmdsp.org.uk/id/manchester/allotments/alexandra-road-south-allotments">
-    <scheme:url>http://www.manchester.gov.uk/downloads/download/5222/allotment_plotholders_handbook</scheme:url>
-    <os:northing>549720.746565</os:northing>
-    <scheme:url>http://www.feedingmanchester.org.uk/allotments</scheme:url>
-    <rdfs:label>Alexandra Road South allotments</rdfs:label>
-    <vcard:adr>
-      <vcard:location rdf:about="http://data.gmdsp.org.uk/id/manchester/allotments/address/alexandra_road_south-_whally_range-_m16_8gh">
+  <ns2:Allotment rdf:about="http://data.gmdsp.org.uk/id/manchester/allotments/abbotsford-road-allotments">
+    <vcard:hasAddress>
+      <vcard:Location rdf:about="http://data.gmdsp.org.uk/id/manchester/allotments/address/abbotsford_road-_whally_range-_m21_0rj">
+        <vcard:street-address>Abbotsford Road</vcard:street-address>
+        <ns1:postcode rdf:resource="http://data.ordnancesurvey.co.uk/id/postcodeunit/M210RJ"/>
         <vcard:locality>Whally Range</vcard:locality>
-        <vcard:street-address>Alexandra Road South</vcard:street-address>
-        <ns1:postcode rdf:resource="http://data.ordnancesurvey.co.uk/id/postcodeunit/M168GH"/>
-      </vcard:location>
-    </vcard:adr>
-    <scheme:url>http://www.manchester.gov.uk/info/200073/parks_playgrounds_and_open_spaces/3104/allotments_in_manchester/2</scheme:url>
-    <geo:lat>53.4451486</geo:lat>
-    <os:easting>5922052.4301</os:easting>
-    <geo:long>-2.2513914</geo:long>
+      </vcard:Location>
+    </vcard:hasAddress>
+    <geo:long>-2.2731849</geo:long>
+    <rdfs:label>Abbotsford Road allotments</rdfs:label>
+    <scheme:url rdf:resource="http://www.manchester.gov.uk/info/200073/parks_playgrounds_and_open_spaces/3104/allotments_in_manchester/2"/>
+    <os:easting>548271.916078</os:easting>
+    <scheme:url rdf:resource="http://www.feedingmanchester.org.uk/allotments"/>
+    <scheme:url rdf:resource="http://www.manchester.gov.uk/downloads/download/5222/allotment_plotholders_handbook"/>
+    <geo:lat>53.4463681</geo:lat>
+    <os:northing>5922173.12508</os:northing>
+  </ns2:Allotment>
+  <ns2:Allotment rdf:about="http://data.gmdsp.org.uk/id/manchester/allotments/bluestone-road-allotments">
+    <geo:lat>53.5112132</geo:lat>
+    <scheme:url rdf:resource="http://www.manchester.gov.uk/downloads/download/5222/allotment_plotholders_handbook"/>
+    <os:northing>5929443.58674</os:northing>
+    <rdfs:label>Bluestone Road allotments</rdfs:label>
+    <vcard:hasAddress>
+      <vcard:Location rdf:about="http://data.gmdsp.org.uk/id/manchester/allotments/address/bluestone_road-_moston-_m40_9jd">
+        <ns1:postcode rdf:resource="http://data.ordnancesurvey.co.uk/id/postcodeunit/M409JD"/>
+        <vcard:locality>Moston</vcard:locality>
+        <vcard:street-address>Bluestone Road</vcard:street-address>
+      </vcard:Location>
+    </vcard:hasAddress>
+    <scheme:url rdf:resource="http://www.manchester.gov.uk/info/200073/parks_playgrounds_and_open_spaces/3104/allotments_in_manchester/2"/>
+    <os:easting>553457.417934</os:easting>
+    <geo:long>-2.1938788</geo:long>
+    <scheme:url rdf:resource="http://www.feedingmanchester.org.uk/allotments"/>
+  </ns2:Allotment>
+  <ns2:Allotment rdf:about="http://data.gmdsp.org.uk/id/manchester/allotments/acorn-close-allotments">
+    <rdfs:label>Acorn Close allotments</rdfs:label>
+    <scheme:url rdf:resource="http://www.manchester.gov.uk/info/200073/parks_playgrounds_and_open_spaces/3104/allotments_in_manchester/2"/>
+    <scheme:url rdf:resource="http://www.feedingmanchester.org.uk/allotments"/>
+    <os:easting>553061.694254</os:easting>
+    <geo:lat>53.4399406</geo:lat>
+    <scheme:url rdf:resource="http://www.manchester.gov.uk/downloads/download/5222/allotment_plotholders_handbook"/>
+    <geo:long>-2.201186</geo:long>
+    <os:northing>5921509.2286</os:northing>
+    <vcard:hasAddress>
+      <vcard:Location rdf:about="http://data.gmdsp.org.uk/id/manchester/allotments/address/acorn_close-_levenshulme-_m19_2hs">
+        <vcard:locality>Levenshulme</vcard:locality>
+        <ns1:postcode rdf:resource="http://data.ordnancesurvey.co.uk/id/postcodeunit/M192HS"/>
+        <vcard:street-address>Acorn Close</vcard:street-address>
+      </vcard:Location>
+    </vcard:hasAddress>
   </ns2:Allotment>
   <ns2:Allotment rdf:about="http://data.gmdsp.org.uk/id/manchester/allotments/wellington-road-allotments">
-    <os:easting>5921661.33723</os:easting>
-    <rdfs:label>Wellington Road allotments</rdfs:label>
-    <geo:long>-2.22597599029541</geo:long>
-    <scheme:url>http://www.manchester.gov.uk/info/200073/parks_playgrounds_and_open_spaces/3104/allotments_in_manchester/2</scheme:url>
+    <scheme:url rdf:resource="http://www.manchester.gov.uk/info/200073/parks_playgrounds_and_open_spaces/3104/allotments_in_manchester/2"/>
     <geo:lat>53.44147110259927</geo:lat>
-    <scheme:url>http://www.feedingmanchester.org.uk/allotments</scheme:url>
-    <vcard:adr>
-      <vcard:location rdf:about="http://data.gmdsp.org.uk/id/manchester/allotments/address/wellington_road-_fallowfield-_m14_6fa">
+    <scheme:url rdf:resource="http://www.manchester.gov.uk/downloads/download/5222/allotment_plotholders_handbook"/>
+    <rdfs:label>Wellington Road allotments</rdfs:label>
+    <scheme:url rdf:resource="http://www.feedingmanchester.org.uk/allotments"/>
+    <geo:long>-2.22597599029541</geo:long>
+    <os:northing>5921661.33723</os:northing>
+    <os:easting>551413.186222</os:easting>
+    <vcard:hasAddress>
+      <vcard:Location rdf:about="http://data.gmdsp.org.uk/id/manchester/allotments/address/wellington_road-_fallowfield-_m14_6fa">
+        <vcard:locality>Fallowfield</vcard:locality>
         <vcard:street-address>Wellington Road</vcard:street-address>
         <ns1:postcode rdf:resource="http://data.ordnancesurvey.co.uk/id/postcodeunit/M146FA"/>
-        <vcard:locality>Fallowfield</vcard:locality>
-      </vcard:location>
-    </vcard:adr>
-    <os:northing>551413.186222</os:northing>
-    <scheme:url>http://www.manchester.gov.uk/downloads/download/5222/allotment_plotholders_handbook</scheme:url>
+      </vcard:Location>
+    </vcard:hasAddress>
   </ns2:Allotment>
-  <ns2:Allotment rdf:about="http://data.gmdsp.org.uk/id/manchester/allotments/caxton-road-allotments">
-    <scheme:url>http://www.manchester.gov.uk/downloads/download/5222/allotment_plotholders_handbook</scheme:url>
-    <scheme:url>http://www.feedingmanchester.org.uk/allotments</scheme:url>
-    <os:northing>551183.97965</os:northing>
-    <scheme:url>http://www.manchester.gov.uk/info/200073/parks_playgrounds_and_open_spaces/3104/allotments_in_manchester/2</scheme:url>
-    <os:easting>5921831.9314</os:easting>
-    <geo:lat>53.4430267</geo:lat>
-    <vcard:adr>
-      <vcard:location rdf:about="http://data.gmdsp.org.uk/id/manchester/allotments/address/caxton_road-_fallowfield-_m14_6ee">
-        <ns1:postcode rdf:resource="http://data.ordnancesurvey.co.uk/id/postcodeunit/M146EE"/>
-        <vcard:street-address>Caxton Road</vcard:street-address>
-        <vcard:locality>Fallowfield</vcard:locality>
-      </vcard:location>
-    </vcard:adr>
-    <rdfs:label>Caxton Road allotments</rdfs:label>
-    <geo:long>-2.2293986</geo:long>
+  <ns2:Allotment rdf:about="http://data.gmdsp.org.uk/id/manchester/allotments/cypress-street-allotments">
+    <os:northing>5929273.96784</os:northing>
+    <geo:long>-2.2181944</geo:long>
+    <scheme:url rdf:resource="http://www.manchester.gov.uk/downloads/download/5222/allotment_plotholders_handbook"/>
+    <os:easting>551846.637732</os:easting>
+    <vcard:hasAddress>
+      <vcard:Location rdf:about="http://data.gmdsp.org.uk/id/manchester/allotments/address/cypress_street-_harpurhey-_m9_5xz">
+        <vcard:locality>Harpurhey</vcard:locality>
+        <vcard:street-address>Cypress Street</vcard:street-address>
+        <ns1:postcode rdf:resource="http://data.ordnancesurvey.co.uk/id/postcodeunit/M95XZ"/>
+      </vcard:Location>
+    </vcard:hasAddress>
+    <scheme:url rdf:resource="http://www.feedingmanchester.org.uk/allotments"/>
+    <rdfs:label>Cypress Street allotments</rdfs:label>
+    <geo:lat>53.50985</geo:lat>
+    <scheme:url rdf:resource="http://www.manchester.gov.uk/info/200073/parks_playgrounds_and_open_spaces/3104/allotments_in_manchester/2"/>
   </ns2:Allotment>
-  <ns2:Allotment rdf:about="http://data.gmdsp.org.uk/id/manchester/allotments/gorton-allotments">
-    <scheme:url>http://www.manchester.gov.uk/downloads/download/5222/allotment_plotholders_handbook</scheme:url>
-    <geo:lat>53.4628011</geo:lat>
-    <geo:long>-2.1641816</geo:long>
-    <scheme:url>http://www.feedingmanchester.org.uk/allotments</scheme:url>
-    <os:northing>555489.878433</os:northing>
-    <rdfs:label>Gorton allotments</rdfs:label>
-    <os:easting>5924080.55162</os:easting>
-    <vcard:adr>
-      <vcard:location rdf:about="http://data.gmdsp.org.uk/id/manchester/allotments/address/alston_road-_gorton-_m18_8wu">
-        <vcard:locality>Gorton</vcard:locality>
-        <ns1:postcode rdf:resource="http://data.ordnancesurvey.co.uk/id/postcodeunit/M188WU"/>
-        <vcard:street-address>Alston Road</vcard:street-address>
-      </vcard:location>
-    </vcard:adr>
-    <scheme:url>http://www.manchester.gov.uk/info/200073/parks_playgrounds_and_open_spaces/3104/allotments_in_manchester/2</scheme:url>
+  <ns2:Allotment rdf:about="http://data.gmdsp.org.uk/id/manchester/allotments/cheetham-and-crumpsall-allotments">
+    <geo:lat>53.50892738712311</geo:lat>
+    <scheme:url rdf:resource="http://www.feedingmanchester.org.uk/allotments"/>
+    <rdfs:label>Cheetham and Crumpsall allotments</rdfs:label>
+    <scheme:url rdf:resource="http://www.manchester.gov.uk/downloads/download/5222/allotment_plotholders_handbook"/>
+    <vcard:hasAddress>
+      <vcard:Location rdf:about="http://data.gmdsp.org.uk/id/manchester/allotments/address/hazelbottom_road-_cheetham-_m8_0gq">
+        <ns1:postcode rdf:resource="http://data.ordnancesurvey.co.uk/id/postcodeunit/M80GQ"/>
+        <vcard:street-address>Hazelbottom Road</vcard:street-address>
+        <vcard:locality>Cheetham</vcard:locality>
+      </vcard:Location>
+    </vcard:hasAddress>
+    <os:northing>5929165.35558</os:northing>
+    <os:easting>551300.407563</os:easting>
+    <geo:long>-2.2264480590820312</geo:long>
+    <scheme:url rdf:resource="http://www.manchester.gov.uk/info/200073/parks_playgrounds_and_open_spaces/3104/allotments_in_manchester/2"/>
   </ns2:Allotment>
   <ns2:Allotment rdf:about="http://data.gmdsp.org.uk/id/manchester/allotments/cleveleys-avenue-allotments">
-    <geo:lat>53.43740651019149</geo:lat>
-    <vcard:adr>
-      <vcard:location rdf:about="http://data.gmdsp.org.uk/id/manchester/allotments/address/cleveleys_avenue-_chorlton-_m21_8ts">
+    <scheme:url rdf:resource="http://www.manchester.gov.uk/info/200073/parks_playgrounds_and_open_spaces/3104/allotments_in_manchester/2"/>
+    <scheme:url rdf:resource="http://www.manchester.gov.uk/downloads/download/5222/allotment_plotholders_handbook"/>
+    <os:easting>548407.645536</os:easting>
+    <vcard:hasAddress>
+      <vcard:Location rdf:about="http://data.gmdsp.org.uk/id/manchester/allotments/address/cleveleys_avenue-_chorlton-_m21_8ts">
         <vcard:street-address>Cleveleys Avenue</vcard:street-address>
         <vcard:locality>Chorlton</vcard:locality>
         <ns1:postcode rdf:resource="http://data.ordnancesurvey.co.uk/id/postcodeunit/M218TS"/>
-      </vcard:location>
-    </vcard:adr>
-    <scheme:url>http://www.manchester.gov.uk/downloads/download/5222/allotment_plotholders_handbook</scheme:url>
-    <scheme:url>http://www.feedingmanchester.org.uk/allotments</scheme:url>
+      </vcard:Location>
+    </vcard:hasAddress>
     <geo:long>-2.271294593811035</geo:long>
-    <os:northing>548407.645536</os:northing>
-    <scheme:url>http://www.manchester.gov.uk/info/200073/parks_playgrounds_and_open_spaces/3104/allotments_in_manchester/2</scheme:url>
+    <os:northing>5921177.45212</os:northing>
+    <geo:lat>53.43740651019149</geo:lat>
+    <scheme:url rdf:resource="http://www.feedingmanchester.org.uk/allotments"/>
     <rdfs:label>Cleveleys Avenue allotments</rdfs:label>
-    <os:easting>5921177.45212</os:easting>
+  </ns2:Allotment>
+  <ns2:Allotment rdf:about="http://data.gmdsp.org.uk/id/manchester/allotments/scotland-hall-road-allotments">
+    <vcard:hasAddress>
+      <vcard:Location rdf:about="http://data.gmdsp.org.uk/id/manchester/allotments/address/ascot_road-_newton_heath-_m40_2rd">
+        <ns1:postcode rdf:resource="http://data.ordnancesurvey.co.uk/id/postcodeunit/M402RD"/>
+        <vcard:street-address>Ascot Road</vcard:street-address>
+        <vcard:locality>Newton Heath</vcard:locality>
+      </vcard:Location>
+    </vcard:hasAddress>
+    <geo:lat>53.4970011</geo:lat>
+    <scheme:url rdf:resource="http://www.feedingmanchester.org.uk/allotments"/>
+    <geo:long>-2.1834127</geo:long>
+    <scheme:url rdf:resource="http://www.manchester.gov.uk/info/200073/parks_playgrounds_and_open_spaces/3104/allotments_in_manchester/2"/>
+    <rdfs:label>Scotland Hall Road allotments</rdfs:label>
+    <os:northing>5927870.42223</os:northing>
+    <os:easting>554169.57307</os:easting>
+    <scheme:url rdf:resource="http://www.manchester.gov.uk/downloads/download/5222/allotment_plotholders_handbook"/>
+  </ns2:Allotment>
+  <ns2:Allotment rdf:about="http://data.gmdsp.org.uk/id/manchester/allotments/pleasant-street-allotments">
+    <scheme:url rdf:resource="http://www.manchester.gov.uk/info/200073/parks_playgrounds_and_open_spaces/3104/allotments_in_manchester/2"/>
+    <os:northing>5931707.78629</os:northing>
+    <rdfs:label>Pleasant Street allotments</rdfs:label>
+    <vcard:hasAddress>
+      <vcard:Location rdf:about="http://data.gmdsp.org.uk/id/manchester/allotments/address/pleasant_street-_harpurhey-_m9_8wj">
+        <ns1:postcode rdf:resource="http://data.ordnancesurvey.co.uk/id/postcodeunit/M98WJ"/>
+        <vcard:street-address>Pleasant Street</vcard:street-address>
+        <vcard:locality>Harpurhey</vcard:locality>
+      </vcard:Location>
+    </vcard:hasAddress>
+    <scheme:url rdf:resource="http://www.feedingmanchester.org.uk/allotments"/>
+    <geo:lat>53.5317974</geo:lat>
+    <geo:long>-2.2289885</geo:long>
+    <os:easting>551104.402843</os:easting>
+    <scheme:url rdf:resource="http://www.manchester.gov.uk/downloads/download/5222/allotment_plotholders_handbook"/>
+  </ns2:Allotment>
+  <ns2:Allotment rdf:about="http://data.gmdsp.org.uk/id/manchester/allotments/bradley-fold-allotments">
+    <os:easting>550675.107122</os:easting>
+    <vcard:hasAddress>
+      <vcard:Location rdf:about="http://data.gmdsp.org.uk/id/manchester/allotments/address/ford_lane-_didsbury-_m20_2ru">
+        <vcard:locality>Didsbury</vcard:locality>
+        <vcard:street-address>Ford Lane</vcard:street-address>
+        <ns1:postcode rdf:resource="http://data.ordnancesurvey.co.uk/id/postcodeunit/M202RU"/>
+      </vcard:Location>
+    </vcard:hasAddress>
+    <scheme:url rdf:resource="http://www.feedingmanchester.org.uk/allotments"/>
+    <geo:long>-2.2376060485839843</geo:long>
+    <rdfs:label>Bradley Fold allotments</rdfs:label>
+    <os:northing>5918432.82759</os:northing>
+    <scheme:url rdf:resource="http://www.manchester.gov.uk/info/200073/parks_playgrounds_and_open_spaces/3104/allotments_in_manchester/2"/>
+    <scheme:url rdf:resource="http://www.manchester.gov.uk/downloads/download/5222/allotment_plotholders_handbook"/>
+    <geo:lat>53.41252477903943</geo:lat>
+  </ns2:Allotment>
+  <ns2:Allotment rdf:about="http://data.gmdsp.org.uk/id/manchester/allotments/hazeldene-road-allotments">
+    <scheme:url rdf:resource="http://www.manchester.gov.uk/downloads/download/5222/allotment_plotholders_handbook"/>
+    <scheme:url rdf:resource="http://www.manchester.gov.uk/info/200073/parks_playgrounds_and_open_spaces/3104/allotments_in_manchester/2"/>
+    <os:northing>5930098.49947</os:northing>
+    <geo:long>-2.1627772</geo:long>
+    <os:easting>555512.443549</os:easting>
+    <vcard:hasAddress>
+      <vcard:Location rdf:about="http://data.gmdsp.org.uk/id/manchester/allotments/address/hazeldene_road-_moston-_m40_3gl">
+        <ns1:postcode rdf:resource="http://data.ordnancesurvey.co.uk/id/postcodeunit/M403GL"/>
+        <vcard:street-address>Hazeldene Road</vcard:street-address>
+        <vcard:locality>Moston</vcard:locality>
+      </vcard:Location>
+    </vcard:hasAddress>
+    <scheme:url rdf:resource="http://www.feedingmanchester.org.uk/allotments"/>
+    <geo:lat>53.5168864</geo:lat>
+    <rdfs:label>Hazeldene Road allotments</rdfs:label>
+  </ns2:Allotment>
+  <ns2:Allotment rdf:about="http://data.gmdsp.org.uk/id/manchester/allotments/ivy-green-allotments">
+    <scheme:url rdf:resource="http://www.feedingmanchester.org.uk/allotments"/>
+    <scheme:url rdf:resource="http://www.manchester.gov.uk/info/200073/parks_playgrounds_and_open_spaces/3104/allotments_in_manchester/2"/>
+    <scheme:url rdf:resource="http://www.manchester.gov.uk/downloads/download/5222/allotment_plotholders_handbook"/>
+    <geo:long>-2.2851442</geo:long>
+    <vcard:hasAddress>
+      <vcard:Location rdf:about="http://data.gmdsp.org.uk/id/manchester/allotments/address/edwards_avenue-_chorlton-_m21_9et">
+        <vcard:locality>Chorlton</vcard:locality>
+        <ns1:postcode rdf:resource="http://data.ordnancesurvey.co.uk/id/postcodeunit/M219ET"/>
+        <vcard:street-address>Edwards Avenue</vcard:street-address>
+      </vcard:Location>
+    </vcard:hasAddress>
+    <geo:lat>53.4380887</geo:lat>
+    <rdfs:label>Ivy Green allotments</rdfs:label>
+    <os:northing>5921244.03453</os:northing>
+    <os:easting>547486.874412</os:easting>
+  </ns2:Allotment>
+  <ns2:Allotment rdf:about="http://data.gmdsp.org.uk/id/manchester/allotments/crowden-road-allotments">
+    <scheme:url rdf:resource="http://www.manchester.gov.uk/downloads/download/5222/allotment_plotholders_handbook"/>
+    <geo:lat>53.5207205</geo:lat>
+    <scheme:url rdf:resource="http://www.feedingmanchester.org.uk/allotments"/>
+    <geo:long>-2.1840432</geo:long>
+    <scheme:url rdf:resource="http://www.manchester.gov.uk/info/200073/parks_playgrounds_and_open_spaces/3104/allotments_in_manchester/2"/>
+    <rdfs:label>Crowden Road allotments</rdfs:label>
+    <vcard:hasAddress>
+      <vcard:Location rdf:about="http://data.gmdsp.org.uk/id/manchester/allotments/address/crowden_road-_moston-_m40_5rw">
+        <ns1:postcode rdf:resource="http://data.ordnancesurvey.co.uk/id/postcodeunit/M405RW"/>
+        <vcard:locality>Moston</vcard:locality>
+        <vcard:street-address>Crowden Road</vcard:street-address>
+      </vcard:Location>
+    </vcard:hasAddress>
+    <os:northing>5930508.67942</os:northing>
+    <os:easting>554097.535395</os:easting>
+  </ns2:Allotment>
+  <ns2:Allotment rdf:about="http://data.gmdsp.org.uk/id/manchester/allotments/hough-end-allotments">
+    <scheme:url rdf:resource="http://www.manchester.gov.uk/info/200073/parks_playgrounds_and_open_spaces/3104/allotments_in_manchester/2"/>
+    <rdfs:label>Hough End allotments</rdfs:label>
+    <scheme:url rdf:resource="http://www.feedingmanchester.org.uk/allotments"/>
+    <geo:lat>53.43952832706292</geo:lat>
+    <os:northing>5921427.52569</os:northing>
+    <os:easting>549759.298939</os:easting>
+    <scheme:url rdf:resource="http://www.manchester.gov.uk/downloads/download/5222/allotment_plotholders_handbook"/>
+    <geo:long>-2.2509098052978515</geo:long>
+    <vcard:hasAddress>
+      <vcard:Location rdf:about="http://data.gmdsp.org.uk/id/manchester/allotments/address/mauldeth_road-_chorlton-_m21_7th">
+        <vcard:street-address>Mauldeth Road</vcard:street-address>
+        <ns1:postcode rdf:resource="http://data.ordnancesurvey.co.uk/id/postcodeunit/M217TH"/>
+        <vcard:locality>Chorlton</vcard:locality>
+      </vcard:Location>
+    </vcard:hasAddress>
+  </ns2:Allotment>
+  <ns2:Allotment rdf:about="http://data.gmdsp.org.uk/id/manchester/allotments/baguley-allotments">
+    <scheme:url rdf:resource="http://www.manchester.gov.uk/downloads/download/5222/allotment_plotholders_handbook"/>
+    <rdfs:label>Baguley allotments</rdfs:label>
+    <os:northing>5916700.52114</os:northing>
+    <os:easting>547408.557832</os:easting>
+    <scheme:url rdf:resource="http://www.feedingmanchester.org.uk/allotments"/>
+    <geo:lat>53.3972582</geo:lat>
+    <vcard:hasAddress>
+      <vcard:Location rdf:about="http://data.gmdsp.org.uk/id/manchester/allotments/address/leaton_avenue-__wythenshawe-_m23_1hl">
+        <vcard:street-address>Leaton Avenue</vcard:street-address>
+        <vcard:locality> Wythenshawe</vcard:locality>
+        <ns1:postcode rdf:resource="http://data.ordnancesurvey.co.uk/id/postcodeunit/M231HL"/>
+      </vcard:Location>
+    </vcard:hasAddress>
+    <geo:long>-2.2870065</geo:long>
+    <scheme:url rdf:resource="http://www.manchester.gov.uk/info/200073/parks_playgrounds_and_open_spaces/3104/allotments_in_manchester/2"/>
+  </ns2:Allotment>
+  <ns2:Allotment rdf:about="http://data.gmdsp.org.uk/id/manchester/allotments/brighton-grove-allotments">
+    <scheme:url rdf:resource="http://www.feedingmanchester.org.uk/allotments"/>
+    <os:easting>552028.477722</os:easting>
+    <scheme:url rdf:resource="http://www.manchester.gov.uk/info/200073/parks_playgrounds_and_open_spaces/3104/allotments_in_manchester/2"/>
+    <os:northing>5922586.85461</os:northing>
+    <geo:long>-2.2165607</geo:long>
+    <scheme:url rdf:resource="http://www.manchester.gov.uk/downloads/download/5222/allotment_plotholders_handbook"/>
+    <rdfs:label>Brighton Grove allotments</rdfs:label>
+    <vcard:hasAddress>
+      <vcard:Location rdf:about="http://data.gmdsp.org.uk/id/manchester/allotments/address/brighton_grove-_rusholme-_m14_5jr">
+        <vcard:street-address>Brighton Grove</vcard:street-address>
+        <vcard:locality>Rusholme</vcard:locality>
+        <ns1:postcode rdf:resource="http://data.ordnancesurvey.co.uk/id/postcodeunit/M145JR"/>
+      </vcard:Location>
+    </vcard:hasAddress>
+    <geo:lat>53.4497292</geo:lat>
+  </ns2:Allotment>
+  <ns2:Allotment rdf:about="http://data.gmdsp.org.uk/id/manchester/allotments/bethnal-drive-allotments">
+    <os:easting>550743.863371</os:easting>
+    <scheme:url rdf:resource="http://www.feedingmanchester.org.uk/allotments"/>
+    <scheme:url rdf:resource="http://www.manchester.gov.uk/info/200073/parks_playgrounds_and_open_spaces/3104/allotments_in_manchester/2"/>
+    <scheme:url rdf:resource="http://www.manchester.gov.uk/downloads/download/5222/allotment_plotholders_handbook"/>
+    <geo:long>-2.2360348</geo:long>
+    <vcard:hasAddress>
+      <vcard:Location rdf:about="http://data.gmdsp.org.uk/id/manchester/allotments/address/shawfield_road-_fallowfield-_m14_7ed">
+        <ns1:postcode rdf:resource="http://data.ordnancesurvey.co.uk/id/postcodeunit/M147ED"/>
+        <vcard:locality>Fallowfield</vcard:locality>
+        <vcard:street-address>Shawfield Road</vcard:street-address>
+      </vcard:Location>
+    </vcard:hasAddress>
+    <os:northing>5921765.75899</os:northing>
+    <rdfs:label>Bethnal Drive allotments</rdfs:label>
+    <geo:lat>53.4424745</geo:lat>
+  </ns2:Allotment>
+  <ns2:Allotment rdf:about="http://data.gmdsp.org.uk/id/manchester/allotments/abbey-hey-allotments">
+    <vcard:hasAddress>
+      <vcard:Location rdf:about="http://data.gmdsp.org.uk/id/manchester/allotments/address/ackroyd_avenue-_abbey_hey-_m18_8tl">
+        <vcard:street-address>Ackroyd Avenue</vcard:street-address>
+        <vcard:locality>Abbey Hey</vcard:locality>
+        <ns1:postcode rdf:resource="http://data.ordnancesurvey.co.uk/id/postcodeunit/M188TL"/>
+      </vcard:Location>
+    </vcard:hasAddress>
+    <scheme:url rdf:resource="http://www.manchester.gov.uk/info/200073/parks_playgrounds_and_open_spaces/3104/allotments_in_manchester/2"/>
+    <os:northing>5924831.96404</os:northing>
+    <scheme:url rdf:resource="http://www.manchester.gov.uk/downloads/download/5222/allotment_plotholders_handbook"/>
+    <os:easting>556211.380514</os:easting>
+    <geo:long>-2.1531808376312256</geo:long>
+    <scheme:url rdf:resource="http://www.feedingmanchester.org.uk/allotments"/>
+    <rdfs:label>Abbey Hey allotments</rdfs:label>
+    <geo:lat>53.4694780942634</geo:lat>
+  </ns2:Allotment>
+  <ns2:Allotment rdf:about="http://data.gmdsp.org.uk/id/manchester/allotments/alexandra-road-south-allotments">
+    <geo:long>-2.2513914</geo:long>
+    <os:easting>549720.746565</os:easting>
+    <vcard:hasAddress>
+      <vcard:Location rdf:about="http://data.gmdsp.org.uk/id/manchester/allotments/address/alexandra_road_south-_whally_range-_m16_8gh">
+        <ns1:postcode rdf:resource="http://data.ordnancesurvey.co.uk/id/postcodeunit/M168GH"/>
+        <vcard:street-address>Alexandra Road South</vcard:street-address>
+        <vcard:locality>Whally Range</vcard:locality>
+      </vcard:Location>
+    </vcard:hasAddress>
+    <scheme:url rdf:resource="http://www.manchester.gov.uk/info/200073/parks_playgrounds_and_open_spaces/3104/allotments_in_manchester/2"/>
+    <scheme:url rdf:resource="http://www.manchester.gov.uk/downloads/download/5222/allotment_plotholders_handbook"/>
+    <geo:lat>53.4451486</geo:lat>
+    <rdfs:label>Alexandra Road South allotments</rdfs:label>
+    <os:northing>5922052.4301</os:northing>
+    <scheme:url rdf:resource="http://www.feedingmanchester.org.uk/allotments"/>
+  </ns2:Allotment>
+  <ns2:Allotment rdf:about="http://data.gmdsp.org.uk/id/manchester/allotments/broadhurst-allotments">
+    <geo:lat>53.5088442</geo:lat>
+    <os:northing>5929186.14139</os:northing>
+    <scheme:url rdf:resource="http://www.manchester.gov.uk/downloads/download/5222/allotment_plotholders_handbook"/>
+    <scheme:url rdf:resource="http://www.manchester.gov.uk/info/200073/parks_playgrounds_and_open_spaces/3104/allotments_in_manchester/2"/>
+    <os:easting>553997.087543</os:easting>
+    <rdfs:label>Broadhurst allotments</rdfs:label>
+    <scheme:url rdf:resource="http://www.feedingmanchester.org.uk/allotments"/>
+    <geo:long>-2.185786</geo:long>
+    <vcard:hasAddress>
+      <vcard:Location rdf:about="http://data.gmdsp.org.uk/id/manchester/allotments/address/joyce_street-_moston-_m40_5hh">
+        <ns1:postcode rdf:resource="http://data.ordnancesurvey.co.uk/id/postcodeunit/M405HH"/>
+        <vcard:street-address>Joyce Street</vcard:street-address>
+        <vcard:locality>Moston</vcard:locality>
+      </vcard:Location>
+    </vcard:hasAddress>
+  </ns2:Allotment>
+  <ns2:Allotment rdf:about="http://data.gmdsp.org.uk/id/manchester/allotments/southern-allotments">
+    <vcard:hasAddress>
+      <vcard:Location rdf:about="http://data.gmdsp.org.uk/id/manchester/allotments/address/wintermans_road-_chorlton-_m21_7ge">
+        <vcard:street-address>Wintermans Road</vcard:street-address>
+        <ns1:postcode rdf:resource="http://data.ordnancesurvey.co.uk/id/postcodeunit/M217GE"/>
+        <vcard:locality>Chorlton</vcard:locality>
+      </vcard:Location>
+    </vcard:hasAddress>
+    <rdfs:label>Southern allotments</rdfs:label>
+    <os:easting>549549.101667</os:easting>
+    <scheme:url rdf:resource="http://www.manchester.gov.uk/info/200073/parks_playgrounds_and_open_spaces/3104/allotments_in_manchester/2"/>
+    <geo:long>-2.254171371459961</geo:long>
+    <scheme:url rdf:resource="http://www.feedingmanchester.org.uk/allotments"/>
+    <geo:lat>53.433980702715104</geo:lat>
+    <os:northing>5920808.09753</os:northing>
+    <scheme:url rdf:resource="http://www.manchester.gov.uk/downloads/download/5222/allotment_plotholders_handbook"/>
+  </ns2:Allotment>
+  <ns2:Allotment rdf:about="http://data.gmdsp.org.uk/id/manchester/allotments/ryder-brow-allotments">
+    <scheme:url rdf:resource="http://www.feedingmanchester.org.uk/allotments"/>
+    <geo:long>-2.1689259</geo:long>
+    <geo:lat>53.4589654</geo:lat>
+    <scheme:url rdf:resource="http://www.manchester.gov.uk/info/200073/parks_playgrounds_and_open_spaces/3104/allotments_in_manchester/2"/>
+    <os:northing>5923650.15999</os:northing>
+    <scheme:url rdf:resource="http://www.manchester.gov.uk/downloads/download/5222/allotment_plotholders_handbook"/>
+    <vcard:hasAddress>
+      <vcard:Location rdf:about="http://data.gmdsp.org.uk/id/manchester/allotments/address/far_lane-_gorton-_m18_7ff">
+        <vcard:street-address>Far Lane</vcard:street-address>
+        <ns1:postcode rdf:resource="http://data.ordnancesurvey.co.uk/id/postcodeunit/M187FF"/>
+        <vcard:locality>Gorton</vcard:locality>
+      </vcard:Location>
+    </vcard:hasAddress>
+    <rdfs:label>Ryder Brow allotments</rdfs:label>
+    <os:easting>555179.88463</os:easting>
+  </ns2:Allotment>
+  <ns2:Allotment rdf:about="http://data.gmdsp.org.uk/id/manchester/allotments/gorton-allotments">
+    <geo:lat>53.4628011</geo:lat>
+    <geo:long>-2.1641816</geo:long>
+    <os:northing>5924080.55162</os:northing>
+    <scheme:url rdf:resource="http://www.manchester.gov.uk/downloads/download/5222/allotment_plotholders_handbook"/>
+    <scheme:url rdf:resource="http://www.manchester.gov.uk/info/200073/parks_playgrounds_and_open_spaces/3104/allotments_in_manchester/2"/>
+    <os:easting>555489.878433</os:easting>
+    <vcard:hasAddress>
+      <vcard:Location rdf:about="http://data.gmdsp.org.uk/id/manchester/allotments/address/alston_road-_gorton-_m18_8wu">
+        <vcard:street-address>Alston Road</vcard:street-address>
+        <ns1:postcode rdf:resource="http://data.ordnancesurvey.co.uk/id/postcodeunit/M188WU"/>
+        <vcard:locality>Gorton</vcard:locality>
+      </vcard:Location>
+    </vcard:hasAddress>
+    <scheme:url rdf:resource="http://www.feedingmanchester.org.uk/allotments"/>
+    <rdfs:label>Gorton allotments</rdfs:label>
+  </ns2:Allotment>
+  <ns2:Allotment rdf:about="http://data.gmdsp.org.uk/id/manchester/allotments/philips-park-allotments">
+    <os:easting>553753.061589</os:easting>
+    <geo:long>-2.1898841857910156</geo:long>
+    <scheme:url rdf:resource="http://www.manchester.gov.uk/downloads/download/5222/allotment_plotholders_handbook"/>
+    <scheme:url rdf:resource="http://www.manchester.gov.uk/info/200073/parks_playgrounds_and_open_spaces/3104/allotments_in_manchester/2"/>
+    <rdfs:label>Philips Park allotments</rdfs:label>
+    <scheme:url rdf:resource="http://www.feedingmanchester.org.uk/allotments"/>
+    <vcard:hasAddress>
+      <vcard:Location rdf:about="http://data.gmdsp.org.uk/id/manchester/allotments/address/fairclough_street-_clayton-_m11_4tn">
+        <vcard:street-address>Fairclough Street</vcard:street-address>
+        <ns1:postcode rdf:resource="http://data.ordnancesurvey.co.uk/id/postcodeunit/M114TN"/>
+        <vcard:locality>Clayton</vcard:locality>
+      </vcard:Location>
+    </vcard:hasAddress>
+    <os:northing>5926741.40717</os:northing>
+    <geo:lat>53.48689648050751</geo:lat>
+  </ns2:Allotment>
+  <ns2:Allotment rdf:about="http://data.gmdsp.org.uk/id/manchester/allotments/tonbridge-road-allotments">
+    <scheme:url rdf:resource="http://www.manchester.gov.uk/info/200073/parks_playgrounds_and_open_spaces/3104/allotments_in_manchester/2"/>
+    <vcard:hasAddress>
+      <vcard:Location rdf:about="http://data.gmdsp.org.uk/id/manchester/allotments/address/tonbridge_road-_levenshulme-_m19_2tq">
+        <vcard:locality>Levenshulme</vcard:locality>
+        <vcard:street-address>Tonbridge Road</vcard:street-address>
+        <ns1:postcode rdf:resource="http://data.ordnancesurvey.co.uk/id/postcodeunit/M192TQ"/>
+      </vcard:Location>
+    </vcard:hasAddress>
+    <scheme:url rdf:resource="http://www.feedingmanchester.org.uk/allotments"/>
+    <rdfs:label>Tonbridge Road allotments</rdfs:label>
+    <geo:lat>53.4392303</geo:lat>
+    <os:northing>5921442.61291</os:northing>
+    <scheme:url rdf:resource="http://www.manchester.gov.uk/downloads/download/5222/allotment_plotholders_handbook"/>
+    <os:easting>554158.738073</os:easting>
+    <geo:long>-2.1846839</geo:long>
+  </ns2:Allotment>
+  <ns2:Allotment rdf:about="http://data.gmdsp.org.uk/id/manchester/allotments/ossory-street-allotments">
+    <vcard:hasAddress>
+      <vcard:Location rdf:about="http://data.gmdsp.org.uk/id/manchester/allotments/address/great_western_street-_moss_side-_m14_4bx">
+        <vcard:street-address>Great Western Street</vcard:street-address>
+        <vcard:locality>Moss Side</vcard:locality>
+        <ns1:postcode rdf:resource="http://data.ordnancesurvey.co.uk/id/postcodeunit/M144BX"/>
+      </vcard:Location>
+    </vcard:hasAddress>
+    <os:northing>5923215.74607</os:northing>
+    <geo:long>-2.2305952</geo:long>
+    <os:easting>551089.56364</os:easting>
+    <scheme:url rdf:resource="http://www.manchester.gov.uk/downloads/download/5222/allotment_plotholders_handbook"/>
+    <geo:lat>53.4554735</geo:lat>
+    <rdfs:label>Ossory Street allotments</rdfs:label>
+    <scheme:url rdf:resource="http://www.feedingmanchester.org.uk/allotments"/>
+    <scheme:url rdf:resource="http://www.manchester.gov.uk/info/200073/parks_playgrounds_and_open_spaces/3104/allotments_in_manchester/2"/>
+  </ns2:Allotment>
+  <ns2:Allotment rdf:about="http://data.gmdsp.org.uk/id/manchester/allotments/minehead-avenue-allotments">
+    <scheme:url rdf:resource="http://www.manchester.gov.uk/info/200073/parks_playgrounds_and_open_spaces/3104/allotments_in_manchester/2"/>
+    <geo:long>-2.2441416</geo:long>
+    <vcard:hasAddress>
+      <vcard:Location rdf:about="http://data.gmdsp.org.uk/id/manchester/allotments/address/minehead_avenue-_withington-_m20_1fw">
+        <vcard:street-address>Minehead Avenue</vcard:street-address>
+        <vcard:locality>Withington</vcard:locality>
+        <ns1:postcode rdf:resource="http://data.ordnancesurvey.co.uk/id/postcodeunit/M201FW"/>
+      </vcard:Location>
+    </vcard:hasAddress>
+    <os:northing>5920734.25643</os:northing>
+    <geo:lat>53.4332539</geo:lat>
+    <scheme:url rdf:resource="http://www.manchester.gov.uk/downloads/download/5222/allotment_plotholders_handbook"/>
+    <os:easting>550216.27486</os:easting>
+    <rdfs:label>Minehead Avenue allotments</rdfs:label>
+    <scheme:url rdf:resource="http://www.feedingmanchester.org.uk/allotments"/>
+  </ns2:Allotment>
+  <ns2:Allotment rdf:about="http://data.gmdsp.org.uk/id/manchester/allotments/scott-avenue-allotments">
+    <geo:long>-2.277388572692871</geo:long>
+    <os:northing>5922407.47257</os:northing>
+    <os:easting>547990.3275</os:easting>
+    <scheme:url rdf:resource="http://www.manchester.gov.uk/downloads/download/5222/allotment_plotholders_handbook"/>
+    <rdfs:label>Scott Avenue allotments</rdfs:label>
+    <vcard:hasAddress>
+      <vcard:Location rdf:about="http://data.gmdsp.org.uk/id/manchester/allotments/address/scott_avenue-_chorlton-_m21_9qw">
+        <ns1:postcode rdf:resource="http://data.ordnancesurvey.co.uk/id/postcodeunit/M219QW"/>
+        <vcard:street-address>Scott Avenue</vcard:street-address>
+        <vcard:locality>Chorlton</vcard:locality>
+      </vcard:Location>
+    </vcard:hasAddress>
+    <scheme:url rdf:resource="http://www.manchester.gov.uk/info/200073/parks_playgrounds_and_open_spaces/3104/allotments_in_manchester/2"/>
+    <geo:lat>53.44850014026593</geo:lat>
+    <scheme:url rdf:resource="http://www.feedingmanchester.org.uk/allotments"/>
+  </ns2:Allotment>
+  <ns2:Allotment rdf:about="http://data.gmdsp.org.uk/id/manchester/allotments/foxfield-road-allotments">
+    <geo:long>-2.286362</geo:long>
+    <scheme:url rdf:resource="http://www.feedingmanchester.org.uk/allotments"/>
+    <os:northing>5914993.20306</os:northing>
+    <os:easting>547468.486411</os:easting>
+    <geo:lat>53.3819072</geo:lat>
+    <rdfs:label>Foxfield Road allotments</rdfs:label>
+    <scheme:url rdf:resource="http://www.manchester.gov.uk/info/200073/parks_playgrounds_and_open_spaces/3104/allotments_in_manchester/2"/>
+    <scheme:url rdf:resource="http://www.manchester.gov.uk/downloads/download/5222/allotment_plotholders_handbook"/>
+    <vcard:hasAddress>
+      <vcard:Location rdf:about="http://data.gmdsp.org.uk/id/manchester/allotments/address/foxfield_road-_newall_green-_m23_2te">
+        <ns1:postcode rdf:resource="http://data.ordnancesurvey.co.uk/id/postcodeunit/M232TE"/>
+        <vcard:street-address>Foxfield Road</vcard:street-address>
+        <vcard:locality>Newall Green</vcard:locality>
+      </vcard:Location>
+    </vcard:hasAddress>
+  </ns2:Allotment>
+  <ns2:Allotment rdf:about="http://data.gmdsp.org.uk/id/manchester/allotments/levenshulme-allotments">
+    <rdfs:label>Levenshulme allotments</rdfs:label>
+    <geo:lat>53.4428404</geo:lat>
+    <geo:long>-2.1809359</geo:long>
+    <scheme:url rdf:resource="http://www.feedingmanchester.org.uk/allotments"/>
+    <scheme:url rdf:resource="http://www.manchester.gov.uk/downloads/download/5222/allotment_plotholders_handbook"/>
+    <scheme:url rdf:resource="http://www.manchester.gov.uk/info/200073/parks_playgrounds_and_open_spaces/3104/allotments_in_manchester/2"/>
+    <vcard:hasAddress>
+      <vcard:Location rdf:about="http://data.gmdsp.org.uk/id/manchester/allotments/address/highfield_road-_levenshulme-_m19_3jx">
+        <vcard:street-address>Highfield Road</vcard:street-address>
+        <vcard:locality>Levenshulme</vcard:locality>
+        <ns1:postcode rdf:resource="http://data.ordnancesurvey.co.uk/id/postcodeunit/M193JX"/>
+      </vcard:Location>
+    </vcard:hasAddress>
+    <os:easting>554403.088461</os:easting>
+    <os:northing>5921847.07712</os:northing>
+  </ns2:Allotment>
+  <ns2:Allotment rdf:about="http://data.gmdsp.org.uk/id/manchester/allotments/northen-moor-allotments">
+    <os:easting>547908.364914</os:easting>
+    <vcard:hasAddress>
+      <vcard:Location rdf:about="http://data.gmdsp.org.uk/id/manchester/allotments/address/stortford_drive-_wythenshawe-_m23_0fx">
+        <vcard:locality>Wythenshawe</vcard:locality>
+        <ns1:postcode rdf:resource="http://data.ordnancesurvey.co.uk/id/postcodeunit/M230FX"/>
+        <vcard:street-address>Stortford Drive</vcard:street-address>
+      </vcard:Location>
+    </vcard:hasAddress>
+    <geo:long>-2.279206</geo:long>
+    <geo:lat>53.4140404</geo:lat>
+    <os:northing>5918572.69785</os:northing>
+    <scheme:url rdf:resource="http://www.feedingmanchester.org.uk/allotments"/>
+    <rdfs:label>Northen Moor allotments</rdfs:label>
+    <scheme:url rdf:resource="http://www.manchester.gov.uk/info/200073/parks_playgrounds_and_open_spaces/3104/allotments_in_manchester/2"/>
+    <scheme:url rdf:resource="http://www.manchester.gov.uk/downloads/download/5222/allotment_plotholders_handbook"/>
+  </ns2:Allotment>
+  <ns2:Allotment rdf:about="http://data.gmdsp.org.uk/id/manchester/allotments/aquarius-allotments">
+    <rdfs:label>Aquarius allotments</rdfs:label>
+    <scheme:url rdf:resource="http://www.feedingmanchester.org.uk/allotments"/>
+    <os:easting>550245.097717</os:easting>
+    <os:northing>5924240.99541</os:northing>
+    <geo:lat>53.4647696</geo:lat>
+    <scheme:url rdf:resource="http://www.manchester.gov.uk/downloads/download/5222/allotment_plotholders_handbook"/>
+    <geo:long>-2.2431477</geo:long>
+    <scheme:url rdf:resource="http://www.manchester.gov.uk/info/200073/parks_playgrounds_and_open_spaces/3104/allotments_in_manchester/2"/>
+    <vcard:hasAddress>
+      <vcard:Location rdf:about="http://data.gmdsp.org.uk/id/manchester/allotments/address/crediton_close-_hulme-_m15_6ew">
+        <vcard:street-address>Crediton Close</vcard:street-address>
+        <ns1:postcode rdf:resource="http://data.ordnancesurvey.co.uk/id/postcodeunit/M156EW"/>
+        <vcard:locality>Hulme</vcard:locality>
+      </vcard:Location>
+    </vcard:hasAddress>
   </ns2:Allotment>
 </rdf:RDF>

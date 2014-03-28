@@ -100,10 +100,10 @@ class Store:
         self.graph.add((applicatinon, PLANNING['decisionDate'], URIRef('http://reference.data.gov.uk/id/day/'+time.strftime('%Y-%m-%d',datdeciss))))
         self.graph.add((applicatinon, PLANNING['validatedDate'], URIRef('http://reference.data.gov.uk/id/day/'+time.strftime('%Y-%m-%d',dateapval))))
         self.graph.add((applicatinon, PLANNING['decision'], URIRef('http://data.gmdsp.org.uk/def/council/planning/planning-application-status/'+dissision.replace (" ", "-").lower())))
-        self.graph.add((applicatinon, PLANNING['applicationType'], URIRef('http://data.gmdsp.org.uk/def/council/planning/planning-application-status/'+application_type.replace (" ", "-").lower())))
-        self.graph.add((applicatinon, OS["DistrictWard"], URIRef("http://data.ordnancesurvey.co.uk/id/"+ward)))
+        self.graph.add((applicatinon, PLANNING['applicationType'], URIRef('http://data.gmdsp.org.uk/def/council/planning/planning-application-type/'+application_type.replace (" ", "-").lower())))
+        self.graph.add((applicatinon, OS["ward"], URIRef("http://data.ordnancesurvey.co.uk/id/"+ward)))
         self.graph.add((applicatinon, PLANNING["proposal"], Literal(proposal)))
-        self.graph.add((applicatinon, PLANNING["other"], Literal(DTYPNUMBCO_CODETEXT)))
+        #self.graph.add((applicatinon, PLANNING["other"], Literal(DTYPNUMBCO_CODETEXT)))
 
     def new_dission(self, dissision):
         dissision = PLANNINGID[dissision.replace (" ", "-").lower()]
