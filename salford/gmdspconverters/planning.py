@@ -50,7 +50,14 @@ def convert(graph, input_path):
                 row["VALIDATION DATE"].split(" ")[0],
                 "%d/%m/%Y",
             )
-            graph.add((pa, PLANNING_ONT['validatedDate'], Literal(validation_date)))
+            try:
+                date_string = validation_date.strftime("%Y-%m-%d")
+                graph.add((pa, PLANNING_ONT['validatedDate'], utils.DATE[date_string]))
+            except ValueError:
+                # This means we were unable to parse a valid date
+                # so just don't ' this node to the graph
+                pass
+
         if row["RECOMMENDATION DECODE"]:
             graph.add((pa, PLANNING_ONT['decision'], PLANNING_APPLICATION_STATUS_ONT[utils.idify(row["RECOMMENDATION DECODE"])]))
         if row["DECISION DATE"]:
@@ -58,11 +65,18 @@ def convert(graph, input_path):
                 row["DECISION DATE"].split(" ")[0],
                 "%d/%m/%Y",
             )
-            graph.add((pa, PLANNING_ONT['decisionDate'], Literal(decision_date)))
+            try:
+                date_string = decision_date.strftime("%Y-%m-%d")
+                graph.add((pa, PLANNING_ONT['decisionDate'], utils.DATE[date_string]))
+            except ValueError:
+                # This means we were unable to parse a valid date
+                # so just don't ' this node to the graph
+                pass
 
         # planning application site
         pa_site = PLANNING["site/" + utils.idify(row["REFERENCE"])]
-        graph.add((pa, PLANNING_ONT['PlanningApplicationSite'], pa_site))
+        graph.add((pa, PLANNING_ONT['hasAddress'], pa_site))
+        graph.add((pa_site, RDF.type, PLANNING_ONT['PlanningApplicationSite']))
         graph.add((pa_site, utils.RDFS['label'], Literal("Planning application site for planning application " + row["REFERENCE"])))
 
         if row["NORTHING"] and row["EASTING"]:
