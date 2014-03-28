@@ -26,6 +26,7 @@ SDMXCONCEPT = Namespace("http://purl.org/linked-data/sdmx/2009/concept#")
 SDMXDIMENSION = Namespace("http://purl.org/linked-data/sdmx/2009/dimension#")
 SDMXATTRIBUTE = Namespace("http://purl.org/linked-data/sdmx/2009/attribute#")
 SDMXMEASURE= Namespace("http://purl.org/linked-data/sdmx/2009/measure#")
+INTERVAL = Namespace("http://www.w3.org/2006/time#")
 
 def idify(s):
     chars = [
