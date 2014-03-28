@@ -48,10 +48,10 @@ def convert(graph, input_path):
         if row["VALIDATION DATE"]:
             validation_date = datetime.datetime.strptime(
                 row["VALIDATION DATE"].split(" ")[0],
-                "%d-%m-%Y",
+                "%d/%m/%Y",
             )
             try:
-                date_string = validation_date.strftime("%Y/%m/%d")
+                date_string = validation_date.strftime("%Y-%m-%d")
                 graph.add((pa, PLANNING_ONT['validatedDate'], utils.DATE[date_string]))
             except ValueError:
                 # This means we were unable to parse a valid date
@@ -63,10 +63,10 @@ def convert(graph, input_path):
         if row["DECISION DATE"]:
             decision_date = datetime.datetime.strptime(
                 row["DECISION DATE"].split(" ")[0],
-                "%d-%m-%Y",
+                "%d/%m/%Y",
             )
             try:
-                date_string = decision_date.strftime("%Y/%m/%d")
+                date_string = decision_date.strftime("%Y-%m-%d")
                 graph.add((pa, PLANNING_ONT['decisionDate'], utils.DATE[date_string]))
             except ValueError:
                 # This means we were unable to parse a valid date
