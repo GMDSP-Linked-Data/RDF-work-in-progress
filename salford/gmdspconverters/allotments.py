@@ -1,9 +1,7 @@
 import csv
-import os
 import re
 
 from rdflib import URIRef, Literal, Namespace, RDF
-from rdflib.namespace import XSD
 
 from gmdspconverters import utils
 
