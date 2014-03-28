@@ -12,6 +12,7 @@ from gmdspconverters import utils
 # Some clean up of weird characters needed to happen on the source data
 
 PLANNING_ONT = Namespace('http://data.gmdsp.org.uk/def/council/planning/')
+PLANNING_APPLICATION_STATUS_ONT = Namespace('http://data.gmdsp.org.uk/def/council/planning/planning-application-status/')
 PLANNING = Namespace('http://data.gmdsp.org.uk/id/salford/planning/')
 
 def clean_string(s):
@@ -36,11 +37,11 @@ def convert(graph, input_path):
 
         # planning application specific stuff
         if row["APP TYPE DECODE"]:
-            graph.add((pa, PLANNING_ONT['applicationType'], Literal(row["APP TYPE DECODE"])))
+            graph.add((pa, PLANNING_ONT['applicationType'], PLANNING_APPLICATION_STATUS_ONT[utils.idify(row["APP TYPE DECODE"])]))
         if row["APP TYPE"]:
             graph.add((pa, PLANNING_ONT['applicationTypeCode'], Literal(row["APP TYPE"])))
         if row["DEVELOPMENT TYPE DECODE"]:
-            graph.add((pa, PLANNING_ONT['developmentType'], Literal(row["DEVELOPMENT TYPE DECODE"])))
+            graph.add((pa, PLANNING_ONT['developmentType'], PLANNING_APPLICATION_STATUS_ONT[utils.idify(row["DEVELOPMENT TYPE DECODE"])]))
         if row["PROPOSAL"]:
             graph.add((pa, PLANNING_ONT['proposal'], Literal(clean_string(row["PROPOSAL"]))))
         if row["VALIDATION DATE"]:
@@ -50,7 +51,7 @@ def convert(graph, input_path):
             )
             graph.add((pa, PLANNING_ONT['validatedDate'], Literal(validation_date)))
         if row["RECOMMENDATION DECODE"]:
-            graph.add((pa, PLANNING_ONT['decision'], Literal(row["RECOMMENDATION DECODE"])))
+            graph.add((pa, PLANNING_ONT['decision'], PLANNING_APPLICATION_STATUS_ONT[utils.idify(row["RECOMMENDATION DECODE"])]))
         if row["DECISION DATE"]:
             decision_date = datetime.datetime.strptime(
                 row["DECISION DATE"].split(" ")[0],
