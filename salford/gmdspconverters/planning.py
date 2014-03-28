@@ -1,6 +1,7 @@
 __author__ = 'jond'
 
 import csv
+import datetime
 
 from rdflib import URIRef, Literal, Namespace, RDF
 from rdflib.namespace import XSD
@@ -43,11 +44,19 @@ def convert(graph, input_path):
         if row["PROPOSAL"]:
             graph.add((pa, PLANNING_ONT['proposal'], Literal(clean_string(row["PROPOSAL"]))))
         if row["VALIDATION DATE"]:
-            graph.add((pa, PLANNING_ONT['validatedDate'], Literal(row["VALIDATION DATE"])))
+            validation_date = datetime.datetime.strptime(
+                row["VALIDATION DATE"].split(" ")[0],
+                "%d/%m/%Y",
+            )
+            graph.add((pa, PLANNING_ONT['validatedDate'], Literal(validation_date)))
         if row["RECOMMENDATION DECODE"]:
             graph.add((pa, PLANNING_ONT['decision'], Literal(row["RECOMMENDATION DECODE"])))
         if row["DECISION DATE"]:
-            graph.add((pa, PLANNING_ONT['decisionDate'], Literal(row["DECISION DATE"])))
+            decision_date = datetime.datetime.strptime(
+                row["DECISION DATE"].split(" ")[0],
+                "%d/%m/%Y",
+            )
+            graph.add((pa, PLANNING_ONT['decisionDate'], Literal(decision_date)))
 
         # planning application site
         pa_site = PLANNING["site/" + utils.idify(row["REFERENCE"])]
