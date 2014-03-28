@@ -13,6 +13,7 @@ from gmdspconverters import utils
 
 PLANNING_ONT = Namespace('http://data.gmdsp.org.uk/def/council/planning/')
 PLANNING_APPLICATION_STATUS_ONT = Namespace('http://data.gmdsp.org.uk/def/council/planning/planning-application-status/')
+PLANNING_APPLICATION_TYPE_ONT = Namespace('http://data.gmdsp.org.uk/def/council/planning/planning-application-type/')
 PLANNING = Namespace('http://data.gmdsp.org.uk/id/salford/planning/')
 
 def clean_string(s):
@@ -41,7 +42,7 @@ def convert(graph, input_path):
         if row["APP TYPE"]:
             graph.add((pa, PLANNING_ONT['applicationTypeCode'], Literal(row["APP TYPE"])))
         if row["DEVELOPMENT TYPE DECODE"]:
-            graph.add((pa, PLANNING_ONT['developmentType'], PLANNING_APPLICATION_STATUS_ONT[utils.idify(row["DEVELOPMENT TYPE DECODE"])]))
+            graph.add((pa, PLANNING_ONT['developmentType'], PLANNING_APPLICATION_TYPE_ONT[utils.idify(row["DEVELOPMENT TYPE DECODE"])]))
         if row["PROPOSAL"]:
             graph.add((pa, PLANNING_ONT['proposal'], Literal(clean_string(row["PROPOSAL"]))))
         if row["VALIDATION DATE"]:
@@ -61,7 +62,7 @@ def convert(graph, input_path):
 
         # planning application site
         pa_site = PLANNING["site/" + utils.idify(row["REFERENCE"])]
-        graph.add((pa, PLANNING_ONT['planningApplicationSite'], pa_site))
+        graph.add((pa, PLANNING_ONT['PlanningApplicationSite'], pa_site))
         graph.add((pa_site, utils.RDFS['label'], Literal("Planning application site for planning application " + row["REFERENCE"])))
         graph.add((pa_site, utils.OS["northing"], Literal(row["NORTHING"])))
         graph.add((pa_site, utils.OS["easting"], Literal(row["EASTING"])))
