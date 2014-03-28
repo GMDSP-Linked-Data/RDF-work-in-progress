@@ -30,7 +30,7 @@ parser = argparse.ArgumentParser(description="Command line module for access to 
 parser.add_argument(
     'converter',
     choices=[
-        'allotments', 'gritting', 'parking', 'planning', 'recycling', 'streetlight',
+        'allotments', 'allotment-stats', 'gritting', 'parking', 'planning', 'recycling', 'streetlight',
     ],
     help="The converter to use"
 )
@@ -42,6 +42,7 @@ args = parser.parse_args()
 
 MODULE_MAP = {
     'allotments': 'allotments',
+    'allotment-stats': 'allotmentstatistics',
     'gritting': 'gritting',
     'parking': 'parking',
     'planning': 'planning',
