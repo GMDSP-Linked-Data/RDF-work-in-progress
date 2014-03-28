@@ -1,16 +1,12 @@
 import csv
-import os
 import re
 
 from rdflib import URIRef, Literal, Namespace, RDF
-from rdflib.namespace import XSD
 
 from gmdspconverters import utils
 
 al = Namespace('http://data.gmdsp.org.uk/id/salford/allotments/')
 al_ont = Namespace('http://data.gmdsp.org.uk/def/council/allotment/')
-al_stat = Namespace('http://gmdsp.org/def/statistical-dimension/allotments/')
-
 
 def postcode_helper(addr_string):
     """
@@ -28,10 +24,6 @@ def postcode_helper(addr_string):
 def convert(graph, input_path):
 
     reader = csv.DictReader(open(input_path, mode='r'))
-
-    # set up a separate graph for the statistics
-    # TODO: set up generic way of creating statistics, this is very hardecody!
-    statistics_graph = utils.create_graph()
 
     for row in reader:
         allotment = al[utils.idify(row["Name"])]
@@ -59,14 +51,3 @@ def convert(graph, input_path):
         if address_postcode is not None:
             graph.add((vcard, utils.VCARD['postal-code'], Literal(address_postcode)))
             graph.add((vcard, utils.POST['postcode'], URIRef(utils.convertpostcodeto_osuri(address_postcode))))
-
-        if row["Plots"]:
-            try:
-                statistics_graph.add((allotment, al_stat["plots"], Literal(int(row["Plots"]), datatype=XSD.integer)))
-                statistics_graph.add((allotment, RDF.type, utils.QB['Observation']))
-                statistics_graph.add((allotment, utils.QB["dataSet"], Literal(al)))
-                statistics_graph.add((allotment, al_stat["statistics"], allotment))
-            except ValueError:
-                pass
-
-    utils.output_graph(statistics_graph, os.path.join("output", "allotments2014Q4.rdf"))
