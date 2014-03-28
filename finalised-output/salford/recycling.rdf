@@ -3,530 +3,555 @@
   xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
   xmlns:os="http://data.ordnancesurvey.co.uk/ontology/spatialrelations/"
   xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
-  xmlns:ns1="http://data.gmdsp.org.uk/def/council/recycling/recycling-type/"
-  xmlns:ns2="http://data.ordnancesurvey.co.uk/ontology/postcode/"
-  xmlns:ns3="http://data.gmdsp.org.uk/def/council/recycling/"
+  xmlns:ns1="http://data.ordnancesurvey.co.uk/ontology/postcode/"
+  xmlns:ns2="http://data.gmdsp.org.uk/def/council/recycling/"
   xmlns:geo="http://www.w3.org/2003/01/geo/wgs84_pos#"
   xmlns:vcard="http://www.w3.org/2006/vcard/ns#"
 >
-  <ns3:RecyclingSite rdf:about="http://data.gmdsp.org.uk/id/salford/recycling/boysnope-wharf-household-waste-recycling-centre">
-    <rdfs:label>Recycling Site at Boysnope Wharf Household Waste Recycling Centre</rdfs:label>
-    <geo:long rdf:datatype="http://www.w3.org/2001/XMLSchema#double">-2.39919245022</geo:long>
-    <os:northing>395750</os:northing>
+  <ns2:RecyclingSite rdf:about="http://data.gmdsp.org.uk/id/salford/recycling/clifton-country-park--clifton">
+    <ns2:recyclingType rdf:resource="http://data.gmdsp.org.uk/def/council/recycling/recycling-type/glass"/>
+    <os:easting>377133</os:easting>
+    <geo:long rdf:datatype="http://www.w3.org/2001/XMLSchema#double">-2.3464609086</geo:long>
+    <os:northing>404085</os:northing>
+    <geo:lat rdf:datatype="http://www.w3.org/2001/XMLSchema#double">53.5329166444</geo:lat>
+    <rdfs:label>Recycling Site at Clifton Country Park, Clifton</rdfs:label>
+    <vcard:hasAddress>
+      <vcard:Location rdf:about="http://data.gmdsp.org.uk/id/salford/recycling/address/recycling-point-clifton-country-park-clifton-house-road-clifton-swinton-manchester-m27-6ng">
+        <vcard:postal-code>M27 6NG</vcard:postal-code>
+        <ns1:postcode rdf:resource="http://data.ordnancesurvey.co.uk/id/postcodeunit/M276NG"/>
+        <rdfs:label>Address of Recycling Site at Clifton Country Park, Clifton</rdfs:label>
+        <vcard:street-address>Recycling Point Clifton Country Park Clifton House Road Clifton Swinton Manchester M27 6NG </vcard:street-address>
+      </vcard:Location>
+    </vcard:hasAddress>
+    <ns2:recyclingType rdf:resource="http://data.gmdsp.org.uk/def/council/recycling/recycling-type/paper"/>
+    <ns2:recyclingType rdf:resource="http://data.gmdsp.org.uk/def/council/recycling/recycling-type/plastic"/>
+  </ns2:RecyclingSite>
+  <ns2:RecyclingSite rdf:about="http://data.gmdsp.org.uk/id/salford/recycling/boysnope-wharf-household-waste-recycling-centre">
     <os:easting>373591</os:easting>
-    <ns1:plastic>Plastic</ns1:plastic>
-    <ns1:cardboard>Cardboard</ns1:cardboard>
-    <ns1:aerosols>Aerosols</ns1:aerosols>
-    <ns1:cans>Cans</ns1:cans>
-    <ns1:cartons>Cartons</ns1:cartons>
+    <ns2:recyclingType rdf:resource="http://data.gmdsp.org.uk/def/council/recycling/recycling-type/shoes"/>
+    <vcard:hasAddress>
+      <vcard:Location rdf:about="http://data.gmdsp.org.uk/id/salford/recycling/address/household-waste-recycling-centre-boysnope-wharf-eccles-manchester-m30-7rh">
+        <rdfs:label>Address of Recycling Site at Boysnope Wharf Household Waste Recycling Centre</rdfs:label>
+        <vcard:postal-code>M30 7RH</vcard:postal-code>
+        <ns1:postcode rdf:resource="http://data.ordnancesurvey.co.uk/id/postcodeunit/M307RH"/>
+        <vcard:street-address>Household Waste Recycling Centre Boysnope Wharf Eccles Manchester M30 7RH </vcard:street-address>
+      </vcard:Location>
+    </vcard:hasAddress>
+    <ns2:recyclingType rdf:resource="http://data.gmdsp.org.uk/def/council/recycling/recycling-type/cardboard"/>
+    <ns2:recyclingType rdf:resource="http://data.gmdsp.org.uk/def/council/recycling/recycling-type/plastic"/>
+    <ns2:recyclingType rdf:resource="http://data.gmdsp.org.uk/def/council/recycling/recycling-type/glass"/>
+    <geo:long rdf:datatype="http://www.w3.org/2001/XMLSchema#double">-2.39919245022</geo:long>
     <geo:lat rdf:datatype="http://www.w3.org/2001/XMLSchema#double">53.4578331779</geo:lat>
-    <ns1:glass>Glass</ns1:glass>
-    <ns1:shoes>Shoes</ns1:shoes>
-    <ns1:paper>Paper</ns1:paper>
-    <vcard:hasAddress rdf:resource="http://data.gmdsp.org.uk/def/council/recycling/address/household-waste-recycling-centre-boysnope-wharf-eccles-manchester-m30-7rh-"/>
-    <ns1:textiles>Textiles</ns1:textiles>
-  </ns3:RecyclingSite>
-  <ns3:RecyclingSite rdf:about="http://data.gmdsp.org.uk/id/salford/recycling/castle-irwell-student-village--cromwell-road">
-    <ns1:shoes>Shoes</ns1:shoes>
-    <os:northing>400324</os:northing>
-    <ns1:plastic>Plastic</ns1:plastic>
-    <ns1:cartons>Cartons</ns1:cartons>
-    <ns1:aerosols>Aerosols</ns1:aerosols>
-    <ns1:glass>Glass</ns1:glass>
-    <ns1:paper>Paper</ns1:paper>
-    <vcard:hasAddress rdf:resource="http://data.gmdsp.org.uk/def/council/recycling/address/recycling-point-castle-irwell-student-village-cromwell-road-salford-m6-6db-"/>
-    <ns1:cans>Cans</ns1:cans>
-    <geo:lat rdf:datatype="http://www.w3.org/2001/XMLSchema#double">53.4993012181</geo:lat>
-    <ns1:textiles>Textiles</ns1:textiles>
-    <geo:long rdf:datatype="http://www.w3.org/2001/XMLSchema#double">-2.27319376492</geo:long>
-    <rdfs:label>Recycling Site at Castle Irwell Student Village, Cromwell Road</rdfs:label>
-    <os:easting>381975</os:easting>
-    <ns1:cardboard>Cardboard</ns1:cardboard>
-  </ns3:RecyclingSite>
-  <ns3:RecyclingSite rdf:about="http://data.gmdsp.org.uk/id/salford/recycling/morrison-superstore--swinton-hall-road">
-    <ns1:cardboard>Cardboard</ns1:cardboard>
-    <ns1:cartons>Cartons</ns1:cartons>
-    <os:easting>377801</os:easting>
-    <ns1:cans>Cans</ns1:cans>
-    <vcard:hasAddress rdf:resource="http://data.gmdsp.org.uk/def/council/recycling/address/recycling-point-swinton-hall-road-pendlebury-swinton-manchester-m27-4bt-"/>
-    <os:northing>401946</os:northing>
-    <ns1:shoes>Shoes</ns1:shoes>
-    <ns1:glass>Glass</ns1:glass>
-    <geo:long rdf:datatype="http://www.w3.org/2001/XMLSchema#double">-2.33623070442</geo:long>
-    <geo:lat rdf:datatype="http://www.w3.org/2001/XMLSchema#double">53.5137196479</geo:lat>
-    <ns1:paper>Paper</ns1:paper>
-    <ns1:textiles>Textiles</ns1:textiles>
-    <rdfs:label>Recycling Site at Morrison Superstore, Swinton Hall Road</rdfs:label>
-  </ns3:RecyclingSite>
-  <ns3:RecyclingSite rdf:about="http://data.gmdsp.org.uk/id/salford/recycling/turnpike-house--631-eccles-new-road">
-    <geo:lat rdf:datatype="http://www.w3.org/2001/XMLSchema#double">53.4824980546</geo:lat>
-    <ns1:glass>Glass</ns1:glass>
-    <os:easting>379202</os:easting>
-    <rdfs:label>Recycling Site at Turnpike House, 631 Eccles New Road</rdfs:label>
-    <ns1:plastic>Plastic</ns1:plastic>
-    <ns1:cardboard>Cardboard</ns1:cardboard>
-    <ns1:cartons>Cartons</ns1:cartons>
-    <vcard:hasAddress rdf:resource="http://data.gmdsp.org.uk/def/council/recycling/address/recycling-point-turnpike-house-631-eccles-new-road-salford-m50-1sw-"/>
-    <ns1:paper>Paper</ns1:paper>
-    <geo:long rdf:datatype="http://www.w3.org/2001/XMLSchema#double">-2.31487195478</geo:long>
-    <ns1:aerosols>Aerosols</ns1:aerosols>
-    <ns1:cans>Cans</ns1:cans>
-    <os:northing>398466</os:northing>
-  </ns3:RecyclingSite>
-  <ns3:RecyclingSite rdf:about="http://data.gmdsp.org.uk/id/salford/recycling/crompton-house--swinton">
-    <os:northing>401794</os:northing>
-    <ns1:plastic>Plastic</ns1:plastic>
-    <ns1:cardboard>Cardboard</ns1:cardboard>
-    <ns1:cans>Cans</ns1:cans>
-    <ns1:cartons>Cartons</ns1:cartons>
-    <geo:long rdf:datatype="http://www.w3.org/2001/XMLSchema#double">-2.34148253457</geo:long>
-    <rdfs:label>Recycling Site at Crompton House, Swinton</rdfs:label>
-    <ns1:glass>Glass</ns1:glass>
-    <geo:lat rdf:datatype="http://www.w3.org/2001/XMLSchema#double">53.5123385098</geo:lat>
-    <ns1:aerosols>Aerosols</ns1:aerosols>
-    <os:easting>377452</os:easting>
-    <ns1:shoes>Shoes</ns1:shoes>
-    <vcard:hasAddress rdf:resource="http://data.gmdsp.org.uk/def/council/recycling/address/recycling-point-crompton-house-100-chorley-road-swinton-manchester-m27-6bp-"/>
-    <ns1:textiles>Textiles</ns1:textiles>
-    <ns1:paper>Paper</ns1:paper>
-  </ns3:RecyclingSite>
-  <ns3:RecyclingSite rdf:about="http://data.gmdsp.org.uk/id/salford/recycling/buile-hill-park--eccles-old-road">
-    <rdfs:label>Recycling Site at Buile Hill Park, Eccles Old Road</rdfs:label>
-    <os:easting>379812</os:easting>
-    <geo:long rdf:datatype="http://www.w3.org/2001/XMLSchema#double">-2.30573917013</geo:long>
-    <ns1:glass>Glass</ns1:glass>
-    <geo:lat rdf:datatype="http://www.w3.org/2001/XMLSchema#double">53.4907372412</geo:lat>
-    <os:northing>399380</os:northing>
-    <ns1:paper>Paper</ns1:paper>
-    <ns1:plastic>Plastic</ns1:plastic>
-    <vcard:hasAddress rdf:resource="http://data.gmdsp.org.uk/def/council/recycling/address/recycling-point-buile-hill-park-eccles-old-road-salford-m6-8rf-"/>
-  </ns3:RecyclingSite>
-  <ns3:RecyclingSite rdf:about="http://data.gmdsp.org.uk/id/salford/recycling/victoria-park--park-street--swinton">
-    <vcard:hasAddress rdf:resource="http://data.gmdsp.org.uk/def/council/recycling/address/recycling-point-victoria-park-swinton-hall-road-pendlebury-swinton-manchester-m27-4ua-"/>
-    <rdfs:label>Recycling Site at Victoria Park, Park Street, Swinton</rdfs:label>
-    <geo:long rdf:datatype="http://www.w3.org/2001/XMLSchema#double">-2.32649349367</geo:long>
-    <geo:lat rdf:datatype="http://www.w3.org/2001/XMLSchema#double">53.5103849835</geo:lat>
-    <os:northing>401572</os:northing>
-    <os:easting>378445</os:easting>
-    <ns1:glass>Glass</ns1:glass>
-    <ns1:plastic>Plastic</ns1:plastic>
-    <ns1:paper>Paper</ns1:paper>
-  </ns3:RecyclingSite>
-  <vcard:Location rdf:about="http://data.gmdsp.org.uk/id/salford/recycling/address/recycling-point-tesco-extra-campbell-way-worsley-manchester-m28-3be-">
-    <rdfs:label>Address of Recycling Site at Tesco Car Park, Walkden</rdfs:label>
-    <ns2:postcode rdf:resource="http://data.ordnancesurvey.co.uk/id/postcodeunit/M283BE"/>
-    <vcard:postal-code>M28 3BE</vcard:postal-code>
-    <vcard:street-address>Recycling Point Tesco Extra Campbell Way Worsley Manchester M28 3BE </vcard:street-address>
-  </vcard:Location>
-  <vcard:Location rdf:about="http://data.gmdsp.org.uk/id/salford/recycling/address/recycling-point-standfield-shopping-centre-worsley-manchester-m28-1fb-">
-    <ns2:postcode rdf:resource="http://data.ordnancesurvey.co.uk/id/postcodeunit/M281FB"/>
-    <rdfs:label>Address of Recycling Site at Standfield Shopping Precinct, Boothstown</rdfs:label>
-    <vcard:street-address>Recycling Point Standfield Shopping Centre Worsley Manchester M28 1FB </vcard:street-address>
-    <vcard:postal-code>M28 1FB</vcard:postal-code>
-  </vcard:Location>
-  <ns3:RecyclingSite rdf:about="http://data.gmdsp.org.uk/id/salford/recycling/civic-centre--swinton">
-    <vcard:hasAddress rdf:resource="http://data.gmdsp.org.uk/def/council/recycling/address/recycling-point-salford-civic-centre-chorley-road-swinton-manchester-m27-5aw"/>
-    <os:easting>377654</os:easting>
-    <ns1:textiles>Textiles</ns1:textiles>
-    <ns1:aerosols>Aerosols</ns1:aerosols>
-    <ns1:cardboard>Cardboard</ns1:cardboard>
-    <ns1:cans>Cans</ns1:cans>
-    <ns1:glass>Glass</ns1:glass>
-    <os:northing>401511</os:northing>
-    <rdfs:label>Recycling Site at Civic Centre, Swinton</rdfs:label>
-    <ns1:shoes>Shoes</ns1:shoes>
-    <ns1:paper>Paper</ns1:paper>
-    <geo:long rdf:datatype="http://www.w3.org/2001/XMLSchema#double">-2.33841624945</geo:long>
-    <geo:lat rdf:datatype="http://www.w3.org/2001/XMLSchema#double">53.5098035083</geo:lat>
-    <ns1:plastic>Plastic</ns1:plastic>
-    <ns1:cartons>Cartons</ns1:cartons>
-  </ns3:RecyclingSite>
-  <ns3:RecyclingSite rdf:about="http://data.gmdsp.org.uk/id/salford/recycling/lester-road-houshold-waste-recycling-centre">
-    <ns1:plastic>Plastic</ns1:plastic>
-    <ns1:cardboard>Cardboard</ns1:cardboard>
-    <os:easting>371075</os:easting>
-    <ns1:shoes>Shoes</ns1:shoes>
-    <geo:lat rdf:datatype="http://www.w3.org/2001/XMLSchema#double">53.5335335163</geo:lat>
-    <ns1:cans>Cans</ns1:cans>
-    <geo:long rdf:datatype="http://www.w3.org/2001/XMLSchema#double">-2.43786377414</geo:long>
-    <os:northing>404187</os:northing>
-    <rdfs:label>Recycling Site at Lester Road Houshold Waste Recycling Centre</rdfs:label>
-    <ns1:glass>Glass</ns1:glass>
-    <ns1:aerosols>Aerosols</ns1:aerosols>
-    <ns1:cartons>Cartons</ns1:cartons>
-    <vcard:hasAddress rdf:resource="http://data.gmdsp.org.uk/def/council/recycling/address/recycling-point-lester-road-little-hulton-manchester-m38-0pt-"/>
-    <ns1:textiles>Textiles</ns1:textiles>
-    <ns1:paper>Paper</ns1:paper>
-  </ns3:RecyclingSite>
-  <ns3:RecyclingSite rdf:about="http://data.gmdsp.org.uk/id/salford/recycling/ellesmere-sports-club--worsley">
-    <geo:long rdf:datatype="http://www.w3.org/2001/XMLSchema#double">-2.39204176392</geo:long>
-    <ns1:glass>Glass</ns1:glass>
-    <vcard:hasAddress rdf:resource="http://data.gmdsp.org.uk/def/council/recycling/address/recycling-point-ellesmere-bowling-tennis-and-croquet-club-walkden-road-worsley-manchester-m28-2rz-"/>
-    <ns1:cardboard>Cardboard</ns1:cardboard>
-    <rdfs:label>Recycling Site at Ellesmere Sports Club, Worsley</rdfs:label>
-    <ns1:cartons>Cartons</ns1:cartons>
-    <ns1:paper>Paper</ns1:paper>
-    <ns1:cans>Cans</ns1:cans>
-    <ns1:aerosols>Aerosols</ns1:aerosols>
-    <os:northing>401598</os:northing>
-    <os:easting>374098</os:easting>
-    <geo:lat rdf:datatype="http://www.w3.org/2001/XMLSchema#double">53.5104215632</geo:lat>
-    <ns1:plastic>Plastic</ns1:plastic>
-  </ns3:RecyclingSite>
-  <ns3:RecyclingSite rdf:about="http://data.gmdsp.org.uk/id/salford/recycling/cobden-street-household-waste-recycling-centre">
-    <rdfs:label>Recycling Site at Cobden Street Household Waste Recycling Centre</rdfs:label>
-    <ns1:aerosols>Aerosols</ns1:aerosols>
-    <ns1:paper>Paper</ns1:paper>
-    <geo:lat rdf:datatype="http://www.w3.org/2001/XMLSchema#double">53.4969160812</geo:lat>
-    <geo:long rdf:datatype="http://www.w3.org/2001/XMLSchema#double">-2.2898051257</geo:long>
-    <ns1:plastic>Plastic</ns1:plastic>
-    <ns1:shoes>Shoes</ns1:shoes>
-    <ns1:cans>Cans</ns1:cans>
-    <vcard:hasAddress rdf:resource="http://data.gmdsp.org.uk/def/council/recycling/address/recycling-point-salford-refuse-treatment-plant-cobden-street-salford-m6-6wf-"/>
-    <os:easting>380872</os:easting>
-    <ns1:cardboard>Cardboard</ns1:cardboard>
-    <os:northing>400063</os:northing>
-    <ns1:glass>Glass</ns1:glass>
-    <ns1:cartons>Cartons</ns1:cartons>
-    <ns1:textiles>Textiles</ns1:textiles>
-  </ns3:RecyclingSite>
-  <ns3:RecyclingSite rdf:about="http://data.gmdsp.org.uk/id/salford/recycling/mocha-parade--lower-broughton">
-    <geo:long rdf:datatype="http://www.w3.org/2001/XMLSchema#double">-2.2609836659</geo:long>
-    <os:easting>382782</os:easting>
-    <vcard:hasAddress rdf:resource="http://data.gmdsp.org.uk/def/council/recycling/address/recycling-point-mocha-parade-salford-m7-1qe-"/>
-    <geo:lat rdf:datatype="http://www.w3.org/2001/XMLSchema#double">53.4920389016</geo:lat>
-    <ns1:glass>Glass</ns1:glass>
-    <os:northing>399513</os:northing>
-    <rdfs:label>Recycling Site at Mocha Parade, Lower Broughton</rdfs:label>
-  </ns3:RecyclingSite>
-  <vcard:Location rdf:about="http://data.gmdsp.org.uk/id/salford/recycling/address/recycling-point-salford-civic-centre-chorley-road-swinton-manchester-m27-5aw">
-    <vcard:street-address>Recycling Point Salford Civic Centre Chorley Road Swinton Manchester M27 5AW</vcard:street-address>
-    <ns2:postcode rdf:resource="http://data.ordnancesurvey.co.uk/id/postcodeunit/M275AW"/>
-    <rdfs:label>Address of Recycling Site at Civic Centre, Swinton</rdfs:label>
-    <vcard:postal-code>M27 5AW</vcard:postal-code>
-  </vcard:Location>
-  <ns3:RecyclingSite rdf:about="http://data.gmdsp.org.uk/id/salford/recycling/st-james-rectory--great-cheetham-street-east">
-    <os:northing>400797</os:northing>
-    <ns1:cartons>Cartons</ns1:cartons>
-    <ns1:glass>Glass</ns1:glass>
+    <ns2:recyclingType rdf:resource="http://data.gmdsp.org.uk/def/council/recycling/recycling-type/cartons"/>
+    <os:northing>395750</os:northing>
+    <ns2:recyclingType rdf:resource="http://data.gmdsp.org.uk/def/council/recycling/recycling-type/paper"/>
+    <rdfs:label>Recycling Site at Boysnope Wharf Household Waste Recycling Centre</rdfs:label>
+    <ns2:recyclingType rdf:resource="http://data.gmdsp.org.uk/def/council/recycling/recycling-type/aerosols"/>
+    <ns2:recyclingType rdf:resource="http://data.gmdsp.org.uk/def/council/recycling/recycling-type/textiles"/>
+    <ns2:recyclingType rdf:resource="http://data.gmdsp.org.uk/def/council/recycling/recycling-type/cans"/>
+  </ns2:RecyclingSite>
+  <ns2:RecyclingSite rdf:about="http://data.gmdsp.org.uk/id/salford/recycling/lumns-lane-household-waste-recycling-centre">
+    <ns2:recyclingType rdf:resource="http://data.gmdsp.org.uk/def/council/recycling/recycling-type/glass"/>
+    <geo:lat rdf:datatype="http://www.w3.org/2001/XMLSchema#double">53.5169688091</geo:lat>
+    <os:northing>402300</os:northing>
+    <ns2:recyclingType rdf:resource="http://data.gmdsp.org.uk/def/council/recycling/recycling-type/aerosols"/>
+    <ns2:recyclingType rdf:resource="http://data.gmdsp.org.uk/def/council/recycling/recycling-type/textiles"/>
+    <ns2:recyclingType rdf:resource="http://data.gmdsp.org.uk/def/council/recycling/recycling-type/cans"/>
+    <ns2:recyclingType rdf:resource="http://data.gmdsp.org.uk/def/council/recycling/recycling-type/paper"/>
+    <rdfs:label>Recycling Site at Lumns Lane Household Waste Recycling Centre</rdfs:label>
+    <geo:long rdf:datatype="http://www.w3.org/2001/XMLSchema#double">-2.31141769304</geo:long>
+    <vcard:hasAddress>
+      <vcard:Location rdf:about="http://data.gmdsp.org.uk/id/salford/recycling/address/recycling-point-lumns-lane-clifton-swinton-manchester-m27-8ln">
+        <vcard:street-address>Recycling Point Lumns Lane Clifton Swinton Manchester M27 8LN </vcard:street-address>
+        <vcard:postal-code>M27 8LN</vcard:postal-code>
+        <ns1:postcode rdf:resource="http://data.ordnancesurvey.co.uk/id/postcodeunit/M278LN"/>
+        <rdfs:label>Address of Recycling Site at Lumns Lane Household Waste Recycling Centre</rdfs:label>
+      </vcard:Location>
+    </vcard:hasAddress>
+    <ns2:recyclingType rdf:resource="http://data.gmdsp.org.uk/def/council/recycling/recycling-type/cardboard"/>
+    <ns2:recyclingType rdf:resource="http://data.gmdsp.org.uk/def/council/recycling/recycling-type/shoes"/>
+    <os:easting>379448</os:easting>
+    <ns2:recyclingType rdf:resource="http://data.gmdsp.org.uk/def/council/recycling/recycling-type/cartons"/>
+    <ns2:recyclingType rdf:resource="http://data.gmdsp.org.uk/def/council/recycling/recycling-type/plastic"/>
+  </ns2:RecyclingSite>
+  <ns2:RecyclingSite rdf:about="http://data.gmdsp.org.uk/id/salford/recycling/st-james-rectory--great-cheetham-street-east">
     <os:easting>383368</os:easting>
     <geo:long rdf:datatype="http://www.w3.org/2001/XMLSchema#double">-2.25221993986</geo:long>
-    <ns1:cans>Cans</ns1:cans>
-    <geo:lat rdf:datatype="http://www.w3.org/2001/XMLSchema#double">53.5035988836</geo:lat>
-    <ns1:aerosols>Aerosols</ns1:aerosols>
+    <os:northing>400797</os:northing>
+    <ns2:recyclingType rdf:resource="http://data.gmdsp.org.uk/def/council/recycling/recycling-type/cartons"/>
     <rdfs:label>Recycling Site at St James Rectory, Great Cheetham Street East</rdfs:label>
-    <ns1:plastic>Plastic</ns1:plastic>
-    <ns1:paper>Paper</ns1:paper>
-    <vcard:hasAddress rdf:resource="http://data.gmdsp.org.uk/def/council/recycling/address/recycling-point-the-rectory-396-great-cheetham-street-east-salford-m7-4uh-"/>
-    <ns1:cardboard>Cardboard</ns1:cardboard>
-  </ns3:RecyclingSite>
-  <ns3:RecyclingSite rdf:about="http://data.gmdsp.org.uk/id/salford/recycling/blackleach-country-park--walkden-(off-bolton-road)">
-    <ns1:paper>Paper</ns1:paper>
-    <vcard:hasAddress rdf:resource="http://data.gmdsp.org.uk/def/council/recycling/address/recycling-point-blackleach-country-park-visitor-centre-john-street-worsley-manchester-m28-3qq-"/>
-    <ns1:glass>Glass</ns1:glass>
-    <geo:lat rdf:datatype="http://www.w3.org/2001/XMLSchema#double">53.5302752393</geo:lat>
-    <os:easting>373714</os:easting>
-    <rdfs:label>Recycling Site at Blackleach Country Park, Walkden (off Bolton Road)</rdfs:label>
-    <geo:long rdf:datatype="http://www.w3.org/2001/XMLSchema#double">-2.3980182318</geo:long>
-    <ns1:plastic>Plastic</ns1:plastic>
-    <os:northing>403809</os:northing>
-  </ns3:RecyclingSite>
-  <vcard:Location rdf:about="http://data.gmdsp.org.uk/id/salford/recycling/address/household-waste-recycling-centre-boysnope-wharf-eccles-manchester-m30-7rh-">
-    <rdfs:label>Address of Recycling Site at Boysnope Wharf Household Waste Recycling Centre</rdfs:label>
-    <vcard:street-address>Household Waste Recycling Centre Boysnope Wharf Eccles Manchester M30 7RH </vcard:street-address>
-    <vcard:postal-code>M30 7RH</vcard:postal-code>
-    <ns2:postcode rdf:resource="http://data.ordnancesurvey.co.uk/id/postcodeunit/M307RH"/>
-  </vcard:Location>
-  <ns3:RecyclingSite rdf:about="http://data.gmdsp.org.uk/id/salford/recycling/co-op-superstore--bolton-road">
-    <os:easting>379533</os:easting>
-    <ns1:shoes>Shoes</ns1:shoes>
-    <ns1:glass>Glass</ns1:glass>
-    <vcard:hasAddress rdf:resource="http://data.gmdsp.org.uk/def/council/recycling/address/co-op-superstore-recycling-point-389-bolton-road-salford-m6-7nj-"/>
-    <ns1:textiles>Textiles</ns1:textiles>
-    <ns1:paper>Paper</ns1:paper>
-    <ns1:cardboard>Cardboard</ns1:cardboard>
-    <os:northing>400577</os:northing>
-    <ns1:cartons>Cartons</ns1:cartons>
-    <rdfs:label>Recycling Site at Co-op Superstore, Bolton Road</rdfs:label>
-    <geo:long rdf:datatype="http://www.w3.org/2001/XMLSchema#double">-2.31002268309</geo:long>
-    <geo:lat rdf:datatype="http://www.w3.org/2001/XMLSchema#double">53.5014853727</geo:lat>
-  </ns3:RecyclingSite>
-  <ns3:RecyclingSite rdf:about="http://data.gmdsp.org.uk/id/salford/recycling/lumns-lane-household-waste-recycling-centre">
-    <ns1:plastic>Plastic</ns1:plastic>
-    <geo:lat rdf:datatype="http://www.w3.org/2001/XMLSchema#double">53.5169688091</geo:lat>
-    <ns1:glass>Glass</ns1:glass>
-    <ns1:cartons>Cartons</ns1:cartons>
-    <ns1:paper>Paper</ns1:paper>
-    <ns1:aerosols>Aerosols</ns1:aerosols>
-    <os:northing>402300</os:northing>
-    <rdfs:label>Recycling Site at Lumns Lane Household Waste Recycling Centre</rdfs:label>
-    <os:easting>379448</os:easting>
-    <vcard:hasAddress rdf:resource="http://data.gmdsp.org.uk/def/council/recycling/address/recycling-point-lumns-lane-clifton-swinton-manchester-m27-8ln-"/>
-    <ns1:textiles>Textiles</ns1:textiles>
-    <ns1:cardboard>Cardboard</ns1:cardboard>
-    <ns1:shoes>Shoes</ns1:shoes>
-    <geo:long rdf:datatype="http://www.w3.org/2001/XMLSchema#double">-2.31141769304</geo:long>
-    <ns1:cans>Cans</ns1:cans>
-  </ns3:RecyclingSite>
-  <ns3:RecyclingSite rdf:about="http://data.gmdsp.org.uk/id/salford/recycling/john-william-car-park--eccles">
-    <geo:lat rdf:datatype="http://www.w3.org/2001/XMLSchema#double">53.4852964206</geo:lat>
-    <ns1:textiles>Textiles</ns1:textiles>
-    <vcard:hasAddress rdf:resource="http://data.gmdsp.org.uk/def/council/recycling/address/recycling-point-john-william-street-eccles-manchester-m30-0lj-"/>
-    <geo:long rdf:datatype="http://www.w3.org/2001/XMLSchema#double">-2.33684964808</geo:long>
-    <ns1:cardboard>Cardboard</ns1:cardboard>
-    <rdfs:label>Recycling Site at John William Car Park, Eccles</rdfs:label>
-    <ns1:shoes>Shoes</ns1:shoes>
-    <ns1:paper>Paper</ns1:paper>
-    <os:northing>398784</os:northing>
-    <ns1:glass>Glass</ns1:glass>
-    <ns1:cartons>Cartons</ns1:cartons>
-    <os:easting>377745</os:easting>
-  </ns3:RecyclingSite>
-  <ns3:RecyclingSite rdf:about="http://data.gmdsp.org.uk/id/salford/recycling/tesco-car-park--walkden">
-    <ns1:plastic>Plastic</ns1:plastic>
-    <ns1:cans>Cans</ns1:cans>
-    <vcard:hasAddress rdf:resource="http://data.gmdsp.org.uk/def/council/recycling/address/recycling-point-tesco-extra-campbell-way-worsley-manchester-m28-3be-"/>
-    <ns1:aerosols>Aerosols</ns1:aerosols>
-    <os:easting>373336</os:easting>
-    <ns1:paper>Paper</ns1:paper>
-    <geo:long rdf:datatype="http://www.w3.org/2001/XMLSchema#double">-2.40367932482</geo:long>
-    <ns1:textiles>Textiles</ns1:textiles>
-    <geo:lat rdf:datatype="http://www.w3.org/2001/XMLSchema#double">53.5259238276</geo:lat>
-    <ns1:glass>Glass</ns1:glass>
-    <os:northing>403327</os:northing>
-    <ns1:cartons>Cartons</ns1:cartons>
-    <rdfs:label>Recycling Site at Tesco Car Park, Walkden</rdfs:label>
-    <ns1:cardboard>Cardboard</ns1:cardboard>
-    <ns1:shoes>Shoes</ns1:shoes>
-  </ns3:RecyclingSite>
-  <vcard:Location rdf:about="http://data.gmdsp.org.uk/id/salford/recycling/address/recycling-point-buile-hill-park-eccles-old-road-salford-m6-8rf-">
-    <rdfs:label>Address of Recycling Site at Buile Hill Park, Eccles Old Road</rdfs:label>
-    <ns2:postcode rdf:resource="http://data.ordnancesurvey.co.uk/id/postcodeunit/M68RF"/>
-    <vcard:postal-code>M6 8RF</vcard:postal-code>
-    <vcard:street-address>Recycling Point Buile Hill Park Eccles Old Road Salford M6 8RF </vcard:street-address>
-  </vcard:Location>
-  <ns3:RecyclingSite rdf:about="http://data.gmdsp.org.uk/id/salford/recycling/the-servite-parish-centre--broughton">
-    <rdfs:label>Recycling Site at The Servite Parish Centre, Broughton</rdfs:label>
-    <os:northing>402268</os:northing>
-    <ns1:glass>Glass</ns1:glass>
-    <geo:long rdf:datatype="http://www.w3.org/2001/XMLSchema#double">-2.27027499386</geo:long>
-    <vcard:hasAddress rdf:resource="http://data.gmdsp.org.uk/def/council/recycling/address/recycling-point-cavendish-road-salford-m7-4wp-"/>
-    <geo:lat rdf:datatype="http://www.w3.org/2001/XMLSchema#double">53.5167813526</geo:lat>
-    <os:easting>382176</os:easting>
-  </ns3:RecyclingSite>
-  <vcard:Location rdf:about="http://data.gmdsp.org.uk/id/salford/recycling/address/recycling-point-lumns-lane-clifton-swinton-manchester-m27-8ln-">
-    <ns2:postcode rdf:resource="http://data.ordnancesurvey.co.uk/id/postcodeunit/M278LN"/>
-    <rdfs:label>Address of Recycling Site at Lumns Lane Household Waste Recycling Centre</rdfs:label>
-    <vcard:street-address>Recycling Point Lumns Lane Clifton Swinton Manchester M27 8LN </vcard:street-address>
-    <vcard:postal-code>M27 8LN</vcard:postal-code>
-  </vcard:Location>
-  <ns3:RecyclingSite rdf:about="http://data.gmdsp.org.uk/id/salford/recycling/tesco-superstore--fairhills-road--irlam">
-    <ns1:textiles>Textiles</ns1:textiles>
-    <geo:lat rdf:datatype="http://www.w3.org/2001/XMLSchema#double">53.4394781738</geo:lat>
-    <ns1:plastic>Plastic</ns1:plastic>
-    <os:northing>393717</os:northing>
-    <ns1:glass>Glass</ns1:glass>
-    <os:easting>372011</os:easting>
-    <ns1:cans>Cans</ns1:cans>
-    <geo:long rdf:datatype="http://www.w3.org/2001/XMLSchema#double">-2.42280528651</geo:long>
-    <vcard:hasAddress rdf:resource="http://data.gmdsp.org.uk/def/council/recycling/address/recycling-point-tesco-fairhills-road-irlam-manchester-m44-6bl-"/>
-    <rdfs:label>Recycling Site at Tesco Superstore, Fairhills Road, Irlam</rdfs:label>
-    <ns1:shoes>Shoes</ns1:shoes>
-  </ns3:RecyclingSite>
-  <vcard:Location rdf:about="http://data.gmdsp.org.uk/id/salford/recycling/address/recycling-point-tesco-fairhills-road-irlam-manchester-m44-6bl-">
-    <vcard:postal-code>M44 6BL</vcard:postal-code>
-    <rdfs:label>Address of Recycling Site at Tesco Superstore, Fairhills Road, Irlam</rdfs:label>
-    <ns2:postcode rdf:resource="http://data.ordnancesurvey.co.uk/id/postcodeunit/M446BL"/>
-    <vcard:street-address>Recycling Point Tesco Fairhills Road Irlam Manchester M44 6BL </vcard:street-address>
-  </vcard:Location>
-  <vcard:Location rdf:about="http://data.gmdsp.org.uk/id/salford/recycling/address/recycling-point-7-irwell-place-eccles-manchester-m30-0fh-">
-    <vcard:postal-code>M30 0FH</vcard:postal-code>
-    <vcard:street-address>Recycling Point 7 Irwell Place Eccles Manchester M30 0FH </vcard:street-address>
-    <ns2:postcode rdf:resource="http://data.ordnancesurvey.co.uk/id/postcodeunit/M300FH"/>
-    <rdfs:label>Address of Recycling Site at Morrison Superstore, Bentcliffe Way, Eccles</rdfs:label>
-  </vcard:Location>
-  <ns3:RecyclingSite rdf:about="http://data.gmdsp.org.uk/id/salford/recycling/little-hulton-shopping-precinct">
-    <geo:lat rdf:datatype="http://www.w3.org/2001/XMLSchema#double">53.5299714876</geo:lat>
-    <os:northing>403784</os:northing>
-    <geo:long rdf:datatype="http://www.w3.org/2001/XMLSchema#double">-2.42108167986</geo:long>
-    <rdfs:label>Recycling Site at Little Hulton Shopping Precinct</rdfs:label>
-    <os:easting>372185</os:easting>
-    <ns1:glass>Glass</ns1:glass>
-    <vcard:hasAddress rdf:resource="http://data.gmdsp.org.uk/def/council/recycling/address/recycling-point-salford-city-council-car-park-county-road-worsley-manchester-m28-0az-"/>
-  </ns3:RecyclingSite>
-  <vcard:Location rdf:about="http://data.gmdsp.org.uk/id/salford/recycling/address/recycling-point-swinton-hall-road-pendlebury-swinton-manchester-m27-4bt-">
-    <ns2:postcode rdf:resource="http://data.ordnancesurvey.co.uk/id/postcodeunit/M274BT"/>
-    <vcard:street-address>Recycling Point Swinton Hall Road Pendlebury Swinton Manchester M27 4BT </vcard:street-address>
-    <vcard:postal-code>M27 4BT</vcard:postal-code>
-    <rdfs:label>Address of Recycling Site at Morrison Superstore, Swinton Hall Road</rdfs:label>
-  </vcard:Location>
-  <vcard:Location rdf:about="http://data.gmdsp.org.uk/id/salford/recycling/address/recycling-point-turnpike-house-631-eccles-new-road-salford-m50-1sw-">
-    <rdfs:label>Address of Recycling Site at Turnpike House, 631 Eccles New Road</rdfs:label>
-    <ns2:postcode rdf:resource="http://data.ordnancesurvey.co.uk/id/postcodeunit/M501SW"/>
-    <vcard:street-address>Recycling Point Turnpike House 631 Eccles New Road Salford M50 1SW </vcard:street-address>
-    <vcard:postal-code>M50 1SW</vcard:postal-code>
-  </vcard:Location>
-  <ns3:RecyclingSite rdf:about="http://data.gmdsp.org.uk/id/salford/recycling/standfield-shopping-precinct--boothstown">
-    <ns1:textiles>Textiles</ns1:textiles>
-    <geo:long rdf:datatype="http://www.w3.org/2001/XMLSchema#double">-2.41606926311</geo:long>
-    <vcard:hasAddress rdf:resource="http://data.gmdsp.org.uk/def/council/recycling/address/recycling-point-standfield-shopping-centre-worsley-manchester-m28-1fb-"/>
-    <os:easting>372500</os:easting>
-    <ns1:cartons>Cartons</ns1:cartons>
-    <os:northing>400828</os:northing>
-    <ns1:glass>Glass</ns1:glass>
-    <ns1:paper>Paper</ns1:paper>
-    <rdfs:label>Recycling Site at Standfield Shopping Precinct, Boothstown</rdfs:label>
-    <ns1:cardboard>Cardboard</ns1:cardboard>
-    <ns1:shoes>Shoes</ns1:shoes>
-    <geo:lat rdf:datatype="http://www.w3.org/2001/XMLSchema#double">53.5034191875</geo:lat>
-  </ns3:RecyclingSite>
-  <ns3:RecyclingSite rdf:about="http://data.gmdsp.org.uk/id/salford/recycling/clifton-country-park--clifton">
-    <os:northing>404085</os:northing>
-    <vcard:hasAddress rdf:resource="http://data.gmdsp.org.uk/def/council/recycling/address/recycling-point-clifton-country-park-clifton-house-road-clifton-swinton-manchester-m27-6ng-"/>
-    <geo:long rdf:datatype="http://www.w3.org/2001/XMLSchema#double">-2.3464609086</geo:long>
-    <rdfs:label>Recycling Site at Clifton Country Park, Clifton</rdfs:label>
-    <ns1:glass>Glass</ns1:glass>
-    <geo:lat rdf:datatype="http://www.w3.org/2001/XMLSchema#double">53.5329166444</geo:lat>
-    <ns1:paper>Paper</ns1:paper>
-    <os:easting>377133</os:easting>
-    <ns1:plastic>Plastic</ns1:plastic>
-  </ns3:RecyclingSite>
-  <ns3:RecyclingSite rdf:about="http://data.gmdsp.org.uk/id/salford/recycling/monton-road-car-park--monton">
-    <rdfs:label>Recycling Site at Monton Road Car Park, Monton</rdfs:label>
-    <ns1:paper>Paper</ns1:paper>
-    <os:easting>376844</os:easting>
-    <ns1:cardboard>Cardboard</ns1:cardboard>
-    <vcard:hasAddress rdf:resource="http://data.gmdsp.org.uk/def/council/recycling/address/recycling-point-salford-city-council-car-park-monton-road-eccles-manchester-m30-9ga-"/>
-    <ns1:glass>Glass</ns1:glass>
-    <ns1:cans>Cans</ns1:cans>
-    <geo:long rdf:datatype="http://www.w3.org/2001/XMLSchema#double">-2.35048069158</geo:long>
-    <ns1:plastic>Plastic</ns1:plastic>
-    <geo:lat rdf:datatype="http://www.w3.org/2001/XMLSchema#double">53.4917199083</geo:lat>
-    <os:northing>399503</os:northing>
-    <ns1:cartons>Cartons</ns1:cartons>
-    <ns1:shoes>Shoes</ns1:shoes>
-    <ns1:aerosols>Aerosols</ns1:aerosols>
-  </ns3:RecyclingSite>
-  <vcard:Location rdf:about="http://data.gmdsp.org.uk/id/salford/recycling/address/recycling-point-victoria-park-swinton-hall-road-pendlebury-swinton-manchester-m27-4ua-">
-    <ns2:postcode rdf:resource="http://data.ordnancesurvey.co.uk/id/postcodeunit/M274UA"/>
-    <rdfs:label>Address of Recycling Site at Victoria Park, Park Street, Swinton</rdfs:label>
-    <vcard:postal-code>M27 4UA</vcard:postal-code>
-    <vcard:street-address>Recycling Point Victoria Park Swinton Hall Road Pendlebury Swinton Manchester M27 4UA </vcard:street-address>
-  </vcard:Location>
-  <vcard:Location rdf:about="http://data.gmdsp.org.uk/id/salford/recycling/address/recycling-point-mocha-parade-salford-m7-1qe-">
-    <ns2:postcode rdf:resource="http://data.ordnancesurvey.co.uk/id/postcodeunit/M71QE"/>
-    <vcard:postal-code>M7 1QE</vcard:postal-code>
-    <rdfs:label>Address of Recycling Site at Mocha Parade, Lower Broughton</rdfs:label>
-    <vcard:street-address>Recycling Point Mocha Parade Salford M7 1QE </vcard:street-address>
-  </vcard:Location>
-  <vcard:Location rdf:about="http://data.gmdsp.org.uk/id/salford/recycling/address/recycling-point-blackleach-country-park-visitor-centre-john-street-worsley-manchester-m28-3qq-">
-    <vcard:street-address>Recycling Point Blackleach Country Park Visitor Centre John Street Worsley Manchester M28 3QQ </vcard:street-address>
-    <vcard:postal-code>M28 3QQ</vcard:postal-code>
-    <ns2:postcode rdf:resource="http://data.ordnancesurvey.co.uk/id/postcodeunit/M283QQ"/>
-    <rdfs:label>Address of Recycling Site at Blackleach Country Park, Walkden (off Bolton Road)</rdfs:label>
-  </vcard:Location>
-  <vcard:Location rdf:about="http://data.gmdsp.org.uk/id/salford/recycling/address/recycling-point-salford-city-council-car-park-county-road-worsley-manchester-m28-0az-">
-    <rdfs:label>Address of Recycling Site at Little Hulton Shopping Precinct</rdfs:label>
-    <vcard:street-address>Recycling Point Salford City Council Car Park County Road Worsley Manchester M28 0AZ </vcard:street-address>
-    <vcard:postal-code>M28 0AZ</vcard:postal-code>
-    <ns2:postcode rdf:resource="http://data.ordnancesurvey.co.uk/id/postcodeunit/M280AZ"/>
-  </vcard:Location>
-  <vcard:Location rdf:about="http://data.gmdsp.org.uk/id/salford/recycling/address/recycling-point-st-lukes-presbytery-swinton-park-road-salford-m6-7wr-">
-    <vcard:street-address>Recycling Point St Lukes Presbytery Swinton Park Road Salford M6 7WR </vcard:street-address>
-    <vcard:postal-code>M6 7WR</vcard:postal-code>
-    <rdfs:label>Address of Recycling Site at St. Lukes Presbytery, Claremont</rdfs:label>
-    <ns2:postcode rdf:resource="http://data.ordnancesurvey.co.uk/id/postcodeunit/M67WR"/>
-  </vcard:Location>
-  <vcard:Location rdf:about="http://data.gmdsp.org.uk/id/salford/recycling/address/co-op-superstore-recycling-point-389-bolton-road-salford-m6-7nj-">
-    <vcard:street-address>Co-op Superstore Recycling Point 389 Bolton Road Salford M6 7NJ </vcard:street-address>
-    <rdfs:label>Address of Recycling Site at Co-op Superstore, Bolton Road</rdfs:label>
-    <vcard:postal-code>M6 7NJ</vcard:postal-code>
-    <ns2:postcode rdf:resource="http://data.ordnancesurvey.co.uk/id/postcodeunit/M67NJ"/>
-  </vcard:Location>
-  <vcard:Location rdf:about="http://data.gmdsp.org.uk/id/salford/recycling/address/recycling-point-clifton-country-park-clifton-house-road-clifton-swinton-manchester-m27-6ng-">
-    <vcard:postal-code>M27 6NG</vcard:postal-code>
-    <vcard:street-address>Recycling Point Clifton Country Park Clifton House Road Clifton Swinton Manchester M27 6NG </vcard:street-address>
-    <ns2:postcode rdf:resource="http://data.ordnancesurvey.co.uk/id/postcodeunit/M276NG"/>
-    <rdfs:label>Address of Recycling Site at Clifton Country Park, Clifton</rdfs:label>
-  </vcard:Location>
-  <ns3:RecyclingSite rdf:about="http://data.gmdsp.org.uk/id/salford/recycling/morrison-superstore--bentcliffe-way--eccles">
+    <ns2:recyclingType rdf:resource="http://data.gmdsp.org.uk/def/council/recycling/recycling-type/cans"/>
+    <ns2:recyclingType rdf:resource="http://data.gmdsp.org.uk/def/council/recycling/recycling-type/glass"/>
+    <geo:lat rdf:datatype="http://www.w3.org/2001/XMLSchema#double">53.5035988836</geo:lat>
+    <ns2:recyclingType rdf:resource="http://data.gmdsp.org.uk/def/council/recycling/recycling-type/aerosols"/>
+    <ns2:recyclingType rdf:resource="http://data.gmdsp.org.uk/def/council/recycling/recycling-type/plastic"/>
+    <vcard:hasAddress>
+      <vcard:Location rdf:about="http://data.gmdsp.org.uk/id/salford/recycling/address/recycling-point-the-rectory-396-great-cheetham-street-east-salford-m7-4uh">
+        <vcard:postal-code>M7 4UH</vcard:postal-code>
+        <ns1:postcode rdf:resource="http://data.ordnancesurvey.co.uk/id/postcodeunit/M74UH"/>
+        <rdfs:label>Address of Recycling Site at St James Rectory, Great Cheetham Street East</rdfs:label>
+        <vcard:street-address>Recycling Point The Rectory 396 Great Cheetham Street East Salford M7 4UH </vcard:street-address>
+      </vcard:Location>
+    </vcard:hasAddress>
+    <ns2:recyclingType rdf:resource="http://data.gmdsp.org.uk/def/council/recycling/recycling-type/paper"/>
+    <ns2:recyclingType rdf:resource="http://data.gmdsp.org.uk/def/council/recycling/recycling-type/cardboard"/>
+  </ns2:RecyclingSite>
+  <ns2:RecyclingSite rdf:about="http://data.gmdsp.org.uk/id/salford/recycling/morrison-superstore--bentcliffe-way--eccles">
+    <ns2:recyclingType rdf:resource="http://data.gmdsp.org.uk/def/council/recycling/recycling-type/cardboard"/>
     <os:northing>398415</os:northing>
-    <ns1:paper>Paper</ns1:paper>
-    <ns1:cardboard>Cardboard</ns1:cardboard>
-    <ns1:cans>Cans</ns1:cans>
-    <ns1:shoes>Shoes</ns1:shoes>
+    <ns2:recyclingType rdf:resource="http://data.gmdsp.org.uk/def/council/recycling/recycling-type/shoes"/>
+    <ns2:recyclingType rdf:resource="http://data.gmdsp.org.uk/def/council/recycling/recycling-type/cans"/>
     <geo:lat rdf:datatype="http://www.w3.org/2001/XMLSchema#double">53.4819792797</geo:lat>
     <rdfs:label>Recycling Site at Morrison Superstore, Bentcliffe Way, Eccles</rdfs:label>
-    <ns1:textiles>Textiles</ns1:textiles>
-    <vcard:hasAddress rdf:resource="http://data.gmdsp.org.uk/def/council/recycling/address/recycling-point-7-irwell-place-eccles-manchester-m30-0fh-"/>
-    <os:easting>377734</os:easting>
-    <ns1:cartons>Cartons</ns1:cartons>
-    <ns1:glass>Glass</ns1:glass>
+    <ns2:recyclingType rdf:resource="http://data.gmdsp.org.uk/def/council/recycling/recycling-type/cartons"/>
     <geo:long rdf:datatype="http://www.w3.org/2001/XMLSchema#double">-2.33698910835</geo:long>
-    <ns1:plastic>Plastic</ns1:plastic>
-  </ns3:RecyclingSite>
-  <vcard:Location rdf:about="http://data.gmdsp.org.uk/id/salford/recycling/address/recycling-point-castle-irwell-student-village-cromwell-road-salford-m6-6db-">
-    <rdfs:label>Address of Recycling Site at Castle Irwell Student Village, Cromwell Road</rdfs:label>
-    <vcard:street-address>Recycling Point Castle Irwell Student Village Cromwell Road Salford M6 6DB </vcard:street-address>
-    <vcard:postal-code>M6 6DB</vcard:postal-code>
-    <ns2:postcode rdf:resource="http://data.ordnancesurvey.co.uk/id/postcodeunit/M66DB"/>
-  </vcard:Location>
-  <vcard:Location rdf:about="http://data.gmdsp.org.uk/id/salford/recycling/address/recycling-point-salford-city-council-car-park-monton-road-eccles-manchester-m30-9ga-">
-    <vcard:postal-code>M30 9GA</vcard:postal-code>
-    <rdfs:label>Address of Recycling Site at Monton Road Car Park, Monton</rdfs:label>
-    <vcard:street-address>Recycling Point Salford City Council Car Park Monton Road Eccles Manchester M30 9GA </vcard:street-address>
-    <ns2:postcode rdf:resource="http://data.ordnancesurvey.co.uk/id/postcodeunit/M309GA"/>
-  </vcard:Location>
-  <vcard:Location rdf:about="http://data.gmdsp.org.uk/id/salford/recycling/address/recycling-point-salford-refuse-treatment-plant-cobden-street-salford-m6-6wf-">
-    <ns2:postcode rdf:resource="http://data.ordnancesurvey.co.uk/id/postcodeunit/M66WF"/>
-    <vcard:street-address>Recycling Point Salford Refuse Treatment Plant Cobden Street Salford M6 6WF </vcard:street-address>
-    <rdfs:label>Address of Recycling Site at Cobden Street Household Waste Recycling Centre</rdfs:label>
-    <vcard:postal-code>M6 6WF</vcard:postal-code>
-  </vcard:Location>
-  <ns3:RecyclingSite rdf:about="http://data.gmdsp.org.uk/id/salford/recycling/st.-lukes-presbytery--claremont">
+    <ns2:recyclingType rdf:resource="http://data.gmdsp.org.uk/def/council/recycling/recycling-type/plastic"/>
+    <vcard:hasAddress>
+      <vcard:Location rdf:about="http://data.gmdsp.org.uk/id/salford/recycling/address/recycling-point-7-irwell-place-eccles-manchester-m30-0fh">
+        <vcard:street-address>Recycling Point 7 Irwell Place Eccles Manchester M30 0FH </vcard:street-address>
+        <ns1:postcode rdf:resource="http://data.ordnancesurvey.co.uk/id/postcodeunit/M300FH"/>
+        <vcard:postal-code>M30 0FH</vcard:postal-code>
+        <rdfs:label>Address of Recycling Site at Morrison Superstore, Bentcliffe Way, Eccles</rdfs:label>
+      </vcard:Location>
+    </vcard:hasAddress>
+    <ns2:recyclingType rdf:resource="http://data.gmdsp.org.uk/def/council/recycling/recycling-type/paper"/>
+    <ns2:recyclingType rdf:resource="http://data.gmdsp.org.uk/def/council/recycling/recycling-type/glass"/>
+    <os:easting>377734</os:easting>
+    <ns2:recyclingType rdf:resource="http://data.gmdsp.org.uk/def/council/recycling/recycling-type/textiles"/>
+  </ns2:RecyclingSite>
+  <ns2:RecyclingSite rdf:about="http://data.gmdsp.org.uk/id/salford/recycling/monton-road-car-park--monton">
+    <os:northing>399503</os:northing>
+    <ns2:recyclingType rdf:resource="http://data.gmdsp.org.uk/def/council/recycling/recycling-type/shoes"/>
+    <rdfs:label>Recycling Site at Monton Road Car Park, Monton</rdfs:label>
+    <geo:lat rdf:datatype="http://www.w3.org/2001/XMLSchema#double">53.4917199083</geo:lat>
+    <geo:long rdf:datatype="http://www.w3.org/2001/XMLSchema#double">-2.35048069158</geo:long>
+    <ns2:recyclingType rdf:resource="http://data.gmdsp.org.uk/def/council/recycling/recycling-type/cardboard"/>
+    <ns2:recyclingType rdf:resource="http://data.gmdsp.org.uk/def/council/recycling/recycling-type/glass"/>
+    <ns2:recyclingType rdf:resource="http://data.gmdsp.org.uk/def/council/recycling/recycling-type/plastic"/>
+    <ns2:recyclingType rdf:resource="http://data.gmdsp.org.uk/def/council/recycling/recycling-type/cartons"/>
+    <os:easting>376844</os:easting>
+    <ns2:recyclingType rdf:resource="http://data.gmdsp.org.uk/def/council/recycling/recycling-type/paper"/>
+    <vcard:hasAddress>
+      <vcard:Location rdf:about="http://data.gmdsp.org.uk/id/salford/recycling/address/recycling-point-salford-city-council-car-park-monton-road-eccles-manchester-m30-9ga">
+        <ns1:postcode rdf:resource="http://data.ordnancesurvey.co.uk/id/postcodeunit/M309GA"/>
+        <rdfs:label>Address of Recycling Site at Monton Road Car Park, Monton</rdfs:label>
+        <vcard:street-address>Recycling Point Salford City Council Car Park Monton Road Eccles Manchester M30 9GA </vcard:street-address>
+        <vcard:postal-code>M30 9GA</vcard:postal-code>
+      </vcard:Location>
+    </vcard:hasAddress>
+    <ns2:recyclingType rdf:resource="http://data.gmdsp.org.uk/def/council/recycling/recycling-type/aerosols"/>
+    <ns2:recyclingType rdf:resource="http://data.gmdsp.org.uk/def/council/recycling/recycling-type/cans"/>
+  </ns2:RecyclingSite>
+  <ns2:RecyclingSite rdf:about="http://data.gmdsp.org.uk/id/salford/recycling/st.-lukes-presbytery--claremont">
     <os:easting>379305</os:easting>
+    <vcard:hasAddress>
+      <vcard:Location rdf:about="http://data.gmdsp.org.uk/id/salford/recycling/address/recycling-point-st-lukes-presbytery-swinton-park-road-salford-m6-7wr">
+        <ns1:postcode rdf:resource="http://data.ordnancesurvey.co.uk/id/postcodeunit/M67WR"/>
+        <rdfs:label>Address of Recycling Site at St. Lukes Presbytery, Claremont</rdfs:label>
+        <vcard:street-address>Recycling Point St Lukes Presbytery Swinton Park Road Salford M6 7WR </vcard:street-address>
+        <vcard:postal-code>M6 7WR</vcard:postal-code>
+      </vcard:Location>
+    </vcard:hasAddress>
+    <geo:lat rdf:datatype="http://www.w3.org/2001/XMLSchema#double">53.5004697157</geo:lat>
+    <ns2:recyclingType rdf:resource="http://data.gmdsp.org.uk/def/council/recycling/recycling-type/plastic"/>
     <rdfs:label>Recycling Site at St. Lukes Presbytery, Claremont</rdfs:label>
     <geo:long rdf:datatype="http://www.w3.org/2001/XMLSchema#double">-2.31345244698</geo:long>
-    <geo:lat rdf:datatype="http://www.w3.org/2001/XMLSchema#double">53.5004697157</geo:lat>
-    <ns1:glass>Glass</ns1:glass>
     <os:northing>400465</os:northing>
-    <ns1:plastic>Plastic</ns1:plastic>
-    <vcard:hasAddress rdf:resource="http://data.gmdsp.org.uk/def/council/recycling/address/recycling-point-st-lukes-presbytery-swinton-park-road-salford-m6-7wr-"/>
-  </ns3:RecyclingSite>
-  <vcard:Location rdf:about="http://data.gmdsp.org.uk/id/salford/recycling/address/recycling-point-the-rectory-396-great-cheetham-street-east-salford-m7-4uh-">
-    <vcard:postal-code>M7 4UH</vcard:postal-code>
-    <vcard:street-address>Recycling Point The Rectory 396 Great Cheetham Street East Salford M7 4UH </vcard:street-address>
-    <rdfs:label>Address of Recycling Site at St James Rectory, Great Cheetham Street East</rdfs:label>
-    <ns2:postcode rdf:resource="http://data.ordnancesurvey.co.uk/id/postcodeunit/M74UH"/>
-  </vcard:Location>
-  <vcard:Location rdf:about="http://data.gmdsp.org.uk/id/salford/recycling/address/recycling-point-crompton-house-100-chorley-road-swinton-manchester-m27-6bp-">
-    <vcard:street-address>Recycling Point Crompton House 100 Chorley Road Swinton Manchester M27 6BP </vcard:street-address>
-    <ns2:postcode rdf:resource="http://data.ordnancesurvey.co.uk/id/postcodeunit/M276BP"/>
-    <rdfs:label>Address of Recycling Site at Crompton House, Swinton</rdfs:label>
-    <vcard:postal-code>M27 6BP</vcard:postal-code>
-  </vcard:Location>
-  <vcard:Location rdf:about="http://data.gmdsp.org.uk/id/salford/recycling/address/recycling-point-lester-road-little-hulton-manchester-m38-0pt-">
-    <vcard:street-address>Recycling Point Lester Road Little Hulton Manchester M38 0PT </vcard:street-address>
-    <ns2:postcode rdf:resource="http://data.ordnancesurvey.co.uk/id/postcodeunit/M380PT"/>
-    <vcard:postal-code>M38 0PT</vcard:postal-code>
-    <rdfs:label>Address of Recycling Site at Lester Road Houshold Waste Recycling Centre</rdfs:label>
-  </vcard:Location>
-  <vcard:Location rdf:about="http://data.gmdsp.org.uk/id/salford/recycling/address/recycling-point-ellesmere-bowling-tennis-and-croquet-club-walkden-road-worsley-manchester-m28-2rz-">
-    <ns2:postcode rdf:resource="http://data.ordnancesurvey.co.uk/id/postcodeunit/M282RZ"/>
-    <rdfs:label>Address of Recycling Site at Ellesmere Sports Club, Worsley</rdfs:label>
-    <vcard:postal-code>M28 2RZ</vcard:postal-code>
-    <vcard:street-address>Recycling Point Ellesmere Bowling Tennis And Croquet Club Walkden Road Worsley Manchester M28 2RZ </vcard:street-address>
-  </vcard:Location>
-  <vcard:Location rdf:about="http://data.gmdsp.org.uk/id/salford/recycling/address/recycling-point-cavendish-road-salford-m7-4wp-">
-    <vcard:street-address>Recycling Point Cavendish Road Salford M7 4WP </vcard:street-address>
-    <vcard:postal-code>M7 4WP</vcard:postal-code>
-    <rdfs:label>Address of Recycling Site at The Servite Parish Centre, Broughton</rdfs:label>
-    <ns2:postcode rdf:resource="http://data.ordnancesurvey.co.uk/id/postcodeunit/M74WP"/>
-  </vcard:Location>
-  <vcard:Location rdf:about="http://data.gmdsp.org.uk/id/salford/recycling/address/recycling-point-john-william-street-eccles-manchester-m30-0lj-">
-    <rdfs:label>Address of Recycling Site at John William Car Park, Eccles</rdfs:label>
-    <ns2:postcode rdf:resource="http://data.ordnancesurvey.co.uk/id/postcodeunit/M300LJ"/>
-    <vcard:postal-code>M30 0LJ</vcard:postal-code>
-    <vcard:street-address>Recycling Point John William Street Eccles Manchester M30 0LJ </vcard:street-address>
-  </vcard:Location>
+    <ns2:recyclingType rdf:resource="http://data.gmdsp.org.uk/def/council/recycling/recycling-type/glass"/>
+  </ns2:RecyclingSite>
+  <ns2:RecyclingSite rdf:about="http://data.gmdsp.org.uk/id/salford/recycling/mocha-parade--lower-broughton">
+    <geo:long rdf:datatype="http://www.w3.org/2001/XMLSchema#double">-2.2609836659</geo:long>
+    <vcard:hasAddress>
+      <vcard:Location rdf:about="http://data.gmdsp.org.uk/id/salford/recycling/address/recycling-point-mocha-parade-salford-m7-1qe">
+        <ns1:postcode rdf:resource="http://data.ordnancesurvey.co.uk/id/postcodeunit/M71QE"/>
+        <vcard:street-address>Recycling Point Mocha Parade Salford M7 1QE </vcard:street-address>
+        <rdfs:label>Address of Recycling Site at Mocha Parade, Lower Broughton</rdfs:label>
+        <vcard:postal-code>M7 1QE</vcard:postal-code>
+      </vcard:Location>
+    </vcard:hasAddress>
+    <geo:lat rdf:datatype="http://www.w3.org/2001/XMLSchema#double">53.4920389016</geo:lat>
+    <rdfs:label>Recycling Site at Mocha Parade, Lower Broughton</rdfs:label>
+    <os:easting>382782</os:easting>
+    <ns2:recyclingType rdf:resource="http://data.gmdsp.org.uk/def/council/recycling/recycling-type/glass"/>
+    <os:northing>399513</os:northing>
+  </ns2:RecyclingSite>
+  <ns2:RecyclingSite rdf:about="http://data.gmdsp.org.uk/id/salford/recycling/crompton-house--swinton">
+    <ns2:recyclingType rdf:resource="http://data.gmdsp.org.uk/def/council/recycling/recycling-type/cans"/>
+    <os:northing>401794</os:northing>
+    <ns2:recyclingType rdf:resource="http://data.gmdsp.org.uk/def/council/recycling/recycling-type/glass"/>
+    <ns2:recyclingType rdf:resource="http://data.gmdsp.org.uk/def/council/recycling/recycling-type/plastic"/>
+    <ns2:recyclingType rdf:resource="http://data.gmdsp.org.uk/def/council/recycling/recycling-type/paper"/>
+    <ns2:recyclingType rdf:resource="http://data.gmdsp.org.uk/def/council/recycling/recycling-type/aerosols"/>
+    <geo:long rdf:datatype="http://www.w3.org/2001/XMLSchema#double">-2.34148253457</geo:long>
+    <os:easting>377452</os:easting>
+    <rdfs:label>Recycling Site at Crompton House, Swinton</rdfs:label>
+    <vcard:hasAddress>
+      <vcard:Location rdf:about="http://data.gmdsp.org.uk/id/salford/recycling/address/recycling-point-crompton-house-100-chorley-road-swinton-manchester-m27-6bp">
+        <rdfs:label>Address of Recycling Site at Crompton House, Swinton</rdfs:label>
+        <ns1:postcode rdf:resource="http://data.ordnancesurvey.co.uk/id/postcodeunit/M276BP"/>
+        <vcard:postal-code>M27 6BP</vcard:postal-code>
+        <vcard:street-address>Recycling Point Crompton House 100 Chorley Road Swinton Manchester M27 6BP </vcard:street-address>
+      </vcard:Location>
+    </vcard:hasAddress>
+    <ns2:recyclingType rdf:resource="http://data.gmdsp.org.uk/def/council/recycling/recycling-type/cartons"/>
+    <geo:lat rdf:datatype="http://www.w3.org/2001/XMLSchema#double">53.5123385098</geo:lat>
+    <ns2:recyclingType rdf:resource="http://data.gmdsp.org.uk/def/council/recycling/recycling-type/cardboard"/>
+    <ns2:recyclingType rdf:resource="http://data.gmdsp.org.uk/def/council/recycling/recycling-type/shoes"/>
+    <ns2:recyclingType rdf:resource="http://data.gmdsp.org.uk/def/council/recycling/recycling-type/textiles"/>
+  </ns2:RecyclingSite>
+  <ns2:RecyclingSite rdf:about="http://data.gmdsp.org.uk/id/salford/recycling/tesco-car-park--walkden">
+    <vcard:hasAddress>
+      <vcard:Location rdf:about="http://data.gmdsp.org.uk/id/salford/recycling/address/recycling-point-tesco-extra-campbell-way-worsley-manchester-m28-3be">
+        <vcard:street-address>Recycling Point Tesco Extra Campbell Way Worsley Manchester M28 3BE </vcard:street-address>
+        <rdfs:label>Address of Recycling Site at Tesco Car Park, Walkden</rdfs:label>
+        <vcard:postal-code>M28 3BE</vcard:postal-code>
+        <ns1:postcode rdf:resource="http://data.ordnancesurvey.co.uk/id/postcodeunit/M283BE"/>
+      </vcard:Location>
+    </vcard:hasAddress>
+    <ns2:recyclingType rdf:resource="http://data.gmdsp.org.uk/def/council/recycling/recycling-type/cardboard"/>
+    <ns2:recyclingType rdf:resource="http://data.gmdsp.org.uk/def/council/recycling/recycling-type/shoes"/>
+    <rdfs:label>Recycling Site at Tesco Car Park, Walkden</rdfs:label>
+    <geo:long rdf:datatype="http://www.w3.org/2001/XMLSchema#double">-2.40367932482</geo:long>
+    <os:northing>403327</os:northing>
+    <geo:lat rdf:datatype="http://www.w3.org/2001/XMLSchema#double">53.5259238276</geo:lat>
+    <ns2:recyclingType rdf:resource="http://data.gmdsp.org.uk/def/council/recycling/recycling-type/cartons"/>
+    <ns2:recyclingType rdf:resource="http://data.gmdsp.org.uk/def/council/recycling/recycling-type/plastic"/>
+    <ns2:recyclingType rdf:resource="http://data.gmdsp.org.uk/def/council/recycling/recycling-type/glass"/>
+    <ns2:recyclingType rdf:resource="http://data.gmdsp.org.uk/def/council/recycling/recycling-type/cans"/>
+    <ns2:recyclingType rdf:resource="http://data.gmdsp.org.uk/def/council/recycling/recycling-type/aerosols"/>
+    <ns2:recyclingType rdf:resource="http://data.gmdsp.org.uk/def/council/recycling/recycling-type/textiles"/>
+    <ns2:recyclingType rdf:resource="http://data.gmdsp.org.uk/def/council/recycling/recycling-type/paper"/>
+    <os:easting>373336</os:easting>
+  </ns2:RecyclingSite>
+  <ns2:RecyclingSite rdf:about="http://data.gmdsp.org.uk/id/salford/recycling/morrison-superstore--swinton-hall-road">
+    <geo:lat rdf:datatype="http://www.w3.org/2001/XMLSchema#double">53.5137196479</geo:lat>
+    <rdfs:label>Recycling Site at Morrison Superstore, Swinton Hall Road</rdfs:label>
+    <ns2:recyclingType rdf:resource="http://data.gmdsp.org.uk/def/council/recycling/recycling-type/shoes"/>
+    <ns2:recyclingType rdf:resource="http://data.gmdsp.org.uk/def/council/recycling/recycling-type/cardboard"/>
+    <vcard:hasAddress>
+      <vcard:Location rdf:about="http://data.gmdsp.org.uk/id/salford/recycling/address/recycling-point-swinton-hall-road-pendlebury-swinton-manchester-m27-4bt">
+        <ns1:postcode rdf:resource="http://data.ordnancesurvey.co.uk/id/postcodeunit/M274BT"/>
+        <rdfs:label>Address of Recycling Site at Morrison Superstore, Swinton Hall Road</rdfs:label>
+        <vcard:postal-code>M27 4BT</vcard:postal-code>
+        <vcard:street-address>Recycling Point Swinton Hall Road Pendlebury Swinton Manchester M27 4BT </vcard:street-address>
+      </vcard:Location>
+    </vcard:hasAddress>
+    <geo:long rdf:datatype="http://www.w3.org/2001/XMLSchema#double">-2.33623070442</geo:long>
+    <ns2:recyclingType rdf:resource="http://data.gmdsp.org.uk/def/council/recycling/recycling-type/cartons"/>
+    <ns2:recyclingType rdf:resource="http://data.gmdsp.org.uk/def/council/recycling/recycling-type/glass"/>
+    <os:northing>401946</os:northing>
+    <ns2:recyclingType rdf:resource="http://data.gmdsp.org.uk/def/council/recycling/recycling-type/paper"/>
+    <ns2:recyclingType rdf:resource="http://data.gmdsp.org.uk/def/council/recycling/recycling-type/cans"/>
+    <os:easting>377801</os:easting>
+    <ns2:recyclingType rdf:resource="http://data.gmdsp.org.uk/def/council/recycling/recycling-type/textiles"/>
+  </ns2:RecyclingSite>
+  <ns2:RecyclingSite rdf:about="http://data.gmdsp.org.uk/id/salford/recycling/little-hulton-shopping-precinct">
+    <os:northing>403784</os:northing>
+    <geo:lat rdf:datatype="http://www.w3.org/2001/XMLSchema#double">53.5299714876</geo:lat>
+    <geo:long rdf:datatype="http://www.w3.org/2001/XMLSchema#double">-2.42108167986</geo:long>
+    <ns2:recyclingType rdf:resource="http://data.gmdsp.org.uk/def/council/recycling/recycling-type/glass"/>
+    <rdfs:label>Recycling Site at Little Hulton Shopping Precinct</rdfs:label>
+    <vcard:hasAddress>
+      <vcard:Location rdf:about="http://data.gmdsp.org.uk/id/salford/recycling/address/recycling-point-salford-city-council-car-park-county-road-worsley-manchester-m28-0az">
+        <rdfs:label>Address of Recycling Site at Little Hulton Shopping Precinct</rdfs:label>
+        <vcard:postal-code>M28 0AZ</vcard:postal-code>
+        <vcard:street-address>Recycling Point Salford City Council Car Park County Road Worsley Manchester M28 0AZ </vcard:street-address>
+        <ns1:postcode rdf:resource="http://data.ordnancesurvey.co.uk/id/postcodeunit/M280AZ"/>
+      </vcard:Location>
+    </vcard:hasAddress>
+    <os:easting>372185</os:easting>
+  </ns2:RecyclingSite>
+  <ns2:RecyclingSite rdf:about="http://data.gmdsp.org.uk/id/salford/recycling/tesco-superstore--fairhills-road--irlam">
+    <ns2:recyclingType rdf:resource="http://data.gmdsp.org.uk/def/council/recycling/recycling-type/plastic"/>
+    <os:easting>372011</os:easting>
+    <os:northing>393717</os:northing>
+    <ns2:recyclingType rdf:resource="http://data.gmdsp.org.uk/def/council/recycling/recycling-type/glass"/>
+    <ns2:recyclingType rdf:resource="http://data.gmdsp.org.uk/def/council/recycling/recycling-type/textiles"/>
+    <rdfs:label>Recycling Site at Tesco Superstore, Fairhills Road, Irlam</rdfs:label>
+    <vcard:hasAddress>
+      <vcard:Location rdf:about="http://data.gmdsp.org.uk/id/salford/recycling/address/recycling-point-tesco-fairhills-road-irlam-manchester-m44-6bl">
+        <vcard:street-address>Recycling Point Tesco Fairhills Road Irlam Manchester M44 6BL </vcard:street-address>
+        <ns1:postcode rdf:resource="http://data.ordnancesurvey.co.uk/id/postcodeunit/M446BL"/>
+        <vcard:postal-code>M44 6BL</vcard:postal-code>
+        <rdfs:label>Address of Recycling Site at Tesco Superstore, Fairhills Road, Irlam</rdfs:label>
+      </vcard:Location>
+    </vcard:hasAddress>
+    <geo:lat rdf:datatype="http://www.w3.org/2001/XMLSchema#double">53.4394781738</geo:lat>
+    <ns2:recyclingType rdf:resource="http://data.gmdsp.org.uk/def/council/recycling/recycling-type/cans"/>
+    <geo:long rdf:datatype="http://www.w3.org/2001/XMLSchema#double">-2.42280528651</geo:long>
+    <ns2:recyclingType rdf:resource="http://data.gmdsp.org.uk/def/council/recycling/recycling-type/shoes"/>
+  </ns2:RecyclingSite>
+  <ns2:RecyclingSite rdf:about="http://data.gmdsp.org.uk/id/salford/recycling/lester-road-houshold-waste-recycling-centre">
+    <ns2:recyclingType rdf:resource="http://data.gmdsp.org.uk/def/council/recycling/recycling-type/cartons"/>
+    <geo:lat rdf:datatype="http://www.w3.org/2001/XMLSchema#double">53.5335335163</geo:lat>
+    <ns2:recyclingType rdf:resource="http://data.gmdsp.org.uk/def/council/recycling/recycling-type/shoes"/>
+    <vcard:hasAddress>
+      <vcard:Location rdf:about="http://data.gmdsp.org.uk/id/salford/recycling/address/recycling-point-lester-road-little-hulton-manchester-m38-0pt">
+        <vcard:postal-code>M38 0PT</vcard:postal-code>
+        <rdfs:label>Address of Recycling Site at Lester Road Houshold Waste Recycling Centre</rdfs:label>
+        <vcard:street-address>Recycling Point Lester Road Little Hulton Manchester M38 0PT </vcard:street-address>
+        <ns1:postcode rdf:resource="http://data.ordnancesurvey.co.uk/id/postcodeunit/M380PT"/>
+      </vcard:Location>
+    </vcard:hasAddress>
+    <geo:long rdf:datatype="http://www.w3.org/2001/XMLSchema#double">-2.43786377414</geo:long>
+    <ns2:recyclingType rdf:resource="http://data.gmdsp.org.uk/def/council/recycling/recycling-type/textiles"/>
+    <ns2:recyclingType rdf:resource="http://data.gmdsp.org.uk/def/council/recycling/recycling-type/cans"/>
+    <ns2:recyclingType rdf:resource="http://data.gmdsp.org.uk/def/council/recycling/recycling-type/cardboard"/>
+    <os:easting>371075</os:easting>
+    <os:northing>404187</os:northing>
+    <rdfs:label>Recycling Site at Lester Road Houshold Waste Recycling Centre</rdfs:label>
+    <ns2:recyclingType rdf:resource="http://data.gmdsp.org.uk/def/council/recycling/recycling-type/aerosols"/>
+    <ns2:recyclingType rdf:resource="http://data.gmdsp.org.uk/def/council/recycling/recycling-type/glass"/>
+    <ns2:recyclingType rdf:resource="http://data.gmdsp.org.uk/def/council/recycling/recycling-type/plastic"/>
+    <ns2:recyclingType rdf:resource="http://data.gmdsp.org.uk/def/council/recycling/recycling-type/paper"/>
+  </ns2:RecyclingSite>
+  <ns2:RecyclingSite rdf:about="http://data.gmdsp.org.uk/id/salford/recycling/victoria-park--park-street--swinton">
+    <os:northing>401572</os:northing>
+    <vcard:hasAddress>
+      <vcard:Location rdf:about="http://data.gmdsp.org.uk/id/salford/recycling/address/recycling-point-victoria-park-swinton-hall-road-pendlebury-swinton-manchester-m27-4ua">
+        <rdfs:label>Address of Recycling Site at Victoria Park, Park Street, Swinton</rdfs:label>
+        <vcard:street-address>Recycling Point Victoria Park Swinton Hall Road Pendlebury Swinton Manchester M27 4UA </vcard:street-address>
+        <vcard:postal-code>M27 4UA</vcard:postal-code>
+        <ns1:postcode rdf:resource="http://data.ordnancesurvey.co.uk/id/postcodeunit/M274UA"/>
+      </vcard:Location>
+    </vcard:hasAddress>
+    <geo:long rdf:datatype="http://www.w3.org/2001/XMLSchema#double">-2.32649349367</geo:long>
+    <geo:lat rdf:datatype="http://www.w3.org/2001/XMLSchema#double">53.5103849835</geo:lat>
+    <ns2:recyclingType rdf:resource="http://data.gmdsp.org.uk/def/council/recycling/recycling-type/glass"/>
+    <ns2:recyclingType rdf:resource="http://data.gmdsp.org.uk/def/council/recycling/recycling-type/plastic"/>
+    <rdfs:label>Recycling Site at Victoria Park, Park Street, Swinton</rdfs:label>
+    <ns2:recyclingType rdf:resource="http://data.gmdsp.org.uk/def/council/recycling/recycling-type/paper"/>
+    <os:easting>378445</os:easting>
+  </ns2:RecyclingSite>
+  <ns2:RecyclingSite rdf:about="http://data.gmdsp.org.uk/id/salford/recycling/castle-irwell-student-village--cromwell-road">
+    <vcard:hasAddress>
+      <vcard:Location rdf:about="http://data.gmdsp.org.uk/id/salford/recycling/address/recycling-point-castle-irwell-student-village-cromwell-road-salford-m6-6db">
+        <rdfs:label>Address of Recycling Site at Castle Irwell Student Village, Cromwell Road</rdfs:label>
+        <vcard:postal-code>M6 6DB</vcard:postal-code>
+        <vcard:street-address>Recycling Point Castle Irwell Student Village Cromwell Road Salford M6 6DB </vcard:street-address>
+        <ns1:postcode rdf:resource="http://data.ordnancesurvey.co.uk/id/postcodeunit/M66DB"/>
+      </vcard:Location>
+    </vcard:hasAddress>
+    <geo:lat rdf:datatype="http://www.w3.org/2001/XMLSchema#double">53.4993012181</geo:lat>
+    <os:easting>381975</os:easting>
+    <geo:long rdf:datatype="http://www.w3.org/2001/XMLSchema#double">-2.27319376492</geo:long>
+    <ns2:recyclingType rdf:resource="http://data.gmdsp.org.uk/def/council/recycling/recycling-type/shoes"/>
+    <ns2:recyclingType rdf:resource="http://data.gmdsp.org.uk/def/council/recycling/recycling-type/cans"/>
+    <os:northing>400324</os:northing>
+    <rdfs:label>Recycling Site at Castle Irwell Student Village, Cromwell Road</rdfs:label>
+    <ns2:recyclingType rdf:resource="http://data.gmdsp.org.uk/def/council/recycling/recycling-type/textiles"/>
+    <ns2:recyclingType rdf:resource="http://data.gmdsp.org.uk/def/council/recycling/recycling-type/aerosols"/>
+    <ns2:recyclingType rdf:resource="http://data.gmdsp.org.uk/def/council/recycling/recycling-type/paper"/>
+    <ns2:recyclingType rdf:resource="http://data.gmdsp.org.uk/def/council/recycling/recycling-type/plastic"/>
+    <ns2:recyclingType rdf:resource="http://data.gmdsp.org.uk/def/council/recycling/recycling-type/cardboard"/>
+    <ns2:recyclingType rdf:resource="http://data.gmdsp.org.uk/def/council/recycling/recycling-type/cartons"/>
+    <ns2:recyclingType rdf:resource="http://data.gmdsp.org.uk/def/council/recycling/recycling-type/glass"/>
+  </ns2:RecyclingSite>
+  <ns2:RecyclingSite rdf:about="http://data.gmdsp.org.uk/id/salford/recycling/buile-hill-park--eccles-old-road">
+    <geo:long rdf:datatype="http://www.w3.org/2001/XMLSchema#double">-2.30573917013</geo:long>
+    <geo:lat rdf:datatype="http://www.w3.org/2001/XMLSchema#double">53.4907372412</geo:lat>
+    <rdfs:label>Recycling Site at Buile Hill Park, Eccles Old Road</rdfs:label>
+    <vcard:hasAddress>
+      <vcard:Location rdf:about="http://data.gmdsp.org.uk/id/salford/recycling/address/recycling-point-buile-hill-park-eccles-old-road-salford-m6-8rf">
+        <rdfs:label>Address of Recycling Site at Buile Hill Park, Eccles Old Road</rdfs:label>
+        <vcard:street-address>Recycling Point Buile Hill Park Eccles Old Road Salford M6 8RF </vcard:street-address>
+        <vcard:postal-code>M6 8RF</vcard:postal-code>
+        <ns1:postcode rdf:resource="http://data.ordnancesurvey.co.uk/id/postcodeunit/M68RF"/>
+      </vcard:Location>
+    </vcard:hasAddress>
+    <os:easting>379812</os:easting>
+    <os:northing>399380</os:northing>
+    <ns2:recyclingType rdf:resource="http://data.gmdsp.org.uk/def/council/recycling/recycling-type/plastic"/>
+    <ns2:recyclingType rdf:resource="http://data.gmdsp.org.uk/def/council/recycling/recycling-type/paper"/>
+    <ns2:recyclingType rdf:resource="http://data.gmdsp.org.uk/def/council/recycling/recycling-type/glass"/>
+  </ns2:RecyclingSite>
+  <ns2:RecyclingSite rdf:about="http://data.gmdsp.org.uk/id/salford/recycling/ellesmere-sports-club--worsley">
+    <geo:lat rdf:datatype="http://www.w3.org/2001/XMLSchema#double">53.5104215632</geo:lat>
+    <ns2:recyclingType rdf:resource="http://data.gmdsp.org.uk/def/council/recycling/recycling-type/glass"/>
+    <os:northing>401598</os:northing>
+    <geo:long rdf:datatype="http://www.w3.org/2001/XMLSchema#double">-2.39204176392</geo:long>
+    <vcard:hasAddress>
+      <vcard:Location rdf:about="http://data.gmdsp.org.uk/id/salford/recycling/address/recycling-point-ellesmere-bowling-tennis-and-croquet-club-walkden-road-worsley-manchester-m28-2rz">
+        <rdfs:label>Address of Recycling Site at Ellesmere Sports Club, Worsley</rdfs:label>
+        <vcard:street-address>Recycling Point Ellesmere Bowling Tennis And Croquet Club Walkden Road Worsley Manchester M28 2RZ </vcard:street-address>
+        <ns1:postcode rdf:resource="http://data.ordnancesurvey.co.uk/id/postcodeunit/M282RZ"/>
+        <vcard:postal-code>M28 2RZ</vcard:postal-code>
+      </vcard:Location>
+    </vcard:hasAddress>
+    <rdfs:label>Recycling Site at Ellesmere Sports Club, Worsley</rdfs:label>
+    <ns2:recyclingType rdf:resource="http://data.gmdsp.org.uk/def/council/recycling/recycling-type/aerosols"/>
+    <ns2:recyclingType rdf:resource="http://data.gmdsp.org.uk/def/council/recycling/recycling-type/cardboard"/>
+    <os:easting>374098</os:easting>
+    <ns2:recyclingType rdf:resource="http://data.gmdsp.org.uk/def/council/recycling/recycling-type/cans"/>
+    <ns2:recyclingType rdf:resource="http://data.gmdsp.org.uk/def/council/recycling/recycling-type/paper"/>
+    <ns2:recyclingType rdf:resource="http://data.gmdsp.org.uk/def/council/recycling/recycling-type/cartons"/>
+    <ns2:recyclingType rdf:resource="http://data.gmdsp.org.uk/def/council/recycling/recycling-type/plastic"/>
+  </ns2:RecyclingSite>
+  <ns2:RecyclingSite rdf:about="http://data.gmdsp.org.uk/id/salford/recycling/co-op-superstore--bolton-road">
+    <ns2:recyclingType rdf:resource="http://data.gmdsp.org.uk/def/council/recycling/recycling-type/cartons"/>
+    <ns2:recyclingType rdf:resource="http://data.gmdsp.org.uk/def/council/recycling/recycling-type/shoes"/>
+    <ns2:recyclingType rdf:resource="http://data.gmdsp.org.uk/def/council/recycling/recycling-type/cardboard"/>
+    <geo:long rdf:datatype="http://www.w3.org/2001/XMLSchema#double">-2.31002268309</geo:long>
+    <ns2:recyclingType rdf:resource="http://data.gmdsp.org.uk/def/council/recycling/recycling-type/textiles"/>
+    <rdfs:label>Recycling Site at Co-op Superstore, Bolton Road</rdfs:label>
+    <geo:lat rdf:datatype="http://www.w3.org/2001/XMLSchema#double">53.5014853727</geo:lat>
+    <os:northing>400577</os:northing>
+    <ns2:recyclingType rdf:resource="http://data.gmdsp.org.uk/def/council/recycling/recycling-type/paper"/>
+    <ns2:recyclingType rdf:resource="http://data.gmdsp.org.uk/def/council/recycling/recycling-type/glass"/>
+    <os:easting>379533</os:easting>
+    <vcard:hasAddress>
+      <vcard:Location rdf:about="http://data.gmdsp.org.uk/id/salford/recycling/address/co-op-superstore-recycling-point-389-bolton-road-salford-m6-7nj">
+        <vcard:postal-code>M6 7NJ</vcard:postal-code>
+        <ns1:postcode rdf:resource="http://data.ordnancesurvey.co.uk/id/postcodeunit/M67NJ"/>
+        <rdfs:label>Address of Recycling Site at Co-op Superstore, Bolton Road</rdfs:label>
+        <vcard:street-address>Co-op Superstore Recycling Point 389 Bolton Road Salford M6 7NJ </vcard:street-address>
+      </vcard:Location>
+    </vcard:hasAddress>
+  </ns2:RecyclingSite>
+  <ns2:RecyclingSite rdf:about="http://data.gmdsp.org.uk/id/salford/recycling/civic-centre--swinton">
+    <os:northing>401511</os:northing>
+    <ns2:recyclingType rdf:resource="http://data.gmdsp.org.uk/def/council/recycling/recycling-type/paper"/>
+    <ns2:recyclingType rdf:resource="http://data.gmdsp.org.uk/def/council/recycling/recycling-type/cans"/>
+    <ns2:recyclingType rdf:resource="http://data.gmdsp.org.uk/def/council/recycling/recycling-type/textiles"/>
+    <ns2:recyclingType rdf:resource="http://data.gmdsp.org.uk/def/council/recycling/recycling-type/aerosols"/>
+    <ns2:recyclingType rdf:resource="http://data.gmdsp.org.uk/def/council/recycling/recycling-type/cardboard"/>
+    <rdfs:label>Recycling Site at Civic Centre, Swinton</rdfs:label>
+    <geo:lat rdf:datatype="http://www.w3.org/2001/XMLSchema#double">53.5098035083</geo:lat>
+    <ns2:recyclingType rdf:resource="http://data.gmdsp.org.uk/def/council/recycling/recycling-type/plastic"/>
+    <ns2:recyclingType rdf:resource="http://data.gmdsp.org.uk/def/council/recycling/recycling-type/cartons"/>
+    <ns2:recyclingType rdf:resource="http://data.gmdsp.org.uk/def/council/recycling/recycling-type/glass"/>
+    <vcard:hasAddress>
+      <vcard:Location rdf:about="http://data.gmdsp.org.uk/id/salford/recycling/address/recycling-point-salford-civic-centre-chorley-road-swinton-manchester-m27-5aw">
+        <rdfs:label>Address of Recycling Site at Civic Centre, Swinton</rdfs:label>
+        <ns1:postcode rdf:resource="http://data.ordnancesurvey.co.uk/id/postcodeunit/M275AW"/>
+        <vcard:street-address>Recycling Point Salford Civic Centre Chorley Road Swinton Manchester M27 5AW</vcard:street-address>
+        <vcard:postal-code>M27 5AW</vcard:postal-code>
+      </vcard:Location>
+    </vcard:hasAddress>
+    <os:easting>377654</os:easting>
+    <ns2:recyclingType rdf:resource="http://data.gmdsp.org.uk/def/council/recycling/recycling-type/shoes"/>
+    <geo:long rdf:datatype="http://www.w3.org/2001/XMLSchema#double">-2.33841624945</geo:long>
+  </ns2:RecyclingSite>
+  <ns2:RecyclingSite rdf:about="http://data.gmdsp.org.uk/id/salford/recycling/blackleach-country-park--walkden-(off-bolton-road)">
+    <geo:long rdf:datatype="http://www.w3.org/2001/XMLSchema#double">-2.3980182318</geo:long>
+    <os:northing>403809</os:northing>
+    <ns2:recyclingType rdf:resource="http://data.gmdsp.org.uk/def/council/recycling/recycling-type/paper"/>
+    <os:easting>373714</os:easting>
+    <ns2:recyclingType rdf:resource="http://data.gmdsp.org.uk/def/council/recycling/recycling-type/plastic"/>
+    <ns2:recyclingType rdf:resource="http://data.gmdsp.org.uk/def/council/recycling/recycling-type/glass"/>
+    <geo:lat rdf:datatype="http://www.w3.org/2001/XMLSchema#double">53.5302752393</geo:lat>
+    <rdfs:label>Recycling Site at Blackleach Country Park, Walkden (off Bolton Road)</rdfs:label>
+    <vcard:hasAddress>
+      <vcard:Location rdf:about="http://data.gmdsp.org.uk/id/salford/recycling/address/recycling-point-blackleach-country-park-visitor-centre-john-street-worsley-manchester-m28-3qq">
+        <rdfs:label>Address of Recycling Site at Blackleach Country Park, Walkden (off Bolton Road)</rdfs:label>
+        <vcard:street-address>Recycling Point Blackleach Country Park Visitor Centre John Street Worsley Manchester M28 3QQ </vcard:street-address>
+        <vcard:postal-code>M28 3QQ</vcard:postal-code>
+        <ns1:postcode rdf:resource="http://data.ordnancesurvey.co.uk/id/postcodeunit/M283QQ"/>
+      </vcard:Location>
+    </vcard:hasAddress>
+  </ns2:RecyclingSite>
+  <ns2:RecyclingSite rdf:about="http://data.gmdsp.org.uk/id/salford/recycling/turnpike-house--631-eccles-new-road">
+    <ns2:recyclingType rdf:resource="http://data.gmdsp.org.uk/def/council/recycling/recycling-type/aerosols"/>
+    <ns2:recyclingType rdf:resource="http://data.gmdsp.org.uk/def/council/recycling/recycling-type/glass"/>
+    <ns2:recyclingType rdf:resource="http://data.gmdsp.org.uk/def/council/recycling/recycling-type/plastic"/>
+    <ns2:recyclingType rdf:resource="http://data.gmdsp.org.uk/def/council/recycling/recycling-type/cans"/>
+    <os:northing>398466</os:northing>
+    <os:easting>379202</os:easting>
+    <geo:long rdf:datatype="http://www.w3.org/2001/XMLSchema#double">-2.31487195478</geo:long>
+    <vcard:hasAddress>
+      <vcard:Location rdf:about="http://data.gmdsp.org.uk/id/salford/recycling/address/recycling-point-turnpike-house-631-eccles-new-road-salford-m50-1sw">
+        <ns1:postcode rdf:resource="http://data.ordnancesurvey.co.uk/id/postcodeunit/M501SW"/>
+        <rdfs:label>Address of Recycling Site at Turnpike House, 631 Eccles New Road</rdfs:label>
+        <vcard:postal-code>M50 1SW</vcard:postal-code>
+        <vcard:street-address>Recycling Point Turnpike House 631 Eccles New Road Salford M50 1SW </vcard:street-address>
+      </vcard:Location>
+    </vcard:hasAddress>
+    <ns2:recyclingType rdf:resource="http://data.gmdsp.org.uk/def/council/recycling/recycling-type/cartons"/>
+    <geo:lat rdf:datatype="http://www.w3.org/2001/XMLSchema#double">53.4824980546</geo:lat>
+    <rdfs:label>Recycling Site at Turnpike House, 631 Eccles New Road</rdfs:label>
+    <ns2:recyclingType rdf:resource="http://data.gmdsp.org.uk/def/council/recycling/recycling-type/paper"/>
+    <ns2:recyclingType rdf:resource="http://data.gmdsp.org.uk/def/council/recycling/recycling-type/cardboard"/>
+  </ns2:RecyclingSite>
+  <ns2:RecyclingSite rdf:about="http://data.gmdsp.org.uk/id/salford/recycling/the-servite-parish-centre--broughton">
+    <geo:long rdf:datatype="http://www.w3.org/2001/XMLSchema#double">-2.27027499386</geo:long>
+    <geo:lat rdf:datatype="http://www.w3.org/2001/XMLSchema#double">53.5167813526</geo:lat>
+    <vcard:hasAddress>
+      <vcard:Location rdf:about="http://data.gmdsp.org.uk/id/salford/recycling/address/recycling-point-cavendish-road-salford-m7-4wp">
+        <ns1:postcode rdf:resource="http://data.ordnancesurvey.co.uk/id/postcodeunit/M74WP"/>
+        <vcard:postal-code>M7 4WP</vcard:postal-code>
+        <rdfs:label>Address of Recycling Site at The Servite Parish Centre, Broughton</rdfs:label>
+        <vcard:street-address>Recycling Point Cavendish Road Salford M7 4WP </vcard:street-address>
+      </vcard:Location>
+    </vcard:hasAddress>
+    <os:easting>382176</os:easting>
+    <os:northing>402268</os:northing>
+    <rdfs:label>Recycling Site at The Servite Parish Centre, Broughton</rdfs:label>
+    <ns2:recyclingType rdf:resource="http://data.gmdsp.org.uk/def/council/recycling/recycling-type/glass"/>
+  </ns2:RecyclingSite>
+  <ns2:RecyclingSite rdf:about="http://data.gmdsp.org.uk/id/salford/recycling/standfield-shopping-precinct--boothstown">
+    <geo:long rdf:datatype="http://www.w3.org/2001/XMLSchema#double">-2.41606926311</geo:long>
+    <ns2:recyclingType rdf:resource="http://data.gmdsp.org.uk/def/council/recycling/recycling-type/cartons"/>
+    <ns2:recyclingType rdf:resource="http://data.gmdsp.org.uk/def/council/recycling/recycling-type/shoes"/>
+    <ns2:recyclingType rdf:resource="http://data.gmdsp.org.uk/def/council/recycling/recycling-type/cardboard"/>
+    <os:northing>400828</os:northing>
+    <rdfs:label>Recycling Site at Standfield Shopping Precinct, Boothstown</rdfs:label>
+    <vcard:hasAddress>
+      <vcard:Location rdf:about="http://data.gmdsp.org.uk/id/salford/recycling/address/recycling-point-standfield-shopping-centre-worsley-manchester-m28-1fb">
+        <vcard:street-address>Recycling Point Standfield Shopping Centre Worsley Manchester M28 1FB </vcard:street-address>
+        <vcard:postal-code>M28 1FB</vcard:postal-code>
+        <rdfs:label>Address of Recycling Site at Standfield Shopping Precinct, Boothstown</rdfs:label>
+        <ns1:postcode rdf:resource="http://data.ordnancesurvey.co.uk/id/postcodeunit/M281FB"/>
+      </vcard:Location>
+    </vcard:hasAddress>
+    <ns2:recyclingType rdf:resource="http://data.gmdsp.org.uk/def/council/recycling/recycling-type/textiles"/>
+    <geo:lat rdf:datatype="http://www.w3.org/2001/XMLSchema#double">53.5034191875</geo:lat>
+    <ns2:recyclingType rdf:resource="http://data.gmdsp.org.uk/def/council/recycling/recycling-type/paper"/>
+    <os:easting>372500</os:easting>
+    <ns2:recyclingType rdf:resource="http://data.gmdsp.org.uk/def/council/recycling/recycling-type/glass"/>
+  </ns2:RecyclingSite>
+  <ns2:RecyclingSite rdf:about="http://data.gmdsp.org.uk/id/salford/recycling/john-william-car-park--eccles">
+    <ns2:recyclingType rdf:resource="http://data.gmdsp.org.uk/def/council/recycling/recycling-type/cardboard"/>
+    <os:easting>377745</os:easting>
+    <ns2:recyclingType rdf:resource="http://data.gmdsp.org.uk/def/council/recycling/recycling-type/cartons"/>
+    <vcard:hasAddress>
+      <vcard:Location rdf:about="http://data.gmdsp.org.uk/id/salford/recycling/address/recycling-point-john-william-street-eccles-manchester-m30-0lj">
+        <vcard:postal-code>M30 0LJ</vcard:postal-code>
+        <vcard:street-address>Recycling Point John William Street Eccles Manchester M30 0LJ </vcard:street-address>
+        <ns1:postcode rdf:resource="http://data.ordnancesurvey.co.uk/id/postcodeunit/M300LJ"/>
+        <rdfs:label>Address of Recycling Site at John William Car Park, Eccles</rdfs:label>
+      </vcard:Location>
+    </vcard:hasAddress>
+    <geo:lat rdf:datatype="http://www.w3.org/2001/XMLSchema#double">53.4852964206</geo:lat>
+    <rdfs:label>Recycling Site at John William Car Park, Eccles</rdfs:label>
+    <ns2:recyclingType rdf:resource="http://data.gmdsp.org.uk/def/council/recycling/recycling-type/shoes"/>
+    <ns2:recyclingType rdf:resource="http://data.gmdsp.org.uk/def/council/recycling/recycling-type/glass"/>
+    <geo:long rdf:datatype="http://www.w3.org/2001/XMLSchema#double">-2.33684964808</geo:long>
+    <os:northing>398784</os:northing>
+    <ns2:recyclingType rdf:resource="http://data.gmdsp.org.uk/def/council/recycling/recycling-type/textiles"/>
+    <ns2:recyclingType rdf:resource="http://data.gmdsp.org.uk/def/council/recycling/recycling-type/paper"/>
+  </ns2:RecyclingSite>
+  <ns2:RecyclingSite rdf:about="http://data.gmdsp.org.uk/id/salford/recycling/cobden-street-household-waste-recycling-centre">
+    <geo:long rdf:datatype="http://www.w3.org/2001/XMLSchema#double">-2.2898051257</geo:long>
+    <ns2:recyclingType rdf:resource="http://data.gmdsp.org.uk/def/council/recycling/recycling-type/glass"/>
+    <ns2:recyclingType rdf:resource="http://data.gmdsp.org.uk/def/council/recycling/recycling-type/cardboard"/>
+    <ns2:recyclingType rdf:resource="http://data.gmdsp.org.uk/def/council/recycling/recycling-type/shoes"/>
+    <geo:lat rdf:datatype="http://www.w3.org/2001/XMLSchema#double">53.4969160812</geo:lat>
+    <rdfs:label>Recycling Site at Cobden Street Household Waste Recycling Centre</rdfs:label>
+    <ns2:recyclingType rdf:resource="http://data.gmdsp.org.uk/def/council/recycling/recycling-type/cartons"/>
+    <ns2:recyclingType rdf:resource="http://data.gmdsp.org.uk/def/council/recycling/recycling-type/plastic"/>
+    <os:northing>400063</os:northing>
+    <ns2:recyclingType rdf:resource="http://data.gmdsp.org.uk/def/council/recycling/recycling-type/cans"/>
+    <vcard:hasAddress>
+      <vcard:Location rdf:about="http://data.gmdsp.org.uk/id/salford/recycling/address/recycling-point-salford-refuse-treatment-plant-cobden-street-salford-m6-6wf">
+        <ns1:postcode rdf:resource="http://data.ordnancesurvey.co.uk/id/postcodeunit/M66WF"/>
+        <vcard:street-address>Recycling Point Salford Refuse Treatment Plant Cobden Street Salford M6 6WF </vcard:street-address>
+        <vcard:postal-code>M6 6WF</vcard:postal-code>
+        <rdfs:label>Address of Recycling Site at Cobden Street Household Waste Recycling Centre</rdfs:label>
+      </vcard:Location>
+    </vcard:hasAddress>
+    <ns2:recyclingType rdf:resource="http://data.gmdsp.org.uk/def/council/recycling/recycling-type/aerosols"/>
+    <ns2:recyclingType rdf:resource="http://data.gmdsp.org.uk/def/council/recycling/recycling-type/textiles"/>
+    <ns2:recyclingType rdf:resource="http://data.gmdsp.org.uk/def/council/recycling/recycling-type/paper"/>
+    <os:easting>380872</os:easting>
+  </ns2:RecyclingSite>
 </rdf:RDF>
