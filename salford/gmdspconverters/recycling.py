@@ -3,7 +3,6 @@ __author__ = 'jond'
 import csv
 
 from rdflib import URIRef, Literal, Namespace, RDF
-from rdflib.namespace import XSD
 
 from gmdspconverters import utils
 
