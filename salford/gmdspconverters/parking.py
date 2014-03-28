@@ -8,6 +8,7 @@ from gmdspconverters import utils
 
 PARKING = Namespace('http://data.gmdsp.org.uk/id/salford/parking/')
 PARKING_ONT = Namespace('http://data.gmdsp.org.uk/def/council/parking/')
+PARKING_TYPE_ONT = Namespace('http://data.gmdsp.org.uk/def/council/parking/parking-type/')
 
 def convert(graph, input_path):
     reader = csv.DictReader(open(input_path, mode='r'))
@@ -16,7 +17,7 @@ def convert(graph, input_path):
         p = PARKING[utils.idify(row["Name"])]
         graph.add((p, RDF.type, PARKING_ONT["ParkingSite"]))
         graph.add((p, utils.RDFS['label'], Literal(row["Name"])))
-        graph.add((p, PARKING_ONT['type'], Literal(row["Type"])))
+        graph.add((p, PARKING_ONT['parkingType'], PARKING_TYPE_ONT[utils.idify(row["Type"])]))
         graph.add((p, PARKING_ONT['informationPage'], Literal(row["URL"])))
 
         p_operator = PARKING["operator/" + utils.idify(row["Operator"])]
