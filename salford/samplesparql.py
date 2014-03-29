@@ -74,12 +74,38 @@ def allotment_labels_query():
         print result['o']['value']
 
 
+def allotment_labels_across_all_councils():
+    """
+    Sample query that returns all allotments stored in the database
+    """
+    # lets get all the allotment labels
+    sparql.setQuery("""
+    PREFIX dcterms: <http://purl.org/dc/terms/>
+    PREFIX owl: <http://www.w3.org/2002/07/owl#>
+    PREFIX qb: <http://purl.org/linked-data/cube#>
+    PREFIX rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#>
+    PREFIX rdfs: <http://www.w3.org/2000/01/rdf-schema#>
+    PREFIX skos: <http://www.w3.org/2004/02/skos/core#>
+    PREFIX xsd: <http://www.w3.org/2001/XMLSchema#>
+
+    SELECT DISTINCT ?o
+    WHERE {
+        ?s rdfs:label ?o.
+        ?s rdf:type <http://data.gmdsp.org.uk/def/council/allotment/Allotment>
+    }
+    """)
+    sparql.setReturnFormat(JSON)
+    results = sparql.query().convert()
+
+    for result in results["results"]["bindings"]:
+        print result['o']['value']
 
 
 if __name__ == "__main__":
     query_functions = [
         basic_query,
         allotment_labels_query,
+        allotment_labels_across_all_councils,
     ]
 
     for q in query_functions:
