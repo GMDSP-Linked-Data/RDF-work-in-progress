@@ -78,7 +78,17 @@ def convert(graph, input_path):
         graph.add((pa, PLANNING_ONT['hasAddress'], pa_site))
         graph.add((pa_site, RDF.type, PLANNING_ONT['PlanningApplicationSite']))
         graph.add((pa_site, utils.RDFS['label'], Literal("Planning application site for planning application " + row["REFERENCE"])))
-        graph.add((pa_site, utils.VCARD['street-address'], Literal(clean_string(row["LOCATION"]))))
+
+        street_address, address_postcode = utils.postcode_helper(clean_string(row["LOCATION"]))
+        graph.add((pa_site, utils.VCARD['street-address'], Literal(street_address)))
+        if address_postcode is not None:
+            graph.add((pa_site, utils.VCARD['postal-code'], Literal(address_postcode)))
+            graph.add((pa_site, utils.POST['postcode'], URIRef(utils.convertpostcodeto_osuri(address_postcode))))
+
+
+
+
+
 
 
 

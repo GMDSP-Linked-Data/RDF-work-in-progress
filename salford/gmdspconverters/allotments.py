@@ -8,18 +8,6 @@ from gmdspconverters import utils
 al = Namespace('http://data.gmdsp.org.uk/id/salford/allotments/')
 al_ont = Namespace('http://data.gmdsp.org.uk/def/council/allotment/')
 
-def postcode_helper(addr_string):
-    """
-    Tries to get the postcode out of the given string, assuming it is at the end of the string
-    Returns 2 strings, the 1st string is the street address, the 2nd is the postcode. If it
-    can't find the postcode then it returns None
-    """
-    #regex from #http://en.wikipedia.orgwikiUK_postcodes#Validation
-    postcode = re.findall(r'[A-Z]{1,2}[0-9R][0-9A-Z]? [0-9][A-Z]{2}', addr_string)
-    if postcode:
-        return addr_string.split(postcode[0])[0], postcode[0]
-    return addr_string, None
-
 
 def convert(graph, input_path):
 
@@ -41,7 +29,7 @@ def convert(graph, input_path):
         address = utils.idify(row["Address"])
         graph.add((allotment, utils.VCARD['hasAddress'], al["address/"+address]))
 
-        street_address, address_postcode = postcode_helper(row["Address"])
+        street_address, address_postcode = utils.postcode_helper(row["Address"])
 
         # now add the address VCARD
         vcard = al["address/"+address]
