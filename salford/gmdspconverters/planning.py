@@ -78,15 +78,6 @@ def convert(graph, input_path):
         graph.add((pa, PLANNING_ONT['hasAddress'], pa_site))
         graph.add((pa_site, RDF.type, PLANNING_ONT['PlanningApplicationSite']))
         graph.add((pa_site, utils.RDFS['label'], Literal("Planning application site for planning application " + row["REFERENCE"])))
-
-        if row["NORTHING"] and row["EASTING"]:
-            graph.add((pa_site, utils.OS["northing"], Literal(row["NORTHING"])))
-            graph.add((pa_site, utils.OS["easting"], Literal(row["EASTING"])))
-            # add conversion for lat/long
-            lat_long = utils.ENtoLL84(float(row["EASTING"]), float(row["NORTHING"]))
-            graph.add((pa_site, utils.GEO["long"], Literal(lat_long[0])))
-            graph.add((pa_site, utils.GEO["lat"], Literal(lat_long[1])))
-
         graph.add((pa_site, utils.VCARD['street-address'], Literal(clean_string(row["LOCATION"]))))
 
 
