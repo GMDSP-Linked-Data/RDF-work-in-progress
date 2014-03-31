@@ -57,9 +57,8 @@
         rdfs:domain   <http://data.gmdsp.org.uk/def/council/allotment/Allotment> ;
         rdfs:label    "A plot belongs to an allotment"^^xsd:string ;
         rdfs:range    <http://data.gmdsp.org.uk/def/council/Plot> ;
-        <http://www.w3.org/2000/01/rdf-schema#type:>
-                rdf:Property ;
-                rdfs:isDefinedBy <http://data.gmdsp.org.uk/def/council/allotment> .
+        a             rdf:Property ;
+        rdfs:isDefinedBy <http://data.gmdsp.org.uk/def/council/allotment> .
 
 <http://data.gmdsp.org.uk/def/council/allotment/applicationPage>
         a                   rdf:Property ;
