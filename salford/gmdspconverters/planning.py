@@ -60,9 +60,9 @@ def convert(graph, input_path):
 
         if row["RECOMMENDATION DECODE"]:
             graph.add((pa, PLANNING_ONT['decision'], PLANNING_APPLICATION_STATUS_ONT[utils.idify(row["RECOMMENDATION DECODE"])]))
-        if row["DECISION DATE"]:
+        if row["DATEDECISS"]:
             decision_date = datetime.datetime.strptime(
-                row["DECISION DATE"].split(" ")[0],
+                row["DATEDECISS"].split(" ")[0],
                 "%d/%m/%Y",
             )
             try:
@@ -79,11 +79,11 @@ def convert(graph, input_path):
         graph.add((pa_site, RDF.type, PLANNING_ONT['PlanningApplicationSite']))
         graph.add((pa_site, utils.RDFS['label'], Literal("Planning application site for planning application " + row["REFERENCE"])))
 
+        # postcode helper used here to remove the postcode if we find it
         street_address, address_postcode = utils.postcode_helper(clean_string(row["LOCATION"]))
         graph.add((pa_site, utils.VCARD['street-address'], Literal(street_address)))
-        if address_postcode is not None:
-            graph.add((pa_site, utils.VCARD['postal-code'], Literal(address_postcode)))
-            graph.add((pa_site, utils.POST['postcode'], URIRef(utils.convertpostcodeto_osuri(address_postcode))))
+        graph.add((pa_site, utils.VCARD['postal-code'], Literal(row["Postcode"])))
+        graph.add((pa_site, utils.POST['postcode'], URIRef(utils.convertpostcodeto_osuri(row["Postcode"]))))
 
 
 
