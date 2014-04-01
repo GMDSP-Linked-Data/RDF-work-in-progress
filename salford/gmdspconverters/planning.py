@@ -2,6 +2,9 @@ __author__ = 'jond'
 
 import csv
 import datetime
+import json
+import urllib2
+import decimal
 
 from rdflib import URIRef, Literal, Namespace, RDF
 from rdflib.namespace import XSD
@@ -31,7 +34,12 @@ def clean_string(s):
 def convert(graph, input_path):
 
     reader = csv.DictReader(open(input_path, mode='r'))
-    for row in reader:
+    non_existent_uris = set()
+    rows = list(reader)
+    row_length = len(rows)
+    for index, row in enumerate(rows):
+        # this takes a while so lets provide some context
+        print "{}/{}".format(index, row_length)
         pa = PLANNING[utils.idify(row["REFERENCE"])]
         graph.add((pa, RDF.type, PLANNING_ONT["PlanningApplication"]))
         graph.add((pa, utils.RDFS['label'], Literal("Planning application " + row["REFERENCE"])))
@@ -60,9 +68,9 @@ def convert(graph, input_path):
 
         if row["RECOMMENDATION DECODE"]:
             graph.add((pa, PLANNING_ONT['decision'], PLANNING_APPLICATION_STATUS_ONT[utils.idify(row["RECOMMENDATION DECODE"])]))
-        if row["DECISION DATE"]:
+        if row["DATEDECISS"]:
             decision_date = datetime.datetime.strptime(
-                row["DECISION DATE"].split(" ")[0],
+                row["DATEDECISS"].split(" ")[0],
                 "%d/%m/%Y",
             )
             try:
@@ -75,15 +83,28 @@ def convert(graph, input_path):
 
         # planning application site
         pa_site = PLANNING["site/" + utils.idify(row["REFERENCE"])]
-        graph.add((pa, PLANNING_ONT['hasAddress'], pa_site))
+        graph.add((pa, utils.VCARD['hasAddress'], pa_site))
         graph.add((pa_site, RDF.type, PLANNING_ONT['PlanningApplicationSite']))
         graph.add((pa_site, utils.RDFS['label'], Literal("Planning application site for planning application " + row["REFERENCE"])))
 
+        # postcode helper used here to remove the postcode if we find it
         street_address, address_postcode = utils.postcode_helper(clean_string(row["LOCATION"]))
         graph.add((pa_site, utils.VCARD['street-address'], Literal(street_address)))
-        if address_postcode is not None:
-            graph.add((pa_site, utils.VCARD['postal-code'], Literal(address_postcode)))
-            graph.add((pa_site, utils.POST['postcode'], URIRef(utils.convertpostcodeto_osuri(address_postcode))))
+        graph.add((pa_site, utils.VCARD['postal-code'], Literal(row["Postcode"])))
+        os_postcodeuri = utils.convertpostcodeto_osuri(row["Postcode"])
+        graph.add((pa_site, utils.POST['postcode'], URIRef(os_postcodeuri)))
+
+        # so now we are going to generate lat/long information based on the postcode centroids
+        try:
+            os_postcodedata = json.load(urllib2.urlopen(os_postcodeuri + ".json"))
+            graph.add((pa_site, utils.GEO["lat"], Literal(float(os_postcodedata[os_postcodeuri][str(utils.GEO["lat"])][0]["value"]))))
+            graph.add((pa_site, utils.GEO["long"], Literal(float(os_postcodedata[os_postcodeuri][str(utils.GEO["long"])][0]["value"]))))
+        except urllib2.HTTPError:
+            # print "Unable to load data from: ", os_postcodeuri
+            non_existent_uris.add(os_postcodeuri)
+            pass
+
+    print "Unable to locate the following uri's:", non_existent_uris
 
 
 
