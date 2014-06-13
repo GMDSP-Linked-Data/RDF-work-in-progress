@@ -32,6 +32,14 @@ def convert(graph, input_path):
             graph.add((vcard, utils.VCARD['postal-code'], Literal(row["POSTCODE"])))
             graph.add((vcard, utils.POST['postcode'], URIRef(utils.convertpostcodeto_osuri(row["POSTCODE"]))))
 
+            # location information
+            graph.add((sl, utils.OS["northing"], Literal(row["Northings"])))
+            graph.add((sl, utils.OS["easting"], Literal(row["Eastings"])))
+            # add conversion for lat/long
+            lat_long = utils.ENtoLL84(float(row["Eastings"]), float(row["Northings"]))
+            graph.add((sl, utils.GEO["long"], Literal(lat_long[0])))
+            graph.add((sl, utils.GEO["lat"], Literal(lat_long[1])))
+
             # street light specific stuff
             if row["LAMP WATTAGE"]:
                 watts = re.findall('\d+', row["LAMP WATTAGE"])[0]
