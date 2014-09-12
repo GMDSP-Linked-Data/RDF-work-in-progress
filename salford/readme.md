@@ -13,6 +13,7 @@ rdflib
 pyproj
 
 (see requirements.txt)
+`pip install -r requirements.txt`
 
 ## Example usage
 
