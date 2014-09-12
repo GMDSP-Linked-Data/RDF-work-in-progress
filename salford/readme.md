@@ -10,6 +10,9 @@ Python2.7
 ### Dependencies
 
 rdflib
+pyproj
+
+(see requirements.txt)
 
 ## Example usage
 
