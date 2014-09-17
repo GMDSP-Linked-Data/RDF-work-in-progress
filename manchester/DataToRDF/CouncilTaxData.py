@@ -102,7 +102,7 @@ class Store:
         self.graph.add((d, RDF.type, qb["Property"]))
         self.graph.add((d, RDF.type, qb["DimensionProperty"]))
         self.graph.add((d, RDFS["label"], Literal("reference band")))
-        self.graph.add((d, RDFS["domain"], URIRef("http://data.gmdsp.org.uk/def/council/counciltax/CouncilTaxBand")))
+        self.graph.add((d, RDFS["domain"], URIRef("http://data.gmdsp.org.uk/def/council/counciltax/councilTaxBand")))
 
     def countDef(self):
         d = COUNCILTAX["countDef"]
