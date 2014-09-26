@@ -13,11 +13,7 @@ from rdflib import BNode, Graph, URIRef, Literal, Namespace, RDF
 from rdflib.namespace import FOAF, DC
 from rdflib.namespace import XSD
 
-from itertools import groupby
-import csv
-import pprint
-import utm
-from bs4 import BeautifulSoup
+
 
 storefn = os.path.dirname(os.path.realpath(__file__)) + '/Output/Fire.rdf'
 storen3 = os.path.dirname(os.path.realpath(__file__)) + '/Output/Fire.ttl'
