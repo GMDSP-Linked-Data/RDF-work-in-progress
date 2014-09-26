@@ -55,6 +55,7 @@ GEO = Namespace('http://www.w3.org/2003/01/geo/wgs84_pos#')
 VCARD = Namespace('http://www.w3.org/2006/vcard/ns#')
 al = Namespace('http://data.gmdsp.org.uk/id/manchester/allotments/')
 SCHEME = Namespace('http://schema.org/')
+COUNCIL = Namespace('http://data.gmdsp.org.uk/def/council/allotment/')
 
 class Store:
     def __init__(self):
@@ -90,9 +91,9 @@ class Store:
         print utm.from_latlon(float(location.split(',')[0]), float(location.split(',')[1]))[1]
         allotment = al[name.replace(" ", "-").lower()] # @@ humanize the identifier (something like #rev-$date)
         self.graph.add((allotment, RDF.type, URIRef('http://data.gmdsp.org.uk/def/council/allotment/Allotment')))
-        self.graph.add((allotment, SCHEME['url'], URIRef(application)))
-        self.graph.add((allotment, SCHEME['url'], URIRef(external_link)))
-        self.graph.add((allotment, SCHEME['url'], URIRef("http://www.manchester.gov.uk"+guidence)))
+        self.graph.add((allotment, COUNCIL['application'], URIRef(application)))
+        self.graph.add((allotment, COUNCIL['information'], URIRef(external_link)))
+        self.graph.add((allotment, COUNCIL['guidance'], URIRef("http://www.manchester.gov.uk"+guidence)))
         self.graph.add((allotment, GEO["lat"], Literal(location.split(',')[0])))
         self.graph.add((allotment, GEO["long"], Literal(location.split(',')[1])))
         self.graph.add((allotment, OS["northing"], Literal(str(utm.from_latlon(float(location.split(',')[0]), float(location.split(',')[1]))[1]))))
