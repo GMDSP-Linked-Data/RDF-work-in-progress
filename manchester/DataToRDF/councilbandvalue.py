@@ -78,7 +78,7 @@ class Store:
 
     def new_bandvalue(self, band, charge):
         allotment = al[band] # @@ humanize the identifier (something like #rev-$date)
-        self.graph.add((allotment, RDF.type, URIRef('http://data.gmdsp.org.uk/def/council/counciltax/CouncilTaxBand')))
+        self.graph.add((allotment, RDF.type, URIRef('http://data.gmdsp.org.uk/def/council/counciltax/CouncilTaxCharge')))
         self.graph.add((allotment, URIRef('http://data.gmdsp.org.uk/def/council/counciltax/charge'), Literal(charge)))
         self.graph.add((allotment, URIRef('http://data.gmdsp.org.uk/def/council/counciltax/councilTaxBand'), URIRef('http://data.gmdsp.org.uk/def/council/counciltax/council-tax-bands/'+band)))
         self.graph.add((allotment, RDFS.label, Literal('Council tax valuation charges for band '+band, lang='en')))

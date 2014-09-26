@@ -111,9 +111,9 @@ class Store:
         self.graph.add((line, qb.dataSet, payline[paylinename]))
         self.graph.add((line, PAY['payment'], al[id.replace(" ","-")]))
         if PAY['netAmount'] == ',':
-            self.graph.add((line, PAY['netAmount'], Literal(amount[-1:])))
+            self.graph.add((line, PAY['netAmount'], Literal(float(amount[-1:].replace(',', '')))))
         else:
-            self.graph.add((line, PAY['netAmount'], Literal(amount)))
+            self.graph.add((line, PAY['netAmount'], Literal(float(amount.replace(',', '')))))
         self.expendituerlinecount = self.expendituerlinecount + 1
 
     def new_FormalOrganization(self):
