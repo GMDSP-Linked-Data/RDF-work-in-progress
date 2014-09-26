@@ -53,7 +53,7 @@ GEO = Namespace('http://www.w3.org/2003/01/geo/wgs84_pos#')
 VCARD = Namespace('http://www.w3.org/2006/vcard/ns#')
 SCHEMA = Namespace('http://schema.org/')
 sl = Namespace('http://data.gmdsp.org.uk/id/manchester/street-lights/')
-streetdef = Namespace('http://data.gmdsp.org.uk/def/council/streetlighting/Streetlight')
+streetdef = Namespace('http://data.gmdsp.org.uk/def/council/streetlighting/')
 
 class Store:
     def __init__(self):
@@ -77,21 +77,23 @@ class Store:
     def save(self):
         self.graph.serialize(storeuri, format='pretty-xml')
 
-    #def new_streetlight(self, height, easting, eligible, lamp, lampwatts, location, mintyn, northing, objectId, street, unitid, unitno):
     def new_streetlight(self, height, easting, northing, street, objectId, lamptype, watt):
-        streetlamp = sl[objectId] # @@ humanize the identifier (something like #rev-$date)
+        streetlamp = sl[objectId]
         self.graph.add((streetlamp, RDF.type, URIRef('http://data.gmdsp.org.uk/def/council/streetlighting/Streetlight')))
+        self.graph.add((streetlamp, RDFS['label'], Literal(objectId)))
         self.graph.add((streetlamp, streetdef['columnHeight'], Literal(height)))
         self.graph.add((streetlamp, SPACIAL['easting'], Literal(easting)))
         self.graph.add((streetlamp, SPACIAL['northing'], Literal(northing)))
-        self.graph.add((streetlamp, VCARD['street-address'], Literal(street)))
         self.graph.add((streetlamp, streetdef['lampType'], Literal(lamptype)))
         self.graph.add((streetlamp, streetdef['wattage'], Literal(watt)))
-        #self.graph.add((allotment, GEO["lat//long"], Literal(location)))
-        #self.graph.add((allotment, RDFS['label'], Literal(name)))
-        #self.graph.add((allotment, DC['date'], Literal(plot_size)))
-        #self.graph.add((allotment, GEO['rating'], Literal(rent)))
+        self.graph.add((streetlamp, VCARD["hasAddress"], Literal(self.new_address(easting, northing, street))))
 
+    def new_address(self, easting, northing, street):
+        vcard = sl["address/"+street.replace(" ", "-").replace(",", "")]
+        self.graph.add((vcard, RDF.type, VCARD["Location"]))
+        self.graph.add((vcard, RDFS['label'], Literal(street)))
+        self.graph.add((vcard, VCARD['street-address'], Literal(street)))
+        return vcard
 
 def help():
     print(__doc__.split('--')[1])
