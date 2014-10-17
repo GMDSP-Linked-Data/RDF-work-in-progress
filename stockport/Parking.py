@@ -5,7 +5,7 @@ from rdflib import Graph, URIRef, Namespace, RDF, Literal
 from rdflib.store import VALID_STORE
 
 
-storefn = "C:/Users/Matt/Desktop/RDF-work-in-progress/stockport/Output/parking.rdf"
+storefn = "./Output/parking.rdf"
 storeuri = 'file://' + storefn
 
 OS = Namespace('http://data.ordnancesurvey.co.uk/ontology/admingeo/')
