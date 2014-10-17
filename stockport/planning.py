@@ -22,6 +22,7 @@ PLANNINGID = Namespace('http://data.gmdsp.org.uk/id/stockport/planning/')
 class Store:
     def __init__(self):
         self.graph = Graph(identifier=URIRef('http://www.google.com'))
+        self.refs = [];
         self.decisions = []
         self.types = []
         rt = self.graph.open(storeuri, create=False)
@@ -40,12 +41,21 @@ class Store:
 
     def newApplication(self, ref, address, recdate, decision, dcndate, lat, long, type, details):
 
+        ref = ref.replace("/", "-").lower()
+        mod = 0;
+        if ref in self.refs:
+            oref = ref
+            while ref in self.refs:
+                mod += 1
+                ref = oref + "-" + `mod`
+
+        self.refs.append(ref)
 
         if type not in self.types:
             self.new_type(type)
             self.types.append(type)
 
-        app = PLANNINGID[ref.replace("/", "-").lower()]
+        app = PLANNINGID[ref]
         self.graph.add((app, RDF.type, URIRef('http://data.gmdsp.org.uk/def/council/planning/PlanningApplication')))
         self.graph.add((app, VCARD['street-address'], Literal(address)))
         self.graph.add((app, GEO["lat"], Literal(lat)))
