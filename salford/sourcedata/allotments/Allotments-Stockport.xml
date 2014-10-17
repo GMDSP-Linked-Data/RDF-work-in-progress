@@ -1,0 +1,528 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<fme:xml-tables xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:fme="http://www.safe.com/xml/xmltables" xsi:schemaLocation="http://www.safe.com/xml/xmltables Allotments.xsd">
+<fme:GroundsMaintenanceAreaF-table>
+<fme:GroundsMaintenanceAreaF>
+<fme:Site_Code>61601304</fme:Site_Code>
+<fme:Feature_Group_Name>Whole site</fme:Feature_Group_Name>
+<fme:site_id>1304</fme:site_id>
+<fme:site_name>Green Lane Allotments</fme:site_name>
+<fme:feature_id>0</fme:feature_id>
+<fme:Class>Allotments</fme:Class>
+<fme:Area>20038.32</fme:Area>
+<fme:slc_typology>Allotments</fme:slc_typology>
+<fme:Contract_Area>Parks</fme:Contract_Area>
+<fme:eastings>388063.554960918</fme:eastings>
+<fme:northings>391201.860132857</fme:northings>
+<fme:long>53.3893445322651</fme:long>
+<fme:lat>-2.13376845741561</fme:lat>
+</fme:GroundsMaintenanceAreaF>
+<fme:GroundsMaintenanceAreaF>
+<fme:Site_Code>61600344</fme:Site_Code>
+<fme:Feature_Group_Name>Whole site</fme:Feature_Group_Name>
+<fme:site_id>344</fme:site_id>
+<fme:site_name>SEVEN STILES ALLOTMENTS</fme:site_name>
+<fme:feature_id>696</fme:feature_id>
+<fme:Class>Allotments</fme:Class>
+<fme:Area>7107.13</fme:Area>
+<fme:slc_typology>Allotments</fme:slc_typology>
+<fme:Contract_Area>Parks</fme:Contract_Area>
+<fme:eastings>395723.55570115</fme:eastings>
+<fme:northings>389234.252109545</fme:northings>
+<fme:long>53.4581594322708</fme:long>
+<fme:lat>-2.16361792232875</fme:lat>
+</fme:GroundsMaintenanceAreaF>
+<fme:GroundsMaintenanceAreaF>
+<fme:Site_Code>61601199</fme:Site_Code>
+<fme:Feature_Group_Name>Whole site</fme:Feature_Group_Name>
+<fme:site_id>1199</fme:site_id>
+<fme:site_name>Brinnington Rise Allotments</fme:site_name>
+<fme:feature_id>879</fme:feature_id>
+<fme:Class>Allotments</fme:Class>
+<fme:Area>16378.96</fme:Area>
+<fme:slc_typology>Allotments</fme:slc_typology>
+<fme:Contract_Area>Parks</fme:Contract_Area>
+<fme:eastings>390559.738964215</fme:eastings>
+<fme:northings>391478.249503598</fme:northings>
+<fme:long>53.4117861561823</fme:long>
+<fme:lat>-2.12968104375851</fme:lat>
+</fme:GroundsMaintenanceAreaF>
+<fme:GroundsMaintenanceAreaF>
+<fme:Site_Code>61601233</fme:Site_Code>
+<fme:Feature_Group_Name>Whole site</fme:Feature_Group_Name>
+<fme:site_id>1233</fme:site_id>
+<fme:site_name>Chester Road Allotments</fme:site_name>
+<fme:feature_id>913</fme:feature_id>
+<fme:Class>Allotments</fme:Class>
+<fme:Area>11557.64</fme:Area>
+<fme:slc_typology>Allotments</fme:slc_typology>
+<fme:Contract_Area>Parks</fme:Contract_Area>
+<fme:eastings>392155.580175209</fme:eastings>
+<fme:northings>386761.904811598</fme:northings>
+<fme:long>53.4260320256989</fme:long>
+<fme:lat>-2.20070055331214</fme:lat>
+</fme:GroundsMaintenanceAreaF>
+<fme:GroundsMaintenanceAreaF>
+<fme:Site_Code>61601251</fme:Site_Code>
+<fme:Feature_Group_Name>Whole site</fme:Feature_Group_Name>
+<fme:site_id>1251</fme:site_id>
+<fme:site_name>Craig Road Allotments</fme:site_name>
+<fme:feature_id>931</fme:feature_id>
+<fme:Class>Allotments</fme:Class>
+<fme:Area>7678.64</fme:Area>
+<fme:slc_typology>Allotments</fme:slc_typology>
+<fme:Contract_Area>Parks</fme:Contract_Area>
+<fme:eastings>387605.385160591</fme:eastings>
+<fme:northings>390182.49711944</fme:northings>
+<fme:long>53.385208057176</fme:long>
+<fme:lat>-2.14908112481164</fme:lat>
+</fme:GroundsMaintenanceAreaF>
+<fme:GroundsMaintenanceAreaF>
+<fme:Site_Code>61601284</fme:Site_Code>
+<fme:Feature_Group_Name>Whole site</fme:Feature_Group_Name>
+<fme:site_id>1284</fme:site_id>
+<fme:site_name>Flowery Field Allotments</fme:site_name>
+<fme:feature_id>964</fme:feature_id>
+<fme:Class>Allotments</fme:Class>
+<fme:Area>8293.48</fme:Area>
+<fme:slc_typology>Allotments</fme:slc_typology>
+<fme:Contract_Area>Parks</fme:Contract_Area>
+<fme:eastings>390558.5764106</fme:eastings>
+<fme:northings>387305.194940505</fme:northings>
+<fme:long>53.411690874192</fme:long>
+<fme:lat>-2.19245973040176</fme:lat>
+</fme:GroundsMaintenanceAreaF>
+<fme:GroundsMaintenanceAreaF>
+<fme:Site_Code>61601288</fme:Site_Code>
+<fme:Feature_Group_Name>Whole site</fme:Feature_Group_Name>
+<fme:site_id>1288</fme:site_id>
+<fme:site_name>Gatley Hill Allotments</fme:site_name>
+<fme:feature_id>968</fme:feature_id>
+<fme:Class>Allotments</fme:Class>
+<fme:Area>7721.37</fme:Area>
+<fme:slc_typology>Allotments</fme:slc_typology>
+<fme:Contract_Area>Parks</fme:Contract_Area>
+<fme:eastings>384231.910166015</fme:eastings>
+<fme:northings>388097.795181949</fme:northings>
+<fme:long>53.3548420548302</fme:long>
+<fme:lat>-2.18029520509427</fme:lat>
+</fme:GroundsMaintenanceAreaF>
+<fme:GroundsMaintenanceAreaF>
+<fme:Site_Code>61601304</fme:Site_Code>
+<fme:Feature_Group_Name>Whole site</fme:Feature_Group_Name>
+<fme:site_id>1304</fme:site_id>
+<fme:site_name>Green Lane Allotments</fme:site_name>
+<fme:feature_id>984</fme:feature_id>
+<fme:Class>Allotments</fme:Class>
+<fme:Area>20038.32</fme:Area>
+<fme:slc_typology>Allotments</fme:slc_typology>
+<fme:Contract_Area>Parks</fme:Contract_Area>
+<fme:eastings>388063.563205979</fme:eastings>
+<fme:northings>391201.860132857</fme:northings>
+<fme:long>53.3893446063762</fme:long>
+<fme:lat>-2.13376845764849</fme:lat>
+</fme:GroundsMaintenanceAreaF>
+<fme:GroundsMaintenanceAreaF>
+<fme:Feature_Group_Name>Whole site</fme:Feature_Group_Name>
+<fme:site_id>1319</fme:site_id>
+<fme:feature_id>999</fme:feature_id>
+<fme:Class>Allotments</fme:Class>
+<fme:Area>18473.13</fme:Area>
+<fme:slc_typology>Allotments</fme:slc_typology>
+<fme:Contract_Area>Parks</fme:Contract_Area>
+<fme:eastings>389237.358962046</fme:eastings>
+<fme:northings>394139.61704371</fme:northings>
+<fme:long>53.3999367642009</fme:long>
+<fme:lat>-2.08961866417492</fme:lat>
+</fme:GroundsMaintenanceAreaF>
+<fme:GroundsMaintenanceAreaF>
+<fme:Site_Code>61601332</fme:Site_Code>
+<fme:Feature_Group_Name>Whole site</fme:Feature_Group_Name>
+<fme:site_id>1332</fme:site_id>
+<fme:site_name>Billys Lane Allotments</fme:site_name>
+<fme:feature_id>1012</fme:feature_id>
+<fme:Class>Allotments</fme:Class>
+<fme:Area>11885.71</fme:Area>
+<fme:slc_typology>Allotments</fme:slc_typology>
+<fme:Contract_Area>Parks</fme:Contract_Area>
+<fme:eastings>386999.682359452</fme:eastings>
+<fme:northings>386246.382075676</fme:northings>
+<fme:long>53.3796749720571</fme:long>
+<fme:lat>-2.20823183618919</fme:lat>
+</fme:GroundsMaintenanceAreaF>
+<fme:GroundsMaintenanceAreaF>
+<fme:Site_Code>61601333</fme:Site_Code>
+<fme:Feature_Group_Name>Whole site</fme:Feature_Group_Name>
+<fme:site_id>1333</fme:site_id>
+<fme:site_name>Heathside Park Road Allotments</fme:site_name>
+<fme:feature_id>1013</fme:feature_id>
+<fme:Class>Allotments</fme:Class>
+<fme:Area>13758.40</fme:Area>
+<fme:slc_typology>Allotments</fme:slc_typology>
+<fme:Contract_Area>Parks</fme:Contract_Area>
+<fme:eastings>386531.875556321</fme:eastings>
+<fme:northings>389424.147752483</fme:northings>
+<fme:long>53.3755439517185</fme:long>
+<fme:lat>-2.16044616628613</fme:lat>
+</fme:GroundsMaintenanceAreaF>
+<fme:GroundsMaintenanceAreaF>
+<fme:Site_Code>61601395</fme:Site_Code>
+<fme:Feature_Group_Name>Whole site</fme:Feature_Group_Name>
+<fme:site_id>1395</fme:site_id>
+<fme:site_name>Manor View Allotments</fme:site_name>
+<fme:feature_id>1075</fme:feature_id>
+<fme:Class>Allotments</fme:Class>
+<fme:Area>895.02</fme:Area>
+<fme:slc_typology>Allotments</fme:slc_typology>
+<fme:Contract_Area>Parks</fme:Contract_Area>
+<fme:eastings>393661.906100729</fme:eastings>
+<fme:northings>392480.921128763</fme:northings>
+<fme:long>53.4396854475005</fme:long>
+<fme:lat>-2.11467219229305</fme:lat>
+</fme:GroundsMaintenanceAreaF>
+<fme:GroundsMaintenanceAreaF>
+<fme:Site_Code>61601428</fme:Site_Code>
+<fme:Feature_Group_Name>Whole site</fme:Feature_Group_Name>
+<fme:site_id>1428</fme:site_id>
+<fme:site_name>Nelstrop Road Allotments</fme:site_name>
+<fme:feature_id>1108</fme:feature_id>
+<fme:Class>Allotments</fme:Class>
+<fme:Area>6926.28</fme:Area>
+<fme:slc_typology>Allotments</fme:slc_typology>
+<fme:Contract_Area>Parks</fme:Contract_Area>
+<fme:eastings>388410.733871233</fme:eastings>
+<fme:northings>392827.042118834</fme:northings>
+<fme:long>53.3924901086065</fme:long>
+<fme:lat>-2.10934029895</fme:lat>
+</fme:GroundsMaintenanceAreaF>
+<fme:GroundsMaintenanceAreaF>
+<fme:Site_Code>61601432</fme:Site_Code>
+<fme:Feature_Group_Name>Whole site</fme:Feature_Group_Name>
+<fme:site_id>1432</fme:site_id>
+<fme:site_name>Newboult Road Allotments</fme:site_name>
+<fme:feature_id>1112</fme:feature_id>
+<fme:Class>Allotments</fme:Class>
+<fme:Area>20386.38</fme:Area>
+<fme:slc_typology>Allotments</fme:slc_typology>
+<fme:Contract_Area>Parks</fme:Contract_Area>
+<fme:eastings>386281.834359745</fme:eastings>
+<fme:northings>388393.906705846</fme:northings>
+<fme:long>53.3732745863202</fme:long>
+<fme:lat>-2.17592250748201</fme:lat>
+</fme:GroundsMaintenanceAreaF>
+<fme:GroundsMaintenanceAreaF>
+<fme:Site_Code>61601436</fme:Site_Code>
+<fme:Feature_Group_Name>Whole site</fme:Feature_Group_Name>
+<fme:site_id>1436</fme:site_id>
+<fme:site_name>Norbury Church Allotments</fme:site_name>
+<fme:feature_id>1116</fme:feature_id>
+<fme:Class>Allotments</fme:Class>
+<fme:Area>8373.25</fme:Area>
+<fme:slc_typology>Allotments</fme:slc_typology>
+<fme:Contract_Area>Parks</fme:Contract_Area>
+<fme:eastings>392437.576182505</fme:eastings>
+<fme:northings>386513.800830623</fme:northings>
+<fme:long>53.4285603930865</fme:long>
+<fme:lat>-2.20444641025582</fme:lat>
+</fme:GroundsMaintenanceAreaF>
+<fme:GroundsMaintenanceAreaF>
+<fme:Site_Code>61601443</fme:Site_Code>
+<fme:Feature_Group_Name>Whole site</fme:Feature_Group_Name>
+<fme:site_id>1443</fme:site_id>
+<fme:site_name>Offerton Hall Allotments</fme:site_name>
+<fme:feature_id>1123</fme:feature_id>
+<fme:Class>Allotments</fme:Class>
+<fme:Area>11256.84</fme:Area>
+<fme:slc_typology>Allotments</fme:slc_typology>
+<fme:Contract_Area>Parks</fme:Contract_Area>
+<fme:eastings>392444.919072556</fme:eastings>
+<fme:northings>388828.828160943</fme:northings>
+<fme:long>53.4286810363925</fme:long>
+<fme:lat>-2.16960607240706</fme:lat>
+</fme:GroundsMaintenanceAreaF>
+<fme:GroundsMaintenanceAreaF>
+<fme:Site_Code>61601446</fme:Site_Code>
+<fme:Feature_Group_Name>Whole site</fme:Feature_Group_Name>
+<fme:site_id>1446</fme:site_id>
+<fme:site_name>Cheadle Old Road Allotments</fme:site_name>
+<fme:feature_id>1126</fme:feature_id>
+<fme:Class>Allotments</fme:Class>
+<fme:Area>6259.05</fme:Area>
+<fme:slc_typology>Allotments</fme:slc_typology>
+<fme:Contract_Area>Parks</fme:Contract_Area>
+<fme:eastings>388206.536688003</fme:eastings>
+<fme:northings>388921.808520367</fme:northings>
+<fme:long>53.3905863084415</fme:long>
+<fme:lat>-2.168056233661</fme:lat>
+</fme:GroundsMaintenanceAreaF>
+<fme:GroundsMaintenanceAreaF>
+<fme:Site_Code>61601472</fme:Site_Code>
+<fme:Feature_Group_Name>Whole site</fme:Feature_Group_Name>
+<fme:site_id>1472</fme:site_id>
+<fme:site_name>Priestnall Road Allotments</fme:site_name>
+<fme:feature_id>1152</fme:feature_id>
+<fme:Class>Allotments</fme:Class>
+<fme:Area>27490.16</fme:Area>
+<fme:slc_typology>Allotments</fme:slc_typology>
+<fme:Contract_Area>Parks</fme:Contract_Area>
+<fme:eastings>386935.820014532</fme:eastings>
+<fme:northings>391357.54932204</fme:northings>
+<fme:long>53.3792104294453</fme:long>
+<fme:lat>-2.13139623513397</fme:lat>
+</fme:GroundsMaintenanceAreaF>
+<fme:GroundsMaintenanceAreaF>
+<fme:Site_Code>61601483</fme:Site_Code>
+<fme:Feature_Group_Name>Whole site</fme:Feature_Group_Name>
+<fme:site_id>1483</fme:site_id>
+<fme:site_name>Reddish Vale Allotments</fme:site_name>
+<fme:feature_id>1163</fme:feature_id>
+<fme:Class>Allotments</fme:Class>
+<fme:Area>18485.62</fme:Area>
+<fme:slc_typology>Allotments</fme:slc_typology>
+<fme:Contract_Area>Parks</fme:Contract_Area>
+<fme:eastings>390173.614507789</fme:eastings>
+<fme:northings>393534.663854646</fme:northings>
+<fme:long>53.4083451323769</fme:long>
+<fme:lat>-2.09873652568435</fme:lat>
+</fme:GroundsMaintenanceAreaF>
+<fme:GroundsMaintenanceAreaF>
+<fme:Site_Code>61601512</fme:Site_Code>
+<fme:Feature_Group_Name>Whole site</fme:Feature_Group_Name>
+<fme:site_id>1512</fme:site_id>
+<fme:site_name>St Lesmo Road Allotments</fme:site_name>
+<fme:feature_id>1192</fme:feature_id>
+<fme:Class>Allotments</fme:Class>
+<fme:Area>7778.62</fme:Area>
+<fme:slc_typology>Allotments</fme:slc_typology>
+<fme:Contract_Area>Parks</fme:Contract_Area>
+<fme:eastings>388121.237408381</fme:eastings>
+<fme:northings>389337.287098848</fme:northings>
+<fme:long>53.3898282388013</fme:long>
+<fme:lat>-2.16180603075049</fme:lat>
+</fme:GroundsMaintenanceAreaF>
+<fme:GroundsMaintenanceAreaF>
+<fme:Site_Code>61601539</fme:Site_Code>
+<fme:Feature_Group_Name>Whole site</fme:Feature_Group_Name>
+<fme:site_id>1539</fme:site_id>
+<fme:site_name>Torkington Road Allotments</fme:site_name>
+<fme:feature_id>1219</fme:feature_id>
+<fme:Class>Allotments</fme:Class>
+<fme:Area>7658.55</fme:Area>
+<fme:slc_typology>Allotments</fme:slc_typology>
+<fme:Contract_Area>Parks</fme:Contract_Area>
+<fme:eastings>392837.577259433</fme:eastings>
+<fme:northings>386873.604238946</fme:northings>
+<fme:long>53.4321649443944</fme:long>
+<fme:lat>-2.19904828642977</fme:lat>
+</fme:GroundsMaintenanceAreaF>
+<fme:GroundsMaintenanceAreaF>
+<fme:Site_Code>61601553</fme:Site_Code>
+<fme:Feature_Group_Name>Whole site</fme:Feature_Group_Name>
+<fme:site_id>1553</fme:site_id>
+<fme:site_name>Webb Lane Allotments</fme:site_name>
+<fme:feature_id>1233</fme:feature_id>
+<fme:Class>Allotments</fme:Class>
+<fme:Area>11053.62</fme:Area>
+<fme:slc_typology>Allotments</fme:slc_typology>
+<fme:Contract_Area>Parks</fme:Contract_Area>
+<fme:eastings>390423.862389667</fme:eastings>
+<fme:northings>389775.027314253</fme:northings>
+<fme:long>53.4105341904313</fme:long>
+<fme:lat>-2.15529961346867</fme:lat>
+</fme:GroundsMaintenanceAreaF>
+<fme:GroundsMaintenanceAreaF>
+<fme:Site_Code>61601555</fme:Site_Code>
+<fme:Feature_Group_Name>Whole site</fme:Feature_Group_Name>
+<fme:site_id>1555</fme:site_id>
+<fme:site_name>Welkin Road Allotments</fme:site_name>
+<fme:feature_id>1235</fme:feature_id>
+<fme:Class>Allotments</fme:Class>
+<fme:Area>8733.21</fme:Area>
+<fme:slc_typology>Allotments</fme:slc_typology>
+<fme:Contract_Area>Parks</fme:Contract_Area>
+<fme:eastings>391110.513582513</fme:eastings>
+<fme:northings>391180.450016188</fme:northings>
+<fme:long>53.416731838666</fme:long>
+<fme:lat>-2.13417671634623</fme:lat>
+</fme:GroundsMaintenanceAreaF>
+<fme:GroundsMaintenanceAreaF>
+<fme:Site_Code>61601558</fme:Site_Code>
+<fme:Feature_Group_Name>Whole site</fme:Feature_Group_Name>
+<fme:site_id>1558</fme:site_id>
+<fme:site_name>Whitehill Allotments</fme:site_name>
+<fme:feature_id>1238</fme:feature_id>
+<fme:Class>Allotments</fme:Class>
+<fme:Area>19260.43</fme:Area>
+<fme:slc_typology>Allotments</fme:slc_typology>
+<fme:Contract_Area>Parks</fme:Contract_Area>
+<fme:eastings>389006.348840115</fme:eastings>
+<fme:northings>392047.99647195</fme:northings>
+<fme:long>53.3978324868258</fme:long>
+<fme:lat>-2.1210700945809</fme:lat>
+</fme:GroundsMaintenanceAreaF>
+<fme:GroundsMaintenanceAreaF>
+<fme:Site_Code>61601572</fme:Site_Code>
+<fme:Feature_Group_Name>Whole site</fme:Feature_Group_Name>
+<fme:site_id>1572</fme:site_id>
+<fme:site_name>Woodhall Road Allotments</fme:site_name>
+<fme:feature_id>1252</fme:feature_id>
+<fme:Class>Allotments</fme:Class>
+<fme:Area>4363.24</fme:Area>
+<fme:slc_typology>Allotments</fme:slc_typology>
+<fme:Contract_Area>Parks</fme:Contract_Area>
+<fme:eastings>389878.864512962</fme:eastings>
+<fme:northings>391837.252008575</fme:northings>
+<fme:long>53.4056718580633</fme:long>
+<fme:lat>-2.12426237497138</fme:lat>
+</fme:GroundsMaintenanceAreaF>
+<fme:GroundsMaintenanceAreaF>
+<fme:Site_Code>61601580</fme:Site_Code>
+<fme:Feature_Group_Name>Whole site</fme:Feature_Group_Name>
+<fme:site_id>1580</fme:site_id>
+<fme:site_name>Dial Park Road Allotments</fme:site_name>
+<fme:feature_id>1260</fme:feature_id>
+<fme:Class>Allotments</fme:Class>
+<fme:Area>17405.00</fme:Area>
+<fme:slc_typology>Allotments</fme:slc_typology>
+<fme:Contract_Area>Parks</fme:Contract_Area>
+<fme:eastings>391686.598641653</fme:eastings>
+<fme:northings>387838.731573143</fme:northings>
+<fme:long>53.4218427695332</fme:long>
+<fme:lat>-2.18447726374341</fme:lat>
+</fme:GroundsMaintenanceAreaF>
+<fme:GroundsMaintenanceAreaF>
+<fme:Site_Code>61601156</fme:Site_Code>
+<fme:Feature_Group_Name>Whole site</fme:Feature_Group_Name>
+<fme:site_id>1156</fme:site_id>
+<fme:site_name>Barnfield Road East Allotments</fme:site_name>
+<fme:feature_id>836</fme:feature_id>
+<fme:Class>Allotments</fme:Class>
+<fme:Area>22430.59</fme:Area>
+<fme:slc_typology>Allotments</fme:slc_typology>
+<fme:Contract_Area>Parks</fme:Contract_Area>
+<fme:eastings>389686.695341974</fme:eastings>
+<fme:northings>387440.905449687</fme:northings>
+<fme:long>53.4038572541282</fme:long>
+<fme:lat>-2.19038307944039</fme:lat>
+</fme:GroundsMaintenanceAreaF>
+<fme:GroundsMaintenanceAreaF>
+<fme:Site_Code>61601504</fme:Site_Code>
+<fme:Feature_Group_Name>Whole site</fme:Feature_Group_Name>
+<fme:site_id>1504</fme:site_id>
+<fme:site_name>St Anns Road North Allotments</fme:site_name>
+<fme:feature_id>1184</fme:feature_id>
+<fme:Class>Allotments</fme:Class>
+<fme:Area>24749.62</fme:Area>
+<fme:slc_typology>Allotments</fme:slc_typology>
+<fme:Contract_Area>Parks</fme:Contract_Area>
+<fme:eastings>385245.909937827</fme:eastings>
+<fme:northings>387257.687895166</fme:northings>
+<fme:long>53.3639366929247</fme:long>
+<fme:lat>-2.19295801312404</fme:lat>
+</fme:GroundsMaintenanceAreaF>
+<fme:GroundsMaintenanceAreaF>
+<fme:Site_Code>61601700</fme:Site_Code>
+<fme:Feature_Group_Name>Whole Site</fme:Feature_Group_Name>
+<fme:site_id>1700</fme:site_id>
+<fme:site_name>Cote Green Allotments</fme:site_name>
+<fme:feature_id>8069</fme:feature_id>
+<fme:Class>Allotments</fme:Class>
+<fme:Area>4286.48</fme:Area>
+<fme:slc_typology>Allotments</fme:slc_typology>
+<fme:Contract_Area>Parks</fme:Contract_Area>
+<fme:eastings>396675.763835468</fme:eastings>
+<fme:northings>390034.623005759</fme:northings>
+<fme:long>53.4667342171576</fme:long>
+<fme:lat>-2.15159469442616</fme:lat>
+</fme:GroundsMaintenanceAreaF>
+<fme:GroundsMaintenanceAreaF>
+<fme:Site_Code>61601701</fme:Site_Code>
+<fme:Feature_Group_Name>Whole Site</fme:Feature_Group_Name>
+<fme:site_id>1701</fme:site_id>
+<fme:site_name>High Lane Allotments</fme:site_name>
+<fme:feature_id>8070</fme:feature_id>
+<fme:Class>Allotments</fme:Class>
+<fme:Area>3815.06</fme:Area>
+<fme:slc_typology>Allotments</fme:slc_typology>
+<fme:Contract_Area>Parks</fme:Contract_Area>
+<fme:eastings>394980.748274801</fme:eastings>
+<fme:northings>385483.750679412</fme:northings>
+<fme:long>53.4513919354587</fme:long>
+<fme:lat>-2.22006662541341</fme:lat>
+</fme:GroundsMaintenanceAreaF>
+<fme:GroundsMaintenanceAreaF>
+<fme:Site_Code>61601703</fme:Site_Code>
+<fme:Feature_Group_Name>Whole Site</fme:Feature_Group_Name>
+<fme:site_id>1703</fme:site_id>
+<fme:site_name>Pleasant View Allotments</fme:site_name>
+<fme:feature_id>8072</fme:feature_id>
+<fme:Class>Allotments</fme:Class>
+<fme:Area>1782.43</fme:Area>
+<fme:slc_typology>Allotments</fme:slc_typology>
+<fme:Contract_Area>Parks</fme:Contract_Area>
+<fme:eastings>396814.872946329</fme:eastings>
+<fme:northings>391116.528313586</fme:northings>
+<fme:long>53.468004194967</fme:long>
+<fme:lat>-2.13530163332225</fme:lat>
+</fme:GroundsMaintenanceAreaF>
+<fme:GroundsMaintenanceAreaF>
+<fme:Site_Code>61601704</fme:Site_Code>
+<fme:Feature_Group_Name>Whole Site</fme:Feature_Group_Name>
+<fme:site_id>1704</fme:site_id>
+<fme:site_name>Rose Hill Allotments</fme:site_name>
+<fme:feature_id>8073</fme:feature_id>
+<fme:Class>Allotments</fme:Class>
+<fme:Area>5456.93</fme:Area>
+<fme:slc_typology>Allotments</fme:slc_typology>
+<fme:Contract_Area>Parks</fme:Contract_Area>
+<fme:eastings>394898.371915299</fme:eastings>
+<fme:northings>388717.899913824</fme:northings>
+<fme:long>53.4507314013156</fme:long>
+<fme:lat>-2.17136438764362</fme:lat>
+</fme:GroundsMaintenanceAreaF>
+<fme:GroundsMaintenanceAreaF>
+<fme:Site_Code>61601174</fme:Site_Code>
+<fme:Feature_Group_Name>Whole site</fme:Feature_Group_Name>
+<fme:site_id>1172</fme:site_id>
+<fme:site_name>Braddon Road Allotments</fme:site_name>
+<fme:feature_id>852</fme:feature_id>
+<fme:Class>Allotments</fme:Class>
+<fme:Area>8091.16</fme:Area>
+<fme:slc_typology>Allotments</fme:slc_typology>
+<fme:Contract_Area>Parks</fme:Contract_Area>
+<fme:eastings>393417.835813745</fme:eastings>
+<fme:northings>392460.533596076</fme:northings>
+<fme:long>53.4374913310116</fme:long>
+<fme:lat>-2.11497316257806</fme:lat>
+</fme:GroundsMaintenanceAreaF>
+<fme:GroundsMaintenanceAreaF>
+<fme:Site_Code>61601332</fme:Site_Code>
+<fme:Feature_Group_Name>Whole site</fme:Feature_Group_Name>
+<fme:site_id>1162</fme:site_id>
+<fme:site_name>Birch Avenue Allotments</fme:site_name>
+<fme:feature_id>842</fme:feature_id>
+<fme:Class>Allotments</fme:Class>
+<fme:Area>14785.37</fme:Area>
+<fme:slc_typology>Allotments</fme:slc_typology>
+<fme:Contract_Area>Parks</fme:Contract_Area>
+<fme:eastings>394732.523162176</fme:eastings>
+<fme:northings>390641.363441885</fme:northings>
+<fme:long>53.4492787834332</fme:long>
+<fme:lat>-2.14239661754584</fme:lat>
+</fme:GroundsMaintenanceAreaF>
+<fme:GroundsMaintenanceAreaF>
+<fme:Site_Code>61600150</fme:Site_Code>
+<fme:Feature_Group_Name>Whole site</fme:Feature_Group_Name>
+<fme:site_id>150</fme:site_id>
+<fme:site_name>DOOLEY LANE ALLOTMENTS</fme:site_name>
+<fme:feature_id>665</fme:feature_id>
+<fme:Class>Allotments</fme:Class>
+<fme:Area>5765.27</fme:Area>
+<fme:slc_typology>Allotments</fme:slc_typology>
+<fme:Contract_Area>Parks</fme:Contract_Area>
+<fme:eastings>393612.176014698</fme:eastings>
+<fme:northings>389104.949840799</fme:northings>
+<fme:long>53.4391787257282</fme:long>
+<fme:lat>-2.16549132417618</fme:lat>
+</fme:GroundsMaintenanceAreaF>
+</fme:GroundsMaintenanceAreaF-table>
+</fme:xml-tables>

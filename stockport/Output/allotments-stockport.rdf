@@ -1,0 +1,316 @@
+<?xml version="1.0" encoding="utf-8"?>
+<rdf:RDF
+  xmlns:ns1="http://data.gmdsp.org.uk/def/council/allotment/"
+  xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+  xmlns:os="http://data.ordnancesurvey.co.uk/ontology/spatialrelations/"
+  xmlns:vcard="http://www.w3.org/2006/vcard/ns#"
+  xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
+>
+  <ns1:Allotment rdf:about="http://data.gmdsp.org.uk/id/manchester/allotments/reddish-vale-allotments">
+    <ns1:guidance rdf:resource="http://www.manchester.gov.uk"/>
+    <ns1:information rdf:resource=""/>
+    <os:easting>393534.663854646</os:easting>
+    <ns1:application rdf:resource=""/>
+    <vcard:hasAddress rdf:resource="http://data.gmdsp.org.uk/id/manchester/allotments/address/"/>
+    <os:northing>390173.614507789</os:northing>
+    <rdfs:label>Reddish Vale Allotments</rdfs:label>
+  </ns1:Allotment>
+  <ns1:Allotment rdf:about="http://data.gmdsp.org.uk/id/manchester/allotments/welkin-road-allotments">
+    <os:northing>391110.513582513</os:northing>
+    <ns1:information rdf:resource=""/>
+    <ns1:guidance rdf:resource="http://www.manchester.gov.uk"/>
+    <ns1:application rdf:resource=""/>
+    <os:easting>391180.450016188</os:easting>
+    <vcard:hasAddress rdf:resource="http://data.gmdsp.org.uk/id/manchester/allotments/address/"/>
+    <rdfs:label>Welkin Road Allotments</rdfs:label>
+  </ns1:Allotment>
+  <ns1:Allotment rdf:about="http://data.gmdsp.org.uk/id/manchester/allotments/craig-road-allotments">
+    <ns1:guidance rdf:resource="http://www.manchester.gov.uk"/>
+    <rdfs:label>Craig Road Allotments</rdfs:label>
+    <os:easting>390182.49711944</os:easting>
+    <ns1:information rdf:resource=""/>
+    <vcard:hasAddress rdf:resource="http://data.gmdsp.org.uk/id/manchester/allotments/address/"/>
+    <os:northing>387605.385160591</os:northing>
+    <ns1:application rdf:resource=""/>
+  </ns1:Allotment>
+  <ns1:Allotment rdf:about="http://data.gmdsp.org.uk/id/manchester/allotments/seven-stiles-allotments">
+    <ns1:guidance rdf:resource="http://www.manchester.gov.uk"/>
+    <os:northing>395723.55570115</os:northing>
+    <ns1:application rdf:resource=""/>
+    <ns1:information rdf:resource=""/>
+    <rdfs:label>SEVEN STILES ALLOTMENTS</rdfs:label>
+    <vcard:hasAddress rdf:resource="http://data.gmdsp.org.uk/id/manchester/allotments/address/"/>
+    <os:easting>389234.252109545</os:easting>
+  </ns1:Allotment>
+  <ns1:Allotment rdf:about="http://data.gmdsp.org.uk/id/manchester/allotments/high-lane-allotments">
+    <ns1:guidance rdf:resource="http://www.manchester.gov.uk"/>
+    <os:northing>394980.748274801</os:northing>
+    <rdfs:label>High Lane Allotments</rdfs:label>
+    <os:easting>385483.750679412</os:easting>
+    <ns1:application rdf:resource=""/>
+    <vcard:hasAddress rdf:resource="http://data.gmdsp.org.uk/id/manchester/allotments/address/"/>
+    <ns1:information rdf:resource=""/>
+  </ns1:Allotment>
+  <ns1:Allotment rdf:about="http://data.gmdsp.org.uk/id/manchester/allotments/offerton-hall-allotments">
+    <os:northing>392444.919072556</os:northing>
+    <os:easting>388828.828160943</os:easting>
+    <ns1:guidance rdf:resource="http://www.manchester.gov.uk"/>
+    <ns1:information rdf:resource=""/>
+    <vcard:hasAddress rdf:resource="http://data.gmdsp.org.uk/id/manchester/allotments/address/"/>
+    <ns1:application rdf:resource=""/>
+    <rdfs:label>Offerton Hall Allotments</rdfs:label>
+  </ns1:Allotment>
+  <ns1:Allotment rdf:about="http://data.gmdsp.org.uk/id/manchester/allotments/billys-lane-allotments">
+    <ns1:information rdf:resource=""/>
+    <vcard:hasAddress rdf:resource="http://data.gmdsp.org.uk/id/manchester/allotments/address/"/>
+    <os:easting>386246.382075676</os:easting>
+    <ns1:guidance rdf:resource="http://www.manchester.gov.uk"/>
+    <rdfs:label>Billys Lane Allotments</rdfs:label>
+    <os:northing>386999.682359452</os:northing>
+    <ns1:application rdf:resource=""/>
+  </ns1:Allotment>
+  <ns1:Allotment rdf:about="http://data.gmdsp.org.uk/id/manchester/allotments/st-lesmo-road-allotments">
+    <rdfs:label>St Lesmo Road Allotments</rdfs:label>
+    <ns1:application rdf:resource=""/>
+    <os:northing>388121.237408381</os:northing>
+    <ns1:guidance rdf:resource="http://www.manchester.gov.uk"/>
+    <os:easting>389337.287098848</os:easting>
+    <ns1:information rdf:resource=""/>
+    <vcard:hasAddress rdf:resource="http://data.gmdsp.org.uk/id/manchester/allotments/address/"/>
+  </ns1:Allotment>
+  <ns1:Allotment rdf:about="http://data.gmdsp.org.uk/id/manchester/allotments/brinnington-rise-allotments">
+    <ns1:application rdf:resource=""/>
+    <rdfs:label>Brinnington Rise Allotments</rdfs:label>
+    <os:easting>391478.249503598</os:easting>
+    <os:northing>390559.738964215</os:northing>
+    <ns1:guidance rdf:resource="http://www.manchester.gov.uk"/>
+    <ns1:information rdf:resource=""/>
+    <vcard:hasAddress rdf:resource="http://data.gmdsp.org.uk/id/manchester/allotments/address/"/>
+  </ns1:Allotment>
+  <ns1:Allotment rdf:about="http://data.gmdsp.org.uk/id/manchester/allotments/pleasant-view-allotments">
+    <os:easting>391116.528313586</os:easting>
+    <ns1:guidance rdf:resource="http://www.manchester.gov.uk"/>
+    <rdfs:label>Pleasant View Allotments</rdfs:label>
+    <os:northing>396814.872946329</os:northing>
+    <vcard:hasAddress rdf:resource="http://data.gmdsp.org.uk/id/manchester/allotments/address/"/>
+    <ns1:information rdf:resource=""/>
+    <ns1:application rdf:resource=""/>
+  </ns1:Allotment>
+  <ns1:Allotment rdf:about="http://data.gmdsp.org.uk/id/manchester/allotments/braddon-road-allotments">
+    <ns1:guidance rdf:resource="http://www.manchester.gov.uk"/>
+    <os:northing>393417.835813745</os:northing>
+    <ns1:application rdf:resource=""/>
+    <rdfs:label>Braddon Road Allotments</rdfs:label>
+    <ns1:information rdf:resource=""/>
+    <vcard:hasAddress rdf:resource="http://data.gmdsp.org.uk/id/manchester/allotments/address/"/>
+    <os:easting>392460.533596076</os:easting>
+  </ns1:Allotment>
+  <ns1:Allotment rdf:about="http://data.gmdsp.org.uk/id/manchester/allotments/cheadle-old-road-allotments">
+    <os:easting>388921.808520367</os:easting>
+    <vcard:hasAddress rdf:resource="http://data.gmdsp.org.uk/id/manchester/allotments/address/"/>
+    <ns1:application rdf:resource=""/>
+    <rdfs:label>Cheadle Old Road Allotments</rdfs:label>
+    <os:northing>388206.536688003</os:northing>
+    <ns1:guidance rdf:resource="http://www.manchester.gov.uk"/>
+    <ns1:information rdf:resource=""/>
+  </ns1:Allotment>
+  <ns1:Allotment rdf:about="http://data.gmdsp.org.uk/id/manchester/allotments/barnfield-road-east-allotments">
+    <os:easting>387440.905449687</os:easting>
+    <rdfs:label>Barnfield Road East Allotments</rdfs:label>
+    <ns1:information rdf:resource=""/>
+    <vcard:hasAddress rdf:resource="http://data.gmdsp.org.uk/id/manchester/allotments/address/"/>
+    <ns1:guidance rdf:resource="http://www.manchester.gov.uk"/>
+    <os:northing>389686.695341974</os:northing>
+    <ns1:application rdf:resource=""/>
+  </ns1:Allotment>
+  <ns1:Allotment rdf:about="http://data.gmdsp.org.uk/id/manchester/allotments/cote-green-allotments">
+    <os:easting>390034.623005759</os:easting>
+    <ns1:application rdf:resource=""/>
+    <vcard:hasAddress rdf:resource="http://data.gmdsp.org.uk/id/manchester/allotments/address/"/>
+    <os:northing>396675.763835468</os:northing>
+    <ns1:information rdf:resource=""/>
+    <rdfs:label>Cote Green Allotments</rdfs:label>
+    <ns1:guidance rdf:resource="http://www.manchester.gov.uk"/>
+  </ns1:Allotment>
+  <ns1:Allotment rdf:about="http://data.gmdsp.org.uk/id/manchester/allotments/allotments">
+    <ns1:guidance rdf:resource="http://www.manchester.gov.uk"/>
+    <ns1:application rdf:resource=""/>
+    <os:northing>53.3999367642009</os:northing>
+    <os:easting>-2.08961866417492</os:easting>
+    <rdfs:label>Allotments</rdfs:label>
+    <ns1:information rdf:resource=""/>
+    <vcard:hasAddress rdf:resource="http://data.gmdsp.org.uk/id/manchester/allotments/address/"/>
+  </ns1:Allotment>
+  <ns1:Allotment rdf:about="http://data.gmdsp.org.uk/id/manchester/allotments/heathside-park-road-allotments">
+    <ns1:application rdf:resource=""/>
+    <vcard:hasAddress rdf:resource="http://data.gmdsp.org.uk/id/manchester/allotments/address/"/>
+    <os:northing>386531.875556321</os:northing>
+    <ns1:guidance rdf:resource="http://www.manchester.gov.uk"/>
+    <os:easting>389424.147752483</os:easting>
+    <ns1:information rdf:resource=""/>
+    <rdfs:label>Heathside Park Road Allotments</rdfs:label>
+  </ns1:Allotment>
+  <ns1:Allotment rdf:about="http://data.gmdsp.org.uk/id/manchester/allotments/norbury-church-allotments">
+    <os:easting>386513.800830623</os:easting>
+    <vcard:hasAddress rdf:resource="http://data.gmdsp.org.uk/id/manchester/allotments/address/"/>
+    <ns1:information rdf:resource=""/>
+    <ns1:guidance rdf:resource="http://www.manchester.gov.uk"/>
+    <os:northing>392437.576182505</os:northing>
+    <rdfs:label>Norbury Church Allotments</rdfs:label>
+    <ns1:application rdf:resource=""/>
+  </ns1:Allotment>
+  <ns1:Allotment rdf:about="http://data.gmdsp.org.uk/id/manchester/allotments/torkington-road-allotments">
+    <os:northing>392837.577259433</os:northing>
+    <os:easting>386873.604238946</os:easting>
+    <ns1:application rdf:resource=""/>
+    <ns1:information rdf:resource=""/>
+    <rdfs:label>Torkington Road Allotments</rdfs:label>
+    <ns1:guidance rdf:resource="http://www.manchester.gov.uk"/>
+    <vcard:hasAddress rdf:resource="http://data.gmdsp.org.uk/id/manchester/allotments/address/"/>
+  </ns1:Allotment>
+  <ns1:Allotment rdf:about="http://data.gmdsp.org.uk/id/manchester/allotments/gatley-hill-allotments">
+    <rdfs:label>Gatley Hill Allotments</rdfs:label>
+    <ns1:guidance rdf:resource="http://www.manchester.gov.uk"/>
+    <ns1:information rdf:resource=""/>
+    <os:northing>384231.910166015</os:northing>
+    <os:easting>388097.795181949</os:easting>
+    <ns1:application rdf:resource=""/>
+    <vcard:hasAddress rdf:resource="http://data.gmdsp.org.uk/id/manchester/allotments/address/"/>
+  </ns1:Allotment>
+  <ns1:Allotment rdf:about="http://data.gmdsp.org.uk/id/manchester/allotments/priestnall-road-allotments">
+    <os:northing>386935.820014532</os:northing>
+    <ns1:information rdf:resource=""/>
+    <rdfs:label>Priestnall Road Allotments</rdfs:label>
+    <os:easting>391357.54932204</os:easting>
+    <ns1:application rdf:resource=""/>
+    <ns1:guidance rdf:resource="http://www.manchester.gov.uk"/>
+    <vcard:hasAddress rdf:resource="http://data.gmdsp.org.uk/id/manchester/allotments/address/"/>
+  </ns1:Allotment>
+  <ns1:Allotment rdf:about="http://data.gmdsp.org.uk/id/manchester/allotments/birch-avenue-allotments">
+    <os:northing>394732.523162176</os:northing>
+    <ns1:information rdf:resource=""/>
+    <vcard:hasAddress rdf:resource="http://data.gmdsp.org.uk/id/manchester/allotments/address/"/>
+    <rdfs:label>Birch Avenue Allotments</rdfs:label>
+    <os:easting>390641.363441885</os:easting>
+    <ns1:guidance rdf:resource="http://www.manchester.gov.uk"/>
+    <ns1:application rdf:resource=""/>
+  </ns1:Allotment>
+  <ns1:Allotment rdf:about="http://data.gmdsp.org.uk/id/manchester/allotments/nelstrop-road-allotments">
+    <os:northing>388410.733871233</os:northing>
+    <rdfs:label>Nelstrop Road Allotments</rdfs:label>
+    <os:easting>392827.042118834</os:easting>
+    <ns1:information rdf:resource=""/>
+    <vcard:hasAddress rdf:resource="http://data.gmdsp.org.uk/id/manchester/allotments/address/"/>
+    <ns1:guidance rdf:resource="http://www.manchester.gov.uk"/>
+    <ns1:application rdf:resource=""/>
+  </ns1:Allotment>
+  <ns1:Allotment rdf:about="http://data.gmdsp.org.uk/id/manchester/allotments/chester-road-allotments">
+    <rdfs:label>Chester Road Allotments</rdfs:label>
+    <vcard:hasAddress rdf:resource="http://data.gmdsp.org.uk/id/manchester/allotments/address/"/>
+    <ns1:guidance rdf:resource="http://www.manchester.gov.uk"/>
+    <os:easting>386761.904811598</os:easting>
+    <ns1:information rdf:resource=""/>
+    <os:northing>392155.580175209</os:northing>
+    <ns1:application rdf:resource=""/>
+  </ns1:Allotment>
+  <ns1:Allotment rdf:about="http://data.gmdsp.org.uk/id/manchester/allotments/dial-park-road-allotments">
+    <os:northing>391686.598641653</os:northing>
+    <vcard:hasAddress rdf:resource="http://data.gmdsp.org.uk/id/manchester/allotments/address/"/>
+    <ns1:information rdf:resource=""/>
+    <rdfs:label>Dial Park Road Allotments</rdfs:label>
+    <ns1:guidance rdf:resource="http://www.manchester.gov.uk"/>
+    <ns1:application rdf:resource=""/>
+    <os:easting>387838.731573143</os:easting>
+  </ns1:Allotment>
+  <ns1:Allotment rdf:about="http://data.gmdsp.org.uk/id/manchester/allotments/manor-view-allotments">
+    <vcard:hasAddress rdf:resource="http://data.gmdsp.org.uk/id/manchester/allotments/address/"/>
+    <ns1:guidance rdf:resource="http://www.manchester.gov.uk"/>
+    <os:easting>392480.921128763</os:easting>
+    <ns1:application rdf:resource=""/>
+    <ns1:information rdf:resource=""/>
+    <os:northing>393661.906100729</os:northing>
+    <rdfs:label>Manor View Allotments</rdfs:label>
+  </ns1:Allotment>
+  <ns1:Allotment rdf:about="http://data.gmdsp.org.uk/id/manchester/allotments/dooley-lane-allotments">
+    <ns1:guidance rdf:resource="http://www.manchester.gov.uk"/>
+    <ns1:information rdf:resource=""/>
+    <os:easting>389104.949840799</os:easting>
+    <rdfs:label>DOOLEY LANE ALLOTMENTS</rdfs:label>
+    <os:northing>393612.176014698</os:northing>
+    <vcard:hasAddress rdf:resource="http://data.gmdsp.org.uk/id/manchester/allotments/address/"/>
+    <ns1:application rdf:resource=""/>
+  </ns1:Allotment>
+  <ns1:Allotment rdf:about="http://data.gmdsp.org.uk/id/manchester/allotments/st-anns-road-north-allotments">
+    <vcard:hasAddress rdf:resource="http://data.gmdsp.org.uk/id/manchester/allotments/address/"/>
+    <ns1:guidance rdf:resource="http://www.manchester.gov.uk"/>
+    <ns1:application rdf:resource=""/>
+    <rdfs:label>St Anns Road North Allotments</rdfs:label>
+    <os:northing>385245.909937827</os:northing>
+    <os:easting>387257.687895166</os:easting>
+    <ns1:information rdf:resource=""/>
+  </ns1:Allotment>
+  <ns1:Allotment rdf:about="http://data.gmdsp.org.uk/id/manchester/allotments/webb-lane-allotments">
+    <rdfs:label>Webb Lane Allotments</rdfs:label>
+    <os:northing>390423.862389667</os:northing>
+    <ns1:application rdf:resource=""/>
+    <os:easting>389775.027314253</os:easting>
+    <ns1:information rdf:resource=""/>
+    <ns1:guidance rdf:resource="http://www.manchester.gov.uk"/>
+    <vcard:hasAddress rdf:resource="http://data.gmdsp.org.uk/id/manchester/allotments/address/"/>
+  </ns1:Allotment>
+  <ns1:Allotment rdf:about="http://data.gmdsp.org.uk/id/manchester/allotments/green-lane-allotments">
+    <rdfs:label>Green Lane Allotments</rdfs:label>
+    <os:northing>388063.563205979</os:northing>
+    <os:easting>391201.860132857</os:easting>
+    <vcard:hasAddress rdf:resource="http://data.gmdsp.org.uk/id/manchester/allotments/address/"/>
+    <ns1:information rdf:resource=""/>
+    <os:northing>388063.554960918</os:northing>
+    <ns1:guidance rdf:resource="http://www.manchester.gov.uk"/>
+    <ns1:application rdf:resource=""/>
+  </ns1:Allotment>
+  <ns1:Allotment rdf:about="http://data.gmdsp.org.uk/id/manchester/allotments/rose-hill-allotments">
+    <rdfs:label>Rose Hill Allotments</rdfs:label>
+    <os:northing>394898.371915299</os:northing>
+    <ns1:application rdf:resource=""/>
+    <ns1:guidance rdf:resource="http://www.manchester.gov.uk"/>
+    <os:easting>388717.899913824</os:easting>
+    <vcard:hasAddress rdf:resource="http://data.gmdsp.org.uk/id/manchester/allotments/address/"/>
+    <ns1:information rdf:resource=""/>
+  </ns1:Allotment>
+  <ns1:Allotment rdf:about="http://data.gmdsp.org.uk/id/manchester/allotments/whitehill-allotments">
+    <ns1:information rdf:resource=""/>
+    <os:easting>392047.99647195</os:easting>
+    <rdfs:label>Whitehill Allotments</rdfs:label>
+    <ns1:application rdf:resource=""/>
+    <os:northing>389006.348840115</os:northing>
+    <vcard:hasAddress rdf:resource="http://data.gmdsp.org.uk/id/manchester/allotments/address/"/>
+    <ns1:guidance rdf:resource="http://www.manchester.gov.uk"/>
+  </ns1:Allotment>
+  <ns1:Allotment rdf:about="http://data.gmdsp.org.uk/id/manchester/allotments/newboult-road-allotments">
+    <ns1:information rdf:resource=""/>
+    <os:easting>388393.906705846</os:easting>
+    <ns1:guidance rdf:resource="http://www.manchester.gov.uk"/>
+    <os:northing>386281.834359745</os:northing>
+    <rdfs:label>Newboult Road Allotments</rdfs:label>
+    <vcard:hasAddress rdf:resource="http://data.gmdsp.org.uk/id/manchester/allotments/address/"/>
+    <ns1:application rdf:resource=""/>
+  </ns1:Allotment>
+  <ns1:Allotment rdf:about="http://data.gmdsp.org.uk/id/manchester/allotments/woodhall-road-allotments">
+    <os:northing>389878.864512962</os:northing>
+    <os:easting>391837.252008575</os:easting>
+    <rdfs:label>Woodhall Road Allotments</rdfs:label>
+    <ns1:application rdf:resource=""/>
+    <ns1:guidance rdf:resource="http://www.manchester.gov.uk"/>
+    <vcard:hasAddress rdf:resource="http://data.gmdsp.org.uk/id/manchester/allotments/address/"/>
+    <ns1:information rdf:resource=""/>
+  </ns1:Allotment>
+  <ns1:Allotment rdf:about="http://data.gmdsp.org.uk/id/manchester/allotments/flowery-field-allotments">
+    <os:easting>387305.194940505</os:easting>
+    <vcard:hasAddress rdf:resource="http://data.gmdsp.org.uk/id/manchester/allotments/address/"/>
+    <ns1:information rdf:resource=""/>
+    <ns1:guidance rdf:resource="http://www.manchester.gov.uk"/>
+    <rdfs:label>Flowery Field Allotments</rdfs:label>
+    <os:northing>390558.5764106</os:northing>
+    <ns1:application rdf:resource=""/>
+  </ns1:Allotment>
+</rdf:RDF>
