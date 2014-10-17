@@ -1,0 +1,3556 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<fme:xml-tables xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:fme="http://www.safe.com/xml/xmltables" xsi:schemaLocation="http://www.safe.com/xml/xmltables CarParks.xsd">
+<fme:CarParks-table>
+<fme:CarParks>
+<fme:smbcrefno>1</fme:smbcrefno>
+<fme:name>Churchgate</fme:name>
+<fme:recyclingfacilities>None</fme:recyclingfacilities>
+<fme:vms>Y</fme:vms>
+<fme:totalcapacity>69</fme:totalcapacity>
+<fme:heightrestriction>2.6m</fme:heightrestriction>
+<fme:parkmark>N</fme:parkmark>
+<fme:machines>1</fme:machines>
+<fme:disabledspaces>3</fme:disabledspaces>
+<fme:heightrestrictionbarriertype>Dual swingbeam</fme:heightrestrictionbarriertype>
+<fme:urlop>&lt;a href="http://www.myringgo.co.uk/parkinglocator/15013"target="_blank"&gt;RingGo Zone Website   &lt;/a&gt;</fme:urlop>
+<fme:url>&lt;a href="http://www.stockport.gov.uk/services/transport/parking/"&gt;Parking in Stockport  &lt;/a&gt;</fme:url>
+<fme:area>Town Centre</fme:area>
+<fme:totalchargeable>66</fme:totalchargeable>
+<fme:helppoints>0</fme:helppoints>
+<fme:lampcolumns>2</fme:lampcolumns>
+<fme:free>0</fme:free>
+<fme:postcode>SK1 2LX </fme:postcode>
+<fme:cctvcameras>0</fme:cctvcameras>
+<fme:furtherdetail>Y</fme:furtherdetail>
+<fme:ringgozone>15013</fme:ringgozone>
+<fme:parentchild>0</fme:parentchild>
+<fme:chargingcategory>Class B</fme:chargingcategory>
+<fme:annualthroughputsampleperiod>N/A</fme:annualthroughputsampleperiod>
+<fme:eastings>389824.159960607</fme:eastings>
+<fme:northings>390454.392844268</fme:northings>
+<fme:long>53.405156635366</fme:long>
+<fme:lat>-2.14506125700308</fme:lat>
+</fme:CarParks>
+<fme:CarParks>
+<fme:smbcrefno>2</fme:smbcrefno>
+<fme:name>Fletcher St.</fme:name>
+<fme:recyclingfacilities>None</fme:recyclingfacilities>
+<fme:vms>N</fme:vms>
+<fme:totalcapacity>103</fme:totalcapacity>
+<fme:heightrestriction>n/a</fme:heightrestriction>
+<fme:parkmark>N</fme:parkmark>
+<fme:machines>1</fme:machines>
+<fme:disabledspaces>0</fme:disabledspaces>
+<fme:heightrestrictionbarriertype>Counter Balanced rise and fall low level</fme:heightrestrictionbarriertype>
+<fme:urlop>&lt;a href="http://www.myringgo.co.uk/parkinglocator/15001"target="_blank"&gt;RingGo Zone Website   &lt;/a&gt;</fme:urlop>
+<fme:url>&lt;a href="http://www.stockport.gov.uk/services/transport/parking/"&gt;Parking in Stockport  &lt;/a&gt;</fme:url>
+<fme:area>Town Centre</fme:area>
+<fme:totalchargeable>103</fme:totalchargeable>
+<fme:helppoints>0</fme:helppoints>
+<fme:lampcolumns>0</fme:lampcolumns>
+<fme:free>0</fme:free>
+<fme:postcode>SK1 1DH </fme:postcode>
+<fme:cctvcameras>0</fme:cctvcameras>
+<fme:furtherdetail>Y</fme:furtherdetail>
+<fme:ringgozone>15001</fme:ringgozone>
+<fme:parentchild>0</fme:parentchild>
+<fme:chargingcategory>Class A</fme:chargingcategory>
+<fme:annualthroughputsampleperiod>N/A</fme:annualthroughputsampleperiod>
+<fme:eastings>389569.181446056</fme:eastings>
+<fme:northings>390266.326677648</fme:northings>
+<fme:long>53.4028612788717</fme:long>
+<fme:lat>-2.14788209338023</fme:lat>
+</fme:CarParks>
+<fme:CarParks>
+<fme:smbcrefno>45</fme:smbcrefno>
+<fme:name>Hogarth Road (North)</fme:name>
+<fme:recyclingfacilities>None</fme:recyclingfacilities>
+<fme:vms>N</fme:vms>
+<fme:totalcapacity>7</fme:totalcapacity>
+<fme:heightrestriction>n/a</fme:heightrestriction>
+<fme:parkmark>N</fme:parkmark>
+<fme:machines>0</fme:machines>
+<fme:disabledspaces>0</fme:disabledspaces>
+<fme:heightrestrictionbarriertype>None</fme:heightrestrictionbarriertype>
+<fme:url>&lt;a href="http://www.stockport.gov.uk/services/transport/parking/"&gt;Parking in Stockport  &lt;/a&gt;</fme:url>
+<fme:area>Marple Bridge</fme:area>
+<fme:totalchargeable>0</fme:totalchargeable>
+<fme:helppoints>0</fme:helppoints>
+<fme:lampcolumns>0</fme:lampcolumns>
+<fme:free>7</fme:free>
+<fme:postcode>SK6 5DW </fme:postcode>
+<fme:cctvcameras>0</fme:cctvcameras>
+<fme:furtherdetail>N</fme:furtherdetail>
+<fme:ringgozone>N/A</fme:ringgozone>
+<fme:parentchild>0</fme:parentchild>
+<fme:chargingcategory>Free</fme:chargingcategory>
+<fme:annualthroughputsampleperiod>N/A</fme:annualthroughputsampleperiod>
+<fme:eastings>396660.742008992</fme:eastings>
+<fme:northings>389701.508355211</fme:northings>
+<fme:long>53.466592710691</fme:long>
+<fme:lat>-2.1566119928977</fme:lat>
+</fme:CarParks>
+<fme:CarParks>
+<fme:smbcrefno>38</fme:smbcrefno>
+<fme:name>Romiley Precinct</fme:name>
+<fme:urlpm>&lt;a href="http://www.stockport.gov.uk/services/transport/parking/368201" target="_blank"&gt;Park Mark Accredited  &lt;/a&gt;</fme:urlpm>
+<fme:recyclingfacilities>P G C Tetra Pak Cartons</fme:recyclingfacilities>
+<fme:vms>N</fme:vms>
+<fme:totalcapacity>96</fme:totalcapacity>
+<fme:heightrestriction>n/a</fme:heightrestriction>
+<fme:parkmark>Y</fme:parkmark>
+<fme:machines>2</fme:machines>
+<fme:disabledspaces>7</fme:disabledspaces>
+<fme:heightrestrictionbarriertype>None</fme:heightrestrictionbarriertype>
+<fme:urlop>&lt;a href="http://www.myringgo.co.uk/parkinglocator/15084"target="_blank"&gt;RingGo Zone Website   &lt;/a&gt;</fme:urlop>
+<fme:url>&lt;a href="http://www.stockport.gov.uk/services/transport/parking/"&gt;Parking in Stockport  &lt;/a&gt;</fme:url>
+<fme:area>Romiley</fme:area>
+<fme:totalchargeable>89</fme:totalchargeable>
+<fme:helppoints>2</fme:helppoints>
+<fme:lampcolumns>9</fme:lampcolumns>
+<fme:free>0</fme:free>
+<fme:postcode>SK6 4DN </fme:postcode>
+<fme:cctvcameras>3</fme:cctvcameras>
+<fme:furtherdetail>Y</fme:furtherdetail>
+<fme:ringgozone>15084</fme:ringgozone>
+<fme:parentchild>3</fme:parentchild>
+<fme:chargingcategory>Class C Standard</fme:chargingcategory>
+<fme:annualthroughputsampleperiod>01/10/10 - 30/09/11</fme:annualthroughputsampleperiod>
+<fme:eastings>394380.191088672</fme:eastings>
+<fme:northings>390745.479521574</fme:northings>
+<fme:long>53.4461137242209</fme:long>
+<fme:lat>-2.14081843341153</fme:lat>
+</fme:CarParks>
+<fme:CarParks>
+<fme:smbcrefno>42</fme:smbcrefno>
+<fme:name>George Street (Upper)</fme:name>
+<fme:urlpm>&lt;a href="http://www.stockport.gov.uk/services/transport/parking/368201" target="_blank"&gt;Park Mark Accredited  &lt;/a&gt;</fme:urlpm>
+<fme:recyclingfacilities>None</fme:recyclingfacilities>
+<fme:vms>N</fme:vms>
+<fme:totalcapacity>11</fme:totalcapacity>
+<fme:heightrestriction>Entry 2.2m / Exit 2.24m</fme:heightrestriction>
+<fme:parkmark>Y</fme:parkmark>
+<fme:machines>0</fme:machines>
+<fme:disabledspaces>0</fme:disabledspaces>
+<fme:heightrestrictionbarriertype>Entry &amp; Exit fixed goalpost</fme:heightrestrictionbarriertype>
+<fme:url>&lt;a href="http://www.stockport.gov.uk/services/transport/parking/"&gt;Parking in Stockport  &lt;/a&gt;</fme:url>
+<fme:area>Compstall</fme:area>
+<fme:totalchargeable>11</fme:totalchargeable>
+<fme:helppoints>0</fme:helppoints>
+<fme:lampcolumns>2</fme:lampcolumns>
+<fme:free>0</fme:free>
+<fme:postcode>SK6 5JD </fme:postcode>
+<fme:cctvcameras>0</fme:cctvcameras>
+<fme:furtherdetail>Y</fme:furtherdetail>
+<fme:ringgozone>N/A</fme:ringgozone>
+<fme:parentchild>0</fme:parentchild>
+<fme:chargingcategory>Permit Only</fme:chargingcategory>
+<fme:annualthroughputsampleperiod>N/A</fme:annualthroughputsampleperiod>
+<fme:eastings>396632.065686483</fme:eastings>
+<fme:northings>390986.230607293</fme:northings>
+<fme:long>53.4663588014974</fme:long>
+<fme:lat>-2.13725909042835</fme:lat>
+</fme:CarParks>
+<fme:CarParks>
+<fme:smbcrefno>46</fme:smbcrefno>
+<fme:name>Hogarth Road (South)</fme:name>
+<fme:recyclingfacilities>None</fme:recyclingfacilities>
+<fme:vms>N</fme:vms>
+<fme:totalcapacity>6</fme:totalcapacity>
+<fme:heightrestriction>n/a</fme:heightrestriction>
+<fme:parkmark>N</fme:parkmark>
+<fme:machines>0</fme:machines>
+<fme:disabledspaces>0</fme:disabledspaces>
+<fme:heightrestrictionbarriertype>None</fme:heightrestrictionbarriertype>
+<fme:url>&lt;a href="http://www.stockport.gov.uk/services/transport/parking/"&gt;Parking in Stockport  &lt;/a&gt;</fme:url>
+<fme:area>Marple Bridge</fme:area>
+<fme:totalchargeable>0</fme:totalchargeable>
+<fme:helppoints>0</fme:helppoints>
+<fme:lampcolumns>0</fme:lampcolumns>
+<fme:free>6</fme:free>
+<fme:postcode>SK6 5BP </fme:postcode>
+<fme:cctvcameras>0</fme:cctvcameras>
+<fme:furtherdetail>N</fme:furtherdetail>
+<fme:ringgozone>N/A</fme:ringgozone>
+<fme:parentchild>0</fme:parentchild>
+<fme:chargingcategory>Free</fme:chargingcategory>
+<fme:annualthroughputsampleperiod>N/A</fme:annualthroughputsampleperiod>
+<fme:eastings>396646.189476149</fme:eastings>
+<fme:northings>389679.114765309</fme:northings>
+<fme:long>53.4664614629565</fme:long>
+<fme:lat>-2.15694882903678</fme:lat>
+</fme:CarParks>
+<fme:CarParks>
+<fme:smbcrefno>54</fme:smbcrefno>
+<fme:name>Market Street</fme:name>
+<fme:recyclingfacilities>None</fme:recyclingfacilities>
+<fme:vms>N</fme:vms>
+<fme:totalcapacity>12</fme:totalcapacity>
+<fme:heightrestriction>n/a</fme:heightrestriction>
+<fme:parkmark>N</fme:parkmark>
+<fme:machines>0</fme:machines>
+<fme:disabledspaces>0</fme:disabledspaces>
+<fme:heightrestrictionbarriertype>None</fme:heightrestrictionbarriertype>
+<fme:url>&lt;a href="http://www.stockport.gov.uk/services/transport/parking/"&gt;Parking in Stockport  &lt;/a&gt;</fme:url>
+<fme:area>Marple</fme:area>
+<fme:totalchargeable>12</fme:totalchargeable>
+<fme:helppoints>0</fme:helppoints>
+<fme:lampcolumns>0</fme:lampcolumns>
+<fme:free>0</fme:free>
+<fme:postcode>SK6 7AH </fme:postcode>
+<fme:cctvcameras>0</fme:cctvcameras>
+<fme:furtherdetail>N</fme:furtherdetail>
+<fme:ringgozone>N/A</fme:ringgozone>
+<fme:parentchild>0</fme:parentchild>
+<fme:chargingcategory>Contract</fme:chargingcategory>
+<fme:annualthroughputsampleperiod>N/A</fme:annualthroughputsampleperiod>
+<fme:eastings>395837.678784575</fme:eastings>
+<fme:northings>388571.971681719</fme:northings>
+<fme:long>53.459171118986</fme:long>
+<fme:lat>-2.17359620567286</fme:lat>
+</fme:CarParks>
+<fme:CarParks>
+<fme:smbcrefno>61</fme:smbcrefno>
+<fme:name>Bourne Street</fme:name>
+<fme:recyclingfacilities>None</fme:recyclingfacilities>
+<fme:vms>N</fme:vms>
+<fme:totalcapacity>8</fme:totalcapacity>
+<fme:heightrestriction>n/a</fme:heightrestriction>
+<fme:parkmark>N</fme:parkmark>
+<fme:machines>0</fme:machines>
+<fme:disabledspaces>0</fme:disabledspaces>
+<fme:heightrestrictionbarriertype>None</fme:heightrestrictionbarriertype>
+<fme:url>&lt;a href="http://www.stockport.gov.uk/services/transport/parking/"&gt;Parking in Stockport  &lt;/a&gt;</fme:url>
+<fme:area>Heaton Norris</fme:area>
+<fme:totalchargeable>0</fme:totalchargeable>
+<fme:helppoints>0</fme:helppoints>
+<fme:lampcolumns>0</fme:lampcolumns>
+<fme:free>8</fme:free>
+<fme:postcode>SK4  1PX </fme:postcode>
+<fme:cctvcameras>0</fme:cctvcameras>
+<fme:furtherdetail>N</fme:furtherdetail>
+<fme:ringgozone>N/A</fme:ringgozone>
+<fme:parentchild>0</fme:parentchild>
+<fme:chargingcategory>Free</fme:chargingcategory>
+<fme:annualthroughputsampleperiod>N/A</fme:annualthroughputsampleperiod>
+<fme:eastings>389212.236260867</fme:eastings>
+<fme:northings>391633.845229537</fme:northings>
+<fme:long>53.3996766195187</fme:long>
+<fme:lat>-2.12730403051858</fme:lat>
+</fme:CarParks>
+<fme:CarParks>
+<fme:smbcrefno>115A</fme:smbcrefno>
+<fme:name>Massie Street West</fme:name>
+<fme:urlpm>&lt;a href="http://www.stockport.gov.uk/services/transport/parking/368201" target="_blank"&gt;Park Mark Accredited  &lt;/a&gt;</fme:urlpm>
+<fme:recyclingfacilities>None</fme:recyclingfacilities>
+<fme:vms>N</fme:vms>
+<fme:totalcapacity>108</fme:totalcapacity>
+<fme:heightrestriction>n/a</fme:heightrestriction>
+<fme:parkmark>Y</fme:parkmark>
+<fme:machines>1</fme:machines>
+<fme:disabledspaces>6</fme:disabledspaces>
+<fme:heightrestrictionbarriertype>None</fme:heightrestrictionbarriertype>
+<fme:urlop>&lt;a href="http://www.myringgo.co.uk/parkinglocator/15025"target="_blank"&gt;RingGo Zone Website   &lt;/a&gt;</fme:urlop>
+<fme:url>&lt;a href="http://www.stockport.gov.uk/services/transport/parking/"&gt;Parking in Stockport  &lt;/a&gt;</fme:url>
+<fme:area>Cheadle</fme:area>
+<fme:totalchargeable>102</fme:totalchargeable>
+<fme:helppoints>1</fme:helppoints>
+<fme:lampcolumns>4</fme:lampcolumns>
+<fme:free>0</fme:free>
+<fme:postcode>SK8 1BP </fme:postcode>
+<fme:cctvcameras>2</fme:cctvcameras>
+<fme:furtherdetail>N</fme:furtherdetail>
+<fme:ringgozone>15025</fme:ringgozone>
+<fme:parentchild>4</fme:parentchild>
+<fme:chargingcategory>Class C Higher</fme:chargingcategory>
+<fme:annualthroughputsampleperiod>01/10/10 - 30/09/11</fme:annualthroughputsampleperiod>
+<fme:eastings>385727.263305019</fme:eastings>
+<fme:northings>388531.163362978</fme:northings>
+<fme:long>53.3682928195843</fme:long>
+<fme:lat>-2.1738391714893</fme:lat>
+</fme:CarParks>
+<fme:CarParks>
+<fme:smbcrefno>108</fme:smbcrefno>
+<fme:name>Back Massie Street (South)</fme:name>
+<fme:recyclingfacilities>None</fme:recyclingfacilities>
+<fme:vms>N</fme:vms>
+<fme:totalcapacity>9</fme:totalcapacity>
+<fme:heightrestriction>n/a</fme:heightrestriction>
+<fme:parkmark>N</fme:parkmark>
+<fme:machines>0</fme:machines>
+<fme:disabledspaces>0</fme:disabledspaces>
+<fme:heightrestrictionbarriertype>None</fme:heightrestrictionbarriertype>
+<fme:url>&lt;a href="http://www.stockport.gov.uk/services/transport/parking/"&gt;Parking in Stockport  &lt;/a&gt;</fme:url>
+<fme:area>Cheadle</fme:area>
+<fme:totalchargeable>9</fme:totalchargeable>
+<fme:helppoints>0</fme:helppoints>
+<fme:lampcolumns>0</fme:lampcolumns>
+<fme:free>0</fme:free>
+<fme:postcode>SK8 1BR </fme:postcode>
+<fme:cctvcameras>0</fme:cctvcameras>
+<fme:furtherdetail>N</fme:furtherdetail>
+<fme:ringgozone>N/A</fme:ringgozone>
+<fme:parentchild>0</fme:parentchild>
+<fme:chargingcategory>Contract</fme:chargingcategory>
+<fme:annualthroughputsampleperiod>N/A</fme:annualthroughputsampleperiod>
+<fme:eastings>385698.422081287</fme:eastings>
+<fme:northings>388497.532989572</fme:northings>
+<fme:long>53.3680328400354</fme:long>
+<fme:lat>-2.17434352560493</fme:lat>
+</fme:CarParks>
+<fme:CarParks>
+<fme:smbcrefno>122</fme:smbcrefno>
+<fme:name>Mellor Road</fme:name>
+<fme:urlpm>&lt;a href="http://www.stockport.gov.uk/services/transport/parking/368201" target="_blank"&gt;Park Mark Accredited  &lt;/a&gt;</fme:urlpm>
+<fme:recyclingfacilities>None</fme:recyclingfacilities>
+<fme:vms>N</fme:vms>
+<fme:totalcapacity>65</fme:totalcapacity>
+<fme:heightrestriction>n/a</fme:heightrestriction>
+<fme:parkmark>Y</fme:parkmark>
+<fme:machines>1</fme:machines>
+<fme:disabledspaces>4</fme:disabledspaces>
+<fme:heightrestrictionbarriertype>None</fme:heightrestrictionbarriertype>
+<fme:urlop>&lt;a href="http://www.myringgo.co.uk/parkinglocator/14036"target="_blank"&gt;RingGo Zone Website   &lt;/a&gt;</fme:urlop>
+<fme:url>&lt;a href="http://www.stockport.gov.uk/services/transport/parking/"&gt;Parking in Stockport  &lt;/a&gt;</fme:url>
+<fme:area>Cheadle Hulme</fme:area>
+<fme:totalchargeable>61</fme:totalchargeable>
+<fme:helppoints>1</fme:helppoints>
+<fme:lampcolumns>3</fme:lampcolumns>
+<fme:free>0</fme:free>
+<fme:postcode>SK8 5AZ </fme:postcode>
+<fme:cctvcameras>1</fme:cctvcameras>
+<fme:furtherdetail>Y</fme:furtherdetail>
+<fme:ringgozone>14036</fme:ringgozone>
+<fme:parentchild>2</fme:parentchild>
+<fme:chargingcategory>Class C Standard</fme:chargingcategory>
+<fme:annualthroughputsampleperiod>01/10/10 - 30/09/11</fme:annualthroughputsampleperiod>
+<fme:eastings>387525.428680559</fme:eastings>
+<fme:northings>386329.663535746</fme:northings>
+<fme:long>53.3844028358964</fme:long>
+<fme:lat>-2.20700286131397</fme:lat>
+</fme:CarParks>
+<fme:CarParks>
+<fme:smbcrefno>126</fme:smbcrefno>
+<fme:name>Bridge Lane Shops</fme:name>
+<fme:recyclingfacilities>None</fme:recyclingfacilities>
+<fme:vms>N</fme:vms>
+<fme:totalcapacity>4</fme:totalcapacity>
+<fme:heightrestriction>n/a</fme:heightrestriction>
+<fme:parkmark>N</fme:parkmark>
+<fme:machines>0</fme:machines>
+<fme:disabledspaces>0</fme:disabledspaces>
+<fme:heightrestrictionbarriertype>None</fme:heightrestrictionbarriertype>
+<fme:url>&lt;a href="http://www.stockport.gov.uk/services/transport/parking/"&gt;Parking in Stockport  &lt;/a&gt;</fme:url>
+<fme:area>Bramhall</fme:area>
+<fme:totalchargeable>0</fme:totalchargeable>
+<fme:helppoints>0</fme:helppoints>
+<fme:lampcolumns>0</fme:lampcolumns>
+<fme:free>4</fme:free>
+<fme:postcode>SK7 3AB </fme:postcode>
+<fme:cctvcameras>0</fme:cctvcameras>
+<fme:furtherdetail>Y</fme:furtherdetail>
+<fme:ringgozone>N/A</fme:ringgozone>
+<fme:parentchild>0</fme:parentchild>
+<fme:chargingcategory>Free</fme:chargingcategory>
+<fme:annualthroughputsampleperiod>N/A</fme:annualthroughputsampleperiod>
+<fme:eastings>389485.997024607</fme:eastings>
+<fme:northings>386374.750629699</fme:northings>
+<fme:long>53.4020265945801</fme:long>
+<fme:lat>-2.20641038555244</fme:lat>
+</fme:CarParks>
+<fme:CarParks>
+<fme:smbcrefno>3</fme:smbcrefno>
+<fme:name>Gt. Egerton St.</fme:name>
+<fme:urlpm>&lt;a href="http://www.stockport.gov.uk/services/transport/parking/368201" target="_blank"&gt;Park Mark Accredited  &lt;/a&gt;</fme:urlpm>
+<fme:recyclingfacilities>G Ca P T P</fme:recyclingfacilities>
+<fme:vms>Y</fme:vms>
+<fme:totalcapacity>323</fme:totalcapacity>
+<fme:heightrestriction>1.92m and 2.25m</fme:heightrestriction>
+<fme:parkmark>Y</fme:parkmark>
+<fme:machines>5</fme:machines>
+<fme:disabledspaces>24</fme:disabledspaces>
+<fme:heightrestrictionbarriertype>Fixed goalpost</fme:heightrestrictionbarriertype>
+<fme:urlop>&lt;a href="http://www.myringgo.co.uk/parkinglocator/15012"target="_blank"&gt;RingGo Zone Website   &lt;/a&gt;</fme:urlop>
+<fme:url>&lt;a href="http://www.stockport.gov.uk/services/transport/parking/"&gt;Parking in Stockport  &lt;/a&gt;</fme:url>
+<fme:area>Town Centre</fme:area>
+<fme:totalchargeable>299</fme:totalchargeable>
+<fme:helppoints>3</fme:helppoints>
+<fme:lampcolumns>0</fme:lampcolumns>
+<fme:free>0</fme:free>
+<fme:postcode>SK1 1RS </fme:postcode>
+<fme:cctvcameras>4</fme:cctvcameras>
+<fme:furtherdetail>N</fme:furtherdetail>
+<fme:ringgozone>15012</fme:ringgozone>
+<fme:parentchild>0</fme:parentchild>
+<fme:chargingcategory>Class A</fme:chargingcategory>
+<fme:annualthroughputsampleperiod>01/07/10 - 30/06/11</fme:annualthroughputsampleperiod>
+<fme:eastings>389337.775561192</fme:eastings>
+<fme:northings>390581.036592873</fme:northings>
+<fme:long>53.4007870616355</fme:long>
+<fme:lat>-2.14314163630361</fme:lat>
+</fme:CarParks>
+<fme:CarParks>
+<fme:smbcrefno>121</fme:smbcrefno>
+<fme:name>Station Approach</fme:name>
+<fme:urlpm>&lt;a href="http://www.stockport.gov.uk/services/transport/parking/368201" target="_blank"&gt;Park Mark Accredited  &lt;/a&gt;</fme:urlpm>
+<fme:recyclingfacilities>None</fme:recyclingfacilities>
+<fme:vms>N</fme:vms>
+<fme:totalcapacity>66</fme:totalcapacity>
+<fme:heightrestriction>n/a</fme:heightrestriction>
+<fme:parkmark>Y</fme:parkmark>
+<fme:machines>1</fme:machines>
+<fme:disabledspaces>4</fme:disabledspaces>
+<fme:heightrestrictionbarriertype>None</fme:heightrestrictionbarriertype>
+<fme:urlop>&lt;a href="http://www.myringgo.co.uk/parkinglocator/15047"target="_blank"&gt;RingGo Zone Website   &lt;/a&gt;</fme:urlop>
+<fme:url>&lt;a href="http://www.stockport.gov.uk/services/transport/parking/"&gt;Parking in Stockport  &lt;/a&gt;</fme:url>
+<fme:area>Cheadle Hulme</fme:area>
+<fme:totalchargeable>62</fme:totalchargeable>
+<fme:helppoints>0</fme:helppoints>
+<fme:lampcolumns>10</fme:lampcolumns>
+<fme:free>0</fme:free>
+<fme:postcode>SK8 7AA </fme:postcode>
+<fme:cctvcameras>1</fme:cctvcameras>
+<fme:furtherdetail>Y</fme:furtherdetail>
+<fme:ringgozone>15047</fme:ringgozone>
+<fme:parentchild>0</fme:parentchild>
+<fme:chargingcategory>Class C Standard</fme:chargingcategory>
+<fme:annualthroughputsampleperiod>01/05/11 - 30/04/12</fme:annualthroughputsampleperiod>
+<fme:eastings>387639.391915098</fme:eastings>
+<fme:northings>386632.816759038</fme:northings>
+<fme:long>53.3854350239077</fme:long>
+<fme:lat>-2.2024500747304</fme:lat>
+</fme:CarParks>
+<fme:CarParks>
+<fme:smbcrefno>131</fme:smbcrefno>
+<fme:name>Finney Lane</fme:name>
+<fme:recyclingfacilities>None</fme:recyclingfacilities>
+<fme:vms>N</fme:vms>
+<fme:totalcapacity>38</fme:totalcapacity>
+<fme:heightrestriction>n/a</fme:heightrestriction>
+<fme:parkmark>N</fme:parkmark>
+<fme:machines>0</fme:machines>
+<fme:disabledspaces>0</fme:disabledspaces>
+<fme:heightrestrictionbarriertype>None</fme:heightrestrictionbarriertype>
+<fme:url>&lt;a href="http://www.stockport.gov.uk/services/transport/parking/"&gt;Parking in Stockport  &lt;/a&gt;</fme:url>
+<fme:area>Heald Green</fme:area>
+<fme:totalchargeable>0</fme:totalchargeable>
+<fme:helppoints>0</fme:helppoints>
+<fme:lampcolumns>0</fme:lampcolumns>
+<fme:free>38</fme:free>
+<fme:postcode>SK8 3QH </fme:postcode>
+<fme:cctvcameras>0</fme:cctvcameras>
+<fme:furtherdetail>Y</fme:furtherdetail>
+<fme:ringgozone>N/A</fme:ringgozone>
+<fme:parentchild>0</fme:parentchild>
+<fme:chargingcategory>Free</fme:chargingcategory>
+<fme:annualthroughputsampleperiod>N/A</fme:annualthroughputsampleperiod>
+<fme:eastings>384269.792099238</fme:eastings>
+<fme:northings>385965.317828619</fme:northings>
+<fme:long>53.3551297800516</fme:long>
+<fme:lat>-2.2123347081792</fme:lat>
+</fme:CarParks>
+<fme:CarParks>
+<fme:smbcrefno>4</fme:smbcrefno>
+<fme:name>Knightsbridge</fme:name>
+<fme:recyclingfacilities>None</fme:recyclingfacilities>
+<fme:vms>N</fme:vms>
+<fme:totalcapacity>22</fme:totalcapacity>
+<fme:heightrestriction>2.10m</fme:heightrestriction>
+<fme:parkmark>N</fme:parkmark>
+<fme:machines>1</fme:machines>
+<fme:disabledspaces>2</fme:disabledspaces>
+<fme:heightrestrictionbarriertype>Fixed goalpost </fme:heightrestrictionbarriertype>
+<fme:urlop>&lt;a href="http://www.myringgo.co.uk/parkinglocator/15034"target="_blank"&gt;RingGo Zone Website   &lt;/a&gt;</fme:urlop>
+<fme:url>&lt;a href="http://www.stockport.gov.uk/services/transport/parking/"&gt;Parking in Stockport  &lt;/a&gt;</fme:url>
+<fme:area>Town Centre</fme:area>
+<fme:totalchargeable>20</fme:totalchargeable>
+<fme:helppoints>0</fme:helppoints>
+<fme:lampcolumns>0</fme:lampcolumns>
+<fme:free>0</fme:free>
+<fme:postcode>SK1 2DW </fme:postcode>
+<fme:cctvcameras>0</fme:cctvcameras>
+<fme:furtherdetail>N</fme:furtherdetail>
+<fme:ringgozone>15034</fme:ringgozone>
+<fme:parentchild>0</fme:parentchild>
+<fme:chargingcategory>Class A</fme:chargingcategory>
+<fme:annualthroughputsampleperiod>N/A</fme:annualthroughputsampleperiod>
+<fme:eastings>389749.847224903</fme:eastings>
+<fme:northings>390794.425510931</fme:northings>
+<fme:long>53.4044947903771</fme:long>
+<fme:lat>-2.13994445112495</fme:lat>
+</fme:CarParks>
+<fme:CarParks>
+<fme:smbcrefno>6</fme:smbcrefno>
+<fme:name>Newbridge La.</fme:name>
+<fme:urlpm>&lt;a href="http://www.stockport.gov.uk/services/transport/parking/368201" target="_blank"&gt;Park Mark Accredited  &lt;/a&gt;</fme:urlpm>
+<fme:recyclingfacilities>MG T</fme:recyclingfacilities>
+<fme:vms>Y</fme:vms>
+<fme:totalcapacity>206</fme:totalcapacity>
+<fme:heightrestriction>2.06m</fme:heightrestriction>
+<fme:parkmark>Y</fme:parkmark>
+<fme:machines>3</fme:machines>
+<fme:disabledspaces>6</fme:disabledspaces>
+<fme:heightrestrictionbarriertype>Entry &amp; Exit single swing beam</fme:heightrestrictionbarriertype>
+<fme:urlop>&lt;a href="http://www.myringgo.co.uk/parkinglocator/15056"target="_blank"&gt;RingGo Zone Website   &lt;/a&gt;</fme:urlop>
+<fme:url>&lt;a href="http://www.stockport.gov.uk/services/transport/parking/"&gt;Parking in Stockport  &lt;/a&gt;</fme:url>
+<fme:area>Town Centre</fme:area>
+<fme:totalchargeable>200</fme:totalchargeable>
+<fme:helppoints>1</fme:helppoints>
+<fme:lampcolumns>5</fme:lampcolumns>
+<fme:free>0</fme:free>
+<fme:postcode>SK1 2ND </fme:postcode>
+<fme:cctvcameras>2</fme:cctvcameras>
+<fme:furtherdetail>Y</fme:furtherdetail>
+<fme:ringgozone>15056</fme:ringgozone>
+<fme:parentchild>0</fme:parentchild>
+<fme:chargingcategory>Class A</fme:chargingcategory>
+<fme:annualthroughputsampleperiod>01/10/11 - 30/09/12</fme:annualthroughputsampleperiod>
+<fme:eastings>389878.684549669</fme:eastings>
+<fme:northings>390543.407364127</fme:northings>
+<fme:long>53.4056483530796</fme:long>
+<fme:lat>-2.14372399860757</fme:lat>
+</fme:CarParks>
+<fme:CarParks>
+<fme:smbcrefno>7</fme:smbcrefno>
+<fme:name>Ritz Cinema</fme:name>
+<fme:recyclingfacilities>None</fme:recyclingfacilities>
+<fme:vms>N</fme:vms>
+<fme:totalcapacity>87</fme:totalcapacity>
+<fme:heightrestriction>2.01</fme:heightrestriction>
+<fme:parkmark>N</fme:parkmark>
+<fme:machines>1</fme:machines>
+<fme:disabledspaces>0</fme:disabledspaces>
+<fme:heightrestrictionbarriertype>Entry single swing beam. Exit goalpost.</fme:heightrestrictionbarriertype>
+<fme:urlop>&lt;a href="http://www.myringgo.co.uk/parkinglocator/15067"target="_blank"&gt;RingGo Zone Website   &lt;/a&gt;</fme:urlop>
+<fme:url>&lt;a href="http://www.stockport.gov.uk/services/transport/parking/"&gt;Parking in Stockport  &lt;/a&gt;</fme:url>
+<fme:area>Town Centre</fme:area>
+<fme:totalchargeable>87</fme:totalchargeable>
+<fme:helppoints>0</fme:helppoints>
+<fme:lampcolumns>10</fme:lampcolumns>
+<fme:free>0</fme:free>
+<fme:postcode>SK1 3AD</fme:postcode>
+<fme:cctvcameras>0</fme:cctvcameras>
+<fme:furtherdetail>Y</fme:furtherdetail>
+<fme:ringgozone>15067</fme:ringgozone>
+<fme:parentchild>0</fme:parentchild>
+<fme:chargingcategory>Class A</fme:chargingcategory>
+<fme:annualthroughputsampleperiod>N/A</fme:annualthroughputsampleperiod>
+<fme:eastings>389587.914224877</fme:eastings>
+<fme:northings>390227.577769408</fme:northings>
+<fme:long>53.4030289341693</fme:long>
+<fme:lat>-2.14846549177866</fme:lat>
+</fme:CarParks>
+<fme:CarParks>
+<fme:smbcrefno>9</fme:smbcrefno>
+<fme:name>Armoury St.</fme:name>
+<fme:recyclingfacilities>None</fme:recyclingfacilities>
+<fme:vms>N</fme:vms>
+<fme:totalcapacity>61</fme:totalcapacity>
+<fme:heightrestriction>n/a</fme:heightrestriction>
+<fme:parkmark>N</fme:parkmark>
+<fme:machines>1</fme:machines>
+<fme:disabledspaces>0</fme:disabledspaces>
+<fme:heightrestrictionbarriertype>None</fme:heightrestrictionbarriertype>
+<fme:urlop>&lt;a href="http://www.myringgo.co.uk/parkinglocator/15078"target="_blank"&gt;RingGo Zone Website   &lt;/a&gt;</fme:urlop>
+<fme:url>&lt;a href="http://www.stockport.gov.uk/services/transport/parking/"&gt;Parking in Stockport  &lt;/a&gt;</fme:url>
+<fme:area>Town Centre</fme:area>
+<fme:totalchargeable>61</fme:totalchargeable>
+<fme:helppoints>1</fme:helppoints>
+<fme:lampcolumns>1</fme:lampcolumns>
+<fme:free>0</fme:free>
+<fme:postcode>SK3 9DR </fme:postcode>
+<fme:cctvcameras>1</fme:cctvcameras>
+<fme:furtherdetail>N</fme:furtherdetail>
+<fme:ringgozone>15078</fme:ringgozone>
+<fme:parentchild>0</fme:parentchild>
+<fme:chargingcategory>Class B</fme:chargingcategory>
+<fme:annualthroughputsampleperiod>N/A</fme:annualthroughputsampleperiod>
+<fme:eastings>389324.905020813</fme:eastings>
+<fme:northings>389693.830552959</fme:northings>
+<fme:long>53.4006545992291</fme:long>
+<fme:lat>-2.1564847655456</fme:lat>
+</fme:CarParks>
+<fme:CarParks>
+<fme:smbcrefno>12</fme:smbcrefno>
+<fme:name>Heaton Lane (Multi -Storey)</fme:name>
+<fme:recyclingfacilities>None</fme:recyclingfacilities>
+<fme:vms>Y</fme:vms>
+<fme:totalcapacity>809</fme:totalcapacity>
+<fme:heightrestriction>2.05m</fme:heightrestriction>
+<fme:parkmark>N</fme:parkmark>
+<fme:machines>10</fme:machines>
+<fme:disabledspaces>11</fme:disabledspaces>
+<fme:heightrestrictionbarriertype>Entry fixed goalpost.  </fme:heightrestrictionbarriertype>
+<fme:urlop>&lt;a href="http://www.myringgo.co.uk/parkinglocator/15023"target="_blank"&gt;RingGo Zone Website   &lt;/a&gt;</fme:urlop>
+<fme:url>&lt;a href="http://www.stockport.gov.uk/services/transport/parking/"&gt;Parking in Stockport  &lt;/a&gt;</fme:url>
+<fme:area>Town Centre</fme:area>
+<fme:totalchargeable>798</fme:totalchargeable>
+<fme:helppoints>1</fme:helppoints>
+<fme:lampcolumns>6</fme:lampcolumns>
+<fme:free>0</fme:free>
+<fme:postcode>SK4 1HJ </fme:postcode>
+<fme:cctvcameras>9</fme:cctvcameras>
+<fme:furtherdetail>Y</fme:furtherdetail>
+<fme:ringgozone>15023</fme:ringgozone>
+<fme:parentchild>0</fme:parentchild>
+<fme:chargingcategory>Class A</fme:chargingcategory>
+<fme:annualthroughputsampleperiod>N/A</fme:annualthroughputsampleperiod>
+<fme:eastings>389108.653558254</fme:eastings>
+<fme:northings>390403.957281298</fme:northings>
+<fme:long>53.398724363209</fme:long>
+<fme:lat>-2.14579785046238</fme:lat>
+</fme:CarParks>
+<fme:CarParks>
+<fme:smbcrefno>23</fme:smbcrefno>
+<fme:name>Lord Street 2</fme:name>
+<fme:recyclingfacilities>None</fme:recyclingfacilities>
+<fme:vms>N</fme:vms>
+<fme:totalcapacity>10</fme:totalcapacity>
+<fme:heightrestriction>n/a</fme:heightrestriction>
+<fme:parkmark>N</fme:parkmark>
+<fme:machines>0</fme:machines>
+<fme:disabledspaces>0</fme:disabledspaces>
+<fme:heightrestrictionbarriertype>Counter Balanced rise and fall low level access barrier</fme:heightrestrictionbarriertype>
+<fme:url>&lt;a href="http://www.stockport.gov.uk/services/transport/parking/"&gt;Parking in Stockport  &lt;/a&gt;</fme:url>
+<fme:area>Town Centre</fme:area>
+<fme:totalchargeable>10</fme:totalchargeable>
+<fme:helppoints>0</fme:helppoints>
+<fme:lampcolumns>0</fme:lampcolumns>
+<fme:free>0</fme:free>
+<fme:postcode>SK1  3NA </fme:postcode>
+<fme:cctvcameras>0</fme:cctvcameras>
+<fme:furtherdetail>N</fme:furtherdetail>
+<fme:ringgozone>N/A</fme:ringgozone>
+<fme:parentchild>0</fme:parentchild>
+<fme:chargingcategory>Permit Only</fme:chargingcategory>
+<fme:annualthroughputsampleperiod>N/A</fme:annualthroughputsampleperiod>
+<fme:eastings>389503.443573897</fme:eastings>
+<fme:northings>390082.629260487</fme:northings>
+<fme:long>53.4022669319225</fme:long>
+<fme:lat>-2.1506429409321</fme:lat>
+</fme:CarParks>
+<fme:CarParks>
+<fme:smbcrefno>13</fme:smbcrefno>
+<fme:name>Hopes Carr</fme:name>
+<fme:recyclingfacilities>None</fme:recyclingfacilities>
+<fme:vms>N</fme:vms>
+<fme:totalcapacity>37</fme:totalcapacity>
+<fme:heightrestriction>2.13m</fme:heightrestriction>
+<fme:parkmark>N</fme:parkmark>
+<fme:machines>1</fme:machines>
+<fme:disabledspaces>0</fme:disabledspaces>
+<fme:heightrestrictionbarriertype>Entry &amp; Exit fixed goalpost</fme:heightrestrictionbarriertype>
+<fme:urlop>&lt;a href="http://www.myringgo.co.uk/parkinglocator/15024"target="_blank"&gt;RingGo Zone Website   &lt;/a&gt;</fme:urlop>
+<fme:url>&lt;a href="http://www.stockport.gov.uk/services/transport/parking/"&gt;Parking in Stockport  &lt;/a&gt;</fme:url>
+<fme:area>Town Centre</fme:area>
+<fme:totalchargeable>37</fme:totalchargeable>
+<fme:helppoints>0</fme:helppoints>
+<fme:lampcolumns>2</fme:lampcolumns>
+<fme:free>0</fme:free>
+<fme:postcode>SK1  1YS </fme:postcode>
+<fme:cctvcameras>0</fme:cctvcameras>
+<fme:furtherdetail>Y</fme:furtherdetail>
+<fme:ringgozone>15024</fme:ringgozone>
+<fme:parentchild>0</fme:parentchild>
+<fme:chargingcategory>Class B</fme:chargingcategory>
+<fme:annualthroughputsampleperiod>N/A</fme:annualthroughputsampleperiod>
+<fme:eastings>389885.214638061</fme:eastings>
+<fme:northings>390098.5347076</fme:northings>
+<fme:long>53.4056987904489</fme:long>
+<fme:lat>-2.15041584282932</fme:lat>
+</fme:CarParks>
+<fme:CarParks>
+<fme:smbcrefno>65</fme:smbcrefno>
+<fme:name>Kings Drive</fme:name>
+<fme:urlpm>&lt;a href="http://www.stockport.gov.uk/services/transport/parking/368201" target="_blank"&gt;Park Mark Accredited  &lt;/a&gt;</fme:urlpm>
+<fme:recyclingfacilities>None</fme:recyclingfacilities>
+<fme:vms>N</fme:vms>
+<fme:totalcapacity>32</fme:totalcapacity>
+<fme:heightrestriction>2.035m</fme:heightrestriction>
+<fme:parkmark>Y</fme:parkmark>
+<fme:machines>1</fme:machines>
+<fme:disabledspaces>2</fme:disabledspaces>
+<fme:heightrestrictionbarriertype>Fixed goalpost</fme:heightrestrictionbarriertype>
+<fme:urlop>&lt;a href="http://www.myringgo.co.uk/parkinglocator/15049"target="_blank"&gt;RingGo Zone Website   &lt;/a&gt;</fme:urlop>
+<fme:url>&lt;a href="http://www.stockport.gov.uk/services/transport/parking/"&gt;Parking in Stockport  &lt;/a&gt;</fme:url>
+<fme:area>Heaton Moor</fme:area>
+<fme:totalchargeable>30</fme:totalchargeable>
+<fme:helppoints>0</fme:helppoints>
+<fme:lampcolumns>0</fme:lampcolumns>
+<fme:free>0</fme:free>
+<fme:postcode>SK4 4DU </fme:postcode>
+<fme:cctvcameras>0</fme:cctvcameras>
+<fme:furtherdetail>Y</fme:furtherdetail>
+<fme:ringgozone>15049</fme:ringgozone>
+<fme:parentchild>0</fme:parentchild>
+<fme:chargingcategory>Class C Standard</fme:chargingcategory>
+<fme:annualthroughputsampleperiod>01/04/11 - 31/03/12</fme:annualthroughputsampleperiod>
+<fme:eastings>387504.816027806</fme:eastings>
+<fme:northings>391231.90028508</fme:northings>
+<fme:long>53.384322785028</fme:long>
+<fme:lat>-2.13330104926989</fme:lat>
+</fme:CarParks>
+<fme:CarParks>
+<fme:smbcrefno>15</fme:smbcrefno>
+<fme:name>Stopford House (Multi-Storey)</fme:name>
+<fme:recyclingfacilities>None</fme:recyclingfacilities>
+<fme:vms>Y</fme:vms>
+<fme:totalcapacity>486</fme:totalcapacity>
+<fme:heightrestriction>2.02m</fme:heightrestriction>
+<fme:parkmark>N</fme:parkmark>
+<fme:machines>3</fme:machines>
+<fme:disabledspaces>12</fme:disabledspaces>
+<fme:heightrestrictionbarriertype>Headroom suspended signboard</fme:heightrestrictionbarriertype>
+<fme:urlop>&lt;a href="http://www.myringgo.co.uk/parkinglocator/15035"target="_blank"&gt;RingGo Zone Website   &lt;/a&gt;</fme:urlop>
+<fme:url>&lt;a href="http://www.stockport.gov.uk/services/transport/parking/"&gt;Parking in Stockport  &lt;/a&gt;</fme:url>
+<fme:area>Town Centre</fme:area>
+<fme:totalchargeable>474</fme:totalchargeable>
+<fme:helppoints>0</fme:helppoints>
+<fme:lampcolumns>0</fme:lampcolumns>
+<fme:free>0</fme:free>
+<fme:postcode>SK1  3SH </fme:postcode>
+<fme:cctvcameras>0</fme:cctvcameras>
+<fme:furtherdetail>Y</fme:furtherdetail>
+<fme:ringgozone>15035</fme:ringgozone>
+<fme:parentchild>0</fme:parentchild>
+<fme:chargingcategory>Lower Level - Class B / Middle &amp; Upper Level Permit Holders Only</fme:chargingcategory>
+<fme:annualthroughputsampleperiod>N/A</fme:annualthroughputsampleperiod>
+<fme:eastings>389580.419464336</fme:eastings>
+<fme:northings>389991.405373053</fme:northings>
+<fme:long>53.4029570889578</fme:long>
+<fme:lat>-2.15201746468329</fme:lat>
+</fme:CarParks>
+<fme:CarParks>
+<fme:smbcrefno>16</fme:smbcrefno>
+<fme:name>Bamford Street</fme:name>
+<fme:urlpm>&lt;a href="http://www.stockport.gov.uk/services/transport/parking/368201" target="_blank"&gt;Park Mark Accredited  &lt;/a&gt;</fme:urlpm>
+<fme:recyclingfacilities>None</fme:recyclingfacilities>
+<fme:vms>N</fme:vms>
+<fme:totalcapacity>10</fme:totalcapacity>
+<fme:heightrestriction>n/a</fme:heightrestriction>
+<fme:parkmark>Y</fme:parkmark>
+<fme:machines>0</fme:machines>
+<fme:disabledspaces>0</fme:disabledspaces>
+<fme:heightrestrictionbarriertype>Counter Balanced rise and fall low level access barrier</fme:heightrestrictionbarriertype>
+<fme:url>&lt;a href="http://www.stockport.gov.uk/services/transport/parking/"&gt;Parking in Stockport  &lt;/a&gt;</fme:url>
+<fme:area>Town Centre</fme:area>
+<fme:totalchargeable>10</fme:totalchargeable>
+<fme:helppoints>0</fme:helppoints>
+<fme:lampcolumns>0</fme:lampcolumns>
+<fme:free>0</fme:free>
+<fme:postcode>SK1  3DQ </fme:postcode>
+<fme:cctvcameras>0</fme:cctvcameras>
+<fme:furtherdetail>N</fme:furtherdetail>
+<fme:ringgozone>N/A</fme:ringgozone>
+<fme:parentchild>0</fme:parentchild>
+<fme:chargingcategory>Permit Only</fme:chargingcategory>
+<fme:annualthroughputsampleperiod>3120 with 10 permit holders 08/05/12</fme:annualthroughputsampleperiod>
+<fme:eastings>389806.597980462</fme:eastings>
+<fme:northings>389972.030918933</fme:northings>
+<fme:long>53.4049897265336</fme:long>
+<fme:lat>-2.15231614650911</fme:lat>
+</fme:CarParks>
+<fme:CarParks>
+<fme:smbcrefno>17</fme:smbcrefno>
+<fme:name>Edward Street</fme:name>
+<fme:urlpm>&lt;a href="http://www.stockport.gov.uk/services/transport/parking/368201" target="_blank"&gt;Park Mark Accredited  &lt;/a&gt;</fme:urlpm>
+<fme:recyclingfacilities>None</fme:recyclingfacilities>
+<fme:vms>N</fme:vms>
+<fme:totalcapacity>16</fme:totalcapacity>
+<fme:heightrestriction>n/a</fme:heightrestriction>
+<fme:parkmark>Y</fme:parkmark>
+<fme:machines>0</fme:machines>
+<fme:disabledspaces>0</fme:disabledspaces>
+<fme:heightrestrictionbarriertype>Counter-balanced rise and fall low level access barrier</fme:heightrestrictionbarriertype>
+<fme:url>&lt;a href="http://www.stockport.gov.uk/services/transport/parking/"&gt;Parking in Stockport  &lt;/a&gt;</fme:url>
+<fme:area>Town Centre</fme:area>
+<fme:totalchargeable>16</fme:totalchargeable>
+<fme:helppoints>0</fme:helppoints>
+<fme:lampcolumns>0</fme:lampcolumns>
+<fme:free>0</fme:free>
+<fme:postcode>SK1  3AY</fme:postcode>
+<fme:cctvcameras>0</fme:cctvcameras>
+<fme:furtherdetail>Y</fme:furtherdetail>
+<fme:ringgozone>N/A</fme:ringgozone>
+<fme:parentchild>0</fme:parentchild>
+<fme:chargingcategory>Permit Only</fme:chargingcategory>
+<fme:annualthroughputsampleperiod>N/A</fme:annualthroughputsampleperiod>
+<fme:eastings>389784.929959888</fme:eastings>
+<fme:northings>390017.627866942</fme:northings>
+<fme:long>53.4047958377626</fme:long>
+<fme:lat>-2.1516296080837</fme:lat>
+</fme:CarParks>
+<fme:CarParks>
+<fme:smbcrefno>20</fme:smbcrefno>
+<fme:name>Lavenders Brow</fme:name>
+<fme:recyclingfacilities>None</fme:recyclingfacilities>
+<fme:vms>N</fme:vms>
+<fme:totalcapacity>8</fme:totalcapacity>
+<fme:heightrestriction>n/a</fme:heightrestriction>
+<fme:parkmark>N</fme:parkmark>
+<fme:machines>0</fme:machines>
+<fme:disabledspaces>0</fme:disabledspaces>
+<fme:heightrestrictionbarriertype>Counter balanced rise and fall low level access barrier</fme:heightrestrictionbarriertype>
+<fme:url>&lt;a href="http://www.stockport.gov.uk/services/transport/parking/"&gt;Parking in Stockport  &lt;/a&gt;</fme:url>
+<fme:area>Town Centre</fme:area>
+<fme:totalchargeable>8</fme:totalchargeable>
+<fme:helppoints>0</fme:helppoints>
+<fme:lampcolumns>0</fme:lampcolumns>
+<fme:free>0</fme:free>
+<fme:postcode>SK1  1YG </fme:postcode>
+<fme:cctvcameras>0</fme:cctvcameras>
+<fme:furtherdetail>Y</fme:furtherdetail>
+<fme:ringgozone>N/A</fme:ringgozone>
+<fme:parentchild>0</fme:parentchild>
+<fme:chargingcategory>Permit Only</fme:chargingcategory>
+<fme:annualthroughputsampleperiod>N/A</fme:annualthroughputsampleperiod>
+<fme:eastings>389919.390416325</fme:eastings>
+<fme:northings>390281.992193441</fme:northings>
+<fme:long>53.4060094310811</fme:long>
+<fme:lat>-2.14765739463744</fme:lat>
+</fme:CarParks>
+<fme:CarParks>
+<fme:smbcrefno>21</fme:smbcrefno>
+<fme:name>Loonies Court</fme:name>
+<fme:recyclingfacilities>None</fme:recyclingfacilities>
+<fme:vms>N</fme:vms>
+<fme:totalcapacity>16</fme:totalcapacity>
+<fme:heightrestriction>n/a</fme:heightrestriction>
+<fme:parkmark>N</fme:parkmark>
+<fme:machines>0</fme:machines>
+<fme:disabledspaces>0</fme:disabledspaces>
+<fme:heightrestrictionbarriertype>None</fme:heightrestrictionbarriertype>
+<fme:url>&lt;a href="http://www.stockport.gov.uk/services/transport/parking/"&gt;Parking in Stockport  &lt;/a&gt;</fme:url>
+<fme:area>Town Centre</fme:area>
+<fme:totalchargeable>16</fme:totalchargeable>
+<fme:helppoints>0</fme:helppoints>
+<fme:lampcolumns>0</fme:lampcolumns>
+<fme:free>0</fme:free>
+<fme:postcode>SK1  3SH </fme:postcode>
+<fme:cctvcameras>0</fme:cctvcameras>
+<fme:furtherdetail>Y</fme:furtherdetail>
+<fme:ringgozone>N/A</fme:ringgozone>
+<fme:parentchild>0</fme:parentchild>
+<fme:chargingcategory>Permit Only</fme:chargingcategory>
+<fme:annualthroughputsampleperiod>N/A</fme:annualthroughputsampleperiod>
+<fme:eastings>389529.803034237</fme:eastings>
+<fme:northings>389997.433647477</fme:northings>
+<fme:long>53.4025022377885</fme:long>
+<fme:lat>-2.15192517094546</fme:lat>
+</fme:CarParks>
+<fme:CarParks>
+<fme:smbcrefno>22</fme:smbcrefno>
+<fme:name>Lord Street 1</fme:name>
+<fme:recyclingfacilities>None</fme:recyclingfacilities>
+<fme:vms>N</fme:vms>
+<fme:totalcapacity>23</fme:totalcapacity>
+<fme:heightrestriction>n/a</fme:heightrestriction>
+<fme:parkmark>N</fme:parkmark>
+<fme:machines>0</fme:machines>
+<fme:disabledspaces>0</fme:disabledspaces>
+<fme:heightrestrictionbarriertype>None</fme:heightrestrictionbarriertype>
+<fme:url>&lt;a href="http://www.stockport.gov.uk/services/transport/parking/"&gt;Parking in Stockport  &lt;/a&gt;</fme:url>
+<fme:area>Town Centre</fme:area>
+<fme:totalchargeable>23</fme:totalchargeable>
+<fme:helppoints>0</fme:helppoints>
+<fme:lampcolumns>0</fme:lampcolumns>
+<fme:free>0</fme:free>
+<fme:postcode>SK1  3NA </fme:postcode>
+<fme:cctvcameras>0</fme:cctvcameras>
+<fme:furtherdetail>N</fme:furtherdetail>
+<fme:ringgozone>N/A</fme:ringgozone>
+<fme:parentchild>0</fme:parentchild>
+<fme:chargingcategory>Permit Only</fme:chargingcategory>
+<fme:annualthroughputsampleperiod>N/A</fme:annualthroughputsampleperiod>
+<fme:eastings>389511.33409737</fme:eastings>
+<fme:northings>390051.648128744</fme:northings>
+<fme:long>53.4023372661103</fme:long>
+<fme:lat>-2.15110916434334</fme:lat>
+</fme:CarParks>
+<fme:CarParks>
+<fme:smbcrefno>29</fme:smbcrefno>
+<fme:name>Sun and Castle</fme:name>
+<fme:recyclingfacilities>None</fme:recyclingfacilities>
+<fme:vms>N</fme:vms>
+<fme:totalcapacity>18</fme:totalcapacity>
+<fme:heightrestriction>n/a</fme:heightrestriction>
+<fme:parkmark>N</fme:parkmark>
+<fme:machines>0</fme:machines>
+<fme:disabledspaces>1</fme:disabledspaces>
+<fme:heightrestrictionbarriertype>None</fme:heightrestrictionbarriertype>
+<fme:url>&lt;a href="http://www.stockport.gov.uk/services/transport/parking/"&gt;Parking in Stockport  &lt;/a&gt;</fme:url>
+<fme:area>Hillgate,     Town Centre</fme:area>
+<fme:totalchargeable>0</fme:totalchargeable>
+<fme:helppoints>0</fme:helppoints>
+<fme:lampcolumns>0</fme:lampcolumns>
+<fme:free>17</fme:free>
+<fme:postcode>SK1  3EH </fme:postcode>
+<fme:cctvcameras>0</fme:cctvcameras>
+<fme:furtherdetail>Y</fme:furtherdetail>
+<fme:ringgozone>N/A</fme:ringgozone>
+<fme:parentchild>0</fme:parentchild>
+<fme:chargingcategory>Free</fme:chargingcategory>
+<fme:annualthroughputsampleperiod>N/A</fme:annualthroughputsampleperiod>
+<fme:eastings>389808.651000676</fme:eastings>
+<fme:northings>389913.167768334</fme:northings>
+<fme:long>53.4050070452578</fme:long>
+<fme:lat>-2.15320160039332</fme:lat>
+</fme:CarParks>
+<fme:CarParks>
+<fme:smbcrefno>32</fme:smbcrefno>
+<fme:name>Werneth Street</fme:name>
+<fme:recyclingfacilities>None</fme:recyclingfacilities>
+<fme:vms>N</fme:vms>
+<fme:totalcapacity>12</fme:totalcapacity>
+<fme:heightrestriction>n/a</fme:heightrestriction>
+<fme:parkmark>N</fme:parkmark>
+<fme:machines>0</fme:machines>
+<fme:disabledspaces>0</fme:disabledspaces>
+<fme:heightrestrictionbarriertype>None</fme:heightrestrictionbarriertype>
+<fme:url>&lt;a href="http://www.stockport.gov.uk/services/transport/parking/"&gt;Parking in Stockport  &lt;/a&gt;</fme:url>
+<fme:area>Portwood,   Town Centre</fme:area>
+<fme:totalchargeable>0</fme:totalchargeable>
+<fme:helppoints>0</fme:helppoints>
+<fme:lampcolumns>0</fme:lampcolumns>
+<fme:free>12</fme:free>
+<fme:postcode>SK1  2QE </fme:postcode>
+<fme:cctvcameras>0</fme:cctvcameras>
+<fme:furtherdetail>N</fme:furtherdetail>
+<fme:ringgozone>N/A</fme:ringgozone>
+<fme:parentchild>0</fme:parentchild>
+<fme:chargingcategory>Free</fme:chargingcategory>
+<fme:annualthroughputsampleperiod>N/A</fme:annualthroughputsampleperiod>
+<fme:eastings>390779.102937337</fme:eastings>
+<fme:northings>391020.570777522</fme:northings>
+<fme:long>53.4137502188202</fme:long>
+<fme:lat>-2.13657263129155</fme:lat>
+</fme:CarParks>
+<fme:CarParks>
+<fme:smbcrefno>33</fme:smbcrefno>
+<fme:name>Chapel Street</fme:name>
+<fme:recyclingfacilities>None</fme:recyclingfacilities>
+<fme:vms>N</fme:vms>
+<fme:totalcapacity>13</fme:totalcapacity>
+<fme:heightrestriction>n/a</fme:heightrestriction>
+<fme:parkmark>N</fme:parkmark>
+<fme:machines>0</fme:machines>
+<fme:disabledspaces>0</fme:disabledspaces>
+<fme:heightrestrictionbarriertype>None</fme:heightrestrictionbarriertype>
+<fme:url>&lt;a href="http://www.stockport.gov.uk/services/transport/parking/"&gt;Parking in Stockport  &lt;/a&gt;</fme:url>
+<fme:area>Woodley</fme:area>
+<fme:totalchargeable>0</fme:totalchargeable>
+<fme:helppoints>0</fme:helppoints>
+<fme:lampcolumns>0</fme:lampcolumns>
+<fme:free>13</fme:free>
+<fme:postcode>SK6 1NF </fme:postcode>
+<fme:cctvcameras>0</fme:cctvcameras>
+<fme:furtherdetail>N</fme:furtherdetail>
+<fme:ringgozone>N/A</fme:ringgozone>
+<fme:parentchild>0</fme:parentchild>
+<fme:chargingcategory>Free</fme:chargingcategory>
+<fme:annualthroughputsampleperiod>N/A</fme:annualthroughputsampleperiod>
+<fme:eastings>393536.020507835</fme:eastings>
+<fme:northings>392170.281676202</fme:northings>
+<fme:long>53.4385493352894</fme:long>
+<fme:lat>-2.11934529492656</fme:lat>
+</fme:CarParks>
+<fme:CarParks>
+<fme:smbcrefno>35</fme:smbcrefno>
+<fme:name>Redhouse Lane</fme:name>
+<fme:recyclingfacilities>None</fme:recyclingfacilities>
+<fme:vms>N</fme:vms>
+<fme:totalcapacity>32</fme:totalcapacity>
+<fme:heightrestriction>2.01m</fme:heightrestriction>
+<fme:parkmark>N</fme:parkmark>
+<fme:machines>0</fme:machines>
+<fme:disabledspaces>0</fme:disabledspaces>
+<fme:heightrestrictionbarriertype>Fixed goalpost</fme:heightrestrictionbarriertype>
+<fme:url>&lt;a href="http://www.stockport.gov.uk/services/transport/parking/"&gt;Parking in Stockport  &lt;/a&gt;</fme:url>
+<fme:area>Woodley</fme:area>
+<fme:totalchargeable>0</fme:totalchargeable>
+<fme:helppoints>0</fme:helppoints>
+<fme:lampcolumns>3</fme:lampcolumns>
+<fme:free>32</fme:free>
+<fme:postcode>SK6 1AS </fme:postcode>
+<fme:cctvcameras>0</fme:cctvcameras>
+<fme:furtherdetail>N</fme:furtherdetail>
+<fme:ringgozone>N/A</fme:ringgozone>
+<fme:parentchild>0</fme:parentchild>
+<fme:chargingcategory>Free</fme:chargingcategory>
+<fme:annualthroughputsampleperiod>N/A</fme:annualthroughputsampleperiod>
+<fme:eastings>393196.109618881</fme:eastings>
+<fme:northings>391940.077571441</fme:northings>
+<fme:long>53.4354905321461</fme:long>
+<fme:lat>-2.12280180077167</fme:lat>
+</fme:CarParks>
+<fme:CarParks>
+<fme:smbcrefno>36</fme:smbcrefno>
+<fme:name>Woodley Precinct</fme:name>
+<fme:recyclingfacilities>None</fme:recyclingfacilities>
+<fme:vms>N</fme:vms>
+<fme:totalcapacity>18</fme:totalcapacity>
+<fme:heightrestriction>n/a</fme:heightrestriction>
+<fme:parkmark>N</fme:parkmark>
+<fme:machines>0</fme:machines>
+<fme:disabledspaces>2</fme:disabledspaces>
+<fme:heightrestrictionbarriertype>None</fme:heightrestrictionbarriertype>
+<fme:url>&lt;a href="http://www.stockport.gov.uk/services/transport/parking/"&gt;Parking in Stockport  &lt;/a&gt;</fme:url>
+<fme:area>Woodley</fme:area>
+<fme:totalchargeable>0</fme:totalchargeable>
+<fme:helppoints>0</fme:helppoints>
+<fme:lampcolumns>4</fme:lampcolumns>
+<fme:free>16</fme:free>
+<fme:postcode>SK6 1NB </fme:postcode>
+<fme:cctvcameras>0</fme:cctvcameras>
+<fme:furtherdetail>Y</fme:furtherdetail>
+<fme:ringgozone>N/A</fme:ringgozone>
+<fme:parentchild>0</fme:parentchild>
+<fme:chargingcategory>Free</fme:chargingcategory>
+<fme:annualthroughputsampleperiod>N/A</fme:annualthroughputsampleperiod>
+<fme:eastings>393434.342414336</fme:eastings>
+<fme:northings>392172.521035192</fme:northings>
+<fme:long>53.4376354376876</fme:long>
+<fme:lat>-2.11930901839878</fme:lat>
+</fme:CarParks>
+<fme:CarParks>
+<fme:smbcrefno>37</fme:smbcrefno>
+<fme:name>Dye Lane</fme:name>
+<fme:recyclingfacilities>None</fme:recyclingfacilities>
+<fme:vms>N</fme:vms>
+<fme:totalcapacity>15</fme:totalcapacity>
+<fme:heightrestriction>2.13m</fme:heightrestriction>
+<fme:parkmark>N</fme:parkmark>
+<fme:machines>1</fme:machines>
+<fme:disabledspaces>0</fme:disabledspaces>
+<fme:heightrestrictionbarriertype>Fixed goalpost</fme:heightrestrictionbarriertype>
+<fme:urlop>&lt;a href="http://www.myringgo.co.uk/parkinglocator/15062"target="_blank"&gt;RingGo Zone Website   &lt;/a&gt;</fme:urlop>
+<fme:url>&lt;a href="http://www.stockport.gov.uk/services/transport/parking/"&gt;Parking in Stockport  &lt;/a&gt;</fme:url>
+<fme:area>Romiley</fme:area>
+<fme:totalchargeable>15</fme:totalchargeable>
+<fme:helppoints>0</fme:helppoints>
+<fme:lampcolumns>2</fme:lampcolumns>
+<fme:free>0</fme:free>
+<fme:postcode>SK6 3AN </fme:postcode>
+<fme:cctvcameras>0</fme:cctvcameras>
+<fme:furtherdetail>N</fme:furtherdetail>
+<fme:ringgozone>15062</fme:ringgozone>
+<fme:parentchild>0</fme:parentchild>
+<fme:chargingcategory>Class C Standard</fme:chargingcategory>
+<fme:annualthroughputsampleperiod>N/A</fme:annualthroughputsampleperiod>
+<fme:eastings>393829.643623768</fme:eastings>
+<fme:northings>390779.879674633</fme:northings>
+<fme:long>53.4411657595813</fme:long>
+<fme:lat>-2.14028416635323</fme:lat>
+</fme:CarParks>
+<fme:CarParks>
+<fme:smbcrefno>49</fme:smbcrefno>
+<fme:name>Chadwick Street</fme:name>
+<fme:recyclingfacilities>P G S Ca T</fme:recyclingfacilities>
+<fme:vms>N</fme:vms>
+<fme:totalcapacity>95</fme:totalcapacity>
+<fme:parkmark>N</fme:parkmark>
+<fme:machines>2</fme:machines>
+<fme:disabledspaces>7</fme:disabledspaces>
+<fme:heightrestrictionbarriertype>None</fme:heightrestrictionbarriertype>
+<fme:urlop>&lt;a href="http://www.myringgo.co.uk/parkinglocator/15009"target="_blank"&gt;RingGo Zone Website   &lt;/a&gt;</fme:urlop>
+<fme:url>&lt;a href="http://www.stockport.gov.uk/services/transport/parking/"&gt;Parking in Stockport  &lt;/a&gt;</fme:url>
+<fme:area>Marple</fme:area>
+<fme:totalchargeable>88</fme:totalchargeable>
+<fme:helppoints>0</fme:helppoints>
+<fme:lampcolumns>3</fme:lampcolumns>
+<fme:free>0</fme:free>
+<fme:postcode>SK6 6BY </fme:postcode>
+<fme:cctvcameras>2</fme:cctvcameras>
+<fme:furtherdetail>Y</fme:furtherdetail>
+<fme:ringgozone>15009</fme:ringgozone>
+<fme:parentchild>4</fme:parentchild>
+<fme:chargingcategory>Class C Standard</fme:chargingcategory>
+<fme:annualthroughputsampleperiod>01/07/10 - 30/06/11</fme:annualthroughputsampleperiod>
+<fme:eastings>395927.088227155</fme:eastings>
+<fme:northings>388506.030557169</fme:northings>
+<fme:long>53.4599733194086</fme:long>
+<fme:lat>-2.17459261990722</fme:lat>
+</fme:CarParks>
+<fme:CarParks>
+<fme:smbcrefno>125</fme:smbcrefno>
+<fme:name>Bramley Close</fme:name>
+<fme:urlpm>&lt;a href="http://www.stockport.gov.uk/services/transport/parking/368201" target="_blank"&gt;Park Mark Accredited  &lt;/a&gt;</fme:urlpm>
+<fme:recyclingfacilities>None</fme:recyclingfacilities>
+<fme:vms>N</fme:vms>
+<fme:totalcapacity>90</fme:totalcapacity>
+<fme:heightrestriction>2.00m</fme:heightrestriction>
+<fme:parkmark>Y</fme:parkmark>
+<fme:machines>0</fme:machines>
+<fme:disabledspaces>5</fme:disabledspaces>
+<fme:heightrestrictionbarriertype>Single Leaf Swing Beam</fme:heightrestrictionbarriertype>
+<fme:url>&lt;a href="http://www.stockport.gov.uk/services/transport/parking/"&gt;Parking in Stockport  &lt;/a&gt;</fme:url>
+<fme:area>Bramhall</fme:area>
+<fme:totalchargeable>0</fme:totalchargeable>
+<fme:helppoints>1</fme:helppoints>
+<fme:lampcolumns>4</fme:lampcolumns>
+<fme:free>85</fme:free>
+<fme:postcode>SK7 2DT </fme:postcode>
+<fme:cctvcameras>1</fme:cctvcameras>
+<fme:furtherdetail>Y</fme:furtherdetail>
+<fme:ringgozone>N/A</fme:ringgozone>
+<fme:parentchild>0</fme:parentchild>
+<fme:chargingcategory>Free</fme:chargingcategory>
+<fme:annualthroughputsampleperiod>N/A</fme:annualthroughputsampleperiod>
+<fme:eastings>389325.935653451</fme:eastings>
+<fme:northings>384754.414446105</fme:northings>
+<fme:long>53.4005432113054</fme:long>
+<fme:lat>-2.23077300837993</fme:lat>
+</fme:CarParks>
+<fme:CarParks>
+<fme:smbcrefno>39</fme:smbcrefno>
+<fme:name>Guywood Lane   (Romiley Station)</fme:name>
+<fme:recyclingfacilities>None</fme:recyclingfacilities>
+<fme:vms>N</fme:vms>
+<fme:totalcapacity>83</fme:totalcapacity>
+<fme:heightrestriction>n/a</fme:heightrestriction>
+<fme:parkmark>N</fme:parkmark>
+<fme:machines>1</fme:machines>
+<fme:disabledspaces>4</fme:disabledspaces>
+<fme:heightrestrictionbarriertype>None</fme:heightrestrictionbarriertype>
+<fme:urlop>&lt;a href="http://www.myringgo.co.uk/parkinglocator/15073"target="_blank"&gt;RingGo Zone Website   &lt;/a&gt;</fme:urlop>
+<fme:url>&lt;a href="http://www.stockport.gov.uk/services/transport/parking/"&gt;Parking in Stockport  &lt;/a&gt;</fme:url>
+<fme:area>Romiley</fme:area>
+<fme:totalchargeable>19</fme:totalchargeable>
+<fme:helppoints>0</fme:helppoints>
+<fme:lampcolumns>2</fme:lampcolumns>
+<fme:free>60</fme:free>
+<fme:postcode>SK6 4BN </fme:postcode>
+<fme:cctvcameras>0</fme:cctvcameras>
+<fme:furtherdetail>Y</fme:furtherdetail>
+<fme:ringgozone>15073</fme:ringgozone>
+<fme:parentchild>0</fme:parentchild>
+<fme:chargingcategory>Class C Standard</fme:chargingcategory>
+<fme:annualthroughputsampleperiod>01/04/09 - 31/03/10</fme:annualthroughputsampleperiod>
+<fme:eastings>394143.986578247</fme:eastings>
+<fme:northings>390830.845085936</fme:northings>
+<fme:long>53.4439921205781</fme:long>
+<fme:lat>-2.1395261983182</fme:lat>
+</fme:CarParks>
+<fme:CarParks>
+<fme:smbcrefno>40</fme:smbcrefno>
+<fme:name>Andrew Street</fme:name>
+<fme:recyclingfacilities>P G C</fme:recyclingfacilities>
+<fme:vms>N</fme:vms>
+<fme:totalcapacity>30</fme:totalcapacity>
+<fme:heightrestriction>n/a</fme:heightrestriction>
+<fme:parkmark>N</fme:parkmark>
+<fme:machines>0</fme:machines>
+<fme:disabledspaces>2</fme:disabledspaces>
+<fme:heightrestrictionbarriertype>None</fme:heightrestrictionbarriertype>
+<fme:url>&lt;a href="http://www.stockport.gov.uk/services/transport/parking/"&gt;Parking in Stockport  &lt;/a&gt;</fme:url>
+<fme:area>Compstall</fme:area>
+<fme:totalchargeable>0</fme:totalchargeable>
+<fme:helppoints>0</fme:helppoints>
+<fme:lampcolumns>0</fme:lampcolumns>
+<fme:free>28</fme:free>
+<fme:postcode>SK6 5HN </fme:postcode>
+<fme:cctvcameras>0</fme:cctvcameras>
+<fme:furtherdetail>Y</fme:furtherdetail>
+<fme:ringgozone>N/A</fme:ringgozone>
+<fme:parentchild>0</fme:parentchild>
+<fme:chargingcategory>Free</fme:chargingcategory>
+<fme:annualthroughputsampleperiod>N/A</fme:annualthroughputsampleperiod>
+<fme:eastings>396466.645025611</fme:eastings>
+<fme:northings>390786.647737295</fme:northings>
+<fme:long>53.4648684307251</fme:long>
+<fme:lat>-2.14026052488374</fme:lat>
+</fme:CarParks>
+<fme:CarParks>
+<fme:smbcrefno>41</fme:smbcrefno>
+<fme:name>Etherow Country Pk.</fme:name>
+<fme:recyclingfacilities>G S C</fme:recyclingfacilities>
+<fme:vms>N</fme:vms>
+<fme:totalcapacity>91</fme:totalcapacity>
+<fme:heightrestriction>n/a</fme:heightrestriction>
+<fme:parkmark>N</fme:parkmark>
+<fme:machines>1</fme:machines>
+<fme:disabledspaces>6</fme:disabledspaces>
+<fme:heightrestrictionbarriertype>None</fme:heightrestrictionbarriertype>
+<fme:urlop>&lt;a href="http://www.myringgo.co.uk/parkinglocator/15029"target="_blank"&gt;RingGo Zone Website   &lt;/a&gt;</fme:urlop>
+<fme:url>&lt;a href="http://www.stockport.gov.uk/services/transport/parking/"&gt;Parking in Stockport  &lt;/a&gt;</fme:url>
+<fme:area>Compstall</fme:area>
+<fme:totalchargeable>85</fme:totalchargeable>
+<fme:helppoints>0</fme:helppoints>
+<fme:lampcolumns>2 poss 5</fme:lampcolumns>
+<fme:free>0</fme:free>
+<fme:postcode>SK6 5JD </fme:postcode>
+<fme:cctvcameras>0</fme:cctvcameras>
+<fme:furtherdetail>Y</fme:furtherdetail>
+<fme:ringgozone>15029</fme:ringgozone>
+<fme:parentchild>0</fme:parentchild>
+<fme:chargingcategory>Parks</fme:chargingcategory>
+<fme:annualthroughputsampleperiod>N/A</fme:annualthroughputsampleperiod>
+<fme:eastings>396546.589138048</fme:eastings>
+<fme:northings>390867.87448638</fme:northings>
+<fme:long>53.4655884358365</fme:long>
+<fme:lat>-2.13903939026614</fme:lat>
+</fme:CarParks>
+<fme:CarParks>
+<fme:smbcrefno>43</fme:smbcrefno>
+<fme:name>George Street (Lower)</fme:name>
+<fme:urlpm>&lt;a href="http://www.stockport.gov.uk/services/transport/parking/368201" target="_blank"&gt;Park Mark Accredited  &lt;/a&gt;</fme:urlpm>
+<fme:recyclingfacilities>None</fme:recyclingfacilities>
+<fme:vms>N</fme:vms>
+<fme:totalcapacity>11</fme:totalcapacity>
+<fme:heightrestriction>2.1m</fme:heightrestriction>
+<fme:parkmark>Y</fme:parkmark>
+<fme:machines>1</fme:machines>
+<fme:disabledspaces>1</fme:disabledspaces>
+<fme:heightrestrictionbarriertype>Fixed goalpost</fme:heightrestrictionbarriertype>
+<fme:urlop>&lt;a href="http://www.myringgo.co.uk/parkinglocator/15058"target="_blank"&gt;RingGo Zone Website   &lt;/a&gt;</fme:urlop>
+<fme:url>&lt;a href="http://www.stockport.gov.uk/services/transport/parking/"&gt;Parking in Stockport  &lt;/a&gt;</fme:url>
+<fme:area>Compstall</fme:area>
+<fme:totalchargeable>10</fme:totalchargeable>
+<fme:helppoints>0</fme:helppoints>
+<fme:lampcolumns>0</fme:lampcolumns>
+<fme:free>0</fme:free>
+<fme:postcode>SK6 5JD </fme:postcode>
+<fme:cctvcameras>0</fme:cctvcameras>
+<fme:furtherdetail>Y</fme:furtherdetail>
+<fme:ringgozone>15058</fme:ringgozone>
+<fme:parentchild>0</fme:parentchild>
+<fme:chargingcategory>Parks</fme:chargingcategory>
+<fme:annualthroughputsampleperiod>01/07/10 - 30/06/11</fme:annualthroughputsampleperiod>
+<fme:eastings>396569.930906025</fme:eastings>
+<fme:northings>390944.272617643</fme:northings>
+<fme:long>53.4657995781207</fme:long>
+<fme:lat>-2.13788929597602</fme:lat>
+</fme:CarParks>
+<fme:CarParks>
+<fme:smbcrefno>47</fme:smbcrefno>
+<fme:name>Town Street</fme:name>
+<fme:urlpm>&lt;a href="http://www.stockport.gov.uk/services/transport/parking/368201" target="_blank"&gt;Park Mark Accredited  &lt;/a&gt;</fme:urlpm>
+<fme:recyclingfacilities>None</fme:recyclingfacilities>
+<fme:vms>N</fme:vms>
+<fme:totalcapacity>11</fme:totalcapacity>
+<fme:heightrestriction>n/a</fme:heightrestriction>
+<fme:parkmark>Y</fme:parkmark>
+<fme:machines>1</fme:machines>
+<fme:disabledspaces>2</fme:disabledspaces>
+<fme:heightrestrictionbarriertype>None</fme:heightrestrictionbarriertype>
+<fme:urlop>&lt;a href="http://www.myringgo.co.uk/parkinglocator/15017"target="_blank"&gt;RingGo Zone Website   &lt;/a&gt;</fme:urlop>
+<fme:url>&lt;a href="http://www.stockport.gov.uk/services/transport/parking/"&gt;Parking in Stockport  &lt;/a&gt;</fme:url>
+<fme:area>Marple Bridge</fme:area>
+<fme:totalchargeable>9</fme:totalchargeable>
+<fme:helppoints>0</fme:helppoints>
+<fme:lampcolumns>2</fme:lampcolumns>
+<fme:free>0</fme:free>
+<fme:postcode>SK6 5AA </fme:postcode>
+<fme:cctvcameras>0</fme:cctvcameras>
+<fme:furtherdetail>N</fme:furtherdetail>
+<fme:ringgozone>15017</fme:ringgozone>
+<fme:parentchild>0</fme:parentchild>
+<fme:chargingcategory>Class C Higher</fme:chargingcategory>
+<fme:annualthroughputsampleperiod>01/04/11 - 31/03/12</fme:annualthroughputsampleperiod>
+<fme:eastings>396519.083614214</fme:eastings>
+<fme:northings>389281.858478738</fme:northings>
+<fme:long>53.4653109574106</fme:long>
+<fme:lat>-2.16292838516542</fme:lat>
+</fme:CarParks>
+<fme:CarParks>
+<fme:smbcrefno>48</fme:smbcrefno>
+<fme:name>Longhurst Lane</fme:name>
+<fme:urlpm>&lt;a href="http://www.stockport.gov.uk/services/transport/parking/368201" target="_blank"&gt;Park Mark Accredited  &lt;/a&gt;</fme:urlpm>
+<fme:recyclingfacilities>None</fme:recyclingfacilities>
+<fme:vms>N</fme:vms>
+<fme:totalcapacity>14</fme:totalcapacity>
+<fme:heightrestriction>n/a</fme:heightrestriction>
+<fme:parkmark>Y</fme:parkmark>
+<fme:machines>1</fme:machines>
+<fme:disabledspaces>2</fme:disabledspaces>
+<fme:heightrestrictionbarriertype>None</fme:heightrestrictionbarriertype>
+<fme:urlop>&lt;a href="http://www.myringgo.co.uk/parkinglocator/15006"target="_blank"&gt;RingGo Zone Website   &lt;/a&gt;</fme:urlop>
+<fme:url>&lt;a href="http://www.stockport.gov.uk/services/transport/parking/"&gt;Parking in Stockport  &lt;/a&gt;</fme:url>
+<fme:area>Marple Bridge</fme:area>
+<fme:totalchargeable>12</fme:totalchargeable>
+<fme:helppoints>0</fme:helppoints>
+<fme:lampcolumns>2</fme:lampcolumns>
+<fme:free>0</fme:free>
+<fme:postcode>SK6 5AA </fme:postcode>
+<fme:cctvcameras>0</fme:cctvcameras>
+<fme:furtherdetail>Y</fme:furtherdetail>
+<fme:ringgozone>15006</fme:ringgozone>
+<fme:parentchild>0</fme:parentchild>
+<fme:chargingcategory>Class C Higher</fme:chargingcategory>
+<fme:annualthroughputsampleperiod>01/07/10 - 30/06/11</fme:annualthroughputsampleperiod>
+<fme:eastings>396573.533997726</fme:eastings>
+<fme:northings>389232.792523721</fme:northings>
+<fme:long>53.4657993684126</fme:long>
+<fme:lat>-2.16366934007088</fme:lat>
+</fme:CarParks>
+<fme:CarParks>
+<fme:smbcrefno>57</fme:smbcrefno>
+<fme:name>Townley Terrace</fme:name>
+<fme:recyclingfacilities>None</fme:recyclingfacilities>
+<fme:vms>N</fme:vms>
+<fme:totalcapacity>30</fme:totalcapacity>
+<fme:heightrestriction>n/a</fme:heightrestriction>
+<fme:parkmark>N</fme:parkmark>
+<fme:machines>1</fme:machines>
+<fme:disabledspaces>3</fme:disabledspaces>
+<fme:heightrestrictionbarriertype>None</fme:heightrestrictionbarriertype>
+<fme:urlop>&lt;a href="http://www.myringgo.co.uk/parkinglocator/15060"target="_blank"&gt;RingGo Zone Website   &lt;/a&gt;</fme:urlop>
+<fme:url>&lt;a href="http://www.stockport.gov.uk/services/transport/parking/"&gt;Parking in Stockport  &lt;/a&gt;</fme:url>
+<fme:area>Marple</fme:area>
+<fme:totalchargeable>27</fme:totalchargeable>
+<fme:helppoints>0</fme:helppoints>
+<fme:lampcolumns>0</fme:lampcolumns>
+<fme:free>0</fme:free>
+<fme:postcode>SK6 6BL </fme:postcode>
+<fme:cctvcameras>0</fme:cctvcameras>
+<fme:furtherdetail>N</fme:furtherdetail>
+<fme:ringgozone>15060</fme:ringgozone>
+<fme:parentchild>0</fme:parentchild>
+<fme:chargingcategory>Class C Standard</fme:chargingcategory>
+<fme:annualthroughputsampleperiod>01/04/09 - 31/03/10</fme:annualthroughputsampleperiod>
+<fme:eastings>396045.215217551</fme:eastings>
+<fme:northings>388607.351554335</fme:northings>
+<fme:long>53.461037318694</fme:long>
+<fme:lat>-2.17307096358511</fme:lat>
+</fme:CarParks>
+<fme:CarParks>
+<fme:smbcrefno>50</fme:smbcrefno>
+<fme:name>Derby Street</fme:name>
+<fme:recyclingfacilities>None</fme:recyclingfacilities>
+<fme:vms>N</fme:vms>
+<fme:totalcapacity>8</fme:totalcapacity>
+<fme:heightrestriction>n/a</fme:heightrestriction>
+<fme:parkmark>N</fme:parkmark>
+<fme:machines>0</fme:machines>
+<fme:disabledspaces>0</fme:disabledspaces>
+<fme:heightrestrictionbarriertype>None</fme:heightrestrictionbarriertype>
+<fme:url>&lt;a href="http://www.stockport.gov.uk/services/transport/parking/"&gt;Parking in Stockport  &lt;/a&gt;</fme:url>
+<fme:area>Marple</fme:area>
+<fme:totalchargeable>8</fme:totalchargeable>
+<fme:helppoints>0</fme:helppoints>
+<fme:lampcolumns>0</fme:lampcolumns>
+<fme:free>0</fme:free>
+<fme:postcode>SK6 7AW </fme:postcode>
+<fme:cctvcameras>0</fme:cctvcameras>
+<fme:furtherdetail>Y</fme:furtherdetail>
+<fme:ringgozone>N/A</fme:ringgozone>
+<fme:parentchild>0</fme:parentchild>
+<fme:chargingcategory>Contract</fme:chargingcategory>
+<fme:annualthroughputsampleperiod>N/A</fme:annualthroughputsampleperiod>
+<fme:eastings>395807.246264051</fme:eastings>
+<fme:northings>388512.308760052</fme:northings>
+<fme:long>53.4588962674019</fme:long>
+<fme:lat>-2.17449364043627</fme:lat>
+</fme:CarParks>
+<fme:CarParks>
+<fme:smbcrefno>51</fme:smbcrefno>
+<fme:name>Derby Way</fme:name>
+<fme:urlpm>&lt;a href="http://www.stockport.gov.uk/services/transport/parking/368201" target="_blank"&gt;Park Mark Accredited  &lt;/a&gt;</fme:urlpm>
+<fme:recyclingfacilities>None</fme:recyclingfacilities>
+<fme:vms>N</fme:vms>
+<fme:totalcapacity>53</fme:totalcapacity>
+<fme:heightrestriction>Entry 2.03m / Exit 2.09m</fme:heightrestriction>
+<fme:parkmark>Y</fme:parkmark>
+<fme:machines>2</fme:machines>
+<fme:disabledspaces>5</fme:disabledspaces>
+<fme:heightrestrictionbarriertype>Entry &amp; Exit fixed goalpost</fme:heightrestrictionbarriertype>
+<fme:urlop>&lt;a href="http://www.myringgo.co.uk/parkinglocator/15047"target="_blank"&gt;RingGo Zone Website   &lt;/a&gt;</fme:urlop>
+<fme:url>&lt;a href="http://www.stockport.gov.uk/services/transport/parking/"&gt;Parking in Stockport  &lt;/a&gt;</fme:url>
+<fme:area>Marple</fme:area>
+<fme:totalchargeable>48</fme:totalchargeable>
+<fme:helppoints>0</fme:helppoints>
+<fme:lampcolumns>0</fme:lampcolumns>
+<fme:free>0</fme:free>
+<fme:postcode>SK6 7AW </fme:postcode>
+<fme:cctvcameras>Covered by on-street camera</fme:cctvcameras>
+<fme:furtherdetail>N</fme:furtherdetail>
+<fme:ringgozone>15047</fme:ringgozone>
+<fme:parentchild>1</fme:parentchild>
+<fme:chargingcategory>Class C Standard</fme:chargingcategory>
+<fme:annualthroughputsampleperiod>01/10/010 - 30/09/11</fme:annualthroughputsampleperiod>
+<fme:eastings>395783.739594851</fme:eastings>
+<fme:northings>388543.069954752</fme:northings>
+<fme:long>53.458685656318</fme:long>
+<fme:lat>-2.17402949648797</fme:lat>
+</fme:CarParks>
+<fme:CarParks>
+<fme:smbcrefno>56</fme:smbcrefno>
+<fme:name>Springfield Avenue</fme:name>
+<fme:recyclingfacilities>None</fme:recyclingfacilities>
+<fme:vms>N</fme:vms>
+<fme:totalcapacity>9</fme:totalcapacity>
+<fme:heightrestriction>n/a</fme:heightrestriction>
+<fme:parkmark>N</fme:parkmark>
+<fme:machines>1</fme:machines>
+<fme:disabledspaces>1</fme:disabledspaces>
+<fme:heightrestrictionbarriertype>None</fme:heightrestrictionbarriertype>
+<fme:urlop>&lt;a href="http://www.myringgo.co.uk/parkinglocator/15051"target="_blank"&gt;RingGo Zone Website   &lt;/a&gt;</fme:urlop>
+<fme:url>&lt;a href="http://www.stockport.gov.uk/services/transport/parking/"&gt;Parking in Stockport  &lt;/a&gt;</fme:url>
+<fme:area>Marple</fme:area>
+<fme:totalchargeable>8</fme:totalchargeable>
+<fme:helppoints>0</fme:helppoints>
+<fme:lampcolumns>0</fme:lampcolumns>
+<fme:free>0</fme:free>
+<fme:postcode>SK6 7AL </fme:postcode>
+<fme:cctvcameras>0</fme:cctvcameras>
+<fme:furtherdetail>N</fme:furtherdetail>
+<fme:ringgozone>15051</fme:ringgozone>
+<fme:parentchild>0</fme:parentchild>
+<fme:chargingcategory>Class C Standard</fme:chargingcategory>
+<fme:annualthroughputsampleperiod>N/A</fme:annualthroughputsampleperiod>
+<fme:eastings>395767.678215826</fme:eastings>
+<fme:northings>388624.376680944</fme:northings>
+<fme:long>53.4585430701699</fme:long>
+<fme:lat>-2.17280439666943</fme:lat>
+</fme:CarParks>
+<fme:CarParks>
+<fme:smbcrefno>53</fme:smbcrefno>
+<fme:name>Hollins Lane</fme:name>
+<fme:recyclingfacilities>None</fme:recyclingfacilities>
+<fme:vms>N</fme:vms>
+<fme:totalcapacity>35</fme:totalcapacity>
+<fme:heightrestriction>2.02m</fme:heightrestriction>
+<fme:parkmark>N</fme:parkmark>
+<fme:machines>1</fme:machines>
+<fme:disabledspaces>3</fme:disabledspaces>
+<fme:heightrestrictionbarriertype>Fixed goalpost</fme:heightrestrictionbarriertype>
+<fme:urlop>&lt;a href="http://www.myringgo.co.uk/parkinglocator/15028"target="_blank"&gt;RingGo Zone Website   &lt;/a&gt;</fme:urlop>
+<fme:url>&lt;a href="http://www.stockport.gov.uk/services/transport/parking/"&gt;Parking in Stockport  &lt;/a&gt;</fme:url>
+<fme:area>Marple</fme:area>
+<fme:totalchargeable>32</fme:totalchargeable>
+<fme:helppoints>0</fme:helppoints>
+<fme:lampcolumns>0</fme:lampcolumns>
+<fme:free>0</fme:free>
+<fme:postcode>SK6 6AW </fme:postcode>
+<fme:cctvcameras>0</fme:cctvcameras>
+<fme:furtherdetail>N</fme:furtherdetail>
+<fme:ringgozone>15028</fme:ringgozone>
+<fme:parentchild>0</fme:parentchild>
+<fme:chargingcategory>Class C Standard</fme:chargingcategory>
+<fme:annualthroughputsampleperiod>N/A</fme:annualthroughputsampleperiod>
+<fme:eastings>395895.031429594</fme:eastings>
+<fme:northings>388804.605091098</fme:northings>
+<fme:long>53.4596916768714</fme:long>
+<fme:lat>-2.17009467481059</fme:lat>
+</fme:CarParks>
+<fme:CarParks>
+<fme:smbcrefno>55</fme:smbcrefno>
+<fme:name>Memorial Park</fme:name>
+<fme:recyclingfacilities>None</fme:recyclingfacilities>
+<fme:vms>N</fme:vms>
+<fme:totalcapacity>63</fme:totalcapacity>
+<fme:heightrestriction>n/a</fme:heightrestriction>
+<fme:parkmark>N</fme:parkmark>
+<fme:machines>1</fme:machines>
+<fme:disabledspaces>6</fme:disabledspaces>
+<fme:heightrestrictionbarriertype>None</fme:heightrestrictionbarriertype>
+<fme:urlop>&lt;a href="http://www.myringgo.co.uk/parkinglocator/15039"target="_blank"&gt;RingGo Zone Website   &lt;/a&gt;</fme:urlop>
+<fme:url>&lt;a href="http://www.stockport.gov.uk/services/transport/parking/"&gt;Parking in Stockport  &lt;/a&gt;</fme:url>
+<fme:area>Marple</fme:area>
+<fme:totalchargeable>57</fme:totalchargeable>
+<fme:helppoints>0</fme:helppoints>
+<fme:lampcolumns>3</fme:lampcolumns>
+<fme:free>0</fme:free>
+<fme:postcode>SK6 6BD </fme:postcode>
+<fme:cctvcameras>0</fme:cctvcameras>
+<fme:furtherdetail>N</fme:furtherdetail>
+<fme:ringgozone>15039</fme:ringgozone>
+<fme:parentchild>0</fme:parentchild>
+<fme:chargingcategory>Class C Standard</fme:chargingcategory>
+<fme:annualthroughputsampleperiod>N/A</fme:annualthroughputsampleperiod>
+<fme:eastings>395983.65759137</fme:eastings>
+<fme:northings>388824.669347764</fme:northings>
+<fme:long>53.460488717065</fme:long>
+<fme:lat>-2.16979567565108</fme:lat>
+</fme:CarParks>
+<fme:CarParks>
+<fme:smbcrefno>58</fme:smbcrefno>
+<fme:name>Athol Street</fme:name>
+<fme:recyclingfacilities>None</fme:recyclingfacilities>
+<fme:vms>N</fme:vms>
+<fme:totalcapacity>11</fme:totalcapacity>
+<fme:heightrestriction>2.25m</fme:heightrestriction>
+<fme:parkmark>N</fme:parkmark>
+<fme:machines>0</fme:machines>
+<fme:disabledspaces>0</fme:disabledspaces>
+<fme:heightrestrictionbarriertype>Fixed goalpost</fme:heightrestrictionbarriertype>
+<fme:url>&lt;a href="http://www.stockport.gov.uk/services/transport/parking/"&gt;Parking in Stockport  &lt;/a&gt;</fme:url>
+<fme:area>Heaton Norris</fme:area>
+<fme:totalchargeable>0</fme:totalchargeable>
+<fme:helppoints>0</fme:helppoints>
+<fme:lampcolumns>0</fme:lampcolumns>
+<fme:free>11</fme:free>
+<fme:postcode>SK4 1JL </fme:postcode>
+<fme:cctvcameras>0</fme:cctvcameras>
+<fme:furtherdetail>N</fme:furtherdetail>
+<fme:ringgozone>N/A</fme:ringgozone>
+<fme:parentchild>0</fme:parentchild>
+<fme:chargingcategory>Free</fme:chargingcategory>
+<fme:annualthroughputsampleperiod>N/A</fme:annualthroughputsampleperiod>
+<fme:eastings>388977.227284302</fme:eastings>
+<fme:northings>391117.732965135</fme:northings>
+<fme:long>53.3975556859684</fme:long>
+<fme:lat>-2.13505944562613</fme:lat>
+</fme:CarParks>
+<fme:CarParks>
+<fme:smbcrefno>62</fme:smbcrefno>
+<fme:name>Cheviot Close</fme:name>
+<fme:recyclingfacilities>None</fme:recyclingfacilities>
+<fme:vms>N</fme:vms>
+<fme:totalcapacity>12</fme:totalcapacity>
+<fme:heightrestriction>Entry 2.02m / Exit 2.08m</fme:heightrestriction>
+<fme:parkmark>N</fme:parkmark>
+<fme:machines>0</fme:machines>
+<fme:disabledspaces>0</fme:disabledspaces>
+<fme:heightrestrictionbarriertype>Entry &amp; Exit fixed goalpost</fme:heightrestrictionbarriertype>
+<fme:url>&lt;a href="http://www.stockport.gov.uk/services/transport/parking/"&gt;Parking in Stockport  &lt;/a&gt;</fme:url>
+<fme:area>Heaton Norris</fme:area>
+<fme:totalchargeable>0</fme:totalchargeable>
+<fme:helppoints>0</fme:helppoints>
+<fme:lampcolumns>2</fme:lampcolumns>
+<fme:free>12</fme:free>
+<fme:postcode>SK4 2LL </fme:postcode>
+<fme:cctvcameras>0</fme:cctvcameras>
+<fme:furtherdetail>N</fme:furtherdetail>
+<fme:ringgozone>N/A</fme:ringgozone>
+<fme:parentchild>0</fme:parentchild>
+<fme:chargingcategory>Free</fme:chargingcategory>
+<fme:annualthroughputsampleperiod>N/A</fme:annualthroughputsampleperiod>
+<fme:eastings>388872.30888179</fme:eastings>
+<fme:northings>391080.753550382</fme:northings>
+<fme:long>53.3966119914768</fme:long>
+<fme:lat>-2.13561256832027</fme:lat>
+</fme:CarParks>
+<fme:CarParks>
+<fme:smbcrefno>60</fme:smbcrefno>
+<fme:name>Belmont Street (2)</fme:name>
+<fme:recyclingfacilities>None</fme:recyclingfacilities>
+<fme:vms>N</fme:vms>
+<fme:totalcapacity>25</fme:totalcapacity>
+<fme:heightrestriction>2.05m</fme:heightrestriction>
+<fme:parkmark>N</fme:parkmark>
+<fme:machines>0</fme:machines>
+<fme:disabledspaces>0</fme:disabledspaces>
+<fme:heightrestrictionbarriertype>Single swingbeam</fme:heightrestrictionbarriertype>
+<fme:url>&lt;a href="http://www.stockport.gov.uk/services/transport/parking/"&gt;Parking in Stockport  &lt;/a&gt;</fme:url>
+<fme:area>Heaton Norris</fme:area>
+<fme:totalchargeable>0</fme:totalchargeable>
+<fme:helppoints>0</fme:helppoints>
+<fme:lampcolumns>3</fme:lampcolumns>
+<fme:free>25</fme:free>
+<fme:postcode>SK4 1QW </fme:postcode>
+<fme:cctvcameras>0</fme:cctvcameras>
+<fme:furtherdetail>Y</fme:furtherdetail>
+<fme:ringgozone>N/A</fme:ringgozone>
+<fme:parentchild>0</fme:parentchild>
+<fme:chargingcategory>Free</fme:chargingcategory>
+<fme:annualthroughputsampleperiod>N/A</fme:annualthroughputsampleperiod>
+<fme:eastings>388917.005358019</fme:eastings>
+<fme:northings>391147.774365873</fme:northings>
+<fme:long>53.3970148903968</fme:long>
+<fme:lat>-2.13460594555037</fme:lat>
+</fme:CarParks>
+<fme:CarParks>
+<fme:smbcrefno>59</fme:smbcrefno>
+<fme:name>Belmont Street (1)</fme:name>
+<fme:recyclingfacilities>None</fme:recyclingfacilities>
+<fme:vms>N</fme:vms>
+<fme:totalcapacity>12</fme:totalcapacity>
+<fme:heightrestriction>2.04m </fme:heightrestriction>
+<fme:parkmark>N</fme:parkmark>
+<fme:machines>0</fme:machines>
+<fme:disabledspaces>0</fme:disabledspaces>
+<fme:heightrestrictionbarriertype>single leaf swing beam height restrictor</fme:heightrestrictionbarriertype>
+<fme:url>&lt;a href="http://www.stockport.gov.uk/services/transport/parking/"&gt;Parking in Stockport  &lt;/a&gt;</fme:url>
+<fme:area>Heaton Norris</fme:area>
+<fme:totalchargeable>0</fme:totalchargeable>
+<fme:helppoints>0</fme:helppoints>
+<fme:lampcolumns>0</fme:lampcolumns>
+<fme:free>12</fme:free>
+<fme:postcode>SK4 1LX </fme:postcode>
+<fme:cctvcameras>0</fme:cctvcameras>
+<fme:furtherdetail>Y</fme:furtherdetail>
+<fme:ringgozone>N/A</fme:ringgozone>
+<fme:parentchild>0</fme:parentchild>
+<fme:chargingcategory>Free</fme:chargingcategory>
+<fme:annualthroughputsampleperiod>N/A</fme:annualthroughputsampleperiod>
+<fme:eastings>388990.460607369</fme:eastings>
+<fme:northings>391200.16936796</fme:northings>
+<fme:long>53.3976760331833</fme:long>
+<fme:lat>-2.13382007124421</fme:lat>
+</fme:CarParks>
+<fme:CarParks>
+<fme:smbcrefno>136</fme:smbcrefno>
+<fme:name>Grand Central CP2</fme:name>
+<fme:recyclingfacilities>None</fme:recyclingfacilities>
+<fme:vms>N</fme:vms>
+<fme:totalcapacity>Feb 2013 - Temp increase in spaces [67]</fme:totalcapacity>
+<fme:heightrestriction>n/a</fme:heightrestriction>
+<fme:parkmark>N</fme:parkmark>
+<fme:machines>2</fme:machines>
+<fme:disabledspaces>6</fme:disabledspaces>
+<fme:heightrestrictionbarriertype>None</fme:heightrestrictionbarriertype>
+<fme:url>&lt;a href="http://www.stockport.gov.uk/services/transport/parking/"&gt;Parking in Stockport  &lt;/a&gt;</fme:url>
+<fme:area>Town Centre</fme:area>
+<fme:totalchargeable>#VALUE!</fme:totalchargeable>
+<fme:helppoints>0</fme:helppoints>
+<fme:free>0</fme:free>
+<fme:postcode>SK3 9HZ</fme:postcode>
+<fme:cctvcameras>Unknown</fme:cctvcameras>
+<fme:furtherdetail>Y</fme:furtherdetail>
+<fme:ringgozone>N/A</fme:ringgozone>
+<fme:parentchild>0</fme:parentchild>
+<fme:chargingcategory>GC Specific Tariff</fme:chargingcategory>
+<fme:annualthroughputsampleperiod>N/A</fme:annualthroughputsampleperiod>
+<fme:eastings>388842.387555055</fme:eastings>
+<fme:northings>391280.406400349</fme:northings>
+<fme:long>53.3963464225417</fme:long>
+<fme:lat>-2.13260924803983</fme:lat>
+</fme:CarParks>
+<fme:CarParks>
+<fme:smbcrefno>63</fme:smbcrefno>
+<fme:name>Grafton Street</fme:name>
+<fme:recyclingfacilities>None</fme:recyclingfacilities>
+<fme:vms>N</fme:vms>
+<fme:totalcapacity>12</fme:totalcapacity>
+<fme:heightrestriction>2.25m</fme:heightrestriction>
+<fme:parkmark>N</fme:parkmark>
+<fme:machines>0</fme:machines>
+<fme:disabledspaces>0</fme:disabledspaces>
+<fme:heightrestrictionbarriertype>Fixed goalpost</fme:heightrestrictionbarriertype>
+<fme:url>&lt;a href="http://www.stockport.gov.uk/services/transport/parking/"&gt;Parking in Stockport  &lt;/a&gt;</fme:url>
+<fme:area>Heaton Norris</fme:area>
+<fme:totalchargeable>0</fme:totalchargeable>
+<fme:helppoints>0</fme:helppoints>
+<fme:lampcolumns>0</fme:lampcolumns>
+<fme:free>12</fme:free>
+<fme:postcode>SK4 1QX </fme:postcode>
+<fme:cctvcameras>0</fme:cctvcameras>
+<fme:furtherdetail>N</fme:furtherdetail>
+<fme:ringgozone>N/A</fme:ringgozone>
+<fme:parentchild>0</fme:parentchild>
+<fme:chargingcategory>Free</fme:chargingcategory>
+<fme:annualthroughputsampleperiod>N/A</fme:annualthroughputsampleperiod>
+<fme:eastings>389132.679666302</fme:eastings>
+<fme:northings>391254.763740484</fme:northings>
+<fme:long>53.3989552934823</fme:long>
+<fme:lat>-2.13300302774255</fme:lat>
+</fme:CarParks>
+<fme:CarParks>
+<fme:smbcrefno>64</fme:smbcrefno>
+<fme:name>Derby Range</fme:name>
+<fme:recyclingfacilities>None</fme:recyclingfacilities>
+<fme:vms>N</fme:vms>
+<fme:totalcapacity>21</fme:totalcapacity>
+<fme:heightrestriction>2.13m</fme:heightrestriction>
+<fme:parkmark>N</fme:parkmark>
+<fme:machines>0</fme:machines>
+<fme:disabledspaces>0</fme:disabledspaces>
+<fme:heightrestrictionbarriertype>Dual swingbeam</fme:heightrestrictionbarriertype>
+<fme:url>&lt;a href="http://www.stockport.gov.uk/services/transport/parking/"&gt;Parking in Stockport  &lt;/a&gt;</fme:url>
+<fme:area>Heaton Moor</fme:area>
+<fme:totalchargeable>0</fme:totalchargeable>
+<fme:helppoints>0</fme:helppoints>
+<fme:lampcolumns>0</fme:lampcolumns>
+<fme:free>21</fme:free>
+<fme:postcode>SK4 4AB </fme:postcode>
+<fme:cctvcameras>0</fme:cctvcameras>
+<fme:furtherdetail>Y</fme:furtherdetail>
+<fme:ringgozone>N/A</fme:ringgozone>
+<fme:parentchild>0</fme:parentchild>
+<fme:chargingcategory>Free</fme:chargingcategory>
+<fme:annualthroughputsampleperiod>N/A</fme:annualthroughputsampleperiod>
+<fme:eastings>387882.456316359</fme:eastings>
+<fme:northings>391878.705139117</fme:northings>
+<fme:long>53.3877277122761</fme:long>
+<fme:lat>-2.12358671803916</fme:lat>
+</fme:CarParks>
+<fme:CarParks>
+<fme:smbcrefno>66</fme:smbcrefno>
+<fme:name>Didsbury Road</fme:name>
+<fme:recyclingfacilities>P G S C</fme:recyclingfacilities>
+<fme:vms>N</fme:vms>
+<fme:totalcapacity>22</fme:totalcapacity>
+<fme:heightrestriction>2.020m</fme:heightrestriction>
+<fme:parkmark>N</fme:parkmark>
+<fme:machines>0</fme:machines>
+<fme:disabledspaces>2</fme:disabledspaces>
+<fme:heightrestrictionbarriertype>Single swingbeam</fme:heightrestrictionbarriertype>
+<fme:url>&lt;a href="http://www.stockport.gov.uk/services/transport/parking/"&gt;Parking in Stockport  &lt;/a&gt;</fme:url>
+<fme:area>Heaton Mersey</fme:area>
+<fme:totalchargeable>0</fme:totalchargeable>
+<fme:helppoints>0</fme:helppoints>
+<fme:lampcolumns>0</fme:lampcolumns>
+<fme:free>20</fme:free>
+<fme:postcode>SK4 3AY </fme:postcode>
+<fme:cctvcameras>0</fme:cctvcameras>
+<fme:furtherdetail>N</fme:furtherdetail>
+<fme:ringgozone>N/A</fme:ringgozone>
+<fme:parentchild>0</fme:parentchild>
+<fme:chargingcategory>Free</fme:chargingcategory>
+<fme:annualthroughputsampleperiod>N/A</fme:annualthroughputsampleperiod>
+<fme:eastings>386461.156193628</fme:eastings>
+<fme:northings>390605.299647646</fme:northings>
+<fme:long>53.3749308732322</fme:long>
+<fme:lat>-2.14269004374493</fme:lat>
+</fme:CarParks>
+<fme:CarParks>
+<fme:smbcrefno>67</fme:smbcrefno>
+<fme:name>Ashbrook Lane</fme:name>
+<fme:urlpm>&lt;a href="http://www.stockport.gov.uk/services/transport/parking/368201" target="_blank"&gt;Park Mark Accredited  &lt;/a&gt;</fme:urlpm>
+<fme:recyclingfacilities>None</fme:recyclingfacilities>
+<fme:vms>N</fme:vms>
+<fme:totalcapacity>23</fme:totalcapacity>
+<fme:heightrestriction>2.08m</fme:heightrestriction>
+<fme:parkmark>Y</fme:parkmark>
+<fme:machines>0</fme:machines>
+<fme:disabledspaces>1</fme:disabledspaces>
+<fme:heightrestrictionbarriertype>Single swing beam</fme:heightrestrictionbarriertype>
+<fme:url>&lt;a href="http://www.stockport.gov.uk/services/transport/parking/"&gt;Parking in Stockport  &lt;/a&gt;</fme:url>
+<fme:area>Reddish</fme:area>
+<fme:totalchargeable>0</fme:totalchargeable>
+<fme:helppoints>0</fme:helppoints>
+<fme:lampcolumns>0</fme:lampcolumns>
+<fme:free>22</fme:free>
+<fme:postcode>SK5 6RS </fme:postcode>
+<fme:cctvcameras>0</fme:cctvcameras>
+<fme:furtherdetail>N</fme:furtherdetail>
+<fme:ringgozone>N/A</fme:ringgozone>
+<fme:parentchild>0</fme:parentchild>
+<fme:chargingcategory>Free</fme:chargingcategory>
+<fme:annualthroughputsampleperiod>N/A</fme:annualthroughputsampleperiod>
+<fme:eastings>389661.806462465</fme:eastings>
+<fme:northings>394645.663105642</fme:northings>
+<fme:long>53.4037574183619</fme:long>
+<fme:lat>-2.08201524159114</fme:lat>
+</fme:CarParks>
+<fme:CarParks>
+<fme:smbcrefno>70</fme:smbcrefno>
+<fme:name>Margaret Street</fme:name>
+<fme:urlpm>&lt;a href="http://www.stockport.gov.uk/services/transport/parking/368201" target="_blank"&gt;Park Mark Accredited  &lt;/a&gt;</fme:urlpm>
+<fme:recyclingfacilities>MG T</fme:recyclingfacilities>
+<fme:vms>N</fme:vms>
+<fme:totalcapacity>22</fme:totalcapacity>
+<fme:heightrestriction>n/a</fme:heightrestriction>
+<fme:parkmark>Y</fme:parkmark>
+<fme:machines>0</fme:machines>
+<fme:disabledspaces>0</fme:disabledspaces>
+<fme:heightrestrictionbarriertype>None</fme:heightrestrictionbarriertype>
+<fme:url>&lt;a href="http://www.stockport.gov.uk/services/transport/parking/"&gt;Parking in Stockport  &lt;/a&gt;</fme:url>
+<fme:area>Reddish</fme:area>
+<fme:totalchargeable>0</fme:totalchargeable>
+<fme:helppoints>0</fme:helppoints>
+<fme:lampcolumns>0</fme:lampcolumns>
+<fme:free>22</fme:free>
+<fme:postcode>SK5 6DJ </fme:postcode>
+<fme:cctvcameras>0</fme:cctvcameras>
+<fme:furtherdetail>N</fme:furtherdetail>
+<fme:ringgozone>N/A</fme:ringgozone>
+<fme:parentchild>0</fme:parentchild>
+<fme:chargingcategory>Free</fme:chargingcategory>
+<fme:annualthroughputsampleperiod>N/A</fme:annualthroughputsampleperiod>
+<fme:eastings>389303.377166278</fme:eastings>
+<fme:northings>393423.133051228</fme:northings>
+<fme:long>53.4005215700913</fme:long>
+<fme:lat>-2.10039577316012</fme:lat>
+</fme:CarParks>
+<fme:CarParks>
+<fme:smbcrefno>71</fme:smbcrefno>
+<fme:name>Rupert Street</fme:name>
+<fme:urlpm>&lt;a href="http://www.stockport.gov.uk/services/transport/parking/368201" target="_blank"&gt;Park Mark Accredited  &lt;/a&gt;</fme:urlpm>
+<fme:recyclingfacilities>MG T P Ca</fme:recyclingfacilities>
+<fme:vms>N</fme:vms>
+<fme:totalcapacity>28</fme:totalcapacity>
+<fme:heightrestriction>2.0m</fme:heightrestriction>
+<fme:parkmark>Y</fme:parkmark>
+<fme:machines>0</fme:machines>
+<fme:disabledspaces>2</fme:disabledspaces>
+<fme:heightrestrictionbarriertype>Single swing-beam</fme:heightrestrictionbarriertype>
+<fme:url>&lt;a href="http://www.stockport.gov.uk/services/transport/parking/"&gt;Parking in Stockport  &lt;/a&gt;</fme:url>
+<fme:area>Reddish</fme:area>
+<fme:totalchargeable>0</fme:totalchargeable>
+<fme:helppoints>0</fme:helppoints>
+<fme:lampcolumns>0</fme:lampcolumns>
+<fme:free>26</fme:free>
+<fme:postcode>SK5 6DH </fme:postcode>
+<fme:cctvcameras>0</fme:cctvcameras>
+<fme:furtherdetail>N</fme:furtherdetail>
+<fme:ringgozone>N/A</fme:ringgozone>
+<fme:parentchild>0</fme:parentchild>
+<fme:chargingcategory>Free</fme:chargingcategory>
+<fme:annualthroughputsampleperiod>N/A</fme:annualthroughputsampleperiod>
+<fme:eastings>389281.478283994</fme:eastings>
+<fme:northings>393270.326791565</fme:northings>
+<fme:long>53.4003227707909</fme:long>
+<fme:lat>-2.10269349009749</fme:lat>
+</fme:CarParks>
+<fme:CarParks>
+<fme:smbcrefno>72</fme:smbcrefno>
+<fme:name>Banks Lane</fme:name>
+<fme:recyclingfacilities>None</fme:recyclingfacilities>
+<fme:vms>N</fme:vms>
+<fme:totalcapacity>47</fme:totalcapacity>
+<fme:heightrestriction>2.14m</fme:heightrestriction>
+<fme:parkmark>N</fme:parkmark>
+<fme:machines>0</fme:machines>
+<fme:disabledspaces>0</fme:disabledspaces>
+<fme:heightrestrictionbarriertype>Fixed goalpost</fme:heightrestrictionbarriertype>
+<fme:url>&lt;a href="http://www.stockport.gov.uk/services/transport/parking/"&gt;Parking in Stockport  &lt;/a&gt;</fme:url>
+<fme:area>Offerton</fme:area>
+<fme:totalchargeable>0</fme:totalchargeable>
+<fme:helppoints>0</fme:helppoints>
+<fme:lampcolumns>4</fme:lampcolumns>
+<fme:free>47</fme:free>
+<fme:postcode>SK1 4JU </fme:postcode>
+<fme:cctvcameras>0</fme:cctvcameras>
+<fme:furtherdetail>Y</fme:furtherdetail>
+<fme:ringgozone>N/A</fme:ringgozone>
+<fme:parentchild>0</fme:parentchild>
+<fme:chargingcategory>Free</fme:chargingcategory>
+<fme:annualthroughputsampleperiod>N/A</fme:annualthroughputsampleperiod>
+<fme:eastings>390985.179994498</fme:eastings>
+<fme:northings>389594.03911796</fme:northings>
+<fme:long>53.4155760160514</fme:long>
+<fme:lat>-2.15804103203747</fme:lat>
+</fme:CarParks>
+<fme:CarParks>
+<fme:smbcrefno>73</fme:smbcrefno>
+<fme:name>Greystokes/Holly Street</fme:name>
+<fme:recyclingfacilities>None</fme:recyclingfacilities>
+<fme:vms>N</fme:vms>
+<fme:totalcapacity>16</fme:totalcapacity>
+<fme:heightrestriction>n/a</fme:heightrestriction>
+<fme:parkmark>N</fme:parkmark>
+<fme:machines>0</fme:machines>
+<fme:disabledspaces>0</fme:disabledspaces>
+<fme:heightrestrictionbarriertype>None</fme:heightrestrictionbarriertype>
+<fme:url>&lt;a href="http://www.stockport.gov.uk/services/transport/parking/"&gt;Parking in Stockport  &lt;/a&gt;</fme:url>
+<fme:area>Offerton</fme:area>
+<fme:totalchargeable>0</fme:totalchargeable>
+<fme:helppoints>0</fme:helppoints>
+<fme:lampcolumns>1</fme:lampcolumns>
+<fme:free>16</fme:free>
+<fme:postcode>SK1 4DH </fme:postcode>
+<fme:cctvcameras>0</fme:cctvcameras>
+<fme:furtherdetail>N</fme:furtherdetail>
+<fme:ringgozone>N/A</fme:ringgozone>
+<fme:parentchild>0</fme:parentchild>
+<fme:chargingcategory>Free</fme:chargingcategory>
+<fme:annualthroughputsampleperiod>N/A</fme:annualthroughputsampleperiod>
+<fme:eastings>390448.789299505</fme:eastings>
+<fme:northings>390121.0582603</fme:northings>
+<fme:long>53.410764915422</fme:long>
+<fme:lat>-2.1500949175202</fme:lat>
+</fme:CarParks>
+<fme:CarParks>
+<fme:smbcrefno>74</fme:smbcrefno>
+<fme:name>Hulme St</fme:name>
+<fme:recyclingfacilities>None</fme:recyclingfacilities>
+<fme:vms>N</fme:vms>
+<fme:totalcapacity>20</fme:totalcapacity>
+<fme:heightrestriction>n/a</fme:heightrestriction>
+<fme:parkmark>N</fme:parkmark>
+<fme:machines>0</fme:machines>
+<fme:disabledspaces>0</fme:disabledspaces>
+<fme:heightrestrictionbarriertype>None</fme:heightrestrictionbarriertype>
+<fme:url>&lt;a href="http://www.stockport.gov.uk/services/transport/parking/"&gt;Parking in Stockport  &lt;/a&gt;</fme:url>
+<fme:area>Offerton</fme:area>
+<fme:totalchargeable>0</fme:totalchargeable>
+<fme:helppoints>0</fme:helppoints>
+<fme:lampcolumns>0</fme:lampcolumns>
+<fme:free>20</fme:free>
+<fme:postcode>SK1 4PQ </fme:postcode>
+<fme:cctvcameras>0</fme:cctvcameras>
+<fme:furtherdetail>Y</fme:furtherdetail>
+<fme:ringgozone>N/A</fme:ringgozone>
+<fme:parentchild>0</fme:parentchild>
+<fme:chargingcategory>Free</fme:chargingcategory>
+<fme:annualthroughputsampleperiod>N/A</fme:annualthroughputsampleperiod>
+<fme:eastings>390680.73111334</fme:eastings>
+<fme:northings>389464.906081907</fme:northings>
+<fme:long>53.4128368857926</fme:long>
+<fme:lat>-2.159973573285</fme:lat>
+</fme:CarParks>
+<fme:CarParks>
+<fme:smbcrefno>75</fme:smbcrefno>
+<fme:name>Marsland Terrace</fme:name>
+<fme:recyclingfacilities>MG P T</fme:recyclingfacilities>
+<fme:vms>N</fme:vms>
+<fme:totalcapacity>9</fme:totalcapacity>
+<fme:heightrestriction>n/a</fme:heightrestriction>
+<fme:parkmark>N</fme:parkmark>
+<fme:machines>0</fme:machines>
+<fme:disabledspaces>0</fme:disabledspaces>
+<fme:heightrestrictionbarriertype>None</fme:heightrestrictionbarriertype>
+<fme:url>&lt;a href="http://www.stockport.gov.uk/services/transport/parking/"&gt;Parking in Stockport  &lt;/a&gt;</fme:url>
+<fme:area>Offerton</fme:area>
+<fme:totalchargeable>0</fme:totalchargeable>
+<fme:helppoints>0</fme:helppoints>
+<fme:lampcolumns>0</fme:lampcolumns>
+<fme:free>9</fme:free>
+<fme:postcode>SK1 4QA </fme:postcode>
+<fme:cctvcameras>0</fme:cctvcameras>
+<fme:furtherdetail>N</fme:furtherdetail>
+<fme:ringgozone>N/A</fme:ringgozone>
+<fme:parentchild>0</fme:parentchild>
+<fme:chargingcategory>Free</fme:chargingcategory>
+<fme:annualthroughputsampleperiod>N/A</fme:annualthroughputsampleperiod>
+<fme:eastings>390906.373700494</fme:eastings>
+<fme:northings>389462.166865999</fme:northings>
+<fme:long>53.4148650188011</fme:long>
+<fme:lat>-2.16002241034364</fme:lat>
+</fme:CarParks>
+<fme:CarParks>
+<fme:smbcrefno>76</fme:smbcrefno>
+<fme:name>Brookside Lane</fme:name>
+<fme:recyclingfacilities>G T P S</fme:recyclingfacilities>
+<fme:vms>N</fme:vms>
+<fme:totalcapacity>23</fme:totalcapacity>
+<fme:heightrestriction>Entry 2.23m / Exit 2.24m</fme:heightrestriction>
+<fme:parkmark>N</fme:parkmark>
+<fme:machines>0</fme:machines>
+<fme:disabledspaces>1</fme:disabledspaces>
+<fme:heightrestrictionbarriertype>Entry single swing beam. Exit counter-balanced rise and fall. </fme:heightrestrictionbarriertype>
+<fme:url>&lt;a href="http://www.stockport.gov.uk/services/transport/parking/"&gt;Parking in Stockport  &lt;/a&gt;</fme:url>
+<fme:area>High Lane</fme:area>
+<fme:totalchargeable>0</fme:totalchargeable>
+<fme:helppoints>0</fme:helppoints>
+<fme:lampcolumns>1</fme:lampcolumns>
+<fme:free>22</fme:free>
+<fme:postcode>SK6 8ED </fme:postcode>
+<fme:cctvcameras>0</fme:cctvcameras>
+<fme:furtherdetail>Y</fme:furtherdetail>
+<fme:ringgozone>N/A</fme:ringgozone>
+<fme:parentchild>0</fme:parentchild>
+<fme:chargingcategory>Free</fme:chargingcategory>
+<fme:annualthroughputsampleperiod>N/A</fme:annualthroughputsampleperiod>
+<fme:eastings>395494.107088492</fme:eastings>
+<fme:northings>385225.019736742</fme:northings>
+<fme:long>53.4559989632051</fme:long>
+<fme:lat>-2.22398685132273</fme:lat>
+</fme:CarParks>
+<fme:CarParks>
+<fme:smbcrefno>34</fme:smbcrefno>
+<fme:name>Iceland (formerly Somerfields &amp; Kwik Save)</fme:name>
+<fme:recyclingfacilities>None</fme:recyclingfacilities>
+<fme:vms>N</fme:vms>
+<fme:totalcapacity>90</fme:totalcapacity>
+<fme:heightrestriction>n/a</fme:heightrestriction>
+<fme:parkmark>N</fme:parkmark>
+<fme:machines>0</fme:machines>
+<fme:disabledspaces>4</fme:disabledspaces>
+<fme:heightrestrictionbarriertype>None</fme:heightrestrictionbarriertype>
+<fme:url>&lt;a href="http://www.stockport.gov.uk/services/transport/parking/"&gt;Parking in Stockport  &lt;/a&gt;</fme:url>
+<fme:area>Woodley</fme:area>
+<fme:totalchargeable>0</fme:totalchargeable>
+<fme:helppoints>0</fme:helppoints>
+<fme:lampcolumns>5</fme:lampcolumns>
+<fme:free>86</fme:free>
+<fme:postcode>SK6 1QJ </fme:postcode>
+<fme:cctvcameras>0</fme:cctvcameras>
+<fme:furtherdetail>Y</fme:furtherdetail>
+<fme:ringgozone>N/A</fme:ringgozone>
+<fme:parentchild>0</fme:parentchild>
+<fme:chargingcategory>Free</fme:chargingcategory>
+<fme:annualthroughputsampleperiod>N/A</fme:annualthroughputsampleperiod>
+<fme:eastings>393259.283277038</fme:eastings>
+<fme:northings>392119.786130401</fme:northings>
+<fme:long>53.4360611245851</fme:long>
+<fme:lat>-2.12009838888337</fme:lat>
+</fme:CarParks>
+<fme:CarParks>
+<fme:smbcrefno>78</fme:smbcrefno>
+<fme:name>Buxton Road            (Library)</fme:name>
+<fme:urlpm>&lt;a href="http://www.stockport.gov.uk/services/transport/parking/368201" target="_blank"&gt;Park Mark Accredited  &lt;/a&gt;</fme:urlpm>
+<fme:recyclingfacilities>None</fme:recyclingfacilities>
+<fme:vms>N</fme:vms>
+<fme:totalcapacity>25</fme:totalcapacity>
+<fme:heightrestriction>n/a</fme:heightrestriction>
+<fme:parkmark>Y</fme:parkmark>
+<fme:machines>0</fme:machines>
+<fme:disabledspaces>2</fme:disabledspaces>
+<fme:heightrestrictionbarriertype>None</fme:heightrestrictionbarriertype>
+<fme:url>&lt;a href="http://www.stockport.gov.uk/services/transport/parking/"&gt;Parking in Stockport  &lt;/a&gt;</fme:url>
+<fme:area>High Lane</fme:area>
+<fme:totalchargeable>0</fme:totalchargeable>
+<fme:helppoints>0</fme:helppoints>
+<fme:lampcolumns>0</fme:lampcolumns>
+<fme:free>23</fme:free>
+<fme:postcode>SK6 8DX </fme:postcode>
+<fme:cctvcameras>0</fme:cctvcameras>
+<fme:furtherdetail>Y</fme:furtherdetail>
+<fme:ringgozone>N/A</fme:ringgozone>
+<fme:parentchild>0</fme:parentchild>
+<fme:chargingcategory>Free</fme:chargingcategory>
+<fme:annualthroughputsampleperiod>N/A</fme:annualthroughputsampleperiod>
+<fme:eastings>395436.309210173</fme:eastings>
+<fme:northings>385273.77578047</fme:northings>
+<fme:long>53.4554808286471</fme:long>
+<fme:lat>-2.22324988537657</fme:lat>
+</fme:CarParks>
+<fme:CarParks>
+<fme:smbcrefno>79</fme:smbcrefno>
+<fme:name>Windlehurst Road</fme:name>
+<fme:recyclingfacilities>P G Ca T </fme:recyclingfacilities>
+<fme:vms>N</fme:vms>
+<fme:totalcapacity>28</fme:totalcapacity>
+<fme:heightrestriction>n/a</fme:heightrestriction>
+<fme:parkmark>N</fme:parkmark>
+<fme:machines>0</fme:machines>
+<fme:disabledspaces>4</fme:disabledspaces>
+<fme:heightrestrictionbarriertype>None</fme:heightrestrictionbarriertype>
+<fme:url>&lt;a href="http://www.stockport.gov.uk/services/transport/parking/"&gt;Parking in Stockport  &lt;/a&gt;</fme:url>
+<fme:area>High Lane</fme:area>
+<fme:totalchargeable>0</fme:totalchargeable>
+<fme:helppoints>0</fme:helppoints>
+<fme:lampcolumns>2</fme:lampcolumns>
+<fme:free>24</fme:free>
+<fme:postcode>SK6 8AD </fme:postcode>
+<fme:cctvcameras>0</fme:cctvcameras>
+<fme:furtherdetail>Y</fme:furtherdetail>
+<fme:ringgozone>N/A</fme:ringgozone>
+<fme:parentchild>0</fme:parentchild>
+<fme:chargingcategory>Free</fme:chargingcategory>
+<fme:annualthroughputsampleperiod>N/A</fme:annualthroughputsampleperiod>
+<fme:eastings>394964.205256585</fme:eastings>
+<fme:northings>385569.701072737</fme:northings>
+<fme:long>53.4512456201665</fme:long>
+<fme:lat>-2.21877163740244</fme:lat>
+</fme:CarParks>
+<fme:CarParks>
+<fme:smbcrefno>85</fme:smbcrefno>
+<fme:name>Commercial Road West</fme:name>
+<fme:recyclingfacilities>P G T S C </fme:recyclingfacilities>
+<fme:vms>N</fme:vms>
+<fme:totalcapacity>21</fme:totalcapacity>
+<fme:heightrestriction>Pownall St 2.05m / Buxton St 2.06m</fme:heightrestriction>
+<fme:parkmark>N</fme:parkmark>
+<fme:machines>1</fme:machines>
+<fme:disabledspaces>2</fme:disabledspaces>
+<fme:heightrestrictionbarriertype>Entry &amp; Exit fixed goalpost</fme:heightrestrictionbarriertype>
+<fme:urlop>&lt;a href="http://www.myringgo.co.uk/parkinglocator/15016"target="_blank"&gt;RingGo Zone Website   &lt;/a&gt;</fme:urlop>
+<fme:url>&lt;a href="http://www.stockport.gov.uk/services/transport/parking/"&gt;Parking in Stockport  &lt;/a&gt;</fme:url>
+<fme:area>Hazel Grove</fme:area>
+<fme:totalchargeable>19</fme:totalchargeable>
+<fme:helppoints>1</fme:helppoints>
+<fme:lampcolumns>0</fme:lampcolumns>
+<fme:free>0</fme:free>
+<fme:postcode>SK7 4BG </fme:postcode>
+<fme:cctvcameras>1</fme:cctvcameras>
+<fme:furtherdetail>Y</fme:furtherdetail>
+<fme:ringgozone>15016</fme:ringgozone>
+<fme:parentchild>0</fme:parentchild>
+<fme:chargingcategory>Class C Standard</fme:chargingcategory>
+<fme:annualthroughputsampleperiod>01/07/10 - 30/06/11</fme:annualthroughputsampleperiod>
+<fme:eastings>391895.690336954</fme:eastings>
+<fme:northings>387282.220869047</fme:northings>
+<fme:long>53.4237089348963</fme:long>
+<fme:lat>-2.19285980607074</fme:lat>
+</fme:CarParks>
+<fme:CarParks>
+<fme:smbcrefno>86</fme:smbcrefno>
+<fme:name>Commercial Road East</fme:name>
+<fme:recyclingfacilities>None</fme:recyclingfacilities>
+<fme:vms>N</fme:vms>
+<fme:totalcapacity>30</fme:totalcapacity>
+<fme:heightrestriction>Comm. Rd 2.2m / Spring Gardens 2.03m</fme:heightrestriction>
+<fme:parkmark>N</fme:parkmark>
+<fme:machines>1</fme:machines>
+<fme:disabledspaces>2</fme:disabledspaces>
+<fme:heightrestrictionbarriertype>Entry &amp; Exit fixed goalpost</fme:heightrestrictionbarriertype>
+<fme:urlop>&lt;a href="http://www.myringgo.co.uk/parkinglocator/15005"target="_blank"&gt;RingGo Zone Website   &lt;/a&gt;</fme:urlop>
+<fme:url>&lt;a href="http://www.stockport.gov.uk/services/transport/parking/"&gt;Parking in Stockport  &lt;/a&gt;</fme:url>
+<fme:area>Hazel Grove</fme:area>
+<fme:totalchargeable>28</fme:totalchargeable>
+<fme:helppoints>0</fme:helppoints>
+<fme:lampcolumns>0</fme:lampcolumns>
+<fme:free>0</fme:free>
+<fme:postcode>SK7 4AA</fme:postcode>
+<fme:cctvcameras>Covered by camera on Commercial Road West</fme:cctvcameras>
+<fme:furtherdetail>N</fme:furtherdetail>
+<fme:ringgozone>15005</fme:ringgozone>
+<fme:parentchild>0</fme:parentchild>
+<fme:chargingcategory>Class C Standard</fme:chargingcategory>
+<fme:annualthroughputsampleperiod>01/07/10 - 30/06/11</fme:annualthroughputsampleperiod>
+<fme:eastings>391940.96396746</fme:eastings>
+<fme:northings>387270.044354538</fme:northings>
+<fme:long>53.4241155790197</fme:long>
+<fme:lat>-2.19304488498442</fme:lat>
+</fme:CarParks>
+<fme:CarParks>
+<fme:smbcrefno>87</fme:smbcrefno>
+<fme:name>Davenport Road </fme:name>
+<fme:recyclingfacilities>None</fme:recyclingfacilities>
+<fme:vms>N</fme:vms>
+<fme:totalcapacity>29</fme:totalcapacity>
+<fme:heightrestriction>2.0m</fme:heightrestriction>
+<fme:parkmark>N</fme:parkmark>
+<fme:machines>1</fme:machines>
+<fme:disabledspaces>0</fme:disabledspaces>
+<fme:heightrestrictionbarriertype>Swing Beam</fme:heightrestrictionbarriertype>
+<fme:urlop>&lt;a href="http://www.myringgo.co.uk/parkinglocator/15027"target="_blank"&gt;RingGo Zone Website   &lt;/a&gt;</fme:urlop>
+<fme:url>&lt;a href="http://www.stockport.gov.uk/services/transport/parking/"&gt;Parking in Stockport  &lt;/a&gt;</fme:url>
+<fme:area>Hazel Grove</fme:area>
+<fme:totalchargeable>29</fme:totalchargeable>
+<fme:helppoints>0</fme:helppoints>
+<fme:lampcolumns>1</fme:lampcolumns>
+<fme:free>0</fme:free>
+<fme:postcode>SK7 4EZ </fme:postcode>
+<fme:cctvcameras>0</fme:cctvcameras>
+<fme:furtherdetail>N</fme:furtherdetail>
+<fme:ringgozone>15027</fme:ringgozone>
+<fme:parentchild>0</fme:parentchild>
+<fme:chargingcategory>Class C Standard</fme:chargingcategory>
+<fme:annualthroughputsampleperiod>01/07/10 - 30/06/11 = 2548 P&amp;D + 2548 contract + 730 resi = 5768</fme:annualthroughputsampleperiod>
+<fme:eastings>391874.838577429</fme:eastings>
+<fme:northings>386862.610981127</fme:northings>
+<fme:long>53.4235111307856</fme:long>
+<fme:lat>-2.19917322892005</fme:lat>
+</fme:CarParks>
+<fme:CarParks>
+<fme:smbcrefno>90</fme:smbcrefno>
+<fme:name>Torkington Park</fme:name>
+<fme:recyclingfacilities>None</fme:recyclingfacilities>
+<fme:vms>N</fme:vms>
+<fme:totalcapacity>65</fme:totalcapacity>
+<fme:heightrestriction>Entry 2.48m / Exit 2.51m</fme:heightrestriction>
+<fme:parkmark>N</fme:parkmark>
+<fme:machines>0</fme:machines>
+<fme:disabledspaces>0</fme:disabledspaces>
+<fme:heightrestrictionbarriertype>Entry fixed goalpost. Exit conter balanced rise and fall.</fme:heightrestrictionbarriertype>
+<fme:url>&lt;a href="http://www.stockport.gov.uk/services/transport/parking/"&gt;Parking in Stockport  &lt;/a&gt;</fme:url>
+<fme:area>Hazel Grove</fme:area>
+<fme:totalchargeable>0</fme:totalchargeable>
+<fme:helppoints>0</fme:helppoints>
+<fme:lampcolumns>7</fme:lampcolumns>
+<fme:free>65</fme:free>
+<fme:postcode>SK7 6AB </fme:postcode>
+<fme:cctvcameras>0</fme:cctvcameras>
+<fme:furtherdetail>N</fme:furtherdetail>
+<fme:ringgozone>N/A</fme:ringgozone>
+<fme:parentchild>0</fme:parentchild>
+<fme:chargingcategory>Free</fme:chargingcategory>
+<fme:annualthroughputsampleperiod>N/A</fme:annualthroughputsampleperiod>
+<fme:eastings>392596.512285487</fme:eastings>
+<fme:northings>386533.175281115</fme:northings>
+<fme:long>53.4299894824446</fme:long>
+<fme:lat>-2.20416168563813</fme:lat>
+</fme:CarParks>
+<fme:CarParks>
+<fme:smbcrefno>83</fme:smbcrefno>
+<fme:name>Brook Street Contract</fme:name>
+<fme:recyclingfacilities>None</fme:recyclingfacilities>
+<fme:vms>N</fme:vms>
+<fme:totalcapacity>4</fme:totalcapacity>
+<fme:heightrestriction>n/a</fme:heightrestriction>
+<fme:parkmark>N</fme:parkmark>
+<fme:machines>0</fme:machines>
+<fme:disabledspaces>0</fme:disabledspaces>
+<fme:heightrestrictionbarriertype>Counter-balanced rise and fall</fme:heightrestrictionbarriertype>
+<fme:url>&lt;a href="http://www.stockport.gov.uk/services/transport/parking/"&gt;Parking in Stockport  &lt;/a&gt;</fme:url>
+<fme:area>Hazel Grove</fme:area>
+<fme:totalchargeable>4</fme:totalchargeable>
+<fme:helppoints>0</fme:helppoints>
+<fme:lampcolumns>0</fme:lampcolumns>
+<fme:free>0</fme:free>
+<fme:postcode>SK7 4QZ </fme:postcode>
+<fme:cctvcameras>0</fme:cctvcameras>
+<fme:furtherdetail>N</fme:furtherdetail>
+<fme:ringgozone>N/A</fme:ringgozone>
+<fme:parentchild>0</fme:parentchild>
+<fme:chargingcategory>Contract</fme:chargingcategory>
+<fme:annualthroughputsampleperiod>N/A</fme:annualthroughputsampleperiod>
+<fme:eastings>392335.918884325</fme:eastings>
+<fme:northings>386799.129152611</fme:northings>
+<fme:long>53.4276539344037</fme:long>
+<fme:lat>-2.20014799552732</fme:lat>
+</fme:CarParks>
+<fme:CarParks>
+<fme:smbcrefno>82</fme:smbcrefno>
+<fme:name>Brook Street P&amp;D</fme:name>
+<fme:urlpm>&lt;a href="http://www.stockport.gov.uk/services/transport/parking/368201" target="_blank"&gt;Park Mark Accredited  &lt;/a&gt;</fme:urlpm>
+<fme:recyclingfacilities>None</fme:recyclingfacilities>
+<fme:vms>N</fme:vms>
+<fme:totalcapacity>39</fme:totalcapacity>
+<fme:heightrestriction>Entry 2.07m / Exit 2.11m</fme:heightrestriction>
+<fme:parkmark>Y</fme:parkmark>
+<fme:machines>1</fme:machines>
+<fme:disabledspaces>2</fme:disabledspaces>
+<fme:heightrestrictionbarriertype>Fixed goalpost</fme:heightrestrictionbarriertype>
+<fme:urlop>&lt;a href="http://www.myringgo.co.uk/parkinglocator/15059"target="_blank"&gt;RingGo Zone Website   &lt;/a&gt;</fme:urlop>
+<fme:url>&lt;a href="http://www.stockport.gov.uk/services/transport/parking/"&gt;Parking in Stockport  &lt;/a&gt;</fme:url>
+<fme:area>Hazel Grove</fme:area>
+<fme:totalchargeable>37</fme:totalchargeable>
+<fme:helppoints>0</fme:helppoints>
+<fme:lampcolumns>0</fme:lampcolumns>
+<fme:free>0</fme:free>
+<fme:postcode>SK7 4QW </fme:postcode>
+<fme:cctvcameras>0</fme:cctvcameras>
+<fme:furtherdetail>Y</fme:furtherdetail>
+<fme:ringgozone>15059</fme:ringgozone>
+<fme:parentchild>0</fme:parentchild>
+<fme:chargingcategory>Class C Standard</fme:chargingcategory>
+<fme:annualthroughputsampleperiod>01/04/11 - 31/03/12</fme:annualthroughputsampleperiod>
+<fme:eastings>392356.9932605</fme:eastings>
+<fme:northings>386820.333083049</fme:northings>
+<fme:long>53.4278438956714</fme:long>
+<fme:lat>-2.19982977848802</fme:lat>
+</fme:CarParks>
+<fme:CarParks>
+<fme:smbcrefno>89</fme:smbcrefno>
+<fme:name>Spring Vale</fme:name>
+<fme:recyclingfacilities>None</fme:recyclingfacilities>
+<fme:vms>N</fme:vms>
+<fme:totalcapacity>29</fme:totalcapacity>
+<fme:heightrestriction>n/a</fme:heightrestriction>
+<fme:parkmark>N</fme:parkmark>
+<fme:machines>1</fme:machines>
+<fme:disabledspaces>2</fme:disabledspaces>
+<fme:heightrestrictionbarriertype>None</fme:heightrestrictionbarriertype>
+<fme:urlop>&lt;a href="http://www.myringgo.co.uk/parkinglocator/15038"target="_blank"&gt;RingGo Zone Website   &lt;/a&gt;</fme:urlop>
+<fme:url>&lt;a href="http://www.stockport.gov.uk/services/transport/parking/"&gt;Parking in Stockport  &lt;/a&gt;</fme:url>
+<fme:area>Hazel Grove</fme:area>
+<fme:totalchargeable>27</fme:totalchargeable>
+<fme:helppoints>0</fme:helppoints>
+<fme:lampcolumns>1</fme:lampcolumns>
+<fme:free>0</fme:free>
+<fme:postcode>SK7 4PP </fme:postcode>
+<fme:cctvcameras>0</fme:cctvcameras>
+<fme:furtherdetail>N</fme:furtherdetail>
+<fme:ringgozone>15038</fme:ringgozone>
+<fme:parentchild>0</fme:parentchild>
+<fme:chargingcategory>Class C Standard</fme:chargingcategory>
+<fme:annualthroughputsampleperiod>01/07/10 - 30/06/11</fme:annualthroughputsampleperiod>
+<fme:eastings>392253.600194292</fme:eastings>
+<fme:northings>386913.066538374</fme:northings>
+<fme:long>53.4269168814199</fme:long>
+<fme:lat>-2.19842985310475</fme:lat>
+</fme:CarParks>
+<fme:CarParks>
+<fme:smbcrefno>81</fme:smbcrefno>
+<fme:name>Beech Avenue</fme:name>
+<fme:urlpm>&lt;a href="http://www.stockport.gov.uk/services/transport/parking/368201" target="_blank"&gt;Park Mark Accredited  &lt;/a&gt;</fme:urlpm>
+<fme:recyclingfacilities>MG T S</fme:recyclingfacilities>
+<fme:vms>N</fme:vms>
+<fme:totalcapacity>31</fme:totalcapacity>
+<fme:heightrestriction>n/a</fme:heightrestriction>
+<fme:parkmark>Y</fme:parkmark>
+<fme:machines>1</fme:machines>
+<fme:disabledspaces>3</fme:disabledspaces>
+<fme:heightrestrictionbarriertype>None</fme:heightrestrictionbarriertype>
+<fme:urlop>&lt;a href="http://www.myringgo.co.uk/parkinglocator/15048"target="_blank"&gt;RingGo Zone Website   &lt;/a&gt;</fme:urlop>
+<fme:url>&lt;a href="http://www.stockport.gov.uk/services/transport/parking/"&gt;Parking in Stockport  &lt;/a&gt;</fme:url>
+<fme:area>Hazel Grove</fme:area>
+<fme:totalchargeable>28</fme:totalchargeable>
+<fme:helppoints>0</fme:helppoints>
+<fme:lampcolumns>1</fme:lampcolumns>
+<fme:free>0</fme:free>
+<fme:postcode>SK7 4QR </fme:postcode>
+<fme:cctvcameras>0</fme:cctvcameras>
+<fme:furtherdetail>Y</fme:furtherdetail>
+<fme:ringgozone>15048</fme:ringgozone>
+<fme:parentchild>0</fme:parentchild>
+<fme:chargingcategory>Class C Standard</fme:chargingcategory>
+<fme:annualthroughputsampleperiod>01/03/11 - 29/02/12</fme:annualthroughputsampleperiod>
+<fme:eastings>392226.605864247</fme:eastings>
+<fme:northings>387014.497504062</fme:northings>
+<fme:long>53.4266767739251</fme:long>
+<fme:lat>-2.19690227941099</fme:lat>
+</fme:CarParks>
+<fme:CarParks>
+<fme:smbcrefno>92</fme:smbcrefno>
+<fme:name>Hallam Street</fme:name>
+<fme:recyclingfacilities>None</fme:recyclingfacilities>
+<fme:vms>N</fme:vms>
+<fme:totalcapacity>41</fme:totalcapacity>
+<fme:heightrestriction>Entry 2.1m / Exit 2.14m</fme:heightrestriction>
+<fme:parkmark>N</fme:parkmark>
+<fme:machines>0</fme:machines>
+<fme:disabledspaces>0</fme:disabledspaces>
+<fme:heightrestrictionbarriertype>Entry &amp; Exit fixed goalpost</fme:heightrestrictionbarriertype>
+<fme:url>&lt;a href="http://www.stockport.gov.uk/services/transport/parking/"&gt;Parking in Stockport  &lt;/a&gt;</fme:url>
+<fme:area>Heaviley</fme:area>
+<fme:totalchargeable>0</fme:totalchargeable>
+<fme:helppoints>0</fme:helppoints>
+<fme:lampcolumns>1</fme:lampcolumns>
+<fme:free>41</fme:free>
+<fme:postcode>SK2 6PT </fme:postcode>
+<fme:cctvcameras>0</fme:cctvcameras>
+<fme:furtherdetail>N</fme:furtherdetail>
+<fme:ringgozone>N/A</fme:ringgozone>
+<fme:parentchild>0</fme:parentchild>
+<fme:chargingcategory>Free</fme:chargingcategory>
+<fme:annualthroughputsampleperiod>N/A</fme:annualthroughputsampleperiod>
+<fme:eastings>390077.184395678</fme:eastings>
+<fme:northings>388812.302887627</fme:northings>
+<fme:long>53.4073983254846</fme:long>
+<fme:lat>-2.16976983282173</fme:lat>
+</fme:CarParks>
+<fme:CarParks>
+<fme:smbcrefno>91</fme:smbcrefno>
+<fme:name>Cambridge Street</fme:name>
+<fme:recyclingfacilities>None</fme:recyclingfacilities>
+<fme:vms>N</fme:vms>
+<fme:totalcapacity>10</fme:totalcapacity>
+<fme:heightrestriction>n/a</fme:heightrestriction>
+<fme:parkmark>N</fme:parkmark>
+<fme:machines>0</fme:machines>
+<fme:disabledspaces>0</fme:disabledspaces>
+<fme:heightrestrictionbarriertype>None</fme:heightrestrictionbarriertype>
+<fme:url>&lt;a href="http://www.stockport.gov.uk/services/transport/parking/"&gt;Parking in Stockport  &lt;/a&gt;</fme:url>
+<fme:area>Heaviley</fme:area>
+<fme:totalchargeable>0</fme:totalchargeable>
+<fme:helppoints>0</fme:helppoints>
+<fme:lampcolumns>3</fme:lampcolumns>
+<fme:free>10</fme:free>
+<fme:postcode>SK2 6PY </fme:postcode>
+<fme:cctvcameras>0</fme:cctvcameras>
+<fme:furtherdetail>N</fme:furtherdetail>
+<fme:ringgozone>N/A</fme:ringgozone>
+<fme:parentchild>0</fme:parentchild>
+<fme:chargingcategory>Free</fme:chargingcategory>
+<fme:annualthroughputsampleperiod>N/A</fme:annualthroughputsampleperiod>
+<fme:eastings>390135.427507296</fme:eastings>
+<fme:northings>388616.958804289</fme:northings>
+<fme:long>53.4079176228332</fme:long>
+<fme:lat>-2.17271037954475</fme:lat>
+</fme:CarParks>
+<fme:CarParks>
+<fme:smbcrefno>117</fme:smbcrefno>
+<fme:name>Church Road</fme:name>
+<fme:recyclingfacilities>MG P T S</fme:recyclingfacilities>
+<fme:vms>N</fme:vms>
+<fme:totalcapacity>21</fme:totalcapacity>
+<fme:heightrestriction>n/a</fme:heightrestriction>
+<fme:parkmark>N</fme:parkmark>
+<fme:machines>0</fme:machines>
+<fme:disabledspaces>2</fme:disabledspaces>
+<fme:heightrestrictionbarriertype>None</fme:heightrestrictionbarriertype>
+<fme:url>&lt;a href="http://www.stockport.gov.uk/services/transport/parking/"&gt;Parking in Stockport  &lt;/a&gt;</fme:url>
+<fme:area>Gatley</fme:area>
+<fme:totalchargeable>0</fme:totalchargeable>
+<fme:helppoints>0</fme:helppoints>
+<fme:lampcolumns>0</fme:lampcolumns>
+<fme:free>19</fme:free>
+<fme:postcode>SK8  4NQ </fme:postcode>
+<fme:cctvcameras>0</fme:cctvcameras>
+<fme:furtherdetail>N</fme:furtherdetail>
+<fme:ringgozone>N/A</fme:ringgozone>
+<fme:parentchild>0</fme:parentchild>
+<fme:chargingcategory>Free</fme:chargingcategory>
+<fme:annualthroughputsampleperiod>N/A</fme:annualthroughputsampleperiod>
+<fme:eastings>384306.037387838</fme:eastings>
+<fme:northings>388334.279720334</fme:northings>
+<fme:long>53.3555136766529</fme:long>
+<fme:lat>-2.17674507562566</fme:lat>
+</fme:CarParks>
+<fme:CarParks>
+<fme:smbcrefno>95</fme:smbcrefno>
+<fme:name>Green Street</fme:name>
+<fme:recyclingfacilities>P G C</fme:recyclingfacilities>
+<fme:vms>N</fme:vms>
+<fme:totalcapacity>33</fme:totalcapacity>
+<fme:heightrestriction>2.1m</fme:heightrestriction>
+<fme:parkmark>N</fme:parkmark>
+<fme:machines>0</fme:machines>
+<fme:disabledspaces>3</fme:disabledspaces>
+<fme:heightrestrictionbarriertype>Fixed goalpost</fme:heightrestrictionbarriertype>
+<fme:url>&lt;a href="http://www.stockport.gov.uk/services/transport/parking/"&gt;Parking in Stockport  &lt;/a&gt;</fme:url>
+<fme:area>Shaw Heath</fme:area>
+<fme:totalchargeable>0</fme:totalchargeable>
+<fme:helppoints>0</fme:helppoints>
+<fme:lampcolumns>0</fme:lampcolumns>
+<fme:free>30</fme:free>
+<fme:postcode>SK2 6QZ </fme:postcode>
+<fme:cctvcameras>0</fme:cctvcameras>
+<fme:furtherdetail>N</fme:furtherdetail>
+<fme:ringgozone>N/A</fme:ringgozone>
+<fme:parentchild>0</fme:parentchild>
+<fme:chargingcategory>Free</fme:chargingcategory>
+<fme:annualthroughputsampleperiod>N/A</fme:annualthroughputsampleperiod>
+<fme:eastings>389625.190146115</fme:eastings>
+<fme:northings>388967.688408984</fme:northings>
+<fme:long>53.4033388769982</fme:long>
+<fme:lat>-2.16741649791411</fme:lat>
+</fme:CarParks>
+<fme:CarParks>
+<fme:smbcrefno>96</fme:smbcrefno>
+<fme:name>Heathland Terrace</fme:name>
+<fme:recyclingfacilities>None</fme:recyclingfacilities>
+<fme:vms>N</fme:vms>
+<fme:totalcapacity>6</fme:totalcapacity>
+<fme:heightrestriction>n/a</fme:heightrestriction>
+<fme:parkmark>N</fme:parkmark>
+<fme:machines>0</fme:machines>
+<fme:disabledspaces>0</fme:disabledspaces>
+<fme:heightrestrictionbarriertype>None</fme:heightrestrictionbarriertype>
+<fme:url>&lt;a href="http://www.stockport.gov.uk/services/transport/parking/"&gt;Parking in Stockport  &lt;/a&gt;</fme:url>
+<fme:area>Shaw Heath</fme:area>
+<fme:totalchargeable>0</fme:totalchargeable>
+<fme:helppoints>0</fme:helppoints>
+<fme:lampcolumns>1</fme:lampcolumns>
+<fme:free>6</fme:free>
+<fme:postcode>SK3 8DU </fme:postcode>
+<fme:cctvcameras>0</fme:cctvcameras>
+<fme:furtherdetail>Y</fme:furtherdetail>
+<fme:ringgozone>N/A</fme:ringgozone>
+<fme:parentchild>0</fme:parentchild>
+<fme:chargingcategory>Free</fme:chargingcategory>
+<fme:annualthroughputsampleperiod>N/A</fme:annualthroughputsampleperiod>
+<fme:eastings>389437.532555454</fme:eastings>
+<fme:northings>389153.975084978</fme:northings>
+<fme:long>53.4016560165299</fme:long>
+<fme:lat>-2.1646080626277</fme:lat>
+</fme:CarParks>
+<fme:CarParks>
+<fme:smbcrefno>98</fme:smbcrefno>
+<fme:name>Arnold Street</fme:name>
+<fme:recyclingfacilities>None</fme:recyclingfacilities>
+<fme:vms>N</fme:vms>
+<fme:totalcapacity>10</fme:totalcapacity>
+<fme:heightrestriction>n/a</fme:heightrestriction>
+<fme:parkmark>N</fme:parkmark>
+<fme:machines>0</fme:machines>
+<fme:disabledspaces>0</fme:disabledspaces>
+<fme:heightrestrictionbarriertype>None</fme:heightrestrictionbarriertype>
+<fme:url>&lt;a href="http://www.stockport.gov.uk/services/transport/parking/"&gt;Parking in Stockport  &lt;/a&gt;</fme:url>
+<fme:area>Edgeley</fme:area>
+<fme:totalchargeable>0</fme:totalchargeable>
+<fme:helppoints>0</fme:helppoints>
+<fme:lampcolumns>1</fme:lampcolumns>
+<fme:free>10</fme:free>
+<fme:postcode>SK3 9BW</fme:postcode>
+<fme:cctvcameras>0</fme:cctvcameras>
+<fme:furtherdetail>N</fme:furtherdetail>
+<fme:ringgozone>N/A</fme:ringgozone>
+<fme:parentchild>0</fme:parentchild>
+<fme:chargingcategory>Free</fme:chargingcategory>
+<fme:annualthroughputsampleperiod>N/A</fme:annualthroughputsampleperiod>
+<fme:eastings>389001.302862717</fme:eastings>
+<fme:northings>389323.92643691</fme:northings>
+<fme:long>53.3977384599076</fme:long>
+<fme:lat>-2.16203702282459</fme:lat>
+</fme:CarParks>
+<fme:CarParks>
+<fme:smbcrefno>99</fme:smbcrefno>
+<fme:name>Arnold St/Hardcastle Road </fme:name>
+<fme:recyclingfacilities>None</fme:recyclingfacilities>
+<fme:vms>N</fme:vms>
+<fme:totalcapacity>12</fme:totalcapacity>
+<fme:heightrestriction>n/a</fme:heightrestriction>
+<fme:parkmark>N</fme:parkmark>
+<fme:machines>0</fme:machines>
+<fme:disabledspaces>0</fme:disabledspaces>
+<fme:heightrestrictionbarriertype>None</fme:heightrestrictionbarriertype>
+<fme:url>&lt;a href="http://www.stockport.gov.uk/services/transport/parking/"&gt;Parking in Stockport  &lt;/a&gt;</fme:url>
+<fme:area>Edgeley</fme:area>
+<fme:totalchargeable>0</fme:totalchargeable>
+<fme:helppoints>0</fme:helppoints>
+<fme:lampcolumns>1</fme:lampcolumns>
+<fme:free>12</fme:free>
+<fme:postcode>SK3 9BN </fme:postcode>
+<fme:cctvcameras>0</fme:cctvcameras>
+<fme:furtherdetail>N</fme:furtherdetail>
+<fme:ringgozone>N/A</fme:ringgozone>
+<fme:parentchild>0</fme:parentchild>
+<fme:chargingcategory>Free</fme:chargingcategory>
+<fme:annualthroughputsampleperiod>N/A</fme:annualthroughputsampleperiod>
+<fme:eastings>389042.066444801</fme:eastings>
+<fme:northings>389293.665099128</fme:northings>
+<fme:long>53.3981042446795</fme:long>
+<fme:lat>-2.16249351824393</fme:lat>
+</fme:CarParks>
+<fme:CarParks>
+<fme:smbcrefno>101</fme:smbcrefno>
+<fme:name>Bulkeley Street</fme:name>
+<fme:recyclingfacilities>MG  T</fme:recyclingfacilities>
+<fme:vms>N</fme:vms>
+<fme:totalcapacity>22</fme:totalcapacity>
+<fme:heightrestriction>2.2m</fme:heightrestriction>
+<fme:parkmark>N</fme:parkmark>
+<fme:machines>1</fme:machines>
+<fme:disabledspaces>2</fme:disabledspaces>
+<fme:heightrestrictionbarriertype>Fixed goalpost</fme:heightrestrictionbarriertype>
+<fme:urlop>&lt;a href="http://www.myringgo.co.uk/parkinglocator/15004"target="_blank"&gt;RingGo Zone Website   &lt;/a&gt;</fme:urlop>
+<fme:url>&lt;a href="http://www.stockport.gov.uk/services/transport/parking/"&gt;Parking in Stockport  &lt;/a&gt;</fme:url>
+<fme:area>Edgeley</fme:area>
+<fme:totalchargeable>20</fme:totalchargeable>
+<fme:helppoints>0</fme:helppoints>
+<fme:lampcolumns>2</fme:lampcolumns>
+<fme:free>0</fme:free>
+<fme:postcode>SK3 9AJ</fme:postcode>
+<fme:cctvcameras>0</fme:cctvcameras>
+<fme:furtherdetail>N</fme:furtherdetail>
+<fme:ringgozone>15004</fme:ringgozone>
+<fme:parentchild>0</fme:parentchild>
+<fme:chargingcategory>Class C Standard</fme:chargingcategory>
+<fme:annualthroughputsampleperiod>01/04/09 to 31/03/10</fme:annualthroughputsampleperiod>
+<fme:eastings>388966.747811642</fme:eastings>
+<fme:northings>389508.233679511</fme:northings>
+<fme:long>53.3974315972873</fme:long>
+<fme:lat>-2.15926408388403</fme:lat>
+</fme:CarParks>
+<fme:CarParks>
+<fme:smbcrefno>102</fme:smbcrefno>
+<fme:name>Caroline Street</fme:name>
+<fme:urlpm>&lt;a href="http://www.stockport.gov.uk/services/transport/parking/368201" target="_blank"&gt;Park Mark Accredited  &lt;/a&gt;</fme:urlpm>
+<fme:recyclingfacilities>None</fme:recyclingfacilities>
+<fme:vms>N</fme:vms>
+<fme:totalcapacity>73</fme:totalcapacity>
+<fme:heightrestriction> Entry &amp; Exit 2.11m</fme:heightrestriction>
+<fme:parkmark>Y</fme:parkmark>
+<fme:machines>3</fme:machines>
+<fme:disabledspaces>5</fme:disabledspaces>
+<fme:heightrestrictionbarriertype>Entry &amp; Exit fixed goalpost</fme:heightrestrictionbarriertype>
+<fme:urlop>&lt;a href="http://www.myringgo.co.uk/parkinglocator/15015"target="_blank"&gt;RingGo Zone Website   &lt;/a&gt;</fme:urlop>
+<fme:url>&lt;a href="http://www.stockport.gov.uk/services/transport/parking/"&gt;Parking in Stockport  &lt;/a&gt;</fme:url>
+<fme:area>Edgeley</fme:area>
+<fme:totalchargeable>68</fme:totalchargeable>
+<fme:helppoints>0</fme:helppoints>
+<fme:lampcolumns>0</fme:lampcolumns>
+<fme:free>0</fme:free>
+<fme:postcode>SK3 9DJ</fme:postcode>
+<fme:cctvcameras>1</fme:cctvcameras>
+<fme:furtherdetail>N</fme:furtherdetail>
+<fme:ringgozone>15015</fme:ringgozone>
+<fme:parentchild>4</fme:parentchild>
+<fme:chargingcategory>Class C Standard</fme:chargingcategory>
+<fme:annualthroughputsampleperiod>01/05/11 - 30/04/12</fme:annualthroughputsampleperiod>
+<fme:eastings>388910.500004811</fme:eastings>
+<fme:northings>389374.12206856</fme:northings>
+<fme:long>53.3969233001753</fme:long>
+<fme:lat>-2.16127904429083</fme:lat>
+</fme:CarParks>
+<fme:CarParks>
+<fme:smbcrefno>100</fme:smbcrefno>
+<fme:name>Bakewell Street</fme:name>
+<fme:recyclingfacilities>None</fme:recyclingfacilities>
+<fme:vms>N</fme:vms>
+<fme:totalcapacity>11</fme:totalcapacity>
+<fme:heightrestriction>n/a</fme:heightrestriction>
+<fme:parkmark>N</fme:parkmark>
+<fme:machines>1</fme:machines>
+<fme:disabledspaces>1</fme:disabledspaces>
+<fme:heightrestrictionbarriertype>None</fme:heightrestrictionbarriertype>
+<fme:urlop>&lt;a href="http://www.myringgo.co.uk/parkinglocator/15069"target="_blank"&gt;RingGo Zone Website   &lt;/a&gt;</fme:urlop>
+<fme:url>&lt;a href="http://www.stockport.gov.uk/services/transport/parking/"&gt;Parking in Stockport  &lt;/a&gt;</fme:url>
+<fme:area>Edgeley</fme:area>
+<fme:totalchargeable>10</fme:totalchargeable>
+<fme:helppoints>0</fme:helppoints>
+<fme:lampcolumns>2</fme:lampcolumns>
+<fme:free>0</fme:free>
+<fme:postcode>SK3 9HA </fme:postcode>
+<fme:cctvcameras>0</fme:cctvcameras>
+<fme:furtherdetail>N</fme:furtherdetail>
+<fme:ringgozone>15069</fme:ringgozone>
+<fme:parentchild>0</fme:parentchild>
+<fme:chargingcategory>Class C Standard</fme:chargingcategory>
+<fme:annualthroughputsampleperiod>01/04/09 to 31/03/10</fme:annualthroughputsampleperiod>
+<fme:eastings>388877.734131995</fme:eastings>
+<fme:northings>389468.874945831</fme:northings>
+<fme:long>53.3966307031054</fme:long>
+<fme:lat>-2.15985298730483</fme:lat>
+</fme:CarParks>
+<fme:CarParks>
+<fme:smbcrefno>105</fme:smbcrefno>
+<fme:name>St.Matthews Terrace</fme:name>
+<fme:recyclingfacilities>None</fme:recyclingfacilities>
+<fme:vms>N</fme:vms>
+<fme:totalcapacity>18</fme:totalcapacity>
+<fme:heightrestriction>n/a</fme:heightrestriction>
+<fme:parkmark>N</fme:parkmark>
+<fme:machines>0</fme:machines>
+<fme:disabledspaces>0</fme:disabledspaces>
+<fme:heightrestrictionbarriertype>None</fme:heightrestrictionbarriertype>
+<fme:url>&lt;a href="http://www.stockport.gov.uk/services/transport/parking/"&gt;Parking in Stockport  &lt;/a&gt;</fme:url>
+<fme:area>Edgeley</fme:area>
+<fme:totalchargeable>0</fme:totalchargeable>
+<fme:helppoints>0</fme:helppoints>
+<fme:lampcolumns>2</fme:lampcolumns>
+<fme:free>18</fme:free>
+<fme:postcode>SK3 9EY </fme:postcode>
+<fme:cctvcameras>0</fme:cctvcameras>
+<fme:furtherdetail>N</fme:furtherdetail>
+<fme:ringgozone>N/A</fme:ringgozone>
+<fme:parentchild>0</fme:parentchild>
+<fme:chargingcategory>Free</fme:chargingcategory>
+<fme:annualthroughputsampleperiod>N/A</fme:annualthroughputsampleperiod>
+<fme:eastings>388839.246186775</fme:eastings>
+<fme:northings>389504.984609547</fme:northings>
+<fme:long>53.3962854803423</fme:long>
+<fme:lat>-2.15930865752278</fme:lat>
+</fme:CarParks>
+<fme:CarParks>
+<fme:smbcrefno>106</fme:smbcrefno>
+<fme:name>York Street</fme:name>
+<fme:urlpm>&lt;a href="http://www.stockport.gov.uk/services/transport/parking/368201" target="_blank"&gt;Park Mark Accredited  &lt;/a&gt;</fme:urlpm>
+<fme:recyclingfacilities>None</fme:recyclingfacilities>
+<fme:vms>N</fme:vms>
+<fme:totalcapacity>26</fme:totalcapacity>
+<fme:heightrestriction>2.1m</fme:heightrestriction>
+<fme:parkmark>Y</fme:parkmark>
+<fme:machines>1</fme:machines>
+<fme:disabledspaces>2</fme:disabledspaces>
+<fme:heightrestrictionbarriertype>Fixed goalpost</fme:heightrestrictionbarriertype>
+<fme:urlop>&lt;a href="http://www.myringgo.co.uk/parkinglocator/15037"target="_blank"&gt;RingGo Zone Website   &lt;/a&gt;</fme:urlop>
+<fme:url>&lt;a href="http://www.stockport.gov.uk/services/transport/parking/"&gt;Parking in Stockport  &lt;/a&gt;</fme:url>
+<fme:area>Edgeley</fme:area>
+<fme:totalchargeable>24</fme:totalchargeable>
+<fme:helppoints>0</fme:helppoints>
+<fme:lampcolumns>2</fme:lampcolumns>
+<fme:free>0</fme:free>
+<fme:postcode>SK3 9AD </fme:postcode>
+<fme:cctvcameras>0</fme:cctvcameras>
+<fme:furtherdetail>N</fme:furtherdetail>
+<fme:ringgozone>15037</fme:ringgozone>
+<fme:parentchild>0</fme:parentchild>
+<fme:chargingcategory>Class C Standard</fme:chargingcategory>
+<fme:annualthroughputsampleperiod>01/07/10 - 30/06/11</fme:annualthroughputsampleperiod>
+<fme:eastings>389080.405978921</fme:eastings>
+<fme:northings>389550.001723533</fme:northings>
+<fme:long>53.3984540542733</fme:long>
+<fme:lat>-2.15863975004911</fme:lat>
+</fme:CarParks>
+<fme:CarParks>
+<fme:smbcrefno>104</fme:smbcrefno>
+<fme:name>James Street East &amp; West</fme:name>
+<fme:recyclingfacilities>(E) MG T P</fme:recyclingfacilities>
+<fme:vms>N</fme:vms>
+<fme:totalcapacity>46</fme:totalcapacity>
+<fme:heightrestriction>n/a</fme:heightrestriction>
+<fme:parkmark>N</fme:parkmark>
+<fme:machines>1</fme:machines>
+<fme:disabledspaces>3</fme:disabledspaces>
+<fme:heightrestrictionbarriertype>None</fme:heightrestrictionbarriertype>
+<fme:urlop>&lt;a href="http://www.myringgo.co.uk/parkinglocator/15026"target="_blank"&gt;RingGo Zone Website   &lt;/a&gt;</fme:urlop>
+<fme:url>&lt;a href="http://www.stockport.gov.uk/services/transport/parking/"&gt;Parking in Stockport  &lt;/a&gt;</fme:url>
+<fme:area>Edgeley</fme:area>
+<fme:totalchargeable>43</fme:totalchargeable>
+<fme:helppoints>0</fme:helppoints>
+<fme:lampcolumns>East - 1 / West -0     </fme:lampcolumns>
+<fme:free>0</fme:free>
+<fme:postcode>SK3 9AT </fme:postcode>
+<fme:cctvcameras>Covered by on-street camera</fme:cctvcameras>
+<fme:furtherdetail>N</fme:furtherdetail>
+<fme:ringgozone>15026</fme:ringgozone>
+<fme:parentchild>0</fme:parentchild>
+<fme:chargingcategory>Class C Standard</fme:chargingcategory>
+<fme:annualthroughputsampleperiod>01/04/09 - 31/03/10</fme:annualthroughputsampleperiod>
+<fme:eastings>389163.103941765</fme:eastings>
+<fme:northings>389481.29139166</fme:northings>
+<fme:long>53.3991960067957</fme:long>
+<fme:lat>-2.15967588279234</fme:lat>
+</fme:CarParks>
+<fme:CarParks>
+<fme:smbcrefno>129</fme:smbcrefno>
+<fme:name>Meadway West</fme:name>
+<fme:urlpm>&lt;a href="http://www.stockport.gov.uk/services/transport/parking/368201" target="_blank"&gt;Park Mark Accredited  &lt;/a&gt;</fme:urlpm>
+<fme:recyclingfacilities>None</fme:recyclingfacilities>
+<fme:vms>N</fme:vms>
+<fme:totalcapacity>99</fme:totalcapacity>
+<fme:heightrestriction>Entry 2.05m / Exit 1.960m</fme:heightrestriction>
+<fme:parkmark>Y</fme:parkmark>
+<fme:machines>1</fme:machines>
+<fme:disabledspaces>7</fme:disabledspaces>
+<fme:heightrestrictionbarriertype>Entry &amp; Exit fixed goalpost</fme:heightrestrictionbarriertype>
+<fme:urlop>&lt;a href="http://www.myringgo.co.uk/parkinglocator/15068"target="_blank"&gt;RingGo Zone Website   &lt;/a&gt;</fme:urlop>
+<fme:url>&lt;a href="http://www.stockport.gov.uk/services/transport/parking/"&gt;Parking in Stockport  &lt;/a&gt;</fme:url>
+<fme:area>Bramhall</fme:area>
+<fme:totalchargeable>92</fme:totalchargeable>
+<fme:helppoints>1</fme:helppoints>
+<fme:lampcolumns>4</fme:lampcolumns>
+<fme:free>0</fme:free>
+<fme:postcode>SK7 1JR</fme:postcode>
+<fme:cctvcameras>1</fme:cctvcameras>
+<fme:furtherdetail>N</fme:furtherdetail>
+<fme:ringgozone>15068</fme:ringgozone>
+<fme:parentchild>4</fme:parentchild>
+<fme:chargingcategory>Class C Standard</fme:chargingcategory>
+<fme:annualthroughputsampleperiod>01/04/12 - 31/03/13</fme:annualthroughputsampleperiod>
+<fme:eastings>389182.298444009</fme:eastings>
+<fme:northings>384352.889381458</fme:northings>
+<fme:long>53.3992402924051</fme:long>
+<fme:lat>-2.23680469307008</fme:lat>
+</fme:CarParks>
+<fme:CarParks>
+<fme:smbcrefno>115</fme:smbcrefno>
+<fme:name>Massie Street East</fme:name>
+<fme:urlpm>&lt;a href="http://www.stockport.gov.uk/services/transport/parking/368201" target="_blank"&gt;Park Mark Accredited  &lt;/a&gt;</fme:urlpm>
+<fme:recyclingfacilities>MG P C T PB Cl S</fme:recyclingfacilities>
+<fme:vms>N</fme:vms>
+<fme:totalcapacity>191</fme:totalcapacity>
+<fme:heightrestriction>n/a</fme:heightrestriction>
+<fme:parkmark>Y</fme:parkmark>
+<fme:machines>4</fme:machines>
+<fme:disabledspaces>11</fme:disabledspaces>
+<fme:heightrestrictionbarriertype>None</fme:heightrestrictionbarriertype>
+<fme:urlop>&lt;a href="http://www.myringgo.co.uk/parkinglocator/15014"target="_blank"&gt;RingGo Zone Website   &lt;/a&gt;</fme:urlop>
+<fme:url>&lt;a href="http://www.stockport.gov.uk/services/transport/parking/"&gt;Parking in Stockport  &lt;/a&gt;</fme:url>
+<fme:area>Cheadle</fme:area>
+<fme:totalchargeable>180</fme:totalchargeable>
+<fme:helppoints>1</fme:helppoints>
+<fme:lampcolumns>7</fme:lampcolumns>
+<fme:free>0</fme:free>
+<fme:postcode>SK8 1BN </fme:postcode>
+<fme:cctvcameras>2</fme:cctvcameras>
+<fme:furtherdetail>Y</fme:furtherdetail>
+<fme:ringgozone>15014</fme:ringgozone>
+<fme:parentchild>5</fme:parentchild>
+<fme:chargingcategory>Class C Higher</fme:chargingcategory>
+<fme:annualthroughputsampleperiod>01/10/10 - 30/09/11</fme:annualthroughputsampleperiod>
+<fme:eastings>385801.501835173</fme:eastings>
+<fme:northings>388589.676613734</fme:northings>
+<fme:long>53.368961396894</fme:long>
+<fme:lat>-2.17296251213833</fme:lat>
+</fme:CarParks>
+<fme:CarParks>
+<fme:smbcrefno>107</fme:smbcrefno>
+<fme:name>Back Massie Street (North)</fme:name>
+<fme:recyclingfacilities>None</fme:recyclingfacilities>
+<fme:vms>N</fme:vms>
+<fme:totalcapacity>16</fme:totalcapacity>
+<fme:heightrestriction>n/a</fme:heightrestriction>
+<fme:parkmark>N</fme:parkmark>
+<fme:machines>0</fme:machines>
+<fme:disabledspaces>0</fme:disabledspaces>
+<fme:heightrestrictionbarriertype>None</fme:heightrestrictionbarriertype>
+<fme:url>&lt;a href="http://www.stockport.gov.uk/services/transport/parking/"&gt;Parking in Stockport  &lt;/a&gt;</fme:url>
+<fme:area>Cheadle</fme:area>
+<fme:totalchargeable>16</fme:totalchargeable>
+<fme:helppoints>0</fme:helppoints>
+<fme:lampcolumns>1</fme:lampcolumns>
+<fme:free>0</fme:free>
+<fme:postcode>SK8 1DW </fme:postcode>
+<fme:cctvcameras>Limited coverage from Massie St West</fme:cctvcameras>
+<fme:furtherdetail>N</fme:furtherdetail>
+<fme:ringgozone>N/A</fme:ringgozone>
+<fme:parentchild>0</fme:parentchild>
+<fme:chargingcategory>Contract</fme:chargingcategory>
+<fme:annualthroughputsampleperiod>N/A</fme:annualthroughputsampleperiod>
+<fme:eastings>385675.327665143</fme:eastings>
+<fme:northings>388558.175630797</fme:northings>
+<fme:long>53.3678265843654</fme:long>
+<fme:lat>-2.17343131795733</fme:lat>
+</fme:CarParks>
+<fme:CarParks>
+<fme:smbcrefno>112</fme:smbcrefno>
+<fme:name>Church Street/Wood Street</fme:name>
+<fme:recyclingfacilities>None</fme:recyclingfacilities>
+<fme:vms>N</fme:vms>
+<fme:totalcapacity>10</fme:totalcapacity>
+<fme:heightrestriction>n/a</fme:heightrestriction>
+<fme:parkmark>N</fme:parkmark>
+<fme:machines>0</fme:machines>
+<fme:disabledspaces>0</fme:disabledspaces>
+<fme:heightrestrictionbarriertype>None</fme:heightrestrictionbarriertype>
+<fme:url>&lt;a href="http://www.stockport.gov.uk/services/transport/parking/"&gt;Parking in Stockport  &lt;/a&gt;</fme:url>
+<fme:area>Cheadle</fme:area>
+<fme:totalchargeable>10</fme:totalchargeable>
+<fme:helppoints>0</fme:helppoints>
+<fme:lampcolumns>1</fme:lampcolumns>
+<fme:free>0</fme:free>
+<fme:postcode>SK8 1AE </fme:postcode>
+<fme:cctvcameras>0</fme:cctvcameras>
+<fme:furtherdetail>Y</fme:furtherdetail>
+<fme:ringgozone>N/A</fme:ringgozone>
+<fme:parentchild>0</fme:parentchild>
+<fme:chargingcategory>Contract</fme:chargingcategory>
+<fme:annualthroughputsampleperiod>N/A</fme:annualthroughputsampleperiod>
+<fme:eastings>385685.18875822</fme:eastings>
+<fme:northings>388649.819398042</fme:northings>
+<fme:long>53.3679172180439</fme:long>
+<fme:lat>-2.1720544213013</fme:lat>
+</fme:CarParks>
+<fme:CarParks>
+<fme:smbcrefno>111</fme:smbcrefno>
+<fme:name>Church Street</fme:name>
+<fme:recyclingfacilities>None</fme:recyclingfacilities>
+<fme:vms>N</fme:vms>
+<fme:totalcapacity>52</fme:totalcapacity>
+<fme:heightrestriction>n/a</fme:heightrestriction>
+<fme:parkmark>N</fme:parkmark>
+<fme:machines>1</fme:machines>
+<fme:disabledspaces>0</fme:disabledspaces>
+<fme:heightrestrictionbarriertype>None</fme:heightrestrictionbarriertype>
+<fme:urlop>&lt;a href="http://www.myringgo.co.uk/parkinglocator/15079"target="_blank"&gt;RingGo Zone Website   &lt;/a&gt;</fme:urlop>
+<fme:url>&lt;a href="http://www.stockport.gov.uk/services/transport/parking/"&gt;Parking in Stockport  &lt;/a&gt;</fme:url>
+<fme:area>Cheadle</fme:area>
+<fme:totalchargeable>52</fme:totalchargeable>
+<fme:helppoints>0</fme:helppoints>
+<fme:lampcolumns>1</fme:lampcolumns>
+<fme:free>0</fme:free>
+<fme:postcode>SK8 1PX </fme:postcode>
+<fme:cctvcameras>0</fme:cctvcameras>
+<fme:furtherdetail>N</fme:furtherdetail>
+<fme:ringgozone>15079</fme:ringgozone>
+<fme:parentchild>0</fme:parentchild>
+<fme:chargingcategory>Class C Higher</fme:chargingcategory>
+<fme:annualthroughputsampleperiod>01/04/09 - 31/03/10</fme:annualthroughputsampleperiod>
+<fme:eastings>385678.584464278</fme:eastings>
+<fme:northings>388683.679705629</fme:northings>
+<fme:long>53.3678585886104</fme:long>
+<fme:lat>-2.17154531681254</fme:lat>
+</fme:CarParks>
+<fme:CarParks>
+<fme:smbcrefno>113</fme:smbcrefno>
+<fme:name>Frances Street</fme:name>
+<fme:recyclingfacilities>None</fme:recyclingfacilities>
+<fme:vms>N</fme:vms>
+<fme:totalcapacity>19</fme:totalcapacity>
+<fme:heightrestriction>n/a</fme:heightrestriction>
+<fme:parkmark>N</fme:parkmark>
+<fme:machines>0</fme:machines>
+<fme:disabledspaces>2</fme:disabledspaces>
+<fme:heightrestrictionbarriertype>None</fme:heightrestrictionbarriertype>
+<fme:url>&lt;a href="http://www.stockport.gov.uk/services/transport/parking/"&gt;Parking in Stockport  &lt;/a&gt;</fme:url>
+<fme:area>Cheadle</fme:area>
+<fme:totalchargeable>0</fme:totalchargeable>
+<fme:helppoints>0</fme:helppoints>
+<fme:lampcolumns>1</fme:lampcolumns>
+<fme:free>17</fme:free>
+<fme:postcode>SK8 2AH </fme:postcode>
+<fme:cctvcameras>0</fme:cctvcameras>
+<fme:furtherdetail>Y</fme:furtherdetail>
+<fme:ringgozone>N/A</fme:ringgozone>
+<fme:parentchild>0</fme:parentchild>
+<fme:chargingcategory>Free</fme:chargingcategory>
+<fme:annualthroughputsampleperiod>N/A</fme:annualthroughputsampleperiod>
+<fme:eastings>386310.576642739</fme:eastings>
+<fme:northings>388509.339609962</fme:northings>
+<fme:long>53.3735354865769</fme:long>
+<fme:lat>-2.17418857640247</fme:lat>
+</fme:CarParks>
+<fme:CarParks>
+<fme:smbcrefno>114</fme:smbcrefno>
+<fme:name>Mary Street</fme:name>
+<fme:urlpm>&lt;a href="http://www.stockport.gov.uk/services/transport/parking/368201" target="_blank"&gt;Park Mark Accredited  &lt;/a&gt;</fme:urlpm>
+<fme:recyclingfacilities>None</fme:recyclingfacilities>
+<fme:vms>N</fme:vms>
+<fme:totalcapacity>33</fme:totalcapacity>
+<fme:heightrestriction>n/a</fme:heightrestriction>
+<fme:parkmark>Y</fme:parkmark>
+<fme:machines>1</fme:machines>
+<fme:disabledspaces>3</fme:disabledspaces>
+<fme:heightrestrictionbarriertype>None</fme:heightrestrictionbarriertype>
+<fme:urlop>&lt;a href="http://www.myringgo.co.uk/parkinglocator/15003"target="_blank"&gt;RingGo Zone Website   &lt;/a&gt;</fme:urlop>
+<fme:url>&lt;a href="http://www.stockport.gov.uk/services/transport/parking/"&gt;Parking in Stockport  &lt;/a&gt;</fme:url>
+<fme:area>Cheadle</fme:area>
+<fme:totalchargeable>30</fme:totalchargeable>
+<fme:helppoints>0</fme:helppoints>
+<fme:lampcolumns>1</fme:lampcolumns>
+<fme:free>0</fme:free>
+<fme:postcode>SK8 1AH </fme:postcode>
+<fme:cctvcameras>0</fme:cctvcameras>
+<fme:furtherdetail>N</fme:furtherdetail>
+<fme:ringgozone>15003</fme:ringgozone>
+<fme:parentchild>0</fme:parentchild>
+<fme:chargingcategory>Class C Higher</fme:chargingcategory>
+<fme:annualthroughputsampleperiod>01/07/10 - 30/06/11</fme:annualthroughputsampleperiod>
+<fme:eastings>385774.466279823</fme:eastings>
+<fme:northings>388744.592269589</fme:northings>
+<fme:long>53.3687217428296</fme:long>
+<fme:lat>-2.17063335089223</fme:lat>
+</fme:CarParks>
+<fme:CarParks>
+<fme:smbcrefno>116</fme:smbcrefno>
+<fme:name>Essex Avenue</fme:name>
+<fme:recyclingfacilities>None</fme:recyclingfacilities>
+<fme:vms>N</fme:vms>
+<fme:totalcapacity>13</fme:totalcapacity>
+<fme:heightrestriction>2.05m</fme:heightrestriction>
+<fme:parkmark>N</fme:parkmark>
+<fme:machines>0</fme:machines>
+<fme:disabledspaces>1</fme:disabledspaces>
+<fme:heightrestrictionbarriertype>Fixed goalpost</fme:heightrestrictionbarriertype>
+<fme:url>&lt;a href="http://www.stockport.gov.uk/services/transport/parking/"&gt;Parking in Stockport  &lt;/a&gt;</fme:url>
+<fme:area>Cheadle Heath</fme:area>
+<fme:totalchargeable>0</fme:totalchargeable>
+<fme:helppoints>0</fme:helppoints>
+<fme:lampcolumns>0</fme:lampcolumns>
+<fme:free>12</fme:free>
+<fme:postcode>SK3 0JB</fme:postcode>
+<fme:cctvcameras>0</fme:cctvcameras>
+<fme:furtherdetail>Y</fme:furtherdetail>
+<fme:ringgozone>N/A</fme:ringgozone>
+<fme:parentchild>0</fme:parentchild>
+<fme:chargingcategory>Free</fme:chargingcategory>
+<fme:annualthroughputsampleperiod>N/A</fme:annualthroughputsampleperiod>
+<fme:eastings>387780.250538949</fme:eastings>
+<fme:northings>389695.160172359</fme:northings>
+<fme:long>53.386770449628</fme:long>
+<fme:lat>-2.15641375523345</fme:lat>
+</fme:CarParks>
+<fme:CarParks>
+<fme:smbcrefno>120</fme:smbcrefno>
+<fme:name>Church Road/Woods Lane</fme:name>
+<fme:urlpm>&lt;a href="http://www.stockport.gov.uk/services/transport/parking/368201" target="_blank"&gt;Park Mark Accredited  &lt;/a&gt;</fme:urlpm>
+<fme:recyclingfacilities>None</fme:recyclingfacilities>
+<fme:vms>N</fme:vms>
+<fme:totalcapacity>50</fme:totalcapacity>
+<fme:heightrestriction>n/a</fme:heightrestriction>
+<fme:parkmark>Y</fme:parkmark>
+<fme:machines>0</fme:machines>
+<fme:disabledspaces>2</fme:disabledspaces>
+<fme:heightrestrictionbarriertype>None</fme:heightrestrictionbarriertype>
+<fme:url>&lt;a href="http://www.stockport.gov.uk/services/transport/parking/"&gt;Parking in Stockport  &lt;/a&gt;</fme:url>
+<fme:area>Cheadle Hulme</fme:area>
+<fme:totalchargeable>0</fme:totalchargeable>
+<fme:helppoints>0</fme:helppoints>
+<fme:lampcolumns>0</fme:lampcolumns>
+<fme:free>48</fme:free>
+<fme:postcode>SK8 7JU </fme:postcode>
+<fme:cctvcameras>0</fme:cctvcameras>
+<fme:furtherdetail>N</fme:furtherdetail>
+<fme:ringgozone>N/A</fme:ringgozone>
+<fme:parentchild>0</fme:parentchild>
+<fme:chargingcategory>Free</fme:chargingcategory>
+<fme:annualthroughputsampleperiod>N/A</fme:annualthroughputsampleperiod>
+<fme:eastings>387577.603427206</fme:eastings>
+<fme:northings>385482.18612363</fme:northings>
+<fme:long>53.3848490057935</fme:long>
+<fme:lat>-2.21974637701833</fme:lat>
+</fme:CarParks>
+<fme:CarParks>
+<fme:smbcrefno>80</fme:smbcrefno>
+<fme:name>Arundel Avenue</fme:name>
+<fme:recyclingfacilities>MG P T S</fme:recyclingfacilities>
+<fme:vms>N</fme:vms>
+<fme:totalcapacity>45</fme:totalcapacity>
+<fme:heightrestriction>n/a</fme:heightrestriction>
+<fme:parkmark>N</fme:parkmark>
+<fme:machines>0</fme:machines>
+<fme:disabledspaces>0</fme:disabledspaces>
+<fme:heightrestrictionbarriertype>None</fme:heightrestrictionbarriertype>
+<fme:url>&lt;a href="http://www.stockport.gov.uk/services/transport/parking/"&gt;Parking in Stockport  &lt;/a&gt;</fme:url>
+<fme:area>Hazel Grove</fme:area>
+<fme:totalchargeable>0</fme:totalchargeable>
+<fme:helppoints>0</fme:helppoints>
+<fme:lampcolumns>3</fme:lampcolumns>
+<fme:free>45</fme:free>
+<fme:postcode>SK7 5LD </fme:postcode>
+<fme:cctvcameras>0</fme:cctvcameras>
+<fme:furtherdetail>Y</fme:furtherdetail>
+<fme:ringgozone>N/A</fme:ringgozone>
+<fme:parentchild>0</fme:parentchild>
+<fme:chargingcategory>Free</fme:chargingcategory>
+<fme:annualthroughputsampleperiod>N/A</fme:annualthroughputsampleperiod>
+<fme:eastings>391625.359518632</fme:eastings>
+<fme:northings>386207.058631034</fme:northings>
+<fme:long>53.4212518150957</fme:long>
+<fme:lat>-2.20902693081436</fme:lat>
+</fme:CarParks>
+<fme:CarParks>
+<fme:smbcrefno>123</fme:smbcrefno>
+<fme:name>Bramhall Precinct</fme:name>
+<fme:urlpm>&lt;a href="http://www.stockport.gov.uk/services/transport/parking/368201" target="_blank"&gt;Park Mark Accredited  &lt;/a&gt;</fme:urlpm>
+<fme:recyclingfacilities>None</fme:recyclingfacilities>
+<fme:vms>N</fme:vms>
+<fme:totalcapacity>81</fme:totalcapacity>
+<fme:heightrestriction>n/a</fme:heightrestriction>
+<fme:parkmark>Y</fme:parkmark>
+<fme:machines>2</fme:machines>
+<fme:disabledspaces>5</fme:disabledspaces>
+<fme:heightrestrictionbarriertype>None  </fme:heightrestrictionbarriertype>
+<fme:urlop>&lt;a href="http://www.myringgo.co.uk/parkinglocator/15046"target="_blank"&gt;RingGo Zone Website   &lt;/a&gt;</fme:urlop>
+<fme:url>&lt;a href="http://www.stockport.gov.uk/services/transport/parking/"&gt;Parking in Stockport  &lt;/a&gt;</fme:url>
+<fme:area>Bramhall</fme:area>
+<fme:totalchargeable>76</fme:totalchargeable>
+<fme:helppoints>1</fme:helppoints>
+<fme:lampcolumns>2</fme:lampcolumns>
+<fme:free>0</fme:free>
+<fme:postcode>SK7 1AL</fme:postcode>
+<fme:cctvcameras>1</fme:cctvcameras>
+<fme:furtherdetail>Y</fme:furtherdetail>
+<fme:ringgozone>15046</fme:ringgozone>
+<fme:parentchild>2</fme:parentchild>
+<fme:chargingcategory>Class C Higher</fme:chargingcategory>
+<fme:annualthroughputsampleperiod>01/10/11 to 30/09/12</fme:annualthroughputsampleperiod>
+<fme:eastings>389032.576379474</fme:eastings>
+<fme:northings>384663.650427035</fme:northings>
+<fme:long>53.3979037069988</fme:long>
+<fme:lat>-2.23212371327404</fme:lat>
+</fme:CarParks>
+<fme:CarParks>
+<fme:smbcrefno>128</fme:smbcrefno>
+<fme:name>Meadway East</fme:name>
+<fme:urlpm>&lt;a href="http://www.stockport.gov.uk/services/transport/parking/368201" target="_blank"&gt;Park Mark Accredited  &lt;/a&gt;</fme:urlpm>
+<fme:recyclingfacilities>MG P C PB T Cl S</fme:recyclingfacilities>
+<fme:vms>N</fme:vms>
+<fme:totalcapacity>139</fme:totalcapacity>
+<fme:heightrestriction>n/a</fme:heightrestriction>
+<fme:parkmark>Y</fme:parkmark>
+<fme:machines>2</fme:machines>
+<fme:disabledspaces>6</fme:disabledspaces>
+<fme:heightrestrictionbarriertype>None</fme:heightrestrictionbarriertype>
+<fme:urlop>&lt;a href="http://www.myringgo.co.uk/parkinglocator/15057"target="_blank"&gt;RingGo Zone Website   &lt;/a&gt;</fme:urlop>
+<fme:url>&lt;a href="http://www.stockport.gov.uk/services/transport/parking/"&gt;Parking in Stockport  &lt;/a&gt;</fme:url>
+<fme:area>Bramhall</fme:area>
+<fme:totalchargeable>133</fme:totalchargeable>
+<fme:helppoints>1</fme:helppoints>
+<fme:lampcolumns>6</fme:lampcolumns>
+<fme:free>0</fme:free>
+<fme:postcode>SK7 1JZ </fme:postcode>
+<fme:cctvcameras>1</fme:cctvcameras>
+<fme:furtherdetail>N</fme:furtherdetail>
+<fme:ringgozone>15057</fme:ringgozone>
+<fme:parentchild>1</fme:parentchild>
+<fme:chargingcategory>Class C Standard</fme:chargingcategory>
+<fme:annualthroughputsampleperiod>01/04/12 - 31/03/13</fme:annualthroughputsampleperiod>
+<fme:eastings>389233.318882102</fme:eastings>
+<fme:northings>384379.481769467</fme:northings>
+<fme:long>53.3996996820648</fme:long>
+<fme:lat>-2.23640730583364</fme:lat>
+</fme:CarParks>
+<fme:CarParks>
+<fme:smbcrefno>130</fme:smbcrefno>
+<fme:name>North Park Road</fme:name>
+<fme:recyclingfacilities>None</fme:recyclingfacilities>
+<fme:vms>N</fme:vms>
+<fme:totalcapacity>6</fme:totalcapacity>
+<fme:heightrestriction>n/a</fme:heightrestriction>
+<fme:parkmark>N</fme:parkmark>
+<fme:machines>0</fme:machines>
+<fme:disabledspaces>0</fme:disabledspaces>
+<fme:heightrestrictionbarriertype>None</fme:heightrestrictionbarriertype>
+<fme:url>&lt;a href="http://www.stockport.gov.uk/services/transport/parking/"&gt;Parking in Stockport  &lt;/a&gt;</fme:url>
+<fme:area>Bramhall</fme:area>
+<fme:totalchargeable>0</fme:totalchargeable>
+<fme:helppoints>0</fme:helppoints>
+<fme:lampcolumns>0</fme:lampcolumns>
+<fme:free>6</fme:free>
+<fme:postcode>SK7 3LQ </fme:postcode>
+<fme:cctvcameras>0</fme:cctvcameras>
+<fme:furtherdetail>Y</fme:furtherdetail>
+<fme:ringgozone>N/A</fme:ringgozone>
+<fme:parentchild>0</fme:parentchild>
+<fme:chargingcategory>Free</fme:chargingcategory>
+<fme:annualthroughputsampleperiod>N/A</fme:annualthroughputsampleperiod>
+<fme:eastings>389156.854185451</fme:eastings>
+<fme:northings>387100.532876693</fme:northings>
+<fme:long>53.399086491298</fme:long>
+<fme:lat>-2.19548076729141</fme:lat>
+</fme:CarParks>
+<fme:CarParks>
+<fme:smbcrefno>25</fme:smbcrefno>
+<fme:name>Canal Street</fme:name>
+<fme:recyclingfacilities>None</fme:recyclingfacilities>
+<fme:vms>N</fme:vms>
+<fme:totalcapacity>16</fme:totalcapacity>
+<fme:heightrestriction>n/a</fme:heightrestriction>
+<fme:parkmark>N</fme:parkmark>
+<fme:machines>0</fme:machines>
+<fme:disabledspaces>0</fme:disabledspaces>
+<fme:heightrestrictionbarriertype>None</fme:heightrestrictionbarriertype>
+<fme:url>&lt;a href="http://www.stockport.gov.uk/services/transport/parking/"&gt;Parking in Stockport  &lt;/a&gt;</fme:url>
+<fme:area>Waterloo,   Town Centre</fme:area>
+<fme:totalchargeable>0</fme:totalchargeable>
+<fme:helppoints>0</fme:helppoints>
+<fme:lampcolumns>0</fme:lampcolumns>
+<fme:free>16</fme:free>
+<fme:postcode>SK1 3BZ</fme:postcode>
+<fme:cctvcameras>0</fme:cctvcameras>
+<fme:furtherdetail>N</fme:furtherdetail>
+<fme:ringgozone>N/A</fme:ringgozone>
+<fme:parentchild>0</fme:parentchild>
+<fme:chargingcategory>Free</fme:chargingcategory>
+<fme:annualthroughputsampleperiod>N/A</fme:annualthroughputsampleperiod>
+<fme:eastings>389979.150619186</fme:eastings>
+<fme:northings>389915.667052921</fme:northings>
+<fme:long>53.4065396319325</fme:long>
+<fme:lat>-2.1531695231955</fme:lat>
+</fme:CarParks>
+<fme:CarParks>
+<fme:smbcrefno>27</fme:smbcrefno>
+<fme:name>Higher Barlow Row</fme:name>
+<fme:recyclingfacilities>None</fme:recyclingfacilities>
+<fme:vms>N</fme:vms>
+<fme:totalcapacity>8</fme:totalcapacity>
+<fme:heightrestriction>n/a</fme:heightrestriction>
+<fme:parkmark>N</fme:parkmark>
+<fme:machines>0</fme:machines>
+<fme:disabledspaces>0</fme:disabledspaces>
+<fme:heightrestrictionbarriertype>None</fme:heightrestrictionbarriertype>
+<fme:url>&lt;a href="http://www.stockport.gov.uk/services/transport/parking/"&gt;Parking in Stockport  &lt;/a&gt;</fme:url>
+<fme:area>Hillgate,      Town Centre</fme:area>
+<fme:totalchargeable>0</fme:totalchargeable>
+<fme:helppoints>0</fme:helppoints>
+<fme:free>8</fme:free>
+<fme:postcode>SK1  3BZ </fme:postcode>
+<fme:cctvcameras>0</fme:cctvcameras>
+<fme:furtherdetail>Y</fme:furtherdetail>
+<fme:ringgozone>N/A</fme:ringgozone>
+<fme:parentchild>0</fme:parentchild>
+<fme:chargingcategory>Free</fme:chargingcategory>
+<fme:annualthroughputsampleperiod>N/A</fme:annualthroughputsampleperiod>
+<fme:eastings>389902.669432412</fme:eastings>
+<fme:northings>389830.251502868</fme:northings>
+<fme:long>53.4058505215656</fme:long>
+<fme:lat>-2.15445184905252</fme:lat>
+</fme:CarParks>
+<fme:CarParks>
+<fme:smbcrefno>44</fme:smbcrefno>
+<fme:name>Brabyns Brow</fme:name>
+<fme:recyclingfacilities>P G C</fme:recyclingfacilities>
+<fme:vms>N</fme:vms>
+<fme:totalcapacity>76</fme:totalcapacity>
+<fme:heightrestriction>n/a</fme:heightrestriction>
+<fme:parkmark>N</fme:parkmark>
+<fme:machines>0</fme:machines>
+<fme:disabledspaces>5</fme:disabledspaces>
+<fme:heightrestrictionbarriertype>None</fme:heightrestrictionbarriertype>
+<fme:url>&lt;a href="http://www.stockport.gov.uk/services/transport/parking/"&gt;Parking in Stockport  &lt;/a&gt;</fme:url>
+<fme:area>Marple Bridge</fme:area>
+<fme:totalchargeable>0</fme:totalchargeable>
+<fme:helppoints>0</fme:helppoints>
+<fme:lampcolumns>3</fme:lampcolumns>
+<fme:free>71</fme:free>
+<fme:postcode>SK6 7DA </fme:postcode>
+<fme:cctvcameras>0</fme:cctvcameras>
+<fme:furtherdetail>Y</fme:furtherdetail>
+<fme:ringgozone>N/A</fme:ringgozone>
+<fme:parentchild>0</fme:parentchild>
+<fme:chargingcategory>Free</fme:chargingcategory>
+<fme:annualthroughputsampleperiod>N/A</fme:annualthroughputsampleperiod>
+<fme:eastings>396448.51413625</fme:eastings>
+<fme:northings>389379.780448865</fme:northings>
+<fme:long>53.4646786549985</fme:long>
+<fme:lat>-2.16145099833652</fme:lat>
+</fme:CarParks>
+<fme:CarParks>
+<fme:smbcrefno>5</fme:smbcrefno>
+<fme:name>Merseyway</fme:name>
+<fme:recyclingfacilities>None</fme:recyclingfacilities>
+<fme:vms>Y</fme:vms>
+<fme:totalcapacity>868</fme:totalcapacity>
+<fme:heightrestriction>1.85m</fme:heightrestriction>
+<fme:parkmark>N</fme:parkmark>
+<fme:machines>17</fme:machines>
+<fme:disabledspaces>29</fme:disabledspaces>
+<fme:heightrestrictionbarriertype>Fixed and counter-balanced rise and fall</fme:heightrestrictionbarriertype>
+<fme:urlop>&lt;a href="http://www.myringgo.co.uk/parkinglocator/15045"target="_blank"&gt;RingGo Zone Website   &lt;/a&gt;</fme:urlop>
+<fme:url>&lt;a href="http://www.stockport.gov.uk/services/transport/parking/"&gt;Parking in Stockport  &lt;/a&gt;</fme:url>
+<fme:area>Town Centre</fme:area>
+<fme:totalchargeable>839</fme:totalchargeable>
+<fme:helppoints>0</fme:helppoints>
+<fme:lampcolumns>46</fme:lampcolumns>
+<fme:free>0</fme:free>
+<fme:postcode>SK1 1PT </fme:postcode>
+<fme:cctvcameras>11</fme:cctvcameras>
+<fme:furtherdetail>Y</fme:furtherdetail>
+<fme:ringgozone>15045</fme:ringgozone>
+<fme:parentchild>0</fme:parentchild>
+<fme:chargingcategory>Class A</fme:chargingcategory>
+<fme:annualthroughputsampleperiod>N/A</fme:annualthroughputsampleperiod>
+<fme:eastings>389400.602926783</fme:eastings>
+<fme:northings>390443.66591482</fme:northings>
+<fme:long>53.4013492871519</fme:long>
+<fme:lat>-2.14520961516609</fme:lat>
+</fme:CarParks>
+<fme:CarParks>
+<fme:smbcrefno>77</fme:smbcrefno>
+<fme:name>Buxton Road            (Medical Centre)</fme:name>
+<fme:urlpm>&lt;a href="http://www.stockport.gov.uk/services/transport/parking/368201" target="_blank"&gt;Park Mark Accredited  &lt;/a&gt;</fme:urlpm>
+<fme:recyclingfacilities>None</fme:recyclingfacilities>
+<fme:vms>N</fme:vms>
+<fme:totalcapacity>31</fme:totalcapacity>
+<fme:heightrestriction>2.11m</fme:heightrestriction>
+<fme:parkmark>Y</fme:parkmark>
+<fme:machines>0</fme:machines>
+<fme:disabledspaces>1</fme:disabledspaces>
+<fme:heightrestrictionbarriertype>Fixed goalpost</fme:heightrestrictionbarriertype>
+<fme:url>&lt;a href="http://www.stockport.gov.uk/services/transport/parking/"&gt;Parking in Stockport  &lt;/a&gt;</fme:url>
+<fme:area>High Lane</fme:area>
+<fme:totalchargeable>0</fme:totalchargeable>
+<fme:helppoints>0</fme:helppoints>
+<fme:lampcolumns>6</fme:lampcolumns>
+<fme:free>30</fme:free>
+<fme:postcode>SK6 8DX </fme:postcode>
+<fme:cctvcameras>0</fme:cctvcameras>
+<fme:furtherdetail>N</fme:furtherdetail>
+<fme:ringgozone>N/A</fme:ringgozone>
+<fme:parentchild>0</fme:parentchild>
+<fme:chargingcategory>Free</fme:chargingcategory>
+<fme:annualthroughputsampleperiod>N/A</fme:annualthroughputsampleperiod>
+<fme:eastings>395191.909109014</fme:eastings>
+<fme:northings>385314.764047701</fme:northings>
+<fme:long>53.45328521477</fme:long>
+<fme:lat>-2.2226211287295</fme:lat>
+</fme:CarParks>
+<fme:CarParks>
+<fme:smbcrefno>104A</fme:smbcrefno>
+<fme:name>Lomas Street</fme:name>
+<fme:recyclingfacilities>None</fme:recyclingfacilities>
+<fme:vms>N</fme:vms>
+<fme:totalcapacity>6</fme:totalcapacity>
+<fme:heightrestriction>n/a</fme:heightrestriction>
+<fme:parkmark>N</fme:parkmark>
+<fme:machines>0</fme:machines>
+<fme:disabledspaces>0</fme:disabledspaces>
+<fme:heightrestrictionbarriertype>None</fme:heightrestrictionbarriertype>
+<fme:url>&lt;a href="http://www.stockport.gov.uk/services/transport/parking/"&gt;Parking in Stockport  &lt;/a&gt;</fme:url>
+<fme:area>Edgeley</fme:area>
+<fme:totalchargeable>6</fme:totalchargeable>
+<fme:helppoints>0</fme:helppoints>
+<fme:lampcolumns>0</fme:lampcolumns>
+<fme:free>0</fme:free>
+<fme:postcode>SK3 9DJ </fme:postcode>
+<fme:cctvcameras>Covered by camera on Caroline Street Car Park</fme:cctvcameras>
+<fme:furtherdetail>N</fme:furtherdetail>
+<fme:ringgozone>N/A</fme:ringgozone>
+<fme:parentchild>0</fme:parentchild>
+<fme:chargingcategory>Contract</fme:chargingcategory>
+<fme:annualthroughputsampleperiod>N/A</fme:annualthroughputsampleperiod>
+<fme:eastings>388967.407416531</fme:eastings>
+<fme:northings>389413.830702082</fme:northings>
+<fme:long>53.3974356204672</fme:long>
+<fme:lat>-2.1606838123337</fme:lat>
+</fme:CarParks>
+<fme:CarParks>
+<fme:smbcrefno>135</fme:smbcrefno>
+<fme:name>Grand Central CP1</fme:name>
+<fme:recyclingfacilities>None</fme:recyclingfacilities>
+<fme:vms>Y</fme:vms>
+<fme:totalcapacity>Feb 2013 - Partially Closed [417]</fme:totalcapacity>
+<fme:heightrestriction>n/a</fme:heightrestriction>
+<fme:parkmark>N</fme:parkmark>
+<fme:machines>2 No. POF's</fme:machines>
+<fme:disabledspaces>11</fme:disabledspaces>
+<fme:heightrestrictionbarriertype>None</fme:heightrestrictionbarriertype>
+<fme:url>&lt;a href="http://www.stockport.gov.uk/services/transport/parking/"&gt;Parking in Stockport  &lt;/a&gt;</fme:url>
+<fme:area>Town Centre</fme:area>
+<fme:totalchargeable>#VALUE!</fme:totalchargeable>
+<fme:helppoints>0</fme:helppoints>
+<fme:free>0</fme:free>
+<fme:postcode>SK3 9HZ</fme:postcode>
+<fme:cctvcameras>Unknown</fme:cctvcameras>
+<fme:furtherdetail>Y</fme:furtherdetail>
+<fme:ringgozone>N/A</fme:ringgozone>
+<fme:parentchild>0</fme:parentchild>
+<fme:chargingcategory>GC Specific Tariff</fme:chargingcategory>
+<fme:annualthroughputsampleperiod>N/A</fme:annualthroughputsampleperiod>
+<fme:eastings>389371.044382735</fme:eastings>
+<fme:northings>389821.653963888</fme:northings>
+<fme:long>53.4010718326919</fme:long>
+<fme:lat>-2.15456381692353</fme:lat>
+</fme:CarParks>
+<fme:CarParks>
+<fme:smbcrefno>137</fme:smbcrefno>
+<fme:name>Grand Central CP3</fme:name>
+<fme:recyclingfacilities>None</fme:recyclingfacilities>
+<fme:vms>N</fme:vms>
+<fme:totalcapacity>50</fme:totalcapacity>
+<fme:heightrestriction>n/a</fme:heightrestriction>
+<fme:parkmark>N</fme:parkmark>
+<fme:machines>2</fme:machines>
+<fme:disabledspaces>0</fme:disabledspaces>
+<fme:heightrestrictionbarriertype>None</fme:heightrestrictionbarriertype>
+<fme:url>&lt;a href="http://www.stockport.gov.uk/services/transport/parking/"&gt;Parking in Stockport  &lt;/a&gt;</fme:url>
+<fme:area>Town Centre</fme:area>
+<fme:totalchargeable>50</fme:totalchargeable>
+<fme:helppoints>0</fme:helppoints>
+<fme:free>0</fme:free>
+<fme:postcode>SK3 9HZ</fme:postcode>
+<fme:cctvcameras>Unknown</fme:cctvcameras>
+<fme:furtherdetail>Y</fme:furtherdetail>
+<fme:ringgozone>N/A</fme:ringgozone>
+<fme:parentchild>0</fme:parentchild>
+<fme:chargingcategory>GC Specific Tariff</fme:chargingcategory>
+<fme:annualthroughputsampleperiod>N/A</fme:annualthroughputsampleperiod>
+<fme:eastings>389278.204994737</fme:eastings>
+<fme:northings>390010.319958809</fme:northings>
+<fme:long>53.400240990171</fme:long>
+<fme:lat>-2.15172329174287</fme:lat>
+</fme:CarParks>
+<fme:CarParks>
+<fme:smbcrefno>136</fme:smbcrefno>
+<fme:name>Grand Central CP2</fme:name>
+<fme:recyclingfacilities>None</fme:recyclingfacilities>
+<fme:vms>N</fme:vms>
+<fme:totalcapacity>Feb 2013 - Temp increase in spaces [67]</fme:totalcapacity>
+<fme:heightrestriction>n/a</fme:heightrestriction>
+<fme:parkmark>N</fme:parkmark>
+<fme:machines>2</fme:machines>
+<fme:disabledspaces>6</fme:disabledspaces>
+<fme:heightrestrictionbarriertype>None</fme:heightrestrictionbarriertype>
+<fme:url>&lt;a href="http://www.stockport.gov.uk/services/transport/parking/"&gt;Parking in Stockport  &lt;/a&gt;</fme:url>
+<fme:area>Town Centre</fme:area>
+<fme:totalchargeable>#VALUE!</fme:totalchargeable>
+<fme:helppoints>0</fme:helppoints>
+<fme:free>0</fme:free>
+<fme:postcode>SK3 9HZ</fme:postcode>
+<fme:cctvcameras>Unknown</fme:cctvcameras>
+<fme:furtherdetail>Y</fme:furtherdetail>
+<fme:ringgozone>N/A</fme:ringgozone>
+<fme:parentchild>0</fme:parentchild>
+<fme:chargingcategory>GC Specific Tariff</fme:chargingcategory>
+<fme:annualthroughputsampleperiod>N/A</fme:annualthroughputsampleperiod>
+<fme:eastings>389310.73176078</fme:eastings>
+<fme:northings>389974.480217828</fme:northings>
+<fme:long>53.4005326702786</fme:long>
+<fme:lat>-2.15226335945634</fme:lat>
+</fme:CarParks>
+<fme:CarParks>
+<fme:smbcrefno>10</fme:smbcrefno>
+<fme:name>Banbury St.</fme:name>
+<fme:recyclingfacilities>None</fme:recyclingfacilities>
+<fme:vms>N</fme:vms>
+<fme:totalcapacity>33</fme:totalcapacity>
+<fme:heightrestriction>n/a</fme:heightrestriction>
+<fme:parkmark>N</fme:parkmark>
+<fme:machines>1</fme:machines>
+<fme:disabledspaces>0</fme:disabledspaces>
+<fme:heightrestrictionbarriertype>None</fme:heightrestrictionbarriertype>
+<fme:urlop>&lt;a href="http://www.myringgo.co.uk/parkinglocator/15002"target="_blank"&gt;RingGo Zone Website   &lt;/a&gt;</fme:urlop>
+<fme:url>&lt;a href="http://www.stockport.gov.uk/services/transport/parking/"&gt;Parking in Stockport  &lt;/a&gt;</fme:url>
+<fme:area>Town Centre</fme:area>
+<fme:totalchargeable>33</fme:totalchargeable>
+<fme:helppoints>0</fme:helppoints>
+<fme:lampcolumns>2</fme:lampcolumns>
+<fme:free>0</fme:free>
+<fme:postcode>SK1 3AX</fme:postcode>
+<fme:cctvcameras>0</fme:cctvcameras>
+<fme:furtherdetail>Y</fme:furtherdetail>
+<fme:ringgozone>15002</fme:ringgozone>
+<fme:parentchild>0</fme:parentchild>
+<fme:chargingcategory>Class B</fme:chargingcategory>
+<fme:annualthroughputsampleperiod>N/A</fme:annualthroughputsampleperiod>
+<fme:eastings>389706.593634367</fme:eastings>
+<fme:northings>390196.726600463</fme:northings>
+<fme:long>53.4040951073973</fme:long>
+<fme:lat>-2.14893325006941</fme:lat>
+</fme:CarParks>
+<fme:CarParks>
+<fme:smbcrefno>103</fme:smbcrefno>
+<fme:name>Heron Street</fme:name>
+<fme:urlpm>&lt;a href="http://www.stockport.gov.uk/services/transport/parking/368201" target="_blank"&gt;Park Mark Accredited  &lt;/a&gt;</fme:urlpm>
+<fme:recyclingfacilities>None</fme:recyclingfacilities>
+<fme:vms>N</fme:vms>
+<fme:totalcapacity>18</fme:totalcapacity>
+<fme:heightrestriction>n/a</fme:heightrestriction>
+<fme:parkmark>Y</fme:parkmark>
+<fme:machines>0</fme:machines>
+<fme:disabledspaces>0</fme:disabledspaces>
+<fme:heightrestrictionbarriertype>Counter-balanced low-level rise and fall access barrier</fme:heightrestrictionbarriertype>
+<fme:url>&lt;a href="http://www.stockport.gov.uk/services/transport/parking/"&gt;Parking in Stockport  &lt;/a&gt;</fme:url>
+<fme:area>Edgeley</fme:area>
+<fme:totalchargeable>18</fme:totalchargeable>
+<fme:helppoints>0</fme:helppoints>
+<fme:free>0</fme:free>
+<fme:postcode>SK3 9EU </fme:postcode>
+<fme:cctvcameras>0</fme:cctvcameras>
+<fme:furtherdetail>Y</fme:furtherdetail>
+<fme:ringgozone>N/A</fme:ringgozone>
+<fme:parentchild>0</fme:parentchild>
+<fme:chargingcategory>Contract</fme:chargingcategory>
+<fme:annualthroughputsampleperiod>01/10/11 - 30/09/12</fme:annualthroughputsampleperiod>
+<fme:eastings>388828.28025551</fme:eastings>
+<fme:northings>389443.592182947</fme:northings>
+<fme:long>53.3961856750566</fme:long>
+<fme:lat>-2.16023152928216</fme:lat>
+</fme:CarParks>
+<fme:CarParks>
+<fme:smbcrefno>52</fme:smbcrefno>
+<fme:name>Hibbert/Church Lane</fme:name>
+<fme:recyclingfacilities>None</fme:recyclingfacilities>
+<fme:vms>N</fme:vms>
+<fme:totalcapacity>35</fme:totalcapacity>
+<fme:heightrestriction>Entry 2.075m / Exit 2.02m</fme:heightrestriction>
+<fme:parkmark>N</fme:parkmark>
+<fme:machines>0</fme:machines>
+<fme:disabledspaces>0</fme:disabledspaces>
+<fme:heightrestrictionbarriertype>Entry counter balanced rise and fall. Exit fixed goalpost.</fme:heightrestrictionbarriertype>
+<fme:url>&lt;a href="http://www.stockport.gov.uk/services/transport/parking/"&gt;Parking in Stockport  &lt;/a&gt;</fme:url>
+<fme:area>Marple</fme:area>
+<fme:totalchargeable>0</fme:totalchargeable>
+<fme:helppoints>0</fme:helppoints>
+<fme:lampcolumns>1</fme:lampcolumns>
+<fme:free>35</fme:free>
+<fme:postcode>SK6 7NN</fme:postcode>
+<fme:cctvcameras>0</fme:cctvcameras>
+<fme:furtherdetail>N</fme:furtherdetail>
+<fme:ringgozone>N/A</fme:ringgozone>
+<fme:parentchild>0</fme:parentchild>
+<fme:chargingcategory>Free</fme:chargingcategory>
+<fme:annualthroughputsampleperiod>N/A</fme:annualthroughputsampleperiod>
+<fme:eastings>395712.584717549</fme:eastings>
+<fme:northings>388490.155101471</fme:northings>
+<fme:long>53.4580449205937</fme:long>
+<fme:lat>-2.17482378406446</fme:lat>
+</fme:CarParks>
+<fme:CarParks>
+<fme:smbcrefno>133</fme:smbcrefno>
+<fme:name>Middlers</fme:name>
+<fme:recyclingfacilities>None</fme:recyclingfacilities>
+<fme:vms>N</fme:vms>
+<fme:totalcapacity>0</fme:totalcapacity>
+<fme:heightrestriction>n/a</fme:heightrestriction>
+<fme:parkmark>N</fme:parkmark>
+<fme:machines>0</fme:machines>
+<fme:disabledspaces>0</fme:disabledspaces>
+<fme:heightrestrictionbarriertype>None</fme:heightrestrictionbarriertype>
+<fme:url>&lt;a href="http://www.stockport.gov.uk/services/transport/parking/"&gt;Parking in Stockport  &lt;/a&gt;</fme:url>
+<fme:area>Marple Bridge</fme:area>
+<fme:totalchargeable>0</fme:totalchargeable>
+<fme:helppoints>0</fme:helppoints>
+<fme:lampcolumns>0</fme:lampcolumns>
+<fme:free>0</fme:free>
+<fme:postcode>SK6 7DA </fme:postcode>
+<fme:cctvcameras>0</fme:cctvcameras>
+<fme:furtherdetail>N</fme:furtherdetail>
+<fme:ringgozone>N/A</fme:ringgozone>
+<fme:parentchild>0</fme:parentchild>
+<fme:chargingcategory>Free</fme:chargingcategory>
+<fme:annualthroughputsampleperiod>N/A</fme:annualthroughputsampleperiod>
+<fme:eastings>396393.9235867</fme:eastings>
+<fme:northings>389258.905049088</fme:northings>
+<fme:long>53.4641854935689</fme:long>
+<fme:lat>-2.16326980241602</fme:lat>
+</fme:CarParks>
+<fme:CarParks>
+<fme:smbcrefno>132</fme:smbcrefno>
+<fme:name>Brabyns Park</fme:name>
+<fme:recyclingfacilities>None</fme:recyclingfacilities>
+<fme:vms>N</fme:vms>
+<fme:totalcapacity>0</fme:totalcapacity>
+<fme:heightrestriction>n/a</fme:heightrestriction>
+<fme:parkmark>N</fme:parkmark>
+<fme:disabledspaces>0</fme:disabledspaces>
+<fme:heightrestrictionbarriertype>None</fme:heightrestrictionbarriertype>
+<fme:url>&lt;a href="http://www.stockport.gov.uk/services/transport/parking/"&gt;Parking in Stockport  &lt;/a&gt;</fme:url>
+<fme:area>Marple Bridge</fme:area>
+<fme:totalchargeable>0</fme:totalchargeable>
+<fme:helppoints>0</fme:helppoints>
+<fme:lampcolumns>0</fme:lampcolumns>
+<fme:free>0</fme:free>
+<fme:postcode>SK6 7DA </fme:postcode>
+<fme:cctvcameras>0</fme:cctvcameras>
+<fme:furtherdetail>N</fme:furtherdetail>
+<fme:ringgozone>N/A</fme:ringgozone>
+<fme:parentchild>0</fme:parentchild>
+<fme:chargingcategory>Free</fme:chargingcategory>
+<fme:annualthroughputsampleperiod>N/A</fme:annualthroughputsampleperiod>
+<fme:eastings>396346.465015002</fme:eastings>
+<fme:northings>389522.8295015</fme:northings>
+<fme:long>53.4637642916452</fme:long>
+<fme:lat>-2.15929287568897</fme:lat>
+</fme:CarParks>
+<fme:CarParks>
+<fme:smbcrefno>93</fme:smbcrefno>
+<fme:name>Heaviley Grove</fme:name>
+<fme:recyclingfacilities>None</fme:recyclingfacilities>
+<fme:vms>N</fme:vms>
+<fme:totalcapacity>10</fme:totalcapacity>
+<fme:heightrestriction>n/a</fme:heightrestriction>
+<fme:parkmark>N</fme:parkmark>
+<fme:machines>0</fme:machines>
+<fme:disabledspaces>0</fme:disabledspaces>
+<fme:heightrestrictionbarriertype>None</fme:heightrestrictionbarriertype>
+<fme:url>&lt;a href="http://www.stockport.gov.uk/services/transport/parking/"&gt;Parking in Stockport  &lt;/a&gt;</fme:url>
+<fme:area>Heaviley</fme:area>
+<fme:totalchargeable>0</fme:totalchargeable>
+<fme:helppoints>0</fme:helppoints>
+<fme:lampcolumns>2</fme:lampcolumns>
+<fme:free>10</fme:free>
+<fme:postcode>SK2 6HQ </fme:postcode>
+<fme:cctvcameras>0</fme:cctvcameras>
+<fme:furtherdetail>N</fme:furtherdetail>
+<fme:ringgozone>N/A</fme:ringgozone>
+<fme:parentchild>0</fme:parentchild>
+<fme:chargingcategory>Free</fme:chargingcategory>
+<fme:annualthroughputsampleperiod>N/A</fme:annualthroughputsampleperiod>
+<fme:eastings>390237.163316223</fme:eastings>
+<fme:northings>388603.522650348</fme:northings>
+<fme:long>53.4088317823691</fme:long>
+<fme:lat>-2.17291620751439</fme:lat>
+</fme:CarParks>
+<fme:CarParks>
+<fme:smbcrefno>134</fme:smbcrefno>
+<fme:name>Heald Green Health Centre and Library</fme:name>
+<fme:recyclingfacilities>None</fme:recyclingfacilities>
+<fme:vms>N</fme:vms>
+<fme:totalcapacity>33</fme:totalcapacity>
+<fme:heightrestriction>n/a</fme:heightrestriction>
+<fme:parkmark>N</fme:parkmark>
+<fme:machines>1</fme:machines>
+<fme:disabledspaces>3</fme:disabledspaces>
+<fme:heightrestrictionbarriertype>None</fme:heightrestrictionbarriertype>
+<fme:url>&lt;a href="http://www.stockport.gov.uk/services/transport/parking/"&gt;Parking in Stockport  &lt;/a&gt;</fme:url>
+<fme:area>Heald Green</fme:area>
+<fme:totalchargeable>0</fme:totalchargeable>
+<fme:helppoints>1</fme:helppoints>
+<fme:lampcolumns>3</fme:lampcolumns>
+<fme:free>14</fme:free>
+<fme:postcode>SK8 3JB </fme:postcode>
+<fme:cctvcameras>1</fme:cctvcameras>
+<fme:furtherdetail>Y</fme:furtherdetail>
+<fme:ringgozone>N/A</fme:ringgozone>
+<fme:parentchild>0</fme:parentchild>
+<fme:chargingcategory>Free - 1hr maximum stay. Ticket required.</fme:chargingcategory>
+<fme:annualthroughputsampleperiod>N/A</fme:annualthroughputsampleperiod>
+<fme:eastings>384884.321238287</fme:eastings>
+<fme:northings>385907.834283112</fme:northings>
+<fme:long>53.3606519686514</fme:long>
+<fme:lat>-2.21322594166604</fme:lat>
+</fme:CarParks>
+<fme:CarParks>
+<fme:smbcrefno>124</fme:smbcrefno>
+<fme:name>Bramhall Park</fme:name>
+<fme:recyclingfacilities>None</fme:recyclingfacilities>
+<fme:vms>N</fme:vms>
+<fme:totalcapacity>78</fme:totalcapacity>
+<fme:heightrestriction>n/a</fme:heightrestriction>
+<fme:parkmark>N</fme:parkmark>
+<fme:machines>2</fme:machines>
+<fme:disabledspaces>5</fme:disabledspaces>
+<fme:heightrestrictionbarriertype>None  </fme:heightrestrictionbarriertype>
+<fme:urlop>&lt;a href="http://www.myringgo.co.uk/parkinglocator/15007"target="_blank"&gt;RingGo Zone Website   &lt;/a&gt;</fme:urlop>
+<fme:url>&lt;a href="http://www.stockport.gov.uk/services/transport/parking/"&gt;Parking in Stockport  &lt;/a&gt;</fme:url>
+<fme:area>Bramhall</fme:area>
+<fme:totalchargeable>73</fme:totalchargeable>
+<fme:helppoints>0</fme:helppoints>
+<fme:lampcolumns>1</fme:lampcolumns>
+<fme:free>0</fme:free>
+<fme:postcode>SK7 3NR </fme:postcode>
+<fme:cctvcameras>0</fme:cctvcameras>
+<fme:furtherdetail>Y</fme:furtherdetail>
+<fme:ringgozone>15007</fme:ringgozone>
+<fme:parentchild>0</fme:parentchild>
+<fme:chargingcategory>Parks</fme:chargingcategory>
+<fme:annualthroughputsampleperiod>01/04/09 to 31/03/10</fme:annualthroughputsampleperiod>
+<fme:eastings>388938.714603899</fme:eastings>
+<fme:northings>386253.175430238</fme:northings>
+<fme:long>53.3971041687891</fme:long>
+<fme:lat>-2.20821487024783</fme:lat>
+</fme:CarParks>
+<fme:CarParks>
+<fme:smbcrefno>109</fme:smbcrefno>
+<fme:name>Bruntwood Park</fme:name>
+<fme:recyclingfacilities>None</fme:recyclingfacilities>
+<fme:vms>N</fme:vms>
+<fme:totalcapacity>172</fme:totalcapacity>
+<fme:heightrestriction>n/a</fme:heightrestriction>
+<fme:parkmark>N</fme:parkmark>
+<fme:machines>2</fme:machines>
+<fme:disabledspaces>7</fme:disabledspaces>
+<fme:heightrestrictionbarriertype>None</fme:heightrestrictionbarriertype>
+<fme:urlop>&lt;a href="http://www.myringgo.co.uk/parkinglocator/15018"target="_blank"&gt;RingGo Zone Website   &lt;/a&gt;</fme:urlop>
+<fme:url>&lt;a href="http://www.stockport.gov.uk/services/transport/parking/"&gt;Parking in Stockport  &lt;/a&gt;</fme:url>
+<fme:area>Cheadle</fme:area>
+<fme:totalchargeable>165</fme:totalchargeable>
+<fme:helppoints>0</fme:helppoints>
+<fme:lampcolumns>0</fme:lampcolumns>
+<fme:free>0</fme:free>
+<fme:postcode>SK8 1HX </fme:postcode>
+<fme:cctvcameras>0</fme:cctvcameras>
+<fme:furtherdetail>N</fme:furtherdetail>
+<fme:ringgozone>15018</fme:ringgozone>
+<fme:parentchild>0</fme:parentchild>
+<fme:chargingcategory>Parks</fme:chargingcategory>
+<fme:annualthroughputsampleperiod>N/A</fme:annualthroughputsampleperiod>
+<fme:eastings>386152.28795972</fme:eastings>
+<fme:northings>387034.631740697</fme:northings>
+<fme:long>53.3720782442745</fme:long>
+<fme:lat>-2.1963473846375</fme:lat>
+</fme:CarParks>
+</fme:CarParks-table>
+</fme:xml-tables>
