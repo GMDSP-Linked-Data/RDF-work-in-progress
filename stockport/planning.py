@@ -84,7 +84,7 @@ class Store:
 
     def save(self):
         print "saving to \"" + storefn +"\"..."
-        self.graph.serialize(storefn, format="turtle")
+        self.graph.serialize(storefn, format="pretty-xml")
 
     def new_decision(self, decision):
         decision = PLANNINGID[decision.replace(" ", "-").lower()]

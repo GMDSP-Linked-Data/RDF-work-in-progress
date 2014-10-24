@@ -53,7 +53,7 @@ class Store:
 
     def save(self):
         print storeuri
-        self.graph.serialize(storefn, format="turtle")
+        self.graph.serialize(storefn, format="pretty-xml")
 
 def main(argv=None):
     s = Store()
@@ -72,7 +72,6 @@ def main(argv=None):
         long = carpark.find("fme:long", namespaces={"fme": "http://www.safe.com/xml/xmltables"}).text
         postcode = carpark.find("fme:postcode", namespaces={"fme": "http://www.safe.com/xml/xmltables"}).text
         s.newCarPark(name, label, spaces, lat, long, address, postcode)
-        #print "adding car park"
 
     print "saving"
     s.save()
