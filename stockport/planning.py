@@ -4,6 +4,7 @@ import xml.etree.ElementTree as ET
 from rdflib import Graph, URIRef, Namespace, RDF, Literal
 from rdflib.store import VALID_STORE
 
+
 datafile = "./Data/planning.xml"
 
 storefn = "./Output/planning.rdf"
@@ -56,13 +57,14 @@ class Store:
             self.types.append(type)
 
         app = PLANNINGID[ref]
+        self.graph.add((app, RDFS["label"], Literal("Application: " + ref)))
         self.graph.add((app, RDF.type, URIRef('http://data.gmdsp.org.uk/def/council/planning/PlanningApplication')))
         self.graph.add((app, VCARD['street-address'], Literal(address)))
         self.graph.add((app, GEO["lat"], Literal(lat)))
         self.graph.add((app, GEO["long"], Literal(long)))
         self.graph.add((app, PLANNING['applicationType'], URIRef(
-            'http://data.gmdsp.org.uk/def/council/planning/planning-application-type/' + type.replace(" ",
-                                                                                                      "-").lower())))
+            'http://data.gmdsp.org.uk/id/stockport/planning/' + type.replace(" ",
+                                                                                            "-").lower())))
 
         if details != None:
             self.graph.add((app, PLANNING["proposal"], Literal(details)))
@@ -72,30 +74,32 @@ class Store:
                 self.new_decision(decision)
                 self.decisions.append(decision)
             self.graph.add((app, PLANNING['decision'], URIRef(
-                'http://data.gmdsp.org.uk/def/council/planning/planning-application-status/' + decision.replace(" ",
-                                                                                                                "-").lower())))
+                'http://data.gmdsp.org.uk/id/stockport/planning/' + decision.replace(" ",
+                                                                                     "-").lower())))
 
         if recdate != None:
-            self.graph.add((app, PLANNING['validatedDate'], URIRef('http://reference.data.gov.uk/id/day/' + time.strftime('%Y-%m-%d', recdate))))
+            self.graph.add((app, PLANNING['validatedDate'],
+                            URIRef('http://reference.data.gov.uk/id/day/' + time.strftime('%Y-%m-%d', recdate))))
 
         if dcndate != None:
-            self.graph.add((app, PLANNING['validatedDate'], URIRef('http://reference.data.gov.uk/id/day/' + time.strftime('%Y-%m-%d', dcndate))))
+            self.graph.add((app, PLANNING['validatedDate'],
+                            URIRef('http://reference.data.gov.uk/id/day/' + time.strftime('%Y-%m-%d', dcndate))))
 
 
     def save(self):
-        print "saving to \"" + storefn +"\"..."
+        print "saving to \"" + storefn + "\"..."
         self.graph.serialize(storefn, format="pretty-xml")
 
     def new_decision(self, decision):
-        decision = PLANNINGID[decision.replace(" ", "-").lower()]
-        self.graph.add((decision, RDF.type, URIRef('http://data.gmdsp.org.uk/def/council/planning/decision')))
-        self.graph.add((decision, RDFS["label"], Literal(decision)))
+        decisionURI = PLANNINGID[decision.replace(" ", "-").lower()]
+        self.graph.add((decisionURI, RDF.type, URIRef('http://data.gmdsp.org.uk/def/council/planning/decision')))
+        self.graph.add((decisionURI, RDFS["label"], Literal(decision)))
 
     def new_type(self, type):
-        type = PLANNINGID[type.replace(" ", "-").lower()]
+        typeURI = PLANNINGID[type.replace(" ", "-").lower()]
         self.graph.add(
-            (type, RDF.type, URIRef('http://data.gmdsp.org.uk/def/council/neighbourhood/planning/application-type')))
-        self.graph.add((type, RDFS["label"], Literal(type)))
+            (typeURI, RDF.type, URIRef('http://data.gmdsp.org.uk/def/council/planning/applicationType')))
+        self.graph.add((typeURI, RDFS["label"], Literal(type)))
 
 
 def main(argv=None):
@@ -114,15 +118,20 @@ def main(argv=None):
             details = None
         address = application.find("fme:LocAddress1", namespaces={"fme": "http://www.safe.com/xml/xmltables"}).text
         try:
-            recdate = time.strptime(application.find("fme:RecDate", namespaces={"fme": "http://www.safe.com/xml/xmltables"}).text, "%d/%m/%Y %H:%M:%S")
+            recdate = time.strptime(
+                application.find("fme:RecDate", namespaces={"fme": "http://www.safe.com/xml/xmltables"}).text,
+                "%d/%m/%Y %H:%M:%S")
         except AttributeError:
             recdate = None
         try:
-            dcndate = time.strptime(application.find("fme:DcnDate", namespaces={"fme": "http://www.safe.com/xml/xmltables"}).text, "%d/%m/%Y")
+            dcndate = time.strptime(
+                application.find("fme:DcnDate", namespaces={"fme": "http://www.safe.com/xml/xmltables"}).text,
+                "%d/%m/%Y")
         except AttributeError:
             dcndate = None
         try:
-            decision = application.find("fme:finaldecision", namespaces={"fme": "http://www.safe.com/xml/xmltables"}).text
+            decision = application.find("fme:finaldecision",
+                                        namespaces={"fme": "http://www.safe.com/xml/xmltables"}).text
         except AttributeError:
             decision = None
         long = application.find("fme:long", namespaces={"fme": "http://www.safe.com/xml/xmltables"}).text
