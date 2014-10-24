@@ -1,1439 +1,1558 @@
 <?xml version="1.0" encoding="utf-8"?>
 <rdf:RDF
-  xmlns:ns1="http://www.w3.org/2006/vcard/ns#"
-  xmlns:ns2="http://data.gmdsp.org.uk/def/manchester/parking/"
   xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
-  xmlns:geo="http://www.w3.org/2003/01/geo/wgs84_pos#"
   xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
+  xmlns:geo="http://www.w3.org/2003/01/geo/wgs84_pos#"
+  xmlns:vcard="http://www.w3.org/2006/vcard/ns#"
+  xmlns:parking="http://data.gmdsp.org.uk/def/council/parking/"
 >
-  <ns1:Location rdf:about="http://data.gmdsp.org.uk/id/manchester/parking/address/Higher_Barlow_Row">
-    <ns1:postal-code>SK1  3BZ </ns1:postal-code>
-    <rdfs:label>Higher Barlow Row</rdfs:label>
-    <ns1:street-address>Higher Barlow Row</ns1:street-address>
-  </ns1:Location>
-  <ns1:Location rdf:about="http://data.gmdsp.org.uk/id/manchester/parking/address/Massie_Street_East">
-    <rdfs:label>Massie Street East</rdfs:label>
-    <ns1:street-address>Massie Street East</ns1:street-address>
-    <ns1:postal-code>SK8 1BN </ns1:postal-code>
-  </ns1:Location>
-  <ns2:ParkingSite rdf:about="http://data.gmdsp.org.uk/id/manchester/parking/Cambridge_Street">
-    <geo:long>53.4079176228332</geo:long>
-    <ns2:totalNumberOfSpaces rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">10</ns2:totalNumberOfSpaces>
-    <ns1:hasAddress rdf:resource="http://data.gmdsp.org.uk/def/council/parking/address/Cambridge_Street"/>
-    <rdfs:label>Cambridge Street car park</rdfs:label>
-    <geo:lat>-2.17271037954475</geo:lat>
-  </ns2:ParkingSite>
-  <ns2:ParkingSite rdf:about="http://data.gmdsp.org.uk/id/manchester/parking/Hibbert/Church_Lane">
-    <rdfs:label>Hibbert/Church Lane car park</rdfs:label>
-    <geo:lat>-2.17482378406446</geo:lat>
-    <ns1:hasAddress rdf:resource="http://data.gmdsp.org.uk/def/council/parking/address/Hibbert/Church_Lane"/>
-    <geo:long>53.4580449205937</geo:long>
-    <ns2:totalNumberOfSpaces rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">35</ns2:totalNumberOfSpaces>
-  </ns2:ParkingSite>
-  <ns1:Location rdf:about="http://data.gmdsp.org.uk/id/manchester/parking/address/Hallam_Street">
-    <ns1:street-address>Hallam Street</ns1:street-address>
-    <ns1:postal-code>SK2 6PT </ns1:postal-code>
-    <rdfs:label>Hallam Street</rdfs:label>
-  </ns1:Location>
-  <ns1:Location rdf:about="http://data.gmdsp.org.uk/id/manchester/parking/address/Meadway_East">
-    <ns1:street-address>Meadway East</ns1:street-address>
-    <ns1:postal-code>SK7 1JZ </ns1:postal-code>
-    <rdfs:label>Meadway East</rdfs:label>
-  </ns1:Location>
-  <ns2:ParkingSite rdf:about="http://data.gmdsp.org.uk/id/manchester/parking/Didsbury_Road">
-    <geo:lat>-2.14269004374493</geo:lat>
-    <ns2:totalNumberOfSpaces rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">22</ns2:totalNumberOfSpaces>
-    <rdfs:label>Didsbury Road car park</rdfs:label>
-    <geo:long>53.3749308732322</geo:long>
-    <ns1:hasAddress rdf:resource="http://data.gmdsp.org.uk/def/council/parking/address/Didsbury_Road"/>
-  </ns2:ParkingSite>
-  <ns2:ParkingSite rdf:about="http://data.gmdsp.org.uk/id/manchester/parking/Brookside_Lane">
-    <geo:lat>-2.22398685132273</geo:lat>
-    <ns1:hasAddress rdf:resource="http://data.gmdsp.org.uk/def/council/parking/address/Brookside_Lane"/>
-    <ns2:totalNumberOfSpaces rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">23</ns2:totalNumberOfSpaces>
-    <rdfs:label>Brookside Lane car park</rdfs:label>
-    <geo:long>53.4559989632051</geo:long>
-  </ns2:ParkingSite>
-  <ns1:Location rdf:about="http://data.gmdsp.org.uk/id/manchester/parking/address/George_Street_(Lower)">
-    <rdfs:label>George Street (Lower)</rdfs:label>
-    <ns1:postal-code>SK6 5JD </ns1:postal-code>
-    <ns1:street-address>George Street (Lower)</ns1:street-address>
-  </ns1:Location>
-  <ns1:Location rdf:about="http://data.gmdsp.org.uk/id/manchester/parking/address/Bramley_Close">
-    <ns1:street-address>Bramley Close</ns1:street-address>
-    <ns1:postal-code>SK7 2DT </ns1:postal-code>
-    <rdfs:label>Bramley Close</rdfs:label>
-  </ns1:Location>
-  <ns1:Location rdf:about="http://data.gmdsp.org.uk/id/manchester/parking/address/Bruntwood_Park">
-    <ns1:street-address>Bruntwood Park</ns1:street-address>
-    <ns1:postal-code>SK8 1HX </ns1:postal-code>
-    <rdfs:label>Bruntwood Park</rdfs:label>
-  </ns1:Location>
-  <ns1:Location rdf:about="http://data.gmdsp.org.uk/id/manchester/parking/address/Church_Road">
-    <ns1:street-address>Church Road</ns1:street-address>
-    <rdfs:label>Church Road</rdfs:label>
-    <ns1:postal-code>SK8  4NQ </ns1:postal-code>
-  </ns1:Location>
-  <ns2:ParkingSite rdf:about="http://data.gmdsp.org.uk/id/manchester/parking/Buxton_Road____________(Library)">
-    <geo:lat>-2.22324988537657</geo:lat>
-    <ns2:totalNumberOfSpaces rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">25</ns2:totalNumberOfSpaces>
-    <ns1:hasAddress rdf:resource="http://data.gmdsp.org.uk/def/council/parking/address/Buxton_Road____________(Library)"/>
-    <rdfs:label>Buxton Road            (Library) car park</rdfs:label>
-    <geo:long>53.4554808286471</geo:long>
-  </ns2:ParkingSite>
-  <ns2:ParkingSite rdf:about="http://data.gmdsp.org.uk/id/manchester/parking/Sun_and_Castle">
-    <ns1:hasAddress rdf:resource="http://data.gmdsp.org.uk/def/council/parking/address/Sun_and_Castle"/>
-    <rdfs:label>Sun and Castle car park</rdfs:label>
-    <geo:lat>-2.15320160039332</geo:lat>
-    <ns2:totalNumberOfSpaces rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">18</ns2:totalNumberOfSpaces>
-    <geo:long>53.4050070452578</geo:long>
-  </ns2:ParkingSite>
-  <ns1:Location rdf:about="http://data.gmdsp.org.uk/id/manchester/parking/address/Back_Massie_Street_(North)">
-    <rdfs:label>Back Massie Street (North)</rdfs:label>
-    <ns1:postal-code>SK8 1DW </ns1:postal-code>
-    <ns1:street-address>Back Massie Street (North)</ns1:street-address>
-  </ns1:Location>
-  <ns1:Location rdf:about="http://data.gmdsp.org.uk/id/manchester/parking/address/Grand_Central_CP3">
-    <rdfs:label>Grand Central CP3</rdfs:label>
-    <ns1:street-address>Grand Central CP3</ns1:street-address>
-    <ns1:postal-code>SK3 9HZ</ns1:postal-code>
-  </ns1:Location>
-  <ns2:ParkingSite rdf:about="http://data.gmdsp.org.uk/id/manchester/parking/Fletcher_St.">
-    <geo:lat>-2.14788209338023</geo:lat>
-    <rdfs:label>Fletcher St. car park</rdfs:label>
-    <geo:long>53.4028612788717</geo:long>
-    <ns2:totalNumberOfSpaces rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">103</ns2:totalNumberOfSpaces>
-    <ns1:hasAddress rdf:resource="http://data.gmdsp.org.uk/def/council/parking/address/Fletcher_St."/>
-  </ns2:ParkingSite>
-  <ns2:ParkingSite rdf:about="http://data.gmdsp.org.uk/id/manchester/parking/Derby_Range">
-    <ns2:totalNumberOfSpaces rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">21</ns2:totalNumberOfSpaces>
-    <geo:lat>-2.12358671803916</geo:lat>
-    <geo:long>53.3877277122761</geo:long>
-    <rdfs:label>Derby Range car park</rdfs:label>
-    <ns1:hasAddress rdf:resource="http://data.gmdsp.org.uk/def/council/parking/address/Derby_Range"/>
-  </ns2:ParkingSite>
-  <ns2:ParkingSite rdf:about="http://data.gmdsp.org.uk/id/manchester/parking/Grand_Central_CP1">
-    <ns1:hasAddress rdf:resource="http://data.gmdsp.org.uk/def/council/parking/address/Grand_Central_CP1"/>
-    <geo:lat>-2.15456381692353</geo:lat>
-    <ns2:totalNumberOfSpaces rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">0</ns2:totalNumberOfSpaces>
-    <geo:long>53.4010718326919</geo:long>
-    <rdfs:label>Grand Central CP1 car park</rdfs:label>
-  </ns2:ParkingSite>
-  <ns2:ParkingSite rdf:about="http://data.gmdsp.org.uk/id/manchester/parking/Ashbrook_Lane">
-    <rdfs:label>Ashbrook Lane car park</rdfs:label>
-    <geo:long>53.4037574183619</geo:long>
-    <ns2:totalNumberOfSpaces rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">23</ns2:totalNumberOfSpaces>
-    <ns1:hasAddress rdf:resource="http://data.gmdsp.org.uk/def/council/parking/address/Ashbrook_Lane"/>
-    <geo:lat>-2.08201524159114</geo:lat>
-  </ns2:ParkingSite>
-  <ns2:ParkingSite rdf:about="http://data.gmdsp.org.uk/id/manchester/parking/Davenport_Road_">
-    <geo:long>53.4235111307856</geo:long>
-    <rdfs:label>Davenport Road  car park</rdfs:label>
-    <geo:lat>-2.19917322892005</geo:lat>
-    <ns2:totalNumberOfSpaces rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">29</ns2:totalNumberOfSpaces>
-    <ns1:hasAddress rdf:resource="http://data.gmdsp.org.uk/def/council/parking/address/Davenport_Road_"/>
-  </ns2:ParkingSite>
-  <ns2:ParkingSite rdf:about="http://data.gmdsp.org.uk/id/manchester/parking/James_Street_East_&amp;_West">
-    <rdfs:label>James Street East &amp; West car park</rdfs:label>
-    <ns1:hasAddress rdf:resource="http://data.gmdsp.org.uk/def/council/parking/address/James_Street_East_&amp;_West"/>
-    <geo:long>53.3991960067957</geo:long>
-    <ns2:totalNumberOfSpaces rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">46</ns2:totalNumberOfSpaces>
-    <geo:lat>-2.15967588279234</geo:lat>
-  </ns2:ParkingSite>
-  <ns2:ParkingSite rdf:about="http://data.gmdsp.org.uk/id/manchester/parking/Heald_Green_Health_Centre_and_Library">
-    <ns1:hasAddress rdf:resource="http://data.gmdsp.org.uk/def/council/parking/address/Heald_Green_Health_Centre_and_Library"/>
-    <rdfs:label>Heald Green Health Centre and Library car park</rdfs:label>
-    <geo:lat>-2.21322594166604</geo:lat>
-    <geo:long>53.3606519686514</geo:long>
-    <ns2:totalNumberOfSpaces rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">33</ns2:totalNumberOfSpaces>
-  </ns2:ParkingSite>
-  <ns2:ParkingSite rdf:about="http://data.gmdsp.org.uk/id/manchester/parking/Heaviley_Grove">
-    <ns1:hasAddress rdf:resource="http://data.gmdsp.org.uk/def/council/parking/address/Heaviley_Grove"/>
-    <rdfs:label>Heaviley Grove car park</rdfs:label>
-    <geo:lat>-2.17291620751439</geo:lat>
-    <geo:long>53.4088317823691</geo:long>
-    <ns2:totalNumberOfSpaces rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">10</ns2:totalNumberOfSpaces>
-  </ns2:ParkingSite>
-  <ns2:ParkingSite rdf:about="http://data.gmdsp.org.uk/id/manchester/parking/Town_Street">
-    <ns1:hasAddress rdf:resource="http://data.gmdsp.org.uk/def/council/parking/address/Town_Street"/>
-    <geo:long>53.4653109574106</geo:long>
-    <geo:lat>-2.16292838516542</geo:lat>
-    <rdfs:label>Town Street car park</rdfs:label>
-    <ns2:totalNumberOfSpaces rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">11</ns2:totalNumberOfSpaces>
-  </ns2:ParkingSite>
-  <ns1:Location rdf:about="http://data.gmdsp.org.uk/id/manchester/parking/address/Sun_and_Castle">
-    <rdfs:label>Sun and Castle</rdfs:label>
-    <ns1:street-address>Sun and Castle</ns1:street-address>
-    <ns1:postal-code>SK1  3EH </ns1:postal-code>
-  </ns1:Location>
-  <ns1:Location rdf:about="http://data.gmdsp.org.uk/id/manchester/parking/address/Church_Road/Woods_Lane">
-    <ns1:postal-code>SK8 7JU </ns1:postal-code>
-    <rdfs:label>Church Road/Woods Lane</rdfs:label>
-    <ns1:street-address>Church Road/Woods Lane</ns1:street-address>
-  </ns1:Location>
-  <ns2:ParkingSite rdf:about="http://data.gmdsp.org.uk/id/manchester/parking/Church_Road/Woods_Lane">
-    <ns1:hasAddress rdf:resource="http://data.gmdsp.org.uk/def/council/parking/address/Church_Road/Woods_Lane"/>
-    <geo:lat>-2.21974637701833</geo:lat>
-    <geo:long>53.3848490057935</geo:long>
-    <ns2:totalNumberOfSpaces rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">50</ns2:totalNumberOfSpaces>
-    <rdfs:label>Church Road/Woods Lane car park</rdfs:label>
-  </ns2:ParkingSite>
-  <ns1:Location rdf:about="http://data.gmdsp.org.uk/id/manchester/parking/address/Chapel_Street">
-    <rdfs:label>Chapel Street</rdfs:label>
-    <ns1:street-address>Chapel Street</ns1:street-address>
-    <ns1:postal-code>SK6 1NF </ns1:postal-code>
-  </ns1:Location>
-  <ns2:ParkingSite rdf:about="http://data.gmdsp.org.uk/id/manchester/parking/Meadway_West">
-    <ns2:totalNumberOfSpaces rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">99</ns2:totalNumberOfSpaces>
-    <geo:long>53.3992402924051</geo:long>
-    <ns1:hasAddress rdf:resource="http://data.gmdsp.org.uk/def/council/parking/address/Meadway_West"/>
-    <geo:lat>-2.23680469307008</geo:lat>
-    <rdfs:label>Meadway West car park</rdfs:label>
-  </ns2:ParkingSite>
-  <ns1:Location rdf:about="http://data.gmdsp.org.uk/id/manchester/parking/address/Beech_Avenue">
-    <rdfs:label>Beech Avenue</rdfs:label>
-    <ns1:postal-code>SK7 4QR </ns1:postal-code>
-    <ns1:street-address>Beech Avenue</ns1:street-address>
-  </ns1:Location>
-  <ns1:Location rdf:about="http://data.gmdsp.org.uk/id/manchester/parking/address/Bakewell_Street">
-    <rdfs:label>Bakewell Street</rdfs:label>
-    <ns1:postal-code>SK3 9HA </ns1:postal-code>
-    <ns1:street-address>Bakewell Street</ns1:street-address>
-  </ns1:Location>
-  <ns2:ParkingSite rdf:about="http://data.gmdsp.org.uk/id/manchester/parking/Caroline_Street">
-    <geo:long>53.3969233001753</geo:long>
-    <geo:lat>-2.16127904429083</geo:lat>
-    <ns1:hasAddress rdf:resource="http://data.gmdsp.org.uk/def/council/parking/address/Caroline_Street"/>
-    <ns2:totalNumberOfSpaces rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">73</ns2:totalNumberOfSpaces>
-    <rdfs:label>Caroline Street car park</rdfs:label>
-  </ns2:ParkingSite>
-  <ns2:ParkingSite rdf:about="http://data.gmdsp.org.uk/id/manchester/parking/Ritz_Cinema">
-    <ns2:totalNumberOfSpaces rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">87</ns2:totalNumberOfSpaces>
-    <geo:long>53.4030289341693</geo:long>
-    <ns1:hasAddress rdf:resource="http://data.gmdsp.org.uk/def/council/parking/address/Ritz_Cinema"/>
-    <geo:lat>-2.14846549177866</geo:lat>
-    <rdfs:label>Ritz Cinema car park</rdfs:label>
-  </ns2:ParkingSite>
-  <ns2:ParkingSite rdf:about="http://data.gmdsp.org.uk/id/manchester/parking/Marsland_Terrace">
+  <parking:ParkingSite rdf:about="http://data.gmdsp.org.uk/id/stockport/parking/Springfield_Avenue">
+    <geo:long>53.4585430701699</geo:long>
+    <geo:lat>-2.17280439666943</geo:lat>
+    <rdfs:label>Springfield Avenue Car Park</rdfs:label>
+    <vcard:hasAddress>
+      <vcard:Location rdf:about="http://data.gmdsp.org.uk/id/stockport/parking/address/Springfield_Avenue">
+        <rdfs:label>Springfield Avenue</rdfs:label>
+        <vcard:street-address>Springfield Avenue</vcard:street-address>
+        <vcard:postal-code>SK6 7AL </vcard:postal-code>
+      </vcard:Location>
+    </vcard:hasAddress>
+    <parking:totalNumberOfSpaces rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">9</parking:totalNumberOfSpaces>
+  </parking:ParkingSite>
+  <parking:ParkingSite rdf:about="http://data.gmdsp.org.uk/id/stockport/parking/Marsland_Terrace">
+    <parking:totalNumberOfSpaces rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">9</parking:totalNumberOfSpaces>
     <geo:long>53.4148650188011</geo:long>
-    <ns2:totalNumberOfSpaces rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">9</ns2:totalNumberOfSpaces>
     <geo:lat>-2.16002241034364</geo:lat>
-    <ns1:hasAddress rdf:resource="http://data.gmdsp.org.uk/def/council/parking/address/Marsland_Terrace"/>
-    <rdfs:label>Marsland Terrace car park</rdfs:label>
-  </ns2:ParkingSite>
-  <ns2:ParkingSite rdf:about="http://data.gmdsp.org.uk/id/manchester/parking/Higher_Barlow_Row">
-    <ns1:hasAddress rdf:resource="http://data.gmdsp.org.uk/def/council/parking/address/Higher_Barlow_Row"/>
-    <geo:lat>-2.15445184905252</geo:lat>
-    <ns2:totalNumberOfSpaces rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">8</ns2:totalNumberOfSpaces>
-    <geo:long>53.4058505215656</geo:long>
-    <rdfs:label>Higher Barlow Row car park</rdfs:label>
-  </ns2:ParkingSite>
-  <ns1:Location rdf:about="http://data.gmdsp.org.uk/id/manchester/parking/address/Commercial_Road_West">
-    <rdfs:label>Commercial Road West</rdfs:label>
-    <ns1:street-address>Commercial Road West</ns1:street-address>
-    <ns1:postal-code>SK7 4BG </ns1:postal-code>
-  </ns1:Location>
-  <ns2:ParkingSite rdf:about="http://data.gmdsp.org.uk/id/manchester/parking/Arnold_Street">
-    <rdfs:label>Arnold Street car park</rdfs:label>
-    <geo:long>53.3977384599076</geo:long>
-    <ns1:hasAddress rdf:resource="http://data.gmdsp.org.uk/def/council/parking/address/Arnold_Street"/>
-    <ns2:totalNumberOfSpaces rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">10</ns2:totalNumberOfSpaces>
-    <geo:lat>-2.16203702282459</geo:lat>
-  </ns2:ParkingSite>
-  <ns2:ParkingSite rdf:about="http://data.gmdsp.org.uk/id/manchester/parking/Commercial_Road_West">
-    <geo:lat>-2.19285980607074</geo:lat>
-    <ns1:hasAddress rdf:resource="http://data.gmdsp.org.uk/def/council/parking/address/Commercial_Road_West"/>
-    <rdfs:label>Commercial Road West car park</rdfs:label>
-    <geo:long>53.4237089348963</geo:long>
-    <ns2:totalNumberOfSpaces rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">21</ns2:totalNumberOfSpaces>
-  </ns2:ParkingSite>
-  <ns2:ParkingSite rdf:about="http://data.gmdsp.org.uk/id/manchester/parking/Mary_Street">
-    <geo:long>53.3687217428296</geo:long>
-    <geo:lat>-2.17063335089223</geo:lat>
-    <ns2:totalNumberOfSpaces rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">33</ns2:totalNumberOfSpaces>
-    <ns1:hasAddress rdf:resource="http://data.gmdsp.org.uk/def/council/parking/address/Mary_Street"/>
-    <rdfs:label>Mary Street car park</rdfs:label>
-  </ns2:ParkingSite>
-  <ns2:ParkingSite rdf:about="http://data.gmdsp.org.uk/id/manchester/parking/Heron_Street">
-    <rdfs:label>Heron Street car park</rdfs:label>
-    <geo:long>53.3961856750566</geo:long>
-    <ns2:totalNumberOfSpaces rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">18</ns2:totalNumberOfSpaces>
-    <geo:lat>-2.16023152928216</geo:lat>
-    <ns1:hasAddress rdf:resource="http://data.gmdsp.org.uk/def/council/parking/address/Heron_Street"/>
-  </ns2:ParkingSite>
-  <ns2:ParkingSite rdf:about="http://data.gmdsp.org.uk/id/manchester/parking/Longhurst_Lane">
-    <ns2:totalNumberOfSpaces rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">14</ns2:totalNumberOfSpaces>
-    <ns1:hasAddress rdf:resource="http://data.gmdsp.org.uk/def/council/parking/address/Longhurst_Lane"/>
-    <geo:long>53.4657993684126</geo:long>
-    <geo:lat>-2.16366934007088</geo:lat>
-    <rdfs:label>Longhurst Lane car park</rdfs:label>
-  </ns2:ParkingSite>
-  <ns1:Location rdf:about="http://data.gmdsp.org.uk/id/manchester/parking/address/Cheviot_Close">
-    <ns1:street-address>Cheviot Close</ns1:street-address>
-    <rdfs:label>Cheviot Close</rdfs:label>
-    <ns1:postal-code>SK4 2LL </ns1:postal-code>
-  </ns1:Location>
-  <ns2:ParkingSite rdf:about="http://data.gmdsp.org.uk/id/manchester/parking/Meadway_East">
-    <ns1:hasAddress rdf:resource="http://data.gmdsp.org.uk/def/council/parking/address/Meadway_East"/>
-    <rdfs:label>Meadway East car park</rdfs:label>
-    <geo:long>53.3996996820648</geo:long>
-    <ns2:totalNumberOfSpaces rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">139</ns2:totalNumberOfSpaces>
-    <geo:lat>-2.23640730583364</geo:lat>
-  </ns2:ParkingSite>
-  <ns2:ParkingSite rdf:about="http://data.gmdsp.org.uk/id/manchester/parking/Buxton_Road____________(Medical_Centre)">
-    <geo:lat>-2.2226211287295</geo:lat>
-    <ns1:hasAddress rdf:resource="http://data.gmdsp.org.uk/def/council/parking/address/Buxton_Road____________(Medical_Centre)"/>
-    <ns2:totalNumberOfSpaces rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">31</ns2:totalNumberOfSpaces>
+    <vcard:hasAddress>
+      <vcard:Location rdf:about="http://data.gmdsp.org.uk/id/stockport/parking/address/Marsland_Terrace">
+        <rdfs:label>Marsland Terrace</rdfs:label>
+        <vcard:postal-code>SK1 4QA </vcard:postal-code>
+        <vcard:street-address>Marsland Terrace</vcard:street-address>
+      </vcard:Location>
+    </vcard:hasAddress>
+    <rdfs:label>Marsland Terrace Car Park</rdfs:label>
+  </parking:ParkingSite>
+  <parking:ParkingSite rdf:about="http://data.gmdsp.org.uk/id/stockport/parking/Buxton_Road____________(Medical_Centre)">
     <geo:long>53.45328521477</geo:long>
-    <rdfs:label>Buxton Road            (Medical Centre) car park</rdfs:label>
-  </ns2:ParkingSite>
-  <ns1:Location rdf:about="http://data.gmdsp.org.uk/id/manchester/parking/address/Grafton_Street">
-    <ns1:street-address>Grafton Street</ns1:street-address>
-    <rdfs:label>Grafton Street</rdfs:label>
-    <ns1:postal-code>SK4 1QX </ns1:postal-code>
-  </ns1:Location>
-  <ns1:Location rdf:about="http://data.gmdsp.org.uk/id/manchester/parking/address/Caroline_Street">
-    <ns1:street-address>Caroline Street</ns1:street-address>
-    <ns1:postal-code>SK3 9DJ</ns1:postal-code>
-    <rdfs:label>Caroline Street</rdfs:label>
-  </ns1:Location>
-  <ns2:ParkingSite rdf:about="http://data.gmdsp.org.uk/id/manchester/parking/Iceland_(formerly_Somerfields_&amp;_Kwik_Save)">
-    <ns2:totalNumberOfSpaces rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">90</ns2:totalNumberOfSpaces>
-    <rdfs:label>Iceland (formerly Somerfields &amp; Kwik Save) car park</rdfs:label>
-    <geo:lat>-2.12009838888337</geo:lat>
-    <geo:long>53.4360611245851</geo:long>
-    <ns1:hasAddress rdf:resource="http://data.gmdsp.org.uk/def/council/parking/address/Iceland_(formerly_Somerfields_&amp;_Kwik_Save)"/>
-  </ns2:ParkingSite>
-  <ns2:ParkingSite rdf:about="http://data.gmdsp.org.uk/id/manchester/parking/Bramhall_Park">
-    <rdfs:label>Bramhall Park car park</rdfs:label>
-    <geo:long>53.3971041687891</geo:long>
-    <ns1:hasAddress rdf:resource="http://data.gmdsp.org.uk/def/council/parking/address/Bramhall_Park"/>
-    <geo:lat>-2.20821487024783</geo:lat>
-    <ns2:totalNumberOfSpaces rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">78</ns2:totalNumberOfSpaces>
-  </ns2:ParkingSite>
-  <ns2:ParkingSite rdf:about="http://data.gmdsp.org.uk/id/manchester/parking/Massie_Street_East">
-    <ns2:totalNumberOfSpaces rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">191</ns2:totalNumberOfSpaces>
-    <ns1:hasAddress rdf:resource="http://data.gmdsp.org.uk/def/council/parking/address/Massie_Street_East"/>
-    <geo:long>53.368961396894</geo:long>
-    <rdfs:label>Massie Street East car park</rdfs:label>
-    <geo:lat>-2.17296251213833</geo:lat>
-  </ns2:ParkingSite>
-  <ns2:ParkingSite rdf:about="http://data.gmdsp.org.uk/id/manchester/parking/Armoury_St.">
-    <rdfs:label>Armoury St. car park</rdfs:label>
-    <ns1:hasAddress rdf:resource="http://data.gmdsp.org.uk/def/council/parking/address/Armoury_St."/>
-    <geo:long>53.4006545992291</geo:long>
-    <ns2:totalNumberOfSpaces rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">61</ns2:totalNumberOfSpaces>
-    <geo:lat>-2.1564847655456</geo:lat>
-  </ns2:ParkingSite>
-  <ns2:ParkingSite rdf:about="http://data.gmdsp.org.uk/id/manchester/parking/Etherow_Country_Pk.">
-    <rdfs:label>Etherow Country Pk. car park</rdfs:label>
-    <geo:long>53.4655884358365</geo:long>
-    <ns2:totalNumberOfSpaces rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">91</ns2:totalNumberOfSpaces>
-    <geo:lat>-2.13903939026614</geo:lat>
-    <ns1:hasAddress rdf:resource="http://data.gmdsp.org.uk/def/council/parking/address/Etherow_Country_Pk."/>
-  </ns2:ParkingSite>
-  <ns1:Location rdf:about="http://data.gmdsp.org.uk/id/manchester/parking/address/Church_Street">
-    <ns1:street-address>Church Street</ns1:street-address>
-    <rdfs:label>Church Street</rdfs:label>
-    <ns1:postal-code>SK8 1PX </ns1:postal-code>
-  </ns1:Location>
-  <ns2:ParkingSite rdf:about="http://data.gmdsp.org.uk/id/manchester/parking/Brabyns_Brow">
-    <geo:long>53.4646786549985</geo:long>
-    <ns1:hasAddress rdf:resource="http://data.gmdsp.org.uk/def/council/parking/address/Brabyns_Brow"/>
-    <geo:lat>-2.16145099833652</geo:lat>
-    <ns2:totalNumberOfSpaces rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">76</ns2:totalNumberOfSpaces>
-    <rdfs:label>Brabyns Brow car park</rdfs:label>
-  </ns2:ParkingSite>
-  <ns1:Location rdf:about="http://data.gmdsp.org.uk/id/manchester/parking/address/Etherow_Country_Pk.">
-    <rdfs:label>Etherow Country Pk.</rdfs:label>
-    <ns1:street-address>Etherow Country Pk.</ns1:street-address>
-    <ns1:postal-code>SK6 5JD </ns1:postal-code>
-  </ns1:Location>
-  <ns2:ParkingSite rdf:about="http://data.gmdsp.org.uk/id/manchester/parking/Hulme_St">
-    <rdfs:label>Hulme St car park</rdfs:label>
-    <ns1:hasAddress rdf:resource="http://data.gmdsp.org.uk/def/council/parking/address/Hulme_St"/>
-    <geo:long>53.4128368857926</geo:long>
-    <geo:lat>-2.159973573285</geo:lat>
-    <ns2:totalNumberOfSpaces rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">20</ns2:totalNumberOfSpaces>
-  </ns2:ParkingSite>
-  <ns1:Location rdf:about="http://data.gmdsp.org.uk/id/manchester/parking/address/Rupert_Street">
-    <rdfs:label>Rupert Street</rdfs:label>
-    <ns1:postal-code>SK5 6DH </ns1:postal-code>
-    <ns1:street-address>Rupert Street</ns1:street-address>
-  </ns1:Location>
-  <ns2:ParkingSite rdf:about="http://data.gmdsp.org.uk/id/manchester/parking/Bamford_Street">
-    <geo:lat>-2.15231614650911</geo:lat>
-    <ns1:hasAddress rdf:resource="http://data.gmdsp.org.uk/def/council/parking/address/Bamford_Street"/>
-    <ns2:totalNumberOfSpaces rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">10</ns2:totalNumberOfSpaces>
-    <rdfs:label>Bamford Street car park</rdfs:label>
-    <geo:long>53.4049897265336</geo:long>
-  </ns2:ParkingSite>
-  <ns2:ParkingSite rdf:about="http://data.gmdsp.org.uk/id/manchester/parking/Grand_Central_CP2">
-    <geo:long>53.3963464225417</geo:long>
-    <geo:lat>-2.13260924803983</geo:lat>
-    <ns2:totalNumberOfSpaces rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">0</ns2:totalNumberOfSpaces>
-    <geo:long>53.4005326702786</geo:long>
-    <geo:lat>-2.15226335945634</geo:lat>
-    <rdfs:label>Grand Central CP2 car park</rdfs:label>
-    <ns1:hasAddress rdf:resource="http://data.gmdsp.org.uk/def/council/parking/address/Grand_Central_CP2"/>
-  </ns2:ParkingSite>
-  <ns2:ParkingSite rdf:about="http://data.gmdsp.org.uk/id/manchester/parking/Church_Road">
-    <rdfs:label>Church Road car park</rdfs:label>
-    <ns1:hasAddress rdf:resource="http://data.gmdsp.org.uk/def/council/parking/address/Church_Road"/>
-    <geo:lat>-2.17674507562566</geo:lat>
-    <ns2:totalNumberOfSpaces rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">21</ns2:totalNumberOfSpaces>
-    <geo:long>53.3555136766529</geo:long>
-  </ns2:ParkingSite>
-  <ns1:Location rdf:about="http://data.gmdsp.org.uk/id/manchester/parking/address/Station_Approach">
-    <ns1:street-address>Station Approach</ns1:street-address>
-    <ns1:postal-code>SK8 7AA </ns1:postal-code>
-    <rdfs:label>Station Approach</rdfs:label>
-  </ns1:Location>
-  <ns2:ParkingSite rdf:about="http://data.gmdsp.org.uk/id/manchester/parking/Rupert_Street">
-    <ns1:hasAddress rdf:resource="http://data.gmdsp.org.uk/def/council/parking/address/Rupert_Street"/>
-    <ns2:totalNumberOfSpaces rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">28</ns2:totalNumberOfSpaces>
-    <rdfs:label>Rupert Street car park</rdfs:label>
-    <geo:long>53.4003227707909</geo:long>
-    <geo:lat>-2.10269349009749</geo:lat>
-  </ns2:ParkingSite>
-  <ns2:ParkingSite rdf:about="http://data.gmdsp.org.uk/id/manchester/parking/Greystokes/Holly_Street">
-    <rdfs:label>Greystokes/Holly Street car park</rdfs:label>
-    <ns1:hasAddress rdf:resource="http://data.gmdsp.org.uk/def/council/parking/address/Greystokes/Holly_Street"/>
-    <ns2:totalNumberOfSpaces rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">16</ns2:totalNumberOfSpaces>
-    <geo:long>53.410764915422</geo:long>
-    <geo:lat>-2.1500949175202</geo:lat>
-  </ns2:ParkingSite>
-  <ns2:ParkingSite rdf:about="http://data.gmdsp.org.uk/id/manchester/parking/Lavenders_Brow">
-    <ns1:hasAddress rdf:resource="http://data.gmdsp.org.uk/def/council/parking/address/Lavenders_Brow"/>
-    <rdfs:label>Lavenders Brow car park</rdfs:label>
-    <geo:lat>-2.14765739463744</geo:lat>
-    <ns2:totalNumberOfSpaces rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">8</ns2:totalNumberOfSpaces>
-    <geo:long>53.4060094310811</geo:long>
-  </ns2:ParkingSite>
-  <ns2:ParkingSite rdf:about="http://data.gmdsp.org.uk/id/manchester/parking/Stopford_House_(Multi-Storey)">
-    <rdfs:label>Stopford House (Multi-Storey) car park</rdfs:label>
-    <geo:lat>-2.15201746468329</geo:lat>
-    <ns1:hasAddress rdf:resource="http://data.gmdsp.org.uk/def/council/parking/address/Stopford_House_(Multi-Storey)"/>
-    <ns2:totalNumberOfSpaces rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">486</ns2:totalNumberOfSpaces>
-    <geo:long>53.4029570889578</geo:long>
-  </ns2:ParkingSite>
-  <ns2:ParkingSite rdf:about="http://data.gmdsp.org.uk/id/manchester/parking/George_Street_(Upper)">
-    <ns2:totalNumberOfSpaces rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">11</ns2:totalNumberOfSpaces>
-    <ns1:hasAddress rdf:resource="http://data.gmdsp.org.uk/def/council/parking/address/George_Street_(Upper)"/>
-    <geo:lat>-2.13725909042835</geo:lat>
-    <geo:long>53.4663588014974</geo:long>
-    <rdfs:label>George Street (Upper) car park</rdfs:label>
-  </ns2:ParkingSite>
-  <ns1:Location rdf:about="http://data.gmdsp.org.uk/id/manchester/parking/address/Hopes_Carr">
-    <ns1:postal-code>SK1  1YS </ns1:postal-code>
-    <rdfs:label>Hopes Carr</rdfs:label>
-    <ns1:street-address>Hopes Carr</ns1:street-address>
-  </ns1:Location>
-  <ns2:ParkingSite rdf:about="http://data.gmdsp.org.uk/id/manchester/parking/Chadwick_Street">
-    <ns1:hasAddress rdf:resource="http://data.gmdsp.org.uk/def/council/parking/address/Chadwick_Street"/>
-    <geo:lat>-2.17459261990722</geo:lat>
-    <geo:long>53.4599733194086</geo:long>
-    <ns2:totalNumberOfSpaces rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">95</ns2:totalNumberOfSpaces>
-    <rdfs:label>Chadwick Street car park</rdfs:label>
-  </ns2:ParkingSite>
-  <ns1:Location rdf:about="http://data.gmdsp.org.uk/id/manchester/parking/address/Brabyns_Brow">
-    <ns1:street-address>Brabyns Brow</ns1:street-address>
-    <rdfs:label>Brabyns Brow</rdfs:label>
-    <ns1:postal-code>SK6 7DA </ns1:postal-code>
-  </ns1:Location>
-  <ns2:ParkingSite rdf:about="http://data.gmdsp.org.uk/id/manchester/parking/Woodley_Precinct">
-    <geo:long>53.4376354376876</geo:long>
-    <geo:lat>-2.11930901839878</geo:lat>
-    <ns2:totalNumberOfSpaces rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">18</ns2:totalNumberOfSpaces>
-    <ns1:hasAddress rdf:resource="http://data.gmdsp.org.uk/def/council/parking/address/Woodley_Precinct"/>
-    <rdfs:label>Woodley Precinct car park</rdfs:label>
-  </ns2:ParkingSite>
-  <ns1:Location rdf:about="http://data.gmdsp.org.uk/id/manchester/parking/address/Lomas_Street">
-    <ns1:street-address>Lomas Street</ns1:street-address>
-    <rdfs:label>Lomas Street</rdfs:label>
-    <ns1:postal-code>SK3 9DJ </ns1:postal-code>
-  </ns1:Location>
-  <ns1:Location rdf:about="http://data.gmdsp.org.uk/id/manchester/parking/address/Redhouse_Lane">
-    <ns1:postal-code>SK6 1AS </ns1:postal-code>
-    <rdfs:label>Redhouse Lane</rdfs:label>
-    <ns1:street-address>Redhouse Lane</ns1:street-address>
-  </ns1:Location>
-  <ns1:Location rdf:about="http://data.gmdsp.org.uk/id/manchester/parking/address/Werneth_Street">
-    <ns1:street-address>Werneth Street</ns1:street-address>
-    <rdfs:label>Werneth Street</rdfs:label>
-    <ns1:postal-code>SK1  2QE </ns1:postal-code>
-  </ns1:Location>
-  <ns1:Location rdf:about="http://data.gmdsp.org.uk/id/manchester/parking/address/Chadwick_Street">
-    <rdfs:label>Chadwick Street</rdfs:label>
-    <ns1:street-address>Chadwick Street</ns1:street-address>
-    <ns1:postal-code>SK6 6BY </ns1:postal-code>
-  </ns1:Location>
-  <ns2:ParkingSite rdf:about="http://data.gmdsp.org.uk/id/manchester/parking/Mellor_Road">
-    <rdfs:label>Mellor Road car park</rdfs:label>
-    <geo:long>53.3844028358964</geo:long>
-    <ns1:hasAddress rdf:resource="http://data.gmdsp.org.uk/def/council/parking/address/Mellor_Road"/>
-    <ns2:totalNumberOfSpaces rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">65</ns2:totalNumberOfSpaces>
-    <geo:lat>-2.20700286131397</geo:lat>
-  </ns2:ParkingSite>
-  <ns2:ParkingSite rdf:about="http://data.gmdsp.org.uk/id/manchester/parking/Torkington_Park">
-    <rdfs:label>Torkington Park car park</rdfs:label>
-    <ns1:hasAddress rdf:resource="http://data.gmdsp.org.uk/def/council/parking/address/Torkington_Park"/>
-    <geo:lat>-2.20416168563813</geo:lat>
-    <geo:long>53.4299894824446</geo:long>
-    <ns2:totalNumberOfSpaces rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">65</ns2:totalNumberOfSpaces>
-  </ns2:ParkingSite>
-  <ns2:ParkingSite rdf:about="http://data.gmdsp.org.uk/id/manchester/parking/Lomas_Street">
-    <ns2:totalNumberOfSpaces rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">6</ns2:totalNumberOfSpaces>
-    <ns1:hasAddress rdf:resource="http://data.gmdsp.org.uk/def/council/parking/address/Lomas_Street"/>
-    <geo:lat>-2.1606838123337</geo:lat>
-    <rdfs:label>Lomas Street car park</rdfs:label>
-    <geo:long>53.3974356204672</geo:long>
-  </ns2:ParkingSite>
-  <ns1:Location rdf:about="http://data.gmdsp.org.uk/id/manchester/parking/address/Churchgate">
-    <rdfs:label>Churchgate</rdfs:label>
-    <ns1:street-address>Churchgate</ns1:street-address>
-    <ns1:postal-code>SK1 2LX </ns1:postal-code>
-  </ns1:Location>
-  <ns2:ParkingSite rdf:about="http://data.gmdsp.org.uk/id/manchester/parking/Bruntwood_Park">
-    <rdfs:label>Bruntwood Park car park</rdfs:label>
-    <ns1:hasAddress rdf:resource="http://data.gmdsp.org.uk/def/council/parking/address/Bruntwood_Park"/>
-    <ns2:totalNumberOfSpaces rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">172</ns2:totalNumberOfSpaces>
-    <geo:long>53.3720782442745</geo:long>
-    <geo:lat>-2.1963473846375</geo:lat>
-  </ns2:ParkingSite>
-  <ns2:ParkingSite rdf:about="http://data.gmdsp.org.uk/id/manchester/parking/Back_Massie_Street_(North)">
-    <ns2:totalNumberOfSpaces rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">16</ns2:totalNumberOfSpaces>
-    <rdfs:label>Back Massie Street (North) car park</rdfs:label>
-    <geo:long>53.3678265843654</geo:long>
-    <ns1:hasAddress rdf:resource="http://data.gmdsp.org.uk/def/council/parking/address/Back_Massie_Street_(North)"/>
-    <geo:lat>-2.17343131795733</geo:lat>
-  </ns2:ParkingSite>
-  <ns1:Location rdf:about="http://data.gmdsp.org.uk/id/manchester/parking/address/Belmont_Street_(1)">
-    <ns1:street-address>Belmont Street (1)</ns1:street-address>
-    <ns1:postal-code>SK4 1LX </ns1:postal-code>
-    <rdfs:label>Belmont Street (1)</rdfs:label>
-  </ns1:Location>
-  <ns2:ParkingSite rdf:about="http://data.gmdsp.org.uk/id/manchester/parking/Chapel_Street">
-    <ns1:hasAddress rdf:resource="http://data.gmdsp.org.uk/def/council/parking/address/Chapel_Street"/>
-    <ns2:totalNumberOfSpaces rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">13</ns2:totalNumberOfSpaces>
-    <rdfs:label>Chapel Street car park</rdfs:label>
-    <geo:long>53.4385493352894</geo:long>
+    <vcard:hasAddress>
+      <vcard:Location rdf:about="http://data.gmdsp.org.uk/id/stockport/parking/address/Buxton_Road____________(Medical_Centre)">
+        <vcard:street-address>Buxton Road            (Medical Centre)</vcard:street-address>
+        <rdfs:label>Buxton Road            (Medical Centre)</rdfs:label>
+        <vcard:postal-code>SK6 8DX </vcard:postal-code>
+      </vcard:Location>
+    </vcard:hasAddress>
+    <rdfs:label>Buxton Road            (Medical Centre) Car Park</rdfs:label>
+    <parking:totalNumberOfSpaces rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">31</parking:totalNumberOfSpaces>
+    <geo:lat>-2.2226211287295</geo:lat>
+  </parking:ParkingSite>
+  <parking:ParkingSite rdf:about="http://data.gmdsp.org.uk/id/stockport/parking/Chapel_Street">
+    <rdfs:label>Chapel Street Car Park</rdfs:label>
     <geo:lat>-2.11934529492656</geo:lat>
-  </ns2:ParkingSite>
-  <ns1:Location rdf:about="http://data.gmdsp.org.uk/id/manchester/parking/address/Davenport_Road_">
-    <rdfs:label>Davenport Road </rdfs:label>
-    <ns1:street-address>Davenport Road </ns1:street-address>
-    <ns1:postal-code>SK7 4EZ </ns1:postal-code>
-  </ns1:Location>
-  <ns1:Location rdf:about="http://data.gmdsp.org.uk/id/manchester/parking/address/Lord_Street_1">
-    <ns1:postal-code>SK1  3NA </ns1:postal-code>
-    <ns1:street-address>Lord Street 1</ns1:street-address>
-    <rdfs:label>Lord Street 1</rdfs:label>
-  </ns1:Location>
-  <ns2:ParkingSite rdf:about="http://data.gmdsp.org.uk/id/manchester/parking/Arundel_Avenue">
-    <geo:lat>-2.20902693081436</geo:lat>
-    <rdfs:label>Arundel Avenue car park</rdfs:label>
-    <geo:long>53.4212518150957</geo:long>
-    <ns1:hasAddress rdf:resource="http://data.gmdsp.org.uk/def/council/parking/address/Arundel_Avenue"/>
-    <ns2:totalNumberOfSpaces rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">45</ns2:totalNumberOfSpaces>
-  </ns2:ParkingSite>
-  <ns1:Location rdf:about="http://data.gmdsp.org.uk/id/manchester/parking/address/Springfield_Avenue">
-    <rdfs:label>Springfield Avenue</rdfs:label>
-    <ns1:street-address>Springfield Avenue</ns1:street-address>
-    <ns1:postal-code>SK6 7AL </ns1:postal-code>
-  </ns1:Location>
-  <ns2:ParkingSite rdf:about="http://data.gmdsp.org.uk/id/manchester/parking/York_Street">
-    <rdfs:label>York Street car park</rdfs:label>
-    <ns1:hasAddress rdf:resource="http://data.gmdsp.org.uk/def/council/parking/address/York_Street"/>
+    <parking:totalNumberOfSpaces rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">13</parking:totalNumberOfSpaces>
+    <geo:long>53.4385493352894</geo:long>
+    <vcard:hasAddress>
+      <vcard:Location rdf:about="http://data.gmdsp.org.uk/id/stockport/parking/address/Chapel_Street">
+        <rdfs:label>Chapel Street</rdfs:label>
+        <vcard:street-address>Chapel Street</vcard:street-address>
+        <vcard:postal-code>SK6 1NF </vcard:postal-code>
+      </vcard:Location>
+    </vcard:hasAddress>
+  </parking:ParkingSite>
+  <parking:ParkingSite rdf:about="http://data.gmdsp.org.uk/id/stockport/parking/Fletcher_St.">
+    <geo:lat>-2.14788209338023</geo:lat>
+    <vcard:hasAddress>
+      <vcard:Location rdf:about="http://data.gmdsp.org.uk/id/stockport/parking/address/Fletcher_St.">
+        <vcard:postal-code>SK1 1DH </vcard:postal-code>
+        <vcard:street-address>Fletcher St.</vcard:street-address>
+        <rdfs:label>Fletcher St.</rdfs:label>
+      </vcard:Location>
+    </vcard:hasAddress>
+    <geo:long>53.4028612788717</geo:long>
+    <parking:totalNumberOfSpaces rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">103</parking:totalNumberOfSpaces>
+    <rdfs:label>Fletcher St. Car Park</rdfs:label>
+  </parking:ParkingSite>
+  <parking:ParkingSite rdf:about="http://data.gmdsp.org.uk/id/stockport/parking/James_Street_East_&amp;_West">
+    <vcard:hasAddress>
+      <vcard:Location rdf:about="http://data.gmdsp.org.uk/id/stockport/parking/address/James_Street_East_&amp;_West">
+        <vcard:street-address>James Street East &amp; West</vcard:street-address>
+        <rdfs:label>James Street East &amp; West</rdfs:label>
+        <vcard:postal-code>SK3 9AT </vcard:postal-code>
+      </vcard:Location>
+    </vcard:hasAddress>
+    <geo:lat>-2.15967588279234</geo:lat>
+    <geo:long>53.3991960067957</geo:long>
+    <rdfs:label>James Street East &amp; West Car Park</rdfs:label>
+    <parking:totalNumberOfSpaces rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">46</parking:totalNumberOfSpaces>
+  </parking:ParkingSite>
+  <parking:ParkingSite rdf:about="http://data.gmdsp.org.uk/id/stockport/parking/Heald_Green_Health_Centre_and_Library">
+    <rdfs:label>Heald Green Health Centre and Library Car Park</rdfs:label>
+    <parking:totalNumberOfSpaces rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">33</parking:totalNumberOfSpaces>
+    <geo:lat>-2.21322594166604</geo:lat>
+    <vcard:hasAddress>
+      <vcard:Location rdf:about="http://data.gmdsp.org.uk/id/stockport/parking/address/Heald_Green_Health_Centre_and_Library">
+        <rdfs:label>Heald Green Health Centre and Library</rdfs:label>
+        <vcard:postal-code>SK8 3JB </vcard:postal-code>
+        <vcard:street-address>Heald Green Health Centre and Library</vcard:street-address>
+      </vcard:Location>
+    </vcard:hasAddress>
+    <geo:long>53.3606519686514</geo:long>
+  </parking:ParkingSite>
+  <parking:ParkingSite rdf:about="http://data.gmdsp.org.uk/id/stockport/parking/Armoury_St.">
+    <parking:totalNumberOfSpaces rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">61</parking:totalNumberOfSpaces>
+    <vcard:hasAddress>
+      <vcard:Location rdf:about="http://data.gmdsp.org.uk/id/stockport/parking/address/Armoury_St.">
+        <vcard:street-address>Armoury St.</vcard:street-address>
+        <vcard:postal-code>SK3 9DR </vcard:postal-code>
+        <rdfs:label>Armoury St.</rdfs:label>
+      </vcard:Location>
+    </vcard:hasAddress>
+    <geo:lat>-2.1564847655456</geo:lat>
+    <rdfs:label>Armoury St. Car Park</rdfs:label>
+    <geo:long>53.4006545992291</geo:long>
+  </parking:ParkingSite>
+  <parking:ParkingSite rdf:about="http://data.gmdsp.org.uk/id/stockport/parking/York_Street">
+    <rdfs:label>York Street Car Park</rdfs:label>
+    <vcard:hasAddress>
+      <vcard:Location rdf:about="http://data.gmdsp.org.uk/id/stockport/parking/address/York_Street">
+        <rdfs:label>York Street</rdfs:label>
+        <vcard:postal-code>SK3 9AD </vcard:postal-code>
+        <vcard:street-address>York Street</vcard:street-address>
+      </vcard:Location>
+    </vcard:hasAddress>
+    <parking:totalNumberOfSpaces rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">26</parking:totalNumberOfSpaces>
     <geo:lat>-2.15863975004911</geo:lat>
     <geo:long>53.3984540542733</geo:long>
-    <ns2:totalNumberOfSpaces rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">26</ns2:totalNumberOfSpaces>
-  </ns2:ParkingSite>
-  <ns2:ParkingSite rdf:about="http://data.gmdsp.org.uk/id/manchester/parking/Werneth_Street">
-    <ns2:totalNumberOfSpaces rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">12</ns2:totalNumberOfSpaces>
-    <rdfs:label>Werneth Street car park</rdfs:label>
-    <ns1:hasAddress rdf:resource="http://data.gmdsp.org.uk/def/council/parking/address/Werneth_Street"/>
-    <geo:lat>-2.13657263129155</geo:lat>
-    <geo:long>53.4137502188202</geo:long>
-  </ns2:ParkingSite>
-  <ns2:ParkingSite rdf:about="http://data.gmdsp.org.uk/id/manchester/parking/Arnold_St/Hardcastle_Road_">
-    <ns2:totalNumberOfSpaces rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">12</ns2:totalNumberOfSpaces>
-    <ns1:hasAddress rdf:resource="http://data.gmdsp.org.uk/def/council/parking/address/Arnold_St/Hardcastle_Road_"/>
-    <rdfs:label>Arnold St/Hardcastle Road  car park</rdfs:label>
-    <geo:lat>-2.16249351824393</geo:lat>
-    <geo:long>53.3981042446795</geo:long>
-  </ns2:ParkingSite>
-  <ns2:ParkingSite rdf:about="http://data.gmdsp.org.uk/id/manchester/parking/Grafton_Street">
-    <geo:long>53.3989552934823</geo:long>
-    <ns2:totalNumberOfSpaces rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">12</ns2:totalNumberOfSpaces>
-    <rdfs:label>Grafton Street car park</rdfs:label>
-    <ns1:hasAddress rdf:resource="http://data.gmdsp.org.uk/def/council/parking/address/Grafton_Street"/>
-    <geo:lat>-2.13300302774255</geo:lat>
-  </ns2:ParkingSite>
-  <ns2:ParkingSite rdf:about="http://data.gmdsp.org.uk/id/manchester/parking/Belmont_Street_(1)">
-    <geo:lat>-2.13382007124421</geo:lat>
-    <ns2:totalNumberOfSpaces rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">12</ns2:totalNumberOfSpaces>
-    <geo:long>53.3976760331833</geo:long>
-    <rdfs:label>Belmont Street (1) car park</rdfs:label>
-    <ns1:hasAddress rdf:resource="http://data.gmdsp.org.uk/def/council/parking/address/Belmont_Street_(1)"/>
-  </ns2:ParkingSite>
-  <ns2:ParkingSite rdf:about="http://data.gmdsp.org.uk/id/manchester/parking/Lord_Street_2">
-    <geo:lat>-2.1506429409321</geo:lat>
-    <ns2:totalNumberOfSpaces rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">10</ns2:totalNumberOfSpaces>
-    <geo:long>53.4022669319225</geo:long>
-    <rdfs:label>Lord Street 2 car park</rdfs:label>
-    <ns1:hasAddress rdf:resource="http://data.gmdsp.org.uk/def/council/parking/address/Lord_Street_2"/>
-  </ns2:ParkingSite>
-  <ns2:ParkingSite rdf:about="http://data.gmdsp.org.uk/id/manchester/parking/Townley_Terrace">
-    <geo:long>53.461037318694</geo:long>
-    <geo:lat>-2.17307096358511</geo:lat>
-    <ns2:totalNumberOfSpaces rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">30</ns2:totalNumberOfSpaces>
-    <ns1:hasAddress rdf:resource="http://data.gmdsp.org.uk/def/council/parking/address/Townley_Terrace"/>
-    <rdfs:label>Townley Terrace car park</rdfs:label>
-  </ns2:ParkingSite>
-  <ns1:Location rdf:about="http://data.gmdsp.org.uk/id/manchester/parking/address/Essex_Avenue">
-    <ns1:street-address>Essex Avenue</ns1:street-address>
-    <ns1:postal-code>SK3 0JB</ns1:postal-code>
-    <rdfs:label>Essex Avenue</rdfs:label>
-  </ns1:Location>
-  <ns1:Location rdf:about="http://data.gmdsp.org.uk/id/manchester/parking/address/Greystokes/Holly_Street">
-    <ns1:postal-code>SK1 4DH </ns1:postal-code>
-    <rdfs:label>Greystokes/Holly Street</rdfs:label>
-    <ns1:street-address>Greystokes/Holly Street</ns1:street-address>
-  </ns1:Location>
-  <ns2:ParkingSite rdf:about="http://data.gmdsp.org.uk/id/manchester/parking/Church_Street/Wood_Street">
-    <geo:long>53.3679172180439</geo:long>
-    <ns2:totalNumberOfSpaces rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">10</ns2:totalNumberOfSpaces>
-    <rdfs:label>Church Street/Wood Street car park</rdfs:label>
-    <geo:lat>-2.1720544213013</geo:lat>
-    <ns1:hasAddress rdf:resource="http://data.gmdsp.org.uk/def/council/parking/address/Church_Street/Wood_Street"/>
-  </ns2:ParkingSite>
-  <ns2:ParkingSite rdf:about="http://data.gmdsp.org.uk/id/manchester/parking/Banks_Lane">
-    <ns2:totalNumberOfSpaces rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">47</ns2:totalNumberOfSpaces>
-    <geo:lat>-2.15804103203747</geo:lat>
-    <geo:long>53.4155760160514</geo:long>
-    <ns1:hasAddress rdf:resource="http://data.gmdsp.org.uk/def/council/parking/address/Banks_Lane"/>
-    <rdfs:label>Banks Lane car park</rdfs:label>
-  </ns2:ParkingSite>
-  <ns1:Location rdf:about="http://data.gmdsp.org.uk/id/manchester/parking/address/Ashbrook_Lane">
-    <ns1:street-address>Ashbrook Lane</ns1:street-address>
-    <ns1:postal-code>SK5 6RS </ns1:postal-code>
-    <rdfs:label>Ashbrook Lane</rdfs:label>
-  </ns1:Location>
-  <ns2:ParkingSite rdf:about="http://data.gmdsp.org.uk/id/manchester/parking/Churchgate">
-    <geo:long>53.405156635366</geo:long>
-    <ns2:totalNumberOfSpaces rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">69</ns2:totalNumberOfSpaces>
-    <rdfs:label>Churchgate car park</rdfs:label>
-    <geo:lat>-2.14506125700308</geo:lat>
-    <ns1:hasAddress rdf:resource="http://data.gmdsp.org.uk/def/council/parking/address/Churchgate"/>
-  </ns2:ParkingSite>
-  <ns2:ParkingSite rdf:about="http://data.gmdsp.org.uk/id/manchester/parking/Commercial_Road_East">
-    <rdfs:label>Commercial Road East car park</rdfs:label>
-    <ns1:hasAddress rdf:resource="http://data.gmdsp.org.uk/def/council/parking/address/Commercial_Road_East"/>
-    <ns2:totalNumberOfSpaces rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">30</ns2:totalNumberOfSpaces>
-    <geo:long>53.4241155790197</geo:long>
-    <geo:lat>-2.19304488498442</geo:lat>
-  </ns2:ParkingSite>
-  <ns2:ParkingSite rdf:about="http://data.gmdsp.org.uk/id/manchester/parking/Hogarth_Road_(South)">
-    <ns2:totalNumberOfSpaces rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">6</ns2:totalNumberOfSpaces>
-    <rdfs:label>Hogarth Road (South) car park</rdfs:label>
-    <geo:long>53.4664614629565</geo:long>
-    <ns1:hasAddress rdf:resource="http://data.gmdsp.org.uk/def/council/parking/address/Hogarth_Road_(South)"/>
-    <geo:lat>-2.15694882903678</geo:lat>
-  </ns2:ParkingSite>
-  <ns2:ParkingSite rdf:about="http://data.gmdsp.org.uk/id/manchester/parking/Andrew_Street">
-    <geo:lat>-2.14026052488374</geo:lat>
-    <rdfs:label>Andrew Street car park</rdfs:label>
-    <geo:long>53.4648684307251</geo:long>
-    <ns2:totalNumberOfSpaces rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">30</ns2:totalNumberOfSpaces>
-    <ns1:hasAddress rdf:resource="http://data.gmdsp.org.uk/def/council/parking/address/Andrew_Street"/>
-  </ns2:ParkingSite>
-  <ns2:ParkingSite rdf:about="http://data.gmdsp.org.uk/id/manchester/parking/Derby_Way">
-    <geo:lat>-2.17402949648797</geo:lat>
-    <ns1:hasAddress rdf:resource="http://data.gmdsp.org.uk/def/council/parking/address/Derby_Way"/>
-    <rdfs:label>Derby Way car park</rdfs:label>
-    <ns2:totalNumberOfSpaces rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">53</ns2:totalNumberOfSpaces>
-    <geo:long>53.458685656318</geo:long>
-  </ns2:ParkingSite>
-  <ns1:Location rdf:about="http://data.gmdsp.org.uk/id/manchester/parking/address/Bamford_Street">
-    <rdfs:label>Bamford Street</rdfs:label>
-    <ns1:street-address>Bamford Street</ns1:street-address>
-    <ns1:postal-code>SK1  3DQ </ns1:postal-code>
-  </ns1:Location>
-  <ns2:ParkingSite rdf:about="http://data.gmdsp.org.uk/id/manchester/parking/Beech_Avenue">
-    <rdfs:label>Beech Avenue car park</rdfs:label>
-    <ns1:hasAddress rdf:resource="http://data.gmdsp.org.uk/def/council/parking/address/Beech_Avenue"/>
-    <geo:lat>-2.19690227941099</geo:lat>
-    <geo:long>53.4266767739251</geo:long>
-    <ns2:totalNumberOfSpaces rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">31</ns2:totalNumberOfSpaces>
-  </ns2:ParkingSite>
-  <ns1:Location rdf:about="http://data.gmdsp.org.uk/id/manchester/parking/address/Edward_Street">
-    <rdfs:label>Edward Street</rdfs:label>
-    <ns1:street-address>Edward Street</ns1:street-address>
-    <ns1:postal-code>SK1  3AY</ns1:postal-code>
-  </ns1:Location>
-  <ns2:ParkingSite rdf:about="http://data.gmdsp.org.uk/id/manchester/parking/Margaret_Street">
-    <ns2:totalNumberOfSpaces rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">22</ns2:totalNumberOfSpaces>
-    <ns1:hasAddress rdf:resource="http://data.gmdsp.org.uk/def/council/parking/address/Margaret_Street"/>
-    <geo:long>53.4005215700913</geo:long>
+  </parking:ParkingSite>
+  <parking:ParkingSite rdf:about="http://data.gmdsp.org.uk/id/stockport/parking/Iceland_(formerly_Somerfields_&amp;_Kwik_Save)">
+    <geo:lat>-2.12009838888337</geo:lat>
+    <parking:totalNumberOfSpaces rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">90</parking:totalNumberOfSpaces>
+    <rdfs:label>Iceland (formerly Somerfields &amp; Kwik Save) Car Park</rdfs:label>
+    <vcard:hasAddress>
+      <vcard:Location rdf:about="http://data.gmdsp.org.uk/id/stockport/parking/address/Iceland_(formerly_Somerfields_&amp;_Kwik_Save)">
+        <vcard:postal-code>SK6 1QJ </vcard:postal-code>
+        <rdfs:label>Iceland (formerly Somerfields &amp; Kwik Save)</rdfs:label>
+        <vcard:street-address>Iceland (formerly Somerfields &amp; Kwik Save)</vcard:street-address>
+      </vcard:Location>
+    </vcard:hasAddress>
+    <geo:long>53.4360611245851</geo:long>
+  </parking:ParkingSite>
+  <parking:ParkingSite rdf:about="http://data.gmdsp.org.uk/id/stockport/parking/Cheviot_Close">
+    <geo:long>53.3966119914768</geo:long>
+    <parking:totalNumberOfSpaces rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">12</parking:totalNumberOfSpaces>
+    <vcard:hasAddress>
+      <vcard:Location rdf:about="http://data.gmdsp.org.uk/id/stockport/parking/address/Cheviot_Close">
+        <vcard:postal-code>SK4 2LL </vcard:postal-code>
+        <vcard:street-address>Cheviot Close</vcard:street-address>
+        <rdfs:label>Cheviot Close</rdfs:label>
+      </vcard:Location>
+    </vcard:hasAddress>
+    <geo:lat>-2.13561256832027</geo:lat>
+    <rdfs:label>Cheviot Close Car Park</rdfs:label>
+  </parking:ParkingSite>
+  <parking:ParkingSite rdf:about="http://data.gmdsp.org.uk/id/stockport/parking/Margaret_Street">
+    <rdfs:label>Margaret Street Car Park</rdfs:label>
     <geo:lat>-2.10039577316012</geo:lat>
-    <rdfs:label>Margaret Street car park</rdfs:label>
-  </ns2:ParkingSite>
-  <ns1:Location rdf:about="http://data.gmdsp.org.uk/id/manchester/parking/address/Canal_Street">
-    <ns1:postal-code>SK1 3BZ</ns1:postal-code>
-    <ns1:street-address>Canal Street</ns1:street-address>
-    <rdfs:label>Canal Street</rdfs:label>
-  </ns1:Location>
-  <ns2:ParkingSite rdf:about="http://data.gmdsp.org.uk/id/manchester/parking/Bramley_Close">
-    <geo:long>53.4005432113054</geo:long>
-    <ns1:hasAddress rdf:resource="http://data.gmdsp.org.uk/def/council/parking/address/Bramley_Close"/>
-    <ns2:totalNumberOfSpaces rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">90</ns2:totalNumberOfSpaces>
-    <geo:lat>-2.23077300837993</geo:lat>
-    <rdfs:label>Bramley Close car park</rdfs:label>
-  </ns2:ParkingSite>
-  <ns1:Location rdf:about="http://data.gmdsp.org.uk/id/manchester/parking/address/Buxton_Road____________(Library)">
-    <ns1:postal-code>SK6 8DX </ns1:postal-code>
-    <ns1:street-address>Buxton Road            (Library)</ns1:street-address>
-    <rdfs:label>Buxton Road            (Library)</rdfs:label>
-  </ns1:Location>
-  <ns2:ParkingSite rdf:about="http://data.gmdsp.org.uk/id/manchester/parking/Grand_Central_CP3">
-    <geo:long>53.400240990171</geo:long>
-    <ns2:totalNumberOfSpaces rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">50</ns2:totalNumberOfSpaces>
-    <geo:lat>-2.15172329174287</geo:lat>
-    <rdfs:label>Grand Central CP3 car park</rdfs:label>
-    <ns1:hasAddress rdf:resource="http://data.gmdsp.org.uk/def/council/parking/address/Grand_Central_CP3"/>
-  </ns2:ParkingSite>
-  <ns2:ParkingSite rdf:about="http://data.gmdsp.org.uk/id/manchester/parking/Hopes_Carr">
-    <geo:lat>-2.15041584282932</geo:lat>
-    <rdfs:label>Hopes Carr car park</rdfs:label>
-    <ns2:totalNumberOfSpaces rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">37</ns2:totalNumberOfSpaces>
-    <ns1:hasAddress rdf:resource="http://data.gmdsp.org.uk/def/council/parking/address/Hopes_Carr"/>
-    <geo:long>53.4056987904489</geo:long>
-  </ns2:ParkingSite>
-  <ns2:ParkingSite rdf:about="http://data.gmdsp.org.uk/id/manchester/parking/Gt._Egerton_St.">
-    <geo:lat>-2.14314163630361</geo:lat>
-    <ns2:totalNumberOfSpaces rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">323</ns2:totalNumberOfSpaces>
-    <rdfs:label>Gt. Egerton St. car park</rdfs:label>
-    <ns1:hasAddress rdf:resource="http://data.gmdsp.org.uk/def/council/parking/address/Gt._Egerton_St."/>
-    <geo:long>53.4007870616355</geo:long>
-  </ns2:ParkingSite>
-  <ns2:ParkingSite rdf:about="http://data.gmdsp.org.uk/id/manchester/parking/St.Matthews_Terrace">
-    <ns1:hasAddress rdf:resource="http://data.gmdsp.org.uk/def/council/parking/address/St.Matthews_Terrace"/>
-    <ns2:totalNumberOfSpaces rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">18</ns2:totalNumberOfSpaces>
-    <geo:lat>-2.15930865752278</geo:lat>
-    <geo:long>53.3962854803423</geo:long>
-    <rdfs:label>St.Matthews Terrace car park</rdfs:label>
-  </ns2:ParkingSite>
-  <ns2:ParkingSite rdf:about="http://data.gmdsp.org.uk/id/manchester/parking/Loonies_Court">
-    <rdfs:label>Loonies Court car park</rdfs:label>
-    <ns1:hasAddress rdf:resource="http://data.gmdsp.org.uk/def/council/parking/address/Loonies_Court"/>
-    <geo:long>53.4025022377885</geo:long>
-    <geo:lat>-2.15192517094546</geo:lat>
-    <ns2:totalNumberOfSpaces rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">16</ns2:totalNumberOfSpaces>
-  </ns2:ParkingSite>
-  <ns2:ParkingSite rdf:about="http://data.gmdsp.org.uk/id/manchester/parking/Canal_Street">
-    <ns2:totalNumberOfSpaces rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">16</ns2:totalNumberOfSpaces>
-    <ns1:hasAddress rdf:resource="http://data.gmdsp.org.uk/def/council/parking/address/Canal_Street"/>
-    <rdfs:label>Canal Street car park</rdfs:label>
-    <geo:long>53.4065396319325</geo:long>
-    <geo:lat>-2.1531695231955</geo:lat>
-  </ns2:ParkingSite>
-  <ns2:ParkingSite rdf:about="http://data.gmdsp.org.uk/id/manchester/parking/Market_Street">
-    <ns1:hasAddress rdf:resource="http://data.gmdsp.org.uk/def/council/parking/address/Market_Street"/>
-    <ns2:totalNumberOfSpaces rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">12</ns2:totalNumberOfSpaces>
-    <rdfs:label>Market Street car park</rdfs:label>
-    <geo:lat>-2.17359620567286</geo:lat>
-    <geo:long>53.459171118986</geo:long>
-  </ns2:ParkingSite>
-  <ns1:Location rdf:about="http://data.gmdsp.org.uk/id/manchester/parking/address/Church_Street/Wood_Street">
-    <ns1:street-address>Church Street/Wood Street</ns1:street-address>
-    <ns1:postal-code>SK8 1AE </ns1:postal-code>
-    <rdfs:label>Church Street/Wood Street</rdfs:label>
-  </ns1:Location>
-  <ns1:Location rdf:about="http://data.gmdsp.org.uk/id/manchester/parking/address/Hogarth_Road_(South)">
-    <rdfs:label>Hogarth Road (South)</rdfs:label>
-    <ns1:street-address>Hogarth Road (South)</ns1:street-address>
-    <ns1:postal-code>SK6 5BP </ns1:postal-code>
-  </ns1:Location>
-  <ns1:Location rdf:about="http://data.gmdsp.org.uk/id/manchester/parking/address/Bramhall_Precinct">
-    <ns1:street-address>Bramhall Precinct</ns1:street-address>
-    <rdfs:label>Bramhall Precinct</rdfs:label>
-    <ns1:postal-code>SK7 1AL</ns1:postal-code>
-  </ns1:Location>
-  <ns2:ParkingSite rdf:about="http://data.gmdsp.org.uk/id/manchester/parking/Bramhall_Precinct">
-    <ns1:hasAddress rdf:resource="http://data.gmdsp.org.uk/def/council/parking/address/Bramhall_Precinct"/>
-    <geo:long>53.3979037069988</geo:long>
-    <geo:lat>-2.23212371327404</geo:lat>
-    <rdfs:label>Bramhall Precinct car park</rdfs:label>
-    <ns2:totalNumberOfSpaces rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">81</ns2:totalNumberOfSpaces>
-  </ns2:ParkingSite>
-  <ns1:Location rdf:about="http://data.gmdsp.org.uk/id/manchester/parking/address/Brabyns_Park">
-    <rdfs:label>Brabyns Park</rdfs:label>
-    <ns1:postal-code>SK6 7DA </ns1:postal-code>
-    <ns1:street-address>Brabyns Park</ns1:street-address>
-  </ns1:Location>
-  <ns1:Location rdf:about="http://data.gmdsp.org.uk/id/manchester/parking/address/Heathland_Terrace">
-    <rdfs:label>Heathland Terrace</rdfs:label>
-    <ns1:street-address>Heathland Terrace</ns1:street-address>
-    <ns1:postal-code>SK3 8DU </ns1:postal-code>
-  </ns1:Location>
-  <ns2:ParkingSite rdf:about="http://data.gmdsp.org.uk/id/manchester/parking/Station_Approach">
-    <rdfs:label>Station Approach car park</rdfs:label>
-    <geo:long>53.3854350239077</geo:long>
-    <ns1:hasAddress rdf:resource="http://data.gmdsp.org.uk/def/council/parking/address/Station_Approach"/>
-    <geo:lat>-2.2024500747304</geo:lat>
-    <ns2:totalNumberOfSpaces rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">66</ns2:totalNumberOfSpaces>
-  </ns2:ParkingSite>
-  <ns2:ParkingSite rdf:about="http://data.gmdsp.org.uk/id/manchester/parking/Dye_Lane">
-    <geo:lat>-2.14028416635323</geo:lat>
-    <ns1:hasAddress rdf:resource="http://data.gmdsp.org.uk/def/council/parking/address/Dye_Lane"/>
-    <ns2:totalNumberOfSpaces rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">15</ns2:totalNumberOfSpaces>
-    <rdfs:label>Dye Lane car park</rdfs:label>
-    <geo:long>53.4411657595813</geo:long>
-  </ns2:ParkingSite>
-  <ns1:Location rdf:about="http://data.gmdsp.org.uk/id/manchester/parking/address/Heaton_Lane_(Multi_-Storey)">
-    <ns1:postal-code>SK4 1HJ </ns1:postal-code>
-    <rdfs:label>Heaton Lane (Multi -Storey)</rdfs:label>
-    <ns1:street-address>Heaton Lane (Multi -Storey)</ns1:street-address>
-  </ns1:Location>
-  <ns2:ParkingSite rdf:about="http://data.gmdsp.org.uk/id/manchester/parking/Hogarth_Road_(North)">
-    <ns2:totalNumberOfSpaces rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">7</ns2:totalNumberOfSpaces>
-    <ns1:hasAddress rdf:resource="http://data.gmdsp.org.uk/def/council/parking/address/Hogarth_Road_(North)"/>
-    <geo:long>53.466592710691</geo:long>
-    <rdfs:label>Hogarth Road (North) car park</rdfs:label>
-    <geo:lat>-2.1566119928977</geo:lat>
-  </ns2:ParkingSite>
-  <ns1:Location rdf:about="http://data.gmdsp.org.uk/id/manchester/parking/address/Iceland_(formerly_Somerfields_&amp;_Kwik_Save)">
-    <ns1:postal-code>SK6 1QJ </ns1:postal-code>
-    <ns1:street-address>Iceland (formerly Somerfields &amp; Kwik Save)</ns1:street-address>
-    <rdfs:label>Iceland (formerly Somerfields &amp; Kwik Save)</rdfs:label>
-  </ns1:Location>
-  <ns1:Location rdf:about="http://data.gmdsp.org.uk/id/manchester/parking/address/Dye_Lane">
-    <rdfs:label>Dye Lane</rdfs:label>
-    <ns1:postal-code>SK6 3AN </ns1:postal-code>
-    <ns1:street-address>Dye Lane</ns1:street-address>
-  </ns1:Location>
-  <ns1:Location rdf:about="http://data.gmdsp.org.uk/id/manchester/parking/address/Romiley_Precinct">
-    <ns1:street-address>Romiley Precinct</ns1:street-address>
-    <rdfs:label>Romiley Precinct</rdfs:label>
-    <ns1:postal-code>SK6 4DN </ns1:postal-code>
-  </ns1:Location>
-  <ns1:Location rdf:about="http://data.gmdsp.org.uk/id/manchester/parking/address/Townley_Terrace">
-    <ns1:postal-code>SK6 6BL </ns1:postal-code>
-    <ns1:street-address>Townley Terrace</ns1:street-address>
-    <rdfs:label>Townley Terrace</rdfs:label>
-  </ns1:Location>
-  <ns2:ParkingSite rdf:about="http://data.gmdsp.org.uk/id/manchester/parking/Springfield_Avenue">
-    <ns2:totalNumberOfSpaces rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">9</ns2:totalNumberOfSpaces>
-    <geo:lat>-2.17280439666943</geo:lat>
-    <geo:long>53.4585430701699</geo:long>
-    <ns1:hasAddress rdf:resource="http://data.gmdsp.org.uk/def/council/parking/address/Springfield_Avenue"/>
-    <rdfs:label>Springfield Avenue car park</rdfs:label>
-  </ns2:ParkingSite>
-  <ns1:Location rdf:about="http://data.gmdsp.org.uk/id/manchester/parking/address/Derby_Street">
-    <ns1:street-address>Derby Street</ns1:street-address>
-    <ns1:postal-code>SK6 7AW </ns1:postal-code>
-    <rdfs:label>Derby Street</rdfs:label>
-  </ns1:Location>
-  <ns2:ParkingSite rdf:about="http://data.gmdsp.org.uk/id/manchester/parking/Heathland_Terrace">
-    <ns2:totalNumberOfSpaces rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">6</ns2:totalNumberOfSpaces>
-    <rdfs:label>Heathland Terrace car park</rdfs:label>
-    <geo:long>53.4016560165299</geo:long>
-    <geo:lat>-2.1646080626277</geo:lat>
-    <ns1:hasAddress rdf:resource="http://data.gmdsp.org.uk/def/council/parking/address/Heathland_Terrace"/>
-  </ns2:ParkingSite>
-  <ns2:ParkingSite rdf:about="http://data.gmdsp.org.uk/id/manchester/parking/North_Park_Road">
-    <geo:long>53.399086491298</geo:long>
-    <geo:lat>-2.19548076729141</geo:lat>
-    <rdfs:label>North Park Road car park</rdfs:label>
-    <ns2:totalNumberOfSpaces rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">6</ns2:totalNumberOfSpaces>
-    <ns1:hasAddress rdf:resource="http://data.gmdsp.org.uk/def/council/parking/address/North_Park_Road"/>
-  </ns2:ParkingSite>
-  <ns1:Location rdf:about="http://data.gmdsp.org.uk/id/manchester/parking/address/Armoury_St.">
-    <rdfs:label>Armoury St.</rdfs:label>
-    <ns1:postal-code>SK3 9DR </ns1:postal-code>
-    <ns1:street-address>Armoury St.</ns1:street-address>
-  </ns1:Location>
-  <ns1:Location rdf:about="http://data.gmdsp.org.uk/id/manchester/parking/address/Green_Street">
-    <ns1:postal-code>SK2 6QZ </ns1:postal-code>
-    <rdfs:label>Green Street</rdfs:label>
-    <ns1:street-address>Green Street</ns1:street-address>
-  </ns1:Location>
-  <ns2:ParkingSite rdf:about="http://data.gmdsp.org.uk/id/manchester/parking/Middlers">
-    <geo:lat>-2.16326980241602</geo:lat>
-    <ns1:hasAddress rdf:resource="http://data.gmdsp.org.uk/def/council/parking/address/Middlers"/>
-    <rdfs:label>Middlers car park</rdfs:label>
-    <geo:long>53.4641854935689</geo:long>
-    <ns2:totalNumberOfSpaces rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">0</ns2:totalNumberOfSpaces>
-  </ns2:ParkingSite>
-  <ns1:Location rdf:about="http://data.gmdsp.org.uk/id/manchester/parking/address/Gt._Egerton_St.">
-    <rdfs:label>Gt. Egerton St.</rdfs:label>
-    <ns1:street-address>Gt. Egerton St.</ns1:street-address>
-    <ns1:postal-code>SK1 1RS </ns1:postal-code>
-  </ns1:Location>
-  <ns1:Location rdf:about="http://data.gmdsp.org.uk/id/manchester/parking/address/Meadway_West">
-    <rdfs:label>Meadway West</rdfs:label>
-    <ns1:postal-code>SK7 1JR</ns1:postal-code>
-    <ns1:street-address>Meadway West</ns1:street-address>
-  </ns1:Location>
-  <ns1:Location rdf:about="http://data.gmdsp.org.uk/id/manchester/parking/address/Banbury_St.">
-    <ns1:postal-code>SK1 3AX</ns1:postal-code>
-    <ns1:street-address>Banbury St.</ns1:street-address>
-    <rdfs:label>Banbury St.</rdfs:label>
-  </ns1:Location>
-  <ns1:Location rdf:about="http://data.gmdsp.org.uk/id/manchester/parking/address/Back_Massie_Street_(South)">
-    <ns1:postal-code>SK8 1BR </ns1:postal-code>
-    <ns1:street-address>Back Massie Street (South)</ns1:street-address>
-    <rdfs:label>Back Massie Street (South)</rdfs:label>
-  </ns1:Location>
-  <ns1:Location rdf:about="http://data.gmdsp.org.uk/id/manchester/parking/address/Derby_Way">
-    <rdfs:label>Derby Way</rdfs:label>
-    <ns1:postal-code>SK6 7AW </ns1:postal-code>
-    <ns1:street-address>Derby Way</ns1:street-address>
-  </ns1:Location>
-  <ns1:Location rdf:about="http://data.gmdsp.org.uk/id/manchester/parking/address/Hogarth_Road_(North)">
-    <ns1:postal-code>SK6 5DW </ns1:postal-code>
-    <ns1:street-address>Hogarth Road (North)</ns1:street-address>
-    <rdfs:label>Hogarth Road (North)</rdfs:label>
-  </ns1:Location>
-  <ns2:ParkingSite rdf:about="http://data.gmdsp.org.uk/id/manchester/parking/Bulkeley_Street">
-    <ns1:hasAddress rdf:resource="http://data.gmdsp.org.uk/def/council/parking/address/Bulkeley_Street"/>
-    <geo:lat>-2.15926408388403</geo:lat>
-    <geo:long>53.3974315972873</geo:long>
-    <ns2:totalNumberOfSpaces rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">22</ns2:totalNumberOfSpaces>
-    <rdfs:label>Bulkeley Street car park</rdfs:label>
-  </ns2:ParkingSite>
-  <ns1:Location rdf:about="http://data.gmdsp.org.uk/id/manchester/parking/address/Guywood_Lane___(Romiley_Station)">
-    <rdfs:label>Guywood Lane   (Romiley Station)</rdfs:label>
-    <ns1:street-address>Guywood Lane   (Romiley Station)</ns1:street-address>
-    <ns1:postal-code>SK6 4BN </ns1:postal-code>
-  </ns1:Location>
-  <ns1:Location rdf:about="http://data.gmdsp.org.uk/id/manchester/parking/address/Town_Street">
-    <ns1:postal-code>SK6 5AA </ns1:postal-code>
-    <rdfs:label>Town Street</rdfs:label>
-    <ns1:street-address>Town Street</ns1:street-address>
-  </ns1:Location>
-  <ns1:Location rdf:about="http://data.gmdsp.org.uk/id/manchester/parking/address/Massie_Street_West">
-    <ns1:postal-code>SK8 1BP </ns1:postal-code>
-    <ns1:street-address>Massie Street West</ns1:street-address>
-    <rdfs:label>Massie Street West</rdfs:label>
-  </ns1:Location>
-  <ns1:Location rdf:about="http://data.gmdsp.org.uk/id/manchester/parking/address/Buxton_Road____________(Medical_Centre)">
-    <rdfs:label>Buxton Road            (Medical Centre)</rdfs:label>
-    <ns1:street-address>Buxton Road            (Medical Centre)</ns1:street-address>
-    <ns1:postal-code>SK6 8DX </ns1:postal-code>
-  </ns1:Location>
-  <ns2:ParkingSite rdf:about="http://data.gmdsp.org.uk/id/manchester/parking/Hollins_Lane">
-    <geo:lat>-2.17009467481059</geo:lat>
-    <geo:long>53.4596916768714</geo:long>
-    <ns1:hasAddress rdf:resource="http://data.gmdsp.org.uk/def/council/parking/address/Hollins_Lane"/>
-    <ns2:totalNumberOfSpaces rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">35</ns2:totalNumberOfSpaces>
-    <rdfs:label>Hollins Lane car park</rdfs:label>
-  </ns2:ParkingSite>
-  <ns1:Location rdf:about="http://data.gmdsp.org.uk/id/manchester/parking/address/Belmont_Street_(2)">
-    <ns1:street-address>Belmont Street (2)</ns1:street-address>
-    <ns1:postal-code>SK4 1QW </ns1:postal-code>
-    <rdfs:label>Belmont Street (2)</rdfs:label>
-  </ns1:Location>
-  <ns2:ParkingSite rdf:about="http://data.gmdsp.org.uk/id/manchester/parking/Finney_Lane">
+    <vcard:hasAddress>
+      <vcard:Location rdf:about="http://data.gmdsp.org.uk/id/stockport/parking/address/Margaret_Street">
+        <rdfs:label>Margaret Street</rdfs:label>
+        <vcard:postal-code>SK5 6DJ </vcard:postal-code>
+        <vcard:street-address>Margaret Street</vcard:street-address>
+      </vcard:Location>
+    </vcard:hasAddress>
+    <geo:long>53.4005215700913</geo:long>
+    <parking:totalNumberOfSpaces rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">22</parking:totalNumberOfSpaces>
+  </parking:ParkingSite>
+  <parking:ParkingSite rdf:about="http://data.gmdsp.org.uk/id/stockport/parking/Finney_Lane">
     <geo:long>53.3551297800516</geo:long>
-    <rdfs:label>Finney Lane car park</rdfs:label>
-    <ns1:hasAddress rdf:resource="http://data.gmdsp.org.uk/def/council/parking/address/Finney_Lane"/>
-    <ns2:totalNumberOfSpaces rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">38</ns2:totalNumberOfSpaces>
+    <rdfs:label>Finney Lane Car Park</rdfs:label>
+    <parking:totalNumberOfSpaces rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">38</parking:totalNumberOfSpaces>
     <geo:lat>-2.2123347081792</geo:lat>
-  </ns2:ParkingSite>
-  <ns2:ParkingSite rdf:about="http://data.gmdsp.org.uk/id/manchester/parking/Hallam_Street">
-    <rdfs:label>Hallam Street car park</rdfs:label>
-    <ns2:totalNumberOfSpaces rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">41</ns2:totalNumberOfSpaces>
+    <vcard:hasAddress>
+      <vcard:Location rdf:about="http://data.gmdsp.org.uk/id/stockport/parking/address/Finney_Lane">
+        <vcard:street-address>Finney Lane</vcard:street-address>
+        <vcard:postal-code>SK8 3QH </vcard:postal-code>
+        <rdfs:label>Finney Lane</rdfs:label>
+      </vcard:Location>
+    </vcard:hasAddress>
+  </parking:ParkingSite>
+  <parking:ParkingSite rdf:about="http://data.gmdsp.org.uk/id/stockport/parking/Didsbury_Road">
+    <geo:long>53.3749308732322</geo:long>
+    <rdfs:label>Didsbury Road Car Park</rdfs:label>
+    <parking:totalNumberOfSpaces rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">22</parking:totalNumberOfSpaces>
+    <geo:lat>-2.14269004374493</geo:lat>
+    <vcard:hasAddress>
+      <vcard:Location rdf:about="http://data.gmdsp.org.uk/id/stockport/parking/address/Didsbury_Road">
+        <vcard:street-address>Didsbury Road</vcard:street-address>
+        <rdfs:label>Didsbury Road</rdfs:label>
+        <vcard:postal-code>SK4 3AY </vcard:postal-code>
+      </vcard:Location>
+    </vcard:hasAddress>
+  </parking:ParkingSite>
+  <parking:ParkingSite rdf:about="http://data.gmdsp.org.uk/id/stockport/parking/Athol_Street">
+    <vcard:hasAddress>
+      <vcard:Location rdf:about="http://data.gmdsp.org.uk/id/stockport/parking/address/Athol_Street">
+        <rdfs:label>Athol Street</rdfs:label>
+        <vcard:street-address>Athol Street</vcard:street-address>
+        <vcard:postal-code>SK4 1JL </vcard:postal-code>
+      </vcard:Location>
+    </vcard:hasAddress>
+    <geo:long>53.3975556859684</geo:long>
+    <parking:totalNumberOfSpaces rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">11</parking:totalNumberOfSpaces>
+    <rdfs:label>Athol Street Car Park</rdfs:label>
+    <geo:lat>-2.13505944562613</geo:lat>
+  </parking:ParkingSite>
+  <parking:ParkingSite rdf:about="http://data.gmdsp.org.uk/id/stockport/parking/Heaviley_Grove">
+    <parking:totalNumberOfSpaces rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">10</parking:totalNumberOfSpaces>
+    <rdfs:label>Heaviley Grove Car Park</rdfs:label>
+    <geo:long>53.4088317823691</geo:long>
+    <vcard:hasAddress>
+      <vcard:Location rdf:about="http://data.gmdsp.org.uk/id/stockport/parking/address/Heaviley_Grove">
+        <vcard:street-address>Heaviley Grove</vcard:street-address>
+        <rdfs:label>Heaviley Grove</rdfs:label>
+        <vcard:postal-code>SK2 6HQ </vcard:postal-code>
+      </vcard:Location>
+    </vcard:hasAddress>
+    <geo:lat>-2.17291620751439</geo:lat>
+  </parking:ParkingSite>
+  <parking:ParkingSite rdf:about="http://data.gmdsp.org.uk/id/stockport/parking/Sun_and_Castle">
+    <parking:totalNumberOfSpaces rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">18</parking:totalNumberOfSpaces>
+    <vcard:hasAddress>
+      <vcard:Location rdf:about="http://data.gmdsp.org.uk/id/stockport/parking/address/Sun_and_Castle">
+        <vcard:postal-code>SK1  3EH </vcard:postal-code>
+        <vcard:street-address>Sun and Castle</vcard:street-address>
+        <rdfs:label>Sun and Castle</rdfs:label>
+      </vcard:Location>
+    </vcard:hasAddress>
+    <geo:long>53.4050070452578</geo:long>
+    <rdfs:label>Sun and Castle Car Park</rdfs:label>
+    <geo:lat>-2.15320160039332</geo:lat>
+  </parking:ParkingSite>
+  <parking:ParkingSite rdf:about="http://data.gmdsp.org.uk/id/stockport/parking/Heaton_Lane_(Multi_-Storey)">
+    <geo:lat>-2.14579785046238</geo:lat>
+    <rdfs:label>Heaton Lane (Multi -Storey) Car Park</rdfs:label>
+    <parking:totalNumberOfSpaces rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">809</parking:totalNumberOfSpaces>
+    <geo:long>53.398724363209</geo:long>
+    <vcard:hasAddress>
+      <vcard:Location rdf:about="http://data.gmdsp.org.uk/id/stockport/parking/address/Heaton_Lane_(Multi_-Storey)">
+        <vcard:postal-code>SK4 1HJ </vcard:postal-code>
+        <rdfs:label>Heaton Lane (Multi -Storey)</rdfs:label>
+        <vcard:street-address>Heaton Lane (Multi -Storey)</vcard:street-address>
+      </vcard:Location>
+    </vcard:hasAddress>
+  </parking:ParkingSite>
+  <parking:ParkingSite rdf:about="http://data.gmdsp.org.uk/id/stockport/parking/Hibbert/Church_Lane">
+    <parking:totalNumberOfSpaces rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">35</parking:totalNumberOfSpaces>
+    <vcard:hasAddress>
+      <vcard:Location rdf:about="http://data.gmdsp.org.uk/id/stockport/parking/address/Hibbert/Church_Lane">
+        <vcard:street-address>Hibbert/Church Lane</vcard:street-address>
+        <vcard:postal-code>SK6 7NN</vcard:postal-code>
+        <rdfs:label>Hibbert/Church Lane</rdfs:label>
+      </vcard:Location>
+    </vcard:hasAddress>
+    <geo:lat>-2.17482378406446</geo:lat>
+    <rdfs:label>Hibbert/Church Lane Car Park</rdfs:label>
+    <geo:long>53.4580449205937</geo:long>
+  </parking:ParkingSite>
+  <parking:ParkingSite rdf:about="http://data.gmdsp.org.uk/id/stockport/parking/Longhurst_Lane">
+    <geo:long>53.4657993684126</geo:long>
+    <parking:totalNumberOfSpaces rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">14</parking:totalNumberOfSpaces>
+    <geo:lat>-2.16366934007088</geo:lat>
+    <rdfs:label>Longhurst Lane Car Park</rdfs:label>
+    <vcard:hasAddress>
+      <vcard:Location rdf:about="http://data.gmdsp.org.uk/id/stockport/parking/address/Longhurst_Lane">
+        <vcard:street-address>Longhurst Lane</vcard:street-address>
+        <vcard:postal-code>SK6 5AA </vcard:postal-code>
+        <rdfs:label>Longhurst Lane</rdfs:label>
+      </vcard:Location>
+    </vcard:hasAddress>
+  </parking:ParkingSite>
+  <parking:ParkingSite rdf:about="http://data.gmdsp.org.uk/id/stockport/parking/Greystokes/Holly_Street">
+    <rdfs:label>Greystokes/Holly Street Car Park</rdfs:label>
+    <geo:long>53.410764915422</geo:long>
+    <vcard:hasAddress>
+      <vcard:Location rdf:about="http://data.gmdsp.org.uk/id/stockport/parking/address/Greystokes/Holly_Street">
+        <vcard:street-address>Greystokes/Holly Street</vcard:street-address>
+        <vcard:postal-code>SK1 4DH </vcard:postal-code>
+        <rdfs:label>Greystokes/Holly Street</rdfs:label>
+      </vcard:Location>
+    </vcard:hasAddress>
+    <parking:totalNumberOfSpaces rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">16</parking:totalNumberOfSpaces>
+    <geo:lat>-2.1500949175202</geo:lat>
+  </parking:ParkingSite>
+  <parking:ParkingSite rdf:about="http://data.gmdsp.org.uk/id/stockport/parking/Church_Road/Woods_Lane">
+    <vcard:hasAddress>
+      <vcard:Location rdf:about="http://data.gmdsp.org.uk/id/stockport/parking/address/Church_Road/Woods_Lane">
+        <rdfs:label>Church Road/Woods Lane</rdfs:label>
+        <vcard:street-address>Church Road/Woods Lane</vcard:street-address>
+        <vcard:postal-code>SK8 7JU </vcard:postal-code>
+      </vcard:Location>
+    </vcard:hasAddress>
+    <geo:long>53.3848490057935</geo:long>
+    <rdfs:label>Church Road/Woods Lane Car Park</rdfs:label>
+    <parking:totalNumberOfSpaces rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">50</parking:totalNumberOfSpaces>
+    <geo:lat>-2.21974637701833</geo:lat>
+  </parking:ParkingSite>
+  <parking:ParkingSite rdf:about="http://data.gmdsp.org.uk/id/stockport/parking/Belmont_Street_(1)">
+    <vcard:hasAddress>
+      <vcard:Location rdf:about="http://data.gmdsp.org.uk/id/stockport/parking/address/Belmont_Street_(1)">
+        <vcard:postal-code>SK4 1LX </vcard:postal-code>
+        <rdfs:label>Belmont Street (1)</rdfs:label>
+        <vcard:street-address>Belmont Street (1)</vcard:street-address>
+      </vcard:Location>
+    </vcard:hasAddress>
+    <rdfs:label>Belmont Street (1) Car Park</rdfs:label>
+    <geo:long>53.3976760331833</geo:long>
+    <geo:lat>-2.13382007124421</geo:lat>
+    <parking:totalNumberOfSpaces rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">12</parking:totalNumberOfSpaces>
+  </parking:ParkingSite>
+  <parking:ParkingSite rdf:about="http://data.gmdsp.org.uk/id/stockport/parking/Bridge_Lane_Shops">
+    <parking:totalNumberOfSpaces rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">4</parking:totalNumberOfSpaces>
+    <geo:lat>-2.20641038555244</geo:lat>
+    <rdfs:label>Bridge Lane Shops Car Park</rdfs:label>
+    <vcard:hasAddress>
+      <vcard:Location rdf:about="http://data.gmdsp.org.uk/id/stockport/parking/address/Bridge_Lane_Shops">
+        <vcard:street-address>Bridge Lane Shops</vcard:street-address>
+        <vcard:postal-code>SK7 3AB </vcard:postal-code>
+        <rdfs:label>Bridge Lane Shops</rdfs:label>
+      </vcard:Location>
+    </vcard:hasAddress>
+    <geo:long>53.4020265945801</geo:long>
+  </parking:ParkingSite>
+  <parking:ParkingSite rdf:about="http://data.gmdsp.org.uk/id/stockport/parking/Hollins_Lane">
+    <rdfs:label>Hollins Lane Car Park</rdfs:label>
+    <parking:totalNumberOfSpaces rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">35</parking:totalNumberOfSpaces>
+    <geo:lat>-2.17009467481059</geo:lat>
+    <vcard:hasAddress>
+      <vcard:Location rdf:about="http://data.gmdsp.org.uk/id/stockport/parking/address/Hollins_Lane">
+        <vcard:street-address>Hollins Lane</vcard:street-address>
+        <rdfs:label>Hollins Lane</rdfs:label>
+        <vcard:postal-code>SK6 6AW </vcard:postal-code>
+      </vcard:Location>
+    </vcard:hasAddress>
+    <geo:long>53.4596916768714</geo:long>
+  </parking:ParkingSite>
+  <parking:ParkingSite rdf:about="http://data.gmdsp.org.uk/id/stockport/parking/Arnold_Street">
+    <parking:totalNumberOfSpaces rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">10</parking:totalNumberOfSpaces>
+    <rdfs:label>Arnold Street Car Park</rdfs:label>
+    <geo:long>53.3977384599076</geo:long>
+    <geo:lat>-2.16203702282459</geo:lat>
+    <vcard:hasAddress>
+      <vcard:Location rdf:about="http://data.gmdsp.org.uk/id/stockport/parking/address/Arnold_Street">
+        <vcard:street-address>Arnold Street</vcard:street-address>
+        <vcard:postal-code>SK3 9BW</vcard:postal-code>
+        <rdfs:label>Arnold Street</rdfs:label>
+      </vcard:Location>
+    </vcard:hasAddress>
+  </parking:ParkingSite>
+  <parking:ParkingSite rdf:about="http://data.gmdsp.org.uk/id/stockport/parking/Rupert_Street">
+    <geo:long>53.4003227707909</geo:long>
+    <parking:totalNumberOfSpaces rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">28</parking:totalNumberOfSpaces>
+    <geo:lat>-2.10269349009749</geo:lat>
+    <rdfs:label>Rupert Street Car Park</rdfs:label>
+    <vcard:hasAddress>
+      <vcard:Location rdf:about="http://data.gmdsp.org.uk/id/stockport/parking/address/Rupert_Street">
+        <vcard:postal-code>SK5 6DH </vcard:postal-code>
+        <rdfs:label>Rupert Street</rdfs:label>
+        <vcard:street-address>Rupert Street</vcard:street-address>
+      </vcard:Location>
+    </vcard:hasAddress>
+  </parking:ParkingSite>
+  <parking:ParkingSite rdf:about="http://data.gmdsp.org.uk/id/stockport/parking/Bourne_Street">
+    <geo:long>53.3996766195187</geo:long>
+    <parking:totalNumberOfSpaces rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">8</parking:totalNumberOfSpaces>
+    <rdfs:label>Bourne Street Car Park</rdfs:label>
+    <geo:lat>-2.12730403051858</geo:lat>
+    <vcard:hasAddress>
+      <vcard:Location rdf:about="http://data.gmdsp.org.uk/id/stockport/parking/address/Bourne_Street">
+        <vcard:street-address>Bourne Street</vcard:street-address>
+        <vcard:postal-code>SK4  1PX </vcard:postal-code>
+        <rdfs:label>Bourne Street</rdfs:label>
+      </vcard:Location>
+    </vcard:hasAddress>
+  </parking:ParkingSite>
+  <parking:ParkingSite rdf:about="http://data.gmdsp.org.uk/id/stockport/parking/Hogarth_Road_(South)">
+    <vcard:hasAddress>
+      <vcard:Location rdf:about="http://data.gmdsp.org.uk/id/stockport/parking/address/Hogarth_Road_(South)">
+        <vcard:postal-code>SK6 5BP </vcard:postal-code>
+        <rdfs:label>Hogarth Road (South)</rdfs:label>
+        <vcard:street-address>Hogarth Road (South)</vcard:street-address>
+      </vcard:Location>
+    </vcard:hasAddress>
+    <rdfs:label>Hogarth Road (South) Car Park</rdfs:label>
+    <parking:totalNumberOfSpaces rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">6</parking:totalNumberOfSpaces>
+    <geo:lat>-2.15694882903678</geo:lat>
+    <geo:long>53.4664614629565</geo:long>
+  </parking:ParkingSite>
+  <parking:ParkingSite rdf:about="http://data.gmdsp.org.uk/id/stockport/parking/Meadway_West">
+    <geo:long>53.3992402924051</geo:long>
+    <rdfs:label>Meadway West Car Park</rdfs:label>
+    <geo:lat>-2.23680469307008</geo:lat>
+    <parking:totalNumberOfSpaces rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">99</parking:totalNumberOfSpaces>
+    <vcard:hasAddress>
+      <vcard:Location rdf:about="http://data.gmdsp.org.uk/id/stockport/parking/address/Meadway_West">
+        <vcard:postal-code>SK7 1JR</vcard:postal-code>
+        <vcard:street-address>Meadway West</vcard:street-address>
+        <rdfs:label>Meadway West</rdfs:label>
+      </vcard:Location>
+    </vcard:hasAddress>
+  </parking:ParkingSite>
+  <parking:ParkingSite rdf:about="http://data.gmdsp.org.uk/id/stockport/parking/Hallam_Street">
+    <rdfs:label>Hallam Street Car Park</rdfs:label>
+    <vcard:hasAddress>
+      <vcard:Location rdf:about="http://data.gmdsp.org.uk/id/stockport/parking/address/Hallam_Street">
+        <rdfs:label>Hallam Street</rdfs:label>
+        <vcard:street-address>Hallam Street</vcard:street-address>
+        <vcard:postal-code>SK2 6PT </vcard:postal-code>
+      </vcard:Location>
+    </vcard:hasAddress>
     <geo:long>53.4073983254846</geo:long>
     <geo:lat>-2.16976983282173</geo:lat>
-    <ns1:hasAddress rdf:resource="http://data.gmdsp.org.uk/def/council/parking/address/Hallam_Street"/>
-  </ns2:ParkingSite>
-  <ns1:Location rdf:about="http://data.gmdsp.org.uk/id/manchester/parking/address/Lord_Street_2">
-    <rdfs:label>Lord Street 2</rdfs:label>
-    <ns1:postal-code>SK1  3NA </ns1:postal-code>
-    <ns1:street-address>Lord Street 2</ns1:street-address>
-  </ns1:Location>
-  <ns2:ParkingSite rdf:about="http://data.gmdsp.org.uk/id/manchester/parking/George_Street_(Lower)">
-    <ns1:hasAddress rdf:resource="http://data.gmdsp.org.uk/def/council/parking/address/George_Street_(Lower)"/>
-    <ns2:totalNumberOfSpaces rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">11</ns2:totalNumberOfSpaces>
-    <rdfs:label>George Street (Lower) car park</rdfs:label>
+    <parking:totalNumberOfSpaces rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">41</parking:totalNumberOfSpaces>
+  </parking:ParkingSite>
+  <parking:ParkingSite rdf:about="http://data.gmdsp.org.uk/id/stockport/parking/Commercial_Road_East">
+    <geo:long>53.4241155790197</geo:long>
+    <parking:totalNumberOfSpaces rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">30</parking:totalNumberOfSpaces>
+    <geo:lat>-2.19304488498442</geo:lat>
+    <rdfs:label>Commercial Road East Car Park</rdfs:label>
+    <vcard:hasAddress>
+      <vcard:Location rdf:about="http://data.gmdsp.org.uk/id/stockport/parking/address/Commercial_Road_East">
+        <vcard:postal-code>SK7 4AA</vcard:postal-code>
+        <vcard:street-address>Commercial Road East</vcard:street-address>
+        <rdfs:label>Commercial Road East</rdfs:label>
+      </vcard:Location>
+    </vcard:hasAddress>
+  </parking:ParkingSite>
+  <parking:ParkingSite rdf:about="http://data.gmdsp.org.uk/id/stockport/parking/Middlers">
+    <vcard:hasAddress>
+      <vcard:Location rdf:about="http://data.gmdsp.org.uk/id/stockport/parking/address/Middlers">
+        <rdfs:label>Middlers</rdfs:label>
+        <vcard:postal-code>SK6 7DA </vcard:postal-code>
+        <vcard:street-address>Middlers</vcard:street-address>
+      </vcard:Location>
+    </vcard:hasAddress>
+    <rdfs:label>Middlers Car Park</rdfs:label>
+    <geo:long>53.4641854935689</geo:long>
+    <geo:lat>-2.16326980241602</geo:lat>
+    <parking:totalNumberOfSpaces rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">0</parking:totalNumberOfSpaces>
+  </parking:ParkingSite>
+  <parking:ParkingSite rdf:about="http://data.gmdsp.org.uk/id/stockport/parking/Derby_Street">
+    <geo:long>53.4588962674019</geo:long>
+    <vcard:hasAddress>
+      <vcard:Location rdf:about="http://data.gmdsp.org.uk/id/stockport/parking/address/Derby_Street">
+        <rdfs:label>Derby Street</rdfs:label>
+        <vcard:street-address>Derby Street</vcard:street-address>
+        <vcard:postal-code>SK6 7AW </vcard:postal-code>
+      </vcard:Location>
+    </vcard:hasAddress>
+    <parking:totalNumberOfSpaces rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">8</parking:totalNumberOfSpaces>
+    <rdfs:label>Derby Street Car Park</rdfs:label>
+    <geo:lat>-2.17449364043627</geo:lat>
+  </parking:ParkingSite>
+  <parking:ParkingSite rdf:about="http://data.gmdsp.org.uk/id/stockport/parking/Etherow_Country_Pk.">
+    <parking:totalNumberOfSpaces rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">91</parking:totalNumberOfSpaces>
+    <vcard:hasAddress>
+      <vcard:Location rdf:about="http://data.gmdsp.org.uk/id/stockport/parking/address/Etherow_Country_Pk.">
+        <vcard:street-address>Etherow Country Pk.</vcard:street-address>
+        <rdfs:label>Etherow Country Pk.</rdfs:label>
+        <vcard:postal-code>SK6 5JD </vcard:postal-code>
+      </vcard:Location>
+    </vcard:hasAddress>
+    <rdfs:label>Etherow Country Pk. Car Park</rdfs:label>
+    <geo:long>53.4655884358365</geo:long>
+    <geo:lat>-2.13903939026614</geo:lat>
+  </parking:ParkingSite>
+  <parking:ParkingSite rdf:about="http://data.gmdsp.org.uk/id/stockport/parking/Bakewell_Street">
+    <vcard:hasAddress>
+      <vcard:Location rdf:about="http://data.gmdsp.org.uk/id/stockport/parking/address/Bakewell_Street">
+        <vcard:postal-code>SK3 9HA </vcard:postal-code>
+        <rdfs:label>Bakewell Street</rdfs:label>
+        <vcard:street-address>Bakewell Street</vcard:street-address>
+      </vcard:Location>
+    </vcard:hasAddress>
+    <geo:long>53.3966307031054</geo:long>
+    <geo:lat>-2.15985298730483</geo:lat>
+    <rdfs:label>Bakewell Street Car Park</rdfs:label>
+    <parking:totalNumberOfSpaces rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">11</parking:totalNumberOfSpaces>
+  </parking:ParkingSite>
+  <parking:ParkingSite rdf:about="http://data.gmdsp.org.uk/id/stockport/parking/Heathland_Terrace">
+    <parking:totalNumberOfSpaces rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">6</parking:totalNumberOfSpaces>
+    <rdfs:label>Heathland Terrace Car Park</rdfs:label>
+    <vcard:hasAddress>
+      <vcard:Location rdf:about="http://data.gmdsp.org.uk/id/stockport/parking/address/Heathland_Terrace">
+        <vcard:street-address>Heathland Terrace</vcard:street-address>
+        <vcard:postal-code>SK3 8DU </vcard:postal-code>
+        <rdfs:label>Heathland Terrace</rdfs:label>
+      </vcard:Location>
+    </vcard:hasAddress>
+    <geo:long>53.4016560165299</geo:long>
+    <geo:lat>-2.1646080626277</geo:lat>
+  </parking:ParkingSite>
+  <parking:ParkingSite rdf:about="http://data.gmdsp.org.uk/id/stockport/parking/Commercial_Road_West">
+    <rdfs:label>Commercial Road West Car Park</rdfs:label>
+    <parking:totalNumberOfSpaces rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">21</parking:totalNumberOfSpaces>
+    <vcard:hasAddress>
+      <vcard:Location rdf:about="http://data.gmdsp.org.uk/id/stockport/parking/address/Commercial_Road_West">
+        <vcard:street-address>Commercial Road West</vcard:street-address>
+        <rdfs:label>Commercial Road West</rdfs:label>
+        <vcard:postal-code>SK7 4BG </vcard:postal-code>
+      </vcard:Location>
+    </vcard:hasAddress>
+    <geo:lat>-2.19285980607074</geo:lat>
+    <geo:long>53.4237089348963</geo:long>
+  </parking:ParkingSite>
+  <parking:ParkingSite rdf:about="http://data.gmdsp.org.uk/id/stockport/parking/Derby_Way">
+    <geo:long>53.458685656318</geo:long>
+    <vcard:hasAddress>
+      <vcard:Location rdf:about="http://data.gmdsp.org.uk/id/stockport/parking/address/Derby_Way">
+        <vcard:postal-code>SK6 7AW </vcard:postal-code>
+        <vcard:street-address>Derby Way</vcard:street-address>
+        <rdfs:label>Derby Way</rdfs:label>
+      </vcard:Location>
+    </vcard:hasAddress>
+    <rdfs:label>Derby Way Car Park</rdfs:label>
+    <parking:totalNumberOfSpaces rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">53</parking:totalNumberOfSpaces>
+    <geo:lat>-2.17402949648797</geo:lat>
+  </parking:ParkingSite>
+  <parking:ParkingSite rdf:about="http://data.gmdsp.org.uk/id/stockport/parking/Churchgate">
+    <parking:totalNumberOfSpaces rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">69</parking:totalNumberOfSpaces>
+    <vcard:hasAddress>
+      <vcard:Location rdf:about="http://data.gmdsp.org.uk/id/stockport/parking/address/Churchgate">
+        <vcard:street-address>Churchgate</vcard:street-address>
+        <vcard:postal-code>SK1 2LX </vcard:postal-code>
+        <rdfs:label>Churchgate</rdfs:label>
+      </vcard:Location>
+    </vcard:hasAddress>
+    <geo:lat>-2.14506125700308</geo:lat>
+    <rdfs:label>Churchgate Car Park</rdfs:label>
+    <geo:long>53.405156635366</geo:long>
+  </parking:ParkingSite>
+  <parking:ParkingSite rdf:about="http://data.gmdsp.org.uk/id/stockport/parking/Woodley_Precinct">
+    <geo:long>53.4376354376876</geo:long>
+    <geo:lat>-2.11930901839878</geo:lat>
+    <vcard:hasAddress>
+      <vcard:Location rdf:about="http://data.gmdsp.org.uk/id/stockport/parking/address/Woodley_Precinct">
+        <vcard:street-address>Woodley Precinct</vcard:street-address>
+        <vcard:postal-code>SK6 1NB </vcard:postal-code>
+        <rdfs:label>Woodley Precinct</rdfs:label>
+      </vcard:Location>
+    </vcard:hasAddress>
+    <parking:totalNumberOfSpaces rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">18</parking:totalNumberOfSpaces>
+    <rdfs:label>Woodley Precinct Car Park</rdfs:label>
+  </parking:ParkingSite>
+  <parking:ParkingSite rdf:about="http://data.gmdsp.org.uk/id/stockport/parking/Caroline_Street">
+    <geo:long>53.3969233001753</geo:long>
+    <rdfs:label>Caroline Street Car Park</rdfs:label>
+    <vcard:hasAddress>
+      <vcard:Location rdf:about="http://data.gmdsp.org.uk/id/stockport/parking/address/Caroline_Street">
+        <vcard:street-address>Caroline Street</vcard:street-address>
+        <rdfs:label>Caroline Street</rdfs:label>
+        <vcard:postal-code>SK3 9DJ</vcard:postal-code>
+      </vcard:Location>
+    </vcard:hasAddress>
+    <parking:totalNumberOfSpaces rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">73</parking:totalNumberOfSpaces>
+    <geo:lat>-2.16127904429083</geo:lat>
+  </parking:ParkingSite>
+  <parking:ParkingSite rdf:about="http://data.gmdsp.org.uk/id/stockport/parking/Brook_Street_P&amp;D">
+    <geo:long>53.4278438956714</geo:long>
+    <rdfs:label>Brook Street P&amp;D Car Park</rdfs:label>
+    <geo:lat>-2.19982977848802</geo:lat>
+    <parking:totalNumberOfSpaces rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">39</parking:totalNumberOfSpaces>
+    <vcard:hasAddress>
+      <vcard:Location rdf:about="http://data.gmdsp.org.uk/id/stockport/parking/address/Brook_Street_P&amp;D">
+        <rdfs:label>Brook Street P&amp;D</rdfs:label>
+        <vcard:street-address>Brook Street P&amp;D</vcard:street-address>
+        <vcard:postal-code>SK7 4QW </vcard:postal-code>
+      </vcard:Location>
+    </vcard:hasAddress>
+  </parking:ParkingSite>
+  <parking:ParkingSite rdf:about="http://data.gmdsp.org.uk/id/stockport/parking/Back_Massie_Street_(South)">
+    <rdfs:label>Back Massie Street (South) Car Park</rdfs:label>
+    <geo:long>53.3680328400354</geo:long>
+    <geo:lat>-2.17434352560493</geo:lat>
+    <parking:totalNumberOfSpaces rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">9</parking:totalNumberOfSpaces>
+    <vcard:hasAddress>
+      <vcard:Location rdf:about="http://data.gmdsp.org.uk/id/stockport/parking/address/Back_Massie_Street_(South)">
+        <vcard:postal-code>SK8 1BR </vcard:postal-code>
+        <rdfs:label>Back Massie Street (South)</rdfs:label>
+        <vcard:street-address>Back Massie Street (South)</vcard:street-address>
+      </vcard:Location>
+    </vcard:hasAddress>
+  </parking:ParkingSite>
+  <parking:ParkingSite rdf:about="http://data.gmdsp.org.uk/id/stockport/parking/Massie_Street_West">
+    <rdfs:label>Massie Street West Car Park</rdfs:label>
+    <vcard:hasAddress>
+      <vcard:Location rdf:about="http://data.gmdsp.org.uk/id/stockport/parking/address/Massie_Street_West">
+        <rdfs:label>Massie Street West</rdfs:label>
+        <vcard:street-address>Massie Street West</vcard:street-address>
+        <vcard:postal-code>SK8 1BP </vcard:postal-code>
+      </vcard:Location>
+    </vcard:hasAddress>
+    <parking:totalNumberOfSpaces rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">108</parking:totalNumberOfSpaces>
+    <geo:long>53.3682928195843</geo:long>
+    <geo:lat>-2.1738391714893</geo:lat>
+  </parking:ParkingSite>
+  <parking:ParkingSite rdf:about="http://data.gmdsp.org.uk/id/stockport/parking/Lavenders_Brow">
+    <rdfs:label>Lavenders Brow Car Park</rdfs:label>
+    <geo:long>53.4060094310811</geo:long>
+    <geo:lat>-2.14765739463744</geo:lat>
+    <vcard:hasAddress>
+      <vcard:Location rdf:about="http://data.gmdsp.org.uk/id/stockport/parking/address/Lavenders_Brow">
+        <vcard:street-address>Lavenders Brow</vcard:street-address>
+        <rdfs:label>Lavenders Brow</rdfs:label>
+        <vcard:postal-code>SK1  1YG </vcard:postal-code>
+      </vcard:Location>
+    </vcard:hasAddress>
+    <parking:totalNumberOfSpaces rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">8</parking:totalNumberOfSpaces>
+  </parking:ParkingSite>
+  <parking:ParkingSite rdf:about="http://data.gmdsp.org.uk/id/stockport/parking/Edward_Street">
+    <rdfs:label>Edward Street Car Park</rdfs:label>
+    <parking:totalNumberOfSpaces rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">16</parking:totalNumberOfSpaces>
+    <geo:long>53.4047958377626</geo:long>
+    <vcard:hasAddress>
+      <vcard:Location rdf:about="http://data.gmdsp.org.uk/id/stockport/parking/address/Edward_Street">
+        <vcard:street-address>Edward Street</vcard:street-address>
+        <rdfs:label>Edward Street</rdfs:label>
+        <vcard:postal-code>SK1  3AY</vcard:postal-code>
+      </vcard:Location>
+    </vcard:hasAddress>
+    <geo:lat>-2.1516296080837</geo:lat>
+  </parking:ParkingSite>
+  <parking:ParkingSite rdf:about="http://data.gmdsp.org.uk/id/stockport/parking/Arundel_Avenue">
+    <vcard:hasAddress>
+      <vcard:Location rdf:about="http://data.gmdsp.org.uk/id/stockport/parking/address/Arundel_Avenue">
+        <vcard:street-address>Arundel Avenue</vcard:street-address>
+        <vcard:postal-code>SK7 5LD </vcard:postal-code>
+        <rdfs:label>Arundel Avenue</rdfs:label>
+      </vcard:Location>
+    </vcard:hasAddress>
+    <parking:totalNumberOfSpaces rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">45</parking:totalNumberOfSpaces>
+    <rdfs:label>Arundel Avenue Car Park</rdfs:label>
+    <geo:long>53.4212518150957</geo:long>
+    <geo:lat>-2.20902693081436</geo:lat>
+  </parking:ParkingSite>
+  <parking:ParkingSite rdf:about="http://data.gmdsp.org.uk/id/stockport/parking/Knightsbridge">
+    <parking:totalNumberOfSpaces rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">22</parking:totalNumberOfSpaces>
+    <geo:lat>-2.13994445112495</geo:lat>
+    <rdfs:label>Knightsbridge Car Park</rdfs:label>
+    <geo:long>53.4044947903771</geo:long>
+    <vcard:hasAddress>
+      <vcard:Location rdf:about="http://data.gmdsp.org.uk/id/stockport/parking/address/Knightsbridge">
+        <rdfs:label>Knightsbridge</rdfs:label>
+        <vcard:postal-code>SK1 2DW </vcard:postal-code>
+        <vcard:street-address>Knightsbridge</vcard:street-address>
+      </vcard:Location>
+    </vcard:hasAddress>
+  </parking:ParkingSite>
+  <parking:ParkingSite rdf:about="http://data.gmdsp.org.uk/id/stockport/parking/Green_Street">
+    <geo:lat>-2.16741649791411</geo:lat>
+    <geo:long>53.4033388769982</geo:long>
+    <parking:totalNumberOfSpaces rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">33</parking:totalNumberOfSpaces>
+    <rdfs:label>Green Street Car Park</rdfs:label>
+    <vcard:hasAddress>
+      <vcard:Location rdf:about="http://data.gmdsp.org.uk/id/stockport/parking/address/Green_Street">
+        <vcard:postal-code>SK2 6QZ </vcard:postal-code>
+        <vcard:street-address>Green Street</vcard:street-address>
+        <rdfs:label>Green Street</rdfs:label>
+      </vcard:Location>
+    </vcard:hasAddress>
+  </parking:ParkingSite>
+  <parking:ParkingSite rdf:about="http://data.gmdsp.org.uk/id/stockport/parking/Church_Street/Wood_Street">
+    <vcard:hasAddress>
+      <vcard:Location rdf:about="http://data.gmdsp.org.uk/id/stockport/parking/address/Church_Street/Wood_Street">
+        <vcard:street-address>Church Street/Wood Street</vcard:street-address>
+        <rdfs:label>Church Street/Wood Street</rdfs:label>
+        <vcard:postal-code>SK8 1AE </vcard:postal-code>
+      </vcard:Location>
+    </vcard:hasAddress>
+    <geo:lat>-2.1720544213013</geo:lat>
+    <rdfs:label>Church Street/Wood Street Car Park</rdfs:label>
+    <geo:long>53.3679172180439</geo:long>
+    <parking:totalNumberOfSpaces rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">10</parking:totalNumberOfSpaces>
+  </parking:ParkingSite>
+  <parking:ParkingSite rdf:about="http://data.gmdsp.org.uk/id/stockport/parking/Market_Street">
+    <geo:lat>-2.17359620567286</geo:lat>
+    <rdfs:label>Market Street Car Park</rdfs:label>
+    <geo:long>53.459171118986</geo:long>
+    <parking:totalNumberOfSpaces rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">12</parking:totalNumberOfSpaces>
+    <vcard:hasAddress>
+      <vcard:Location rdf:about="http://data.gmdsp.org.uk/id/stockport/parking/address/Market_Street">
+        <vcard:postal-code>SK6 7AH </vcard:postal-code>
+        <vcard:street-address>Market Street</vcard:street-address>
+        <rdfs:label>Market Street</rdfs:label>
+      </vcard:Location>
+    </vcard:hasAddress>
+  </parking:ParkingSite>
+  <parking:ParkingSite rdf:about="http://data.gmdsp.org.uk/id/stockport/parking/Bamford_Street">
+    <rdfs:label>Bamford Street Car Park</rdfs:label>
+    <geo:lat>-2.15231614650911</geo:lat>
+    <geo:long>53.4049897265336</geo:long>
+    <vcard:hasAddress>
+      <vcard:Location rdf:about="http://data.gmdsp.org.uk/id/stockport/parking/address/Bamford_Street">
+        <vcard:street-address>Bamford Street</vcard:street-address>
+        <rdfs:label>Bamford Street</rdfs:label>
+        <vcard:postal-code>SK1  3DQ </vcard:postal-code>
+      </vcard:Location>
+    </vcard:hasAddress>
+    <parking:totalNumberOfSpaces rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">10</parking:totalNumberOfSpaces>
+  </parking:ParkingSite>
+  <parking:ParkingSite rdf:about="http://data.gmdsp.org.uk/id/stockport/parking/Lomas_Street">
+    <rdfs:label>Lomas Street Car Park</rdfs:label>
+    <geo:lat>-2.1606838123337</geo:lat>
+    <vcard:hasAddress>
+      <vcard:Location rdf:about="http://data.gmdsp.org.uk/id/stockport/parking/address/Lomas_Street">
+        <rdfs:label>Lomas Street</rdfs:label>
+        <vcard:street-address>Lomas Street</vcard:street-address>
+        <vcard:postal-code>SK3 9DJ </vcard:postal-code>
+      </vcard:Location>
+    </vcard:hasAddress>
+    <parking:totalNumberOfSpaces rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">6</parking:totalNumberOfSpaces>
+    <geo:long>53.3974356204672</geo:long>
+  </parking:ParkingSite>
+  <parking:ParkingSite rdf:about="http://data.gmdsp.org.uk/id/stockport/parking/Brook_Street_Contract">
+    <geo:lat>-2.20014799552732</geo:lat>
+    <rdfs:label>Brook Street Contract Car Park</rdfs:label>
+    <vcard:hasAddress>
+      <vcard:Location rdf:about="http://data.gmdsp.org.uk/id/stockport/parking/address/Brook_Street_Contract">
+        <vcard:postal-code>SK7 4QZ </vcard:postal-code>
+        <vcard:street-address>Brook Street Contract</vcard:street-address>
+        <rdfs:label>Brook Street Contract</rdfs:label>
+      </vcard:Location>
+    </vcard:hasAddress>
+    <geo:long>53.4276539344037</geo:long>
+    <parking:totalNumberOfSpaces rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">4</parking:totalNumberOfSpaces>
+  </parking:ParkingSite>
+  <parking:ParkingSite rdf:about="http://data.gmdsp.org.uk/id/stockport/parking/Town_Street">
+    <vcard:hasAddress>
+      <vcard:Location rdf:about="http://data.gmdsp.org.uk/id/stockport/parking/address/Town_Street">
+        <vcard:postal-code>SK6 5AA </vcard:postal-code>
+        <vcard:street-address>Town Street</vcard:street-address>
+        <rdfs:label>Town Street</rdfs:label>
+      </vcard:Location>
+    </vcard:hasAddress>
+    <geo:lat>-2.16292838516542</geo:lat>
+    <geo:long>53.4653109574106</geo:long>
+    <rdfs:label>Town Street Car Park</rdfs:label>
+    <parking:totalNumberOfSpaces rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">11</parking:totalNumberOfSpaces>
+  </parking:ParkingSite>
+  <parking:ParkingSite rdf:about="http://data.gmdsp.org.uk/id/stockport/parking/Bramhall_Precinct">
+    <geo:lat>-2.23212371327404</geo:lat>
+    <parking:totalNumberOfSpaces rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">81</parking:totalNumberOfSpaces>
+    <rdfs:label>Bramhall Precinct Car Park</rdfs:label>
+    <geo:long>53.3979037069988</geo:long>
+    <vcard:hasAddress>
+      <vcard:Location rdf:about="http://data.gmdsp.org.uk/id/stockport/parking/address/Bramhall_Precinct">
+        <rdfs:label>Bramhall Precinct</rdfs:label>
+        <vcard:street-address>Bramhall Precinct</vcard:street-address>
+        <vcard:postal-code>SK7 1AL</vcard:postal-code>
+      </vcard:Location>
+    </vcard:hasAddress>
+  </parking:ParkingSite>
+  <parking:ParkingSite rdf:about="http://data.gmdsp.org.uk/id/stockport/parking/Grafton_Street">
+    <geo:long>53.3989552934823</geo:long>
+    <parking:totalNumberOfSpaces rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">12</parking:totalNumberOfSpaces>
+    <rdfs:label>Grafton Street Car Park</rdfs:label>
+    <geo:lat>-2.13300302774255</geo:lat>
+    <vcard:hasAddress>
+      <vcard:Location rdf:about="http://data.gmdsp.org.uk/id/stockport/parking/address/Grafton_Street">
+        <vcard:postal-code>SK4 1QX </vcard:postal-code>
+        <rdfs:label>Grafton Street</rdfs:label>
+        <vcard:street-address>Grafton Street</vcard:street-address>
+      </vcard:Location>
+    </vcard:hasAddress>
+  </parking:ParkingSite>
+  <parking:ParkingSite rdf:about="http://data.gmdsp.org.uk/id/stockport/parking/Kings_Drive">
+    <geo:long>53.384322785028</geo:long>
+    <parking:totalNumberOfSpaces rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">32</parking:totalNumberOfSpaces>
+    <rdfs:label>Kings Drive Car Park</rdfs:label>
+    <vcard:hasAddress>
+      <vcard:Location rdf:about="http://data.gmdsp.org.uk/id/stockport/parking/address/Kings_Drive">
+        <vcard:postal-code>SK4 4DU </vcard:postal-code>
+        <vcard:street-address>Kings Drive</vcard:street-address>
+        <rdfs:label>Kings Drive</rdfs:label>
+      </vcard:Location>
+    </vcard:hasAddress>
+    <geo:lat>-2.13330104926989</geo:lat>
+  </parking:ParkingSite>
+  <parking:ParkingSite rdf:about="http://data.gmdsp.org.uk/id/stockport/parking/Andrew_Street">
+    <geo:long>53.4648684307251</geo:long>
+    <vcard:hasAddress>
+      <vcard:Location rdf:about="http://data.gmdsp.org.uk/id/stockport/parking/address/Andrew_Street">
+        <rdfs:label>Andrew Street</rdfs:label>
+        <vcard:street-address>Andrew Street</vcard:street-address>
+        <vcard:postal-code>SK6 5HN </vcard:postal-code>
+      </vcard:Location>
+    </vcard:hasAddress>
+    <parking:totalNumberOfSpaces rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">30</parking:totalNumberOfSpaces>
+    <geo:lat>-2.14026052488374</geo:lat>
+    <rdfs:label>Andrew Street Car Park</rdfs:label>
+  </parking:ParkingSite>
+  <parking:ParkingSite rdf:about="http://data.gmdsp.org.uk/id/stockport/parking/Arnold_St/Hardcastle_Road_">
+    <geo:long>53.3981042446795</geo:long>
+    <rdfs:label>Arnold St/Hardcastle Road  Car Park</rdfs:label>
+    <parking:totalNumberOfSpaces rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">12</parking:totalNumberOfSpaces>
+    <geo:lat>-2.16249351824393</geo:lat>
+    <vcard:hasAddress>
+      <vcard:Location rdf:about="http://data.gmdsp.org.uk/id/stockport/parking/address/Arnold_St/Hardcastle_Road_">
+        <vcard:street-address>Arnold St/Hardcastle Road </vcard:street-address>
+        <rdfs:label>Arnold St/Hardcastle Road </rdfs:label>
+        <vcard:postal-code>SK3 9BN </vcard:postal-code>
+      </vcard:Location>
+    </vcard:hasAddress>
+  </parking:ParkingSite>
+  <parking:ParkingSite rdf:about="http://data.gmdsp.org.uk/id/stockport/parking/Torkington_Park">
+    <vcard:hasAddress>
+      <vcard:Location rdf:about="http://data.gmdsp.org.uk/id/stockport/parking/address/Torkington_Park">
+        <vcard:street-address>Torkington Park</vcard:street-address>
+        <vcard:postal-code>SK7 6AB </vcard:postal-code>
+        <rdfs:label>Torkington Park</rdfs:label>
+      </vcard:Location>
+    </vcard:hasAddress>
+    <rdfs:label>Torkington Park Car Park</rdfs:label>
+    <parking:totalNumberOfSpaces rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">65</parking:totalNumberOfSpaces>
+    <geo:long>53.4299894824446</geo:long>
+    <geo:lat>-2.20416168563813</geo:lat>
+  </parking:ParkingSite>
+  <parking:ParkingSite rdf:about="http://data.gmdsp.org.uk/id/stockport/parking/Frances_Street">
+    <parking:totalNumberOfSpaces rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">19</parking:totalNumberOfSpaces>
+    <geo:long>53.3735354865769</geo:long>
+    <vcard:hasAddress>
+      <vcard:Location rdf:about="http://data.gmdsp.org.uk/id/stockport/parking/address/Frances_Street">
+        <vcard:postal-code>SK8 2AH </vcard:postal-code>
+        <vcard:street-address>Frances Street</vcard:street-address>
+        <rdfs:label>Frances Street</rdfs:label>
+      </vcard:Location>
+    </vcard:hasAddress>
+    <rdfs:label>Frances Street Car Park</rdfs:label>
+    <geo:lat>-2.17418857640247</geo:lat>
+  </parking:ParkingSite>
+  <parking:ParkingSite rdf:about="http://data.gmdsp.org.uk/id/stockport/parking/St.Matthews_Terrace">
+    <parking:totalNumberOfSpaces rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">18</parking:totalNumberOfSpaces>
+    <rdfs:label>St.Matthews Terrace Car Park</rdfs:label>
+    <geo:lat>-2.15930865752278</geo:lat>
+    <vcard:hasAddress>
+      <vcard:Location rdf:about="http://data.gmdsp.org.uk/id/stockport/parking/address/St.Matthews_Terrace">
+        <vcard:street-address>St.Matthews Terrace</vcard:street-address>
+        <vcard:postal-code>SK3 9EY </vcard:postal-code>
+        <rdfs:label>St.Matthews Terrace</rdfs:label>
+      </vcard:Location>
+    </vcard:hasAddress>
+    <geo:long>53.3962854803423</geo:long>
+  </parking:ParkingSite>
+  <parking:ParkingSite rdf:about="http://data.gmdsp.org.uk/id/stockport/parking/North_Park_Road">
+    <parking:totalNumberOfSpaces rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">6</parking:totalNumberOfSpaces>
+    <rdfs:label>North Park Road Car Park</rdfs:label>
+    <vcard:hasAddress>
+      <vcard:Location rdf:about="http://data.gmdsp.org.uk/id/stockport/parking/address/North_Park_Road">
+        <rdfs:label>North Park Road</rdfs:label>
+        <vcard:street-address>North Park Road</vcard:street-address>
+        <vcard:postal-code>SK7 3LQ </vcard:postal-code>
+      </vcard:Location>
+    </vcard:hasAddress>
+    <geo:long>53.399086491298</geo:long>
+    <geo:lat>-2.19548076729141</geo:lat>
+  </parking:ParkingSite>
+  <parking:ParkingSite rdf:about="http://data.gmdsp.org.uk/id/stockport/parking/Bruntwood_Park">
+    <geo:long>53.3720782442745</geo:long>
+    <rdfs:label>Bruntwood Park Car Park</rdfs:label>
+    <geo:lat>-2.1963473846375</geo:lat>
+    <parking:totalNumberOfSpaces rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">172</parking:totalNumberOfSpaces>
+    <vcard:hasAddress>
+      <vcard:Location rdf:about="http://data.gmdsp.org.uk/id/stockport/parking/address/Bruntwood_Park">
+        <rdfs:label>Bruntwood Park</rdfs:label>
+        <vcard:street-address>Bruntwood Park</vcard:street-address>
+        <vcard:postal-code>SK8 1HX </vcard:postal-code>
+      </vcard:Location>
+    </vcard:hasAddress>
+  </parking:ParkingSite>
+  <parking:ParkingSite rdf:about="http://data.gmdsp.org.uk/id/stockport/parking/Station_Approach">
+    <rdfs:label>Station Approach Car Park</rdfs:label>
+    <parking:totalNumberOfSpaces rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">66</parking:totalNumberOfSpaces>
+    <vcard:hasAddress>
+      <vcard:Location rdf:about="http://data.gmdsp.org.uk/id/stockport/parking/address/Station_Approach">
+        <rdfs:label>Station Approach</rdfs:label>
+        <vcard:street-address>Station Approach</vcard:street-address>
+        <vcard:postal-code>SK8 7AA </vcard:postal-code>
+      </vcard:Location>
+    </vcard:hasAddress>
+    <geo:lat>-2.2024500747304</geo:lat>
+    <geo:long>53.3854350239077</geo:long>
+  </parking:ParkingSite>
+  <parking:ParkingSite rdf:about="http://data.gmdsp.org.uk/id/stockport/parking/Grand_Central_CP3">
+    <geo:long>53.400240990171</geo:long>
+    <parking:totalNumberOfSpaces rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">50</parking:totalNumberOfSpaces>
+    <rdfs:label>Grand Central CP3 Car Park</rdfs:label>
+    <vcard:hasAddress>
+      <vcard:Location rdf:about="http://data.gmdsp.org.uk/id/stockport/parking/address/Grand_Central_CP3">
+        <vcard:postal-code>SK3 9HZ</vcard:postal-code>
+        <rdfs:label>Grand Central CP3</rdfs:label>
+        <vcard:street-address>Grand Central CP3</vcard:street-address>
+      </vcard:Location>
+    </vcard:hasAddress>
+    <geo:lat>-2.15172329174287</geo:lat>
+  </parking:ParkingSite>
+  <parking:ParkingSite rdf:about="http://data.gmdsp.org.uk/id/stockport/parking/Romiley_Precinct">
+    <vcard:hasAddress>
+      <vcard:Location rdf:about="http://data.gmdsp.org.uk/id/stockport/parking/address/Romiley_Precinct">
+        <vcard:street-address>Romiley Precinct</vcard:street-address>
+        <rdfs:label>Romiley Precinct</rdfs:label>
+        <vcard:postal-code>SK6 4DN </vcard:postal-code>
+      </vcard:Location>
+    </vcard:hasAddress>
+    <geo:long>53.4461137242209</geo:long>
+    <parking:totalNumberOfSpaces rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">96</parking:totalNumberOfSpaces>
+    <rdfs:label>Romiley Precinct Car Park</rdfs:label>
+    <geo:lat>-2.14081843341153</geo:lat>
+  </parking:ParkingSite>
+  <parking:ParkingSite rdf:about="http://data.gmdsp.org.uk/id/stockport/parking/Bramhall_Park">
+    <rdfs:label>Bramhall Park Car Park</rdfs:label>
+    <vcard:hasAddress>
+      <vcard:Location rdf:about="http://data.gmdsp.org.uk/id/stockport/parking/address/Bramhall_Park">
+        <rdfs:label>Bramhall Park</rdfs:label>
+        <vcard:street-address>Bramhall Park</vcard:street-address>
+        <vcard:postal-code>SK7 3NR </vcard:postal-code>
+      </vcard:Location>
+    </vcard:hasAddress>
+    <geo:lat>-2.20821487024783</geo:lat>
+    <parking:totalNumberOfSpaces rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">78</parking:totalNumberOfSpaces>
+    <geo:long>53.3971041687891</geo:long>
+  </parking:ParkingSite>
+  <parking:ParkingSite rdf:about="http://data.gmdsp.org.uk/id/stockport/parking/Gt._Egerton_St.">
+    <vcard:hasAddress>
+      <vcard:Location rdf:about="http://data.gmdsp.org.uk/id/stockport/parking/address/Gt._Egerton_St.">
+        <vcard:postal-code>SK1 1RS </vcard:postal-code>
+        <vcard:street-address>Gt. Egerton St.</vcard:street-address>
+        <rdfs:label>Gt. Egerton St.</rdfs:label>
+      </vcard:Location>
+    </vcard:hasAddress>
+    <geo:lat>-2.14314163630361</geo:lat>
+    <parking:totalNumberOfSpaces rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">323</parking:totalNumberOfSpaces>
+    <rdfs:label>Gt. Egerton St. Car Park</rdfs:label>
+    <geo:long>53.4007870616355</geo:long>
+  </parking:ParkingSite>
+  <parking:ParkingSite rdf:about="http://data.gmdsp.org.uk/id/stockport/parking/Cambridge_Street">
+    <rdfs:label>Cambridge Street Car Park</rdfs:label>
+    <parking:totalNumberOfSpaces rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">10</parking:totalNumberOfSpaces>
+    <vcard:hasAddress>
+      <vcard:Location rdf:about="http://data.gmdsp.org.uk/id/stockport/parking/address/Cambridge_Street">
+        <rdfs:label>Cambridge Street</rdfs:label>
+        <vcard:postal-code>SK2 6PY </vcard:postal-code>
+        <vcard:street-address>Cambridge Street</vcard:street-address>
+      </vcard:Location>
+    </vcard:hasAddress>
+    <geo:lat>-2.17271037954475</geo:lat>
+    <geo:long>53.4079176228332</geo:long>
+  </parking:ParkingSite>
+  <parking:ParkingSite rdf:about="http://data.gmdsp.org.uk/id/stockport/parking/Derby_Range">
+    <geo:lat>-2.12358671803916</geo:lat>
+    <rdfs:label>Derby Range Car Park</rdfs:label>
+    <vcard:hasAddress>
+      <vcard:Location rdf:about="http://data.gmdsp.org.uk/id/stockport/parking/address/Derby_Range">
+        <rdfs:label>Derby Range</rdfs:label>
+        <vcard:postal-code>SK4 4AB </vcard:postal-code>
+        <vcard:street-address>Derby Range</vcard:street-address>
+      </vcard:Location>
+    </vcard:hasAddress>
+    <parking:totalNumberOfSpaces rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">21</parking:totalNumberOfSpaces>
+    <geo:long>53.3877277122761</geo:long>
+  </parking:ParkingSite>
+  <parking:ParkingSite rdf:about="http://data.gmdsp.org.uk/id/stockport/parking/Banks_Lane">
+    <geo:long>53.4155760160514</geo:long>
+    <parking:totalNumberOfSpaces rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">47</parking:totalNumberOfSpaces>
+    <geo:lat>-2.15804103203747</geo:lat>
+    <vcard:hasAddress>
+      <vcard:Location rdf:about="http://data.gmdsp.org.uk/id/stockport/parking/address/Banks_Lane">
+        <vcard:street-address>Banks Lane</vcard:street-address>
+        <rdfs:label>Banks Lane</rdfs:label>
+        <vcard:postal-code>SK1 4JU </vcard:postal-code>
+      </vcard:Location>
+    </vcard:hasAddress>
+    <rdfs:label>Banks Lane Car Park</rdfs:label>
+  </parking:ParkingSite>
+  <parking:ParkingSite rdf:about="http://data.gmdsp.org.uk/id/stockport/parking/Hopes_Carr">
+    <parking:totalNumberOfSpaces rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">37</parking:totalNumberOfSpaces>
+    <rdfs:label>Hopes Carr Car Park</rdfs:label>
+    <vcard:hasAddress>
+      <vcard:Location rdf:about="http://data.gmdsp.org.uk/id/stockport/parking/address/Hopes_Carr">
+        <vcard:postal-code>SK1  1YS </vcard:postal-code>
+        <rdfs:label>Hopes Carr</rdfs:label>
+        <vcard:street-address>Hopes Carr</vcard:street-address>
+      </vcard:Location>
+    </vcard:hasAddress>
+    <geo:long>53.4056987904489</geo:long>
+    <geo:lat>-2.15041584282932</geo:lat>
+  </parking:ParkingSite>
+  <parking:ParkingSite rdf:about="http://data.gmdsp.org.uk/id/stockport/parking/Brabyns_Park">
+    <vcard:hasAddress>
+      <vcard:Location rdf:about="http://data.gmdsp.org.uk/id/stockport/parking/address/Brabyns_Park">
+        <vcard:street-address>Brabyns Park</vcard:street-address>
+        <vcard:postal-code>SK6 7DA </vcard:postal-code>
+        <rdfs:label>Brabyns Park</rdfs:label>
+      </vcard:Location>
+    </vcard:hasAddress>
+    <parking:totalNumberOfSpaces rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">0</parking:totalNumberOfSpaces>
+    <geo:lat>-2.15929287568897</geo:lat>
+    <geo:long>53.4637642916452</geo:long>
+    <rdfs:label>Brabyns Park Car Park</rdfs:label>
+  </parking:ParkingSite>
+  <parking:ParkingSite rdf:about="http://data.gmdsp.org.uk/id/stockport/parking/Memorial_Park">
+    <parking:totalNumberOfSpaces rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">63</parking:totalNumberOfSpaces>
+    <geo:lat>-2.16979567565108</geo:lat>
+    <vcard:hasAddress>
+      <vcard:Location rdf:about="http://data.gmdsp.org.uk/id/stockport/parking/address/Memorial_Park">
+        <vcard:street-address>Memorial Park</vcard:street-address>
+        <vcard:postal-code>SK6 6BD </vcard:postal-code>
+        <rdfs:label>Memorial Park</rdfs:label>
+      </vcard:Location>
+    </vcard:hasAddress>
+    <geo:long>53.460488717065</geo:long>
+    <rdfs:label>Memorial Park Car Park</rdfs:label>
+  </parking:ParkingSite>
+  <parking:ParkingSite rdf:about="http://data.gmdsp.org.uk/id/stockport/parking/Brabyns_Brow">
+    <parking:totalNumberOfSpaces rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">76</parking:totalNumberOfSpaces>
+    <geo:lat>-2.16145099833652</geo:lat>
+    <geo:long>53.4646786549985</geo:long>
+    <rdfs:label>Brabyns Brow Car Park</rdfs:label>
+    <vcard:hasAddress>
+      <vcard:Location rdf:about="http://data.gmdsp.org.uk/id/stockport/parking/address/Brabyns_Brow">
+        <vcard:postal-code>SK6 7DA </vcard:postal-code>
+        <vcard:street-address>Brabyns Brow</vcard:street-address>
+        <rdfs:label>Brabyns Brow</rdfs:label>
+      </vcard:Location>
+    </vcard:hasAddress>
+  </parking:ParkingSite>
+  <parking:ParkingSite rdf:about="http://data.gmdsp.org.uk/id/stockport/parking/Ashbrook_Lane">
+    <parking:totalNumberOfSpaces rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">23</parking:totalNumberOfSpaces>
+    <geo:lat>-2.08201524159114</geo:lat>
+    <rdfs:label>Ashbrook Lane Car Park</rdfs:label>
+    <geo:long>53.4037574183619</geo:long>
+    <vcard:hasAddress>
+      <vcard:Location rdf:about="http://data.gmdsp.org.uk/id/stockport/parking/address/Ashbrook_Lane">
+        <vcard:street-address>Ashbrook Lane</vcard:street-address>
+        <rdfs:label>Ashbrook Lane</rdfs:label>
+        <vcard:postal-code>SK5 6RS </vcard:postal-code>
+      </vcard:Location>
+    </vcard:hasAddress>
+  </parking:ParkingSite>
+  <parking:ParkingSite rdf:about="http://data.gmdsp.org.uk/id/stockport/parking/Bulkeley_Street">
+    <geo:long>53.3974315972873</geo:long>
+    <geo:lat>-2.15926408388403</geo:lat>
+    <rdfs:label>Bulkeley Street Car Park</rdfs:label>
+    <vcard:hasAddress>
+      <vcard:Location rdf:about="http://data.gmdsp.org.uk/id/stockport/parking/address/Bulkeley_Street">
+        <vcard:street-address>Bulkeley Street</vcard:street-address>
+        <rdfs:label>Bulkeley Street</rdfs:label>
+        <vcard:postal-code>SK3 9AJ</vcard:postal-code>
+      </vcard:Location>
+    </vcard:hasAddress>
+    <parking:totalNumberOfSpaces rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">22</parking:totalNumberOfSpaces>
+  </parking:ParkingSite>
+  <parking:ParkingSite rdf:about="http://data.gmdsp.org.uk/id/stockport/parking/Brookside_Lane">
+    <geo:lat>-2.22398685132273</geo:lat>
+    <geo:long>53.4559989632051</geo:long>
+    <vcard:hasAddress>
+      <vcard:Location rdf:about="http://data.gmdsp.org.uk/id/stockport/parking/address/Brookside_Lane">
+        <rdfs:label>Brookside Lane</rdfs:label>
+        <vcard:postal-code>SK6 8ED </vcard:postal-code>
+        <vcard:street-address>Brookside Lane</vcard:street-address>
+      </vcard:Location>
+    </vcard:hasAddress>
+    <rdfs:label>Brookside Lane Car Park</rdfs:label>
+    <parking:totalNumberOfSpaces rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">23</parking:totalNumberOfSpaces>
+  </parking:ParkingSite>
+  <parking:ParkingSite rdf:about="http://data.gmdsp.org.uk/id/stockport/parking/Banbury_St.">
+    <vcard:hasAddress>
+      <vcard:Location rdf:about="http://data.gmdsp.org.uk/id/stockport/parking/address/Banbury_St.">
+        <vcard:postal-code>SK1 3AX</vcard:postal-code>
+        <rdfs:label>Banbury St.</rdfs:label>
+        <vcard:street-address>Banbury St.</vcard:street-address>
+      </vcard:Location>
+    </vcard:hasAddress>
+    <parking:totalNumberOfSpaces rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">33</parking:totalNumberOfSpaces>
+    <geo:lat>-2.14893325006941</geo:lat>
+    <rdfs:label>Banbury St. Car Park</rdfs:label>
+    <geo:long>53.4040951073973</geo:long>
+  </parking:ParkingSite>
+  <parking:ParkingSite rdf:about="http://data.gmdsp.org.uk/id/stockport/parking/Chadwick_Street">
+    <rdfs:label>Chadwick Street Car Park</rdfs:label>
+    <geo:long>53.4599733194086</geo:long>
+    <geo:lat>-2.17459261990722</geo:lat>
+    <parking:totalNumberOfSpaces rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">95</parking:totalNumberOfSpaces>
+    <vcard:hasAddress>
+      <vcard:Location rdf:about="http://data.gmdsp.org.uk/id/stockport/parking/address/Chadwick_Street">
+        <vcard:postal-code>SK6 6BY </vcard:postal-code>
+        <rdfs:label>Chadwick Street</rdfs:label>
+        <vcard:street-address>Chadwick Street</vcard:street-address>
+      </vcard:Location>
+    </vcard:hasAddress>
+  </parking:ParkingSite>
+  <parking:ParkingSite rdf:about="http://data.gmdsp.org.uk/id/stockport/parking/Belmont_Street_(2)">
+    <rdfs:label>Belmont Street (2) Car Park</rdfs:label>
+    <parking:totalNumberOfSpaces rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">25</parking:totalNumberOfSpaces>
+    <geo:long>53.3970148903968</geo:long>
+    <geo:lat>-2.13460594555037</geo:lat>
+    <vcard:hasAddress>
+      <vcard:Location rdf:about="http://data.gmdsp.org.uk/id/stockport/parking/address/Belmont_Street_(2)">
+        <vcard:street-address>Belmont Street (2)</vcard:street-address>
+        <rdfs:label>Belmont Street (2)</rdfs:label>
+        <vcard:postal-code>SK4 1QW </vcard:postal-code>
+      </vcard:Location>
+    </vcard:hasAddress>
+  </parking:ParkingSite>
+  <parking:ParkingSite rdf:about="http://data.gmdsp.org.uk/id/stockport/parking/Spring_Vale">
+    <parking:totalNumberOfSpaces rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">29</parking:totalNumberOfSpaces>
+    <geo:long>53.4269168814199</geo:long>
+    <vcard:hasAddress>
+      <vcard:Location rdf:about="http://data.gmdsp.org.uk/id/stockport/parking/address/Spring_Vale">
+        <vcard:street-address>Spring Vale</vcard:street-address>
+        <vcard:postal-code>SK7 4PP </vcard:postal-code>
+        <rdfs:label>Spring Vale</rdfs:label>
+      </vcard:Location>
+    </vcard:hasAddress>
+    <geo:lat>-2.19842985310475</geo:lat>
+    <rdfs:label>Spring Vale Car Park</rdfs:label>
+  </parking:ParkingSite>
+  <parking:ParkingSite rdf:about="http://data.gmdsp.org.uk/id/stockport/parking/Meadway_East">
+    <vcard:hasAddress>
+      <vcard:Location rdf:about="http://data.gmdsp.org.uk/id/stockport/parking/address/Meadway_East">
+        <vcard:street-address>Meadway East</vcard:street-address>
+        <rdfs:label>Meadway East</rdfs:label>
+        <vcard:postal-code>SK7 1JZ </vcard:postal-code>
+      </vcard:Location>
+    </vcard:hasAddress>
+    <geo:lat>-2.23640730583364</geo:lat>
+    <rdfs:label>Meadway East Car Park</rdfs:label>
+    <parking:totalNumberOfSpaces rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">139</parking:totalNumberOfSpaces>
+    <geo:long>53.3996996820648</geo:long>
+  </parking:ParkingSite>
+  <parking:ParkingSite rdf:about="http://data.gmdsp.org.uk/id/stockport/parking/George_Street_(Upper)">
+    <geo:long>53.4663588014974</geo:long>
+    <rdfs:label>George Street (Upper) Car Park</rdfs:label>
+    <parking:totalNumberOfSpaces rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">11</parking:totalNumberOfSpaces>
+    <geo:lat>-2.13725909042835</geo:lat>
+    <vcard:hasAddress>
+      <vcard:Location rdf:about="http://data.gmdsp.org.uk/id/stockport/parking/address/George_Street_(Upper)">
+        <vcard:postal-code>SK6 5JD </vcard:postal-code>
+        <vcard:street-address>George Street (Upper)</vcard:street-address>
+        <rdfs:label>George Street (Upper)</rdfs:label>
+      </vcard:Location>
+    </vcard:hasAddress>
+  </parking:ParkingSite>
+  <parking:ParkingSite rdf:about="http://data.gmdsp.org.uk/id/stockport/parking/George_Street_(Lower)">
     <geo:long>53.4657995781207</geo:long>
     <geo:lat>-2.13788929597602</geo:lat>
-  </ns2:ParkingSite>
-  <ns2:ParkingSite rdf:about="http://data.gmdsp.org.uk/id/manchester/parking/Lord_Street_1">
-    <geo:long>53.4023372661103</geo:long>
-    <ns2:totalNumberOfSpaces rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">23</ns2:totalNumberOfSpaces>
-    <ns1:hasAddress rdf:resource="http://data.gmdsp.org.uk/def/council/parking/address/Lord_Street_1"/>
-    <rdfs:label>Lord Street 1 car park</rdfs:label>
-    <geo:lat>-2.15110916434334</geo:lat>
-  </ns2:ParkingSite>
-  <ns1:Location rdf:about="http://data.gmdsp.org.uk/id/manchester/parking/address/Hibbert/Church_Lane">
-    <ns1:street-address>Hibbert/Church Lane</ns1:street-address>
-    <ns1:postal-code>SK6 7NN</ns1:postal-code>
-    <rdfs:label>Hibbert/Church Lane</rdfs:label>
-  </ns1:Location>
-  <ns1:Location rdf:about="http://data.gmdsp.org.uk/id/manchester/parking/address/Marsland_Terrace">
-    <rdfs:label>Marsland Terrace</rdfs:label>
-    <ns1:street-address>Marsland Terrace</ns1:street-address>
-    <ns1:postal-code>SK1 4QA </ns1:postal-code>
-  </ns1:Location>
-  <ns1:Location rdf:about="http://data.gmdsp.org.uk/id/manchester/parking/address/Bulkeley_Street">
-    <ns1:street-address>Bulkeley Street</ns1:street-address>
-    <ns1:postal-code>SK3 9AJ</ns1:postal-code>
-    <rdfs:label>Bulkeley Street</rdfs:label>
-  </ns1:Location>
-  <ns2:ParkingSite rdf:about="http://data.gmdsp.org.uk/id/manchester/parking/Newbridge_La.">
-    <rdfs:label>Newbridge La. car park</rdfs:label>
-    <ns2:totalNumberOfSpaces rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">206</ns2:totalNumberOfSpaces>
-    <ns1:hasAddress rdf:resource="http://data.gmdsp.org.uk/def/council/parking/address/Newbridge_La."/>
-    <geo:lat>-2.14372399860757</geo:lat>
-    <geo:long>53.4056483530796</geo:long>
-  </ns2:ParkingSite>
-  <ns1:Location rdf:about="http://data.gmdsp.org.uk/id/manchester/parking/address/Bridge_Lane_Shops">
-    <ns1:street-address>Bridge Lane Shops</ns1:street-address>
-    <rdfs:label>Bridge Lane Shops</rdfs:label>
-    <ns1:postal-code>SK7 3AB </ns1:postal-code>
-  </ns1:Location>
-  <ns1:Location rdf:about="http://data.gmdsp.org.uk/id/manchester/parking/address/Arnold_St/Hardcastle_Road_">
-    <ns1:postal-code>SK3 9BN </ns1:postal-code>
-    <ns1:street-address>Arnold St/Hardcastle Road </ns1:street-address>
-    <rdfs:label>Arnold St/Hardcastle Road </rdfs:label>
-  </ns1:Location>
-  <ns1:Location rdf:about="http://data.gmdsp.org.uk/id/manchester/parking/address/Bourne_Street">
-    <ns1:street-address>Bourne Street</ns1:street-address>
-    <rdfs:label>Bourne Street</rdfs:label>
-    <ns1:postal-code>SK4  1PX </ns1:postal-code>
-  </ns1:Location>
-  <ns1:Location rdf:about="http://data.gmdsp.org.uk/id/manchester/parking/address/Grand_Central_CP1">
-    <rdfs:label>Grand Central CP1</rdfs:label>
-    <ns1:street-address>Grand Central CP1</ns1:street-address>
-    <ns1:postal-code>SK3 9HZ</ns1:postal-code>
-  </ns1:Location>
-  <ns2:ParkingSite rdf:about="http://data.gmdsp.org.uk/id/manchester/parking/Bakewell_Street">
-    <ns1:hasAddress rdf:resource="http://data.gmdsp.org.uk/def/council/parking/address/Bakewell_Street"/>
-    <geo:lat>-2.15985298730483</geo:lat>
-    <rdfs:label>Bakewell Street car park</rdfs:label>
-    <ns2:totalNumberOfSpaces rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">11</ns2:totalNumberOfSpaces>
-    <geo:long>53.3966307031054</geo:long>
-  </ns2:ParkingSite>
-  <ns1:Location rdf:about="http://data.gmdsp.org.uk/id/manchester/parking/address/Merseyway">
-    <ns1:street-address>Merseyway</ns1:street-address>
-    <rdfs:label>Merseyway</rdfs:label>
-    <ns1:postal-code>SK1 1PT </ns1:postal-code>
-  </ns1:Location>
-  <ns2:ParkingSite rdf:about="http://data.gmdsp.org.uk/id/manchester/parking/Essex_Avenue">
-    <ns2:totalNumberOfSpaces rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">13</ns2:totalNumberOfSpaces>
-    <rdfs:label>Essex Avenue car park</rdfs:label>
-    <ns1:hasAddress rdf:resource="http://data.gmdsp.org.uk/def/council/parking/address/Essex_Avenue"/>
-    <geo:long>53.386770449628</geo:long>
-    <geo:lat>-2.15641375523345</geo:lat>
-  </ns2:ParkingSite>
-  <ns2:ParkingSite rdf:about="http://data.gmdsp.org.uk/id/manchester/parking/Massie_Street_West">
-    <ns1:hasAddress rdf:resource="http://data.gmdsp.org.uk/def/council/parking/address/Massie_Street_West"/>
-    <geo:long>53.3682928195843</geo:long>
-    <ns2:totalNumberOfSpaces rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">108</ns2:totalNumberOfSpaces>
-    <rdfs:label>Massie Street West car park</rdfs:label>
-    <geo:lat>-2.1738391714893</geo:lat>
-  </ns2:ParkingSite>
-  <ns1:Location rdf:about="http://data.gmdsp.org.uk/id/manchester/parking/address/James_Street_East_&amp;_West">
-    <rdfs:label>James Street East &amp; West</rdfs:label>
-    <ns1:street-address>James Street East &amp; West</ns1:street-address>
-    <ns1:postal-code>SK3 9AT </ns1:postal-code>
-  </ns1:Location>
-  <ns1:Location rdf:about="http://data.gmdsp.org.uk/id/manchester/parking/address/George_Street_(Upper)">
-    <rdfs:label>George Street (Upper)</rdfs:label>
-    <ns1:postal-code>SK6 5JD </ns1:postal-code>
-    <ns1:street-address>George Street (Upper)</ns1:street-address>
-  </ns1:Location>
-  <ns2:ParkingSite rdf:about="http://data.gmdsp.org.uk/id/manchester/parking/Banbury_St.">
-    <geo:long>53.4040951073973</geo:long>
-    <ns1:hasAddress rdf:resource="http://data.gmdsp.org.uk/def/council/parking/address/Banbury_St."/>
-    <rdfs:label>Banbury St. car park</rdfs:label>
-    <ns2:totalNumberOfSpaces rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">33</ns2:totalNumberOfSpaces>
-    <geo:lat>-2.14893325006941</geo:lat>
-  </ns2:ParkingSite>
-  <ns1:Location rdf:about="http://data.gmdsp.org.uk/id/manchester/parking/address/Newbridge_La.">
-    <rdfs:label>Newbridge La.</rdfs:label>
-    <ns1:street-address>Newbridge La.</ns1:street-address>
-    <ns1:postal-code>SK1 2ND </ns1:postal-code>
-  </ns1:Location>
-  <ns1:Location rdf:about="http://data.gmdsp.org.uk/id/manchester/parking/address/Spring_Vale">
-    <rdfs:label>Spring Vale</rdfs:label>
-    <ns1:street-address>Spring Vale</ns1:street-address>
-    <ns1:postal-code>SK7 4PP </ns1:postal-code>
-  </ns1:Location>
-  <ns1:Location rdf:about="http://data.gmdsp.org.uk/id/manchester/parking/address/Arnold_Street">
-    <ns1:street-address>Arnold Street</ns1:street-address>
-    <rdfs:label>Arnold Street</rdfs:label>
-    <ns1:postal-code>SK3 9BW</ns1:postal-code>
-  </ns1:Location>
-  <ns2:ParkingSite rdf:about="http://data.gmdsp.org.uk/id/manchester/parking/Kings_Drive">
-    <ns1:hasAddress rdf:resource="http://data.gmdsp.org.uk/def/council/parking/address/Kings_Drive"/>
-    <geo:lat>-2.13330104926989</geo:lat>
-    <rdfs:label>Kings Drive car park</rdfs:label>
-    <geo:long>53.384322785028</geo:long>
-    <ns2:totalNumberOfSpaces rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">32</ns2:totalNumberOfSpaces>
-  </ns2:ParkingSite>
-  <ns2:ParkingSite rdf:about="http://data.gmdsp.org.uk/id/manchester/parking/Redhouse_Lane">
-    <rdfs:label>Redhouse Lane car park</rdfs:label>
-    <geo:long>53.4354905321461</geo:long>
-    <geo:lat>-2.12280180077167</geo:lat>
-    <ns1:hasAddress rdf:resource="http://data.gmdsp.org.uk/def/council/parking/address/Redhouse_Lane"/>
-    <ns2:totalNumberOfSpaces rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">32</ns2:totalNumberOfSpaces>
-  </ns2:ParkingSite>
-  <ns1:Location rdf:about="http://data.gmdsp.org.uk/id/manchester/parking/address/Athol_Street">
-    <rdfs:label>Athol Street</rdfs:label>
-    <ns1:street-address>Athol Street</ns1:street-address>
-    <ns1:postal-code>SK4 1JL </ns1:postal-code>
-  </ns1:Location>
-  <ns1:Location rdf:about="http://data.gmdsp.org.uk/id/manchester/parking/address/Derby_Range">
-    <rdfs:label>Derby Range</rdfs:label>
-    <ns1:street-address>Derby Range</ns1:street-address>
-    <ns1:postal-code>SK4 4AB </ns1:postal-code>
-  </ns1:Location>
-  <ns1:Location rdf:about="http://data.gmdsp.org.uk/id/manchester/parking/address/Windlehurst_Road">
-    <rdfs:label>Windlehurst Road</rdfs:label>
-    <ns1:street-address>Windlehurst Road</ns1:street-address>
-    <ns1:postal-code>SK6 8AD </ns1:postal-code>
-  </ns1:Location>
-  <ns1:Location rdf:about="http://data.gmdsp.org.uk/id/manchester/parking/address/Margaret_Street">
-    <rdfs:label>Margaret Street</rdfs:label>
-    <ns1:street-address>Margaret Street</ns1:street-address>
-    <ns1:postal-code>SK5 6DJ </ns1:postal-code>
-  </ns1:Location>
-  <ns2:ParkingSite rdf:about="http://data.gmdsp.org.uk/id/manchester/parking/Heaton_Lane_(Multi_-Storey)">
-    <geo:lat>-2.14579785046238</geo:lat>
-    <ns2:totalNumberOfSpaces rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">809</ns2:totalNumberOfSpaces>
-    <geo:long>53.398724363209</geo:long>
-    <ns1:hasAddress rdf:resource="http://data.gmdsp.org.uk/def/council/parking/address/Heaton_Lane_(Multi_-Storey)"/>
-    <rdfs:label>Heaton Lane (Multi -Storey) car park</rdfs:label>
-  </ns2:ParkingSite>
-  <ns2:ParkingSite rdf:about="http://data.gmdsp.org.uk/id/manchester/parking/Green_Street">
-    <ns1:hasAddress rdf:resource="http://data.gmdsp.org.uk/def/council/parking/address/Green_Street"/>
-    <rdfs:label>Green Street car park</rdfs:label>
-    <geo:long>53.4033388769982</geo:long>
-    <ns2:totalNumberOfSpaces rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">33</ns2:totalNumberOfSpaces>
-    <geo:lat>-2.16741649791411</geo:lat>
-  </ns2:ParkingSite>
-  <ns1:Location rdf:about="http://data.gmdsp.org.uk/id/manchester/parking/address/Andrew_Street">
-    <rdfs:label>Andrew Street</rdfs:label>
-    <ns1:street-address>Andrew Street</ns1:street-address>
-    <ns1:postal-code>SK6 5HN </ns1:postal-code>
-  </ns1:Location>
-  <ns2:ParkingSite rdf:about="http://data.gmdsp.org.uk/id/manchester/parking/Back_Massie_Street_(South)">
-    <rdfs:label>Back Massie Street (South) car park</rdfs:label>
-    <geo:lat>-2.17434352560493</geo:lat>
-    <ns1:hasAddress rdf:resource="http://data.gmdsp.org.uk/def/council/parking/address/Back_Massie_Street_(South)"/>
-    <ns2:totalNumberOfSpaces rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">9</ns2:totalNumberOfSpaces>
-    <geo:long>53.3680328400354</geo:long>
-  </ns2:ParkingSite>
-  <ns2:ParkingSite rdf:about="http://data.gmdsp.org.uk/id/manchester/parking/Merseyway">
-    <rdfs:label>Merseyway car park</rdfs:label>
-    <ns1:hasAddress rdf:resource="http://data.gmdsp.org.uk/def/council/parking/address/Merseyway"/>
-    <geo:lat>-2.14520961516609</geo:lat>
-    <ns2:totalNumberOfSpaces rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">868</ns2:totalNumberOfSpaces>
-    <geo:long>53.4013492871519</geo:long>
-  </ns2:ParkingSite>
-  <ns2:ParkingSite rdf:about="http://data.gmdsp.org.uk/id/manchester/parking/Bourne_Street">
-    <ns1:hasAddress rdf:resource="http://data.gmdsp.org.uk/def/council/parking/address/Bourne_Street"/>
-    <geo:lat>-2.12730403051858</geo:lat>
-    <rdfs:label>Bourne Street car park</rdfs:label>
-    <geo:long>53.3996766195187</geo:long>
-    <ns2:totalNumberOfSpaces rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">8</ns2:totalNumberOfSpaces>
-  </ns2:ParkingSite>
-  <ns1:Location rdf:about="http://data.gmdsp.org.uk/id/manchester/parking/address/Commercial_Road_East">
-    <ns1:street-address>Commercial Road East</ns1:street-address>
-    <ns1:postal-code>SK7 4AA</ns1:postal-code>
-    <rdfs:label>Commercial Road East</rdfs:label>
-  </ns1:Location>
-  <ns1:Location rdf:about="http://data.gmdsp.org.uk/id/manchester/parking/address/Kings_Drive">
-    <rdfs:label>Kings Drive</rdfs:label>
-    <ns1:street-address>Kings Drive</ns1:street-address>
-    <ns1:postal-code>SK4 4DU </ns1:postal-code>
-  </ns1:Location>
-  <ns1:Location rdf:about="http://data.gmdsp.org.uk/id/manchester/parking/address/Grand_Central_CP2">
-    <ns1:street-address>Grand Central CP2</ns1:street-address>
-    <ns1:postal-code>SK3 9HZ</ns1:postal-code>
-    <rdfs:label>Grand Central CP2</rdfs:label>
-  </ns1:Location>
-  <ns1:Location rdf:about="http://data.gmdsp.org.uk/id/manchester/parking/address/Heron_Street">
-    <rdfs:label>Heron Street</rdfs:label>
-    <ns1:postal-code>SK3 9EU </ns1:postal-code>
-    <ns1:street-address>Heron Street</ns1:street-address>
-  </ns1:Location>
-  <ns1:Location rdf:about="http://data.gmdsp.org.uk/id/manchester/parking/address/Cambridge_Street">
-    <rdfs:label>Cambridge Street</rdfs:label>
-    <ns1:postal-code>SK2 6PY </ns1:postal-code>
-    <ns1:street-address>Cambridge Street</ns1:street-address>
-  </ns1:Location>
-  <ns1:Location rdf:about="http://data.gmdsp.org.uk/id/manchester/parking/address/Middlers">
-    <ns1:street-address>Middlers</ns1:street-address>
-    <ns1:postal-code>SK6 7DA </ns1:postal-code>
-    <rdfs:label>Middlers</rdfs:label>
-  </ns1:Location>
-  <ns1:Location rdf:about="http://data.gmdsp.org.uk/id/manchester/parking/address/Heald_Green_Health_Centre_and_Library">
-    <rdfs:label>Heald Green Health Centre and Library</rdfs:label>
-    <ns1:street-address>Heald Green Health Centre and Library</ns1:street-address>
-    <ns1:postal-code>SK8 3JB </ns1:postal-code>
-  </ns1:Location>
-  <ns2:ParkingSite rdf:about="http://data.gmdsp.org.uk/id/manchester/parking/Brook_Street_Contract">
-    <rdfs:label>Brook Street Contract car park</rdfs:label>
-    <ns1:hasAddress rdf:resource="http://data.gmdsp.org.uk/def/council/parking/address/Brook_Street_Contract"/>
-    <ns2:totalNumberOfSpaces rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">4</ns2:totalNumberOfSpaces>
-    <geo:long>53.4276539344037</geo:long>
-    <geo:lat>-2.20014799552732</geo:lat>
-  </ns2:ParkingSite>
-  <ns2:ParkingSite rdf:about="http://data.gmdsp.org.uk/id/manchester/parking/Memorial_Park">
-    <ns1:hasAddress rdf:resource="http://data.gmdsp.org.uk/def/council/parking/address/Memorial_Park"/>
-    <rdfs:label>Memorial Park car park</rdfs:label>
-    <ns2:totalNumberOfSpaces rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">63</ns2:totalNumberOfSpaces>
-    <geo:lat>-2.16979567565108</geo:lat>
-    <geo:long>53.460488717065</geo:long>
-  </ns2:ParkingSite>
-  <ns2:ParkingSite rdf:about="http://data.gmdsp.org.uk/id/manchester/parking/Knightsbridge">
-    <geo:long>53.4044947903771</geo:long>
-    <rdfs:label>Knightsbridge car park</rdfs:label>
-    <ns2:totalNumberOfSpaces rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">22</ns2:totalNumberOfSpaces>
-    <ns1:hasAddress rdf:resource="http://data.gmdsp.org.uk/def/council/parking/address/Knightsbridge"/>
-    <geo:lat>-2.13994445112495</geo:lat>
-  </ns2:ParkingSite>
-  <ns2:ParkingSite rdf:about="http://data.gmdsp.org.uk/id/manchester/parking/Cheviot_Close">
-    <ns2:totalNumberOfSpaces rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">12</ns2:totalNumberOfSpaces>
-    <geo:long>53.3966119914768</geo:long>
-    <rdfs:label>Cheviot Close car park</rdfs:label>
-    <geo:lat>-2.13561256832027</geo:lat>
-    <ns1:hasAddress rdf:resource="http://data.gmdsp.org.uk/def/council/parking/address/Cheviot_Close"/>
-  </ns2:ParkingSite>
-  <ns2:ParkingSite rdf:about="http://data.gmdsp.org.uk/id/manchester/parking/Derby_Street">
-    <geo:lat>-2.17449364043627</geo:lat>
-    <ns2:totalNumberOfSpaces rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">8</ns2:totalNumberOfSpaces>
-    <geo:long>53.4588962674019</geo:long>
-    <rdfs:label>Derby Street car park</rdfs:label>
-    <ns1:hasAddress rdf:resource="http://data.gmdsp.org.uk/def/council/parking/address/Derby_Street"/>
-  </ns2:ParkingSite>
-  <ns2:ParkingSite rdf:about="http://data.gmdsp.org.uk/id/manchester/parking/Edward_Street">
-    <geo:long>53.4047958377626</geo:long>
-    <geo:lat>-2.1516296080837</geo:lat>
-    <ns2:totalNumberOfSpaces rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">16</ns2:totalNumberOfSpaces>
-    <rdfs:label>Edward Street car park</rdfs:label>
-    <ns1:hasAddress rdf:resource="http://data.gmdsp.org.uk/def/council/parking/address/Edward_Street"/>
-  </ns2:ParkingSite>
-  <ns1:Location rdf:about="http://data.gmdsp.org.uk/id/manchester/parking/address/Loonies_Court">
-    <ns1:postal-code>SK1  3SH </ns1:postal-code>
-    <ns1:street-address>Loonies Court</ns1:street-address>
-    <rdfs:label>Loonies Court</rdfs:label>
-  </ns1:Location>
-  <ns2:ParkingSite rdf:about="http://data.gmdsp.org.uk/id/manchester/parking/Windlehurst_Road">
-    <rdfs:label>Windlehurst Road car park</rdfs:label>
-    <ns1:hasAddress rdf:resource="http://data.gmdsp.org.uk/def/council/parking/address/Windlehurst_Road"/>
+    <parking:totalNumberOfSpaces rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">11</parking:totalNumberOfSpaces>
+    <rdfs:label>George Street (Lower) Car Park</rdfs:label>
+    <vcard:hasAddress>
+      <vcard:Location rdf:about="http://data.gmdsp.org.uk/id/stockport/parking/address/George_Street_(Lower)">
+        <vcard:street-address>George Street (Lower)</vcard:street-address>
+        <rdfs:label>George Street (Lower)</rdfs:label>
+        <vcard:postal-code>SK6 5JD </vcard:postal-code>
+      </vcard:Location>
+    </vcard:hasAddress>
+  </parking:ParkingSite>
+  <parking:ParkingSite rdf:about="http://data.gmdsp.org.uk/id/stockport/parking/Windlehurst_Road">
     <geo:long>53.4512456201665</geo:long>
+    <vcard:hasAddress>
+      <vcard:Location rdf:about="http://data.gmdsp.org.uk/id/stockport/parking/address/Windlehurst_Road">
+        <vcard:street-address>Windlehurst Road</vcard:street-address>
+        <rdfs:label>Windlehurst Road</rdfs:label>
+        <vcard:postal-code>SK6 8AD </vcard:postal-code>
+      </vcard:Location>
+    </vcard:hasAddress>
     <geo:lat>-2.21877163740244</geo:lat>
-    <ns2:totalNumberOfSpaces rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">28</ns2:totalNumberOfSpaces>
-  </ns2:ParkingSite>
-  <ns2:ParkingSite rdf:about="http://data.gmdsp.org.uk/id/manchester/parking/Spring_Vale">
-    <ns1:hasAddress rdf:resource="http://data.gmdsp.org.uk/def/council/parking/address/Spring_Vale"/>
-    <geo:lat>-2.19842985310475</geo:lat>
-    <rdfs:label>Spring Vale car park</rdfs:label>
-    <geo:long>53.4269168814199</geo:long>
-    <ns2:totalNumberOfSpaces rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">29</ns2:totalNumberOfSpaces>
-  </ns2:ParkingSite>
-  <ns1:Location rdf:about="http://data.gmdsp.org.uk/id/manchester/parking/address/St.Matthews_Terrace">
-    <rdfs:label>St.Matthews Terrace</rdfs:label>
-    <ns1:street-address>St.Matthews Terrace</ns1:street-address>
-    <ns1:postal-code>SK3 9EY </ns1:postal-code>
-  </ns1:Location>
-  <ns2:ParkingSite rdf:about="http://data.gmdsp.org.uk/id/manchester/parking/Belmont_Street_(2)">
-    <geo:long>53.3970148903968</geo:long>
-    <ns1:hasAddress rdf:resource="http://data.gmdsp.org.uk/def/council/parking/address/Belmont_Street_(2)"/>
-    <geo:lat>-2.13460594555037</geo:lat>
-    <ns2:totalNumberOfSpaces rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">25</ns2:totalNumberOfSpaces>
-    <rdfs:label>Belmont Street (2) car park</rdfs:label>
-  </ns2:ParkingSite>
-  <ns2:ParkingSite rdf:about="http://data.gmdsp.org.uk/id/manchester/parking/Frances_Street">
-    <ns1:hasAddress rdf:resource="http://data.gmdsp.org.uk/def/council/parking/address/Frances_Street"/>
-    <geo:lat>-2.17418857640247</geo:lat>
-    <geo:long>53.3735354865769</geo:long>
-    <ns2:totalNumberOfSpaces rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">19</ns2:totalNumberOfSpaces>
-    <rdfs:label>Frances Street car park</rdfs:label>
-  </ns2:ParkingSite>
-  <ns1:Location rdf:about="http://data.gmdsp.org.uk/id/manchester/parking/address/Frances_Street">
-    <rdfs:label>Frances Street</rdfs:label>
-    <ns1:postal-code>SK8 2AH </ns1:postal-code>
-    <ns1:street-address>Frances Street</ns1:street-address>
-  </ns1:Location>
-  <ns1:Location rdf:about="http://data.gmdsp.org.uk/id/manchester/parking/address/Longhurst_Lane">
-    <ns1:postal-code>SK6 5AA </ns1:postal-code>
-    <ns1:street-address>Longhurst Lane</ns1:street-address>
-    <rdfs:label>Longhurst Lane</rdfs:label>
-  </ns1:Location>
-  <ns2:ParkingSite rdf:about="http://data.gmdsp.org.uk/id/manchester/parking/Brook_Street_P&amp;D">
-    <ns1:hasAddress rdf:resource="http://data.gmdsp.org.uk/def/council/parking/address/Brook_Street_P&amp;D"/>
-    <geo:long>53.4278438956714</geo:long>
-    <ns2:totalNumberOfSpaces rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">39</ns2:totalNumberOfSpaces>
-    <rdfs:label>Brook Street P&amp;D car park</rdfs:label>
-    <geo:lat>-2.19982977848802</geo:lat>
-  </ns2:ParkingSite>
-  <ns2:ParkingSite rdf:about="http://data.gmdsp.org.uk/id/manchester/parking/Guywood_Lane___(Romiley_Station)">
-    <geo:long>53.4439921205781</geo:long>
-    <rdfs:label>Guywood Lane   (Romiley Station) car park</rdfs:label>
-    <ns2:totalNumberOfSpaces rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">83</ns2:totalNumberOfSpaces>
-    <ns1:hasAddress rdf:resource="http://data.gmdsp.org.uk/def/council/parking/address/Guywood_Lane___(Romiley_Station)"/>
+    <parking:totalNumberOfSpaces rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">28</parking:totalNumberOfSpaces>
+    <rdfs:label>Windlehurst Road Car Park</rdfs:label>
+  </parking:ParkingSite>
+  <parking:ParkingSite rdf:about="http://data.gmdsp.org.uk/id/stockport/parking/Mellor_Road">
+    <parking:totalNumberOfSpaces rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">65</parking:totalNumberOfSpaces>
+    <rdfs:label>Mellor Road Car Park</rdfs:label>
+    <geo:lat>-2.20700286131397</geo:lat>
+    <geo:long>53.3844028358964</geo:long>
+    <vcard:hasAddress>
+      <vcard:Location rdf:about="http://data.gmdsp.org.uk/id/stockport/parking/address/Mellor_Road">
+        <vcard:street-address>Mellor Road</vcard:street-address>
+        <rdfs:label>Mellor Road</rdfs:label>
+        <vcard:postal-code>SK8 5AZ </vcard:postal-code>
+      </vcard:Location>
+    </vcard:hasAddress>
+  </parking:ParkingSite>
+  <parking:ParkingSite rdf:about="http://data.gmdsp.org.uk/id/stockport/parking/Canal_Street">
+    <geo:lat>-2.1531695231955</geo:lat>
+    <geo:long>53.4065396319325</geo:long>
+    <rdfs:label>Canal Street Car Park</rdfs:label>
+    <parking:totalNumberOfSpaces rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">16</parking:totalNumberOfSpaces>
+    <vcard:hasAddress>
+      <vcard:Location rdf:about="http://data.gmdsp.org.uk/id/stockport/parking/address/Canal_Street">
+        <vcard:postal-code>SK1 3BZ</vcard:postal-code>
+        <vcard:street-address>Canal Street</vcard:street-address>
+        <rdfs:label>Canal Street</rdfs:label>
+      </vcard:Location>
+    </vcard:hasAddress>
+  </parking:ParkingSite>
+  <parking:ParkingSite rdf:about="http://data.gmdsp.org.uk/id/stockport/parking/Grand_Central_CP2">
+    <parking:totalNumberOfSpaces rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">0</parking:totalNumberOfSpaces>
+    <geo:lat>-2.13260924803983</geo:lat>
+    <geo:long>53.4005326702786</geo:long>
+    <rdfs:label>Grand Central CP2 Car Park</rdfs:label>
+    <geo:lat>-2.15226335945634</geo:lat>
+    <vcard:hasAddress>
+      <vcard:Location rdf:about="http://data.gmdsp.org.uk/id/stockport/parking/address/Grand_Central_CP2">
+        <rdfs:label>Grand Central CP2</rdfs:label>
+        <vcard:postal-code>SK3 9HZ</vcard:postal-code>
+        <vcard:street-address>Grand Central CP2</vcard:street-address>
+      </vcard:Location>
+    </vcard:hasAddress>
+    <geo:long>53.3963464225417</geo:long>
+  </parking:ParkingSite>
+  <parking:ParkingSite rdf:about="http://data.gmdsp.org.uk/id/stockport/parking/Bramley_Close">
+    <rdfs:label>Bramley Close Car Park</rdfs:label>
+    <geo:long>53.4005432113054</geo:long>
+    <geo:lat>-2.23077300837993</geo:lat>
+    <parking:totalNumberOfSpaces rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">90</parking:totalNumberOfSpaces>
+    <vcard:hasAddress>
+      <vcard:Location rdf:about="http://data.gmdsp.org.uk/id/stockport/parking/address/Bramley_Close">
+        <rdfs:label>Bramley Close</rdfs:label>
+        <vcard:street-address>Bramley Close</vcard:street-address>
+        <vcard:postal-code>SK7 2DT </vcard:postal-code>
+      </vcard:Location>
+    </vcard:hasAddress>
+  </parking:ParkingSite>
+  <parking:ParkingSite rdf:about="http://data.gmdsp.org.uk/id/stockport/parking/Stopford_House_(Multi-Storey)">
+    <parking:totalNumberOfSpaces rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">486</parking:totalNumberOfSpaces>
+    <geo:lat>-2.15201746468329</geo:lat>
+    <geo:long>53.4029570889578</geo:long>
+    <vcard:hasAddress>
+      <vcard:Location rdf:about="http://data.gmdsp.org.uk/id/stockport/parking/address/Stopford_House_(Multi-Storey)">
+        <vcard:postal-code>SK1  3SH </vcard:postal-code>
+        <vcard:street-address>Stopford House (Multi-Storey)</vcard:street-address>
+        <rdfs:label>Stopford House (Multi-Storey)</rdfs:label>
+      </vcard:Location>
+    </vcard:hasAddress>
+    <rdfs:label>Stopford House (Multi-Storey) Car Park</rdfs:label>
+  </parking:ParkingSite>
+  <parking:ParkingSite rdf:about="http://data.gmdsp.org.uk/id/stockport/parking/Heron_Street">
+    <geo:lat>-2.16023152928216</geo:lat>
+    <vcard:hasAddress>
+      <vcard:Location rdf:about="http://data.gmdsp.org.uk/id/stockport/parking/address/Heron_Street">
+        <rdfs:label>Heron Street</rdfs:label>
+        <vcard:street-address>Heron Street</vcard:street-address>
+        <vcard:postal-code>SK3 9EU </vcard:postal-code>
+      </vcard:Location>
+    </vcard:hasAddress>
+    <rdfs:label>Heron Street Car Park</rdfs:label>
+    <parking:totalNumberOfSpaces rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">18</parking:totalNumberOfSpaces>
+    <geo:long>53.3961856750566</geo:long>
+  </parking:ParkingSite>
+  <parking:ParkingSite rdf:about="http://data.gmdsp.org.uk/id/stockport/parking/Grand_Central_CP1">
+    <vcard:hasAddress>
+      <vcard:Location rdf:about="http://data.gmdsp.org.uk/id/stockport/parking/address/Grand_Central_CP1">
+        <vcard:street-address>Grand Central CP1</vcard:street-address>
+        <rdfs:label>Grand Central CP1</rdfs:label>
+        <vcard:postal-code>SK3 9HZ</vcard:postal-code>
+      </vcard:Location>
+    </vcard:hasAddress>
+    <rdfs:label>Grand Central CP1 Car Park</rdfs:label>
+    <geo:long>53.4010718326919</geo:long>
+    <parking:totalNumberOfSpaces rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">0</parking:totalNumberOfSpaces>
+    <geo:lat>-2.15456381692353</geo:lat>
+  </parking:ParkingSite>
+  <parking:ParkingSite rdf:about="http://data.gmdsp.org.uk/id/stockport/parking/Merseyway">
+    <geo:lat>-2.14520961516609</geo:lat>
+    <vcard:hasAddress>
+      <vcard:Location rdf:about="http://data.gmdsp.org.uk/id/stockport/parking/address/Merseyway">
+        <vcard:street-address>Merseyway</vcard:street-address>
+        <vcard:postal-code>SK1 1PT </vcard:postal-code>
+        <rdfs:label>Merseyway</rdfs:label>
+      </vcard:Location>
+    </vcard:hasAddress>
+    <rdfs:label>Merseyway Car Park</rdfs:label>
+    <parking:totalNumberOfSpaces rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">868</parking:totalNumberOfSpaces>
+    <geo:long>53.4013492871519</geo:long>
+  </parking:ParkingSite>
+  <parking:ParkingSite rdf:about="http://data.gmdsp.org.uk/id/stockport/parking/Werneth_Street">
+    <geo:lat>-2.13657263129155</geo:lat>
+    <vcard:hasAddress>
+      <vcard:Location rdf:about="http://data.gmdsp.org.uk/id/stockport/parking/address/Werneth_Street">
+        <vcard:street-address>Werneth Street</vcard:street-address>
+        <vcard:postal-code>SK1  2QE </vcard:postal-code>
+        <rdfs:label>Werneth Street</rdfs:label>
+      </vcard:Location>
+    </vcard:hasAddress>
+    <parking:totalNumberOfSpaces rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">12</parking:totalNumberOfSpaces>
+    <geo:long>53.4137502188202</geo:long>
+    <rdfs:label>Werneth Street Car Park</rdfs:label>
+  </parking:ParkingSite>
+  <parking:ParkingSite rdf:about="http://data.gmdsp.org.uk/id/stockport/parking/Beech_Avenue">
+    <rdfs:label>Beech Avenue Car Park</rdfs:label>
+    <parking:totalNumberOfSpaces rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">31</parking:totalNumberOfSpaces>
+    <vcard:hasAddress>
+      <vcard:Location rdf:about="http://data.gmdsp.org.uk/id/stockport/parking/address/Beech_Avenue">
+        <vcard:postal-code>SK7 4QR </vcard:postal-code>
+        <rdfs:label>Beech Avenue</rdfs:label>
+        <vcard:street-address>Beech Avenue</vcard:street-address>
+      </vcard:Location>
+    </vcard:hasAddress>
+    <geo:long>53.4266767739251</geo:long>
+    <geo:lat>-2.19690227941099</geo:lat>
+  </parking:ParkingSite>
+  <parking:ParkingSite rdf:about="http://data.gmdsp.org.uk/id/stockport/parking/Higher_Barlow_Row">
+    <parking:totalNumberOfSpaces rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">8</parking:totalNumberOfSpaces>
+    <rdfs:label>Higher Barlow Row Car Park</rdfs:label>
+    <geo:lat>-2.15445184905252</geo:lat>
+    <vcard:hasAddress>
+      <vcard:Location rdf:about="http://data.gmdsp.org.uk/id/stockport/parking/address/Higher_Barlow_Row">
+        <vcard:street-address>Higher Barlow Row</vcard:street-address>
+        <vcard:postal-code>SK1  3BZ </vcard:postal-code>
+        <rdfs:label>Higher Barlow Row</rdfs:label>
+      </vcard:Location>
+    </vcard:hasAddress>
+    <geo:long>53.4058505215656</geo:long>
+  </parking:ParkingSite>
+  <parking:ParkingSite rdf:about="http://data.gmdsp.org.uk/id/stockport/parking/Guywood_Lane___(Romiley_Station)">
+    <vcard:hasAddress>
+      <vcard:Location rdf:about="http://data.gmdsp.org.uk/id/stockport/parking/address/Guywood_Lane___(Romiley_Station)">
+        <rdfs:label>Guywood Lane   (Romiley Station)</rdfs:label>
+        <vcard:street-address>Guywood Lane   (Romiley Station)</vcard:street-address>
+        <vcard:postal-code>SK6 4BN </vcard:postal-code>
+      </vcard:Location>
+    </vcard:hasAddress>
     <geo:lat>-2.1395261983182</geo:lat>
-  </ns2:ParkingSite>
-  <ns2:ParkingSite rdf:about="http://data.gmdsp.org.uk/id/manchester/parking/Romiley_Precinct">
-    <ns2:totalNumberOfSpaces rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">96</ns2:totalNumberOfSpaces>
-    <geo:long>53.4461137242209</geo:long>
-    <geo:lat>-2.14081843341153</geo:lat>
-    <rdfs:label>Romiley Precinct car park</rdfs:label>
-    <ns1:hasAddress rdf:resource="http://data.gmdsp.org.uk/def/council/parking/address/Romiley_Precinct"/>
-  </ns2:ParkingSite>
-  <ns2:ParkingSite rdf:about="http://data.gmdsp.org.uk/id/manchester/parking/Brabyns_Park">
-    <rdfs:label>Brabyns Park car park</rdfs:label>
-    <ns2:totalNumberOfSpaces rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">0</ns2:totalNumberOfSpaces>
-    <geo:lat>-2.15929287568897</geo:lat>
-    <ns1:hasAddress rdf:resource="http://data.gmdsp.org.uk/def/council/parking/address/Brabyns_Park"/>
-    <geo:long>53.4637642916452</geo:long>
-  </ns2:ParkingSite>
-  <ns1:Location rdf:about="http://data.gmdsp.org.uk/id/manchester/parking/address/Brook_Street_Contract">
-    <rdfs:label>Brook Street Contract</rdfs:label>
-    <ns1:postal-code>SK7 4QZ </ns1:postal-code>
-    <ns1:street-address>Brook Street Contract</ns1:street-address>
-  </ns1:Location>
-  <ns1:Location rdf:about="http://data.gmdsp.org.uk/id/manchester/parking/address/Mellor_Road">
-    <ns1:street-address>Mellor Road</ns1:street-address>
-    <ns1:postal-code>SK8 5AZ </ns1:postal-code>
-    <rdfs:label>Mellor Road</rdfs:label>
-  </ns1:Location>
-  <ns1:Location rdf:about="http://data.gmdsp.org.uk/id/manchester/parking/address/Brookside_Lane">
-    <ns1:street-address>Brookside Lane</ns1:street-address>
-    <ns1:postal-code>SK6 8ED </ns1:postal-code>
-    <rdfs:label>Brookside Lane</rdfs:label>
-  </ns1:Location>
-  <ns1:Location rdf:about="http://data.gmdsp.org.uk/id/manchester/parking/address/Hollins_Lane">
-    <ns1:street-address>Hollins Lane</ns1:street-address>
-    <rdfs:label>Hollins Lane</rdfs:label>
-    <ns1:postal-code>SK6 6AW </ns1:postal-code>
-  </ns1:Location>
-  <ns1:Location rdf:about="http://data.gmdsp.org.uk/id/manchester/parking/address/Torkington_Park">
-    <ns1:postal-code>SK7 6AB </ns1:postal-code>
-    <ns1:street-address>Torkington Park</ns1:street-address>
-    <rdfs:label>Torkington Park</rdfs:label>
-  </ns1:Location>
-  <ns1:Location rdf:about="http://data.gmdsp.org.uk/id/manchester/parking/address/Banks_Lane">
-    <rdfs:label>Banks Lane</rdfs:label>
-    <ns1:postal-code>SK1 4JU </ns1:postal-code>
-    <ns1:street-address>Banks Lane</ns1:street-address>
-  </ns1:Location>
-  <ns2:ParkingSite rdf:about="http://data.gmdsp.org.uk/id/manchester/parking/Athol_Street">
-    <ns1:hasAddress rdf:resource="http://data.gmdsp.org.uk/def/council/parking/address/Athol_Street"/>
-    <geo:long>53.3975556859684</geo:long>
-    <ns2:totalNumberOfSpaces rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">11</ns2:totalNumberOfSpaces>
-    <geo:lat>-2.13505944562613</geo:lat>
-    <rdfs:label>Athol Street car park</rdfs:label>
-  </ns2:ParkingSite>
-  <ns1:Location rdf:about="http://data.gmdsp.org.uk/id/manchester/parking/address/Market_Street">
-    <ns1:street-address>Market Street</ns1:street-address>
-    <ns1:postal-code>SK6 7AH </ns1:postal-code>
-    <rdfs:label>Market Street</rdfs:label>
-  </ns1:Location>
-  <ns1:Location rdf:about="http://data.gmdsp.org.uk/id/manchester/parking/address/North_Park_Road">
-    <rdfs:label>North Park Road</rdfs:label>
-    <ns1:street-address>North Park Road</ns1:street-address>
-    <ns1:postal-code>SK7 3LQ </ns1:postal-code>
-  </ns1:Location>
-  <ns1:Location rdf:about="http://data.gmdsp.org.uk/id/manchester/parking/address/Bramhall_Park">
-    <rdfs:label>Bramhall Park</rdfs:label>
-    <ns1:street-address>Bramhall Park</ns1:street-address>
-    <ns1:postal-code>SK7 3NR </ns1:postal-code>
-  </ns1:Location>
-  <ns1:Location rdf:about="http://data.gmdsp.org.uk/id/manchester/parking/address/Fletcher_St.">
-    <rdfs:label>Fletcher St.</rdfs:label>
-    <ns1:street-address>Fletcher St.</ns1:street-address>
-    <ns1:postal-code>SK1 1DH </ns1:postal-code>
-  </ns1:Location>
-  <ns2:ParkingSite rdf:about="http://data.gmdsp.org.uk/id/manchester/parking/Church_Street">
-    <rdfs:label>Church Street car park</rdfs:label>
-    <ns1:hasAddress rdf:resource="http://data.gmdsp.org.uk/def/council/parking/address/Church_Street"/>
-    <geo:lat>-2.17154531681254</geo:lat>
-    <ns2:totalNumberOfSpaces rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">52</ns2:totalNumberOfSpaces>
+    <rdfs:label>Guywood Lane   (Romiley Station) Car Park</rdfs:label>
+    <geo:long>53.4439921205781</geo:long>
+    <parking:totalNumberOfSpaces rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">83</parking:totalNumberOfSpaces>
+  </parking:ParkingSite>
+  <parking:ParkingSite rdf:about="http://data.gmdsp.org.uk/id/stockport/parking/Dye_Lane">
+    <geo:long>53.4411657595813</geo:long>
+    <vcard:hasAddress>
+      <vcard:Location rdf:about="http://data.gmdsp.org.uk/id/stockport/parking/address/Dye_Lane">
+        <rdfs:label>Dye Lane</rdfs:label>
+        <vcard:street-address>Dye Lane</vcard:street-address>
+        <vcard:postal-code>SK6 3AN </vcard:postal-code>
+      </vcard:Location>
+    </vcard:hasAddress>
+    <parking:totalNumberOfSpaces rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">15</parking:totalNumberOfSpaces>
+    <rdfs:label>Dye Lane Car Park</rdfs:label>
+    <geo:lat>-2.14028416635323</geo:lat>
+  </parking:ParkingSite>
+  <parking:ParkingSite rdf:about="http://data.gmdsp.org.uk/id/stockport/parking/Church_Road">
+    <geo:lat>-2.17674507562566</geo:lat>
+    <rdfs:label>Church Road Car Park</rdfs:label>
+    <geo:long>53.3555136766529</geo:long>
+    <parking:totalNumberOfSpaces rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">21</parking:totalNumberOfSpaces>
+    <vcard:hasAddress>
+      <vcard:Location rdf:about="http://data.gmdsp.org.uk/id/stockport/parking/address/Church_Road">
+        <rdfs:label>Church Road</rdfs:label>
+        <vcard:street-address>Church Road</vcard:street-address>
+        <vcard:postal-code>SK8  4NQ </vcard:postal-code>
+      </vcard:Location>
+    </vcard:hasAddress>
+  </parking:ParkingSite>
+  <parking:ParkingSite rdf:about="http://data.gmdsp.org.uk/id/stockport/parking/Hulme_St">
+    <geo:lat>-2.159973573285</geo:lat>
+    <vcard:hasAddress>
+      <vcard:Location rdf:about="http://data.gmdsp.org.uk/id/stockport/parking/address/Hulme_St">
+        <vcard:street-address>Hulme St</vcard:street-address>
+        <rdfs:label>Hulme St</rdfs:label>
+        <vcard:postal-code>SK1 4PQ </vcard:postal-code>
+      </vcard:Location>
+    </vcard:hasAddress>
+    <parking:totalNumberOfSpaces rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">20</parking:totalNumberOfSpaces>
+    <geo:long>53.4128368857926</geo:long>
+    <rdfs:label>Hulme St Car Park</rdfs:label>
+  </parking:ParkingSite>
+  <parking:ParkingSite rdf:about="http://data.gmdsp.org.uk/id/stockport/parking/Essex_Avenue">
+    <geo:lat>-2.15641375523345</geo:lat>
+    <rdfs:label>Essex Avenue Car Park</rdfs:label>
+    <vcard:hasAddress>
+      <vcard:Location rdf:about="http://data.gmdsp.org.uk/id/stockport/parking/address/Essex_Avenue">
+        <vcard:postal-code>SK3 0JB</vcard:postal-code>
+        <vcard:street-address>Essex Avenue</vcard:street-address>
+        <rdfs:label>Essex Avenue</rdfs:label>
+      </vcard:Location>
+    </vcard:hasAddress>
+    <geo:long>53.386770449628</geo:long>
+    <parking:totalNumberOfSpaces rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">13</parking:totalNumberOfSpaces>
+  </parking:ParkingSite>
+  <parking:ParkingSite rdf:about="http://data.gmdsp.org.uk/id/stockport/parking/Newbridge_La.">
+    <vcard:hasAddress>
+      <vcard:Location rdf:about="http://data.gmdsp.org.uk/id/stockport/parking/address/Newbridge_La.">
+        <vcard:street-address>Newbridge La.</vcard:street-address>
+        <rdfs:label>Newbridge La.</rdfs:label>
+        <vcard:postal-code>SK1 2ND </vcard:postal-code>
+      </vcard:Location>
+    </vcard:hasAddress>
+    <geo:lat>-2.14372399860757</geo:lat>
+    <parking:totalNumberOfSpaces rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">206</parking:totalNumberOfSpaces>
+    <geo:long>53.4056483530796</geo:long>
+    <rdfs:label>Newbridge La. Car Park</rdfs:label>
+  </parking:ParkingSite>
+  <parking:ParkingSite rdf:about="http://data.gmdsp.org.uk/id/stockport/parking/Davenport_Road_">
+    <vcard:hasAddress>
+      <vcard:Location rdf:about="http://data.gmdsp.org.uk/id/stockport/parking/address/Davenport_Road_">
+        <vcard:postal-code>SK7 4EZ </vcard:postal-code>
+        <vcard:street-address>Davenport Road </vcard:street-address>
+        <rdfs:label>Davenport Road </rdfs:label>
+      </vcard:Location>
+    </vcard:hasAddress>
+    <rdfs:label>Davenport Road  Car Park</rdfs:label>
+    <geo:long>53.4235111307856</geo:long>
+    <parking:totalNumberOfSpaces rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">29</parking:totalNumberOfSpaces>
+    <geo:lat>-2.19917322892005</geo:lat>
+  </parking:ParkingSite>
+  <parking:ParkingSite rdf:about="http://data.gmdsp.org.uk/id/stockport/parking/Massie_Street_East">
+    <geo:long>53.368961396894</geo:long>
+    <geo:lat>-2.17296251213833</geo:lat>
+    <rdfs:label>Massie Street East Car Park</rdfs:label>
+    <parking:totalNumberOfSpaces rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">191</parking:totalNumberOfSpaces>
+    <vcard:hasAddress>
+      <vcard:Location rdf:about="http://data.gmdsp.org.uk/id/stockport/parking/address/Massie_Street_East">
+        <vcard:street-address>Massie Street East</vcard:street-address>
+        <rdfs:label>Massie Street East</rdfs:label>
+        <vcard:postal-code>SK8 1BN </vcard:postal-code>
+      </vcard:Location>
+    </vcard:hasAddress>
+  </parking:ParkingSite>
+  <parking:ParkingSite rdf:about="http://data.gmdsp.org.uk/id/stockport/parking/Ritz_Cinema">
+    <rdfs:label>Ritz Cinema Car Park</rdfs:label>
+    <geo:lat>-2.14846549177866</geo:lat>
+    <geo:long>53.4030289341693</geo:long>
+    <vcard:hasAddress>
+      <vcard:Location rdf:about="http://data.gmdsp.org.uk/id/stockport/parking/address/Ritz_Cinema">
+        <vcard:postal-code>SK1 3AD</vcard:postal-code>
+        <rdfs:label>Ritz Cinema</rdfs:label>
+        <vcard:street-address>Ritz Cinema</vcard:street-address>
+      </vcard:Location>
+    </vcard:hasAddress>
+    <parking:totalNumberOfSpaces rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">87</parking:totalNumberOfSpaces>
+  </parking:ParkingSite>
+  <parking:ParkingSite rdf:about="http://data.gmdsp.org.uk/id/stockport/parking/Loonies_Court">
+    <vcard:hasAddress>
+      <vcard:Location rdf:about="http://data.gmdsp.org.uk/id/stockport/parking/address/Loonies_Court">
+        <vcard:street-address>Loonies Court</vcard:street-address>
+        <rdfs:label>Loonies Court</rdfs:label>
+        <vcard:postal-code>SK1  3SH </vcard:postal-code>
+      </vcard:Location>
+    </vcard:hasAddress>
+    <geo:lat>-2.15192517094546</geo:lat>
+    <geo:long>53.4025022377885</geo:long>
+    <parking:totalNumberOfSpaces rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">16</parking:totalNumberOfSpaces>
+    <rdfs:label>Loonies Court Car Park</rdfs:label>
+  </parking:ParkingSite>
+  <parking:ParkingSite rdf:about="http://data.gmdsp.org.uk/id/stockport/parking/Townley_Terrace">
+    <rdfs:label>Townley Terrace Car Park</rdfs:label>
+    <geo:lat>-2.17307096358511</geo:lat>
+    <vcard:hasAddress>
+      <vcard:Location rdf:about="http://data.gmdsp.org.uk/id/stockport/parking/address/Townley_Terrace">
+        <rdfs:label>Townley Terrace</rdfs:label>
+        <vcard:street-address>Townley Terrace</vcard:street-address>
+        <vcard:postal-code>SK6 6BL </vcard:postal-code>
+      </vcard:Location>
+    </vcard:hasAddress>
+    <parking:totalNumberOfSpaces rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">30</parking:totalNumberOfSpaces>
+    <geo:long>53.461037318694</geo:long>
+  </parking:ParkingSite>
+  <parking:ParkingSite rdf:about="http://data.gmdsp.org.uk/id/stockport/parking/Lord_Street_2">
+    <rdfs:label>Lord Street 2 Car Park</rdfs:label>
+    <geo:long>53.4022669319225</geo:long>
+    <vcard:hasAddress>
+      <vcard:Location rdf:about="http://data.gmdsp.org.uk/id/stockport/parking/address/Lord_Street_2">
+        <vcard:street-address>Lord Street 2</vcard:street-address>
+        <vcard:postal-code>SK1  3NA </vcard:postal-code>
+        <rdfs:label>Lord Street 2</rdfs:label>
+      </vcard:Location>
+    </vcard:hasAddress>
+    <geo:lat>-2.1506429409321</geo:lat>
+    <parking:totalNumberOfSpaces rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">10</parking:totalNumberOfSpaces>
+  </parking:ParkingSite>
+  <parking:ParkingSite rdf:about="http://data.gmdsp.org.uk/id/stockport/parking/Church_Street">
+    <vcard:hasAddress>
+      <vcard:Location rdf:about="http://data.gmdsp.org.uk/id/stockport/parking/address/Church_Street">
+        <rdfs:label>Church Street</rdfs:label>
+        <vcard:street-address>Church Street</vcard:street-address>
+        <vcard:postal-code>SK8 1PX </vcard:postal-code>
+      </vcard:Location>
+    </vcard:hasAddress>
+    <parking:totalNumberOfSpaces rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">52</parking:totalNumberOfSpaces>
     <geo:long>53.3678585886104</geo:long>
-  </ns2:ParkingSite>
-  <ns2:ParkingSite rdf:about="http://data.gmdsp.org.uk/id/manchester/parking/Bridge_Lane_Shops">
-    <geo:long>53.4020265945801</geo:long>
-    <geo:lat>-2.20641038555244</geo:lat>
-    <ns1:hasAddress rdf:resource="http://data.gmdsp.org.uk/def/council/parking/address/Bridge_Lane_Shops"/>
-    <ns2:totalNumberOfSpaces rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">4</ns2:totalNumberOfSpaces>
-    <rdfs:label>Bridge Lane Shops car park</rdfs:label>
-  </ns2:ParkingSite>
-  <ns1:Location rdf:about="http://data.gmdsp.org.uk/id/manchester/parking/address/Ritz_Cinema">
-    <rdfs:label>Ritz Cinema</rdfs:label>
-    <ns1:street-address>Ritz Cinema</ns1:street-address>
-    <ns1:postal-code>SK1 3AD</ns1:postal-code>
-  </ns1:Location>
-  <ns1:Location rdf:about="http://data.gmdsp.org.uk/id/manchester/parking/address/Woodley_Precinct">
-    <ns1:street-address>Woodley Precinct</ns1:street-address>
-    <ns1:postal-code>SK6 1NB </ns1:postal-code>
-    <rdfs:label>Woodley Precinct</rdfs:label>
-  </ns1:Location>
-  <ns1:Location rdf:about="http://data.gmdsp.org.uk/id/manchester/parking/address/Knightsbridge">
-    <ns1:street-address>Knightsbridge</ns1:street-address>
-    <ns1:postal-code>SK1 2DW </ns1:postal-code>
-    <rdfs:label>Knightsbridge</rdfs:label>
-  </ns1:Location>
-  <ns1:Location rdf:about="http://data.gmdsp.org.uk/id/manchester/parking/address/Hulme_St">
-    <rdfs:label>Hulme St</rdfs:label>
-    <ns1:postal-code>SK1 4PQ </ns1:postal-code>
-    <ns1:street-address>Hulme St</ns1:street-address>
-  </ns1:Location>
-  <ns1:Location rdf:about="http://data.gmdsp.org.uk/id/manchester/parking/address/Heaviley_Grove">
-    <rdfs:label>Heaviley Grove</rdfs:label>
-    <ns1:street-address>Heaviley Grove</ns1:street-address>
-    <ns1:postal-code>SK2 6HQ </ns1:postal-code>
-  </ns1:Location>
-  <ns1:Location rdf:about="http://data.gmdsp.org.uk/id/manchester/parking/address/Stopford_House_(Multi-Storey)">
-    <ns1:street-address>Stopford House (Multi-Storey)</ns1:street-address>
-    <rdfs:label>Stopford House (Multi-Storey)</rdfs:label>
-    <ns1:postal-code>SK1  3SH </ns1:postal-code>
-  </ns1:Location>
-  <ns1:Location rdf:about="http://data.gmdsp.org.uk/id/manchester/parking/address/Mary_Street">
-    <rdfs:label>Mary Street</rdfs:label>
-    <ns1:postal-code>SK8 1AH </ns1:postal-code>
-    <ns1:street-address>Mary Street</ns1:street-address>
-  </ns1:Location>
-  <ns1:Location rdf:about="http://data.gmdsp.org.uk/id/manchester/parking/address/Brook_Street_P&amp;D">
-    <rdfs:label>Brook Street P&amp;D</rdfs:label>
-    <ns1:street-address>Brook Street P&amp;D</ns1:street-address>
-    <ns1:postal-code>SK7 4QW </ns1:postal-code>
-  </ns1:Location>
-  <ns1:Location rdf:about="http://data.gmdsp.org.uk/id/manchester/parking/address/Memorial_Park">
-    <rdfs:label>Memorial Park</rdfs:label>
-    <ns1:postal-code>SK6 6BD </ns1:postal-code>
-    <ns1:street-address>Memorial Park</ns1:street-address>
-  </ns1:Location>
-  <ns1:Location rdf:about="http://data.gmdsp.org.uk/id/manchester/parking/address/Arundel_Avenue">
-    <ns1:postal-code>SK7 5LD </ns1:postal-code>
-    <ns1:street-address>Arundel Avenue</ns1:street-address>
-    <rdfs:label>Arundel Avenue</rdfs:label>
-  </ns1:Location>
-  <ns1:Location rdf:about="http://data.gmdsp.org.uk/id/manchester/parking/address/Didsbury_Road">
-    <rdfs:label>Didsbury Road</rdfs:label>
-    <ns1:postal-code>SK4 3AY </ns1:postal-code>
-    <ns1:street-address>Didsbury Road</ns1:street-address>
-  </ns1:Location>
-  <ns1:Location rdf:about="http://data.gmdsp.org.uk/id/manchester/parking/address/Finney_Lane">
-    <rdfs:label>Finney Lane</rdfs:label>
-    <ns1:street-address>Finney Lane</ns1:street-address>
-    <ns1:postal-code>SK8 3QH </ns1:postal-code>
-  </ns1:Location>
-  <ns1:Location rdf:about="http://data.gmdsp.org.uk/id/manchester/parking/address/Lavenders_Brow">
-    <ns1:postal-code>SK1  1YG </ns1:postal-code>
-    <rdfs:label>Lavenders Brow</rdfs:label>
-    <ns1:street-address>Lavenders Brow</ns1:street-address>
-  </ns1:Location>
-  <ns1:Location rdf:about="http://data.gmdsp.org.uk/id/manchester/parking/address/York_Street">
-    <ns1:street-address>York Street</ns1:street-address>
-    <rdfs:label>York Street</rdfs:label>
-    <ns1:postal-code>SK3 9AD </ns1:postal-code>
-  </ns1:Location>
+    <geo:lat>-2.17154531681254</geo:lat>
+    <rdfs:label>Church Street Car Park</rdfs:label>
+  </parking:ParkingSite>
+  <parking:ParkingSite rdf:about="http://data.gmdsp.org.uk/id/stockport/parking/Mary_Street">
+    <rdfs:label>Mary Street Car Park</rdfs:label>
+    <geo:long>53.3687217428296</geo:long>
+    <geo:lat>-2.17063335089223</geo:lat>
+    <parking:totalNumberOfSpaces rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">33</parking:totalNumberOfSpaces>
+    <vcard:hasAddress>
+      <vcard:Location rdf:about="http://data.gmdsp.org.uk/id/stockport/parking/address/Mary_Street">
+        <vcard:street-address>Mary Street</vcard:street-address>
+        <rdfs:label>Mary Street</rdfs:label>
+        <vcard:postal-code>SK8 1AH </vcard:postal-code>
+      </vcard:Location>
+    </vcard:hasAddress>
+  </parking:ParkingSite>
+  <parking:ParkingSite rdf:about="http://data.gmdsp.org.uk/id/stockport/parking/Hogarth_Road_(North)">
+    <geo:lat>-2.1566119928977</geo:lat>
+    <geo:long>53.466592710691</geo:long>
+    <parking:totalNumberOfSpaces rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">7</parking:totalNumberOfSpaces>
+    <vcard:hasAddress>
+      <vcard:Location rdf:about="http://data.gmdsp.org.uk/id/stockport/parking/address/Hogarth_Road_(North)">
+        <rdfs:label>Hogarth Road (North)</rdfs:label>
+        <vcard:street-address>Hogarth Road (North)</vcard:street-address>
+        <vcard:postal-code>SK6 5DW </vcard:postal-code>
+      </vcard:Location>
+    </vcard:hasAddress>
+    <rdfs:label>Hogarth Road (North) Car Park</rdfs:label>
+  </parking:ParkingSite>
+  <parking:ParkingSite rdf:about="http://data.gmdsp.org.uk/id/stockport/parking/Buxton_Road____________(Library)">
+    <geo:lat>-2.22324988537657</geo:lat>
+    <rdfs:label>Buxton Road            (Library) Car Park</rdfs:label>
+    <geo:long>53.4554808286471</geo:long>
+    <vcard:hasAddress>
+      <vcard:Location rdf:about="http://data.gmdsp.org.uk/id/stockport/parking/address/Buxton_Road____________(Library)">
+        <rdfs:label>Buxton Road            (Library)</rdfs:label>
+        <vcard:postal-code>SK6 8DX </vcard:postal-code>
+        <vcard:street-address>Buxton Road            (Library)</vcard:street-address>
+      </vcard:Location>
+    </vcard:hasAddress>
+    <parking:totalNumberOfSpaces rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">25</parking:totalNumberOfSpaces>
+  </parking:ParkingSite>
+  <parking:ParkingSite rdf:about="http://data.gmdsp.org.uk/id/stockport/parking/Back_Massie_Street_(North)">
+    <geo:long>53.3678265843654</geo:long>
+    <vcard:hasAddress>
+      <vcard:Location rdf:about="http://data.gmdsp.org.uk/id/stockport/parking/address/Back_Massie_Street_(North)">
+        <vcard:postal-code>SK8 1DW </vcard:postal-code>
+        <vcard:street-address>Back Massie Street (North)</vcard:street-address>
+        <rdfs:label>Back Massie Street (North)</rdfs:label>
+      </vcard:Location>
+    </vcard:hasAddress>
+    <rdfs:label>Back Massie Street (North) Car Park</rdfs:label>
+    <parking:totalNumberOfSpaces rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">16</parking:totalNumberOfSpaces>
+    <geo:lat>-2.17343131795733</geo:lat>
+  </parking:ParkingSite>
+  <parking:ParkingSite rdf:about="http://data.gmdsp.org.uk/id/stockport/parking/Lord_Street_1">
+    <geo:long>53.4023372661103</geo:long>
+    <vcard:hasAddress>
+      <vcard:Location rdf:about="http://data.gmdsp.org.uk/id/stockport/parking/address/Lord_Street_1">
+        <rdfs:label>Lord Street 1</rdfs:label>
+        <vcard:postal-code>SK1  3NA </vcard:postal-code>
+        <vcard:street-address>Lord Street 1</vcard:street-address>
+      </vcard:Location>
+    </vcard:hasAddress>
+    <geo:lat>-2.15110916434334</geo:lat>
+    <parking:totalNumberOfSpaces rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">23</parking:totalNumberOfSpaces>
+    <rdfs:label>Lord Street 1 Car Park</rdfs:label>
+  </parking:ParkingSite>
+  <parking:ParkingSite rdf:about="http://data.gmdsp.org.uk/id/stockport/parking/Redhouse_Lane">
+    <geo:lat>-2.12280180077167</geo:lat>
+    <rdfs:label>Redhouse Lane Car Park</rdfs:label>
+    <vcard:hasAddress>
+      <vcard:Location rdf:about="http://data.gmdsp.org.uk/id/stockport/parking/address/Redhouse_Lane">
+        <vcard:street-address>Redhouse Lane</vcard:street-address>
+        <rdfs:label>Redhouse Lane</rdfs:label>
+        <vcard:postal-code>SK6 1AS </vcard:postal-code>
+      </vcard:Location>
+    </vcard:hasAddress>
+    <parking:totalNumberOfSpaces rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">32</parking:totalNumberOfSpaces>
+    <geo:long>53.4354905321461</geo:long>
+  </parking:ParkingSite>
 </rdf:RDF>

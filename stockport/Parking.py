@@ -4,6 +4,7 @@ import xml.etree.ElementTree as ET
 from rdflib import Graph, URIRef, Namespace, RDF, Literal
 from rdflib.store import VALID_STORE
 
+datafile = "./Data/CarParks.xml"
 
 storefn = "./Output/parking.rdf"
 storeuri = 'file://' + storefn
@@ -15,8 +16,8 @@ SCHEMA = Namespace('http://schema.org/')
 SPACIAL = Namespace('http://data.ordnancesurvey.co.uk/ontology/spatialrelations/')
 VCARD = Namespace('http://www.w3.org/2006/vcard/ns#')
 
-PARKING = Namespace('http://data.gmdsp.org.uk/id/manchester/parking/')
-PARKING_ONT = Namespace('http://data.gmdsp.org.uk/def/manchester/parking/')
+PARKING = Namespace('http://data.gmdsp.org.uk/id/stockport/parking/')
+PARKING_ONT = Namespace('http://data.gmdsp.org.uk/def/council/parking/')
 
 class Store:
     def __init__(self):
@@ -32,18 +33,20 @@ class Store:
         self.graph.bind("geo", GEO)
         self.graph.bind("schema", SCHEMA)
         self.graph.bind("spacial", SPACIAL)
+        self.graph.bind("vcard", VCARD)
+        self.graph.bind("parking", PARKING_ONT)
 
     def newCarPark(self, name, label, spaces, lat, long, address, postcode):
         carpark = PARKING[name]
         self.graph.add((carpark, RDF.type, PARKING_ONT["ParkingSite"]))
-        self.graph.add((carpark, RDFS["label"], Literal(label + " car park")))
+        self.graph.add((carpark, RDFS["label"], Literal(label + " Car Park")))
 
         self.graph.add((carpark, PARKING_ONT["totalNumberOfSpaces"], Literal(spaces)))
 
         self.graph.add((carpark, GEO["lat"], Literal(lat)))
         self.graph.add((carpark, GEO["long"], Literal(long)))
 
-        self.graph.add((carpark, VCARD['hasAddress'], URIRef("http://data.gmdsp.org.uk/def/council/parking/address/" + name)))
+        self.graph.add((carpark, VCARD['hasAddress'], URIRef("http://data.gmdsp.org.uk/id/stockport/parking/address/" + name)))
         vcard = PARKING["address/" + name]
         self.graph.add((vcard, RDF.type, VCARD["Location"]))
         self.graph.add((vcard, RDFS['label'], Literal(label)))
@@ -52,14 +55,15 @@ class Store:
 
 
     def save(self):
-        print storeuri
+        print "saving to \"" + storefn +"\"..."
         self.graph.serialize(storefn, format="pretty-xml")
 
 def main(argv=None):
     s = Store()
-    tree = ET.parse("./Data/CarParks.xml")
+    tree = ET.parse(datafile)
     root = tree.getroot()
     carparks = tree.findall(".//fme:CarParks", namespaces={"fme": "http://www.safe.com/xml/xmltables"})
+    print "parsing \"" + datafile + "\"..."
     for carpark in carparks:
         label = carpark.find("fme:name", namespaces={"fme": "http://www.safe.com/xml/xmltables"}).text
         name = label.replace(" ", "_").replace(",", "")
@@ -73,9 +77,7 @@ def main(argv=None):
         postcode = carpark.find("fme:postcode", namespaces={"fme": "http://www.safe.com/xml/xmltables"}).text
         s.newCarPark(name, label, spaces, lat, long, address, postcode)
 
-    print "saving"
     s.save()
-    print "saved!"
 
 if __name__ == '__main__':
     main()
