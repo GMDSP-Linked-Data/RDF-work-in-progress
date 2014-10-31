@@ -50,15 +50,15 @@ class Store:
         # new LOCN stuff
         location = PARKING["location/" + name]
         self.graph.add((location, RDF.type, LOCN["Location"]))
-        self.graph.add((location, RDFS["label"], Literal("Location of " + label + " parking site")))
+        self.graph.add((location, RDFS["label"], Literal(address)))
 
         geometry = PARKING["geometry/" + name]
         self.graph.add((geometry, RDF.type, LOCN["Geometry"]))
-        self.graph.add((geometry, RDFS["label"], Literal("Geometry of " + label + " parking site")))
+        self.graph.add((geometry, RDFS["label"], Literal(lat + " / " + long)))
 
         locnaddress = PARKING["address/" + name]
         self.graph.add((locnaddress, RDF.type, LOCN["Address"]))
-        self.graph.add((locnaddress, RDFS["label"], Literal("Address of " + label + " parking site")))
+        self.graph.add((locnaddress, RDFS["label"], Literal(address)))
 
         self.graph.add((location, LOCN["geometry"], URIRef("http://data.gmdsp.org.uk/id/stockport/parking/geometry/" + name)))
         self.graph.add((location, LOCN["address"], URIRef("http://data.gmdsp.org.uk/id/stockport/parking/address/" + name)))
