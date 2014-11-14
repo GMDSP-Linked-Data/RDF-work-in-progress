@@ -1,0 +1,2367 @@
+[
+  {
+    "op": "rdf-extension/save-rdf-schema",
+    "description": "Save RDF schema skeleton",
+    "schema": {
+      "baseUri": "http://127.0.0.1:3333/",
+      "prefixes": [
+        {
+          "name": "rdfs",
+          "uri": "http://www.w3.org/2000/01/rdf-schema#"
+        },
+        {
+          "name": "foaf",
+          "uri": "http://xmlns.com/foaf/0.1/"
+        },
+        {
+          "name": "bibo",
+          "uri": "http://purl.org/ontology/bibo/"
+        },
+        {
+          "name": "xsd",
+          "uri": "http://www.w3.org/2001/XMLSchema#"
+        },
+        {
+          "name": "owl",
+          "uri": "http://www.w3.org/2002/07/owl#"
+        },
+        {
+          "name": "rdf",
+          "uri": "http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+        },
+        {
+          "name": "dso",
+          "uri": "http://purl.org/ontology/dso#"
+        }
+      ],
+      "rootNodes": [
+        {
+          "nodeType": "cell-as-resource",
+          "expression": "value",
+          "isRowNumberCell": true,
+          "rdfTypes": [],
+          "links": []
+        }
+      ]
+    }
+  },
+  {
+    "op": "core/column-addition",
+    "description": "Create column ID at index 3 based on column date using expression grel:cells[\"date\"].value + \" \" + cells[\"item\"].value",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "newColumnName": "ID",
+    "columnInsertIndex": 3,
+    "baseColumnName": "date",
+    "expression": "grel:cells[\"date\"].value + \" \" + cells[\"item\"].value",
+    "onError": "set-to-blank"
+  },
+  {
+    "op": "core/column-addition",
+    "description": "Create column hash at index 4 based on column ID using expression grel:md5(value)",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "newColumnName": "hash",
+    "columnInsertIndex": 4,
+    "baseColumnName": "ID",
+    "expression": "grel:md5(value)",
+    "onError": "set-to-blank"
+  },
+  {
+    "op": "rdf-extension/save-rdf-schema",
+    "description": "Save RDF schema skeleton",
+    "schema": {
+      "baseUri": "http://localhost:3333/",
+      "prefixes": [
+        {
+          "name": "schema",
+          "uri": "http://schema.org/"
+        },
+        {
+          "name": "rdfs",
+          "uri": "http://www.w3.org/2000/01/rdf-schema#"
+        },
+        {
+          "name": "time",
+          "uri": "http://www.w3.org/2006/time#"
+        },
+        {
+          "name": "foaf",
+          "uri": "http://xmlns.com/foaf/0.1/"
+        },
+        {
+          "name": "bibo",
+          "uri": "http://purl.org/ontology/bibo/"
+        },
+        {
+          "name": "xsd",
+          "uri": "http://www.w3.org/2001/XMLSchema#"
+        },
+        {
+          "name": "owl",
+          "uri": "http://www.w3.org/2002/07/owl#"
+        },
+        {
+          "name": "rdf",
+          "uri": "http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+        },
+        {
+          "name": "dso",
+          "uri": "http://purl.org/ontology/dso#"
+        }
+      ],
+      "rootNodes": [
+        {
+          "nodeType": "cell-as-resource",
+          "expression": "value",
+          "isRowNumberCell": false,
+          "columnName": "ID",
+          "rdfTypes": [
+            {
+              "uri": "http://purl.org/ontology/dso#Loan",
+              "curie": "dso:Loan"
+            }
+          ],
+          "links": [
+            {
+              "uri": "http://www.w3.org/2000/01/rdf-schema#label",
+              "curie": "rdfs:label",
+              "target": {
+                "nodeType": "cell-as-literal",
+                "expression": "'Loan: '+value",
+                "isRowNumberCell": false,
+                "columnName": "ID"
+              }
+            }
+          ]
+        }
+      ]
+    }
+  },
+  {
+    "op": "rdf-extension/save-rdf-schema",
+    "description": "Save RDF schema skeleton",
+    "schema": {
+      "baseUri": "http://localhost:3333/",
+      "prefixes": [
+        {
+          "name": "schema",
+          "uri": "http://schema.org/"
+        },
+        {
+          "name": "rdfs",
+          "uri": "http://www.w3.org/2000/01/rdf-schema#"
+        },
+        {
+          "name": "time",
+          "uri": "http://www.w3.org/2006/time#"
+        },
+        {
+          "name": "foaf",
+          "uri": "http://xmlns.com/foaf/0.1/"
+        },
+        {
+          "name": "bibo",
+          "uri": "http://purl.org/ontology/bibo/"
+        },
+        {
+          "name": "owl",
+          "uri": "http://www.w3.org/2002/07/owl#"
+        },
+        {
+          "name": "xsd",
+          "uri": "http://www.w3.org/2001/XMLSchema#"
+        },
+        {
+          "name": "rdf",
+          "uri": "http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+        },
+        {
+          "name": "dso",
+          "uri": "http://purl.org/ontology/dso#"
+        }
+      ],
+      "rootNodes": [
+        {
+          "nodeType": "cell-as-resource",
+          "expression": "value",
+          "isRowNumberCell": false,
+          "columnName": "hash",
+          "rdfTypes": [
+            {
+              "uri": "http://purl.org/ontology/dso#Loan",
+              "curie": "dso:Loan"
+            }
+          ],
+          "links": [
+            {
+              "uri": "http://www.w3.org/2000/01/rdf-schema#label",
+              "curie": "rdfs:label",
+              "target": {
+                "nodeType": "cell-as-literal",
+                "expression": "'Loan: '+value",
+                "isRowNumberCell": false,
+                "columnName": "ID"
+              }
+            },
+            {
+              "uri": "http://www.w3.org/2006/time#xsdDateTime",
+              "curie": "time:xsdDateTime",
+              "target": {
+                "nodeType": "cell-as-literal",
+                "expression": "value",
+                "isRowNumberCell": false,
+                "valueType": "http://www.w3.org/2001/XMLSchema#dateTime",
+                "columnName": "date"
+              }
+            },
+            {
+              "uri": "http://schema.org/provider",
+              "curie": "schema:provider",
+              "target": {
+                "nodeType": "cell-as-resource",
+                "expression": "'http://data.gmdsp.org.uk/id/manchester/libraries/provider/'+value.urlify()'",
+                "isRowNumberCell": false,
+                "columnName": "Library",
+                "rdfTypes": [],
+                "links": [
+                  {
+                    "uri": "http://www.w3.org/2000/01/rdf-schema#label",
+                    "curie": "rdfs:label",
+                    "target": {
+                      "nodeType": "cell-as-literal",
+                      "expression": "value",
+                      "isRowNumberCell": true
+                    }
+                  }
+                ]
+              }
+            }
+          ]
+        }
+      ]
+    }
+  },
+  {
+    "op": "rdf-extension/save-rdf-schema",
+    "description": "Save RDF schema skeleton",
+    "schema": {
+      "baseUri": "http://localhost:3333/",
+      "prefixes": [
+        {
+          "name": "schema",
+          "uri": "http://schema.org/"
+        },
+        {
+          "name": "rdfs",
+          "uri": "http://www.w3.org/2000/01/rdf-schema#"
+        },
+        {
+          "name": "gmdsp",
+          "uri": "http://data.gmdsp.org.uk/def/libraries/"
+        },
+        {
+          "name": "time",
+          "uri": "http://www.w3.org/2006/time#"
+        },
+        {
+          "name": "foaf",
+          "uri": "http://xmlns.com/foaf/0.1/"
+        },
+        {
+          "name": "bibo",
+          "uri": "http://purl.org/ontology/bibo/"
+        },
+        {
+          "name": "owl",
+          "uri": "http://www.w3.org/2002/07/owl#"
+        },
+        {
+          "name": "xsd",
+          "uri": "http://www.w3.org/2001/XMLSchema#"
+        },
+        {
+          "name": "rdf",
+          "uri": "http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+        },
+        {
+          "name": "dso",
+          "uri": "http://purl.org/ontology/dso#"
+        }
+      ],
+      "rootNodes": [
+        {
+          "nodeType": "cell-as-resource",
+          "expression": "value",
+          "isRowNumberCell": false,
+          "columnName": "hash",
+          "rdfTypes": [
+            {
+              "uri": "http://purl.org/ontology/dso#Loan",
+              "curie": "dso:Loan"
+            }
+          ],
+          "links": [
+            {
+              "uri": "http://www.w3.org/2000/01/rdf-schema#label",
+              "curie": "rdfs:label",
+              "target": {
+                "nodeType": "cell-as-literal",
+                "expression": "'Loan: '+value",
+                "isRowNumberCell": false,
+                "columnName": "ID"
+              }
+            },
+            {
+              "uri": "http://www.w3.org/2006/time#xsdDateTime",
+              "curie": "time:xsdDateTime",
+              "target": {
+                "nodeType": "cell-as-literal",
+                "expression": "value",
+                "isRowNumberCell": false,
+                "valueType": "http://www.w3.org/2001/XMLSchema#dateTime",
+                "columnName": "date"
+              }
+            },
+            {
+              "uri": "http://schema.org/provider",
+              "curie": "schema:provider",
+              "target": {
+                "nodeType": "cell-as-resource",
+                "expression": "'http://data.gmdsp.org.uk/id/manchester/libraries/provider/'+value.urlify()'",
+                "isRowNumberCell": false,
+                "columnName": "Library",
+                "rdfTypes": [],
+                "links": [
+                  {
+                    "uri": "http://www.w3.org/2000/01/rdf-schema#label",
+                    "curie": "rdfs:label",
+                    "target": {
+                      "nodeType": "cell-as-literal",
+                      "expression": "value",
+                      "isRowNumberCell": true
+                    }
+                  }
+                ]
+              }
+            }
+          ]
+        }
+      ]
+    }
+  },
+  {
+    "op": "rdf-extension/save-rdf-schema",
+    "description": "Save RDF schema skeleton",
+    "schema": {
+      "baseUri": "http://localhost:3333/",
+      "prefixes": [
+        {
+          "name": "schema",
+          "uri": "http://schema.org/"
+        },
+        {
+          "name": "rdfs",
+          "uri": "http://www.w3.org/2000/01/rdf-schema#"
+        },
+        {
+          "name": "gmdsp",
+          "uri": "http://data.gmdsp.org.uk/def/libraries/"
+        },
+        {
+          "name": "time",
+          "uri": "http://www.w3.org/2006/time#"
+        },
+        {
+          "name": "foaf",
+          "uri": "http://xmlns.com/foaf/0.1/"
+        },
+        {
+          "name": "bibo",
+          "uri": "http://purl.org/ontology/bibo/"
+        },
+        {
+          "name": "owl",
+          "uri": "http://www.w3.org/2002/07/owl#"
+        },
+        {
+          "name": "xsd",
+          "uri": "http://www.w3.org/2001/XMLSchema#"
+        },
+        {
+          "name": "rdf",
+          "uri": "http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+        },
+        {
+          "name": "dso",
+          "uri": "http://purl.org/ontology/dso#"
+        }
+      ],
+      "rootNodes": [
+        {
+          "nodeType": "cell-as-resource",
+          "expression": "'http://data.gmdsp.org.uk/id/manchester/libraries/transactions/2014-10/'+value.urlify()'",
+          "isRowNumberCell": false,
+          "columnName": "hash",
+          "rdfTypes": [
+            {
+              "uri": "http://purl.org/ontology/dso#Loan",
+              "curie": "dso:Loan"
+            }
+          ],
+          "links": [
+            {
+              "uri": "http://www.w3.org/2000/01/rdf-schema#label",
+              "curie": "rdfs:label",
+              "target": {
+                "nodeType": "cell-as-literal",
+                "expression": "'Loan: '+value",
+                "isRowNumberCell": false,
+                "columnName": "ID"
+              }
+            },
+            {
+              "uri": "http://www.w3.org/2006/time#xsdDateTime",
+              "curie": "time:xsdDateTime",
+              "target": {
+                "nodeType": "cell-as-literal",
+                "expression": "value",
+                "isRowNumberCell": false,
+                "valueType": "http://www.w3.org/2001/XMLSchema#dateTime",
+                "columnName": "date"
+              }
+            },
+            {
+              "uri": "http://schema.org/provider",
+              "curie": "schema:provider",
+              "target": {
+                "nodeType": "cell-as-resource",
+                "expression": "'http://data.gmdsp.org.uk/id/manchester/libraries/provider/'+value.urlify()'",
+                "isRowNumberCell": false,
+                "columnName": "Library",
+                "rdfTypes": [
+                  {
+                    "uri": "http://data.gmdsp.org.uk/def/libraries/LibraryService",
+                    "curie": "gmdsp:LibraryService"
+                  }
+                ],
+                "links": [
+                  {
+                    "uri": "http://www.w3.org/2000/01/rdf-schema#label",
+                    "curie": "rdfs:label",
+                    "target": {
+                      "nodeType": "cell-as-literal",
+                      "expression": "value",
+                      "isRowNumberCell": false,
+                      "columnName": "Library"
+                    }
+                  }
+                ]
+              }
+            },
+            {
+              "uri": "http://data.gmdsp.org.uk/def/libraries/loanType",
+              "curie": "gmdsp:loanType",
+              "target": {
+                "nodeType": "cell-as-resource",
+                "expression": "'http://data.gmdsp.org.uk/id/manchester/libraries/loantype/'+value.urlify()'",
+                "isRowNumberCell": false,
+                "columnName": "transaction",
+                "rdfTypes": [
+                  {
+                    "uri": "http://data.gmdsp.org.uk/def/libraries/LoanType",
+                    "curie": "gmdsp:LoanType"
+                  }
+                ],
+                "links": [
+                  {
+                    "uri": "http://www.w3.org/2000/01/rdf-schema#label",
+                    "curie": "rdfs:label",
+                    "target": {
+                      "nodeType": "cell-as-literal",
+                      "expression": "value",
+                      "isRowNumberCell": false,
+                      "columnName": "transaction"
+                    }
+                  }
+                ]
+              }
+            },
+            {
+              "uri": "http://purl.org/ontology/dso#hasDocument",
+              "curie": "dso:hasDocument",
+              "target": {
+                "nodeType": "cell-as-resource",
+                "expression": "'http://books.google.com/books?vid=ISBN'+value.urlify()'",
+                "isRowNumberCell": false,
+                "columnName": "isbn",
+                "rdfTypes": [],
+                "links": [
+                  {
+                    "uri": "http://www.w3.org/2000/01/rdf-schema#label",
+                    "curie": "rdfs:label",
+                    "target": {
+                      "nodeType": "cell-as-literal",
+                      "expression": "'Item name: '+value",
+                      "isRowNumberCell": false,
+                      "columnName": "title"
+                    }
+                  }
+                ]
+              }
+            }
+          ]
+        }
+      ]
+    }
+  },
+  {
+    "op": "rdf-extension/save-rdf-schema",
+    "description": "Save RDF schema skeleton",
+    "schema": {
+      "baseUri": "http://localhost:3333/",
+      "prefixes": [
+        {
+          "name": "schema",
+          "uri": "http://schema.org/"
+        },
+        {
+          "name": "rdfs",
+          "uri": "http://www.w3.org/2000/01/rdf-schema#"
+        },
+        {
+          "name": "gmdsp",
+          "uri": "http://data.gmdsp.org.uk/def/libraries/"
+        },
+        {
+          "name": "time",
+          "uri": "http://www.w3.org/2006/time#"
+        },
+        {
+          "name": "foaf",
+          "uri": "http://xmlns.com/foaf/0.1/"
+        },
+        {
+          "name": "bibo",
+          "uri": "http://purl.org/ontology/bibo/"
+        },
+        {
+          "name": "owl",
+          "uri": "http://www.w3.org/2002/07/owl#"
+        },
+        {
+          "name": "xsd",
+          "uri": "http://www.w3.org/2001/XMLSchema#"
+        },
+        {
+          "name": "rdf",
+          "uri": "http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+        },
+        {
+          "name": "dso",
+          "uri": "http://purl.org/ontology/dso#"
+        }
+      ],
+      "rootNodes": [
+        {
+          "nodeType": "cell-as-resource",
+          "expression": "'http://data.gmdsp.org.uk/id/manchester/libraries/transactions/2014-10/'+value.urlify()'",
+          "isRowNumberCell": false,
+          "columnName": "hash",
+          "rdfTypes": [
+            {
+              "uri": "http://purl.org/ontology/dso#Loan",
+              "curie": "dso:Loan"
+            }
+          ],
+          "links": [
+            {
+              "uri": "http://www.w3.org/2000/01/rdf-schema#label",
+              "curie": "rdfs:label",
+              "target": {
+                "nodeType": "cell-as-literal",
+                "expression": "'Loan: '+value",
+                "isRowNumberCell": false,
+                "columnName": "ID"
+              }
+            },
+            {
+              "uri": "http://www.w3.org/2006/time#xsdDateTime",
+              "curie": "time:xsdDateTime",
+              "target": {
+                "nodeType": "cell-as-literal",
+                "expression": "value",
+                "isRowNumberCell": false,
+                "valueType": "http://www.w3.org/2001/XMLSchema#dateTime",
+                "columnName": "date"
+              }
+            },
+            {
+              "uri": "http://schema.org/provider",
+              "curie": "schema:provider",
+              "target": {
+                "nodeType": "cell-as-resource",
+                "expression": "'http://data.gmdsp.org.uk/id/manchester/libraries/provider/'+value.urlify()'",
+                "isRowNumberCell": false,
+                "columnName": "Library",
+                "rdfTypes": [
+                  {
+                    "uri": "http://data.gmdsp.org.uk/def/libraries/LibraryService",
+                    "curie": "gmdsp:LibraryService"
+                  }
+                ],
+                "links": [
+                  {
+                    "uri": "http://www.w3.org/2000/01/rdf-schema#label",
+                    "curie": "rdfs:label",
+                    "target": {
+                      "nodeType": "cell-as-literal",
+                      "expression": "value",
+                      "isRowNumberCell": false,
+                      "columnName": "Library"
+                    }
+                  }
+                ]
+              }
+            },
+            {
+              "uri": "http://data.gmdsp.org.uk/def/libraries/loanType",
+              "curie": "gmdsp:loanType",
+              "target": {
+                "nodeType": "cell-as-resource",
+                "expression": "'http://data.gmdsp.org.uk/id/manchester/libraries/loantype/'+value.urlify()'",
+                "isRowNumberCell": false,
+                "columnName": "transaction",
+                "rdfTypes": [
+                  {
+                    "uri": "http://data.gmdsp.org.uk/def/libraries/LoanType",
+                    "curie": "gmdsp:LoanType"
+                  }
+                ],
+                "links": [
+                  {
+                    "uri": "http://www.w3.org/2000/01/rdf-schema#label",
+                    "curie": "rdfs:label",
+                    "target": {
+                      "nodeType": "cell-as-literal",
+                      "expression": "value",
+                      "isRowNumberCell": false,
+                      "columnName": "transaction"
+                    }
+                  }
+                ]
+              }
+            },
+            {
+              "uri": "http://purl.org/ontology/dso#hasDocument",
+              "curie": "dso:hasDocument",
+              "target": {
+                "nodeType": "cell-as-resource",
+                "expression": "'http://books.google.com/books?vid=ISBN'+value.urlify()'",
+                "isRowNumberCell": false,
+                "columnName": "isbn",
+                "rdfTypes": [],
+                "links": [
+                  {
+                    "uri": "http://www.w3.org/2000/01/rdf-schema#label",
+                    "curie": "rdfs:label",
+                    "target": {
+                      "nodeType": "cell-as-literal",
+                      "expression": "'Item name: '+value",
+                      "isRowNumberCell": false,
+                      "columnName": "title"
+                    }
+                  }
+                ]
+              }
+            }
+          ]
+        }
+      ]
+    }
+  },
+  {
+    "op": "rdf-extension/save-rdf-schema",
+    "description": "Save RDF schema skeleton",
+    "schema": {
+      "baseUri": "http://localhost:3333/",
+      "prefixes": [
+        {
+          "name": "schema",
+          "uri": "http://schema.org/"
+        },
+        {
+          "name": "rdfs",
+          "uri": "http://www.w3.org/2000/01/rdf-schema#"
+        },
+        {
+          "name": "gmdsp",
+          "uri": "http://data.gmdsp.org.uk/def/libraries/"
+        },
+        {
+          "name": "time",
+          "uri": "http://www.w3.org/2006/time#"
+        },
+        {
+          "name": "foaf",
+          "uri": "http://xmlns.com/foaf/0.1/"
+        },
+        {
+          "name": "bibo",
+          "uri": "http://purl.org/ontology/bibo/"
+        },
+        {
+          "name": "owl",
+          "uri": "http://www.w3.org/2002/07/owl#"
+        },
+        {
+          "name": "xsd",
+          "uri": "http://www.w3.org/2001/XMLSchema#"
+        },
+        {
+          "name": "rdf",
+          "uri": "http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+        },
+        {
+          "name": "dso",
+          "uri": "http://purl.org/ontology/dso#"
+        }
+      ],
+      "rootNodes": [
+        {
+          "nodeType": "cell-as-resource",
+          "expression": "'http://data.gmdsp.org.uk/id/manchester/libraries/transactions/2014-10/'+value.urlify()'",
+          "isRowNumberCell": false,
+          "columnName": "hash",
+          "rdfTypes": [
+            {
+              "uri": "http://purl.org/ontology/dso#Loan",
+              "curie": "dso:Loan"
+            }
+          ],
+          "links": [
+            {
+              "uri": "http://www.w3.org/2000/01/rdf-schema#label",
+              "curie": "rdfs:label",
+              "target": {
+                "nodeType": "cell-as-literal",
+                "expression": "'Loan: '+value",
+                "isRowNumberCell": false,
+                "columnName": "ID"
+              }
+            },
+            {
+              "uri": "http://www.w3.org/2006/time#xsdDateTime",
+              "curie": "time:xsdDateTime",
+              "target": {
+                "nodeType": "cell-as-literal",
+                "expression": "value",
+                "isRowNumberCell": false,
+                "valueType": "http://www.w3.org/2001/XMLSchema#dateTime",
+                "columnName": "date"
+              }
+            },
+            {
+              "uri": "http://schema.org/provider",
+              "curie": "schema:provider",
+              "target": {
+                "nodeType": "cell-as-resource",
+                "expression": "'http://data.gmdsp.org.uk/id/manchester/libraries/provider/'+value.urlify()'",
+                "isRowNumberCell": false,
+                "columnName": "Library",
+                "rdfTypes": [
+                  {
+                    "uri": "http://data.gmdsp.org.uk/def/libraries/LibraryService",
+                    "curie": "gmdsp:LibraryService"
+                  }
+                ],
+                "links": [
+                  {
+                    "uri": "http://www.w3.org/2000/01/rdf-schema#label",
+                    "curie": "rdfs:label",
+                    "target": {
+                      "nodeType": "cell-as-literal",
+                      "expression": "value",
+                      "isRowNumberCell": false,
+                      "columnName": "Library"
+                    }
+                  }
+                ]
+              }
+            },
+            {
+              "uri": "http://data.gmdsp.org.uk/def/libraries/loanType",
+              "curie": "gmdsp:loanType",
+              "target": {
+                "nodeType": "cell-as-resource",
+                "expression": "'http://data.gmdsp.org.uk/id/manchester/libraries/loantype/'+value.urlify()'",
+                "isRowNumberCell": false,
+                "columnName": "transaction",
+                "rdfTypes": [
+                  {
+                    "uri": "http://data.gmdsp.org.uk/def/libraries/LoanType",
+                    "curie": "gmdsp:LoanType"
+                  }
+                ],
+                "links": [
+                  {
+                    "uri": "http://www.w3.org/2000/01/rdf-schema#label",
+                    "curie": "rdfs:label",
+                    "target": {
+                      "nodeType": "cell-as-literal",
+                      "expression": "value",
+                      "isRowNumberCell": false,
+                      "columnName": "transaction"
+                    }
+                  }
+                ]
+              }
+            },
+            {
+              "uri": "http://purl.org/ontology/dso#hasDocument",
+              "curie": "dso:hasDocument",
+              "target": {
+                "nodeType": "cell-as-resource",
+                "expression": "'http://books.google.com/books?vid=ISBN'+value.urlify()'",
+                "isRowNumberCell": false,
+                "columnName": "isbn",
+                "rdfTypes": [],
+                "links": [
+                  {
+                    "uri": "http://www.w3.org/2000/01/rdf-schema#label",
+                    "curie": "rdfs:label",
+                    "target": {
+                      "nodeType": "cell-as-literal",
+                      "expression": "'Item name: '+value",
+                      "isRowNumberCell": false,
+                      "columnName": "title"
+                    }
+                  }
+                ]
+              }
+            }
+          ]
+        }
+      ]
+    }
+  },
+  {
+    "op": "rdf-extension/save-rdf-schema",
+    "description": "Save RDF schema skeleton",
+    "schema": {
+      "baseUri": "http://localhost:3333/",
+      "prefixes": [
+        {
+          "name": "schema",
+          "uri": "http://schema.org/"
+        },
+        {
+          "name": "rdfs",
+          "uri": "http://www.w3.org/2000/01/rdf-schema#"
+        },
+        {
+          "name": "gmdsp",
+          "uri": "http://data.gmdsp.org.uk/def/libraries/"
+        },
+        {
+          "name": "time",
+          "uri": "http://www.w3.org/2006/time#"
+        },
+        {
+          "name": "foaf",
+          "uri": "http://xmlns.com/foaf/0.1/"
+        },
+        {
+          "name": "bibo",
+          "uri": "http://purl.org/ontology/bibo/"
+        },
+        {
+          "name": "owl",
+          "uri": "http://www.w3.org/2002/07/owl#"
+        },
+        {
+          "name": "xsd",
+          "uri": "http://www.w3.org/2001/XMLSchema#"
+        },
+        {
+          "name": "rdf",
+          "uri": "http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+        },
+        {
+          "name": "dso",
+          "uri": "http://purl.org/ontology/dso#"
+        }
+      ],
+      "rootNodes": [
+        {
+          "nodeType": "cell-as-resource",
+          "expression": "'http://data.gmdsp.org.uk/id/manchester/libraries/transactions/2014-10/'+value.urlify()'",
+          "isRowNumberCell": false,
+          "columnName": "hash",
+          "rdfTypes": [
+            {
+              "uri": "http://purl.org/ontology/dso#Loan",
+              "curie": "dso:Loan"
+            }
+          ],
+          "links": [
+            {
+              "uri": "http://www.w3.org/2000/01/rdf-schema#label",
+              "curie": "rdfs:label",
+              "target": {
+                "nodeType": "cell-as-literal",
+                "expression": "'Loan: '+value",
+                "isRowNumberCell": false,
+                "columnName": "ID"
+              }
+            },
+            {
+              "uri": "http://www.w3.org/2006/time#xsdDateTime",
+              "curie": "time:xsdDateTime",
+              "target": {
+                "nodeType": "cell-as-literal",
+                "expression": "value",
+                "isRowNumberCell": false,
+                "valueType": "http://www.w3.org/2001/XMLSchema#dateTime",
+                "columnName": "date"
+              }
+            },
+            {
+              "uri": "http://schema.org/provider",
+              "curie": "schema:provider",
+              "target": {
+                "nodeType": "cell-as-resource",
+                "expression": "'http://data.gmdsp.org.uk/id/manchester/libraries/provider/'+value.urlify()'",
+                "isRowNumberCell": false,
+                "columnName": "Library",
+                "rdfTypes": [
+                  {
+                    "uri": "http://data.gmdsp.org.uk/def/libraries/LibraryService",
+                    "curie": "gmdsp:LibraryService"
+                  }
+                ],
+                "links": [
+                  {
+                    "uri": "http://www.w3.org/2000/01/rdf-schema#label",
+                    "curie": "rdfs:label",
+                    "target": {
+                      "nodeType": "cell-as-literal",
+                      "expression": "value",
+                      "isRowNumberCell": false,
+                      "columnName": "Library"
+                    }
+                  }
+                ]
+              }
+            },
+            {
+              "uri": "http://data.gmdsp.org.uk/def/libraries/loanType",
+              "curie": "gmdsp:loanType",
+              "target": {
+                "nodeType": "cell-as-resource",
+                "expression": "'http://data.gmdsp.org.uk/id/manchester/libraries/loantype/'+value.urlify()'",
+                "isRowNumberCell": false,
+                "columnName": "transaction",
+                "rdfTypes": [
+                  {
+                    "uri": "http://data.gmdsp.org.uk/def/libraries/LoanType",
+                    "curie": "gmdsp:LoanType"
+                  }
+                ],
+                "links": [
+                  {
+                    "uri": "http://www.w3.org/2000/01/rdf-schema#label",
+                    "curie": "rdfs:label",
+                    "target": {
+                      "nodeType": "cell-as-literal",
+                      "expression": "value",
+                      "isRowNumberCell": false,
+                      "columnName": "transaction"
+                    }
+                  }
+                ]
+              }
+            },
+            {
+              "uri": "http://purl.org/ontology/dso#hasDocument",
+              "curie": "dso:hasDocument",
+              "target": {
+                "nodeType": "cell-as-resource",
+                "expression": "'http://books.google.com/books?vid=ISBN'+value.urlify()'",
+                "isRowNumberCell": false,
+                "columnName": "isbn",
+                "rdfTypes": [],
+                "links": [
+                  {
+                    "uri": "http://www.w3.org/2000/01/rdf-schema#label",
+                    "curie": "rdfs:label",
+                    "target": {
+                      "nodeType": "cell-as-literal",
+                      "expression": "'Item name: '+value",
+                      "isRowNumberCell": false,
+                      "columnName": "title"
+                    }
+                  }
+                ]
+              }
+            }
+          ]
+        }
+      ]
+    }
+  },
+  {
+    "op": "rdf-extension/save-rdf-schema",
+    "description": "Save RDF schema skeleton",
+    "schema": {
+      "baseUri": "http://localhost:3333/",
+      "prefixes": [
+        {
+          "name": "schema",
+          "uri": "http://schema.org/"
+        },
+        {
+          "name": "gmdsp",
+          "uri": "http://data.gmdsp.org.uk/def/libraries/"
+        },
+        {
+          "name": "rdfs",
+          "uri": "http://www.w3.org/2000/01/rdf-schema#"
+        },
+        {
+          "name": "time",
+          "uri": "http://www.w3.org/2006/time#"
+        },
+        {
+          "name": "foaf",
+          "uri": "http://xmlns.com/foaf/0.1/"
+        },
+        {
+          "name": "bibo",
+          "uri": "http://purl.org/ontology/bibo/"
+        },
+        {
+          "name": "xsd",
+          "uri": "http://www.w3.org/2001/XMLSchema#"
+        },
+        {
+          "name": "owl",
+          "uri": "http://www.w3.org/2002/07/owl#"
+        },
+        {
+          "name": "rdf",
+          "uri": "http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+        },
+        {
+          "name": "dso",
+          "uri": "http://purl.org/ontology/dso#"
+        }
+      ],
+      "rootNodes": [
+        {
+          "nodeType": "cell-as-resource",
+          "expression": "'http://data.gmdsp.org.uk/id/manchester/libraries/transactions/2014-10/'+value.urlify()'",
+          "isRowNumberCell": false,
+          "columnName": "ID",
+          "rdfTypes": [
+            {
+              "uri": "http://purl.org/ontology/dso#Loan",
+              "curie": "dso:Loan"
+            }
+          ],
+          "links": [
+            {
+              "uri": "http://www.w3.org/2000/01/rdf-schema#label",
+              "curie": "rdfs:label",
+              "target": {
+                "nodeType": "cell-as-literal",
+                "expression": "'Loan: '+value",
+                "isRowNumberCell": false,
+                "columnName": "ID"
+              }
+            },
+            {
+              "uri": "http://www.w3.org/2006/time#xsdDateTime",
+              "curie": "time:xsdDateTime",
+              "target": {
+                "nodeType": "cell-as-literal",
+                "expression": "value",
+                "isRowNumberCell": false,
+                "valueType": "http://www.w3.org/2001/XMLSchema#dateTime",
+                "columnName": "date"
+              }
+            },
+            {
+              "uri": "http://schema.org/provider",
+              "curie": "schema:provider",
+              "target": {
+                "nodeType": "cell-as-resource",
+                "expression": "'http://data.gmdsp.org.uk/id/manchester/libraries/provider/'+value.urlify()'",
+                "isRowNumberCell": false,
+                "columnName": "Library",
+                "rdfTypes": [
+                  {
+                    "uri": "http://data.gmdsp.org.uk/def/libraries/LibraryService",
+                    "curie": "gmdsp:LibraryService"
+                  }
+                ],
+                "links": [
+                  {
+                    "uri": "http://www.w3.org/2000/01/rdf-schema#label",
+                    "curie": "rdfs:label",
+                    "target": {
+                      "nodeType": "cell-as-literal",
+                      "expression": "value",
+                      "isRowNumberCell": false,
+                      "columnName": "Library"
+                    }
+                  }
+                ]
+              }
+            },
+            {
+              "uri": "http://data.gmdsp.org.uk/def/libraries/loanType",
+              "curie": "gmdsp:loanType",
+              "target": {
+                "nodeType": "cell-as-resource",
+                "expression": "'http://data.gmdsp.org.uk/id/manchester/libraries/loantype/'+value.urlify()'",
+                "isRowNumberCell": false,
+                "columnName": "transaction",
+                "rdfTypes": [
+                  {
+                    "uri": "http://data.gmdsp.org.uk/def/libraries/LoanType",
+                    "curie": "gmdsp:LoanType"
+                  }
+                ],
+                "links": [
+                  {
+                    "uri": "http://www.w3.org/2000/01/rdf-schema#label",
+                    "curie": "rdfs:label",
+                    "target": {
+                      "nodeType": "cell-as-literal",
+                      "expression": "value",
+                      "isRowNumberCell": false,
+                      "columnName": "transaction"
+                    }
+                  }
+                ]
+              }
+            },
+            {
+              "uri": "http://purl.org/ontology/dso#hasDocument",
+              "curie": "dso:hasDocument",
+              "target": {
+                "nodeType": "cell-as-resource",
+                "expression": "'http://books.google.com/books?vid=ISBN'+value.urlify()'",
+                "isRowNumberCell": false,
+                "columnName": "isbn",
+                "rdfTypes": [],
+                "links": [
+                  {
+                    "uri": "http://www.w3.org/2000/01/rdf-schema#label",
+                    "curie": "rdfs:label",
+                    "target": {
+                      "nodeType": "cell-as-literal",
+                      "expression": "'Item name: '+value",
+                      "isRowNumberCell": false,
+                      "columnName": "title"
+                    }
+                  }
+                ]
+              }
+            }
+          ]
+        }
+      ]
+    }
+  },
+  {
+    "op": "rdf-extension/save-rdf-schema",
+    "description": "Save RDF schema skeleton",
+    "schema": {
+      "baseUri": "http://localhost:3333/",
+      "prefixes": [
+        {
+          "name": "schema",
+          "uri": "http://schema.org/"
+        },
+        {
+          "name": "rdfs",
+          "uri": "http://www.w3.org/2000/01/rdf-schema#"
+        },
+        {
+          "name": "gmdsp",
+          "uri": "http://data.gmdsp.org.uk/def/libraries/"
+        },
+        {
+          "name": "time",
+          "uri": "http://www.w3.org/2006/time#"
+        },
+        {
+          "name": "foaf",
+          "uri": "http://xmlns.com/foaf/0.1/"
+        },
+        {
+          "name": "bibo",
+          "uri": "http://purl.org/ontology/bibo/"
+        },
+        {
+          "name": "owl",
+          "uri": "http://www.w3.org/2002/07/owl#"
+        },
+        {
+          "name": "xsd",
+          "uri": "http://www.w3.org/2001/XMLSchema#"
+        },
+        {
+          "name": "rdf",
+          "uri": "http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+        },
+        {
+          "name": "dso",
+          "uri": "http://purl.org/ontology/dso#"
+        }
+      ],
+      "rootNodes": [
+        {
+          "nodeType": "cell-as-resource",
+          "expression": "'http://data.gmdsp.org.uk/id/manchester/libraries/transactions/2014-10/'+value.urlify()'",
+          "isRowNumberCell": false,
+          "columnName": "ID",
+          "rdfTypes": [
+            {
+              "uri": "http://purl.org/ontology/dso#Loan",
+              "curie": "dso:Loan"
+            }
+          ],
+          "links": [
+            {
+              "uri": "http://www.w3.org/2000/01/rdf-schema#label",
+              "curie": "rdfs:label",
+              "target": {
+                "nodeType": "cell-as-literal",
+                "expression": "'Loan: '+value",
+                "isRowNumberCell": false,
+                "columnName": "ID"
+              }
+            },
+            {
+              "uri": "http://www.w3.org/2006/time#xsdDateTime",
+              "curie": "time:xsdDateTime",
+              "target": {
+                "nodeType": "cell-as-literal",
+                "expression": "value",
+                "isRowNumberCell": false,
+                "valueType": "http://www.w3.org/2001/XMLSchema#dateTime",
+                "columnName": "date"
+              }
+            },
+            {
+              "uri": "http://schema.org/provider",
+              "curie": "schema:provider",
+              "target": {
+                "nodeType": "cell-as-resource",
+                "expression": "'http://data.gmdsp.org.uk/id/manchester/libraries/provider/'+value.urlify()'",
+                "isRowNumberCell": false,
+                "columnName": "Library",
+                "rdfTypes": [
+                  {
+                    "uri": "http://data.gmdsp.org.uk/def/libraries/LibraryService",
+                    "curie": "gmdsp:LibraryService"
+                  }
+                ],
+                "links": [
+                  {
+                    "uri": "http://www.w3.org/2000/01/rdf-schema#label",
+                    "curie": "rdfs:label",
+                    "target": {
+                      "nodeType": "cell-as-literal",
+                      "expression": "value",
+                      "isRowNumberCell": false,
+                      "columnName": "Library"
+                    }
+                  }
+                ]
+              }
+            },
+            {
+              "uri": "http://data.gmdsp.org.uk/def/libraries/loanType",
+              "curie": "gmdsp:loanType",
+              "target": {
+                "nodeType": "cell-as-resource",
+                "expression": "'http://data.gmdsp.org.uk/id/manchester/libraries/loantype/'+value.urlify()'",
+                "isRowNumberCell": false,
+                "columnName": "transaction",
+                "rdfTypes": [
+                  {
+                    "uri": "http://data.gmdsp.org.uk/def/libraries/LoanType",
+                    "curie": "gmdsp:LoanType"
+                  }
+                ],
+                "links": [
+                  {
+                    "uri": "http://www.w3.org/2000/01/rdf-schema#label",
+                    "curie": "rdfs:label",
+                    "target": {
+                      "nodeType": "cell-as-literal",
+                      "expression": "value",
+                      "isRowNumberCell": false,
+                      "columnName": "transaction"
+                    }
+                  }
+                ]
+              }
+            },
+            {
+              "uri": "http://purl.org/ontology/dso#hasDocument",
+              "curie": "dso:hasDocument",
+              "target": {
+                "nodeType": "cell-as-resource",
+                "expression": "'http://books.google.com/books?vid=ISBN'+value.urlify()'",
+                "isRowNumberCell": false,
+                "columnName": "isbn",
+                "rdfTypes": [],
+                "links": [
+                  {
+                    "uri": "http://www.w3.org/2000/01/rdf-schema#label",
+                    "curie": "rdfs:label",
+                    "target": {
+                      "nodeType": "cell-as-literal",
+                      "expression": "'Item name: '+value",
+                      "isRowNumberCell": false,
+                      "columnName": "title"
+                    }
+                  }
+                ]
+              }
+            }
+          ]
+        }
+      ]
+    }
+  },
+  {
+    "op": "rdf-extension/save-rdf-schema",
+    "description": "Save RDF schema skeleton",
+    "schema": {
+      "baseUri": "http://localhost:3333/",
+      "prefixes": [
+        {
+          "name": "schema",
+          "uri": "http://schema.org/"
+        },
+        {
+          "name": "gmdsp",
+          "uri": "http://data.gmdsp.org.uk/def/libraries/"
+        },
+        {
+          "name": "rdfs",
+          "uri": "http://www.w3.org/2000/01/rdf-schema#"
+        },
+        {
+          "name": "time",
+          "uri": "http://www.w3.org/2006/time#"
+        },
+        {
+          "name": "foaf",
+          "uri": "http://xmlns.com/foaf/0.1/"
+        },
+        {
+          "name": "bibo",
+          "uri": "http://purl.org/ontology/bibo/"
+        },
+        {
+          "name": "xsd",
+          "uri": "http://www.w3.org/2001/XMLSchema#"
+        },
+        {
+          "name": "owl",
+          "uri": "http://www.w3.org/2002/07/owl#"
+        },
+        {
+          "name": "rdf",
+          "uri": "http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+        },
+        {
+          "name": "dso",
+          "uri": "http://purl.org/ontology/dso#"
+        }
+      ],
+      "rootNodes": [
+        {
+          "nodeType": "cell-as-resource",
+          "expression": "'http://data.gmdsp.org.uk/id/manchester/libraries/transactions/2014-10/'+value.urlify()'",
+          "isRowNumberCell": false,
+          "columnName": "ID",
+          "rdfTypes": [
+            {
+              "uri": "http://purl.org/ontology/dso#Loan",
+              "curie": "dso:Loan"
+            }
+          ],
+          "links": [
+            {
+              "uri": "http://www.w3.org/2000/01/rdf-schema#label",
+              "curie": "rdfs:label",
+              "target": {
+                "nodeType": "cell-as-literal",
+                "expression": "'Loan: '+value",
+                "isRowNumberCell": false,
+                "columnName": "ID"
+              }
+            },
+            {
+              "uri": "http://www.w3.org/2006/time#xsdDateTime",
+              "curie": "time:xsdDateTime",
+              "target": {
+                "nodeType": "cell-as-literal",
+                "expression": "value",
+                "isRowNumberCell": false,
+                "columnName": "date"
+              }
+            },
+            {
+              "uri": "http://schema.org/provider",
+              "curie": "schema:provider",
+              "target": {
+                "nodeType": "cell-as-resource",
+                "expression": "'http://data.gmdsp.org.uk/id/manchester/libraries/provider/'+value.urlify()'",
+                "isRowNumberCell": false,
+                "columnName": "Library",
+                "rdfTypes": [
+                  {
+                    "uri": "http://data.gmdsp.org.uk/def/libraries/LibraryService",
+                    "curie": "gmdsp:LibraryService"
+                  }
+                ],
+                "links": [
+                  {
+                    "uri": "http://www.w3.org/2000/01/rdf-schema#label",
+                    "curie": "rdfs:label",
+                    "target": {
+                      "nodeType": "cell-as-literal",
+                      "expression": "value",
+                      "isRowNumberCell": false,
+                      "columnName": "Library"
+                    }
+                  }
+                ]
+              }
+            },
+            {
+              "uri": "http://data.gmdsp.org.uk/def/libraries/loanType",
+              "curie": "gmdsp:loanType",
+              "target": {
+                "nodeType": "cell-as-resource",
+                "expression": "'http://data.gmdsp.org.uk/id/manchester/libraries/loantype/'+value.urlify()'",
+                "isRowNumberCell": false,
+                "columnName": "transaction",
+                "rdfTypes": [
+                  {
+                    "uri": "http://data.gmdsp.org.uk/def/libraries/LoanType",
+                    "curie": "gmdsp:LoanType"
+                  }
+                ],
+                "links": [
+                  {
+                    "uri": "http://www.w3.org/2000/01/rdf-schema#label",
+                    "curie": "rdfs:label",
+                    "target": {
+                      "nodeType": "cell-as-literal",
+                      "expression": "value",
+                      "isRowNumberCell": false,
+                      "columnName": "transaction"
+                    }
+                  }
+                ]
+              }
+            },
+            {
+              "uri": "http://purl.org/ontology/dso#hasDocument",
+              "curie": "dso:hasDocument",
+              "target": {
+                "nodeType": "cell-as-resource",
+                "expression": "'http://books.google.com/books?vid=ISBN'+value.urlify()'",
+                "isRowNumberCell": false,
+                "columnName": "isbn",
+                "rdfTypes": [],
+                "links": [
+                  {
+                    "uri": "http://www.w3.org/2000/01/rdf-schema#label",
+                    "curie": "rdfs:label",
+                    "target": {
+                      "nodeType": "cell-as-literal",
+                      "expression": "'Item name: '+value",
+                      "isRowNumberCell": false,
+                      "columnName": "title"
+                    }
+                  }
+                ]
+              }
+            }
+          ]
+        }
+      ]
+    }
+  },
+  {
+    "op": "rdf-extension/save-rdf-schema",
+    "description": "Save RDF schema skeleton",
+    "schema": {
+      "baseUri": "http://localhost:3333/",
+      "prefixes": [
+        {
+          "name": "schema",
+          "uri": "http://schema.org/"
+        },
+        {
+          "name": "gmdsp",
+          "uri": "http://data.gmdsp.org.uk/def/libraries/"
+        },
+        {
+          "name": "rdfs",
+          "uri": "http://www.w3.org/2000/01/rdf-schema#"
+        },
+        {
+          "name": "time",
+          "uri": "http://www.w3.org/2006/time#"
+        },
+        {
+          "name": "foaf",
+          "uri": "http://xmlns.com/foaf/0.1/"
+        },
+        {
+          "name": "bibo",
+          "uri": "http://purl.org/ontology/bibo/"
+        },
+        {
+          "name": "xsd",
+          "uri": "http://www.w3.org/2001/XMLSchema#"
+        },
+        {
+          "name": "owl",
+          "uri": "http://www.w3.org/2002/07/owl#"
+        },
+        {
+          "name": "rdf",
+          "uri": "http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+        },
+        {
+          "name": "dso",
+          "uri": "http://purl.org/ontology/dso#"
+        }
+      ],
+      "rootNodes": [
+        {
+          "nodeType": "cell-as-resource",
+          "expression": "'http://data.gmdsp.org.uk/id/manchester/libraries/transactions/2014-10/'+value.urlify()'",
+          "isRowNumberCell": false,
+          "columnName": "ID",
+          "rdfTypes": [
+            {
+              "uri": "http://purl.org/ontology/dso#Loan",
+              "curie": "dso:Loan"
+            }
+          ],
+          "links": [
+            {
+              "uri": "http://www.w3.org/2000/01/rdf-schema#label",
+              "curie": "rdfs:label",
+              "target": {
+                "nodeType": "cell-as-literal",
+                "expression": "'Loan: '+value",
+                "isRowNumberCell": false,
+                "columnName": "ID"
+              }
+            },
+            {
+              "uri": "http://www.w3.org/2006/time#xsdDateTime",
+              "curie": "time:xsdDateTime",
+              "target": {
+                "nodeType": "cell-as-literal",
+                "expression": "value",
+                "isRowNumberCell": false,
+                "columnName": "date"
+              }
+            },
+            {
+              "uri": "http://schema.org/provider",
+              "curie": "schema:provider",
+              "target": {
+                "nodeType": "cell-as-resource",
+                "expression": "'http://data.gmdsp.org.uk/id/manchester/libraries/provider/'+value.urlify()'",
+                "isRowNumberCell": false,
+                "columnName": "Library",
+                "rdfTypes": [
+                  {
+                    "uri": "http://data.gmdsp.org.uk/def/libraries/LibraryService",
+                    "curie": "gmdsp:LibraryService"
+                  }
+                ],
+                "links": [
+                  {
+                    "uri": "http://www.w3.org/2000/01/rdf-schema#label",
+                    "curie": "rdfs:label",
+                    "target": {
+                      "nodeType": "cell-as-literal",
+                      "expression": "value",
+                      "isRowNumberCell": false,
+                      "columnName": "Library"
+                    }
+                  }
+                ]
+              }
+            },
+            {
+              "uri": "http://data.gmdsp.org.uk/def/libraries/loanType",
+              "curie": "gmdsp:loanType",
+              "target": {
+                "nodeType": "cell-as-resource",
+                "expression": "'http://data.gmdsp.org.uk/id/manchester/libraries/loantype/'+value.urlify()'",
+                "isRowNumberCell": false,
+                "columnName": "transaction",
+                "rdfTypes": [
+                  {
+                    "uri": "http://data.gmdsp.org.uk/def/libraries/LoanType",
+                    "curie": "gmdsp:LoanType"
+                  }
+                ],
+                "links": [
+                  {
+                    "uri": "http://www.w3.org/2000/01/rdf-schema#label",
+                    "curie": "rdfs:label",
+                    "target": {
+                      "nodeType": "cell-as-literal",
+                      "expression": "value",
+                      "isRowNumberCell": false,
+                      "columnName": "transaction"
+                    }
+                  }
+                ]
+              }
+            },
+            {
+              "uri": "http://purl.org/ontology/dso#hasDocument",
+              "curie": "dso:hasDocument",
+              "target": {
+                "nodeType": "cell-as-resource",
+                "expression": "'http://books.google.com/books?vid=ISBN'+value.urlify()'",
+                "isRowNumberCell": false,
+                "columnName": "isbn",
+                "rdfTypes": [],
+                "links": [
+                  {
+                    "uri": "http://www.w3.org/2000/01/rdf-schema#label",
+                    "curie": "rdfs:label",
+                    "target": {
+                      "nodeType": "cell-as-literal",
+                      "expression": "'Item name: '+value",
+                      "isRowNumberCell": false,
+                      "columnName": "title"
+                    }
+                  }
+                ]
+              }
+            }
+          ]
+        }
+      ]
+    }
+  },
+  {
+    "op": "rdf-extension/save-rdf-schema",
+    "description": "Save RDF schema skeleton",
+    "schema": {
+      "baseUri": "http://localhost:3333/",
+      "prefixes": [
+        {
+          "name": "schema",
+          "uri": "http://schema.org/"
+        },
+        {
+          "name": "rdfs",
+          "uri": "http://www.w3.org/2000/01/rdf-schema#"
+        },
+        {
+          "name": "gmdsp",
+          "uri": "http://data.gmdsp.org.uk/def/libraries/"
+        },
+        {
+          "name": "time",
+          "uri": "http://www.w3.org/2006/time#"
+        },
+        {
+          "name": "foaf",
+          "uri": "http://xmlns.com/foaf/0.1/"
+        },
+        {
+          "name": "bibo",
+          "uri": "http://purl.org/ontology/bibo/"
+        },
+        {
+          "name": "book",
+          "uri": "http://purl.org/NET/book/vocab#"
+        },
+        {
+          "name": "owl",
+          "uri": "http://www.w3.org/2002/07/owl#"
+        },
+        {
+          "name": "xsd",
+          "uri": "http://www.w3.org/2001/XMLSchema#"
+        },
+        {
+          "name": "rdf",
+          "uri": "http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+        },
+        {
+          "name": "dso",
+          "uri": "http://purl.org/ontology/dso#"
+        }
+      ],
+      "rootNodes": [
+        {
+          "nodeType": "cell-as-resource",
+          "expression": "'http://data.gmdsp.org.uk/id/manchester/libraries/transactions/2014-10/'+value.urlify()'",
+          "isRowNumberCell": false,
+          "columnName": "ID",
+          "rdfTypes": [
+            {
+              "uri": "http://purl.org/ontology/dso#Loan",
+              "curie": "dso:Loan"
+            }
+          ],
+          "links": [
+            {
+              "uri": "http://www.w3.org/2000/01/rdf-schema#label",
+              "curie": "rdfs:label",
+              "target": {
+                "nodeType": "cell-as-literal",
+                "expression": "'Loan: '+value.split (\" \") [6]",
+                "isRowNumberCell": false,
+                "columnName": "ID"
+              }
+            },
+            {
+              "uri": "http://www.w3.org/2006/time#xsdDateTime",
+              "curie": "time:xsdDateTime",
+              "target": {
+                "nodeType": "cell-as-literal",
+                "expression": "value",
+                "isRowNumberCell": false,
+                "columnName": "date"
+              }
+            },
+            {
+              "uri": "http://schema.org/provider",
+              "curie": "schema:provider",
+              "target": {
+                "nodeType": "cell-as-resource",
+                "expression": "'http://data.gmdsp.org.uk/id/manchester/libraries/provider/'+value.urlify()'",
+                "isRowNumberCell": false,
+                "columnName": "Library",
+                "rdfTypes": [
+                  {
+                    "uri": "http://data.gmdsp.org.uk/def/libraries/LibraryService",
+                    "curie": "gmdsp:LibraryService"
+                  }
+                ],
+                "links": [
+                  {
+                    "uri": "http://www.w3.org/2000/01/rdf-schema#label",
+                    "curie": "rdfs:label",
+                    "target": {
+                      "nodeType": "cell-as-literal",
+                      "expression": "value",
+                      "isRowNumberCell": false,
+                      "columnName": "Library"
+                    }
+                  }
+                ]
+              }
+            },
+            {
+              "uri": "http://data.gmdsp.org.uk/def/libraries/loanType",
+              "curie": "gmdsp:loanType",
+              "target": {
+                "nodeType": "cell-as-resource",
+                "expression": "'http://data.gmdsp.org.uk/id/manchester/libraries/loantype/'+value.urlify()'",
+                "isRowNumberCell": false,
+                "columnName": "transaction",
+                "rdfTypes": [
+                  {
+                    "uri": "http://data.gmdsp.org.uk/def/libraries/LoanType",
+                    "curie": "gmdsp:LoanType"
+                  }
+                ],
+                "links": [
+                  {
+                    "uri": "http://www.w3.org/2000/01/rdf-schema#label",
+                    "curie": "rdfs:label",
+                    "target": {
+                      "nodeType": "cell-as-literal",
+                      "expression": "value",
+                      "isRowNumberCell": false,
+                      "columnName": "transaction"
+                    }
+                  }
+                ]
+              }
+            },
+            {
+              "uri": "http://purl.org/ontology/dso#hasDocument",
+              "curie": "dso:hasDocument",
+              "target": {
+                "nodeType": "cell-as-resource",
+                "expression": "'http://books.google.com/books?vid=ISBN'+value.urlify()'",
+                "isRowNumberCell": false,
+                "columnName": "isbn",
+                "rdfTypes": [
+                  {
+                    "uri": "http://purl.org/NET/book/vocab#isbn",
+                    "curie": "book:isbn"
+                  }
+                ],
+                "links": [
+                  {
+                    "uri": "http://www.w3.org/2000/01/rdf-schema#label",
+                    "curie": "rdfs:label",
+                    "target": {
+                      "nodeType": "cell-as-literal",
+                      "expression": "'Item name: '+value",
+                      "isRowNumberCell": false,
+                      "columnName": "isbn"
+                    }
+                  }
+                ]
+              }
+            }
+          ]
+        }
+      ]
+    }
+  },
+  {
+    "op": "rdf-extension/save-rdf-schema",
+    "description": "Save RDF schema skeleton",
+    "schema": {
+      "baseUri": "http://localhost:3333/",
+      "prefixes": [
+        {
+          "name": "schema",
+          "uri": "http://schema.org/"
+        },
+        {
+          "name": "rdfs",
+          "uri": "http://www.w3.org/2000/01/rdf-schema#"
+        },
+        {
+          "name": "gmdsp",
+          "uri": "http://data.gmdsp.org.uk/def/libraries/"
+        },
+        {
+          "name": "time",
+          "uri": "http://www.w3.org/2006/time#"
+        },
+        {
+          "name": "foaf",
+          "uri": "http://xmlns.com/foaf/0.1/"
+        },
+        {
+          "name": "bibo",
+          "uri": "http://purl.org/ontology/bibo/"
+        },
+        {
+          "name": "book",
+          "uri": "http://purl.org/NET/book/vocab#"
+        },
+        {
+          "name": "owl",
+          "uri": "http://www.w3.org/2002/07/owl#"
+        },
+        {
+          "name": "xsd",
+          "uri": "http://www.w3.org/2001/XMLSchema#"
+        },
+        {
+          "name": "rdf",
+          "uri": "http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+        },
+        {
+          "name": "dso",
+          "uri": "http://purl.org/ontology/dso#"
+        }
+      ],
+      "rootNodes": [
+        {
+          "nodeType": "cell-as-resource",
+          "expression": "'http://data.gmdsp.org.uk/id/manchester/libraries/transactions/2014-10/'+value.urlify()'",
+          "isRowNumberCell": false,
+          "columnName": "ID",
+          "rdfTypes": [
+            {
+              "uri": "http://purl.org/ontology/dso#Loan",
+              "curie": "dso:Loan"
+            }
+          ],
+          "links": [
+            {
+              "uri": "http://www.w3.org/2000/01/rdf-schema#label",
+              "curie": "rdfs:label",
+              "target": {
+                "nodeType": "cell-as-literal",
+                "expression": "'Loan: '+value.split (\" \") [6]",
+                "isRowNumberCell": false,
+                "columnName": "ID"
+              }
+            },
+            {
+              "uri": "http://www.w3.org/2006/time#xsdDateTime",
+              "curie": "time:xsdDateTime",
+              "target": {
+                "nodeType": "cell-as-literal",
+                "expression": "value",
+                "isRowNumberCell": false,
+                "columnName": "date"
+              }
+            },
+            {
+              "uri": "http://schema.org/provider",
+              "curie": "schema:provider",
+              "target": {
+                "nodeType": "cell-as-resource",
+                "expression": "'http://data.gmdsp.org.uk/id/manchester/libraries/provider/'+value.urlify()'",
+                "isRowNumberCell": false,
+                "columnName": "Library",
+                "rdfTypes": [
+                  {
+                    "uri": "http://data.gmdsp.org.uk/def/libraries/LibraryService",
+                    "curie": "gmdsp:LibraryService"
+                  }
+                ],
+                "links": [
+                  {
+                    "uri": "http://www.w3.org/2000/01/rdf-schema#label",
+                    "curie": "rdfs:label",
+                    "target": {
+                      "nodeType": "cell-as-literal",
+                      "expression": "value",
+                      "isRowNumberCell": false,
+                      "columnName": "Library"
+                    }
+                  }
+                ]
+              }
+            },
+            {
+              "uri": "http://data.gmdsp.org.uk/def/libraries/loanType",
+              "curie": "gmdsp:loanType",
+              "target": {
+                "nodeType": "cell-as-resource",
+                "expression": "'http://data.gmdsp.org.uk/id/manchester/libraries/loantype/'+value.urlify()'",
+                "isRowNumberCell": false,
+                "columnName": "transaction",
+                "rdfTypes": [
+                  {
+                    "uri": "http://data.gmdsp.org.uk/def/libraries/LoanType",
+                    "curie": "gmdsp:LoanType"
+                  }
+                ],
+                "links": [
+                  {
+                    "uri": "http://www.w3.org/2000/01/rdf-schema#label",
+                    "curie": "rdfs:label",
+                    "target": {
+                      "nodeType": "cell-as-literal",
+                      "expression": "value",
+                      "isRowNumberCell": false,
+                      "columnName": "transaction"
+                    }
+                  }
+                ]
+              }
+            },
+            {
+              "uri": "http://purl.org/ontology/dso#hasDocument",
+              "curie": "dso:hasDocument",
+              "target": {
+                "nodeType": "cell-as-resource",
+                "expression": "'http://books.google.com/books?vid=ISBN'+value.urlify()'",
+                "isRowNumberCell": false,
+                "columnName": "isbn",
+                "rdfTypes": [
+                  {
+                    "uri": "http://purl.org/NET/book/vocab#isbn",
+                    "curie": "book:isbn"
+                  }
+                ],
+                "links": [
+                  {
+                    "uri": "http://www.w3.org/2000/01/rdf-schema#label",
+                    "curie": "rdfs:label",
+                    "target": {
+                      "nodeType": "cell-as-literal",
+                      "expression": "'Item name: '+value",
+                      "isRowNumberCell": false,
+                      "columnName": "isbn"
+                    }
+                  }
+                ]
+              }
+            }
+          ]
+        }
+      ]
+    }
+  },
+  {
+    "op": "rdf-extension/save-rdf-schema",
+    "description": "Save RDF schema skeleton",
+    "schema": {
+      "baseUri": "http://localhost:3333/",
+      "prefixes": [
+        {
+          "name": "schema",
+          "uri": "http://schema.org/"
+        },
+        {
+          "name": "rdfs",
+          "uri": "http://www.w3.org/2000/01/rdf-schema#"
+        },
+        {
+          "name": "gmdsp",
+          "uri": "http://data.gmdsp.org.uk/def/libraries/"
+        },
+        {
+          "name": "time",
+          "uri": "http://www.w3.org/2006/time#"
+        },
+        {
+          "name": "foaf",
+          "uri": "http://xmlns.com/foaf/0.1/"
+        },
+        {
+          "name": "bibo",
+          "uri": "http://purl.org/ontology/bibo/"
+        },
+        {
+          "name": "book",
+          "uri": "http://purl.org/NET/book/vocab#"
+        },
+        {
+          "name": "owl",
+          "uri": "http://www.w3.org/2002/07/owl#"
+        },
+        {
+          "name": "xsd",
+          "uri": "http://www.w3.org/2001/XMLSchema#"
+        },
+        {
+          "name": "rdf",
+          "uri": "http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+        },
+        {
+          "name": "dso",
+          "uri": "http://purl.org/ontology/dso#"
+        }
+      ],
+      "rootNodes": [
+        {
+          "nodeType": "cell-as-resource",
+          "expression": "'http://data.gmdsp.org.uk/id/manchester/libraries/transactions/2014-10/'+value.urlify()'",
+          "isRowNumberCell": false,
+          "columnName": "ID",
+          "rdfTypes": [
+            {
+              "uri": "http://purl.org/ontology/dso#Loan",
+              "curie": "dso:Loan"
+            }
+          ],
+          "links": [
+            {
+              "uri": "http://www.w3.org/2000/01/rdf-schema#label",
+              "curie": "rdfs:label",
+              "target": {
+                "nodeType": "cell-as-literal",
+                "expression": "'Loan: '+value.split (\" \") [6]",
+                "isRowNumberCell": false,
+                "columnName": "ID"
+              }
+            },
+            {
+              "uri": "http://www.w3.org/2006/time#xsdDateTime",
+              "curie": "time:xsdDateTime",
+              "target": {
+                "nodeType": "cell-as-literal",
+                "expression": "value",
+                "isRowNumberCell": false,
+                "columnName": "date"
+              }
+            },
+            {
+              "uri": "http://schema.org/provider",
+              "curie": "schema:provider",
+              "target": {
+                "nodeType": "cell-as-resource",
+                "expression": "'http://data.gmdsp.org.uk/id/manchester/libraries/provider/'+value.urlify()'",
+                "isRowNumberCell": false,
+                "columnName": "Library",
+                "rdfTypes": [
+                  {
+                    "uri": "http://data.gmdsp.org.uk/def/libraries/LibraryService",
+                    "curie": "gmdsp:LibraryService"
+                  }
+                ],
+                "links": [
+                  {
+                    "uri": "http://www.w3.org/2000/01/rdf-schema#label",
+                    "curie": "rdfs:label",
+                    "target": {
+                      "nodeType": "cell-as-literal",
+                      "expression": "value",
+                      "isRowNumberCell": false,
+                      "columnName": "Library"
+                    }
+                  }
+                ]
+              }
+            },
+            {
+              "uri": "http://data.gmdsp.org.uk/def/libraries/loanType",
+              "curie": "gmdsp:loanType",
+              "target": {
+                "nodeType": "cell-as-resource",
+                "expression": "'http://data.gmdsp.org.uk/id/manchester/libraries/loantype/'+value.urlify()'",
+                "isRowNumberCell": false,
+                "columnName": "transaction",
+                "rdfTypes": [
+                  {
+                    "uri": "http://data.gmdsp.org.uk/def/libraries/LoanType",
+                    "curie": "gmdsp:LoanType"
+                  }
+                ],
+                "links": [
+                  {
+                    "uri": "http://www.w3.org/2000/01/rdf-schema#label",
+                    "curie": "rdfs:label",
+                    "target": {
+                      "nodeType": "cell-as-literal",
+                      "expression": "value",
+                      "isRowNumberCell": false,
+                      "columnName": "transaction"
+                    }
+                  }
+                ]
+              }
+            },
+            {
+              "uri": "http://purl.org/ontology/dso#hasDocument",
+              "curie": "dso:hasDocument",
+              "target": {
+                "nodeType": "cell-as-resource",
+                "expression": "'http://books.google.com/books?vid=ISBN'+value.urlify()'",
+                "isRowNumberCell": false,
+                "columnName": "isbn",
+                "rdfTypes": [
+                  {
+                    "uri": "http://purl.org/NET/book/vocab#isbn",
+                    "curie": "book:isbn"
+                  }
+                ],
+                "links": [
+                  {
+                    "uri": "http://www.w3.org/2000/01/rdf-schema#label",
+                    "curie": "rdfs:label",
+                    "target": {
+                      "nodeType": "cell-as-literal",
+                      "expression": "'Item name: '+value",
+                      "isRowNumberCell": false,
+                      "columnName": "isbn"
+                    }
+                  }
+                ]
+              }
+            }
+          ]
+        }
+      ]
+    }
+  },
+  {
+    "op": "rdf-extension/save-rdf-schema",
+    "description": "Save RDF schema skeleton",
+    "schema": {
+      "baseUri": "http://localhost:3333/",
+      "prefixes": [
+        {
+          "name": "schema",
+          "uri": "http://schema.org/"
+        },
+        {
+          "name": "rdfs",
+          "uri": "http://www.w3.org/2000/01/rdf-schema#"
+        },
+        {
+          "name": "gmdsp",
+          "uri": "http://data.gmdsp.org.uk/def/libraries/"
+        },
+        {
+          "name": "time",
+          "uri": "http://www.w3.org/2006/time#"
+        },
+        {
+          "name": "foaf",
+          "uri": "http://xmlns.com/foaf/0.1/"
+        },
+        {
+          "name": "bibo",
+          "uri": "http://purl.org/ontology/bibo/"
+        },
+        {
+          "name": "book",
+          "uri": "http://purl.org/NET/book/vocab#"
+        },
+        {
+          "name": "owl",
+          "uri": "http://www.w3.org/2002/07/owl#"
+        },
+        {
+          "name": "xsd",
+          "uri": "http://www.w3.org/2001/XMLSchema#"
+        },
+        {
+          "name": "rdf",
+          "uri": "http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+        },
+        {
+          "name": "dso",
+          "uri": "http://purl.org/ontology/dso#"
+        }
+      ],
+      "rootNodes": [
+        {
+          "nodeType": "cell-as-resource",
+          "expression": "'http://data.gmdsp.org.uk/id/manchester/libraries/transactions/2014-10/'+value.urlify()'",
+          "isRowNumberCell": false,
+          "columnName": "ID",
+          "rdfTypes": [
+            {
+              "uri": "http://purl.org/ontology/dso#Loan",
+              "curie": "dso:Loan"
+            }
+          ],
+          "links": [
+            {
+              "uri": "http://www.w3.org/2000/01/rdf-schema#label",
+              "curie": "rdfs:label",
+              "target": {
+                "nodeType": "cell-as-literal",
+                "expression": "'Loan: '+value.split (\" \") [6]",
+                "isRowNumberCell": false,
+                "columnName": "ID"
+              }
+            },
+            {
+              "uri": "http://www.w3.org/2006/time#xsdDateTime",
+              "curie": "time:xsdDateTime",
+              "target": {
+                "nodeType": "cell-as-literal",
+                "expression": "value",
+                "isRowNumberCell": false,
+                "columnName": "date"
+              }
+            },
+            {
+              "uri": "http://schema.org/provider",
+              "curie": "schema:provider",
+              "target": {
+                "nodeType": "cell-as-resource",
+                "expression": "'http://data.gmdsp.org.uk/id/manchester/libraries/provider/'+value.urlify()'",
+                "isRowNumberCell": false,
+                "columnName": "Library",
+                "rdfTypes": [
+                  {
+                    "uri": "http://data.gmdsp.org.uk/def/libraries/LibraryService",
+                    "curie": "gmdsp:LibraryService"
+                  }
+                ],
+                "links": [
+                  {
+                    "uri": "http://www.w3.org/2000/01/rdf-schema#label",
+                    "curie": "rdfs:label",
+                    "target": {
+                      "nodeType": "cell-as-literal",
+                      "expression": "value",
+                      "isRowNumberCell": false,
+                      "columnName": "Library"
+                    }
+                  }
+                ]
+              }
+            },
+            {
+              "uri": "http://data.gmdsp.org.uk/def/libraries/loanType",
+              "curie": "gmdsp:loanType",
+              "target": {
+                "nodeType": "cell-as-resource",
+                "expression": "'http://data.gmdsp.org.uk/id/manchester/libraries/loantype/'+value.urlify()'",
+                "isRowNumberCell": false,
+                "columnName": "transaction",
+                "rdfTypes": [
+                  {
+                    "uri": "http://data.gmdsp.org.uk/def/libraries/LoanType",
+                    "curie": "gmdsp:LoanType"
+                  }
+                ],
+                "links": [
+                  {
+                    "uri": "http://www.w3.org/2000/01/rdf-schema#label",
+                    "curie": "rdfs:label",
+                    "target": {
+                      "nodeType": "cell-as-literal",
+                      "expression": "value",
+                      "isRowNumberCell": false,
+                      "columnName": "transaction"
+                    }
+                  }
+                ]
+              }
+            },
+            {
+              "uri": "http://purl.org/ontology/dso#hasDocument",
+              "curie": "dso:hasDocument",
+              "target": {
+                "nodeType": "cell-as-resource",
+                "expression": "'http://books.google.com/books?vid=ISBN'+value.urlify()'",
+                "isRowNumberCell": false,
+                "columnName": "isbn",
+                "rdfTypes": [
+                  {
+                    "uri": "http://purl.org/NET/book/vocab#isbn",
+                    "curie": "book:isbn"
+                  }
+                ],
+                "links": [
+                  {
+                    "uri": "http://www.w3.org/2000/01/rdf-schema#label",
+                    "curie": "rdfs:label",
+                    "target": {
+                      "nodeType": "cell-as-literal",
+                      "expression": "'Item name: '+value",
+                      "isRowNumberCell": false,
+                      "columnName": "isbn"
+                    }
+                  }
+                ]
+              }
+            }
+          ]
+        }
+      ]
+    }
+  }
+]
