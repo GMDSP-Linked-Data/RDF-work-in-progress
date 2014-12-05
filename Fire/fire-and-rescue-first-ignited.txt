@@ -44,3 +44,9 @@ skos:hasTopConcept <http://data.gmdsp.org.uk/def/fire-and-rescue/fire-first-igni
 skos:hasTopConcept <http://data.gmdsp.org.uk/def/fire-and-rescue/fire-first-ignited/decorationcelebration-decorationscards> ;
 skos:hasTopConcept <http://data.gmdsp.org.uk/def/fire-and-rescue/fire-first-ignited/vegetation-crops> ;
 skos:hasTopConcept <http://data.gmdsp.org.uk/def/fire-and-rescue/fire-first-ignited/explosives-gas-chemicals-fireworks> .
+
+<http://data.gmdsp.org.uk/def/fire-and-rescue/fire-first-ignited/furniturefurnishings-upholstered-furniture> skos:inScheme <http://data.gmdsp.org.uk/def/fire-and-rescue/incident-type> ;
+        a skos:Concept ;
+        rdfs:label "Upholstered Furniture" ;
+        skos:prefLabel "Upholstered Furniture" ;
+        skos:definition "Upholstered Furniture" .

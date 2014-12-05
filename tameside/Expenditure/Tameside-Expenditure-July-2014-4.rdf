@@ -1,0 +1,577 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rdf:RDF
+	xmlns:dc="http://purl.org/dc/terms"
+	xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
+	xmlns:time="http://www.w3.org/2006/time#"
+	xmlns:payment="http://reference.data.gov.uk/def/payment#"
+	xmlns:foaf="http://xmlns.com/foaf/0.1/"
+	xmlns:interval="http://reference.data.gov.uk/def/intervals/"
+	xmlns:owl="http://www.w3.org/2002/07/owl#"
+	xmlns:xsd="http://www.w3.org/2001/XMLSchema#"
+	xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+	xmlns:void="http://rdfs.org/ns/void#"
+	xmlns:qb="http://purl.org/linked-data/cube#"
+	xmlns:org="http://www.w3.org/ns/org#">
+
+<rdf:Description rdf:about="http://data.gmdsp.org.uk/id/tameside/expenditure">
+	<rdf:type rdf:resource="http://reference.data.gov.uk/def/payment#PaymentDataset"/>
+	<rdf:type rdf:resource="http://rdfs.org/ns/void#Dataset"/>
+	<rdfs:label>Spend data for Tameside</rdfs:label>
+	<qb:structure rdf:resource="http://reference.data.gov.uk/def/payment#payments-with-expenditure-structure"/>
+	<qb:sliceKey rdf:resource="http://reference.data.gov.uk/def/payment#payment-slice"/>
+	<payment:currency rdf:resource="http://dbpedia.org/resource/Pound_sterling"/>
+	<qb:slice rdf:resource="http://data.gmdsp.org.uk/id/tameside/payment/460279"/>
+	<void:vocabulary>http://reference.data.gov.uk/def/payment#</void:vocabulary>
+	<title xmlns="http://purl.org/dc/terms/" xml:lang="en">Spend data for Tameside</title>
+	<description xmlns="http://purl.org/dc/terms/" xml:lang="en">Spend data for transactions over £500 for Tameside</description>
+	<foaf:page>http://www.tameside.gov.uk/transparency</foaf:page>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://data.gmdsp.org.uk/id/tameside/payment/460279">
+	<rdf:type rdf:resource="http://reference.data.gov.uk/def/payment#Payment"/>
+	<rdf:type rdf:resource="http://purl.org/linked-data/cube#Slice"/>
+	<rdf:type rdf:resource="http://rdfs.org/ns/void#Dataset"/>
+	<rdfs:label xml:lang="en">Transaction number 460279</rdfs:label>
+	<payment:expenditureLine rdf:resource="http://data.gmdsp.org.uk/id/tameside/payment/2014-07/expenditure-line-0"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://data.gmdsp.org.uk2014-07-31">
+	<rdf:type rdf:resource="http://reference.data.gov.uk/def/intervals/CalendarDay"/>
+	<rdfs:label>2014-07-31</rdfs:label>
+	<rdf:type rdf:resource="http://www.w3.org/2006/time#Instant"/>
+	<time:inXSDDateTime rdf:datatype="http://www.w3.org/2001/XMLSchema#date">2014-07-31</time:inXSDDateTime>
+	<time:hasBeginning rdf:resource="http://data.gmdsp.org.uk2014-07-31"/>
+	<interval:ordinalYear>2014</interval:ordinalYear>
+	<interval:ordinalMonthOfYear>07</interval:ordinalMonthOfYear>
+	<interval:ordinalDayOfMonth>31</interval:ordinalDayOfMonth>
+	<time:intervalDuring rdf:resource="http://data.gmdsp.org.uk2014-07-31"/>
+	<time:intervalDuring rdf:resource="http://reference.data.gov.uk/id/month/2014-07"/>
+	<time:intervalDuring rdf:resource="http://reference.data.gov.uk/id/quarter/2014-Q3"/>
+	<time:intervalDuring rdf:resource="http://reference.data.gov.uk/id/half/2014-H2"/>
+	<time:intervalDuring rdf:resource="http://reference.data.gov.uk/id/government-year/2014-2015"/>
+	<description xmlns="http://purl.org/dc/elements/1.1/">There are no specific dates for this month's expenditure data. The last day of the month has been assigned to each transaction as a Constant Value</description>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://data.gmdsp.org.uk/id/tameside/payment/460279">
+	<payment:date rdf:resource="http://data.gmdsp.org.uk2014-07-31"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://data.gmdsp.org.uk/id/tameside/payment/expense-area/community-adult-adults-early-intervention">
+	<rdfs:label xml:lang="en">Community, Adult &amp; Adults Early Intervention</rdfs:label>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://data.gmdsp.org.uk/id/tameside/payment/460279">
+	<payment:unit rdf:resource="http://data.gmdsp.org.uk/id/tameside/payment/expense-area/community-adult-adults-early-intervention"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://data.gmdsp.org.uk/id/tameside/payment/2014-07/expenditure-line-0">
+	<rdf:type rdf:resource="http://reference.data.gov.uk/def/payment#ExpenditureLine"/>
+	<rdf:type rdf:resource="http://purl.org/linked-data/cube#Observation"/>
+	<rdfs:label xml:lang="en">Expenditure line (July 2014): 0</rdfs:label>
+	<payment:payment rdf:resource="http://data.gmdsp.org.uk/id/tameside/payment/460279"/>
+	<qb:dataSet rdf:resource="http://data.gmdsp.org.uk/id/tameside/expenditure"/>
+	<payment:netAmount>7196.91</payment:netAmount>
+	<payment:reference>460279</payment:reference>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://opendatacommunities.org/id/metropolitan-district-council/tameside">
+	<rdf:type rdf:resource="http://opendatacommunities.org/def/local-government/MetropolitanDistrictCouncil"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://data.gmdsp.org.uk/id/tameside/payment/2014-07/expenditure-line-0">
+	<payment:payer rdf:resource="http://opendatacommunities.org/id/metropolitan-district-council/tameside"/>
+	<payment:payee rdf:resource="http://data.gmdsp.org.uk/id/tameside/supplier/hc-one-of-a-kind-windsor-court"/>
+	<payment:purchase>Adult Services</payment:purchase>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://opendatacommunities.org/id/metropolitan-district-council/tameside">
+	<rdf:type rdf:resource="http://www.w3.org/ns/org#FormalOrganization"/>
+	<rdfs:label xml:lang="en">Tameside Metropolitan Borough Council</rdfs:label>
+	<org:hasUnit rdf:resource="http://data.gmdsp.org.uk/id/tameside/payment/expense-area/community-adult-adults-early-intervention"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://data.gmdsp.org.uk/id/tameside/payment/expense-area/community-adult-adults-early-intervention">
+	<rdf:type rdf:resource="http://www.w3.org/ns/org#OrganizationalUnit"/>
+	<rdfs:label>Community, Adult &amp; Adults Early Intervention</rdfs:label>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://data.gmdsp.org.uk+http%3A%2F%2Fopendatacommunities.org%2Fid%2Fmetropolitan-district-council%2Ftameside">
+	<rdf:type rdf:resource="http://opendatacommunities.org/def/local-government/MetropolitanDistrictCouncil"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://data.gmdsp.org.uk/id/tameside/payment/expense-area/community-adult-adults-early-intervention">
+	<org:unitOf rdf:resource="http://data.gmdsp.org.uk+http%3A%2F%2Fopendatacommunities.org%2Fid%2Fmetropolitan-district-council%2Ftameside"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://data.gmdsp.org.uk/id/tameside/supplier/hc-one-of-a-kind-windsor-court">
+	<rdf:type rdf:resource="http://www.w3.org/ns/org#Organization"/>
+	<rdfs:label>HC ONE OF A KIND - WINDSOR COURT</rdfs:label>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://data.gmdsp.org.uk/id/tameside/expenditure">
+	<qb:slice rdf:resource="http://data.gmdsp.org.uk/id/tameside/payment/460280"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://data.gmdsp.org.uk/id/tameside/payment/460280">
+	<rdf:type rdf:resource="http://reference.data.gov.uk/def/payment#Payment"/>
+	<rdf:type rdf:resource="http://purl.org/linked-data/cube#Slice"/>
+	<rdf:type rdf:resource="http://rdfs.org/ns/void#Dataset"/>
+	<rdfs:label xml:lang="en">Transaction number 460280</rdfs:label>
+	<payment:expenditureLine rdf:resource="http://data.gmdsp.org.uk/id/tameside/payment/2014-07/expenditure-line-1"/>
+	<payment:date rdf:resource="http://data.gmdsp.org.uk2014-07-31"/>
+	<payment:unit rdf:resource="http://data.gmdsp.org.uk/id/tameside/payment/expense-area/community-adult-adults-early-intervention"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://data.gmdsp.org.uk/id/tameside/payment/2014-07/expenditure-line-1">
+	<rdf:type rdf:resource="http://reference.data.gov.uk/def/payment#ExpenditureLine"/>
+	<rdf:type rdf:resource="http://purl.org/linked-data/cube#Observation"/>
+	<rdfs:label xml:lang="en">Expenditure line (July 2014): 1</rdfs:label>
+	<payment:payment rdf:resource="http://data.gmdsp.org.uk/id/tameside/payment/460280"/>
+	<qb:dataSet rdf:resource="http://data.gmdsp.org.uk/id/tameside/expenditure"/>
+	<payment:netAmount>2907.16</payment:netAmount>
+	<payment:reference>460280</payment:reference>
+	<payment:payer rdf:resource="http://opendatacommunities.org/id/metropolitan-district-council/tameside"/>
+	<payment:payee rdf:resource="http://data.gmdsp.org.uk/id/tameside/supplier/st-georges-nursing-home-oldham-ltd"/>
+	<payment:purchase>Adult Services</payment:purchase>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://data.gmdsp.org.uk/id/tameside/supplier/st-georges-nursing-home-oldham-ltd">
+	<rdf:type rdf:resource="http://www.w3.org/ns/org#Organization"/>
+	<rdfs:label>ST GEORGE'S NURSING HOME (OLDHAM) LTD</rdfs:label>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://data.gmdsp.org.uk/id/tameside/payment/460280">
+	<payment:expenditureLine rdf:resource="http://data.gmdsp.org.uk/id/tameside/payment/2014-07/expenditure-line-2"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://data.gmdsp.org.uk/id/tameside/payment/2014-07/expenditure-line-2">
+	<rdf:type rdf:resource="http://reference.data.gov.uk/def/payment#ExpenditureLine"/>
+	<rdf:type rdf:resource="http://purl.org/linked-data/cube#Observation"/>
+	<rdfs:label xml:lang="en">Expenditure line (July 2014): 2</rdfs:label>
+	<payment:payment rdf:resource="http://data.gmdsp.org.uk/id/tameside/payment/460280"/>
+	<qb:dataSet rdf:resource="http://data.gmdsp.org.uk/id/tameside/expenditure"/>
+	<payment:netAmount>4446.78</payment:netAmount>
+	<payment:reference>460280</payment:reference>
+	<payment:payer rdf:resource="http://opendatacommunities.org/id/metropolitan-district-council/tameside"/>
+	<payment:payee rdf:resource="http://data.gmdsp.org.uk/id/tameside/supplier/mrs-p-ruggee"/>
+	<payment:purchase>Adult Services</payment:purchase>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://data.gmdsp.org.uk/id/tameside/supplier/mrs-p-ruggee">
+	<rdf:type rdf:resource="http://www.w3.org/ns/org#Organization"/>
+	<rdfs:label>MRS P RUGGEE</rdfs:label>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://data.gmdsp.org.uk/id/tameside/payment/460280">
+	<payment:expenditureLine rdf:resource="http://data.gmdsp.org.uk/id/tameside/payment/2014-07/expenditure-line-3"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://data.gmdsp.org.uk/id/tameside/payment/expense-area/public-health">
+	<rdfs:label xml:lang="en">Public Health</rdfs:label>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://data.gmdsp.org.uk/id/tameside/payment/460280">
+	<payment:unit rdf:resource="http://data.gmdsp.org.uk/id/tameside/payment/expense-area/public-health"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://data.gmdsp.org.uk/id/tameside/payment/2014-07/expenditure-line-3">
+	<rdf:type rdf:resource="http://reference.data.gov.uk/def/payment#ExpenditureLine"/>
+	<rdf:type rdf:resource="http://purl.org/linked-data/cube#Observation"/>
+	<rdfs:label xml:lang="en">Expenditure line (July 2014): 3</rdfs:label>
+	<payment:payment rdf:resource="http://data.gmdsp.org.uk/id/tameside/payment/460280"/>
+	<qb:dataSet rdf:resource="http://data.gmdsp.org.uk/id/tameside/expenditure"/>
+	<payment:netAmount>18846</payment:netAmount>
+	<payment:reference>460280</payment:reference>
+	<payment:payer rdf:resource="http://opendatacommunities.org/id/metropolitan-district-council/tameside"/>
+	<payment:payee rdf:resource="http://data.gmdsp.org.uk/id/tameside/supplier/greater-manchester-west-mental-health-foundation-trust"/>
+	<payment:purchase>Public Health</payment:purchase>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://opendatacommunities.org/id/metropolitan-district-council/tameside">
+	<org:hasUnit rdf:resource="http://data.gmdsp.org.uk/id/tameside/payment/expense-area/public-health"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://data.gmdsp.org.uk/id/tameside/payment/expense-area/public-health">
+	<rdf:type rdf:resource="http://www.w3.org/ns/org#OrganizationalUnit"/>
+	<rdfs:label>Public Health</rdfs:label>
+	<org:unitOf rdf:resource="http://data.gmdsp.org.uk+http%3A%2F%2Fopendatacommunities.org%2Fid%2Fmetropolitan-district-council%2Ftameside"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://data.gmdsp.org.uk/id/tameside/supplier/greater-manchester-west-mental-health-foundation-trust">
+	<rdf:type rdf:resource="http://www.w3.org/ns/org#Organization"/>
+	<rdfs:label>GREATER MANCHESTER WEST MENTAL HEALTH FOUNDATION TRUST</rdfs:label>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://data.gmdsp.org.uk/id/tameside/expenditure">
+	<qb:slice rdf:resource="http://data.gmdsp.org.uk/id/tameside/payment/460281"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://data.gmdsp.org.uk/id/tameside/payment/460281">
+	<rdf:type rdf:resource="http://reference.data.gov.uk/def/payment#Payment"/>
+	<rdf:type rdf:resource="http://purl.org/linked-data/cube#Slice"/>
+	<rdf:type rdf:resource="http://rdfs.org/ns/void#Dataset"/>
+	<rdfs:label xml:lang="en">Transaction number 460281</rdfs:label>
+	<payment:expenditureLine rdf:resource="http://data.gmdsp.org.uk/id/tameside/payment/2014-07/expenditure-line-4"/>
+	<payment:date rdf:resource="http://data.gmdsp.org.uk2014-07-31"/>
+	<payment:unit rdf:resource="http://data.gmdsp.org.uk/id/tameside/payment/expense-area/community-adult-adults-early-intervention"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://data.gmdsp.org.uk/id/tameside/payment/2014-07/expenditure-line-4">
+	<rdf:type rdf:resource="http://reference.data.gov.uk/def/payment#ExpenditureLine"/>
+	<rdf:type rdf:resource="http://purl.org/linked-data/cube#Observation"/>
+	<rdfs:label xml:lang="en">Expenditure line (July 2014): 4</rdfs:label>
+	<payment:payment rdf:resource="http://data.gmdsp.org.uk/id/tameside/payment/460281"/>
+	<qb:dataSet rdf:resource="http://data.gmdsp.org.uk/id/tameside/expenditure"/>
+	<payment:netAmount>5532.57</payment:netAmount>
+	<payment:reference>460281</payment:reference>
+	<payment:payer rdf:resource="http://opendatacommunities.org/id/metropolitan-district-council/tameside"/>
+	<payment:payee rdf:resource="http://data.gmdsp.org.uk/id/tameside/supplier/polebank-hall-residential-care-home-ltd"/>
+	<payment:purchase>Adult Services</payment:purchase>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://data.gmdsp.org.uk/id/tameside/supplier/polebank-hall-residential-care-home-ltd">
+	<rdf:type rdf:resource="http://www.w3.org/ns/org#Organization"/>
+	<rdfs:label>POLEBANK HALL RESIDENTIAL CARE HOME LTD</rdfs:label>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://data.gmdsp.org.uk/id/tameside/expenditure">
+	<qb:slice rdf:resource="http://data.gmdsp.org.uk/id/tameside/payment/460282"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://data.gmdsp.org.uk/id/tameside/payment/460282">
+	<rdf:type rdf:resource="http://reference.data.gov.uk/def/payment#Payment"/>
+	<rdf:type rdf:resource="http://purl.org/linked-data/cube#Slice"/>
+	<rdf:type rdf:resource="http://rdfs.org/ns/void#Dataset"/>
+	<rdfs:label xml:lang="en">Transaction number 460282</rdfs:label>
+	<payment:expenditureLine rdf:resource="http://data.gmdsp.org.uk/id/tameside/payment/2014-07/expenditure-line-5"/>
+	<payment:date rdf:resource="http://data.gmdsp.org.uk2014-07-31"/>
+	<payment:unit rdf:resource="http://data.gmdsp.org.uk/id/tameside/payment/expense-area/community-adult-adults-early-intervention"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://data.gmdsp.org.uk/id/tameside/payment/2014-07/expenditure-line-5">
+	<rdf:type rdf:resource="http://reference.data.gov.uk/def/payment#ExpenditureLine"/>
+	<rdf:type rdf:resource="http://purl.org/linked-data/cube#Observation"/>
+	<rdfs:label xml:lang="en">Expenditure line (July 2014): 5</rdfs:label>
+	<payment:payment rdf:resource="http://data.gmdsp.org.uk/id/tameside/payment/460282"/>
+	<qb:dataSet rdf:resource="http://data.gmdsp.org.uk/id/tameside/expenditure"/>
+	<payment:netAmount>909.41</payment:netAmount>
+	<payment:reference>460282</payment:reference>
+	<payment:payer rdf:resource="http://opendatacommunities.org/id/metropolitan-district-council/tameside"/>
+	<payment:payee rdf:resource="http://data.gmdsp.org.uk/id/tameside/supplier/broughton-house-home-for-ex-service-personnel"/>
+	<payment:purchase>Adult Services</payment:purchase>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://data.gmdsp.org.uk/id/tameside/supplier/broughton-house-home-for-ex-service-personnel">
+	<rdf:type rdf:resource="http://www.w3.org/ns/org#Organization"/>
+	<rdfs:label>BROUGHTON HOUSE HOME FOR  EX-SERVICE PERSONNEL</rdfs:label>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://data.gmdsp.org.uk/id/tameside/payment/460282">
+	<payment:expenditureLine rdf:resource="http://data.gmdsp.org.uk/id/tameside/payment/2014-07/expenditure-line-6"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://data.gmdsp.org.uk/id/tameside/payment/2014-07/expenditure-line-6">
+	<rdf:type rdf:resource="http://reference.data.gov.uk/def/payment#ExpenditureLine"/>
+	<rdf:type rdf:resource="http://purl.org/linked-data/cube#Observation"/>
+	<rdfs:label xml:lang="en">Expenditure line (July 2014): 6</rdfs:label>
+	<payment:payment rdf:resource="http://data.gmdsp.org.uk/id/tameside/payment/460282"/>
+	<qb:dataSet rdf:resource="http://data.gmdsp.org.uk/id/tameside/expenditure"/>
+	<payment:netAmount>973.62</payment:netAmount>
+	<payment:reference>460282</payment:reference>
+	<payment:payer rdf:resource="http://opendatacommunities.org/id/metropolitan-district-council/tameside"/>
+	<payment:payee rdf:resource="http://data.gmdsp.org.uk/id/tameside/supplier/bryn-haven"/>
+	<payment:purchase>Adult Services</payment:purchase>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://data.gmdsp.org.uk/id/tameside/supplier/bryn-haven">
+	<rdf:type rdf:resource="http://www.w3.org/ns/org#Organization"/>
+	<rdfs:label>BRYN HAVEN</rdfs:label>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://data.gmdsp.org.uk/id/tameside/payment/460282">
+	<payment:expenditureLine rdf:resource="http://data.gmdsp.org.uk/id/tameside/payment/2014-07/expenditure-line-7"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://data.gmdsp.org.uk/id/tameside/payment/2014-07/expenditure-line-7">
+	<rdf:type rdf:resource="http://reference.data.gov.uk/def/payment#ExpenditureLine"/>
+	<rdf:type rdf:resource="http://purl.org/linked-data/cube#Observation"/>
+	<rdfs:label xml:lang="en">Expenditure line (July 2014): 7</rdfs:label>
+	<payment:payment rdf:resource="http://data.gmdsp.org.uk/id/tameside/payment/460282"/>
+	<qb:dataSet rdf:resource="http://data.gmdsp.org.uk/id/tameside/expenditure"/>
+	<payment:netAmount>995.68</payment:netAmount>
+	<payment:reference>460282</payment:reference>
+	<payment:payer rdf:resource="http://opendatacommunities.org/id/metropolitan-district-council/tameside"/>
+	<payment:payee rdf:resource="http://data.gmdsp.org.uk/id/tameside/supplier/grangefield"/>
+	<payment:purchase>Adult Services</payment:purchase>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://data.gmdsp.org.uk/id/tameside/supplier/grangefield">
+	<rdf:type rdf:resource="http://www.w3.org/ns/org#Organization"/>
+	<rdfs:label>GRANGEFIELD</rdfs:label>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://data.gmdsp.org.uk/id/tameside/payment/460282">
+	<payment:expenditureLine rdf:resource="http://data.gmdsp.org.uk/id/tameside/payment/2014-07/expenditure-line-8"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://data.gmdsp.org.uk/id/tameside/payment/2014-07/expenditure-line-8">
+	<rdf:type rdf:resource="http://reference.data.gov.uk/def/payment#ExpenditureLine"/>
+	<rdf:type rdf:resource="http://purl.org/linked-data/cube#Observation"/>
+	<rdfs:label xml:lang="en">Expenditure line (July 2014): 8</rdfs:label>
+	<payment:payment rdf:resource="http://data.gmdsp.org.uk/id/tameside/payment/460282"/>
+	<qb:dataSet rdf:resource="http://data.gmdsp.org.uk/id/tameside/expenditure"/>
+	<payment:netAmount>1036.51</payment:netAmount>
+	<payment:reference>460282</payment:reference>
+	<payment:payer rdf:resource="http://opendatacommunities.org/id/metropolitan-district-council/tameside"/>
+	<payment:payee rdf:resource="http://data.gmdsp.org.uk/id/tameside/supplier/beechfield-lodge"/>
+	<payment:purchase>Adult Services</payment:purchase>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://data.gmdsp.org.uk/id/tameside/supplier/beechfield-lodge">
+	<rdf:type rdf:resource="http://www.w3.org/ns/org#Organization"/>
+	<rdfs:label>BEECHFIELD LODGE</rdfs:label>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://data.gmdsp.org.uk/id/tameside/payment/460282">
+	<payment:expenditureLine rdf:resource="http://data.gmdsp.org.uk/id/tameside/payment/2014-07/expenditure-line-9"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://data.gmdsp.org.uk/id/tameside/payment/2014-07/expenditure-line-9">
+	<rdf:type rdf:resource="http://reference.data.gov.uk/def/payment#ExpenditureLine"/>
+	<rdf:type rdf:resource="http://purl.org/linked-data/cube#Observation"/>
+	<rdfs:label xml:lang="en">Expenditure line (July 2014): 9</rdfs:label>
+	<payment:payment rdf:resource="http://data.gmdsp.org.uk/id/tameside/payment/460282"/>
+	<qb:dataSet rdf:resource="http://data.gmdsp.org.uk/id/tameside/expenditure"/>
+	<payment:netAmount>1100</payment:netAmount>
+	<payment:reference>460282</payment:reference>
+	<payment:payer rdf:resource="http://opendatacommunities.org/id/metropolitan-district-council/tameside"/>
+	<payment:payee rdf:resource="http://data.gmdsp.org.uk/id/tameside/supplier/holmleigh"/>
+	<payment:purchase>Adult Services</payment:purchase>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://data.gmdsp.org.uk/id/tameside/supplier/holmleigh">
+	<rdf:type rdf:resource="http://www.w3.org/ns/org#Organization"/>
+	<rdfs:label>HOLMLEIGH</rdfs:label>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://data.gmdsp.org.uk/id/tameside/payment/460282">
+	<payment:expenditureLine rdf:resource="http://data.gmdsp.org.uk/id/tameside/payment/2014-07/expenditure-line-10"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://data.gmdsp.org.uk/id/tameside/payment/2014-07/expenditure-line-10">
+	<rdf:type rdf:resource="http://reference.data.gov.uk/def/payment#ExpenditureLine"/>
+	<rdf:type rdf:resource="http://purl.org/linked-data/cube#Observation"/>
+	<rdfs:label xml:lang="en">Expenditure line (July 2014): 10</rdfs:label>
+	<payment:payment rdf:resource="http://data.gmdsp.org.uk/id/tameside/payment/460282"/>
+	<qb:dataSet rdf:resource="http://data.gmdsp.org.uk/id/tameside/expenditure"/>
+	<payment:netAmount>1118.26</payment:netAmount>
+	<payment:reference>460282</payment:reference>
+	<payment:payer rdf:resource="http://opendatacommunities.org/id/metropolitan-district-council/tameside"/>
+	<payment:payee rdf:resource="http://data.gmdsp.org.uk/id/tameside/supplier/four-seasons-dfk-ltd-tas-ashurst-park-care-home"/>
+	<payment:purchase>Adult Services</payment:purchase>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://data.gmdsp.org.uk/id/tameside/supplier/four-seasons-dfk-ltd-tas-ashurst-park-care-home">
+	<rdf:type rdf:resource="http://www.w3.org/ns/org#Organization"/>
+	<rdfs:label>FOUR SEASONS (DFK) LTD T/AS ASHURST PARK CARE HOME</rdfs:label>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://data.gmdsp.org.uk/id/tameside/payment/460282">
+	<payment:expenditureLine rdf:resource="http://data.gmdsp.org.uk/id/tameside/payment/2014-07/expenditure-line-11"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://data.gmdsp.org.uk/id/tameside/payment/2014-07/expenditure-line-11">
+	<rdf:type rdf:resource="http://reference.data.gov.uk/def/payment#ExpenditureLine"/>
+	<rdf:type rdf:resource="http://purl.org/linked-data/cube#Observation"/>
+	<rdfs:label xml:lang="en">Expenditure line (July 2014): 11</rdfs:label>
+	<payment:payment rdf:resource="http://data.gmdsp.org.uk/id/tameside/payment/460282"/>
+	<qb:dataSet rdf:resource="http://data.gmdsp.org.uk/id/tameside/expenditure"/>
+	<payment:netAmount>1171</payment:netAmount>
+	<payment:reference>460282</payment:reference>
+	<payment:payer rdf:resource="http://opendatacommunities.org/id/metropolitan-district-council/tameside"/>
+	<payment:payee rdf:resource="http://data.gmdsp.org.uk/id/tameside/supplier/fieldhouse-care-home"/>
+	<payment:purchase>Adult Services</payment:purchase>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://data.gmdsp.org.uk/id/tameside/supplier/fieldhouse-care-home">
+	<rdf:type rdf:resource="http://www.w3.org/ns/org#Organization"/>
+	<rdfs:label>FIELDHOUSE CARE HOME</rdfs:label>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://data.gmdsp.org.uk/id/tameside/payment/460282">
+	<payment:expenditureLine rdf:resource="http://data.gmdsp.org.uk/id/tameside/payment/2014-07/expenditure-line-12"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://data.gmdsp.org.uk/id/tameside/payment/2014-07/expenditure-line-12">
+	<rdf:type rdf:resource="http://reference.data.gov.uk/def/payment#ExpenditureLine"/>
+	<rdf:type rdf:resource="http://purl.org/linked-data/cube#Observation"/>
+	<rdfs:label xml:lang="en">Expenditure line (July 2014): 12</rdfs:label>
+	<payment:payment rdf:resource="http://data.gmdsp.org.uk/id/tameside/payment/460282"/>
+	<qb:dataSet rdf:resource="http://data.gmdsp.org.uk/id/tameside/expenditure"/>
+	<payment:netAmount>1275.12</payment:netAmount>
+	<payment:reference>460282</payment:reference>
+	<payment:payer rdf:resource="http://opendatacommunities.org/id/metropolitan-district-council/tameside"/>
+	<payment:payee rdf:resource="http://data.gmdsp.org.uk/id/tameside/supplier/ainsworth-nursing-home"/>
+	<payment:purchase>Adult Services</payment:purchase>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://data.gmdsp.org.uk/id/tameside/supplier/ainsworth-nursing-home">
+	<rdf:type rdf:resource="http://www.w3.org/ns/org#Organization"/>
+	<rdfs:label>AINSWORTH NURSING HOME</rdfs:label>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://data.gmdsp.org.uk/id/tameside/payment/460282">
+	<payment:expenditureLine rdf:resource="http://data.gmdsp.org.uk/id/tameside/payment/2014-07/expenditure-line-13"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://data.gmdsp.org.uk/id/tameside/payment/2014-07/expenditure-line-13">
+	<rdf:type rdf:resource="http://reference.data.gov.uk/def/payment#ExpenditureLine"/>
+	<rdf:type rdf:resource="http://purl.org/linked-data/cube#Observation"/>
+	<rdfs:label xml:lang="en">Expenditure line (July 2014): 13</rdfs:label>
+	<payment:payment rdf:resource="http://data.gmdsp.org.uk/id/tameside/payment/460282"/>
+	<qb:dataSet rdf:resource="http://data.gmdsp.org.uk/id/tameside/expenditure"/>
+	<payment:netAmount>1346.51</payment:netAmount>
+	<payment:reference>460282</payment:reference>
+	<payment:payer rdf:resource="http://opendatacommunities.org/id/metropolitan-district-council/tameside"/>
+	<payment:payee rdf:resource="http://data.gmdsp.org.uk/id/tameside/supplier/holme-manor-residential-care-home"/>
+	<payment:purchase>Adult Services</payment:purchase>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://data.gmdsp.org.uk/id/tameside/supplier/holme-manor-residential-care-home">
+	<rdf:type rdf:resource="http://www.w3.org/ns/org#Organization"/>
+	<rdfs:label>HOLME MANOR RESIDENTIAL CARE HOME</rdfs:label>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://data.gmdsp.org.uk/id/tameside/payment/460282">
+	<payment:expenditureLine rdf:resource="http://data.gmdsp.org.uk/id/tameside/payment/2014-07/expenditure-line-14"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://data.gmdsp.org.uk/id/tameside/payment/2014-07/expenditure-line-14">
+	<rdf:type rdf:resource="http://reference.data.gov.uk/def/payment#ExpenditureLine"/>
+	<rdf:type rdf:resource="http://purl.org/linked-data/cube#Observation"/>
+	<rdfs:label xml:lang="en">Expenditure line (July 2014): 14</rdfs:label>
+	<payment:payment rdf:resource="http://data.gmdsp.org.uk/id/tameside/payment/460282"/>
+	<qb:dataSet rdf:resource="http://data.gmdsp.org.uk/id/tameside/expenditure"/>
+	<payment:netAmount>1679.05</payment:netAmount>
+	<payment:reference>460282</payment:reference>
+	<payment:payer rdf:resource="http://opendatacommunities.org/id/metropolitan-district-council/tameside"/>
+	<payment:payee rdf:resource="http://data.gmdsp.org.uk/id/tameside/supplier/the-dell-residential-home"/>
+	<payment:purchase>Adult Services</payment:purchase>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://data.gmdsp.org.uk/id/tameside/supplier/the-dell-residential-home">
+	<rdf:type rdf:resource="http://www.w3.org/ns/org#Organization"/>
+	<rdfs:label>THE DELL RESIDENTIAL HOME</rdfs:label>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://data.gmdsp.org.uk/id/tameside/payment/460282">
+	<payment:expenditureLine rdf:resource="http://data.gmdsp.org.uk/id/tameside/payment/2014-07/expenditure-line-15"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://data.gmdsp.org.uk/id/tameside/payment/2014-07/expenditure-line-15">
+	<rdf:type rdf:resource="http://reference.data.gov.uk/def/payment#ExpenditureLine"/>
+	<rdf:type rdf:resource="http://purl.org/linked-data/cube#Observation"/>
+	<rdfs:label xml:lang="en">Expenditure line (July 2014): 15</rdfs:label>
+	<payment:payment rdf:resource="http://data.gmdsp.org.uk/id/tameside/payment/460282"/>
+	<qb:dataSet rdf:resource="http://data.gmdsp.org.uk/id/tameside/expenditure"/>
+	<payment:netAmount>1689.5</payment:netAmount>
+	<payment:reference>460282</payment:reference>
+	<payment:payer rdf:resource="http://opendatacommunities.org/id/metropolitan-district-council/tameside"/>
+	<payment:payee rdf:resource="http://data.gmdsp.org.uk/id/tameside/supplier/dryclough-manor-care-home"/>
+	<payment:purchase>Adult Services</payment:purchase>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://data.gmdsp.org.uk/id/tameside/supplier/dryclough-manor-care-home">
+	<rdf:type rdf:resource="http://www.w3.org/ns/org#Organization"/>
+	<rdfs:label>DRYCLOUGH MANOR CARE HOME</rdfs:label>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://data.gmdsp.org.uk/id/tameside/payment/460282">
+	<payment:expenditureLine rdf:resource="http://data.gmdsp.org.uk/id/tameside/payment/2014-07/expenditure-line-16"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://data.gmdsp.org.uk/id/tameside/payment/2014-07/expenditure-line-16">
+	<rdf:type rdf:resource="http://reference.data.gov.uk/def/payment#ExpenditureLine"/>
+	<rdf:type rdf:resource="http://purl.org/linked-data/cube#Observation"/>
+	<rdfs:label xml:lang="en">Expenditure line (July 2014): 16</rdfs:label>
+	<payment:payment rdf:resource="http://data.gmdsp.org.uk/id/tameside/payment/460282"/>
+	<qb:dataSet rdf:resource="http://data.gmdsp.org.uk/id/tameside/expenditure"/>
+	<payment:netAmount>1783.43</payment:netAmount>
+	<payment:reference>460282</payment:reference>
+	<payment:payer rdf:resource="http://opendatacommunities.org/id/metropolitan-district-council/tameside"/>
+	<payment:payee rdf:resource="http://data.gmdsp.org.uk/id/tameside/supplier/ernelesthorp-nursing-home"/>
+	<payment:purchase>Adult Services</payment:purchase>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://data.gmdsp.org.uk/id/tameside/supplier/ernelesthorp-nursing-home">
+	<rdf:type rdf:resource="http://www.w3.org/ns/org#Organization"/>
+	<rdfs:label>ERNELESTHORP NURSING HOME</rdfs:label>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://data.gmdsp.org.uk/id/tameside/payment/460282">
+	<payment:expenditureLine rdf:resource="http://data.gmdsp.org.uk/id/tameside/payment/2014-07/expenditure-line-17"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://data.gmdsp.org.uk/id/tameside/payment/2014-07/expenditure-line-17">
+	<rdf:type rdf:resource="http://reference.data.gov.uk/def/payment#ExpenditureLine"/>
+	<rdf:type rdf:resource="http://purl.org/linked-data/cube#Observation"/>
+	<rdfs:label xml:lang="en">Expenditure line (July 2014): 17</rdfs:label>
+	<payment:payment rdf:resource="http://data.gmdsp.org.uk/id/tameside/payment/460282"/>
+	<qb:dataSet rdf:resource="http://data.gmdsp.org.uk/id/tameside/expenditure"/>
+	<payment:netAmount>1789.14</payment:netAmount>
+	<payment:reference>460282</payment:reference>
+	<payment:payer rdf:resource="http://opendatacommunities.org/id/metropolitan-district-council/tameside"/>
+	<payment:payee rdf:resource="http://data.gmdsp.org.uk/id/tameside/supplier/louth-care-ltd"/>
+	<payment:purchase>Adult Services</payment:purchase>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://data.gmdsp.org.uk/id/tameside/supplier/louth-care-ltd">
+	<rdf:type rdf:resource="http://www.w3.org/ns/org#Organization"/>
+	<rdfs:label>LOUTH CARE LTD</rdfs:label>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://data.gmdsp.org.uk/id/tameside/payment/460282">
+	<payment:expenditureLine rdf:resource="http://data.gmdsp.org.uk/id/tameside/payment/2014-07/expenditure-line-18"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://data.gmdsp.org.uk/id/tameside/payment/2014-07/expenditure-line-18">
+	<rdf:type rdf:resource="http://reference.data.gov.uk/def/payment#ExpenditureLine"/>
+	<rdf:type rdf:resource="http://purl.org/linked-data/cube#Observation"/>
+	<rdfs:label xml:lang="en">Expenditure line (July 2014): 18</rdfs:label>
+	<payment:payment rdf:resource="http://data.gmdsp.org.uk/id/tameside/payment/460282"/>
+	<qb:dataSet rdf:resource="http://data.gmdsp.org.uk/id/tameside/expenditure"/>
+	<payment:netAmount>1841.58</payment:netAmount>
+	<payment:reference>460282</payment:reference>
+	<payment:payer rdf:resource="http://opendatacommunities.org/id/metropolitan-district-council/tameside"/>
+	<payment:payee rdf:resource="http://data.gmdsp.org.uk/id/tameside/supplier/the-royal-elms-rest-homes"/>
+	<payment:purchase>Adult Services</payment:purchase>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://data.gmdsp.org.uk/id/tameside/supplier/the-royal-elms-rest-homes">
+	<rdf:type rdf:resource="http://www.w3.org/ns/org#Organization"/>
+	<rdfs:label>THE ROYAL ELMS REST HOMES</rdfs:label>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://data.gmdsp.org.uk/id/tameside/payment/460282">
+	<payment:expenditureLine rdf:resource="http://data.gmdsp.org.uk/id/tameside/payment/2014-07/expenditure-line-19"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://data.gmdsp.org.uk/id/tameside/payment/2014-07/expenditure-line-19">
+	<rdf:type rdf:resource="http://reference.data.gov.uk/def/payment#ExpenditureLine"/>
+	<rdf:type rdf:resource="http://purl.org/linked-data/cube#Observation"/>
+	<rdfs:label xml:lang="en">Expenditure line (July 2014): 19</rdfs:label>
+	<payment:payment rdf:resource="http://data.gmdsp.org.uk/id/tameside/payment/460282"/>
+	<qb:dataSet rdf:resource="http://data.gmdsp.org.uk/id/tameside/expenditure"/>
+	<payment:netAmount>1848.09</payment:netAmount>
+	<payment:reference>460282</payment:reference>
+	<payment:payer rdf:resource="http://opendatacommunities.org/id/metropolitan-district-council/tameside"/>
+	<payment:payee rdf:resource="http://data.gmdsp.org.uk/id/tameside/supplier/pendlebury-care-homes-ltd"/>
+	<payment:purchase>Adult Services</payment:purchase>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://data.gmdsp.org.uk/id/tameside/supplier/pendlebury-care-homes-ltd">
+	<rdf:type rdf:resource="http://www.w3.org/ns/org#Organization"/>
+	<rdfs:label>PENDLEBURY CARE HOMES LTD</rdfs:label>
+</rdf:Description>
+
+</rdf:RDF>

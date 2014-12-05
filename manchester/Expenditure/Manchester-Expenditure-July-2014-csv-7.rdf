@@ -1,0 +1,679 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rdf:RDF
+	xmlns:dc="http://purl.org/dc/terms"
+	xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
+	xmlns:time="http://www.w3.org/2006/time#"
+	xmlns:interval="http://reference.data.gov.uk/def/intervals/"
+	xmlns:foaf="http://xmlns.com/foaf/0.1/"
+	xmlns:payment="http://reference.data.gov.uk/def/payment#"
+	xmlns:xsd="http://www.w3.org/2001/XMLSchema#"
+	xmlns:owl="http://www.w3.org/2002/07/owl#"
+	xmlns:void="http://rdfs.org/ns/void#"
+	xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+	xmlns:org="http://www.w3.org/ns/org#"
+	xmlns:qb="http://purl.org/linked-data/cube#">
+
+<rdf:Description rdf:about="http://data.gmdsp.org.uk/id/manchester/expenditure">
+	<rdf:type rdf:resource="http://reference.data.gov.uk/def/payment#PaymentDataset"/>
+	<rdf:type rdf:resource="http://rdfs.org/ns/void#Dataset"/>
+	<rdfs:label xml:lang="en">Spend data for Manchester</rdfs:label>
+	<qb:structure rdf:resource="http://reference.data.gov.uk/def/payment#payments-with-expenditure-structure"/>
+	<qb:sliceKey rdf:resource="http://reference.data.gov.uk/def/payment#payment-slice"/>
+	<payment:currency rdf:resource="http://dbpedia.org/resource/Pound_sterling"/>
+	<qb:slice rdf:resource="http://data.gmdsp.org.uk/id/manchester/payment/5100728328"/>
+	<void:vocabulary>http://reference.data.gov.uk/def/payment#</void:vocabulary>
+	<title xmlns="http://purl.org/dc/terms/" xml:lang="en">Spend data for Manchester</title>
+	<description xmlns="http://purl.org/dc/terms/" xml:lang="en">Spend data of transactions over £500 for Manchester </description>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://data.gmdsp.org.uk/id/manchester/payment/5100728328">
+	<rdf:type rdf:resource="http://reference.data.gov.uk/def/payment#Payment"/>
+	<rdf:type rdf:resource="http://purl.org/linked-data/cube#Slice"/>
+	<rdf:type rdf:resource="http://rdfs.org/ns/void#Dataset"/>
+	<rdfs:label>Transaction number 5100728328</rdfs:label>
+	<payment:expenditureLine rdf:resource="http://data.gmdsp.org.uk/id/manchester/payment/2014-07/expenditure-line-0"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://reference.data.gov.uk/id/year/2014-07-01">
+	<rdf:type rdf:resource="http://reference.data.gov.uk/def/intervals/CalendarDay"/>
+	<rdfs:label>2014-07-01</rdfs:label>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://reference.data.gov.uk/id/gregorian-instant/2014-07-01">
+	<rdf:type rdf:resource="http://www.w3.org/2006/time#Instant"/>
+	<time:inXSDDate rdf:datatype="http://www.w3.org/2001/XMLSchema#date">2014-07-01</time:inXSDDate>
+	<rdfs:label>2014-07-01</rdfs:label>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://reference.data.gov.uk/id/year/2014-07-01">
+	<time:hasBeginning rdf:resource="http://reference.data.gov.uk/id/gregorian-instant/2014-07-01"/>
+	<interval:ordinalYear>2014</interval:ordinalYear>
+	<interval:ordinalMonthOfYear>07</interval:ordinalMonthOfYear>
+	<interval:ordinalDayOfMonth>01</interval:ordinalDayOfMonth>
+	<time:intervalDuring rdf:resource="http://reference.data.gov.uk/id/year/2014-07-01"/>
+	<time:intervalDuring rdf:resource="http://reference.data.gov.uk/id/month/2014-07"/>
+	<time:intervalDuring rdf:resource="http://reference.data.gov.uk/id/quarter/2014-Q3"/>
+	<time:intervalDuring rdf:resource="http://reference.data.gov.uk/id/half/2014-H2"/>
+	<time:intervalDuring rdf:resource="http://reference.data.gov.uk/id/government-year/2014-2015"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://data.gmdsp.org.uk/id/manchester/payment/5100728328">
+	<payment:date rdf:resource="http://reference.data.gov.uk/id/year/2014-07-01"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://data.gmdsp.org.uk/id/manchester/payment/expense-area/furniture">
+	<rdfs:label xml:lang="en">Furniture</rdfs:label>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://data.gmdsp.org.uk/id/manchester/payment/5100728328">
+	<payment:unit rdf:resource="http://data.gmdsp.org.uk/id/manchester/payment/expense-area/furniture"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://data.gmdsp.org.uk/id/manchester/payment/2014-07/expenditure-line-0">
+	<rdf:type rdf:resource="http://reference.data.gov.uk/def/payment#ExpenditureLine"/>
+	<rdf:type rdf:resource="http://purl.org/linked-data/cube#Observation"/>
+	<rdfs:label xml:lang="en">Expenditure line (July 2014): 0</rdfs:label>
+	<payment:payment rdf:resource="http://data.gmdsp.org.uk/id/manchester/payment/5100728328"/>
+	<qb:dataSet rdf:resource="http://data.gmdsp.org.uk/id/manchester/expenditure"/>
+	<payment:netAmount>912.47</payment:netAmount>
+	<payment:reference>5100728328</payment:reference>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://opendatacommunities.org/id/metropolitan-district-council/manchester">
+	<rdf:type rdf:resource="http://opendatacommunities.org/def/local-government/MetropolitanDistrictCouncil"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://data.gmdsp.org.uk/id/manchester/payment/2014-07/expenditure-line-0">
+	<payment:payer rdf:resource="http://opendatacommunities.org/id/metropolitan-district-council/manchester"/>
+	<payment:payee rdf:resource="http://data.gmdsp.org.uk/id/manchester/supplier/the-furnishing-service-ltd"/>
+	<payment:purchase>Furniture</payment:purchase>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://opendatacommunities.org/id/metropolitan-district-council/manchester">
+	<rdf:type rdf:resource="http://www.w3.org/ns/org#FormalOrganization"/>
+	<rdfs:label xml:lang="en">Manchester City Council</rdfs:label>
+	<org:hasUnit rdf:resource="http://data.gmdsp.org.uk/id/manchester/payment/expense-area/adult-social-care"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://data.gmdsp.org.uk/id/manchester/payment/expense-area/adult-social-care">
+	<rdf:type rdf:resource="http://www.w3.org/ns/org#OrganizationalUnit"/>
+	<rdfs:label xml:lang="en">Furniture</rdfs:label>
+	<org:unitOf rdf:resource="http://opendatacommunities.org/id/metropolitan-district-council/manchester"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://data.gmdsp.org.uk/id/manchester/supplier/the-furnishing-service-ltd">
+	<rdf:type rdf:resource="http://www.w3.org/ns/org#Organization"/>
+	<rdfs:label xml:lang="en">The Furnishing Service Ltd</rdfs:label>
+	<org:identifier>The Furnishing Service Ltd</org:identifier>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://data.gmdsp.org.uk/id/manchester/expenditure">
+	<qb:slice rdf:resource="http://data.gmdsp.org.uk/id/manchester/payment/5100728325"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://data.gmdsp.org.uk/id/manchester/payment/5100728325">
+	<rdf:type rdf:resource="http://reference.data.gov.uk/def/payment#Payment"/>
+	<rdf:type rdf:resource="http://purl.org/linked-data/cube#Slice"/>
+	<rdf:type rdf:resource="http://rdfs.org/ns/void#Dataset"/>
+	<rdfs:label>Transaction number 5100728325</rdfs:label>
+	<payment:expenditureLine rdf:resource="http://data.gmdsp.org.uk/id/manchester/payment/2014-07/expenditure-line-1"/>
+	<payment:date rdf:resource="http://reference.data.gov.uk/id/year/2014-07-01"/>
+	<payment:unit rdf:resource="http://data.gmdsp.org.uk/id/manchester/payment/expense-area/furniture"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://data.gmdsp.org.uk/id/manchester/payment/2014-07/expenditure-line-1">
+	<rdf:type rdf:resource="http://reference.data.gov.uk/def/payment#ExpenditureLine"/>
+	<rdf:type rdf:resource="http://purl.org/linked-data/cube#Observation"/>
+	<rdfs:label xml:lang="en">Expenditure line (July 2014): 1</rdfs:label>
+	<payment:payment rdf:resource="http://data.gmdsp.org.uk/id/manchester/payment/5100728325"/>
+	<qb:dataSet rdf:resource="http://data.gmdsp.org.uk/id/manchester/expenditure"/>
+	<payment:netAmount>885.58</payment:netAmount>
+	<payment:reference>5100728325</payment:reference>
+	<payment:payer rdf:resource="http://opendatacommunities.org/id/metropolitan-district-council/manchester"/>
+	<payment:payee rdf:resource="http://data.gmdsp.org.uk/id/manchester/supplier/the-furnishing-service-ltd"/>
+	<payment:purchase>Furniture</payment:purchase>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://data.gmdsp.org.uk/id/manchester/expenditure">
+	<qb:slice rdf:resource="http://data.gmdsp.org.uk/id/manchester/payment/5100728339"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://data.gmdsp.org.uk/id/manchester/payment/5100728339">
+	<rdf:type rdf:resource="http://reference.data.gov.uk/def/payment#Payment"/>
+	<rdf:type rdf:resource="http://purl.org/linked-data/cube#Slice"/>
+	<rdf:type rdf:resource="http://rdfs.org/ns/void#Dataset"/>
+	<rdfs:label>Transaction number 5100728339</rdfs:label>
+	<payment:expenditureLine rdf:resource="http://data.gmdsp.org.uk/id/manchester/payment/2014-07/expenditure-line-2"/>
+	<payment:date rdf:resource="http://reference.data.gov.uk/id/year/2014-07-01"/>
+	<payment:unit rdf:resource="http://data.gmdsp.org.uk/id/manchester/payment/expense-area/furniture"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://data.gmdsp.org.uk/id/manchester/payment/2014-07/expenditure-line-2">
+	<rdf:type rdf:resource="http://reference.data.gov.uk/def/payment#ExpenditureLine"/>
+	<rdf:type rdf:resource="http://purl.org/linked-data/cube#Observation"/>
+	<rdfs:label xml:lang="en">Expenditure line (July 2014): 2</rdfs:label>
+	<payment:payment rdf:resource="http://data.gmdsp.org.uk/id/manchester/payment/5100728339"/>
+	<qb:dataSet rdf:resource="http://data.gmdsp.org.uk/id/manchester/expenditure"/>
+	<payment:netAmount>817.13</payment:netAmount>
+	<payment:reference>5100728339</payment:reference>
+	<payment:payer rdf:resource="http://opendatacommunities.org/id/metropolitan-district-council/manchester"/>
+	<payment:payee rdf:resource="http://data.gmdsp.org.uk/id/manchester/supplier/the-furnishing-service-ltd"/>
+	<payment:purchase>Furniture</payment:purchase>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://data.gmdsp.org.uk/id/manchester/expenditure">
+	<qb:slice rdf:resource="http://data.gmdsp.org.uk/id/manchester/payment/5100728348"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://data.gmdsp.org.uk/id/manchester/payment/5100728348">
+	<rdf:type rdf:resource="http://reference.data.gov.uk/def/payment#Payment"/>
+	<rdf:type rdf:resource="http://purl.org/linked-data/cube#Slice"/>
+	<rdf:type rdf:resource="http://rdfs.org/ns/void#Dataset"/>
+	<rdfs:label>Transaction number 5100728348</rdfs:label>
+	<payment:expenditureLine rdf:resource="http://data.gmdsp.org.uk/id/manchester/payment/2014-07/expenditure-line-3"/>
+	<payment:date rdf:resource="http://reference.data.gov.uk/id/year/2014-07-01"/>
+	<payment:unit rdf:resource="http://data.gmdsp.org.uk/id/manchester/payment/expense-area/furniture"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://data.gmdsp.org.uk/id/manchester/payment/2014-07/expenditure-line-3">
+	<rdf:type rdf:resource="http://reference.data.gov.uk/def/payment#ExpenditureLine"/>
+	<rdf:type rdf:resource="http://purl.org/linked-data/cube#Observation"/>
+	<rdfs:label xml:lang="en">Expenditure line (July 2014): 3</rdfs:label>
+	<payment:payment rdf:resource="http://data.gmdsp.org.uk/id/manchester/payment/5100728348"/>
+	<qb:dataSet rdf:resource="http://data.gmdsp.org.uk/id/manchester/expenditure"/>
+	<payment:netAmount>782.2</payment:netAmount>
+	<payment:reference>5100728348</payment:reference>
+	<payment:payer rdf:resource="http://opendatacommunities.org/id/metropolitan-district-council/manchester"/>
+	<payment:payee rdf:resource="http://data.gmdsp.org.uk/id/manchester/supplier/the-furnishing-service-ltd"/>
+	<payment:purchase>Furniture</payment:purchase>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://data.gmdsp.org.uk/id/manchester/expenditure">
+	<qb:slice rdf:resource="http://data.gmdsp.org.uk/id/manchester/payment/5100728343"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://data.gmdsp.org.uk/id/manchester/payment/5100728343">
+	<rdf:type rdf:resource="http://reference.data.gov.uk/def/payment#Payment"/>
+	<rdf:type rdf:resource="http://purl.org/linked-data/cube#Slice"/>
+	<rdf:type rdf:resource="http://rdfs.org/ns/void#Dataset"/>
+	<rdfs:label>Transaction number 5100728343</rdfs:label>
+	<payment:expenditureLine rdf:resource="http://data.gmdsp.org.uk/id/manchester/payment/2014-07/expenditure-line-4"/>
+	<payment:date rdf:resource="http://reference.data.gov.uk/id/year/2014-07-01"/>
+	<payment:unit rdf:resource="http://data.gmdsp.org.uk/id/manchester/payment/expense-area/furniture"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://data.gmdsp.org.uk/id/manchester/payment/2014-07/expenditure-line-4">
+	<rdf:type rdf:resource="http://reference.data.gov.uk/def/payment#ExpenditureLine"/>
+	<rdf:type rdf:resource="http://purl.org/linked-data/cube#Observation"/>
+	<rdfs:label xml:lang="en">Expenditure line (July 2014): 4</rdfs:label>
+	<payment:payment rdf:resource="http://data.gmdsp.org.uk/id/manchester/payment/5100728343"/>
+	<qb:dataSet rdf:resource="http://data.gmdsp.org.uk/id/manchester/expenditure"/>
+	<payment:netAmount>729.82</payment:netAmount>
+	<payment:reference>5100728343</payment:reference>
+	<payment:payer rdf:resource="http://opendatacommunities.org/id/metropolitan-district-council/manchester"/>
+	<payment:payee rdf:resource="http://data.gmdsp.org.uk/id/manchester/supplier/the-furnishing-service-ltd"/>
+	<payment:purchase>Furniture</payment:purchase>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://data.gmdsp.org.uk/id/manchester/expenditure">
+	<qb:slice rdf:resource="http://data.gmdsp.org.uk/id/manchester/payment/5100728324"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://data.gmdsp.org.uk/id/manchester/payment/5100728324">
+	<rdf:type rdf:resource="http://reference.data.gov.uk/def/payment#Payment"/>
+	<rdf:type rdf:resource="http://purl.org/linked-data/cube#Slice"/>
+	<rdf:type rdf:resource="http://rdfs.org/ns/void#Dataset"/>
+	<rdfs:label>Transaction number 5100728324</rdfs:label>
+	<payment:expenditureLine rdf:resource="http://data.gmdsp.org.uk/id/manchester/payment/2014-07/expenditure-line-5"/>
+	<payment:date rdf:resource="http://reference.data.gov.uk/id/year/2014-07-01"/>
+	<payment:unit rdf:resource="http://data.gmdsp.org.uk/id/manchester/payment/expense-area/furniture"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://data.gmdsp.org.uk/id/manchester/payment/2014-07/expenditure-line-5">
+	<rdf:type rdf:resource="http://reference.data.gov.uk/def/payment#ExpenditureLine"/>
+	<rdf:type rdf:resource="http://purl.org/linked-data/cube#Observation"/>
+	<rdfs:label xml:lang="en">Expenditure line (July 2014): 5</rdfs:label>
+	<payment:payment rdf:resource="http://data.gmdsp.org.uk/id/manchester/payment/5100728324"/>
+	<qb:dataSet rdf:resource="http://data.gmdsp.org.uk/id/manchester/expenditure"/>
+	<payment:netAmount>701.56</payment:netAmount>
+	<payment:reference>5100728324</payment:reference>
+	<payment:payer rdf:resource="http://opendatacommunities.org/id/metropolitan-district-council/manchester"/>
+	<payment:payee rdf:resource="http://data.gmdsp.org.uk/id/manchester/supplier/the-furnishing-service-ltd"/>
+	<payment:purchase>Furniture</payment:purchase>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://data.gmdsp.org.uk/id/manchester/expenditure">
+	<qb:slice rdf:resource="http://data.gmdsp.org.uk/id/manchester/payment/5100728340"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://data.gmdsp.org.uk/id/manchester/payment/5100728340">
+	<rdf:type rdf:resource="http://reference.data.gov.uk/def/payment#Payment"/>
+	<rdf:type rdf:resource="http://purl.org/linked-data/cube#Slice"/>
+	<rdf:type rdf:resource="http://rdfs.org/ns/void#Dataset"/>
+	<rdfs:label>Transaction number 5100728340</rdfs:label>
+	<payment:expenditureLine rdf:resource="http://data.gmdsp.org.uk/id/manchester/payment/2014-07/expenditure-line-6"/>
+	<payment:date rdf:resource="http://reference.data.gov.uk/id/year/2014-07-01"/>
+	<payment:unit rdf:resource="http://data.gmdsp.org.uk/id/manchester/payment/expense-area/furniture"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://data.gmdsp.org.uk/id/manchester/payment/2014-07/expenditure-line-6">
+	<rdf:type rdf:resource="http://reference.data.gov.uk/def/payment#ExpenditureLine"/>
+	<rdf:type rdf:resource="http://purl.org/linked-data/cube#Observation"/>
+	<rdfs:label xml:lang="en">Expenditure line (July 2014): 6</rdfs:label>
+	<payment:payment rdf:resource="http://data.gmdsp.org.uk/id/manchester/payment/5100728340"/>
+	<qb:dataSet rdf:resource="http://data.gmdsp.org.uk/id/manchester/expenditure"/>
+	<payment:netAmount>690.04</payment:netAmount>
+	<payment:reference>5100728340</payment:reference>
+	<payment:payer rdf:resource="http://opendatacommunities.org/id/metropolitan-district-council/manchester"/>
+	<payment:payee rdf:resource="http://data.gmdsp.org.uk/id/manchester/supplier/the-furnishing-service-ltd"/>
+	<payment:purchase>Furniture</payment:purchase>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://data.gmdsp.org.uk/id/manchester/expenditure">
+	<qb:slice rdf:resource="http://data.gmdsp.org.uk/id/manchester/payment/5100728353"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://data.gmdsp.org.uk/id/manchester/payment/5100728353">
+	<rdf:type rdf:resource="http://reference.data.gov.uk/def/payment#Payment"/>
+	<rdf:type rdf:resource="http://purl.org/linked-data/cube#Slice"/>
+	<rdf:type rdf:resource="http://rdfs.org/ns/void#Dataset"/>
+	<rdfs:label>Transaction number 5100728353</rdfs:label>
+	<payment:expenditureLine rdf:resource="http://data.gmdsp.org.uk/id/manchester/payment/2014-07/expenditure-line-7"/>
+	<payment:date rdf:resource="http://reference.data.gov.uk/id/year/2014-07-01"/>
+	<payment:unit rdf:resource="http://data.gmdsp.org.uk/id/manchester/payment/expense-area/furniture"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://data.gmdsp.org.uk/id/manchester/payment/2014-07/expenditure-line-7">
+	<rdf:type rdf:resource="http://reference.data.gov.uk/def/payment#ExpenditureLine"/>
+	<rdf:type rdf:resource="http://purl.org/linked-data/cube#Observation"/>
+	<rdfs:label xml:lang="en">Expenditure line (July 2014): 7</rdfs:label>
+	<payment:payment rdf:resource="http://data.gmdsp.org.uk/id/manchester/payment/5100728353"/>
+	<qb:dataSet rdf:resource="http://data.gmdsp.org.uk/id/manchester/expenditure"/>
+	<payment:netAmount>661.98</payment:netAmount>
+	<payment:reference>5100728353</payment:reference>
+	<payment:payer rdf:resource="http://opendatacommunities.org/id/metropolitan-district-council/manchester"/>
+	<payment:payee rdf:resource="http://data.gmdsp.org.uk/id/manchester/supplier/the-furnishing-service-ltd"/>
+	<payment:purchase>Furniture</payment:purchase>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://data.gmdsp.org.uk/id/manchester/expenditure">
+	<qb:slice rdf:resource="http://data.gmdsp.org.uk/id/manchester/payment/5100728350"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://data.gmdsp.org.uk/id/manchester/payment/5100728350">
+	<rdf:type rdf:resource="http://reference.data.gov.uk/def/payment#Payment"/>
+	<rdf:type rdf:resource="http://purl.org/linked-data/cube#Slice"/>
+	<rdf:type rdf:resource="http://rdfs.org/ns/void#Dataset"/>
+	<rdfs:label>Transaction number 5100728350</rdfs:label>
+	<payment:expenditureLine rdf:resource="http://data.gmdsp.org.uk/id/manchester/payment/2014-07/expenditure-line-8"/>
+	<payment:date rdf:resource="http://reference.data.gov.uk/id/year/2014-07-01"/>
+	<payment:unit rdf:resource="http://data.gmdsp.org.uk/id/manchester/payment/expense-area/furniture"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://data.gmdsp.org.uk/id/manchester/payment/2014-07/expenditure-line-8">
+	<rdf:type rdf:resource="http://reference.data.gov.uk/def/payment#ExpenditureLine"/>
+	<rdf:type rdf:resource="http://purl.org/linked-data/cube#Observation"/>
+	<rdfs:label xml:lang="en">Expenditure line (July 2014): 8</rdfs:label>
+	<payment:payment rdf:resource="http://data.gmdsp.org.uk/id/manchester/payment/5100728350"/>
+	<qb:dataSet rdf:resource="http://data.gmdsp.org.uk/id/manchester/expenditure"/>
+	<payment:netAmount>651.93</payment:netAmount>
+	<payment:reference>5100728350</payment:reference>
+	<payment:payer rdf:resource="http://opendatacommunities.org/id/metropolitan-district-council/manchester"/>
+	<payment:payee rdf:resource="http://data.gmdsp.org.uk/id/manchester/supplier/the-furnishing-service-ltd"/>
+	<payment:purchase>Furniture</payment:purchase>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://data.gmdsp.org.uk/id/manchester/expenditure">
+	<qb:slice rdf:resource="http://data.gmdsp.org.uk/id/manchester/payment/5100728354"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://data.gmdsp.org.uk/id/manchester/payment/5100728354">
+	<rdf:type rdf:resource="http://reference.data.gov.uk/def/payment#Payment"/>
+	<rdf:type rdf:resource="http://purl.org/linked-data/cube#Slice"/>
+	<rdf:type rdf:resource="http://rdfs.org/ns/void#Dataset"/>
+	<rdfs:label>Transaction number 5100728354</rdfs:label>
+	<payment:expenditureLine rdf:resource="http://data.gmdsp.org.uk/id/manchester/payment/2014-07/expenditure-line-9"/>
+	<payment:date rdf:resource="http://reference.data.gov.uk/id/year/2014-07-01"/>
+	<payment:unit rdf:resource="http://data.gmdsp.org.uk/id/manchester/payment/expense-area/furniture"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://data.gmdsp.org.uk/id/manchester/payment/2014-07/expenditure-line-9">
+	<rdf:type rdf:resource="http://reference.data.gov.uk/def/payment#ExpenditureLine"/>
+	<rdf:type rdf:resource="http://purl.org/linked-data/cube#Observation"/>
+	<rdfs:label xml:lang="en">Expenditure line (July 2014): 9</rdfs:label>
+	<payment:payment rdf:resource="http://data.gmdsp.org.uk/id/manchester/payment/5100728354"/>
+	<qb:dataSet rdf:resource="http://data.gmdsp.org.uk/id/manchester/expenditure"/>
+	<payment:netAmount>651.93</payment:netAmount>
+	<payment:reference>5100728354</payment:reference>
+	<payment:payer rdf:resource="http://opendatacommunities.org/id/metropolitan-district-council/manchester"/>
+	<payment:payee rdf:resource="http://data.gmdsp.org.uk/id/manchester/supplier/the-furnishing-service-ltd"/>
+	<payment:purchase>Furniture</payment:purchase>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://data.gmdsp.org.uk/id/manchester/expenditure">
+	<qb:slice rdf:resource="http://data.gmdsp.org.uk/id/manchester/payment/5100728356"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://data.gmdsp.org.uk/id/manchester/payment/5100728356">
+	<rdf:type rdf:resource="http://reference.data.gov.uk/def/payment#Payment"/>
+	<rdf:type rdf:resource="http://purl.org/linked-data/cube#Slice"/>
+	<rdf:type rdf:resource="http://rdfs.org/ns/void#Dataset"/>
+	<rdfs:label>Transaction number 5100728356</rdfs:label>
+	<payment:expenditureLine rdf:resource="http://data.gmdsp.org.uk/id/manchester/payment/2014-07/expenditure-line-10"/>
+	<payment:date rdf:resource="http://reference.data.gov.uk/id/year/2014-07-01"/>
+	<payment:unit rdf:resource="http://data.gmdsp.org.uk/id/manchester/payment/expense-area/furniture"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://data.gmdsp.org.uk/id/manchester/payment/2014-07/expenditure-line-10">
+	<rdf:type rdf:resource="http://reference.data.gov.uk/def/payment#ExpenditureLine"/>
+	<rdf:type rdf:resource="http://purl.org/linked-data/cube#Observation"/>
+	<rdfs:label xml:lang="en">Expenditure line (July 2014): 10</rdfs:label>
+	<payment:payment rdf:resource="http://data.gmdsp.org.uk/id/manchester/payment/5100728356"/>
+	<qb:dataSet rdf:resource="http://data.gmdsp.org.uk/id/manchester/expenditure"/>
+	<payment:netAmount>651.93</payment:netAmount>
+	<payment:reference>5100728356</payment:reference>
+	<payment:payer rdf:resource="http://opendatacommunities.org/id/metropolitan-district-council/manchester"/>
+	<payment:payee rdf:resource="http://data.gmdsp.org.uk/id/manchester/supplier/the-furnishing-service-ltd"/>
+	<payment:purchase>Furniture</payment:purchase>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://data.gmdsp.org.uk/id/manchester/expenditure">
+	<qb:slice rdf:resource="http://data.gmdsp.org.uk/id/manchester/payment/5100728320"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://data.gmdsp.org.uk/id/manchester/payment/5100728320">
+	<rdf:type rdf:resource="http://reference.data.gov.uk/def/payment#Payment"/>
+	<rdf:type rdf:resource="http://purl.org/linked-data/cube#Slice"/>
+	<rdf:type rdf:resource="http://rdfs.org/ns/void#Dataset"/>
+	<rdfs:label>Transaction number 5100728320</rdfs:label>
+	<payment:expenditureLine rdf:resource="http://data.gmdsp.org.uk/id/manchester/payment/2014-07/expenditure-line-11"/>
+	<payment:date rdf:resource="http://reference.data.gov.uk/id/year/2014-07-01"/>
+	<payment:unit rdf:resource="http://data.gmdsp.org.uk/id/manchester/payment/expense-area/furniture"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://data.gmdsp.org.uk/id/manchester/payment/2014-07/expenditure-line-11">
+	<rdf:type rdf:resource="http://reference.data.gov.uk/def/payment#ExpenditureLine"/>
+	<rdf:type rdf:resource="http://purl.org/linked-data/cube#Observation"/>
+	<rdfs:label xml:lang="en">Expenditure line (July 2014): 11</rdfs:label>
+	<payment:payment rdf:resource="http://data.gmdsp.org.uk/id/manchester/payment/5100728320"/>
+	<qb:dataSet rdf:resource="http://data.gmdsp.org.uk/id/manchester/expenditure"/>
+	<payment:netAmount>613.44</payment:netAmount>
+	<payment:reference>5100728320</payment:reference>
+	<payment:payer rdf:resource="http://opendatacommunities.org/id/metropolitan-district-council/manchester"/>
+	<payment:payee rdf:resource="http://data.gmdsp.org.uk/id/manchester/supplier/the-furnishing-service-ltd"/>
+	<payment:purchase>Furniture</payment:purchase>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://data.gmdsp.org.uk/id/manchester/expenditure">
+	<qb:slice rdf:resource="http://data.gmdsp.org.uk/id/manchester/payment/5100728346"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://data.gmdsp.org.uk/id/manchester/payment/5100728346">
+	<rdf:type rdf:resource="http://reference.data.gov.uk/def/payment#Payment"/>
+	<rdf:type rdf:resource="http://purl.org/linked-data/cube#Slice"/>
+	<rdf:type rdf:resource="http://rdfs.org/ns/void#Dataset"/>
+	<rdfs:label>Transaction number 5100728346</rdfs:label>
+	<payment:expenditureLine rdf:resource="http://data.gmdsp.org.uk/id/manchester/payment/2014-07/expenditure-line-12"/>
+	<payment:date rdf:resource="http://reference.data.gov.uk/id/year/2014-07-01"/>
+	<payment:unit rdf:resource="http://data.gmdsp.org.uk/id/manchester/payment/expense-area/furniture"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://data.gmdsp.org.uk/id/manchester/payment/2014-07/expenditure-line-12">
+	<rdf:type rdf:resource="http://reference.data.gov.uk/def/payment#ExpenditureLine"/>
+	<rdf:type rdf:resource="http://purl.org/linked-data/cube#Observation"/>
+	<rdfs:label xml:lang="en">Expenditure line (July 2014): 12</rdfs:label>
+	<payment:payment rdf:resource="http://data.gmdsp.org.uk/id/manchester/payment/5100728346"/>
+	<qb:dataSet rdf:resource="http://data.gmdsp.org.uk/id/manchester/expenditure"/>
+	<payment:netAmount>609.0</payment:netAmount>
+	<payment:reference>5100728346</payment:reference>
+	<payment:payer rdf:resource="http://opendatacommunities.org/id/metropolitan-district-council/manchester"/>
+	<payment:payee rdf:resource="http://data.gmdsp.org.uk/id/manchester/supplier/the-furnishing-service-ltd"/>
+	<payment:purchase>Furniture</payment:purchase>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://data.gmdsp.org.uk/id/manchester/expenditure">
+	<qb:slice rdf:resource="http://data.gmdsp.org.uk/id/manchester/payment/5100728336"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://data.gmdsp.org.uk/id/manchester/payment/5100728336">
+	<rdf:type rdf:resource="http://reference.data.gov.uk/def/payment#Payment"/>
+	<rdf:type rdf:resource="http://purl.org/linked-data/cube#Slice"/>
+	<rdf:type rdf:resource="http://rdfs.org/ns/void#Dataset"/>
+	<rdfs:label>Transaction number 5100728336</rdfs:label>
+	<payment:expenditureLine rdf:resource="http://data.gmdsp.org.uk/id/manchester/payment/2014-07/expenditure-line-13"/>
+	<payment:date rdf:resource="http://reference.data.gov.uk/id/year/2014-07-01"/>
+	<payment:unit rdf:resource="http://data.gmdsp.org.uk/id/manchester/payment/expense-area/furniture"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://data.gmdsp.org.uk/id/manchester/payment/2014-07/expenditure-line-13">
+	<rdf:type rdf:resource="http://reference.data.gov.uk/def/payment#ExpenditureLine"/>
+	<rdf:type rdf:resource="http://purl.org/linked-data/cube#Observation"/>
+	<rdfs:label xml:lang="en">Expenditure line (July 2014): 13</rdfs:label>
+	<payment:payment rdf:resource="http://data.gmdsp.org.uk/id/manchester/payment/5100728336"/>
+	<qb:dataSet rdf:resource="http://data.gmdsp.org.uk/id/manchester/expenditure"/>
+	<payment:netAmount>589.66</payment:netAmount>
+	<payment:reference>5100728336</payment:reference>
+	<payment:payer rdf:resource="http://opendatacommunities.org/id/metropolitan-district-council/manchester"/>
+	<payment:payee rdf:resource="http://data.gmdsp.org.uk/id/manchester/supplier/the-furnishing-service-ltd"/>
+	<payment:purchase>Furniture</payment:purchase>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://data.gmdsp.org.uk/id/manchester/expenditure">
+	<qb:slice rdf:resource="http://data.gmdsp.org.uk/id/manchester/payment/5100728329"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://data.gmdsp.org.uk/id/manchester/payment/5100728329">
+	<rdf:type rdf:resource="http://reference.data.gov.uk/def/payment#Payment"/>
+	<rdf:type rdf:resource="http://purl.org/linked-data/cube#Slice"/>
+	<rdf:type rdf:resource="http://rdfs.org/ns/void#Dataset"/>
+	<rdfs:label>Transaction number 5100728329</rdfs:label>
+	<payment:expenditureLine rdf:resource="http://data.gmdsp.org.uk/id/manchester/payment/2014-07/expenditure-line-14"/>
+	<payment:date rdf:resource="http://reference.data.gov.uk/id/year/2014-07-01"/>
+	<payment:unit rdf:resource="http://data.gmdsp.org.uk/id/manchester/payment/expense-area/furniture"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://data.gmdsp.org.uk/id/manchester/payment/2014-07/expenditure-line-14">
+	<rdf:type rdf:resource="http://reference.data.gov.uk/def/payment#ExpenditureLine"/>
+	<rdf:type rdf:resource="http://purl.org/linked-data/cube#Observation"/>
+	<rdfs:label xml:lang="en">Expenditure line (July 2014): 14</rdfs:label>
+	<payment:payment rdf:resource="http://data.gmdsp.org.uk/id/manchester/payment/5100728329"/>
+	<qb:dataSet rdf:resource="http://data.gmdsp.org.uk/id/manchester/expenditure"/>
+	<payment:netAmount>584.28</payment:netAmount>
+	<payment:reference>5100728329</payment:reference>
+	<payment:payer rdf:resource="http://opendatacommunities.org/id/metropolitan-district-council/manchester"/>
+	<payment:payee rdf:resource="http://data.gmdsp.org.uk/id/manchester/supplier/the-furnishing-service-ltd"/>
+	<payment:purchase>Furniture</payment:purchase>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://data.gmdsp.org.uk/id/manchester/expenditure">
+	<qb:slice rdf:resource="http://data.gmdsp.org.uk/id/manchester/payment/5100728338"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://data.gmdsp.org.uk/id/manchester/payment/5100728338">
+	<rdf:type rdf:resource="http://reference.data.gov.uk/def/payment#Payment"/>
+	<rdf:type rdf:resource="http://purl.org/linked-data/cube#Slice"/>
+	<rdf:type rdf:resource="http://rdfs.org/ns/void#Dataset"/>
+	<rdfs:label>Transaction number 5100728338</rdfs:label>
+	<payment:expenditureLine rdf:resource="http://data.gmdsp.org.uk/id/manchester/payment/2014-07/expenditure-line-15"/>
+	<payment:date rdf:resource="http://reference.data.gov.uk/id/year/2014-07-01"/>
+	<payment:unit rdf:resource="http://data.gmdsp.org.uk/id/manchester/payment/expense-area/furniture"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://data.gmdsp.org.uk/id/manchester/payment/2014-07/expenditure-line-15">
+	<rdf:type rdf:resource="http://reference.data.gov.uk/def/payment#ExpenditureLine"/>
+	<rdf:type rdf:resource="http://purl.org/linked-data/cube#Observation"/>
+	<rdfs:label xml:lang="en">Expenditure line (July 2014): 15</rdfs:label>
+	<payment:payment rdf:resource="http://data.gmdsp.org.uk/id/manchester/payment/5100728338"/>
+	<qb:dataSet rdf:resource="http://data.gmdsp.org.uk/id/manchester/expenditure"/>
+	<payment:netAmount>521.66</payment:netAmount>
+	<payment:reference>5100728338</payment:reference>
+	<payment:payer rdf:resource="http://opendatacommunities.org/id/metropolitan-district-council/manchester"/>
+	<payment:payee rdf:resource="http://data.gmdsp.org.uk/id/manchester/supplier/the-furnishing-service-ltd"/>
+	<payment:purchase>Furniture</payment:purchase>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://data.gmdsp.org.uk/id/manchester/expenditure">
+	<qb:slice rdf:resource="http://data.gmdsp.org.uk/id/manchester/payment/5100728327"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://data.gmdsp.org.uk/id/manchester/payment/5100728327">
+	<rdf:type rdf:resource="http://reference.data.gov.uk/def/payment#Payment"/>
+	<rdf:type rdf:resource="http://purl.org/linked-data/cube#Slice"/>
+	<rdf:type rdf:resource="http://rdfs.org/ns/void#Dataset"/>
+	<rdfs:label>Transaction number 5100728327</rdfs:label>
+	<payment:expenditureLine rdf:resource="http://data.gmdsp.org.uk/id/manchester/payment/2014-07/expenditure-line-16"/>
+	<payment:date rdf:resource="http://reference.data.gov.uk/id/year/2014-07-01"/>
+	<payment:unit rdf:resource="http://data.gmdsp.org.uk/id/manchester/payment/expense-area/furniture"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://data.gmdsp.org.uk/id/manchester/payment/2014-07/expenditure-line-16">
+	<rdf:type rdf:resource="http://reference.data.gov.uk/def/payment#ExpenditureLine"/>
+	<rdf:type rdf:resource="http://purl.org/linked-data/cube#Observation"/>
+	<rdfs:label xml:lang="en">Expenditure line (July 2014): 16</rdfs:label>
+	<payment:payment rdf:resource="http://data.gmdsp.org.uk/id/manchester/payment/5100728327"/>
+	<qb:dataSet rdf:resource="http://data.gmdsp.org.uk/id/manchester/expenditure"/>
+	<payment:netAmount>502.43</payment:netAmount>
+	<payment:reference>5100728327</payment:reference>
+	<payment:payer rdf:resource="http://opendatacommunities.org/id/metropolitan-district-council/manchester"/>
+	<payment:payee rdf:resource="http://data.gmdsp.org.uk/id/manchester/supplier/the-furnishing-service-ltd"/>
+	<payment:purchase>Furniture</payment:purchase>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://data.gmdsp.org.uk/id/manchester/expenditure">
+	<qb:slice rdf:resource="http://data.gmdsp.org.uk/id/manchester/payment/5100728301"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://data.gmdsp.org.uk/id/manchester/payment/5100728301">
+	<rdf:type rdf:resource="http://reference.data.gov.uk/def/payment#Payment"/>
+	<rdf:type rdf:resource="http://purl.org/linked-data/cube#Slice"/>
+	<rdf:type rdf:resource="http://rdfs.org/ns/void#Dataset"/>
+	<rdfs:label>Transaction number 5100728301</rdfs:label>
+	<payment:expenditureLine rdf:resource="http://data.gmdsp.org.uk/id/manchester/payment/2014-07/expenditure-line-17"/>
+	<payment:date rdf:resource="http://reference.data.gov.uk/id/year/2014-07-01"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://data.gmdsp.org.uk/id/manchester/payment/expense-area/vehicle-partsspares">
+	<rdfs:label xml:lang="en">Vehicle Parts/Spares</rdfs:label>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://data.gmdsp.org.uk/id/manchester/payment/5100728301">
+	<payment:unit rdf:resource="http://data.gmdsp.org.uk/id/manchester/payment/expense-area/vehicle-partsspares"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://data.gmdsp.org.uk/id/manchester/payment/2014-07/expenditure-line-17">
+	<rdf:type rdf:resource="http://reference.data.gov.uk/def/payment#ExpenditureLine"/>
+	<rdf:type rdf:resource="http://purl.org/linked-data/cube#Observation"/>
+	<rdfs:label xml:lang="en">Expenditure line (July 2014): 17</rdfs:label>
+	<payment:payment rdf:resource="http://data.gmdsp.org.uk/id/manchester/payment/5100728301"/>
+	<qb:dataSet rdf:resource="http://data.gmdsp.org.uk/id/manchester/expenditure"/>
+	<payment:netAmount>615.73</payment:netAmount>
+	<payment:reference>5100728301</payment:reference>
+	<payment:payer rdf:resource="http://opendatacommunities.org/id/metropolitan-district-council/manchester"/>
+	<payment:payee rdf:resource="http://data.gmdsp.org.uk/id/manchester/supplier/dennis-eagle-ltd"/>
+	<payment:purchase>Vehicle Parts/Spares</payment:purchase>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://opendatacommunities.org/id/metropolitan-district-council/manchester">
+	<org:hasUnit rdf:resource="http://data.gmdsp.org.uk/id/manchester/payment/expense-area/hospitality-trading-services"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://data.gmdsp.org.uk/id/manchester/payment/expense-area/hospitality-trading-services">
+	<rdf:type rdf:resource="http://www.w3.org/ns/org#OrganizationalUnit"/>
+	<rdfs:label xml:lang="en">Vehicle Parts/Spares</rdfs:label>
+	<org:unitOf rdf:resource="http://opendatacommunities.org/id/metropolitan-district-council/manchester"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://data.gmdsp.org.uk/id/manchester/supplier/dennis-eagle-ltd">
+	<rdf:type rdf:resource="http://www.w3.org/ns/org#Organization"/>
+	<rdfs:label xml:lang="en">Dennis Eagle Ltd</rdfs:label>
+	<org:identifier>Dennis Eagle Ltd</org:identifier>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://data.gmdsp.org.uk/id/manchester/expenditure">
+	<qb:slice rdf:resource="http://data.gmdsp.org.uk/id/manchester/payment/5100728313"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://data.gmdsp.org.uk/id/manchester/payment/5100728313">
+	<rdf:type rdf:resource="http://reference.data.gov.uk/def/payment#Payment"/>
+	<rdf:type rdf:resource="http://purl.org/linked-data/cube#Slice"/>
+	<rdf:type rdf:resource="http://rdfs.org/ns/void#Dataset"/>
+	<rdfs:label>Transaction number 5100728313</rdfs:label>
+	<payment:expenditureLine rdf:resource="http://data.gmdsp.org.uk/id/manchester/payment/2014-07/expenditure-line-18"/>
+	<payment:date rdf:resource="http://reference.data.gov.uk/id/year/2014-07-01"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://data.gmdsp.org.uk/id/manchester/payment/expense-area/payments-to-sub-contractors">
+	<rdfs:label xml:lang="en">Payments to Sub-Contractors</rdfs:label>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://data.gmdsp.org.uk/id/manchester/payment/5100728313">
+	<payment:unit rdf:resource="http://data.gmdsp.org.uk/id/manchester/payment/expense-area/payments-to-sub-contractors"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://data.gmdsp.org.uk/id/manchester/payment/2014-07/expenditure-line-18">
+	<rdf:type rdf:resource="http://reference.data.gov.uk/def/payment#ExpenditureLine"/>
+	<rdf:type rdf:resource="http://purl.org/linked-data/cube#Observation"/>
+	<rdfs:label xml:lang="en">Expenditure line (July 2014): 18</rdfs:label>
+	<payment:payment rdf:resource="http://data.gmdsp.org.uk/id/manchester/payment/5100728313"/>
+	<qb:dataSet rdf:resource="http://data.gmdsp.org.uk/id/manchester/expenditure"/>
+	<payment:netAmount>8550.00</payment:netAmount>
+	<payment:reference>5100728313</payment:reference>
+	<payment:payer rdf:resource="http://opendatacommunities.org/id/metropolitan-district-council/manchester"/>
+	<payment:payee rdf:resource="http://data.gmdsp.org.uk/id/manchester/supplier/clearway-drainage-systems-ltd"/>
+	<payment:purchase>Payments to Sub-Contractors</payment:purchase>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://data.gmdsp.org.uk/id/manchester/payment/expense-area/hospitality-trading-services">
+	<rdfs:label xml:lang="en">Payments to Sub-Contractors</rdfs:label>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://data.gmdsp.org.uk/id/manchester/supplier/clearway-drainage-systems-ltd">
+	<rdf:type rdf:resource="http://www.w3.org/ns/org#Organization"/>
+	<rdfs:label xml:lang="en">Clearway Drainage Systems Ltd</rdfs:label>
+	<org:identifier>Clearway Drainage Systems Ltd</org:identifier>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://data.gmdsp.org.uk/id/manchester/expenditure">
+	<qb:slice rdf:resource="http://data.gmdsp.org.uk/id/manchester/payment/5100728265"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://data.gmdsp.org.uk/id/manchester/payment/5100728265">
+	<rdf:type rdf:resource="http://reference.data.gov.uk/def/payment#Payment"/>
+	<rdf:type rdf:resource="http://purl.org/linked-data/cube#Slice"/>
+	<rdf:type rdf:resource="http://rdfs.org/ns/void#Dataset"/>
+	<rdfs:label>Transaction number 5100728265</rdfs:label>
+	<payment:expenditureLine rdf:resource="http://data.gmdsp.org.uk/id/manchester/payment/2014-07/expenditure-line-19"/>
+	<payment:date rdf:resource="http://reference.data.gov.uk/id/year/2014-07-01"/>
+	<payment:unit rdf:resource="http://data.gmdsp.org.uk/id/manchester/payment/expense-area/payments-to-sub-contractors"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://data.gmdsp.org.uk/id/manchester/payment/2014-07/expenditure-line-19">
+	<rdf:type rdf:resource="http://reference.data.gov.uk/def/payment#ExpenditureLine"/>
+	<rdf:type rdf:resource="http://purl.org/linked-data/cube#Observation"/>
+	<rdfs:label xml:lang="en">Expenditure line (July 2014): 19</rdfs:label>
+	<payment:payment rdf:resource="http://data.gmdsp.org.uk/id/manchester/payment/5100728265"/>
+	<qb:dataSet rdf:resource="http://data.gmdsp.org.uk/id/manchester/expenditure"/>
+	<payment:netAmount>24658.38</payment:netAmount>
+	<payment:reference>5100728265</payment:reference>
+	<payment:payer rdf:resource="http://opendatacommunities.org/id/metropolitan-district-council/manchester"/>
+	<payment:payee rdf:resource="http://data.gmdsp.org.uk/id/manchester/supplier/aecom-limited"/>
+	<payment:purchase>Payments to Sub-Contractors</payment:purchase>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://opendatacommunities.org/id/metropolitan-district-council/manchester">
+	<org:hasUnit rdf:resource="http://data.gmdsp.org.uk/id/manchester/payment/expense-area/corporate-services"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://data.gmdsp.org.uk/id/manchester/payment/expense-area/corporate-services">
+	<rdf:type rdf:resource="http://www.w3.org/ns/org#OrganizationalUnit"/>
+	<rdfs:label xml:lang="en">Payments to Sub-Contractors</rdfs:label>
+	<org:unitOf rdf:resource="http://opendatacommunities.org/id/metropolitan-district-council/manchester"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://data.gmdsp.org.uk/id/manchester/supplier/aecom-limited">
+	<rdf:type rdf:resource="http://www.w3.org/ns/org#Organization"/>
+	<rdfs:label xml:lang="en">AECOM Limited</rdfs:label>
+	<org:identifier>AECOM Limited</org:identifier>
+</rdf:Description>
+
+</rdf:RDF>

@@ -1,0 +1,669 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rdf:RDF
+	xmlns:dc="http://purl.org/dc/terms"
+	xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
+	xmlns:time="http://www.w3.org/2006/time#"
+	xmlns:interval="http://reference.data.gov.uk/def/intervals/"
+	xmlns:foaf="http://xmlns.com/foaf/0.1/"
+	xmlns:payment="http://reference.data.gov.uk/def/payment#"
+	xmlns:xsd="http://www.w3.org/2001/XMLSchema#"
+	xmlns:owl="http://www.w3.org/2002/07/owl#"
+	xmlns:void="http://rdfs.org/ns/void#"
+	xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+	xmlns:org="http://www.w3.org/ns/org#"
+	xmlns:qb="http://purl.org/linked-data/cube#">
+
+<rdf:Description rdf:about="http://data.gmdsp.org.uk/id/stockport/expenditure">
+	<rdf:type rdf:resource="http://reference.data.gov.uk/def/payment#PaymentDataset"/>
+	<rdf:type rdf:resource="http://rdfs.org/ns/void#Dataset"/>
+	<rdfs:label>Spend data for Stockport</rdfs:label>
+	<qb:structure rdf:resource="http://reference.data.gov.uk/def/payment#payments-with-expenditure-structure"/>
+	<qb:sliceKey rdf:resource="http://reference.data.gov.uk/def/payment#payment-slice"/>
+	<payment:currency rdf:resource="http://dbpedia.org/resource/Pound_sterling"/>
+	<qb:slice rdf:resource="http://data.gmdsp.org.uk/id/stockport/payment/5100266159e9"/>
+	<void:vocabulary>http://reference.data.gov.uk/def/payment#</void:vocabulary>
+	<title xmlns="http://purl.org/dc/terms/">Spend data for Stockport</title>
+	<description xmlns="http://purl.org/dc/terms/">Spend data of transactions over £500 for Stockport - http://www.stockport.gov.uk/services/councildemocracy/your_council/documentsandfacts/budgetsfinancialmonitoringreports/expenditureover500</description>
+	<foaf:page rdf:resource="http://www.stockport.gov.uk/services/councildemocracy/your_council/documentsandfacts/budgetsfinancialmonitoringreports/expenditureover500"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://data.gmdsp.org.uk/id/stockport/payment/5100266159e9">
+	<rdf:type rdf:resource="http://reference.data.gov.uk/def/payment#Payment"/>
+	<rdf:type rdf:resource="http://purl.org/linked-data/cube#Slice"/>
+	<rdf:type rdf:resource="http://rdfs.org/ns/void#Dataset"/>
+	<rdfs:label>Transaction number 5.100266159E9</rdfs:label>
+	<payment:expenditureLine rdf:resource="http://data.gmdsp.org.uk/id/stockport/payment/2014-07/expenditure-line-0"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://reference.data.gov.uk/id/day/2014-07-31">
+	<rdf:type rdf:resource="http://reference.data.gov.uk/def/intervals/CalendarDay"/>
+	<rdfs:label>http://reference.data.gov.uk/id/day/2014-07-31</rdfs:label>
+	<rdf:type rdf:resource="http://www.w3.org/2006/time#Instant"/>
+	<time:inXSDDate rdf:datatype="http://www.w3.org/2001/XMLSchema#date">2014-07-31</time:inXSDDate>
+	<rdfs:label>2014-07-31</rdfs:label>
+	<time:hasBeginning rdf:resource="http://reference.data.gov.uk/id/day/2014-07-31"/>
+	<interval:ordinalYear>2014</interval:ordinalYear>
+	<interval:ordinalMonthOfYear>07</interval:ordinalMonthOfYear>
+	<interval:ordinalDayOfMonth>31</interval:ordinalDayOfMonth>
+	<time:intervalDuring rdf:resource="http://data.gmdsp.org.uk2014-07-31"/>
+	<time:intervalDuring rdf:resource="http://reference.data.gov.uk/id/month/2014-07"/>
+	<time:intervalDuring rdf:resource="http://reference.data.gov.uk/id/quarter/2014-Q3"/>
+	<time:intervalDuring rdf:resource="http://reference.data.gov.uk/id/half/2014-H2"/>
+	<time:intervalDuring rdf:resource="http://reference.data.gov.uk/id/government-year/2014-2015"/>
+	<description xmlns="http://purl.org/dc/elements/1.1/">There are no specific dates for this month's expenditure data. The last day of the month has been assigned to each transaction as a Constant Value</description>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://data.gmdsp.org.uk/id/stockport/payment/5100266159e9">
+	<payment:date rdf:resource="http://reference.data.gov.uk/id/day/2014-07-31"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://data.gmdsp.org.uk/id/stockport/payment/expense-area/central-services">
+	<rdfs:label xml:lang="en">CENTRAL SERVICES</rdfs:label>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://data.gmdsp.org.uk/id/stockport/payment/5100266159e9">
+	<payment:unit rdf:resource="http://data.gmdsp.org.uk/id/stockport/payment/expense-area/central-services"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://data.gmdsp.org.uk/id/stockport/payment/2014-07/expenditure-line-0">
+	<rdf:type rdf:resource="http://reference.data.gov.uk/def/payment#ExpenditureLine"/>
+	<rdf:type rdf:resource="http://purl.org/linked-data/cube#Observation"/>
+	<rdfs:label>Expenditure line (July 2014): 0</rdfs:label>
+	<payment:payment rdf:resource="http://data.gmdsp.org.uk/id/stockport/payment/5100266159e9"/>
+	<qb:dataSet rdf:resource="http://data.gmdsp.org.uk/id/stockport/expenditure"/>
+	<payment:netAmount>550</payment:netAmount>
+	<payment:reference>5.100266159E9</payment:reference>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://opendatacommunities.org/id/metropolitan-district-council/stockport">
+	<rdf:type rdf:resource="http://opendatacommunities.org/def/local-government/MetropolitanDistrictCouncil"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://data.gmdsp.org.uk/id/stockport/payment/2014-07/expenditure-line-0">
+	<payment:payer rdf:resource="http://opendatacommunities.org/id/metropolitan-district-council/stockport"/>
+	<payment:payee rdf:resource="http://data.gmdsp.org.uk/id/stockport/supplier/1415-limited"/>
+	<payment:purchase>SUPPLIES &amp; SERVICES</payment:purchase>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://opendatacommunities.org/id/metropolitan-district-council/stockport">
+	<rdf:type rdf:resource="http://www.w3.org/ns/org#FormalOrganization"/>
+	<rdfs:label>Stockport Metropolitan Borough Council</rdfs:label>
+	<org:hasUnit rdf:resource="http://data.gmdsp.org.uk/id/stockport/payment/expense-area/central-services"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://data.gmdsp.org.uk/id/stockport/payment/expense-area/central-services">
+	<rdf:type rdf:resource="http://www.w3.org/ns/org#OrganizationalUnit"/>
+	<rdfs:label>CENTRAL SERVICES</rdfs:label>
+	<org:unitOf rdf:resource="http://opendatacommunities.org/id/metropolitan-district-council/stockport"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://data.gmdsp.org.uk/id/stockport/supplier/1415-limited">
+	<rdf:type rdf:resource="http://www.w3.org/ns/org#Organization"/>
+	<rdfs:label>1415 LIMITED</rdfs:label>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://data.gmdsp.org.uk/id/stockport/expenditure">
+	<qb:slice rdf:resource="http://data.gmdsp.org.uk/id/stockport/payment/1900498483e9"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://data.gmdsp.org.uk/id/stockport/payment/1900498483e9">
+	<rdf:type rdf:resource="http://reference.data.gov.uk/def/payment#Payment"/>
+	<rdf:type rdf:resource="http://purl.org/linked-data/cube#Slice"/>
+	<rdf:type rdf:resource="http://rdfs.org/ns/void#Dataset"/>
+	<rdfs:label>Transaction number 1.900498483E9</rdfs:label>
+	<payment:expenditureLine rdf:resource="http://data.gmdsp.org.uk/id/stockport/payment/2014-07/expenditure-line-1"/>
+	<payment:date rdf:resource="http://reference.data.gov.uk/id/day/2014-07-31"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://data.gmdsp.org.uk/id/stockport/payment/expense-area/childrens-educational-services-sea">
+	<rdfs:label xml:lang="en">CHILDRENS &amp; EDUCATIONAL SERVICES SEA</rdfs:label>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://data.gmdsp.org.uk/id/stockport/payment/1900498483e9">
+	<payment:unit rdf:resource="http://data.gmdsp.org.uk/id/stockport/payment/expense-area/childrens-educational-services-sea"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://data.gmdsp.org.uk/id/stockport/payment/2014-07/expenditure-line-1">
+	<rdf:type rdf:resource="http://reference.data.gov.uk/def/payment#ExpenditureLine"/>
+	<rdf:type rdf:resource="http://purl.org/linked-data/cube#Observation"/>
+	<rdfs:label>Expenditure line (July 2014): 1</rdfs:label>
+	<payment:payment rdf:resource="http://data.gmdsp.org.uk/id/stockport/payment/1900498483e9"/>
+	<qb:dataSet rdf:resource="http://data.gmdsp.org.uk/id/stockport/expenditure"/>
+	<payment:netAmount>2464</payment:netAmount>
+	<payment:reference>1.900498483E9</payment:reference>
+	<payment:payer rdf:resource="http://opendatacommunities.org/id/metropolitan-district-council/stockport"/>
+	<payment:payee rdf:resource="http://data.gmdsp.org.uk/id/stockport/supplier/a-and-g-duncan-taxis"/>
+	<payment:purchase>TRANSPORT RELATED</payment:purchase>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://opendatacommunities.org/id/metropolitan-district-council/stockport">
+	<org:hasUnit rdf:resource="http://data.gmdsp.org.uk/id/stockport/payment/expense-area/childrens-educational-services-sea"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://data.gmdsp.org.uk/id/stockport/payment/expense-area/childrens-educational-services-sea">
+	<rdf:type rdf:resource="http://www.w3.org/ns/org#OrganizationalUnit"/>
+	<rdfs:label>CHILDRENS &amp; EDUCATIONAL SERVICES SEA</rdfs:label>
+	<org:unitOf rdf:resource="http://opendatacommunities.org/id/metropolitan-district-council/stockport"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://data.gmdsp.org.uk/id/stockport/supplier/a-and-g-duncan-taxis">
+	<rdf:type rdf:resource="http://www.w3.org/ns/org#Organization"/>
+	<rdfs:label>A AND G DUNCAN - TAXIS</rdfs:label>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://data.gmdsp.org.uk/id/stockport/expenditure">
+	<qb:slice rdf:resource="http://data.gmdsp.org.uk/id/stockport/payment/102025248e8"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://data.gmdsp.org.uk/id/stockport/payment/102025248e8">
+	<rdf:type rdf:resource="http://reference.data.gov.uk/def/payment#Payment"/>
+	<rdf:type rdf:resource="http://purl.org/linked-data/cube#Slice"/>
+	<rdf:type rdf:resource="http://rdfs.org/ns/void#Dataset"/>
+	<rdfs:label>Transaction number 1.02025248E8</rdfs:label>
+	<payment:expenditureLine rdf:resource="http://data.gmdsp.org.uk/id/stockport/payment/2014-07/expenditure-line-2"/>
+	<payment:date rdf:resource="http://reference.data.gov.uk/id/day/2014-07-31"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://data.gmdsp.org.uk/id/stockport/payment/expense-area/adult-social-care">
+	<rdfs:label xml:lang="en">ADULT SOCIAL CARE</rdfs:label>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://data.gmdsp.org.uk/id/stockport/payment/102025248e8">
+	<payment:unit rdf:resource="http://data.gmdsp.org.uk/id/stockport/payment/expense-area/adult-social-care"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://data.gmdsp.org.uk/id/stockport/payment/2014-07/expenditure-line-2">
+	<rdf:type rdf:resource="http://reference.data.gov.uk/def/payment#ExpenditureLine"/>
+	<rdf:type rdf:resource="http://purl.org/linked-data/cube#Observation"/>
+	<rdfs:label>Expenditure line (July 2014): 2</rdfs:label>
+	<payment:payment rdf:resource="http://data.gmdsp.org.uk/id/stockport/payment/102025248e8"/>
+	<qb:dataSet rdf:resource="http://data.gmdsp.org.uk/id/stockport/expenditure"/>
+	<payment:netAmount>1146.6</payment:netAmount>
+	<payment:reference>1.02025248E8</payment:reference>
+	<payment:payer rdf:resource="http://opendatacommunities.org/id/metropolitan-district-council/stockport"/>
+	<payment:payee rdf:resource="http://data.gmdsp.org.uk/id/stockport/supplier/a-buckley-ltd-independent-care"/>
+	<payment:purchase>SUNDRY PAYMENTS</payment:purchase>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://opendatacommunities.org/id/metropolitan-district-council/stockport">
+	<org:hasUnit rdf:resource="http://data.gmdsp.org.uk/id/stockport/payment/expense-area/adult-social-care"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://data.gmdsp.org.uk/id/stockport/payment/expense-area/adult-social-care">
+	<rdf:type rdf:resource="http://www.w3.org/ns/org#OrganizationalUnit"/>
+	<rdfs:label>ADULT SOCIAL CARE</rdfs:label>
+	<org:unitOf rdf:resource="http://opendatacommunities.org/id/metropolitan-district-council/stockport"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://data.gmdsp.org.uk/id/stockport/supplier/a-buckley-ltd-independent-care">
+	<rdf:type rdf:resource="http://www.w3.org/ns/org#Organization"/>
+	<rdfs:label>A BUCKLEY LTD - INDEPENDENT CARE</rdfs:label>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://data.gmdsp.org.uk/id/stockport/expenditure">
+	<qb:slice rdf:resource="http://data.gmdsp.org.uk/id/stockport/payment/102025249e8"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://data.gmdsp.org.uk/id/stockport/payment/102025249e8">
+	<rdf:type rdf:resource="http://reference.data.gov.uk/def/payment#Payment"/>
+	<rdf:type rdf:resource="http://purl.org/linked-data/cube#Slice"/>
+	<rdf:type rdf:resource="http://rdfs.org/ns/void#Dataset"/>
+	<rdfs:label>Transaction number 1.02025249E8</rdfs:label>
+	<payment:expenditureLine rdf:resource="http://data.gmdsp.org.uk/id/stockport/payment/2014-07/expenditure-line-3"/>
+	<payment:date rdf:resource="http://reference.data.gov.uk/id/day/2014-07-31"/>
+	<payment:unit rdf:resource="http://data.gmdsp.org.uk/id/stockport/payment/expense-area/adult-social-care"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://data.gmdsp.org.uk/id/stockport/payment/2014-07/expenditure-line-3">
+	<rdf:type rdf:resource="http://reference.data.gov.uk/def/payment#ExpenditureLine"/>
+	<rdf:type rdf:resource="http://purl.org/linked-data/cube#Observation"/>
+	<rdfs:label>Expenditure line (July 2014): 3</rdfs:label>
+	<payment:payment rdf:resource="http://data.gmdsp.org.uk/id/stockport/payment/102025249e8"/>
+	<qb:dataSet rdf:resource="http://data.gmdsp.org.uk/id/stockport/expenditure"/>
+	<payment:netAmount>1156.05</payment:netAmount>
+	<payment:reference>1.02025249E8</payment:reference>
+	<payment:payer rdf:resource="http://opendatacommunities.org/id/metropolitan-district-council/stockport"/>
+	<payment:payee rdf:resource="http://data.gmdsp.org.uk/id/stockport/supplier/a-buckley-ltd-independent-care"/>
+	<payment:purchase>SUNDRY PAYMENTS</payment:purchase>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://data.gmdsp.org.uk/id/stockport/expenditure">
+	<qb:slice rdf:resource="http://data.gmdsp.org.uk/id/stockport/payment/102032968e8"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://data.gmdsp.org.uk/id/stockport/payment/102032968e8">
+	<rdf:type rdf:resource="http://reference.data.gov.uk/def/payment#Payment"/>
+	<rdf:type rdf:resource="http://purl.org/linked-data/cube#Slice"/>
+	<rdf:type rdf:resource="http://rdfs.org/ns/void#Dataset"/>
+	<rdfs:label>Transaction number 1.02032968E8</rdfs:label>
+	<payment:expenditureLine rdf:resource="http://data.gmdsp.org.uk/id/stockport/payment/2014-07/expenditure-line-4"/>
+	<payment:date rdf:resource="http://reference.data.gov.uk/id/day/2014-07-31"/>
+	<payment:unit rdf:resource="http://data.gmdsp.org.uk/id/stockport/payment/expense-area/adult-social-care"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://data.gmdsp.org.uk/id/stockport/payment/2014-07/expenditure-line-4">
+	<rdf:type rdf:resource="http://reference.data.gov.uk/def/payment#ExpenditureLine"/>
+	<rdf:type rdf:resource="http://purl.org/linked-data/cube#Observation"/>
+	<rdfs:label>Expenditure line (July 2014): 4</rdfs:label>
+	<payment:payment rdf:resource="http://data.gmdsp.org.uk/id/stockport/payment/102032968e8"/>
+	<qb:dataSet rdf:resource="http://data.gmdsp.org.uk/id/stockport/expenditure"/>
+	<payment:netAmount>1162.35</payment:netAmount>
+	<payment:reference>1.02032968E8</payment:reference>
+	<payment:payer rdf:resource="http://opendatacommunities.org/id/metropolitan-district-council/stockport"/>
+	<payment:payee rdf:resource="http://data.gmdsp.org.uk/id/stockport/supplier/a-buckley-ltd-independent-care"/>
+	<payment:purchase>SUNDRY PAYMENTS</payment:purchase>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://data.gmdsp.org.uk/id/stockport/expenditure">
+	<qb:slice rdf:resource="http://data.gmdsp.org.uk/id/stockport/payment/102032969e8"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://data.gmdsp.org.uk/id/stockport/payment/102032969e8">
+	<rdf:type rdf:resource="http://reference.data.gov.uk/def/payment#Payment"/>
+	<rdf:type rdf:resource="http://purl.org/linked-data/cube#Slice"/>
+	<rdf:type rdf:resource="http://rdfs.org/ns/void#Dataset"/>
+	<rdfs:label>Transaction number 1.02032969E8</rdfs:label>
+	<payment:expenditureLine rdf:resource="http://data.gmdsp.org.uk/id/stockport/payment/2014-07/expenditure-line-5"/>
+	<payment:date rdf:resource="http://reference.data.gov.uk/id/day/2014-07-31"/>
+	<payment:unit rdf:resource="http://data.gmdsp.org.uk/id/stockport/payment/expense-area/adult-social-care"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://data.gmdsp.org.uk/id/stockport/payment/2014-07/expenditure-line-5">
+	<rdf:type rdf:resource="http://reference.data.gov.uk/def/payment#ExpenditureLine"/>
+	<rdf:type rdf:resource="http://purl.org/linked-data/cube#Observation"/>
+	<rdfs:label>Expenditure line (July 2014): 5</rdfs:label>
+	<payment:payment rdf:resource="http://data.gmdsp.org.uk/id/stockport/payment/102032969e8"/>
+	<qb:dataSet rdf:resource="http://data.gmdsp.org.uk/id/stockport/expenditure"/>
+	<payment:netAmount>1215.9</payment:netAmount>
+	<payment:reference>1.02032969E8</payment:reference>
+	<payment:payer rdf:resource="http://opendatacommunities.org/id/metropolitan-district-council/stockport"/>
+	<payment:payee rdf:resource="http://data.gmdsp.org.uk/id/stockport/supplier/a-buckley-ltd-independent-care"/>
+	<payment:purchase>SUNDRY PAYMENTS</payment:purchase>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://data.gmdsp.org.uk/id/stockport/payment/102025249e8">
+	<payment:expenditureLine rdf:resource="http://data.gmdsp.org.uk/id/stockport/payment/2014-07/expenditure-line-6"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://data.gmdsp.org.uk/id/stockport/payment/2014-07/expenditure-line-6">
+	<rdf:type rdf:resource="http://reference.data.gov.uk/def/payment#ExpenditureLine"/>
+	<rdf:type rdf:resource="http://purl.org/linked-data/cube#Observation"/>
+	<rdfs:label>Expenditure line (July 2014): 6</rdfs:label>
+	<payment:payment rdf:resource="http://data.gmdsp.org.uk/id/stockport/payment/102025249e8"/>
+	<qb:dataSet rdf:resource="http://data.gmdsp.org.uk/id/stockport/expenditure"/>
+	<payment:netAmount>2305.8</payment:netAmount>
+	<payment:reference>1.02025249E8</payment:reference>
+	<payment:payer rdf:resource="http://opendatacommunities.org/id/metropolitan-district-council/stockport"/>
+	<payment:payee rdf:resource="http://data.gmdsp.org.uk/id/stockport/supplier/a-buckley-ltd-independent-care"/>
+	<payment:purchase>SUNDRY PAYMENTS</payment:purchase>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://data.gmdsp.org.uk/id/stockport/payment/102032968e8">
+	<payment:expenditureLine rdf:resource="http://data.gmdsp.org.uk/id/stockport/payment/2014-07/expenditure-line-7"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://data.gmdsp.org.uk/id/stockport/payment/2014-07/expenditure-line-7">
+	<rdf:type rdf:resource="http://reference.data.gov.uk/def/payment#ExpenditureLine"/>
+	<rdf:type rdf:resource="http://purl.org/linked-data/cube#Observation"/>
+	<rdfs:label>Expenditure line (July 2014): 7</rdfs:label>
+	<payment:payment rdf:resource="http://data.gmdsp.org.uk/id/stockport/payment/102032968e8"/>
+	<qb:dataSet rdf:resource="http://data.gmdsp.org.uk/id/stockport/expenditure"/>
+	<payment:netAmount>2381.4</payment:netAmount>
+	<payment:reference>1.02032968E8</payment:reference>
+	<payment:payer rdf:resource="http://opendatacommunities.org/id/metropolitan-district-council/stockport"/>
+	<payment:payee rdf:resource="http://data.gmdsp.org.uk/id/stockport/supplier/a-buckley-ltd-independent-care"/>
+	<payment:purchase>SUNDRY PAYMENTS</payment:purchase>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://data.gmdsp.org.uk/id/stockport/payment/102032969e8">
+	<payment:expenditureLine rdf:resource="http://data.gmdsp.org.uk/id/stockport/payment/2014-07/expenditure-line-8"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://data.gmdsp.org.uk/id/stockport/payment/2014-07/expenditure-line-8">
+	<rdf:type rdf:resource="http://reference.data.gov.uk/def/payment#ExpenditureLine"/>
+	<rdf:type rdf:resource="http://purl.org/linked-data/cube#Observation"/>
+	<rdfs:label>Expenditure line (July 2014): 8</rdfs:label>
+	<payment:payment rdf:resource="http://data.gmdsp.org.uk/id/stockport/payment/102032969e8"/>
+	<qb:dataSet rdf:resource="http://data.gmdsp.org.uk/id/stockport/expenditure"/>
+	<payment:netAmount>2510.55</payment:netAmount>
+	<payment:reference>1.02032969E8</payment:reference>
+	<payment:payer rdf:resource="http://opendatacommunities.org/id/metropolitan-district-council/stockport"/>
+	<payment:payee rdf:resource="http://data.gmdsp.org.uk/id/stockport/supplier/a-buckley-ltd-independent-care"/>
+	<payment:purchase>SUNDRY PAYMENTS</payment:purchase>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://data.gmdsp.org.uk/id/stockport/payment/102025248e8">
+	<payment:expenditureLine rdf:resource="http://data.gmdsp.org.uk/id/stockport/payment/2014-07/expenditure-line-9"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://data.gmdsp.org.uk/id/stockport/payment/2014-07/expenditure-line-9">
+	<rdf:type rdf:resource="http://reference.data.gov.uk/def/payment#ExpenditureLine"/>
+	<rdf:type rdf:resource="http://purl.org/linked-data/cube#Observation"/>
+	<rdfs:label>Expenditure line (July 2014): 9</rdfs:label>
+	<payment:payment rdf:resource="http://data.gmdsp.org.uk/id/stockport/payment/102025248e8"/>
+	<qb:dataSet rdf:resource="http://data.gmdsp.org.uk/id/stockport/expenditure"/>
+	<payment:netAmount>2538.9</payment:netAmount>
+	<payment:reference>1.02025248E8</payment:reference>
+	<payment:payer rdf:resource="http://opendatacommunities.org/id/metropolitan-district-council/stockport"/>
+	<payment:payee rdf:resource="http://data.gmdsp.org.uk/id/stockport/supplier/a-buckley-ltd-independent-care"/>
+	<payment:purchase>SUNDRY PAYMENTS</payment:purchase>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://data.gmdsp.org.uk/id/stockport/expenditure">
+	<qb:slice rdf:resource="http://data.gmdsp.org.uk/id/stockport/payment/102030205e8"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://data.gmdsp.org.uk/id/stockport/payment/102030205e8">
+	<rdf:type rdf:resource="http://reference.data.gov.uk/def/payment#Payment"/>
+	<rdf:type rdf:resource="http://purl.org/linked-data/cube#Slice"/>
+	<rdf:type rdf:resource="http://rdfs.org/ns/void#Dataset"/>
+	<rdfs:label>Transaction number 1.02030205E8</rdfs:label>
+	<payment:expenditureLine rdf:resource="http://data.gmdsp.org.uk/id/stockport/payment/2014-07/expenditure-line-10"/>
+	<payment:date rdf:resource="http://reference.data.gov.uk/id/day/2014-07-31"/>
+	<payment:unit rdf:resource="http://data.gmdsp.org.uk/id/stockport/payment/expense-area/adult-social-care"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://data.gmdsp.org.uk/id/stockport/payment/2014-07/expenditure-line-10">
+	<rdf:type rdf:resource="http://reference.data.gov.uk/def/payment#ExpenditureLine"/>
+	<rdf:type rdf:resource="http://purl.org/linked-data/cube#Observation"/>
+	<rdfs:label>Expenditure line (July 2014): 10</rdfs:label>
+	<payment:payment rdf:resource="http://data.gmdsp.org.uk/id/stockport/payment/102030205e8"/>
+	<qb:dataSet rdf:resource="http://data.gmdsp.org.uk/id/stockport/expenditure"/>
+	<payment:netAmount>812.7</payment:netAmount>
+	<payment:reference>1.02030205E8</payment:reference>
+	<payment:payer rdf:resource="http://opendatacommunities.org/id/metropolitan-district-council/stockport"/>
+	<payment:payee rdf:resource="http://data.gmdsp.org.uk/id/stockport/supplier/a-buckley-ltd-independent-care"/>
+	<payment:purchase>SUNDRY PAYMENTS</payment:purchase>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://data.gmdsp.org.uk/id/stockport/expenditure">
+	<qb:slice rdf:resource="http://data.gmdsp.org.uk/id/stockport/payment/5100266567e9"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://data.gmdsp.org.uk/id/stockport/payment/5100266567e9">
+	<rdf:type rdf:resource="http://reference.data.gov.uk/def/payment#Payment"/>
+	<rdf:type rdf:resource="http://purl.org/linked-data/cube#Slice"/>
+	<rdf:type rdf:resource="http://rdfs.org/ns/void#Dataset"/>
+	<rdfs:label>Transaction number 5.100266567E9</rdfs:label>
+	<payment:expenditureLine rdf:resource="http://data.gmdsp.org.uk/id/stockport/payment/2014-07/expenditure-line-11"/>
+	<payment:date rdf:resource="http://reference.data.gov.uk/id/day/2014-07-31"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://data.gmdsp.org.uk/id/stockport/payment/expense-area/public-health-advice">
+	<rdfs:label xml:lang="en">PUBLIC HEALTH ADVICE</rdfs:label>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://data.gmdsp.org.uk/id/stockport/payment/5100266567e9">
+	<payment:unit rdf:resource="http://data.gmdsp.org.uk/id/stockport/payment/expense-area/public-health-advice"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://data.gmdsp.org.uk/id/stockport/payment/2014-07/expenditure-line-11">
+	<rdf:type rdf:resource="http://reference.data.gov.uk/def/payment#ExpenditureLine"/>
+	<rdf:type rdf:resource="http://purl.org/linked-data/cube#Observation"/>
+	<rdfs:label>Expenditure line (July 2014): 11</rdfs:label>
+	<payment:payment rdf:resource="http://data.gmdsp.org.uk/id/stockport/payment/5100266567e9"/>
+	<qb:dataSet rdf:resource="http://data.gmdsp.org.uk/id/stockport/expenditure"/>
+	<payment:netAmount>2480</payment:netAmount>
+	<payment:reference>5.100266567E9</payment:reference>
+	<payment:payer rdf:resource="http://opendatacommunities.org/id/metropolitan-district-council/stockport"/>
+	<payment:payee rdf:resource="http://data.gmdsp.org.uk/id/stockport/supplier/a-n-computing"/>
+	<payment:purchase>SUPPLIES &amp; SERVICES</payment:purchase>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://opendatacommunities.org/id/metropolitan-district-council/stockport">
+	<org:hasUnit rdf:resource="http://data.gmdsp.org.uk/id/stockport/payment/expense-area/public-health-advice"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://data.gmdsp.org.uk/id/stockport/payment/expense-area/public-health-advice">
+	<rdf:type rdf:resource="http://www.w3.org/ns/org#OrganizationalUnit"/>
+	<rdfs:label>PUBLIC HEALTH ADVICE</rdfs:label>
+	<org:unitOf rdf:resource="http://opendatacommunities.org/id/metropolitan-district-council/stockport"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://data.gmdsp.org.uk/id/stockport/supplier/a-n-computing">
+	<rdf:type rdf:resource="http://www.w3.org/ns/org#Organization"/>
+	<rdfs:label>A N COMPUTING</rdfs:label>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://data.gmdsp.org.uk/id/stockport/expenditure">
+	<qb:slice rdf:resource="http://data.gmdsp.org.uk/id/stockport/payment/1900495635e9"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://data.gmdsp.org.uk/id/stockport/payment/1900495635e9">
+	<rdf:type rdf:resource="http://reference.data.gov.uk/def/payment#Payment"/>
+	<rdf:type rdf:resource="http://purl.org/linked-data/cube#Slice"/>
+	<rdf:type rdf:resource="http://rdfs.org/ns/void#Dataset"/>
+	<rdfs:label>Transaction number 1.900495635E9</rdfs:label>
+	<payment:expenditureLine rdf:resource="http://data.gmdsp.org.uk/id/stockport/payment/2014-07/expenditure-line-12"/>
+	<payment:date rdf:resource="http://reference.data.gov.uk/id/day/2014-07-31"/>
+	<payment:unit rdf:resource="http://data.gmdsp.org.uk/id/stockport/payment/expense-area/childrens-educational-services-sea"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://data.gmdsp.org.uk/id/stockport/payment/2014-07/expenditure-line-12">
+	<rdf:type rdf:resource="http://reference.data.gov.uk/def/payment#ExpenditureLine"/>
+	<rdf:type rdf:resource="http://purl.org/linked-data/cube#Observation"/>
+	<rdfs:label>Expenditure line (July 2014): 12</rdfs:label>
+	<payment:payment rdf:resource="http://data.gmdsp.org.uk/id/stockport/payment/1900495635e9"/>
+	<qb:dataSet rdf:resource="http://data.gmdsp.org.uk/id/stockport/expenditure"/>
+	<payment:netAmount>1500</payment:netAmount>
+	<payment:reference>1.900495635E9</payment:reference>
+	<payment:payer rdf:resource="http://opendatacommunities.org/id/metropolitan-district-council/stockport"/>
+	<payment:payee rdf:resource="http://data.gmdsp.org.uk/id/stockport/supplier/a-stubbs-independent-social-work-ltd"/>
+	<payment:purchase>PREMISES RELATED</payment:purchase>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://data.gmdsp.org.uk/id/stockport/supplier/a-stubbs-independent-social-work-ltd">
+	<rdf:type rdf:resource="http://www.w3.org/ns/org#Organization"/>
+	<rdfs:label>A STUBBS INDEPENDENT SOCIAL WORK LTD</rdfs:label>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://data.gmdsp.org.uk/id/stockport/expenditure">
+	<qb:slice rdf:resource="http://data.gmdsp.org.uk/id/stockport/payment/1900494246e9"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://data.gmdsp.org.uk/id/stockport/payment/1900494246e9">
+	<rdf:type rdf:resource="http://reference.data.gov.uk/def/payment#Payment"/>
+	<rdf:type rdf:resource="http://purl.org/linked-data/cube#Slice"/>
+	<rdf:type rdf:resource="http://rdfs.org/ns/void#Dataset"/>
+	<rdfs:label>Transaction number 1.900494246E9</rdfs:label>
+	<payment:expenditureLine rdf:resource="http://data.gmdsp.org.uk/id/stockport/payment/2014-07/expenditure-line-13"/>
+	<payment:date rdf:resource="http://reference.data.gov.uk/id/day/2014-07-31"/>
+	<payment:unit rdf:resource="http://data.gmdsp.org.uk/id/stockport/payment/expense-area/childrens-educational-services-sea"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://data.gmdsp.org.uk/id/stockport/payment/2014-07/expenditure-line-13">
+	<rdf:type rdf:resource="http://reference.data.gov.uk/def/payment#ExpenditureLine"/>
+	<rdf:type rdf:resource="http://purl.org/linked-data/cube#Observation"/>
+	<rdfs:label>Expenditure line (July 2014): 13</rdfs:label>
+	<payment:payment rdf:resource="http://data.gmdsp.org.uk/id/stockport/payment/1900494246e9"/>
+	<qb:dataSet rdf:resource="http://data.gmdsp.org.uk/id/stockport/expenditure"/>
+	<payment:netAmount>592.39</payment:netAmount>
+	<payment:reference>1.900494246E9</payment:reference>
+	<payment:payer rdf:resource="http://opendatacommunities.org/id/metropolitan-district-council/stockport"/>
+	<payment:payee rdf:resource="http://data.gmdsp.org.uk/id/stockport/supplier/abacus-childrens-services-ltd"/>
+	<payment:purchase>PREMISES RELATED</payment:purchase>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://data.gmdsp.org.uk/id/stockport/supplier/abacus-childrens-services-ltd">
+	<rdf:type rdf:resource="http://www.w3.org/ns/org#Organization"/>
+	<rdfs:label>ABACUS CHILDRENS SERVICES LTD</rdfs:label>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://data.gmdsp.org.uk/id/stockport/expenditure">
+	<qb:slice rdf:resource="http://data.gmdsp.org.uk/id/stockport/payment/102032996e8"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://data.gmdsp.org.uk/id/stockport/payment/102032996e8">
+	<rdf:type rdf:resource="http://reference.data.gov.uk/def/payment#Payment"/>
+	<rdf:type rdf:resource="http://purl.org/linked-data/cube#Slice"/>
+	<rdf:type rdf:resource="http://rdfs.org/ns/void#Dataset"/>
+	<rdfs:label>Transaction number 1.02032996E8</rdfs:label>
+	<payment:expenditureLine rdf:resource="http://data.gmdsp.org.uk/id/stockport/payment/2014-07/expenditure-line-14"/>
+	<payment:date rdf:resource="http://reference.data.gov.uk/id/day/2014-07-31"/>
+	<payment:unit rdf:resource="http://data.gmdsp.org.uk/id/stockport/payment/expense-area/adult-social-care"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://data.gmdsp.org.uk/id/stockport/payment/2014-07/expenditure-line-14">
+	<rdf:type rdf:resource="http://reference.data.gov.uk/def/payment#ExpenditureLine"/>
+	<rdf:type rdf:resource="http://purl.org/linked-data/cube#Observation"/>
+	<rdfs:label>Expenditure line (July 2014): 14</rdfs:label>
+	<payment:payment rdf:resource="http://data.gmdsp.org.uk/id/stockport/payment/102032996e8"/>
+	<qb:dataSet rdf:resource="http://data.gmdsp.org.uk/id/stockport/expenditure"/>
+	<payment:netAmount>10224.9</payment:netAmount>
+	<payment:reference>1.02032996E8</payment:reference>
+	<payment:payer rdf:resource="http://opendatacommunities.org/id/metropolitan-district-council/stockport"/>
+	<payment:payee rdf:resource="http://data.gmdsp.org.uk/id/stockport/supplier/abacus-homecare"/>
+	<payment:purchase>SUNDRY PAYMENTS</payment:purchase>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://data.gmdsp.org.uk/id/stockport/supplier/abacus-homecare">
+	<rdf:type rdf:resource="http://www.w3.org/ns/org#Organization"/>
+	<rdfs:label>ABACUS HOMECARE</rdfs:label>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://data.gmdsp.org.uk/id/stockport/expenditure">
+	<qb:slice rdf:resource="http://data.gmdsp.org.uk/id/stockport/payment/102032997e8"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://data.gmdsp.org.uk/id/stockport/payment/102032997e8">
+	<rdf:type rdf:resource="http://reference.data.gov.uk/def/payment#Payment"/>
+	<rdf:type rdf:resource="http://purl.org/linked-data/cube#Slice"/>
+	<rdf:type rdf:resource="http://rdfs.org/ns/void#Dataset"/>
+	<rdfs:label>Transaction number 1.02032997E8</rdfs:label>
+	<payment:expenditureLine rdf:resource="http://data.gmdsp.org.uk/id/stockport/payment/2014-07/expenditure-line-15"/>
+	<payment:date rdf:resource="http://reference.data.gov.uk/id/day/2014-07-31"/>
+	<payment:unit rdf:resource="http://data.gmdsp.org.uk/id/stockport/payment/expense-area/adult-social-care"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://data.gmdsp.org.uk/id/stockport/payment/2014-07/expenditure-line-15">
+	<rdf:type rdf:resource="http://reference.data.gov.uk/def/payment#ExpenditureLine"/>
+	<rdf:type rdf:resource="http://purl.org/linked-data/cube#Observation"/>
+	<rdfs:label>Expenditure line (July 2014): 15</rdfs:label>
+	<payment:payment rdf:resource="http://data.gmdsp.org.uk/id/stockport/payment/102032997e8"/>
+	<qb:dataSet rdf:resource="http://data.gmdsp.org.uk/id/stockport/expenditure"/>
+	<payment:netAmount>10287.9</payment:netAmount>
+	<payment:reference>1.02032997E8</payment:reference>
+	<payment:payer rdf:resource="http://opendatacommunities.org/id/metropolitan-district-council/stockport"/>
+	<payment:payee rdf:resource="http://data.gmdsp.org.uk/id/stockport/supplier/abacus-homecare"/>
+	<payment:purchase>SUNDRY PAYMENTS</payment:purchase>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://data.gmdsp.org.uk/id/stockport/expenditure">
+	<qb:slice rdf:resource="http://data.gmdsp.org.uk/id/stockport/payment/102025276e8"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://data.gmdsp.org.uk/id/stockport/payment/102025276e8">
+	<rdf:type rdf:resource="http://reference.data.gov.uk/def/payment#Payment"/>
+	<rdf:type rdf:resource="http://purl.org/linked-data/cube#Slice"/>
+	<rdf:type rdf:resource="http://rdfs.org/ns/void#Dataset"/>
+	<rdfs:label>Transaction number 1.02025276E8</rdfs:label>
+	<payment:expenditureLine rdf:resource="http://data.gmdsp.org.uk/id/stockport/payment/2014-07/expenditure-line-16"/>
+	<payment:date rdf:resource="http://reference.data.gov.uk/id/day/2014-07-31"/>
+	<payment:unit rdf:resource="http://data.gmdsp.org.uk/id/stockport/payment/expense-area/adult-social-care"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://data.gmdsp.org.uk/id/stockport/payment/2014-07/expenditure-line-16">
+	<rdf:type rdf:resource="http://reference.data.gov.uk/def/payment#ExpenditureLine"/>
+	<rdf:type rdf:resource="http://purl.org/linked-data/cube#Observation"/>
+	<rdfs:label>Expenditure line (July 2014): 16</rdfs:label>
+	<payment:payment rdf:resource="http://data.gmdsp.org.uk/id/stockport/payment/102025276e8"/>
+	<qb:dataSet rdf:resource="http://data.gmdsp.org.uk/id/stockport/expenditure"/>
+	<payment:netAmount>10369.8</payment:netAmount>
+	<payment:reference>1.02025276E8</payment:reference>
+	<payment:payer rdf:resource="http://opendatacommunities.org/id/metropolitan-district-council/stockport"/>
+	<payment:payee rdf:resource="http://data.gmdsp.org.uk/id/stockport/supplier/abacus-homecare"/>
+	<payment:purchase>SUNDRY PAYMENTS</payment:purchase>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://data.gmdsp.org.uk/id/stockport/expenditure">
+	<qb:slice rdf:resource="http://data.gmdsp.org.uk/id/stockport/payment/102025277e8"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://data.gmdsp.org.uk/id/stockport/payment/102025277e8">
+	<rdf:type rdf:resource="http://reference.data.gov.uk/def/payment#Payment"/>
+	<rdf:type rdf:resource="http://purl.org/linked-data/cube#Slice"/>
+	<rdf:type rdf:resource="http://rdfs.org/ns/void#Dataset"/>
+	<rdfs:label>Transaction number 1.02025277E8</rdfs:label>
+	<payment:expenditureLine rdf:resource="http://data.gmdsp.org.uk/id/stockport/payment/2014-07/expenditure-line-17"/>
+	<payment:date rdf:resource="http://reference.data.gov.uk/id/day/2014-07-31"/>
+	<payment:unit rdf:resource="http://data.gmdsp.org.uk/id/stockport/payment/expense-area/adult-social-care"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://data.gmdsp.org.uk/id/stockport/payment/2014-07/expenditure-line-17">
+	<rdf:type rdf:resource="http://reference.data.gov.uk/def/payment#ExpenditureLine"/>
+	<rdf:type rdf:resource="http://purl.org/linked-data/cube#Observation"/>
+	<rdfs:label>Expenditure line (July 2014): 17</rdfs:label>
+	<payment:payment rdf:resource="http://data.gmdsp.org.uk/id/stockport/payment/102025277e8"/>
+	<qb:dataSet rdf:resource="http://data.gmdsp.org.uk/id/stockport/expenditure"/>
+	<payment:netAmount>10448.55</payment:netAmount>
+	<payment:reference>1.02025277E8</payment:reference>
+	<payment:payer rdf:resource="http://opendatacommunities.org/id/metropolitan-district-council/stockport"/>
+	<payment:payee rdf:resource="http://data.gmdsp.org.uk/id/stockport/supplier/abacus-homecare"/>
+	<payment:purchase>SUNDRY PAYMENTS</payment:purchase>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://data.gmdsp.org.uk/id/stockport/expenditure">
+	<qb:slice rdf:resource="http://data.gmdsp.org.uk/id/stockport/payment/102023711e8"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://data.gmdsp.org.uk/id/stockport/payment/102023711e8">
+	<rdf:type rdf:resource="http://reference.data.gov.uk/def/payment#Payment"/>
+	<rdf:type rdf:resource="http://purl.org/linked-data/cube#Slice"/>
+	<rdf:type rdf:resource="http://rdfs.org/ns/void#Dataset"/>
+	<rdfs:label>Transaction number 1.02023711E8</rdfs:label>
+	<payment:expenditureLine rdf:resource="http://data.gmdsp.org.uk/id/stockport/payment/2014-07/expenditure-line-18"/>
+	<payment:date rdf:resource="http://reference.data.gov.uk/id/day/2014-07-31"/>
+	<payment:unit rdf:resource="http://data.gmdsp.org.uk/id/stockport/payment/expense-area/adult-social-care"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://data.gmdsp.org.uk/id/stockport/payment/2014-07/expenditure-line-18">
+	<rdf:type rdf:resource="http://reference.data.gov.uk/def/payment#ExpenditureLine"/>
+	<rdf:type rdf:resource="http://purl.org/linked-data/cube#Observation"/>
+	<rdfs:label>Expenditure line (July 2014): 18</rdfs:label>
+	<payment:payment rdf:resource="http://data.gmdsp.org.uk/id/stockport/payment/102023711e8"/>
+	<qb:dataSet rdf:resource="http://data.gmdsp.org.uk/id/stockport/expenditure"/>
+	<payment:netAmount>1552.72</payment:netAmount>
+	<payment:reference>1.02023711E8</payment:reference>
+	<payment:payer rdf:resource="http://opendatacommunities.org/id/metropolitan-district-council/stockport"/>
+	<payment:payee rdf:resource="http://data.gmdsp.org.uk/id/stockport/supplier/abbotsford-care-home"/>
+	<payment:purchase>SUNDRY PAYMENTS</payment:purchase>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://data.gmdsp.org.uk/id/stockport/supplier/abbotsford-care-home">
+	<rdf:type rdf:resource="http://www.w3.org/ns/org#Organization"/>
+	<rdfs:label>ABBOTSFORD CARE HOME</rdfs:label>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://data.gmdsp.org.uk/id/stockport/expenditure">
+	<qb:slice rdf:resource="http://data.gmdsp.org.uk/id/stockport/payment/102032994e8"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://data.gmdsp.org.uk/id/stockport/payment/102032994e8">
+	<rdf:type rdf:resource="http://reference.data.gov.uk/def/payment#Payment"/>
+	<rdf:type rdf:resource="http://purl.org/linked-data/cube#Slice"/>
+	<rdf:type rdf:resource="http://rdfs.org/ns/void#Dataset"/>
+	<rdfs:label>Transaction number 1.02032994E8</rdfs:label>
+	<payment:expenditureLine rdf:resource="http://data.gmdsp.org.uk/id/stockport/payment/2014-07/expenditure-line-19"/>
+	<payment:date rdf:resource="http://reference.data.gov.uk/id/day/2014-07-31"/>
+	<payment:unit rdf:resource="http://data.gmdsp.org.uk/id/stockport/payment/expense-area/adult-social-care"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://data.gmdsp.org.uk/id/stockport/payment/2014-07/expenditure-line-19">
+	<rdf:type rdf:resource="http://reference.data.gov.uk/def/payment#ExpenditureLine"/>
+	<rdf:type rdf:resource="http://purl.org/linked-data/cube#Observation"/>
+	<rdfs:label>Expenditure line (July 2014): 19</rdfs:label>
+	<payment:payment rdf:resource="http://data.gmdsp.org.uk/id/stockport/payment/102032994e8"/>
+	<qb:dataSet rdf:resource="http://data.gmdsp.org.uk/id/stockport/expenditure"/>
+	<payment:netAmount>516.6</payment:netAmount>
+	<payment:reference>1.02032994E8</payment:reference>
+	<payment:payer rdf:resource="http://opendatacommunities.org/id/metropolitan-district-council/stockport"/>
+	<payment:payee rdf:resource="http://data.gmdsp.org.uk/id/stockport/supplier/a-best-nursing-and-care-ltd"/>
+	<payment:purchase>SUNDRY PAYMENTS</payment:purchase>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://data.gmdsp.org.uk/id/stockport/supplier/a-best-nursing-and-care-ltd">
+	<rdf:type rdf:resource="http://www.w3.org/ns/org#Organization"/>
+	<rdfs:label>A-BEST NURSING AND CARE LTD</rdfs:label>
+</rdf:Description>
+
+</rdf:RDF>
