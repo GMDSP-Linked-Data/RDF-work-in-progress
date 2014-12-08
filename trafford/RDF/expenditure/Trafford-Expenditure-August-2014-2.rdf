@@ -1,0 +1,612 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rdf:RDF
+	xmlns:dc="http://purl.org/dc/terms"
+	xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
+	xmlns:time="http://www.w3.org/2006/time#"
+	xmlns:interval="http://reference.data.gov.uk/def/intervals/"
+	xmlns:foaf="http://xmlns.com/foaf/0.1/"
+	xmlns:payment="http://reference.data.gov.uk/def/payment#"
+	xmlns:xsd="http://www.w3.org/2001/XMLSchema#"
+	xmlns:owl="http://www.w3.org/2002/07/owl#"
+	xmlns:void="http://rdfs.org/ns/void#"
+	xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+	xmlns:org="http://www.w3.org/ns/org#"
+	xmlns:qb="http://purl.org/linked-data/cube#">
+
+<rdf:Description rdf:about="http://data.gmdsp.org.uk/id/trafford/expenditure">
+	<rdf:type rdf:resource="http://reference.data.gov.uk/def/payment#PaymentDataset"/>
+	<rdf:type rdf:resource="http://rdfs.org/ns/void#Dataset"/>
+	<rdfs:label xml:lang="en">Spend data for Trafford</rdfs:label>
+	<qb:structure rdf:resource="http://reference.data.gov.uk/def/payment#payments-with-expenditure-structure"/>
+	<qb:sliceKey rdf:resource="http://reference.data.gov.uk/def/payment#payment-slice"/>
+	<payment:currency rdf:resource="http://dbpedia.org/resource/Pound_sterling"/>
+	<qb:slice rdf:resource="http://data.gmdsp.org.uk/id/trafford/payment/1901092258"/>
+	<void:vocabulary>http://reference.data.gov.uk/def/payment#</void:vocabulary>
+	<title xmlns="http://purl.org/dc/terms/" xml:lang="en">Spend data for Trafford</title>
+	<description xmlns="http://purl.org/dc/terms/" xml:lang="en">Spend data for transactions over £0 for Trafford</description>
+	<foaf:page rdf:resource="http://www.trafford.gov.uk/about-your-council/data-protection/open-data/open-data.aspx"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://data.gmdsp.org.uk/id/trafford/payment/1901092258">
+	<rdf:type rdf:resource="http://reference.data.gov.uk/def/payment#Payment"/>
+	<rdf:type rdf:resource="http://purl.org/linked-data/cube#Slice"/>
+	<rdf:type rdf:resource="http://rdfs.org/ns/void#Dataset"/>
+	<rdfs:label xml:lang="en">Transaction number 1901092258</rdfs:label>
+	<payment:expenditureLine rdf:resource="http://data.gmdsp.org.uk/id/trafford/payment/2014-08/expenditure-line-0"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://reference.data.gov.uk/id/day/2014-08-06">
+	<rdf:type rdf:resource="http://reference.data.gov.uk/def/intervals/CalendarDay"/>
+	<rdfs:label xml:lang="en">2014-08-06</rdfs:label>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://reference.data.gov.uk/id/gregorian-instant/2014-08-06">
+	<rdf:type rdf:resource="http://www.w3.org/2006/time#Instant"/>
+	<time:inXSDDate rdf:datatype="http://www.w3.org/2001/XMLSchema#date">2014-08-06</time:inXSDDate>
+	<rdfs:label>2014-08-06</rdfs:label>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://reference.data.gov.uk/id/day/2014-08-06">
+	<time:hasBeginning rdf:resource="http://reference.data.gov.uk/id/gregorian-instant/2014-08-06"/>
+	<interval:ordinalYear>2014</interval:ordinalYear>
+	<interval:ordinalMonthOfYear>08</interval:ordinalMonthOfYear>
+	<interval:ordinalDayOfMonth>06</interval:ordinalDayOfMonth>
+	<time:intervalDuring rdf:resource="http://reference.data.gov.uk/id/year/2014-08-06"/>
+	<time:intervalDuring rdf:resource="http://reference.data.gov.uk/id/month/2014-08"/>
+	<time:intervalDuring rdf:resource="http://reference.data.gov.uk/id/quarter/2014-Q3"/>
+	<time:intervalDuring rdf:resource="http://reference.data.gov.uk/id/half/2014-H2"/>
+	<time:intervalDuring rdf:resource="http://reference.data.gov.uk/id/government-year/2014-2015"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://data.gmdsp.org.uk/id/trafford/payment/1901092258">
+	<payment:date rdf:resource="http://reference.data.gov.uk/id/day/2014-08-06"/>
+	<payment:unit rdf:resource="http://data.gmdsp.org.uk/id/trafford/payment/expense-area/ascot-house"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://data.gmdsp.org.uk/id/trafford/payment/2014-08/expenditure-line-0">
+	<rdf:type rdf:resource="http://reference.data.gov.uk/def/payment#ExpenditureLine"/>
+	<rdf:type rdf:resource="http://purl.org/linked-data/cube#Observation"/>
+	<rdfs:label xml:lang="en">Expenditure line (August 2014): 0</rdfs:label>
+	<payment:payment rdf:resource="http://data.gmdsp.org.uk/id/trafford/payment/1901092258"/>
+	<qb:dataSet rdf:resource="http://data.gmdsp.org.uk/id/trafford/expenditure"/>
+	<payment:netAmount>6.6</payment:netAmount>
+	<payment:reference>1901092258</payment:reference>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://opendatacommunities.org/id/metropolitan-district-council/trafford">
+	<rdf:type rdf:resource="http://opendatacommunities.org/def/local-government/MetropolitanDistrictCouncil"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://data.gmdsp.org.uk/id/trafford/payment/2014-08/expenditure-line-0">
+	<payment:payer rdf:resource="http://opendatacommunities.org/id/metropolitan-district-council/trafford"/>
+	<payment:payee rdf:resource="http://data.gmdsp.org.uk/id/trafford/supplier/366422-ascot-house-imprest"/>
+	<payment:expenditureCode>201000</payment:expenditureCode>
+	<payment:purchase>NEW FIXTURES AND FIT</payment:purchase>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://opendatacommunities.org/id/metropolitan-district-council/trafford">
+	<rdf:type rdf:resource="http://www.w3.org/ns/org#FormalOrganization"/>
+	<rdfs:label xml:lang="en">Trafford Metropolitan Borough Council</rdfs:label>
+	<org:hasUnit rdf:resource="http://data.gmdsp.org.uk/id/trafford/payment/expense-area/ascot-house"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://data.gmdsp.org.uk/id/trafford/payment/expense-area/ascot-house">
+	<rdf:type rdf:resource="http://www.w3.org/ns/org#OrganizationalUnit"/>
+	<rdfs:label xml:lang="en">ASCOT HOUSE</rdfs:label>
+	<org:unitOf rdf:resource="http://opendatacommunities.org/id/metropolitan-district-council/trafford"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://data.gmdsp.org.uk/id/trafford/supplier/366422-ascot-house-imprest">
+	<rdf:type rdf:resource="http://www.w3.org/ns/org#Organization"/>
+	<rdfs:label xml:lang="en">366422 ASCOT HOUSE IMPREST</rdfs:label>
+	<org:identifier>1005</org:identifier>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://data.gmdsp.org.uk/id/trafford/payment/1901092258">
+	<payment:expenditureLine rdf:resource="http://data.gmdsp.org.uk/id/trafford/payment/2014-08/expenditure-line-1"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://data.gmdsp.org.uk/id/trafford/payment/2014-08/expenditure-line-1">
+	<rdf:type rdf:resource="http://reference.data.gov.uk/def/payment#ExpenditureLine"/>
+	<rdf:type rdf:resource="http://purl.org/linked-data/cube#Observation"/>
+	<rdfs:label xml:lang="en">Expenditure line (August 2014): 1</rdfs:label>
+	<payment:payment rdf:resource="http://data.gmdsp.org.uk/id/trafford/payment/1901092258"/>
+	<qb:dataSet rdf:resource="http://data.gmdsp.org.uk/id/trafford/expenditure"/>
+	<payment:netAmount>95.36</payment:netAmount>
+	<payment:reference>1901092258</payment:reference>
+	<payment:payer rdf:resource="http://opendatacommunities.org/id/metropolitan-district-council/trafford"/>
+	<payment:payee rdf:resource="http://data.gmdsp.org.uk/id/trafford/supplier/366422-ascot-house-imprest"/>
+	<payment:expenditureCode>220100</payment:expenditureCode>
+	<payment:purchase>CATERING PROVISIONS</payment:purchase>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://data.gmdsp.org.uk/id/trafford/payment/1901092258">
+	<payment:expenditureLine rdf:resource="http://data.gmdsp.org.uk/id/trafford/payment/2014-08/expenditure-line-2"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://data.gmdsp.org.uk/id/trafford/payment/2014-08/expenditure-line-2">
+	<rdf:type rdf:resource="http://reference.data.gov.uk/def/payment#ExpenditureLine"/>
+	<rdf:type rdf:resource="http://purl.org/linked-data/cube#Observation"/>
+	<rdfs:label xml:lang="en">Expenditure line (August 2014): 2</rdfs:label>
+	<payment:payment rdf:resource="http://data.gmdsp.org.uk/id/trafford/payment/1901092258"/>
+	<qb:dataSet rdf:resource="http://data.gmdsp.org.uk/id/trafford/expenditure"/>
+	<payment:netAmount>36.25</payment:netAmount>
+	<payment:reference>1901092258</payment:reference>
+	<payment:payer rdf:resource="http://opendatacommunities.org/id/metropolitan-district-council/trafford"/>
+	<payment:payee rdf:resource="http://data.gmdsp.org.uk/id/trafford/supplier/366422-ascot-house-imprest"/>
+	<payment:expenditureCode>220048</payment:expenditureCode>
+	<payment:purchase>EQUIPMENT - PURCHASE</payment:purchase>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://data.gmdsp.org.uk/id/trafford/payment/1901092258">
+	<payment:expenditureLine rdf:resource="http://data.gmdsp.org.uk/id/trafford/payment/2014-08/expenditure-line-3"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://data.gmdsp.org.uk/id/trafford/payment/2014-08/expenditure-line-3">
+	<rdf:type rdf:resource="http://reference.data.gov.uk/def/payment#ExpenditureLine"/>
+	<rdf:type rdf:resource="http://purl.org/linked-data/cube#Observation"/>
+	<rdfs:label xml:lang="en">Expenditure line (August 2014): 3</rdfs:label>
+	<payment:payment rdf:resource="http://data.gmdsp.org.uk/id/trafford/payment/1901092258"/>
+	<qb:dataSet rdf:resource="http://data.gmdsp.org.uk/id/trafford/expenditure"/>
+	<payment:netAmount>7.79</payment:netAmount>
+	<payment:reference>1901092258</payment:reference>
+	<payment:payer rdf:resource="http://opendatacommunities.org/id/metropolitan-district-council/trafford"/>
+	<payment:payee rdf:resource="http://data.gmdsp.org.uk/id/trafford/supplier/366422-ascot-house-imprest"/>
+	<payment:expenditureCode>201130</payment:expenditureCode>
+	<payment:purchase>CLEANING MATERIALS</payment:purchase>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://data.gmdsp.org.uk/id/trafford/payment/1901092258">
+	<payment:expenditureLine rdf:resource="http://data.gmdsp.org.uk/id/trafford/payment/2014-08/expenditure-line-4"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://data.gmdsp.org.uk/id/trafford/payment/2014-08/expenditure-line-4">
+	<rdf:type rdf:resource="http://reference.data.gov.uk/def/payment#ExpenditureLine"/>
+	<rdf:type rdf:resource="http://purl.org/linked-data/cube#Observation"/>
+	<rdfs:label xml:lang="en">Expenditure line (August 2014): 4</rdfs:label>
+	<payment:payment rdf:resource="http://data.gmdsp.org.uk/id/trafford/payment/1901092258"/>
+	<qb:dataSet rdf:resource="http://data.gmdsp.org.uk/id/trafford/expenditure"/>
+	<payment:netAmount>5.0</payment:netAmount>
+	<payment:reference>1901092258</payment:reference>
+	<payment:payer rdf:resource="http://opendatacommunities.org/id/metropolitan-district-council/trafford"/>
+	<payment:payee rdf:resource="http://data.gmdsp.org.uk/id/trafford/supplier/366422-ascot-house-imprest"/>
+	<payment:expenditureCode>201000</payment:expenditureCode>
+	<payment:purchase>NEW FIXTURES AND FIT</payment:purchase>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://data.gmdsp.org.uk/id/trafford/payment/1901092258">
+	<payment:expenditureLine rdf:resource="http://data.gmdsp.org.uk/id/trafford/payment/2014-08/expenditure-line-5"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://data.gmdsp.org.uk/id/trafford/payment/2014-08/expenditure-line-5">
+	<rdf:type rdf:resource="http://reference.data.gov.uk/def/payment#ExpenditureLine"/>
+	<rdf:type rdf:resource="http://purl.org/linked-data/cube#Observation"/>
+	<rdfs:label xml:lang="en">Expenditure line (August 2014): 5</rdfs:label>
+	<payment:payment rdf:resource="http://data.gmdsp.org.uk/id/trafford/payment/1901092258"/>
+	<qb:dataSet rdf:resource="http://data.gmdsp.org.uk/id/trafford/expenditure"/>
+	<payment:netAmount>91.96</payment:netAmount>
+	<payment:reference>1901092258</payment:reference>
+	<payment:payer rdf:resource="http://opendatacommunities.org/id/metropolitan-district-council/trafford"/>
+	<payment:payee rdf:resource="http://data.gmdsp.org.uk/id/trafford/supplier/366422-ascot-house-imprest"/>
+	<payment:expenditureCode>220002</payment:expenditureCode>
+	<payment:purchase>FURNITURE PURCHASE</payment:purchase>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://data.gmdsp.org.uk/id/trafford/payment/1901092258">
+	<payment:expenditureLine rdf:resource="http://data.gmdsp.org.uk/id/trafford/payment/2014-08/expenditure-line-6"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://data.gmdsp.org.uk/id/trafford/payment/2014-08/expenditure-line-6">
+	<rdf:type rdf:resource="http://reference.data.gov.uk/def/payment#ExpenditureLine"/>
+	<rdf:type rdf:resource="http://purl.org/linked-data/cube#Observation"/>
+	<rdfs:label xml:lang="en">Expenditure line (August 2014): 6</rdfs:label>
+	<payment:payment rdf:resource="http://data.gmdsp.org.uk/id/trafford/payment/1901092258"/>
+	<qb:dataSet rdf:resource="http://data.gmdsp.org.uk/id/trafford/expenditure"/>
+	<payment:netAmount>2.47</payment:netAmount>
+	<payment:reference>1901092258</payment:reference>
+	<payment:payer rdf:resource="http://opendatacommunities.org/id/metropolitan-district-council/trafford"/>
+	<payment:payee rdf:resource="http://data.gmdsp.org.uk/id/trafford/supplier/366422-ascot-house-imprest"/>
+	<payment:expenditureCode>201000</payment:expenditureCode>
+	<payment:purchase>NEW FIXTURES AND FIT</payment:purchase>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://data.gmdsp.org.uk/id/trafford/payment/1901092258">
+	<payment:expenditureLine rdf:resource="http://data.gmdsp.org.uk/id/trafford/payment/2014-08/expenditure-line-7"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://data.gmdsp.org.uk/id/trafford/payment/2014-08/expenditure-line-7">
+	<rdf:type rdf:resource="http://reference.data.gov.uk/def/payment#ExpenditureLine"/>
+	<rdf:type rdf:resource="http://purl.org/linked-data/cube#Observation"/>
+	<rdfs:label xml:lang="en">Expenditure line (August 2014): 7</rdfs:label>
+	<payment:payment rdf:resource="http://data.gmdsp.org.uk/id/trafford/payment/1901092258"/>
+	<qb:dataSet rdf:resource="http://data.gmdsp.org.uk/id/trafford/expenditure"/>
+	<payment:netAmount>48.19</payment:netAmount>
+	<payment:reference>1901092258</payment:reference>
+	<payment:payer rdf:resource="http://opendatacommunities.org/id/metropolitan-district-council/trafford"/>
+	<payment:payee rdf:resource="http://data.gmdsp.org.uk/id/trafford/supplier/366422-ascot-house-imprest"/>
+	<payment:expenditureCode>220515</payment:expenditureCode>
+	<payment:purchase>POSTAGES</payment:purchase>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://data.gmdsp.org.uk/id/trafford/payment/1901092258">
+	<payment:expenditureLine rdf:resource="http://data.gmdsp.org.uk/id/trafford/payment/2014-08/expenditure-line-8"/>
+	<payment:unit rdf:resource="http://data.gmdsp.org.uk/id/trafford/payment/expense-area/network-supp-livin"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://data.gmdsp.org.uk/id/trafford/payment/2014-08/expenditure-line-8">
+	<rdf:type rdf:resource="http://reference.data.gov.uk/def/payment#ExpenditureLine"/>
+	<rdf:type rdf:resource="http://purl.org/linked-data/cube#Observation"/>
+	<rdfs:label xml:lang="en">Expenditure line (August 2014): 8</rdfs:label>
+	<payment:payment rdf:resource="http://data.gmdsp.org.uk/id/trafford/payment/1901092258"/>
+	<qb:dataSet rdf:resource="http://data.gmdsp.org.uk/id/trafford/expenditure"/>
+	<payment:netAmount>45.07</payment:netAmount>
+	<payment:reference>1901092258</payment:reference>
+	<payment:payer rdf:resource="http://opendatacommunities.org/id/metropolitan-district-council/trafford"/>
+	<payment:payee rdf:resource="http://data.gmdsp.org.uk/id/trafford/supplier/366422-ascot-house-imprest"/>
+	<payment:expenditureCode>220515</payment:expenditureCode>
+	<payment:purchase>POSTAGES</payment:purchase>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://opendatacommunities.org/id/metropolitan-district-council/trafford">
+	<org:hasUnit rdf:resource="http://data.gmdsp.org.uk/id/trafford/payment/expense-area/network-supp-livin"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://data.gmdsp.org.uk/id/trafford/payment/expense-area/network-supp-livin">
+	<rdf:type rdf:resource="http://www.w3.org/ns/org#OrganizationalUnit"/>
+	<rdfs:label xml:lang="en">NETWORK - SUPP LIVIN</rdfs:label>
+	<org:unitOf rdf:resource="http://opendatacommunities.org/id/metropolitan-district-council/trafford"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://data.gmdsp.org.uk/id/trafford/payment/1901092258">
+	<payment:expenditureLine rdf:resource="http://data.gmdsp.org.uk/id/trafford/payment/2014-08/expenditure-line-9"/>
+	<payment:unit rdf:resource="http://data.gmdsp.org.uk/id/trafford/payment/expense-area/rapid-reponse-team"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://data.gmdsp.org.uk/id/trafford/payment/2014-08/expenditure-line-9">
+	<rdf:type rdf:resource="http://reference.data.gov.uk/def/payment#ExpenditureLine"/>
+	<rdf:type rdf:resource="http://purl.org/linked-data/cube#Observation"/>
+	<rdfs:label xml:lang="en">Expenditure line (August 2014): 9</rdfs:label>
+	<payment:payment rdf:resource="http://data.gmdsp.org.uk/id/trafford/payment/1901092258"/>
+	<qb:dataSet rdf:resource="http://data.gmdsp.org.uk/id/trafford/expenditure"/>
+	<payment:netAmount>10.9</payment:netAmount>
+	<payment:reference>1901092258</payment:reference>
+	<payment:payer rdf:resource="http://opendatacommunities.org/id/metropolitan-district-council/trafford"/>
+	<payment:payee rdf:resource="http://data.gmdsp.org.uk/id/trafford/supplier/366422-ascot-house-imprest"/>
+	<payment:expenditureCode>220515</payment:expenditureCode>
+	<payment:purchase>POSTAGES</payment:purchase>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://opendatacommunities.org/id/metropolitan-district-council/trafford">
+	<org:hasUnit rdf:resource="http://data.gmdsp.org.uk/id/trafford/payment/expense-area/rapid-reponse-team"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://data.gmdsp.org.uk/id/trafford/payment/expense-area/rapid-reponse-team">
+	<rdf:type rdf:resource="http://www.w3.org/ns/org#OrganizationalUnit"/>
+	<rdfs:label xml:lang="en">Rapid Reponse Team</rdfs:label>
+	<org:unitOf rdf:resource="http://opendatacommunities.org/id/metropolitan-district-council/trafford"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://data.gmdsp.org.uk/id/trafford/expenditure">
+	<qb:slice rdf:resource="http://data.gmdsp.org.uk/id/trafford/payment/1901091967"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://data.gmdsp.org.uk/id/trafford/payment/1901091967">
+	<rdf:type rdf:resource="http://reference.data.gov.uk/def/payment#Payment"/>
+	<rdf:type rdf:resource="http://purl.org/linked-data/cube#Slice"/>
+	<rdf:type rdf:resource="http://rdfs.org/ns/void#Dataset"/>
+	<rdfs:label xml:lang="en">Transaction number 1901091967</rdfs:label>
+	<payment:expenditureLine rdf:resource="http://data.gmdsp.org.uk/id/trafford/payment/2014-08/expenditure-line-10"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://reference.data.gov.uk/id/day/2014-08-04">
+	<rdf:type rdf:resource="http://reference.data.gov.uk/def/intervals/CalendarDay"/>
+	<rdfs:label xml:lang="en">2014-08-04</rdfs:label>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://reference.data.gov.uk/id/gregorian-instant/2014-08-04">
+	<rdf:type rdf:resource="http://www.w3.org/2006/time#Instant"/>
+	<time:inXSDDate rdf:datatype="http://www.w3.org/2001/XMLSchema#date">2014-08-04</time:inXSDDate>
+	<rdfs:label>2014-08-04</rdfs:label>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://reference.data.gov.uk/id/day/2014-08-04">
+	<time:hasBeginning rdf:resource="http://reference.data.gov.uk/id/gregorian-instant/2014-08-04"/>
+	<interval:ordinalYear>2014</interval:ordinalYear>
+	<interval:ordinalMonthOfYear>08</interval:ordinalMonthOfYear>
+	<interval:ordinalDayOfMonth>04</interval:ordinalDayOfMonth>
+	<time:intervalDuring rdf:resource="http://reference.data.gov.uk/id/year/2014-08-04"/>
+	<time:intervalDuring rdf:resource="http://reference.data.gov.uk/id/month/2014-08"/>
+	<time:intervalDuring rdf:resource="http://reference.data.gov.uk/id/quarter/2014-Q3"/>
+	<time:intervalDuring rdf:resource="http://reference.data.gov.uk/id/half/2014-H2"/>
+	<time:intervalDuring rdf:resource="http://reference.data.gov.uk/id/government-year/2014-2015"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://data.gmdsp.org.uk/id/trafford/payment/1901091967">
+	<payment:date rdf:resource="http://reference.data.gov.uk/id/day/2014-08-04"/>
+	<payment:unit rdf:resource="http://data.gmdsp.org.uk/id/trafford/payment/expense-area/leaving-care-team"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://data.gmdsp.org.uk/id/trafford/payment/2014-08/expenditure-line-10">
+	<rdf:type rdf:resource="http://reference.data.gov.uk/def/payment#ExpenditureLine"/>
+	<rdf:type rdf:resource="http://purl.org/linked-data/cube#Observation"/>
+	<rdfs:label xml:lang="en">Expenditure line (August 2014): 10</rdfs:label>
+	<payment:payment rdf:resource="http://data.gmdsp.org.uk/id/trafford/payment/1901091967"/>
+	<qb:dataSet rdf:resource="http://data.gmdsp.org.uk/id/trafford/expenditure"/>
+	<payment:netAmount>1568.62</payment:netAmount>
+	<payment:reference>1901091967</payment:reference>
+	<payment:payer rdf:resource="http://opendatacommunities.org/id/metropolitan-district-council/trafford"/>
+	<payment:payee rdf:resource="http://data.gmdsp.org.uk/id/trafford/supplier/adolescent-resource-centre"/>
+	<payment:expenditureCode>230849</payment:expenditureCode>
+	<payment:purchase>BOARDED OUT SEC23</payment:purchase>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://opendatacommunities.org/id/metropolitan-district-council/trafford">
+	<org:hasUnit rdf:resource="http://data.gmdsp.org.uk/id/trafford/payment/expense-area/leaving-care-team"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://data.gmdsp.org.uk/id/trafford/payment/expense-area/leaving-care-team">
+	<rdf:type rdf:resource="http://www.w3.org/ns/org#OrganizationalUnit"/>
+	<rdfs:label xml:lang="en">LEAVING CARE TEAM</rdfs:label>
+	<org:unitOf rdf:resource="http://opendatacommunities.org/id/metropolitan-district-council/trafford"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://data.gmdsp.org.uk/id/trafford/supplier/adolescent-resource-centre">
+	<rdf:type rdf:resource="http://www.w3.org/ns/org#Organization"/>
+	<rdfs:label xml:lang="en">ADOLESCENT RESOURCE CENTRE</rdfs:label>
+	<org:identifier>1008</org:identifier>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://data.gmdsp.org.uk/id/trafford/payment/1901091967">
+	<payment:expenditureLine rdf:resource="http://data.gmdsp.org.uk/id/trafford/payment/2014-08/expenditure-line-11"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://data.gmdsp.org.uk/id/trafford/payment/2014-08/expenditure-line-11">
+	<rdf:type rdf:resource="http://reference.data.gov.uk/def/payment#ExpenditureLine"/>
+	<rdf:type rdf:resource="http://purl.org/linked-data/cube#Observation"/>
+	<rdfs:label xml:lang="en">Expenditure line (August 2014): 11</rdfs:label>
+	<payment:payment rdf:resource="http://data.gmdsp.org.uk/id/trafford/payment/1901091967"/>
+	<qb:dataSet rdf:resource="http://data.gmdsp.org.uk/id/trafford/expenditure"/>
+	<payment:netAmount>430.15</payment:netAmount>
+	<payment:reference>1901091967</payment:reference>
+	<payment:payer rdf:resource="http://opendatacommunities.org/id/metropolitan-district-council/trafford"/>
+	<payment:payee rdf:resource="http://data.gmdsp.org.uk/id/trafford/supplier/adolescent-resource-centre"/>
+	<payment:expenditureCode>220412</payment:expenditureCode>
+	<payment:purchase>CLIENTS PERS NEEDS</payment:purchase>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://data.gmdsp.org.uk/id/trafford/payment/1901091967">
+	<payment:expenditureLine rdf:resource="http://data.gmdsp.org.uk/id/trafford/payment/2014-08/expenditure-line-12"/>
+	<payment:unit rdf:resource="http://data.gmdsp.org.uk/id/trafford/payment/expense-area/perm-team-clients"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://data.gmdsp.org.uk/id/trafford/payment/2014-08/expenditure-line-12">
+	<rdf:type rdf:resource="http://reference.data.gov.uk/def/payment#ExpenditureLine"/>
+	<rdf:type rdf:resource="http://purl.org/linked-data/cube#Observation"/>
+	<rdfs:label xml:lang="en">Expenditure line (August 2014): 12</rdfs:label>
+	<payment:payment rdf:resource="http://data.gmdsp.org.uk/id/trafford/payment/1901091967"/>
+	<qb:dataSet rdf:resource="http://data.gmdsp.org.uk/id/trafford/expenditure"/>
+	<payment:netAmount>371.27</payment:netAmount>
+	<payment:reference>1901091967</payment:reference>
+	<payment:payer rdf:resource="http://opendatacommunities.org/id/metropolitan-district-council/trafford"/>
+	<payment:payee rdf:resource="http://data.gmdsp.org.uk/id/trafford/supplier/adolescent-resource-centre"/>
+	<payment:expenditureCode>220412</payment:expenditureCode>
+	<payment:purchase>CLIENTS PERS NEEDS</payment:purchase>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://opendatacommunities.org/id/metropolitan-district-council/trafford">
+	<org:hasUnit rdf:resource="http://data.gmdsp.org.uk/id/trafford/payment/expense-area/perm-team-clients"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://data.gmdsp.org.uk/id/trafford/payment/expense-area/perm-team-clients">
+	<rdf:type rdf:resource="http://www.w3.org/ns/org#OrganizationalUnit"/>
+	<rdfs:label xml:lang="en">PERM TEAM: CLIENTS</rdfs:label>
+	<org:unitOf rdf:resource="http://opendatacommunities.org/id/metropolitan-district-council/trafford"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://data.gmdsp.org.uk/id/trafford/payment/1901091967">
+	<payment:expenditureLine rdf:resource="http://data.gmdsp.org.uk/id/trafford/payment/2014-08/expenditure-line-13"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://data.gmdsp.org.uk/id/trafford/payment/2014-08/expenditure-line-13">
+	<rdf:type rdf:resource="http://reference.data.gov.uk/def/payment#ExpenditureLine"/>
+	<rdf:type rdf:resource="http://purl.org/linked-data/cube#Observation"/>
+	<rdfs:label xml:lang="en">Expenditure line (August 2014): 13</rdfs:label>
+	<payment:payment rdf:resource="http://data.gmdsp.org.uk/id/trafford/payment/1901091967"/>
+	<qb:dataSet rdf:resource="http://data.gmdsp.org.uk/id/trafford/expenditure"/>
+	<payment:netAmount>439.05</payment:netAmount>
+	<payment:reference>1901091967</payment:reference>
+	<payment:payer rdf:resource="http://opendatacommunities.org/id/metropolitan-district-council/trafford"/>
+	<payment:payee rdf:resource="http://data.gmdsp.org.uk/id/trafford/supplier/adolescent-resource-centre"/>
+	<payment:expenditureCode>220828</payment:expenditureCode>
+	<payment:purchase>FAM CONT PERS NEEDS</payment:purchase>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://data.gmdsp.org.uk/id/trafford/payment/1901091967">
+	<payment:expenditureLine rdf:resource="http://data.gmdsp.org.uk/id/trafford/payment/2014-08/expenditure-line-14"/>
+	<payment:unit rdf:resource="http://data.gmdsp.org.uk/id/trafford/payment/expense-area/adoption-client"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://data.gmdsp.org.uk/id/trafford/payment/2014-08/expenditure-line-14">
+	<rdf:type rdf:resource="http://reference.data.gov.uk/def/payment#ExpenditureLine"/>
+	<rdf:type rdf:resource="http://purl.org/linked-data/cube#Observation"/>
+	<rdfs:label xml:lang="en">Expenditure line (August 2014): 14</rdfs:label>
+	<payment:payment rdf:resource="http://data.gmdsp.org.uk/id/trafford/payment/1901091967"/>
+	<qb:dataSet rdf:resource="http://data.gmdsp.org.uk/id/trafford/expenditure"/>
+	<payment:netAmount>15.0</payment:netAmount>
+	<payment:reference>1901091967</payment:reference>
+	<payment:payer rdf:resource="http://opendatacommunities.org/id/metropolitan-district-council/trafford"/>
+	<payment:payee rdf:resource="http://data.gmdsp.org.uk/id/trafford/supplier/adolescent-resource-centre"/>
+	<payment:expenditureCode>220828</payment:expenditureCode>
+	<payment:purchase>FAM CONT PERS NEEDS</payment:purchase>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://opendatacommunities.org/id/metropolitan-district-council/trafford">
+	<org:hasUnit rdf:resource="http://data.gmdsp.org.uk/id/trafford/payment/expense-area/adoption-client"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://data.gmdsp.org.uk/id/trafford/payment/expense-area/adoption-client">
+	<rdf:type rdf:resource="http://www.w3.org/ns/org#OrganizationalUnit"/>
+	<rdfs:label xml:lang="en">ADOPTION : CLIENT</rdfs:label>
+	<org:unitOf rdf:resource="http://opendatacommunities.org/id/metropolitan-district-council/trafford"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://data.gmdsp.org.uk/id/trafford/payment/1901091967">
+	<payment:expenditureLine rdf:resource="http://data.gmdsp.org.uk/id/trafford/payment/2014-08/expenditure-line-15"/>
+	<payment:unit rdf:resource="http://data.gmdsp.org.uk/id/trafford/payment/expense-area/treatment-foster"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://data.gmdsp.org.uk/id/trafford/payment/2014-08/expenditure-line-15">
+	<rdf:type rdf:resource="http://reference.data.gov.uk/def/payment#ExpenditureLine"/>
+	<rdf:type rdf:resource="http://purl.org/linked-data/cube#Observation"/>
+	<rdfs:label xml:lang="en">Expenditure line (August 2014): 15</rdfs:label>
+	<payment:payment rdf:resource="http://data.gmdsp.org.uk/id/trafford/payment/1901091967"/>
+	<qb:dataSet rdf:resource="http://data.gmdsp.org.uk/id/trafford/expenditure"/>
+	<payment:netAmount>164.08</payment:netAmount>
+	<payment:reference>1901091967</payment:reference>
+	<payment:payer rdf:resource="http://opendatacommunities.org/id/metropolitan-district-council/trafford"/>
+	<payment:payee rdf:resource="http://data.gmdsp.org.uk/id/trafford/supplier/adolescent-resource-centre"/>
+	<payment:expenditureCode>220412</payment:expenditureCode>
+	<payment:purchase>CLIENTS PERS NEEDS</payment:purchase>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://opendatacommunities.org/id/metropolitan-district-council/trafford">
+	<org:hasUnit rdf:resource="http://data.gmdsp.org.uk/id/trafford/payment/expense-area/treatment-foster"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://data.gmdsp.org.uk/id/trafford/payment/expense-area/treatment-foster">
+	<rdf:type rdf:resource="http://www.w3.org/ns/org#OrganizationalUnit"/>
+	<rdfs:label xml:lang="en">TREATMENT FOSTER</rdfs:label>
+	<org:unitOf rdf:resource="http://opendatacommunities.org/id/metropolitan-district-council/trafford"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://data.gmdsp.org.uk/id/trafford/payment/1901091967">
+	<payment:expenditureLine rdf:resource="http://data.gmdsp.org.uk/id/trafford/payment/2014-08/expenditure-line-16"/>
+	<payment:unit rdf:resource="http://data.gmdsp.org.uk/id/trafford/payment/expense-area/intensive-fostering"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://data.gmdsp.org.uk/id/trafford/payment/2014-08/expenditure-line-16">
+	<rdf:type rdf:resource="http://reference.data.gov.uk/def/payment#ExpenditureLine"/>
+	<rdf:type rdf:resource="http://purl.org/linked-data/cube#Observation"/>
+	<rdfs:label xml:lang="en">Expenditure line (August 2014): 16</rdfs:label>
+	<payment:payment rdf:resource="http://data.gmdsp.org.uk/id/trafford/payment/1901091967"/>
+	<qb:dataSet rdf:resource="http://data.gmdsp.org.uk/id/trafford/expenditure"/>
+	<payment:netAmount>10.0</payment:netAmount>
+	<payment:reference>1901091967</payment:reference>
+	<payment:payer rdf:resource="http://opendatacommunities.org/id/metropolitan-district-council/trafford"/>
+	<payment:payee rdf:resource="http://data.gmdsp.org.uk/id/trafford/supplier/adolescent-resource-centre"/>
+	<payment:expenditureCode>220412</payment:expenditureCode>
+	<payment:purchase>CLIENTS PERS NEEDS</payment:purchase>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://opendatacommunities.org/id/metropolitan-district-council/trafford">
+	<org:hasUnit rdf:resource="http://data.gmdsp.org.uk/id/trafford/payment/expense-area/intensive-fostering"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://data.gmdsp.org.uk/id/trafford/payment/expense-area/intensive-fostering">
+	<rdf:type rdf:resource="http://www.w3.org/ns/org#OrganizationalUnit"/>
+	<rdfs:label xml:lang="en">INTENSIVE FOSTERING</rdfs:label>
+	<org:unitOf rdf:resource="http://opendatacommunities.org/id/metropolitan-district-council/trafford"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://data.gmdsp.org.uk/id/trafford/payment/1901091967">
+	<payment:expenditureLine rdf:resource="http://data.gmdsp.org.uk/id/trafford/payment/2014-08/expenditure-line-17"/>
+	<payment:unit rdf:resource="http://data.gmdsp.org.uk/id/trafford/payment/expense-area/homeless-young-peopl"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://data.gmdsp.org.uk/id/trafford/payment/2014-08/expenditure-line-17">
+	<rdf:type rdf:resource="http://reference.data.gov.uk/def/payment#ExpenditureLine"/>
+	<rdf:type rdf:resource="http://purl.org/linked-data/cube#Observation"/>
+	<rdfs:label xml:lang="en">Expenditure line (August 2014): 17</rdfs:label>
+	<payment:payment rdf:resource="http://data.gmdsp.org.uk/id/trafford/payment/1901091967"/>
+	<qb:dataSet rdf:resource="http://data.gmdsp.org.uk/id/trafford/expenditure"/>
+	<payment:netAmount>787.77</payment:netAmount>
+	<payment:reference>1901091967</payment:reference>
+	<payment:payer rdf:resource="http://opendatacommunities.org/id/metropolitan-district-council/trafford"/>
+	<payment:payee rdf:resource="http://data.gmdsp.org.uk/id/trafford/supplier/adolescent-resource-centre"/>
+	<payment:expenditureCode>230851</payment:expenditureCode>
+	<payment:purchase>CHILD IN CARE SEC 20</payment:purchase>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://opendatacommunities.org/id/metropolitan-district-council/trafford">
+	<org:hasUnit rdf:resource="http://data.gmdsp.org.uk/id/trafford/payment/expense-area/homeless-young-peopl"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://data.gmdsp.org.uk/id/trafford/payment/expense-area/homeless-young-peopl">
+	<rdf:type rdf:resource="http://www.w3.org/ns/org#OrganizationalUnit"/>
+	<rdfs:label xml:lang="en">Homeless Young Peopl</rdfs:label>
+	<org:unitOf rdf:resource="http://opendatacommunities.org/id/metropolitan-district-council/trafford"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://data.gmdsp.org.uk/id/trafford/expenditure">
+	<qb:slice rdf:resource="http://data.gmdsp.org.uk/id/trafford/payment/1901093187"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://data.gmdsp.org.uk/id/trafford/payment/1901093187">
+	<rdf:type rdf:resource="http://reference.data.gov.uk/def/payment#Payment"/>
+	<rdf:type rdf:resource="http://purl.org/linked-data/cube#Slice"/>
+	<rdf:type rdf:resource="http://rdfs.org/ns/void#Dataset"/>
+	<rdfs:label xml:lang="en">Transaction number 1901093187</rdfs:label>
+	<payment:expenditureLine rdf:resource="http://data.gmdsp.org.uk/id/trafford/payment/2014-08/expenditure-line-18"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://reference.data.gov.uk/id/day/2014-08-11">
+	<rdf:type rdf:resource="http://reference.data.gov.uk/def/intervals/CalendarDay"/>
+	<rdfs:label xml:lang="en">2014-08-11</rdfs:label>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://reference.data.gov.uk/id/gregorian-instant/2014-08-11">
+	<rdf:type rdf:resource="http://www.w3.org/2006/time#Instant"/>
+	<time:inXSDDate rdf:datatype="http://www.w3.org/2001/XMLSchema#date">2014-08-11</time:inXSDDate>
+	<rdfs:label>2014-08-11</rdfs:label>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://reference.data.gov.uk/id/day/2014-08-11">
+	<time:hasBeginning rdf:resource="http://reference.data.gov.uk/id/gregorian-instant/2014-08-11"/>
+	<interval:ordinalYear>2014</interval:ordinalYear>
+	<interval:ordinalMonthOfYear>08</interval:ordinalMonthOfYear>
+	<interval:ordinalDayOfMonth>11</interval:ordinalDayOfMonth>
+	<time:intervalDuring rdf:resource="http://reference.data.gov.uk/id/year/2014-08-11"/>
+	<time:intervalDuring rdf:resource="http://reference.data.gov.uk/id/month/2014-08"/>
+	<time:intervalDuring rdf:resource="http://reference.data.gov.uk/id/quarter/2014-Q3"/>
+	<time:intervalDuring rdf:resource="http://reference.data.gov.uk/id/half/2014-H2"/>
+	<time:intervalDuring rdf:resource="http://reference.data.gov.uk/id/government-year/2014-2015"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://data.gmdsp.org.uk/id/trafford/payment/1901093187">
+	<payment:date rdf:resource="http://reference.data.gov.uk/id/day/2014-08-11"/>
+	<payment:unit rdf:resource="http://data.gmdsp.org.uk/id/trafford/payment/expense-area/leaving-care-team"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://data.gmdsp.org.uk/id/trafford/payment/2014-08/expenditure-line-18">
+	<rdf:type rdf:resource="http://reference.data.gov.uk/def/payment#ExpenditureLine"/>
+	<rdf:type rdf:resource="http://purl.org/linked-data/cube#Observation"/>
+	<rdfs:label xml:lang="en">Expenditure line (August 2014): 18</rdfs:label>
+	<payment:payment rdf:resource="http://data.gmdsp.org.uk/id/trafford/payment/1901093187"/>
+	<qb:dataSet rdf:resource="http://data.gmdsp.org.uk/id/trafford/expenditure"/>
+	<payment:netAmount>1066.26</payment:netAmount>
+	<payment:reference>1901093187</payment:reference>
+	<payment:payer rdf:resource="http://opendatacommunities.org/id/metropolitan-district-council/trafford"/>
+	<payment:payee rdf:resource="http://data.gmdsp.org.uk/id/trafford/supplier/adolescent-resource-centre"/>
+	<payment:expenditureCode>230849</payment:expenditureCode>
+	<payment:purchase>BOARDED OUT SEC23</payment:purchase>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://data.gmdsp.org.uk/id/trafford/payment/1901093187">
+	<payment:expenditureLine rdf:resource="http://data.gmdsp.org.uk/id/trafford/payment/2014-08/expenditure-line-19"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://data.gmdsp.org.uk/id/trafford/payment/2014-08/expenditure-line-19">
+	<rdf:type rdf:resource="http://reference.data.gov.uk/def/payment#ExpenditureLine"/>
+	<rdf:type rdf:resource="http://purl.org/linked-data/cube#Observation"/>
+	<rdfs:label xml:lang="en">Expenditure line (August 2014): 19</rdfs:label>
+	<payment:payment rdf:resource="http://data.gmdsp.org.uk/id/trafford/payment/1901093187"/>
+	<qb:dataSet rdf:resource="http://data.gmdsp.org.uk/id/trafford/expenditure"/>
+	<payment:netAmount>209.73</payment:netAmount>
+	<payment:reference>1901093187</payment:reference>
+	<payment:payer rdf:resource="http://opendatacommunities.org/id/metropolitan-district-council/trafford"/>
+	<payment:payee rdf:resource="http://data.gmdsp.org.uk/id/trafford/supplier/adolescent-resource-centre"/>
+	<payment:expenditureCode>220412</payment:expenditureCode>
+	<payment:purchase>CLIENTS PERS NEEDS</payment:purchase>
+</rdf:Description>
+
+</rdf:RDF>
